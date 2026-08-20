@@ -1,0 +1,50 @@
+{
+  "level": "L1",
+  "variety": "es_ES",
+  "version": "v1-2026-08-20",
+  "schema": "v1-L1-5ep40turn",
+  "title": "L1 — 매칭 narrative (목표 200 turn)",
+  "description": "한국인 Minjun 과 스페인 여성 Lucía 의 첫 만남 → 약속 → 가족 → 갈등 → 미래. 5 ep × 40 turn = 200.",
+  "kpi": {
+    "episodes_target": 5,
+    "turns_per_episode": 40,
+    "turns_total_target": 200,
+    "turns_total_current": 20,
+    "progress_pct": 10.0
+  },
+  "characters": {
+    "A": {"name": "Minjun", "role": "한국인 학습자(남)", "gender": "male", "voice": "es-ES-AlvaroNeural"},
+    "B": {"name": "Lucía", "role": "스페인 여성(여)", "gender": "female", "voice": "es-ES-ElviraNeural"}
+  },
+  "function_words": ["ser", "estar", "tener", "hay", "me", "te", "se", "que", "de", "a", "por", "para"],
+  "episodes": [
+    {
+      "id": "ep1",
+      "title": "매칭",
+      "emoji": "💕",
+      "scenario": "Minjun 매칭앱 첫 메시지 → Lucía 자기소개 → 약속 제안",
+      "turns": [
+        {"num": 1, "speaker": "A", "es": "¡Hola! ¿Qué tal?", "ko": "안녕! 잘 지내?", "note": "¡ ¿ 역부호 / qué tal = 가벼운 인사", "tags": ["greeting"]},
+        {"num": 2, "speaker": "B", "es": "¡Hola! Muy bien, ¿y tú?", "ko": "안녕! 아주 잘 지내, 너는?", "note": "y tú = 되묻기", "tags": ["greeting"]},
+        {"num": 3, "speaker": "A", "es": "Bien, gracias. Me llamo Minjun.", "ko": "잘 지내, 고마워. 나는 민준이야.", "note": "me llamo = 재귀동사 llamarse 1인칭", "tags": ["intro", "reflexive"]},
+        {"num": 4, "speaker": "B", "es": "Encantada, Minjun. Yo soy Lucía.", "ko": "반가워, 민준. 나는 루시아야.", "note": "encantada(여) / encantado(남) 성 일치", "tags": ["intro", "gender"]},
+        {"num": 5, "speaker": "A", "es": "Encantado. ¿De dónde eres?", "ko": "반가워. 어디 출신이야?", "note": "ser + de = 출신", "tags": ["ser", "question"]},
+        {"num": 6, "speaker": "B", "es": "Soy de Sevilla. ¿Y tú?", "ko": "세비야 출신이야. 너는?", "note": "soy = ser 1인칭", "tags": ["ser"]},
+        {"num": 7, "speaker": "A", "es": "Soy de Corea, de Seúl.", "ko": "한국, 서울 출신이야.", "note": "국가 → 도시 순", "tags": ["ser"]},
+        {"num": 8, "speaker": "B", "es": "¡Qué interesante! ¿Hablas español muy bien?", "ko": "재밌다! 스페인어 아주 잘해?", "note": "¡Qué + 형용사! 감탄", "tags": ["exclamation"]},
+        {"num": 9, "speaker": "A", "es": "Un poco. Estoy aprendiendo.", "ko": "조금. 배우는 중이야.", "note": "estar + gerundio = 진행형", "tags": ["estar", "progressive"]},
+        {"num": 10, "speaker": "B", "es": "¡Lo haces genial! ¿Cuántos años tienes?", "ko": "정말 잘하는데! 몇 살이야?", "note": "나이 = tener (ser 아님)", "tags": ["tener", "question"]},
+        {"num": 11, "speaker": "A", "es": "Tengo veintiocho años. ¿Y tú?", "ko": "28살이야. 너는?", "note": "tengo = tener 1인칭", "tags": ["tener", "number"]},
+        {"num": 12, "speaker": "B", "es": "Tengo veintiséis. ¿Qué haces en España?", "ko": "26살. 스페인에서 뭐 해?", "note": "hacer 2인칭 haces", "tags": ["tener", "hacer"]},
+        {"num": 13, "speaker": "A", "es": "Trabajo en una empresa de tecnología.", "ko": "기술 회사에서 일해.", "note": "trabajar -ar 규칙 / una empresa 여성명사", "tags": ["ar-verb", "gender"]},
+        {"num": 14, "speaker": "B", "es": "¡Qué bien! Yo soy profesora de inglés.", "ko": "좋다! 나는 영어 선생님이야.", "note": "직업 = ser, 관사 없음 / profesora 여성형", "tags": ["ser", "gender"]},
+        {"num": 15, "speaker": "A", "es": "¿Te gusta la música?", "ko": "음악 좋아해?", "note": "gustar = 간접목적 te + 3인칭", "tags": ["gustar"]},
+        {"num": 16, "speaker": "B", "es": "Sí, me encanta el flamenco. ¿Y a ti?", "ko": "응, 플라멩코 엄청 좋아해. 너는?", "note": "encantar = gustar 강조 / ¿y a ti? 전치사 a", "tags": ["gustar"]},
+        {"num": 17, "speaker": "A", "es": "A mí también. Quiero verlo en vivo.", "ko": "나도. 라이브로 보고 싶어.", "note": "querer + 동사원형 / verlo = ver + lo", "tags": ["querer", "pronoun"]},
+        {"num": 18, "speaker": "B", "es": "Hay un tablao muy bueno cerca de mi casa.", "ko": "우리 집 근처에 아주 좋은 타블라오가 있어.", "note": "hay = 존재 / muy + 형용사", "tags": ["hay"]},
+        {"num": 19, "speaker": "A", "es": "¿Vamos juntos este sábado?", "ko": "이번 토요일에 같이 갈래?", "note": "vamos = ir 1인칭 복수, 제안", "tags": ["ir", "invitation"]},
+        {"num": 20, "speaker": "B", "es": "¡Vale! Nos vemos el sábado a las ocho.", "ko": "좋아! 토요일 8시에 보자.", "note": "vale = 스페인식 OK / a las + 시간", "tags": ["time", "reflexive"]}
+      ]
+    }
+  ]
+}

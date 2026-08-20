@@ -1,0 +1,32 @@
+{
+  "lang": "es",
+  "variety": "es_ES",
+  "label": "카스티야 스페인어 (España) / vosotros 사용",
+  "version": "v1-2026-08-20",
+  "schema": "v1",
+  "levels": {
+    "L1": {
+      "file": "L1.json",
+      "schema": "5ep40turn",
+      "target_turns": 200,
+      "current_turns": 20,
+      "status": "샘플 (ep1 일부)"
+    },
+    "L2": {
+      "file": null,
+      "schema": "TBD",
+      "target_turns": 300,
+      "status": "미착수"
+    },
+    "L3": {
+      "file": null,
+      "schema": "TBD",
+      "target_turns": 300,
+      "status": "미착수"
+    }
+  },
+  "characters_canonical": {
+    "A": {"name": "Minjun", "role": "한국인 학습자(남)", "gender": "male"},
+    "B": {"name": "Lucía", "role": "스페인 여성(여)", "gender": "female"}
+  }
+}
