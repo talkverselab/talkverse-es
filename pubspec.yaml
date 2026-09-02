@@ -59,3 +59,5 @@ flutter:
     - assets/data/dialogues/L1.json
     - assets/data/freq/lang_es_top.csv
     - assets/data/grammar/verbs_core.json
+    - assets/data/vocab/travel_words.json
+    - assets/data/vocab/travel_expressions.json

@@ -7,6 +7,7 @@ import 'conversation_screen.dart';
 import 'episode_screen.dart';
 import 'profile_screen.dart';
 import 'progress_screen.dart';
+import 'topic_vocab_screen.dart';
 import 'verb_screen.dart';
 import 'word_freq_screen.dart';
 
@@ -287,6 +288,12 @@ class _MenuGrid extends StatelessWidget {
       _MenuItem(label: '동사 활용', sub: 'Conjugación', badge: 'V', color: AppColors.irregular,
         builder: (_) => const VerbScreen()),
       _MenuItem(label: '단어', sub: 'Vocabulario', badge: 'W', color: AppColors.oliva,
+        builder: (_) => const TopicVocabScreen()),
+      _MenuItem(label: '표현', sub: 'Expresión', badge: 'E', color: AppColors.rojoLight,
+        builder: (_) => const TopicVocabScreen(
+            title: '주제별 표현',
+            asset: 'assets/data/vocab/travel_expressions.json')),
+      _MenuItem(label: '빈도 단어', sub: 'Frecuencia', badge: 'F', color: AppColors.gualda,
         builder: (_) => const WordFreqScreen()),
       _MenuItem(label: '성·수', sub: 'Género', badge: 'el/la', color: AppColors.mar,
         builder: (_) => const _ComingSoon(title: '성·수 일치')),
