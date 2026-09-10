@@ -96,3 +96,20 @@ zh 와의 차이: `zh/pinyin/tones` → `es` 단일 필드. `dialect(north/south
 3. 빈도 단어 실코퍼스 (현재 200 샘플, 수동 작성 — 실측 freq 아님)
 4. 발음·성수 화면 설계
 5. 앱 아이콘 (`assets/characters/icon_full.png` 미생성 — `flutter_launcher_icons` 실행 전 필요)
+
+## 배포 · 앱 업데이트 (2026-09-10 통일)
+
+- **리포 이름**: `talkverselab/talkverse-es` (이전 `spanish-universe` — GitHub 리다이렉트되지만 remote를 새 이름으로 바꿔 두세요)
+  ```
+  git remote set-url origin https://github.com/talkverselab/talkverse-es.git
+  ```
+- **푸시하면 자동 배포**: master 푸시 → GitHub Actions가 서명된 APK와 `latest.json`을 `latest` 릴리스에 올립니다.
+  `**.md`만 바꾼 푸시는 빌드하지 않습니다.
+- **폰에서 업데이트**: 앱의 설정(프로필) 화면 → **「앱 업데이트」** → 최신 빌드 확인 → 내려받아 설치.
+  케이블·adb 없이 갱신됩니다. 첫 설치 때 한 번 「출처를 알 수 없는 앱 설치」 허용이 필요합니다.
+- **빌드 번호**는 CI 실행 번호(`--build-number`)입니다. 로컬 `flutter build apk`로 만든 APK는
+  pubspec의 작은 번호를 쓰므로 앱이 늘 "새 빌드 있음"으로 표시합니다 — 정상입니다.
+- 관련 파일: `lib/services/update_service.dart`, `lib/screens/update_screen.dart`,
+  `android/app/src/main/kotlin/**/MainActivity.kt`, `android/app/src/main/res/xml/file_paths.xml`,
+  `.github/workflows/release.yml`
+- 구현 안내서: https://github.com/talkverselab/talkverse-th/blob/master/docs/in-app-update-via-github.md
