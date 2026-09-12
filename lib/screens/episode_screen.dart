@@ -9,6 +9,8 @@ import '../data/db/app_database.dart';
 import '../main.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
+import '../core/platform.dart';
+import '../core/l10n.dart';
 
 /// 에피소드/다이얼로그 메타 (Learn 탭·회화 허브·홈 공용).
 class EpisodeMeta {
@@ -37,10 +39,10 @@ class EpisodeCatalog {
 
   static const List<String> levels = ['L1', 'L2', 'L3'];
 
-  static const Map<String, String> levelLabels = {
-    'L1': 'L1 스토리 — 첫 만남',
-    'L2': 'L2 일상 챗',
-    'L3': 'L3 내러티브',
+  static Map<String, String> get levelLabels => {
+    'L1': tr('L1 스토리 — 첫 만남'),
+    'L2': tr('L2 일상 챗'),
+    'L3': tr('L3 내러티브'),
   };
 
   List<EpisodeMeta> forLevel(String level) => _byLevel[level] ?? const [];
@@ -161,7 +163,7 @@ class _EpisodeScreenState extends State<EpisodeScreen> {
         title: Text('${widget.meta.level} · ${widget.meta.title}'),
         actions: [
           IconButton(
-            tooltip: '한국어 번역 토글',
+            tooltip: tr('한국어 번역 토글'),
             icon: Icon(_showKo ? Icons.translate : Icons.translate_outlined),
             onPressed: () => setState(() => _showKo = !_showKo),
           ),
@@ -179,7 +181,7 @@ class _EpisodeScreenState extends State<EpisodeScreen> {
       body: _turns.isEmpty
           ? const Center(child: CircularProgressIndicator())
           : ListView.builder(
-              padding: const EdgeInsets.fromLTRB(12, 12, 12, 80),
+              padding: EdgeInsets.fromLTRB(12, 12, 12, 80 + bottomInset(context)),
               itemCount: _turns.length,
               itemBuilder: (context, i) {
                 final t = _turns[i];
