@@ -10,6 +10,7 @@ import 'progress_screen.dart';
 import 'topic_vocab_screen.dart';
 import 'verb_screen.dart';
 import 'word_freq_screen.dart';
+import '../core/l10n.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -28,11 +29,11 @@ class _MainScreenState extends State<MainScreen> {
     ProfileScreen(),
   ];
 
-  static const List<NavigationDestination> _tabs = [
-    NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: '홈'),
-    NavigationDestination(icon: Icon(Icons.menu_book_outlined), selectedIcon: Icon(Icons.menu_book), label: '학습'),
-    NavigationDestination(icon: Icon(Icons.bar_chart_outlined), selectedIcon: Icon(Icons.bar_chart), label: '진행'),
-    NavigationDestination(icon: Icon(Icons.person_outline), selectedIcon: Icon(Icons.person), label: '프로필'),
+  static List<NavigationDestination> get _tabs => [
+    NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: tr('홈')),
+    NavigationDestination(icon: Icon(Icons.menu_book_outlined), selectedIcon: Icon(Icons.menu_book), label: tr('학습')),
+    NavigationDestination(icon: Icon(Icons.bar_chart_outlined), selectedIcon: Icon(Icons.bar_chart), label: tr('진행')),
+    NavigationDestination(icon: Icon(Icons.person_outline), selectedIcon: Icon(Icons.person), label: tr('프로필')),
   ];
 
   @override
@@ -84,8 +85,8 @@ class HomeScreen extends StatelessWidget {
                             ],
                           ),
                           const SizedBox(height: 2),
-                          const Text(
-                            '한국 학습자, 오늘도 시작해요',
+                          Text(
+                            tr('한국 학습자, 오늘도 시작해요'),
                             style: TextStyle(
                               fontSize: 13,
                               color: AppColors.tintaLight,
@@ -110,8 +111,8 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 18),
-                const Text(
-                  '오늘의 학습',
+                Text(
+                  tr('오늘의 학습'),
                   style: TextStyle(
                     fontSize: 14,
                     fontWeight: FontWeight.w800,
@@ -123,11 +124,11 @@ class HomeScreen extends StatelessWidget {
                 const _TodayMission(),
                 const SizedBox(height: 22),
                 Row(
-                  children: const [
+                  children: [
                     SolMark(size: 22),
                     SizedBox(width: 8),
                     Text(
-                      '메인 메뉴',
+                      tr('메인 메뉴'),
                       style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.w800,
@@ -142,9 +143,9 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(height: 28),
                 const BandDivider(),
                 const SizedBox(height: 12),
-                const Center(
+                Center(
                   child: Text(
-                    '스페인어유니버스 · 2026',
+                    tr('스페인어유니버스 · 2026'),
                     style: TextStyle(
                       color: AppColors.tintaLight,
                       fontSize: 11,
@@ -254,7 +255,7 @@ class _TodayMissionState extends State<_TodayMission> {
             ),
             const SizedBox(height: 2),
             Text(
-              'Minjun & Lucía 스토리 ${meta.emoji}',
+              trf('Minjun & Lucía 스토리 {0}', [meta.emoji]),
               style: TextStyle(color: AppColors.cal.withValues(alpha: 0.85), fontSize: 12),
             ),
             const SizedBox(height: 12),
@@ -283,24 +284,24 @@ class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final items = <_MenuItem>[
-      _MenuItem(label: '회화', sub: 'Conversación', badge: 'Ch', color: AppColors.rojo,
+      _MenuItem(label: tr('회화'), sub: 'Conversación', badge: 'Ch', color: AppColors.rojo,
         builder: (_) => const ConversationScreen()),
-      _MenuItem(label: '동사 활용', sub: 'Conjugación', badge: 'V', color: AppColors.irregular,
+      _MenuItem(label: tr('동사 활용'), sub: 'Conjugación', badge: 'V', color: AppColors.irregular,
         builder: (_) => const VerbScreen()),
-      _MenuItem(label: '단어', sub: 'Vocabulario', badge: 'W', color: AppColors.oliva,
+      _MenuItem(label: tr('단어'), sub: 'Vocabulario', badge: 'W', color: AppColors.oliva,
         builder: (_) => const TopicVocabScreen()),
-      _MenuItem(label: '표현', sub: 'Expresión', badge: 'E', color: AppColors.rojoLight,
-        builder: (_) => const TopicVocabScreen(
-            title: '주제별 표현',
+      _MenuItem(label: tr('표현'), sub: 'Expresión', badge: 'E', color: AppColors.rojoLight,
+        builder: (_) => TopicVocabScreen(
+            title: tr('주제별 표현'),
             asset: 'assets/data/vocab/travel_expressions.json')),
-      _MenuItem(label: '빈도 단어', sub: 'Frecuencia', badge: 'F', color: AppColors.gualda,
+      _MenuItem(label: tr('빈도 단어'), sub: 'Frecuencia', badge: 'F', color: AppColors.gualda,
         builder: (_) => const WordFreqScreen()),
-      _MenuItem(label: '성·수', sub: 'Género', badge: 'el/la', color: AppColors.mar,
-        builder: (_) => const _ComingSoon(title: '성·수 일치')),
-      _MenuItem(label: '발음', sub: 'Pronunciación', badge: 'rr', color: AppColors.er,
-        builder: (_) => const _ComingSoon(title: '발음 (rr · ñ · 강세)')),
-      _MenuItem(label: '복습', sub: 'Repaso', badge: 'R', color: AppColors.gualdaDeep,
-        builder: (_) => const _ComingSoon(title: '플래시카드 복습')),
+      _MenuItem(label: tr('성·수'), sub: 'Género', badge: 'el/la', color: AppColors.mar,
+        builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
+      _MenuItem(label: tr('발음'), sub: 'Pronunciación', badge: 'rr', color: AppColors.er,
+        builder: (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)'))),
+      _MenuItem(label: tr('복습'), sub: 'Repaso', badge: 'R', color: AppColors.gualdaDeep,
+        builder: (_) => _ComingSoon(title: tr('플래시카드 복습'))),
     ];
 
     return GridView.builder(
@@ -393,9 +394,9 @@ class _ComingSoon extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.cal,
       appBar: AppBar(title: Text(title)),
-      body: const Center(
+      body: Center(
         child: Text(
-          'Próximamente · 준비 중',
+          tr('Próximamente · 준비 중'),
           style: TextStyle(color: AppColors.tintaLight, letterSpacing: 2),
         ),
       ),
