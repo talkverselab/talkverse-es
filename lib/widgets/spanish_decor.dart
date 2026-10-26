@@ -28,13 +28,8 @@ class TileBadge extends StatelessWidget {
       decoration: BoxDecoration(
         color: c,
         borderRadius: BorderRadius.circular(size * 0.18),
-        border: Border.all(color: AppColors.gualda, width: 1.5),
-        boxShadow: [
-          BoxShadow(
-            color: c.withValues(alpha: 0.3),
-            blurRadius: 4,
-            offset: const Offset(1, 1),
-          ),
+        boxShadow: const [
+          BoxShadow(color: Color(0x1A32325D), blurRadius: 5, offset: Offset(0, 2), spreadRadius: -1),
         ],
       ),
       alignment: Alignment.center,
@@ -47,7 +42,7 @@ class TileBadge extends StatelessWidget {
             style: TextStyle(
               color: AppColors.cal,
               fontSize: fontSize,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w700,
               height: 1,
             ),
           ),
@@ -85,20 +80,19 @@ class BandPanel extends StatelessWidget {
   }
 }
 
-/// 국기 삼색 띠 구분선 (rojo·gualda·rojo).
+/// 강조선 — 왼쪽 하늘색 → 오른쪽 인디고 (talkverse.uk·앱 아이콘과 같은 그라데이션).
 class BandDivider extends StatelessWidget {
   final double height;
-  const BandDivider({super.key, this.height = 6});
+  const BandDivider({super.key, this.height = 2});
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Container(height: height / 4, color: AppColors.rojo),
-        Container(height: height / 2, color: AppColors.gualda),
-        Container(height: height / 4, color: AppColors.rojo),
-      ],
+    return Container(
+      height: height,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(height),
+        gradient: const LinearGradient(colors: AppColors.accentLine),
+      ),
     );
   }
 }
@@ -164,7 +158,6 @@ class StreakChip extends StatelessWidget {
       decoration: BoxDecoration(
         color: AppColors.rojo,
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: AppColors.gualda, width: 1.2),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -175,7 +168,7 @@ class StreakChip extends StatelessWidget {
             '$days',
             style: const TextStyle(
               color: AppColors.cal,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w700,
               fontSize: 13,
             ),
           ),
@@ -195,7 +188,7 @@ class SolMark extends StatelessWidget {
   Widget build(BuildContext context) {
     return CustomPaint(
       size: Size.square(size),
-      painter: _SolPainter(color ?? AppColors.gualda),
+      painter: _SolPainter(color ?? AppColors.rojo),
     );
   }
 }
@@ -226,4 +219,49 @@ class _SolPainter extends CustomPainter {
 
   @override
   bool shouldRepaint(covariant _SolPainter old) => old.color != color;
+}
+
+/// 파스텔 메시 그라데이션 — talkverse.uk 히어로 배경을 옮긴 것. 홈 상단에만 쓴다.
+class MeshBackdrop extends StatelessWidget {
+  const MeshBackdrop({super.key});
+
+  static const _blobs = <(Alignment, Color)>[
+    (Alignment(-0.8, -0.3), Color(0xFFFFD39B)),
+    (Alignment(-0.2, -0.9), Color(0xFFF5B8E6)),
+    (Alignment(0.45, -0.5), Color(0xFFA9A4FF)),
+    (Alignment(0.95, 0.2), Color(0xFF8FE3FF)),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return IgnorePointer(
+      child: Stack(
+        fit: StackFit.expand,
+        children: [
+          const ColoredBox(color: Color(0xFFECEAFF)),
+          for (final (align, color) in _blobs)
+            DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: RadialGradient(
+                  center: align,
+                  radius: 0.9,
+                  colors: [color.withValues(alpha: 0.85), color.withValues(alpha: 0)],
+                ),
+              ),
+            ),
+          // 아래로 갈수록 흰 바탕에 녹아들게
+          const DecoratedBox(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [Color(0x26FFFFFF), Color(0x8CFFFFFF), Colors.white],
+                stops: [0, 0.6, 1],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
 }

@@ -136,3 +136,18 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
   절차: `docs/ios-build-and-testflight.md`.
 - `ios/Runner/Info.plist` 에 마이크·음성 인식 권한 문구가 있다(말하기 연습). 지우면 iOS 에서 크래시.
 - `release.yml`(Android) 은 `ios/**`·`docs/**`·`tools/**` 만 바뀐 푸시는 건너뛴다.
+
+## 8. Zealot 무선 설치 (apps.talkverse.uk) — 2026-10-11
+
+- **Zealot 앱이름: 스페인어유니버스** (앱 표시 이름 그대로. 바꾸면 Zealot 에 다른 앱이 새로 생긴다.)
+- 올리기: `bash tools/zealot_push.sh ["변경 내용 한 줄"]` — `build/app/outputs/flutter-apk/` 의 가장 최근 release APK 를
+  `~/bin/zealot-upload` 로 올린다(빌드는 하지 않음. 변경 내용을 안 주면 최근 커밋 제목). 서명 SHA-1 이 §1 값과 다르면 올리지 않는다.
+- **덮어 설치 상태(2026-10-26 확인, M6)**: 서명 = `android/key.properties` + `android/app/signing-key.jks`(SHA-1 `9C:C4:…:47:6B`, §1 과 같은 키 — 새로 만들지 않음).
+  백업 PC `D:\keys\talkverse-es\`(2026-10-26) + Doppler `keys/prd` `SIGNKEY_*`. **맥의 `~/.android/debug.keystore` 는 다른 키**라 §1 의 `cp ~/.android/debug.keystore …` 를 실행하면 안 된다 —
+  키 파일이 없어지면 위 백업에서 복원. 버전 코드: 로컬 빌드는 `--build-number=<다음 CI 실행 번호>` 로 맞춘다(같은 커밋을 CI 가 같은 번호로 다시 빌드 → 앱 안 업데이트와 어긋나지 않음). 2026-10-26 빌드 5.
+
+## 9. 화면 톤·아이콘 — talkverse.uk (2026-10-26)
+
+- 기준 `~/talkverse/branding/TONE.md`. 아이콘 = 메시 바탕 + 남색 「Ñ」 + 하늘색→인디고 강조선, `~/talkverse/branding/make_icon.py Ñ --font /System/Library/Fonts/HelveticaNeue.ttc --index 10` 로 생성.
+  **`flutter_launcher_icons` 는 쓰지 말 것**(pubspec 의 옛 설정은 남아 있지만 실행하면 옛 빨간 아이콘으로 돌아가고 iOS 번들 ID 가 망가진다).
+- `theme.dart` 의 색 이름(rojo·gualda·tinta·cal…)은 그대로, 값만 사이트 토큰(rojo=인디고 `#635BFF`, gualda=선 `#DDE3EC`, tinta=`#0A2540`, cal=흰색). 언어 배지 = `AppColors.espanol` `#E0A020`.
