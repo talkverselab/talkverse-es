@@ -25,12 +25,11 @@ class ProfileScreen extends StatelessWidget {
               gradient: const LinearGradient(
                 colors: [AppColors.rojoDeep, AppColors.rojo],
               ),
-              borderRadius: BorderRadius.circular(10),
-              border: Border.all(color: AppColors.gualda, width: 1.5),
+              borderRadius: BorderRadius.circular(14),
             ),
             child: Row(
               children: [
-                const TileBadge(text: 'ES', size: 60, color: AppColors.tinta),
+                const TileBadge(text: 'ES', size: 60, color: AppColors.espanol),
                 SizedBox(width: 14),
                 Expanded(
                   child: Column(
