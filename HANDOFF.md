@@ -1,5 +1,16 @@
 # HANDOFF — talkverse-es (스페인어 앱)
 
+## 2026-11-02 — 저작권 정리 (사용자 지시, talkverse.uk 세션 경유)
+
+지금 파일에서 지운 것(커밋으로 삭제 — 이력에는 아직 남아 있음):
+- `assets/data/vocab/travel_words.json`(12테마 1,349개)·`travel_expressions.json`(10테마 796개) — 시판 여행 회화책에서 파서로 뽑은 단어·표현. 빈 `themes` 로 바꾸고, 「단어」「표현」 화면은 「준비 중」을 보인다. **자체 제작으로 다시 채울 것.**
+- `tool/parse__generic.py` — 그 책 전용 파서(파일 이름에 책 이름).
+- `CLAUDE_UPDATES.md` — 책 이름·OneDrive 경로가 적힌 메모.
+
+이력 정리(사용자 확인 대기 — 강제 push 필요): 위 4개 파일의 모든 옛 판 + 커밋 `87062be` 메시지(책 이름 포함). `git filter-repo --invert-paths --path …` + 메시지 치환 → `git push --force`. 확인 뒤 진행.
+
+남긴 것(문제 없다고 판단): 회화 `assets/data/dialogues/L1.json`(자체 제작 샘플 20턴), 동사 활용표 `grammar/verbs_core.json`(활용 규칙 = 사실), 빈도 `freq/lang_es_top.csv`(순위·빈도 통계 + 짧은 뜻), 아이콘(자체 생성), 글꼴·음원 없음.
+
 ## 2026-10-26 — talkverse.uk 톤·아이콘, 빌드 5
 
 - 아이콘 「Ñ」(메시 바탕·하늘색→인디고 강조선)과 화면 톤(흰 바탕·남색 글자·인디고 포인트)으로 바꿈 — `CLAUDE.md` §9.
@@ -30,7 +41,7 @@ _세션 정리용 점검 메모. CLAUDE.md · CLAUDE_UPDATES.md · git 기록 ·
 ### 남은 일 (순서대로)
 
 1. **줄바꿈 차이 정리** — 35개 파일은 내용이 같으므로 되돌리는 것(`git checkout -- .` 또는 `git stash`)이 맞아 보인다. 되돌리기 전에 `git diff -w --ignore-cr-at-eol --stat` 가 여전히 비어 있는지 다시 확인. 재발 방지로 `.gitattributes`(`* text=auto eol=lf`) 추가를 검토.
-2. **공개 저장소 출처 점검(CLAUDE.md §4)** — `CLAUDE_UPDATES.md` 11~12행과 커밋 `87062be` 제목, `tool/` 의 파서 파일 이름에 교재 이름과 OneDrive 경로가 그대로 남아 있다. `travel_words.json`(1,349개)·`travel_expressions.json`(796개)도 그 교재에서 뽑은 것으로 적혀 있어, CLAUDE.md 의 "자체 제작 초안, 단어 40개" 서술과 맞지 않는다. 어느 쪽이 현재 사실인지 확인하고, 문서·파일명 정리와 히스토리 처리 여부는 사용자가 결정.
+2. ~~**공개 저장소 출처 점검(CLAUDE.md §4)**~~ (2026-11-02 지금 파일에서 정리, 위 참조) — `CLAUDE_UPDATES.md` 11~12행과 커밋 `87062be` 제목, `tool/` 의 파서 파일 이름에 교재 이름과 OneDrive 경로가 그대로 남아 있다. `travel_words.json`(1,349개)·`travel_expressions.json`(796개)도 그 교재에서 뽑은 것으로 적혀 있어, CLAUDE.md 의 "자체 제작 초안, 단어 40개" 서술과 맞지 않는다. 어느 쪽이 현재 사실인지 확인하고, 문서·파일명 정리와 히스토리 처리 여부는 사용자가 결정.
 3. **콘텐츠 확장** — 회화 5편 × 8턴, 문법 10패턴 × 예문 3은 초안이다. `_update_kit/content/es.py` 를 고치고 `build_content.py` 로 다시 만든다.
 4. **준비중 메뉴** — 홈의 「성·수」, 「발음」 화면 구현.
 5. **iOS** — Apple Developer Program 이 2026-10-10 에 가입됐으므로 TestFlight 경로가 열렸다. 전역 규칙대로 맥미니에서 빌드·서명·업로드(`~/interval-camera/tools/ios_release.sh` 를 복사해 씀). 번들 ID 가 `com.talkverse.<앱>` 규칙에 맞는지 확인, App Store Connect 앱 레코드 생성과 내부 테스트 그룹 추가는 사용자 몫. 리포의 `ios-testflight.yml`(CI 경로)을 계속 둘지도 그때 정리.

@@ -96,7 +96,7 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 | 문장 카드 | `sentence_flashcard_screen.dart` | DB `turns` + `user_progress` |
 | 말하기 연습 | `speaking_practice_screen.dart`, `services/speech_service.dart`, `services/speak_match.dart` | DB `turns`, 판정은 단어 단위 LCS ≥ 0.7 |
 | 청크 검색 | `chunk_search_screen.dart`, `services/chunk_index_service.dart` | 회화 턴 + 문법 예문에서 1~3단어 청크 색인 |
-| 단어 카드 | `word_flashcard_screen.dart` | `assets/data/vocab/travel_words.json` (`{ko, tx, rd, ic}`) |
+| 단어 카드 | `word_flashcard_screen.dart` | `assets/data/vocab/travel_words.json` (`{ko, tx, rd, ic}`) — 2026-11-02 저작권 정리로 비움, 자체 제작으로 다시 채울 것 |
 
 - **대화 턴에 한글 독음 `rd` 칸**이 있다(DB 스키마 v2, 시드 키 `db_seeded_v2`). 대화·문법·단어 모두 독음을 넣고,
   화면에서는 `KoReadingText` 로 전역 독음 토글에 연동한다.

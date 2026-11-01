@@ -138,7 +138,11 @@ class _TopicVocabScreenState extends State<TopicVocabScreen> {
       body: _loading
           ? const Center(
               child: CircularProgressIndicator(color: AppColors.rojo))
-          : GridView.builder(
+          : themes.isEmpty
+              ? Center(
+                  child: Text(tr('준비 중'),
+                      style: const TextStyle(color: AppColors.tintaLight, fontSize: 15)))
+              : GridView.builder(
               padding: EdgeInsets.fromLTRB(16, 12, 16, 24 + bottomInset(context)),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
