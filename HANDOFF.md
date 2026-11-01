@@ -4,7 +4,7 @@
 
 지금 파일에서 지운 것(커밋으로 삭제 — 이력에는 아직 남아 있음):
 - `assets/data/vocab/travel_words.json`(12테마 1,349개)·`travel_expressions.json`(10테마 796개) — 시판 여행 회화책에서 파서로 뽑은 단어·표현. 빈 `themes` 로 바꾸고, 「단어」「표현」 화면은 「준비 중」을 보인다. **자체 제작으로 다시 채울 것.**
-- `tool/parse__generic.py` — 그 책 전용 파서(파일 이름에 책 이름).
+- `tool/` 의 책 표현집 파서 — 그 책 전용(파일 이름에 책 이름).
 - `CLAUDE_UPDATES.md` — 책 이름·OneDrive 경로가 적힌 메모.
 
 이력 정리(사용자 확인 대기 — 강제 push 필요): 위 4개 파일의 모든 옛 판 + 커밋 `87062be` 메시지(책 이름 포함). `git filter-repo --invert-paths --path …` + 메시지 치환 → `git push --force`. 확인 뒤 진행.

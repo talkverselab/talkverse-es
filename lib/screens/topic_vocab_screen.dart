@@ -10,7 +10,7 @@ import '../services/tts_service.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
 
-///  여행 스페인어 — 주제별 단어·표현 (chinese-universe 포팅).
+/// 주제별 단어·표현 (chinese-universe 포팅).
 class VocabWord {
   final String ko;
   final String tx; // 스페인어
