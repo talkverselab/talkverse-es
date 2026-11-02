@@ -5,6 +5,7 @@ import '../core/l10n.dart';
 import '../core/theme.dart';
 import '../services/achievement_service.dart';
 import '../services/dialogue_service.dart';
+import '../services/verb_index.dart';
 import '../widgets/spanish_decor.dart';
 
 /// 「나」 탭 성과 데스크 — 일본어앱 achievement_desk.dart 를 옮긴 것(2026-11-02).
@@ -34,6 +35,7 @@ class _AchievementDeskState extends State<AchievementDesk> {
   Future<void> _reload() async {
     await _a.load();
     await DialogueService.instance.ensureLoaded();
+    await VerbIndex.instance.ensureLoaded();
     if (mounted) setState(() {});
   }
 
@@ -45,6 +47,8 @@ class _AchievementDeskState extends State<AchievementDesk> {
       final left = Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
         _WeekLine(a: _a),
         const SizedBox(height: 12),
+        _VerbsMet(a: _a),
+        const SizedBox(height: 12),
         _WeekDots(a: _a),
       ]);
       final right = _IslandGrid(a: _a, columns: c.maxWidth >= 900 ? 4 : (c.maxWidth >= 380 ? 2 : 1));
@@ -53,7 +57,7 @@ class _AchievementDeskState extends State<AchievementDesk> {
             ? Row(crossAxisAlignment: CrossAxisAlignment.start, children: [Expanded(flex: 5, child: left), const SizedBox(width: 14), Expanded(flex: 7, child: right)])
             : Column(children: [left, const SizedBox(height: 12), right]),
         const SizedBox(height: 6),
-        Text(tr('센다: 편 완주 · 그림 카드  /  안 센다: 앱 오픈 · 스트릭 · 포인트 · 순위'),
+        Text(tr('센다: 편 완주 · 그림 카드 · 만난 동사  /  안 센다: 앱 오픈 · 스트릭 · 포인트 · 순위'),
             style: const TextStyle(fontSize: 10.5, color: AppColors.muted, height: 1.4)),
       ]);
     });
@@ -83,6 +87,36 @@ class _WeekLine extends StatelessWidget {
         Text(line, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
         const SizedBox(height: 4),
         Text(trf('편 {0} 완주 · 그림 카드 {1} 맞음', [e, c]), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
+      ]),
+    );
+  }
+}
+
+/// 「만난 동사」 — 동사 칩 시트로 본 핵심 동사(시안 ES-01). 숫자보다 30칸 격자.
+class _VerbsMet extends StatelessWidget {
+  final AchievementService a;
+  const _VerbsMet({required this.a});
+  @override
+  Widget build(BuildContext context) {
+    final verbs = VerbIndex.instance.verbs;
+    final seen = a.verbsSeen;
+    return _card(
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        _label(trf('만난 동사 {0}/{1}', [seen.length, verbs.length])),
+        Wrap(spacing: 6, runSpacing: 6, children: [
+          for (final v in verbs)
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+              decoration: BoxDecoration(
+                color: seen.contains(v.inf) ? conjColor(v.group).withValues(alpha: 0.12) : AppColors.washi,
+                border: Border.all(color: seen.contains(v.inf) ? conjColor(v.group) : AppColors.line),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Text(v.inf, style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: seen.contains(v.inf) ? AppColors.sumi : AppColors.muted)),
+            ),
+        ]),
+        const SizedBox(height: 6),
+        Text(tr('회화에서 동사 칩을 눌러 활용표를 열어 본 동사만 셉니다.'), style: const TextStyle(fontSize: 10.5, color: AppColors.muted)),
       ]),
     );
   }

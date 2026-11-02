@@ -4,7 +4,9 @@ import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
+import '../services/achievement_service.dart';
 import '../services/dialogue_service.dart';
+import '../services/verb_index.dart';
 import '../widgets/achievement_desk.dart';
 import '../widgets/episode_play_pane.dart';
 import '../widgets/spanish_decor.dart';
@@ -177,6 +179,16 @@ class _LearnTabState extends State<LearnTab> {
   void initState() {
     super.initState();
     DialogueService.instance.ensureLoaded().then((_) => mounted ? setState(() {}) : null);
+    VerbIndex.instance.ensureLoaded().then((_) => mounted ? setState(() {}) : null);
+    AchievementService.instance.changes.addListener(_changed);
+  }
+
+  void _changed() => mounted ? setState(() {}) : null;
+
+  @override
+  void dispose() {
+    AchievementService.instance.changes.removeListener(_changed);
+    super.dispose();
   }
 
   @override
@@ -198,7 +210,12 @@ class _LearnTabState extends State<LearnTab> {
         _NavRow(badge: '💬', title: tr('회화'), subtitle: tr('장면 컷과 함께 읽고 듣기'), onTap: () => openPane(context, (_) => const DialogueHomeScreen())),
         _NavRow(badge: '✎', color: AppColors.ai, title: tr('회화 노트'), subtitle: tr('턴마다 외움 표시·메모'), onTap: () => openPane(context, (_) => const ConversationScreen())),
         _section(tr('기초')),
-        _NavRow(badge: 'V', color: AppColors.irregular, title: tr('동사 활용'), subtitle: 'Conjugación', onTap: () => openPane(context, (_) => const VerbScreen())),
+        _NavRow(
+            badge: 'V',
+            color: AppColors.irregular,
+            title: tr('동사 활용'),
+            subtitle: VerbIndex.instance.verbs.isEmpty ? 'Conjugación' : trf('만난 동사 {0}/{1}', [AchievementService.instance.verbsSeen.length, VerbIndex.instance.verbs.length]),
+            onTap: () => openPane(context, (_) => const VerbScreen())),
         _NavRow(badge: 'el', color: AppColors.mar, title: tr('성·수'), subtitle: tr('준비 중'), onTap: () => openPane(context, (_) => _ComingSoon(title: tr('성·수 일치')))),
         _NavRow(badge: 'rr', color: AppColors.er, title: tr('발음'), subtitle: tr('준비 중'), onTap: () => openPane(context, (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)')))),
         _section(tr('단어')),

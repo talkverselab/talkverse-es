@@ -13,6 +13,7 @@ import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import 'achievement_desk.dart';
+import 'verb_chips.dart';
 
 /// 「모든 문장 듣기」 재생 패널 — Grok UXUI 시안 02 「만화책 읽기형」(사용자 확정 2026-11-02, `data/review/uxui/sian_02.md`).
 ///
@@ -126,7 +127,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
       onTap: (i) => _goto(i, play: true),
       onSpeak: _speakOne,
     );
-    final cut = _CutPanel(d: d, turn: turn, showKana: _showKana, showRd: _showRd, showKo: _showKo, onSpeak: () => _speakOne(turn));
+    final cut = _CutPanel(d: d, turn: turn, showKana: _showKana, showRd: _showRd, showKo: _showKo, onSpeak: () => _speakOne(turn), onVerb: () { if (_playing) _pause(); });
     final controls = _ControlBar(
       playing: _playing,
       index: _i,
@@ -281,7 +282,8 @@ class _CutPanel extends StatelessWidget {
   final DialogueTurn turn;
   final bool showKana, showRd, showKo;
   final VoidCallback onSpeak;
-  const _CutPanel({required this.d, required this.turn, required this.showKana, required this.showRd, required this.showKo, required this.onSpeak});
+  final VoidCallback onVerb;
+  const _CutPanel({required this.d, required this.turn, required this.showKana, required this.showRd, required this.showKo, required this.onSpeak, required this.onVerb});
 
   @override
   Widget build(BuildContext context) {
@@ -303,6 +305,8 @@ class _CutPanel extends StatelessWidget {
         Expanded(child: SceneCut(dialogue: d, turn: turn, bubble: true)),
         const SizedBox(height: 10),
         _Caption(d: d, turn: turn, showKana: showKana, showRd: showRd, showKo: showKo, onSpeak: onSpeak),
+        // 시안 ES-01 「동사 칩」: 지금 문장 속 활용형 → 원형·인칭·시제, 누르면 활용표 시트
+        VerbChips(key: ValueKey('verbs:${turn.num}'), text: LearnerPrefs.fill(turn.tl), onOpen: onVerb),
       ]),
     );
   }

@@ -56,6 +56,15 @@ void main() {
     await wait(t, 1500);
     await shot(t, '13_reader_before_play');
 
+    // 시안 ES-01 동사 칩: 4번 턴(Yo soy Lucía) → 캡션 아래 「soy」 칩 → 활용표 시트
+    await t.tap(find.textContaining('Yo soy Lucía').first);
+    await wait(t, 1500);
+    await t.tap(find.text('soy').first);
+    await wait(t, 1500);
+    await shot(t, '13b_verb_sheet');
+    await t.tapAt(const Offset(600, 160)); // 시트는 오른쪽 칸 안에서 열린다 — 칸 위쪽 막(barrier)을 눌러 닫기
+    await wait(t, 1000);
+
     await t.tap(find.text('재생').first);
     await wait(t, 6000);
     await shot(t, '14_reader_playing');
