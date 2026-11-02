@@ -1,57 +1,45 @@
-# HANDOFF — talkverse-es (스페인어 앱)
+# HANDOFF — talkverse-es (스페인어유니버스)
 
-## 2026-11-02 — 저작권 정리 (사용자 지시, talkverse.uk 세션 경유)
+_2026-11-03 새벽 전체 다시 씀. 규칙은 `CLAUDE.md`, 인물은 `CHARACTERS.md`, 회화 원칙 링크·특이점은 `docs/DIALOGUE.md`._
 
-지금 파일에서 지운 것(커밋으로 삭제 — 이력에는 아직 남아 있음):
-- `assets/data/vocab/travel_words.json`(12테마 1,349개)·`travel_expressions.json`(10테마 796개) — 시판 여행 회화책에서 파서로 뽑은 단어·표현. 빈 `themes` 로 바꾸고, 「단어」「표현」 화면은 「준비 중」을 보인다. **자체 제작으로 다시 채울 것.**
-- `tool/` 의 책 표현집 파서 — 그 책 전용(파일 이름에 책 이름).
-- `CLAUDE_UPDATES.md` — 책 이름·OneDrive 경로가 적힌 메모.
+## 1. 지금 상태
 
-이력 정리(사용자 확인 대기 — 강제 push 필요): 위 4개 파일의 모든 옛 판 + 커밋 `87062be` 메시지(책 이름 포함). `git filter-repo --invert-paths --path …` + 메시지 치환 → `git push --force`. 확인 뒤 진행.
+| 항목 | 상태 |
+|---|---|
+| 저장소 | `master` = `af69ce3`. **2026-11-03 이력 정리 강제 푸시 완료**(시판 교재에서 뽑은 단어·표현 파일·파서·메모·커밋 메시지의 책 이름을 모든 이력에서 제거, 태그 4개도 다시 씀). 다른 기기·세션의 옛 복사본은 `git fetch && git reset --hard origin/master` 필요 |
+| Android | CI 빌드 **9**(`latest`), Zealot 「스페인어유니버스」 https://apps.talkverse.uk/CFaiv/207 , PC `D:\OneDrive\app project\talkverse-es\talkverse-es-latest.apk` |
+| iOS | TestFlight 업로드 **빌드 2611030107**(App Store Connect 앱 레코드 사용자 생성 완료). 번들 ID `com.talkverse.spanishUniverse`, IPA 백업 PC `D:\OneDrive\app project\spanish_universe\ios\` |
+| 서명 | 기존 키 유지(SHA-1 `9C:C4:…:47:6B`), 백업 PC `D:\keys\talkverse-es\` + Doppler `SIGNKEY_*` — `CLAUDE.md` §1·§8 |
+| Supabase | 앱은 처음부터 안 씀(`docs/CLOUDFLARE_MIGRATION.md`). 공용 `items` 에 옛 es 2,864행만 남음 — 삭제는 사용자 |
 
-남긴 것(문제 없다고 판단): 회화 `assets/data/dialogues/L1.json`(자체 제작 샘플 20턴), 동사 활용표 `grammar/verbs_core.json`(활용 규칙 = 사실), 빈도 `freq/lang_es_top.csv`(순위·빈도 통계 + 짧은 뜻), 아이콘(자체 생성), 글꼴·음원 없음.
+## 2. 만든 것(2026-11-02 ~ 03)
 
-## 2026-10-26 — talkverse.uk 톤·아이콘, 빌드 5
+- **일본어앱 구조 옮기기**(공통 프롬프터 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md`): 넓은 화면 = 레일 4탭(배우기·복습·탐색·나) + 왼쪽 칸 + 오른쪽 칸(`core/pane.dart`), 폰 = 하단 탭. 회화 리더(시안 02: 좌 스크립트·우 장면 컷·하단 컨트롤·완주 연출), 그림 카드, 「나」 성과 데스크, 프로필 「학습자 프로필」(이름·성별).
+  - 회화 데이터는 바꾸지 않음 — `services/dialogue_service.dart` 가 옛 `L1.json` 을 읽어 변환(레벨 L1 「이야기」, 주제 love). 화자 목소리는 데이터 성별.
+- **시안 ES-01 「동사 칩」**(사용자 통과 2026-11-03, `data/review/uxui/sian_es_01.*`): 캡션 아래 활용형 → 원형·인칭·시제, 누르면 현재·단순과거 시트, 「나」 탭 「만난 동사 n/30」. 데이터 = `assets/data/grammar/verbs_core.json`.
+- **캐릭터 시트 v1**(통과 2026-11-03, `data/review/art/chars_es_v1.jpg`, `CHARACTERS.md`): Lucía·Marta·Javi·Diego·학습자 남/여, 마드리드.
+- **Talkverse ID 로그인(선택) + 평생 이용권 인앱 결제**(한자 앱과 같은 구성, `data/account.dart`·`purchase.dart`·`entitlement.dart`, 로그인·결제 화면, 프로필 「계정」). client_id `es`, 딥링크 `talkverse.es://auth`, 상품 iOS `com.talkverse.spanishUniverse.lifetime` / Android `lang_es`. **지금 잠근 기능 없음.** 심사 문안 초안 `docs/store/`.
+- **talkverse.uk 톤·아이콘**: 아이콘은 talkverse.uk 세션 담당(직접 고치지 말 것).
+- **단어 그림 리스트**: `talkverselab/talkversehanja` `talkverse_art/words/es.csv`(2,500단어, R1 184·R2 157·R3 753·R4 1,406) · `es_food.csv`(50) → 그림 `GET https://auth.talkverse.uk/art/es/manifest`(앱이 자동 사용).
+- 아이패드 스크린샷 테스트 `integration_test/dialogue_pane_test.dart` + `tools/pane_shots.py <UDID> <스크래치 폴더> integration_test/dialogue_pane_test.dart`(넘침 0, 통과). 이 세션 시뮬레이터 `es-shots-ipad`(7BE0AF82…).
 
-- 아이콘 「Ñ」(메시 바탕·하늘색→인디고 강조선)과 화면 톤(흰 바탕·남색 글자·인디고 포인트)으로 바꿈 — `CLAUDE.md` §9.
-- 서명 키는 기존 키 유지(SHA-1 `9C:C4:…`), PC `D:\keys\talkverse-es\` 에 백업. 로컬 빌드 번호 = 다음 CI 실행 번호로 맞추기로 정리(`CLAUDE.md` §8) — 아래 "확인 필요" 1·3번은 이것으로 정리됨.
-- 남은 것: 작업 트리의 줄바꿈(CRLF) 잡음 35개 파일은 그대로(커밋하지 않음). `CLAUDE.md` 의 화면 표(문법·문장 카드·말하기·청크 검색·단어 카드)에 적힌 화면 파일이 `lib/screens/` 에 없다 — 공용 키트 이식이 이 저장소에 실제로 들어왔는지 확인 필요.
+## 3. 사용자 결정 / 기다리는 것
 
-## Zealot 설정 — 확인 필요 (2026-10-11)
+1. **평생 이용권이 열 기능** — 사용자 「수요일」(2026-11-03 답, 그날 정할 것으로 이해). 정해지기 전에는 잠그지 않는다. 아무것도 안 열면 App Store 심사(3.1.1)에 걸릴 수 있음.
+2. **회화 작성 금지 중**(공통 프롬프터 §0-1) — 회화·예문 새로 쓰지 말 것. 풀리면 `docs/DIALOGUE.md` + 회화 공통 원칙대로 R1~R4 구조로 다시 쓰고(지금 L1 은 옛 인물 Minjun·Lucía, 20턴, 독음 없음), 장면 컷 요청(편당 4장, `CHARACTERS.md` 첨부).
+3. 스토어 콘솔(사용자): App ID 에 Sign in with Apple capability, 인앱 상품 등록, Play 판이면 `REQUEST_INSTALL_PACKAGES`·「앱 업데이트」 타일 빼기.
+4. 비어 있는 주제별 단어·표현(`assets/data/vocab/travel_*.json`) — 저작권 정리로 비움, 자체 제작으로 채울 것(콘텐츠 금지 풀린 뒤).
 
-설정만 했다(빌드·업로드·커밋·푸시 없음). `CLAUDE.md` §8, `tools/zealot_push.sh` 참조. 사용자가 정할 것:
+## 4. 다음 할 일(순서)
 
-1. **로컬 빌드 번호 규칙** — CI 릴리스가 빌드 4인데 `pubspec.yaml` 은 `+1` 이다. 그대로 로컬 빌드해 Zealot 에 올리면 폰(빌드 4)에 덮어 설치가 안 된다(버전 낮춤). 반대로 번호를 크게 주면(예: 100) 앱 안 「앱 업데이트」가 CI 빌드를 새 빌드로 보지 않게 된다(CI 실행 번호가 그 수를 넘을 때까지). 방법 후보: ⓐ Zealot 에는 CI 가 만든 APK(`latest` 릴리스)를 내려받아 그대로 올린다 — 번호가 하나로 유지됨 ⓑ 로컬 빌드는 CI 번호 + 1 로 하고 곧바로 푸시해 CI 가 따라오게 한다.
-2. **Zealot 앱이름** — 앱 표시 이름 「스페인어유니버스」로 정했다. 다른 언어 앱과 이름 규칙을 맞추려면(예: "Talkverse ES") 첫 업로드 전에 `CLAUDE.md` §8 과 스크립트의 `APP_NAME` 을 바꾼다.
-3. **맥미니의 서명 키** — 이 폴더의 `android/app/signing-key.jks` 는 맞는 키(SHA-1 `9C:C4:…:47:6B`)지만, 맥미니의 `~/.android/debug.keystore` 는 다른 키(`BE:B3:…:0B:81`)다. 이 폴더의 jks 가 맥미니에 있는 유일한 사본일 수 있으니(git 에 없음) 지우지 말 것. 다른 언어 앱 폴더에 `key.properties` 가 없으면 §1 의 `cp` 대신 이 jks 를 복사해야 한다.
-4. 맥미니에 `apksigner`(Android SDK build-tools)가 보이지 않는다 — 스크립트의 서명 확인은 건너뛰어지고, 로컬 빌드 환경(Android SDK)도 첫 빌드 전에 확인이 필요하다.
+1. TestFlight 처리 확인 → 아이패드에서 두 화면·동사 칩·로그인(데모 계정)·구매 시트 확인. IPA 의 `applesignin` 확인: `codesign -d --entitlements :- Payload/Runner.app | grep applesignin` — 없으면 포털 capability(사용자).
+2. 이용권 범위가 정해지면 `Entitlement.premium` 으로 잠금 + 잠금 시트 혜택 문구 + 심사 메모 갱신.
+3. 성·수 / 발음 화면(「준비 중」), 성·수 일치 표시는 회화 데이터 `tags` 가 생긴 뒤.
 
-## 다음에 할 내용 (2026-10-11)
+## 5. 공통 절차(요약)
 
-_세션 정리용 점검 메모. CLAUDE.md · CLAUDE_UPDATES.md · git 기록 · 작업 트리만 읽고 썼다(코드·빌드·커밋·푸시 없음)._
-
-### 현재 상태
-
-- 브랜치 `master`, 로컬 추적 정보 기준 `origin/master` 와 같은 커밋(`1512649`, 2026-09-12). 그 뒤 한 달간 커밋 없음. (`git fetch` 는 하지 않았다 — 원격에 새 커밋이 있는지는 미확인.)
-- 마지막 작업 묶음(2026-09-10 ~ 09-12): 앱 안 업데이트(GitHub 릴리스) + CI 서명 고정 → 새 화면 6개(문법·문장 카드·말하기·청크 검색·단어 카드 등, 공용 키트 port6) → 표시 언어 4종 + 갤럭시·아이폰 공용 인터페이스 + iOS 빌드 초안.
-- 작업 트리에 수정 표시 35개(`.gitignore`, `CLAUDE_UPDATES.md`, `analysis_options.yaml`, `android/**`, `ios/**`, `assets/data/vocab/travel_*.json`)가 있지만 **내용 변경은 없다** — 전부 줄바꿈(LF → CRLF) 차이뿐이다(`git diff -w --ignore-cr-at-eol` 결과 비어 있음, 13,800줄 추가 = 13,800줄 삭제). 윈도우에서 복사해 오면서 생긴 것으로 보인다(추정).
-- `pubspec.yaml` 버전 `0.1.0+1`. 실제 빌드 번호는 CI 실행 번호가 쓴다.
-- 이 파일(`HANDOFF.md`)은 새로 만든 것이라 아직 git 에 올라가 있지 않다.
-
-### 남은 일 (순서대로)
-
-1. **줄바꿈 차이 정리** — 35개 파일은 내용이 같으므로 되돌리는 것(`git checkout -- .` 또는 `git stash`)이 맞아 보인다. 되돌리기 전에 `git diff -w --ignore-cr-at-eol --stat` 가 여전히 비어 있는지 다시 확인. 재발 방지로 `.gitattributes`(`* text=auto eol=lf`) 추가를 검토.
-2. ~~**공개 저장소 출처 점검(CLAUDE.md §4)**~~ (2026-11-02 지금 파일에서 정리, 위 참조) — `CLAUDE_UPDATES.md` 11~12행과 커밋 `87062be` 제목, `tool/` 의 파서 파일 이름에 교재 이름과 OneDrive 경로가 그대로 남아 있다. `travel_words.json`(1,349개)·`travel_expressions.json`(796개)도 그 교재에서 뽑은 것으로 적혀 있어, CLAUDE.md 의 "자체 제작 초안, 단어 40개" 서술과 맞지 않는다. 어느 쪽이 현재 사실인지 확인하고, 문서·파일명 정리와 히스토리 처리 여부는 사용자가 결정.
-3. **콘텐츠 확장** — 회화 5편 × 8턴, 문법 10패턴 × 예문 3은 초안이다. `_update_kit/content/es.py` 를 고치고 `build_content.py` 로 다시 만든다.
-4. **준비중 메뉴** — 홈의 「성·수」, 「발음」 화면 구현.
-5. **iOS** — Apple Developer Program 이 2026-10-10 에 가입됐으므로 TestFlight 경로가 열렸다. 전역 규칙대로 맥미니에서 빌드·서명·업로드(`~/interval-camera/tools/ios_release.sh` 를 복사해 씀). 번들 ID 가 `com.talkverse.<앱>` 규칙에 맞는지 확인, App Store Connect 앱 레코드 생성과 내부 테스트 그룹 추가는 사용자 몫. 리포의 `ios-testflight.yml`(CI 경로)을 계속 둘지도 그때 정리.
-6. **Zealot** — 다음 APK 빌드 때 `~/bin/zealot-upload` 로 올리고, 쓴 앱이름을 CLAUDE.md 에 적는다(아직 이 앱의 이름이 정해져 있지 않다).
-7. `CLAUDE_UPDATES.md` 는 2026-09-05 에서 멈춰 있다 — 2번을 정리할 때 CLAUDE.md 로 합치거나 갱신.
-
-### 주의할 점
-
-- **서명 키를 새로 만들지 말 것**(CLAUDE.md §1). 로컬 `~/.android/debug.keystore` 와 리포 시크릿이 같은 키다. 서명이 바뀌면 폰에서 앱을 지워야 하고 학습 기록이 사라진다. 맥미니에 이 키(SHA-1 `9C:C4:…:47:6B`)가 있는지는 확인하지 않았다 — 로컬 릴리스 빌드 전에 `keytool` 로 먼저 확인.
-- `master` 푸시 = CI 가 릴리스를 올리고 폰에 업데이트 알림이 뜬다. `**.md` 만 바꾼 푸시는 빌드하지 않는다. 줄바꿈만 바뀐 `android/**`·`assets/**` 를 실수로 커밋하면 헛빌드가 돈다.
-- 폰에 케이블로 설치할 때는 `adb install --user 0 -r`(듀얼 메신저 프로필에 복제 방지).
-- 새 화면 6개와 l10n 사전은 **여러 언어 앱이 같은 코드**를 쓴다 — 고칠 때는 `talkverse/_update_kit/` 원본을 고치고 다시 배포. 이 앱은 fr·it·pt·de·tr·hu·hi·fa 의 템플릿이기도 하다.
-- 공개 저장소다 — 이 파일을 포함해 새로 쓰는 문서에 교재·자막 출처 이름을 적지 말 것.
+- 커밋은 경로 지정만(`git add -A` 금지). 빌드 뒤 잡음 되돌리기: `analysis_options.yaml`·`android/gradle.properties`·`ios/Flutter/*.xcconfig`·`project.pbxproj`(Pods 줄)·`Runner.xcscheme`·`Runner.xcworkspace/contents.xcworkspacedata`, untracked `ios/Podfile*`·`**/swiftpm/` 는 그대로 둔다.
+- Android 배포: 코드 푸시 → CI(빌드 번호 = 실행 번호) → `gh release download latest -p app-latest.apk -O build/app/outputs/flutter-apk/app-release.apk` → `bash tools/zealot_push.sh "<변경>"`(서명 확인 포함) → PC 백업.
+- iOS: `bash tools/ios_release.sh` 백그라운드(빌드 번호 = KST 시각). `[skip ci]` 커밋은 CI 를 건너뜀.
+- Grok 그림은 한자 세션을 통해(글 시안은 이 세션이 직접). 사용자 결정이 필요하면 PushNotification.
+- 로컬에 2026-11-03 이력 정리 전 잡음 stash 하나 있음(`git stash list`, 줄바꿈 차이뿐 — 버려도 됨).
