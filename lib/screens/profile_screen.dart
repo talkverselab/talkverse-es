@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 
+import 'login_screen.dart';
 import 'update_screen.dart';
 
 import '../core/theme.dart';
 import '../widgets/spanish_decor.dart';
 import '../core/l10n.dart';
 import '../core/platform.dart';
+import '../data/account.dart';
+import '../data/entitlement.dart';
+import '../data/purchase.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -19,6 +23,8 @@ class ProfileScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         children: [
           if (!isIOS) const UpdateEntryTile(),
+          const _AccountSection(),
+          const SizedBox(height: 14),
           Container(
             padding: const EdgeInsets.all(18),
             decoration: BoxDecoration(
@@ -174,4 +180,69 @@ class _SettingItem {
   final String subtitle;
   final VoidCallback? onTap;
   _SettingItem({required this.icon, required this.title, required this.subtitle, this.onTap});
+}
+
+/// 계정 칸 — Talkverse ID(선택). 로그인 전 = 로그인 타일, 후 = 이름·이메일·로그아웃·계정 삭제. 그 아래 평생 이용권·구매 복원.
+class _AccountSection extends StatelessWidget {
+  const _AccountSection();
+
+  Future<void> _delete(BuildContext context) async {
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (c) => AlertDialog(
+        title: Text(tr('계정 삭제')),
+        content: Text(tr('Talkverse 계정과 서버에 저장된 정보를 지우고 모든 기기에서 로그아웃합니다. 되돌릴 수 없습니다. 이 기기의 학습 기록은 그대로 남습니다.')),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(c, false), child: Text(tr('취소'))),
+          TextButton(onPressed: () => Navigator.pop(c, true), child: Text(tr('삭제'), style: const TextStyle(color: Colors.redAccent))),
+        ],
+      ),
+    );
+    if (ok != true) return;
+    try {
+      await Account.deleteAccount();
+      if (context.mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(tr('계정을 삭제했습니다.'))));
+    } catch (_) {
+      if (context.mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(tr('계정을 삭제하지 못했습니다. 잠시 후 다시 시도해 주세요.'))));
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return ValueListenableBuilder<Map<String, dynamic>?>(
+      valueListenable: Account.user,
+      builder: (context, u, _) => ValueListenableBuilder<Set<String>>(
+        valueListenable: Purchase.owned,
+        builder: (context, _, _) => Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            _SectionTitle(tr('계정')),
+            const SizedBox(height: 8),
+            _SettingsGroup(items: [
+              if (u == null)
+                _SettingItem(
+                    icon: Icons.login,
+                    title: tr('로그인'),
+                    subtitle: tr('선택 — 이용권을 다른 기기에서도 쓰려면'),
+                    onTap: () => LoginScreen.open(context))
+              else ...[
+                _SettingItem(
+                    icon: Icons.account_circle,
+                    title: '${u['name'] ?? tr('Talkverse 계정')}',
+                    subtitle: '${u['email'] ?? ''}'),
+                _SettingItem(icon: Icons.logout, title: tr('로그아웃'), subtitle: tr('이 기기에서 로그아웃'), onTap: Account.signOut),
+                _SettingItem(icon: Icons.delete_outline, title: tr('계정 삭제'), subtitle: tr('계정과 서버 정보 삭제'), onTap: () => _delete(context)),
+              ],
+              _SettingItem(
+                  icon: Icons.workspace_premium,
+                  title: tr('평생 이용권'),
+                  subtitle: Entitlement.premium ? tr('이용권이 있습니다') : tr('한 번 결제 · 구독 아님'),
+                  onTap: () => Entitlement.showPaywall(context)),
+              _SettingItem(icon: Icons.restore, title: tr('구매 복원'), subtitle: tr('이전에 산 이용권 다시 받기'), onTap: Purchase.restore),
+            ]),
+          ],
+        ),
+      ),
+    );
+  }
 }
