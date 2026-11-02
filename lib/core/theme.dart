@@ -49,7 +49,40 @@ class AppColors {
 
   // brand alias
   static const Color brand = rojo;
+
+  // ── 일본어앱 화면 이름(2026-11-02, 공통 프롬프터 §3) — 옮겨 온 화면이 그대로 쓰는 별칭 ──
+  // beni 계열 = 스페인어 사이트 강조색 `--a #e0a020`(글자 대비 위해 한 단계 진하게)
+  static const Color beni = Color(0xFFA8730F);
+  static const Color beniDeep = Color(0xFF8A5E0B);
+  static const Color beniLight = Color(0xFFE0A020); // 사이트 `--a`
+  // ai = 사이트 `--accent` 인디고
+  static const Color ai = Color(0xFF635BFF);
+  static const Color aiDeep = Color(0xFF4B44D6);
+  static const Color aiLight = Color(0xFFA9A4FF);
+  // kin = 선 / `--a2` / 진한 황토
+  static const Color kin = Color(0xFFDDE3EC);
+  static const Color kinBright = Color(0xFFEDD4A1); // 사이트 `--a2`
+  static const Color kinDeep = Color(0xFFC8901E);
+  // sumi·washi = 글자·바탕
+  static const Color sumi = tinta;
+  static const Color sumiLight = tintaLight;
+  static const Color washi = cal;
+  static const Color washiDeep = calDeep;
+  static const Color matcha = Color(0xFF0E6245); // 완료·학습됨
+  static const Color sakura = Color(0xFFF5B8E6);
+  static const Color sakuraDeep = Color(0xFFCD3D64);
+  static const Color line = Color(0xFFE6EBF1);
+  static const Color muted = Color(0xFF6B7C93);
+
+  /// 워드마크 그라데이션(왼쪽 황토 → 오른쪽 진한 황토). 제목 글자·구분선.
+  static const LinearGradient wordmark = LinearGradient(colors: [beni, kinDeep]);
 }
+
+/// 카드·타일 공통 그림자(사이트 `0 2px 5px -1px rgba(50,50,93,.1), 0 1px 3px -1px rgba(0,0,0,.1)`)
+const List<BoxShadow> kCardShadow = [
+  BoxShadow(color: Color(0x1A32325D), blurRadius: 5, offset: Offset(0, 2)),
+  BoxShadow(color: Color(0x1A000000), blurRadius: 3, offset: Offset(0, 1)),
+];
 
 class AppTheme {
   static ThemeData light() {

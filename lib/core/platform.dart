@@ -8,3 +8,7 @@ bool get isAndroid => !kIsWeb && defaultTargetPlatform == TargetPlatform.android
 /// 화면 아래 시스템 영역(아이폰 홈 인디케이터, 갤럭시 제스처 바) 높이.
 /// 하단 고정 버튼·목록 바닥 여백에 더해 가려지지 않게 한다.
 double bottomInset(BuildContext context) => MediaQuery.paddingOf(context).bottom;
+
+/// 두 화면(레일 + 왼쪽 칸 + 오른쪽 칸)으로 바뀌는 가로 폭. 아이패드·폴드 펼침.
+const double wideMin = 720;
+bool isWide(BuildContext context) => MediaQuery.sizeOf(context).width >= wideMin;

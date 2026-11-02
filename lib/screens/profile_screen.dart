@@ -10,6 +10,7 @@ import '../core/platform.dart';
 import '../data/account.dart';
 import '../data/entitlement.dart';
 import '../data/purchase.dart';
+import '../services/learner_prefs.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -24,6 +25,8 @@ class ProfileScreen extends StatelessWidget {
         children: [
           if (!isIOS) const UpdateEntryTile(),
           const _AccountSection(),
+          const SizedBox(height: 14),
+          const _LearnerSection(),
           const SizedBox(height: 14),
           Container(
             padding: const EdgeInsets.all(18),
@@ -245,4 +248,54 @@ class _AccountSection extends StatelessWidget {
       ),
     );
   }
+}
+
+/// 학습자 프로필 — 이름(회화 속 `{name}`)·성별(학습자 자리 목소리). 일본어앱 profile_screen.dart 와 같은 칸(2026-11-02).
+class _LearnerSection extends StatefulWidget {
+  const _LearnerSection();
+  @override
+  State<_LearnerSection> createState() => _LearnerSectionState();
+}
+
+class _LearnerSectionState extends State<_LearnerSection> {
+  Future<void> _editName() async {
+    final c = TextEditingController(text: LearnerPrefs.name.value);
+    final v = await showDialog<String>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(tr('이름')),
+        content: TextField(controller: c, maxLength: 20, autofocus: true, decoration: InputDecoration(hintText: tr('회화 속 「나」로 나와요'))),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx), child: Text(tr('취소'))),
+          FilledButton(onPressed: () => Navigator.pop(ctx, c.text), child: Text(tr('저장'))),
+        ],
+      ),
+    );
+    if (v == null) return;
+    await LearnerPrefs.setName(v);
+    if (mounted) setState(() {});
+  }
+
+  @override
+  Widget build(BuildContext context) => Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        _SectionTitle(tr('학습자 프로필')),
+        const SizedBox(height: 8),
+        _SettingsGroup(items: [
+          _SettingItem(
+            icon: Icons.badge_outlined,
+            title: tr('이름'),
+            subtitle: LearnerPrefs.name.value.isNotEmpty ? trf('{0} — 회화 속 「나」로 나와요', [LearnerPrefs.name.value]) : tr('없음 — 회화에서 「○○」로 보여요'),
+            onTap: _editName,
+          ),
+          _SettingItem(
+            icon: LearnerPrefs.isFemale ? Icons.face_3 : Icons.face,
+            title: tr('성별 (화자 「나」의 목소리)'),
+            subtitle: LearnerPrefs.isFemale ? tr('여성 — 탭하면 남성') : tr('남성 — 탭하면 여성'),
+            onTap: () async {
+              await LearnerPrefs.setGender(LearnerPrefs.isFemale ? 'male' : 'female');
+              if (mounted) setState(() {});
+            },
+          ),
+        ]),
+      ]);
 }
