@@ -193,7 +193,7 @@ class _LearnTabState extends State<LearnTab> {
         const SizedBox(height: 2),
         Text(tr('한국 학습자, 오늘도 시작해요'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, fontWeight: FontWeight.w500)),
         const SizedBox(height: 14),
-        const _TodayCard(),
+        _TodayCard(key: ValueKey(DialogueService.instance.all.length)), // 회화를 다 읽은 뒤 다시 그려지게(const 면 setState 로도 안 바뀜)
         _section(tr('회화')),
         _NavRow(badge: '💬', title: tr('회화'), subtitle: tr('장면 컷과 함께 읽고 듣기'), onTap: () => openPane(context, (_) => const DialogueHomeScreen())),
         _NavRow(badge: '✎', color: AppColors.ai, title: tr('회화 노트'), subtitle: tr('턴마다 외움 표시·메모'), onTap: () => openPane(context, (_) => const ConversationScreen())),
@@ -217,7 +217,7 @@ class _LearnTabState extends State<LearnTab> {
 
 /// 「오늘의 학습」 — 마지막으로 연 편(없으면 첫 편)의 장면 컷 + 읽기 시작.
 class _TodayCard extends StatelessWidget {
-  const _TodayCard();
+  const _TodayCard({super.key});
   @override
   Widget build(BuildContext context) {
     final svc = DialogueService.instance;

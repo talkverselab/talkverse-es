@@ -147,7 +147,10 @@ class _SettingsGroup extends StatelessWidget {
         borderRadius: BorderRadius.circular(8),
         border: Border.all(color: AppColors.gualda.withValues(alpha: 0.5)),
       ),
-      child: Column(
+      // ListTile 의 탭 효과가 배경색 상자에 가리지 않게 투명 Material 로 감싼다
+      child: Material(
+        type: MaterialType.transparency,
+        child: Column(
         children: [
           for (var i = 0; i < items.length; i++) ...[
             ListTile(
@@ -172,6 +175,7 @@ class _SettingsGroup extends StatelessWidget {
               Container(height: 0.5, color: AppColors.gualda.withValues(alpha: 0.3)),
           ],
         ],
+        ),
       ),
     );
   }
