@@ -21,14 +21,17 @@ _2026-11-03 새벽 전체 다시 씀. 규칙은 `CLAUDE.md`, 인물은 `CHARACTE
 - **Talkverse ID 로그인(선택) + 평생 이용권 인앱 결제**(한자 앱과 같은 구성, `data/account.dart`·`purchase.dart`·`entitlement.dart`, 로그인·결제 화면, 프로필 「계정」). client_id `es`, 딥링크 `talkverse.es://auth`, 상품 iOS `com.talkverse.spanishUniverse.lifetime` / Android `lang_es`. **지금 잠근 기능 없음.** 심사 문안 초안 `docs/store/`.
 - **talkverse.uk 톤·아이콘**: 아이콘은 talkverse.uk 세션 담당(직접 고치지 말 것).
 - **단어 그림 리스트**: `talkverselab/talkversehanja` `talkverse_art/words/es.csv`(2,500단어, R1 184·R2 157·R3 753·R4 1,406) · `es_food.csv`(50) → 그림 `GET https://auth.talkverse.uk/art/es/manifest`(앱이 자동 사용).
+- **2026-11-04 공통 변경 8가지(일본어앱 9962316, 공통 프롬프터 §5-1)**: ① 장면 컷 말풍선 → 그림 **아래 띠**(`_LineStrip`), 재생 컷엔 말풍선 없음 ② 그림 카드 앞면에 한국어 뜻 ③ 턴 `lemmas`(`tools/add_lemmas.py`, spaCy) → 캡션·카드 뒷면 **레마 칩**(`lemma_chips.dart`, 단어장 = 빈도 단어표 `word_service.dart`·`word_sheet.dart`), 단어장에 없는 레마 `data/review/write/missing_lemmas.csv`(uk 세션에 전달) ④ 시작 때 그림 기기 내려받기 `content_sync.dart`·`sync_screen.dart`, 모든 그림 `artProvider()` ⑤ `assets/data/version.json` `db` 번호(지금 2) — 데이터 바꾸면 이 번호만 올림 ⑥ `{name}` 회화 열 때 이름 없으면 묻기(`learner_setup_dialog.dart`) ⑦ 여자 학습자면 `<편id>_f` 컷 먼저 ⑧ 조연 캐릭터 시트 — **Grok 대기 중이라 아직**(회화 작업이 풀리고 Grok 시작 지시가 오면 `CHARACTERS.md` 조연 정해서 시트 2장 요청).
 - 아이패드 스크린샷 테스트 `integration_test/dialogue_pane_test.dart` + `tools/pane_shots.py <UDID> <스크래치 폴더> integration_test/dialogue_pane_test.dart`(넘침 0, 통과). 이 세션 시뮬레이터 `es-shots-ipad`(7BE0AF82…).
 
 ## 3. 사용자 결정 / 기다리는 것
 
 1. **평생 이용권이 열 기능** — 사용자 「수요일」(2026-11-03 답, 그날 정할 것으로 이해). 정해지기 전에는 잠그지 않는다. 아무것도 안 열면 App Store 심사(3.1.1)에 걸릴 수 있음.
 2. **회화 작성 금지 중**(공통 프롬프터 §0-1) — 회화·예문 새로 쓰지 말 것. 풀리면 `docs/DIALOGUE.md` + 회화 공통 원칙대로 R1~R4 구조로 다시 쓰고(지금 L1 은 옛 인물 Minjun·Lucía, 20턴, 독음 없음), 장면 컷 요청(편당 4장, `CHARACTERS.md` 첨부).
-3. 스토어 콘솔(사용자): App ID 에 Sign in with Apple capability, 인앱 상품 등록, Play 판이면 `REQUEST_INSTALL_PACKAGES`·「앱 업데이트」 타일 빼기.
-4. 비어 있는 주제별 단어·표현(`assets/data/vocab/travel_*.json`) — 저작권 정리로 비움, 자체 제작으로 채울 것(콘텐츠 금지 풀린 뒤).
+3. Play 프로텍트 「피싱」 경고(스토어 밖 설치 + 개발 키 + 로그인 화면 조합이면 뜸, 앱은 안전) — 근본 해결은 이메일 칸 숨기기 또는 Play 내부 테스트 배포, 사용자 결정.
+3-1. 스토어 콘솔(사용자): App ID 에 Sign in with Apple capability, 인앱 상품 등록, Play 판이면 `REQUEST_INSTALL_PACKAGES`·「앱 업데이트」 타일 빼기.
+4. 조연 캐릭터 시트(§5-1 ⑧) — Grok 대기 해제 뒤. 회화 금지가 풀려 새 편을 쓰면 `tools/add_lemmas.py` 를 다시 돌려 `lemmas` 를 채우고 `version.json` 번호를 올린다.
+5. 비어 있는 주제별 단어·표현(`assets/data/vocab/travel_*.json`) — 저작권 정리로 비움, 자체 제작으로 채울 것(콘텐츠 금지 풀린 뒤).
 
 ## 4. 다음 할 일(순서)
 

@@ -10,6 +10,12 @@ import 'learner_prefs.dart';
 /// 데이터는 바꾸지 않는다: 지금 회화는 옛 형식 `assets/data/dialogues/L1.json`(편 배열, 턴 {num, speaker, es, ko, note, tags})
 /// 하나뿐이라 그대로 읽어 변환한다. 새 구조(R0~R4·주제별 편 JSON)로 다시 쓰는 것은 회화 작업이 풀린 뒤.
 /// 레벨은 R 로 재태그하지 않고 `L1`(「이야기」), 주제는 연애 서사라 `love`.
+/// 문장 내용어 한 개: 표면형(문장 속 모양)·기본형(사전형)·읽기(스페인어는 비움).
+class Lemma {
+  final String surface, base, reading;
+  const Lemma(this.surface, this.base, this.reading);
+}
+
 class DialogueTurn {
   final int num;
   final String speaker; // A·B
@@ -21,6 +27,7 @@ class DialogueTurn {
   final List<String> tags;
   final List<String> newWords;
   final String? art; // 턴 장면 그림 URL(나중에 채움)
+  final List<Lemma> lemmas; // 문장 내용어(표면형·기본형) — 단어장 연결(2026-11-04, tools/add_lemmas.py)
   const DialogueTurn({
     required this.num,
     required this.speaker,
@@ -32,6 +39,7 @@ class DialogueTurn {
     required this.tags,
     required this.newWords,
     this.art,
+    this.lemmas = const [],
   });
   factory DialogueTurn.fromJson(Map<String, dynamic> j) => DialogueTurn(
         num: j['num'] as int? ?? 0,
@@ -44,6 +52,7 @@ class DialogueTurn {
         tags: (j['tags'] as List?)?.cast<String>() ?? const [],
         newWords: (j['new'] as List?)?.cast<String>() ?? const [],
         art: j['art'] as String?,
+        lemmas: [for (final l in (j['lemmas'] as List? ?? const [])) if (l is List && l.length >= 2) Lemma('${l[0]}', '${l[1]}', l.length > 2 ? '${l[2]}' : '')],
       );
 
   /// 그림 조회용 단어 후보: new → 없음(문장 안 단어는 ArtService.urlInText 가 찾는다).
