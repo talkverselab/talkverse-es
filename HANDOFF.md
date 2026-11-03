@@ -6,9 +6,9 @@ _2026-11-03 새벽 전체 다시 씀. 규칙은 `CLAUDE.md`, 인물은 `CHARACTE
 
 | 항목 | 상태 |
 |---|---|
-| 저장소 | `master` = `af69ce3`. **2026-11-03 이력 정리 강제 푸시 완료**(시판 교재에서 뽑은 단어·표현 파일·파서·메모·커밋 메시지의 책 이름을 모든 이력에서 제거, 태그 4개도 다시 씀). 다른 기기·세션의 옛 복사본은 `git fetch && git reset --hard origin/master` 필요 |
-| Android | CI 빌드 **9**(`latest`), Zealot 「스페인어유니버스」 https://apps.talkverse.uk/CFaiv/207 , PC `D:\OneDrive\app project\talkverse-es\talkverse-es-latest.apk` |
-| iOS | TestFlight 업로드 **빌드 2611030107**(App Store Connect 앱 레코드 사용자 생성 완료). 번들 ID `com.talkverse.spanishUniverse`, IPA 백업 PC `D:\OneDrive\app project\spanish_universe\ios\` |
+| 저장소 | `master` = `35b171d`(2026-11-04 공통 변경 8가지). **2026-11-03 이력 정리 강제 푸시 완료**(시판 교재에서 뽑은 단어·표현 파일·파서·메모·커밋 메시지의 책 이름을 모든 이력에서 제거, 태그 4개도 다시 씀). 다른 기기·세션의 옛 복사본은 `git fetch && git reset --hard origin/master` 필요 |
+| Android | CI 빌드 **10**(`latest`), Zealot 「스페인어유니버스」 https://apps.talkverse.uk/CFaiv/250 , PC `D:\OneDrive\app project\talkverse-es\talkverse-es-latest.apk` |
+| iOS | TestFlight 업로드 **빌드 2611040311**(이전 2611030107)(App Store Connect 앱 레코드 사용자 생성 완료). 번들 ID `com.talkverse.spanishUniverse`, IPA 백업 PC `D:\OneDrive\app project\spanish_universe\ios\` |
 | 서명 | 기존 키 유지(SHA-1 `9C:C4:…:47:6B`), 백업 PC `D:\keys\talkverse-es\` + Doppler `SIGNKEY_*` — `CLAUDE.md` §1·§8 |
 | Supabase | 앱은 처음부터 안 씀(`docs/CLOUDFLARE_MIGRATION.md`). 공용 `items` 에 옛 es 2,864행만 남음 — 삭제는 사용자 |
 
