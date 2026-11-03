@@ -42,4 +42,6 @@ _2026-11-03 새벽 전체 다시 씀. 규칙은 `CLAUDE.md`, 인물은 `CHARACTE
 - Android 배포: 코드 푸시 → CI(빌드 번호 = 실행 번호) → `gh release download latest -p app-latest.apk -O build/app/outputs/flutter-apk/app-release.apk` → `bash tools/zealot_push.sh "<변경>"`(서명 확인 포함) → PC 백업.
 - iOS: `bash tools/ios_release.sh` 백그라운드(빌드 번호 = KST 시각). `[skip ci]` 커밋은 CI 를 건너뜀.
 - Grok 그림은 한자 세션을 통해(글 시안은 이 세션이 직접). 사용자 결정이 필요하면 PushNotification.
+- (2026-11-03 사용자 지시) 직접 Grok·Gemini 를 쓸 땐 M4 `~/chrome-grok` 쿠키를 **M4 안에서** `~/chrome-grok-es/` 로 복사 → M4 에서 자기 포트(`GROK_CHROME_PORTS.md`)로 띄우고 M6 에서 `ssh -fN -L` 터널, 첨부는 M4 `/tmp/grok_att/es/`. 사용자 지시 있을 때만 켜고, 탭은 건마다 닫고 끝나면 Chrome 도 끈다. 상세 M6 `~/talkverse/GROK_M4_LOGIN.md`.
+- (같은 날) 회화가 풀리면 반전 비율: 카오스 30% 이상 · 연애·플러팅 편마다 심쿵 한 줄(여성 주도 편 더 많이) · 편마다 `twist_type`(chaos·slip·reveal·emotion·ignore) · 새 편은 왕초보·초급 위주 · 장면 컷 = A·B 쌍 1컷, 글자·말풍선 없음, 인물 시트 첨부. https://talkverse.uk/talkverse/dialogue-rules/
 - 로컬에 2026-11-03 이력 정리 전 잡음 stash 하나 있음(`git stash list`, 줄바꿈 차이뿐 — 버려도 됨).
