@@ -1,0 +1,151 @@
+{
+ "_meta": "스페인어 회화 음성 — 목소리·감정·자리 채움. 일본어앱·중국어앱 data/tts/voices.json 과 같은 짜임. 참고 음성은 VoxCPM2(설명 instruct 는 영어), 문장은 MOSS-TTS(language Spanish). PC 출력은 out/ref_es/·out/es/ (다른 언어와 섞이지 않게).",
+ "base_text": "Esta tarde tengo una reunión y quiero preparar los papeles antes. ¿Te apetece cenar algo cuando termine?",
+ "fill": {
+  "{name}": {
+   "m": {
+    "text": "Alex",
+    "reading": "",
+    "rd": "알렉스",
+    "ko": "알렉스"
+   },
+   "f": {
+    "text": "Emma",
+    "reading": "",
+    "rd": "엠마",
+    "ko": "엠마"
+   }
+  },
+  "{country}": {
+   "text": "Canadá",
+   "reading": "",
+   "rd": "까나다",
+   "ko": "캐나다"
+  },
+  "{city}": {
+   "text": "Toronto",
+   "reading": "",
+   "rd": "또론또",
+   "ko": "토론토"
+  },
+  "{lang}": {
+   "text": "inglés",
+   "reading": "",
+   "rd": "잉글레스",
+   "ko": "영어"
+  }
+ },
+ "voices": {
+  "am": {
+   "desc": "A young man in his twenties speaking clear Spanish with a slight foreign learner's care, gentle voice"
+  },
+  "af": {
+   "desc": "A young woman in her twenties speaking clear Spanish with a slight foreign learner's care, soft voice"
+  },
+  "lucia": {
+   "desc": "A Spanish woman in her early twenties, bright, fast and chatty voice, Castilian Spanish from Madrid"
+  },
+  "marta": {
+   "desc": "A Spanish woman in her mid twenties, calm, dry and slightly low voice, Castilian Spanish from Madrid"
+  },
+  "javi": {
+   "desc": "A Spanish man in his early twenties, relaxed, easygoing and warm voice, Castilian Spanish from Madrid"
+  },
+  "diego": {
+   "desc": "A Spanish man in his mid twenties, warm, honest and slightly deep voice, Castilian Spanish from Madrid"
+  },
+  "directora": {
+   "desc": "A Spanish woman in her late forties, composed, confident and precise voice, Castilian Spanish from Madrid"
+  },
+  "vecina": {
+   "desc": "A Spanish woman in her sixties, loud, warm and chatty voice, Castilian Spanish from Madrid"
+  },
+  "man_y": {
+   "desc": "A Spanish man around twenty, natural and clear voice, Castilian Spanish from Madrid"
+  },
+  "man_m": {
+   "desc": "A Spanish man in his forties, steady and calm voice, Castilian Spanish from Madrid"
+  },
+  "man_o": {
+   "desc": "A Spanish man in his seventies, aged and gentle voice, Castilian Spanish from Madrid"
+  },
+  "woman_y": {
+   "desc": "A Spanish woman around twenty, natural and clear voice, Castilian Spanish from Madrid"
+  },
+  "woman_m": {
+   "desc": "A Spanish woman in her forties, composed and kind voice, Castilian Spanish from Madrid"
+  },
+  "woman_o": {
+   "desc": "A Spanish woman in her seventies, aged and warm voice, Castilian Spanish from Madrid"
+  },
+  "announce": {
+   "desc": "A clear, even female announcer voice in Castilian Spanish, like a metro or store announcement"
+  }
+ },
+ "emotions": {
+  "neutral": {
+   "instruct": "calm and natural, everyday tone",
+   "ref": "Esta tarde tengo una reunión y quiero preparar los papeles antes."
+  },
+  "polite": {
+   "instruct": "polite and professional, like a clerk or station staff",
+   "ref": "Buenos días, bienvenido. Aquí tiene su pedido, que aproveche."
+  },
+  "stiff": {
+   "instruct": "very nervous and stiff, formal and overly polite",
+   "ref": "Muchas gracias por recibirme. Haré todo lo posible, se lo aseguro."
+  },
+  "cheerful": {
+   "instruct": "cheerful, bright and friendly",
+   "ref": "¡Hola! ¡Ya estás aquí! Hoy hace un día buenísimo, estoy de muy buen humor."
+  },
+  "amused": {
+   "instruct": "amused, laughing warmly, relaxed",
+   "ref": "Jajaja, qué bueno. Vale, sigue así, que me encanta."
+  },
+  "teasing": {
+   "instruct": "teasing, playful and mischievous",
+   "ref": "Anda, ¿y esa cara? Venga, cuéntamelo, que no se lo digo a nadie."
+  },
+  "excited": {
+   "instruct": "excited, bursting with energy, bright and loud",
+   "ref": "¡Lo he conseguido! ¡Lo he dicho! ¡No me lo puedo creer, muchísimas gracias!"
+  },
+  "surprised": {
+   "instruct": "surprised, caught off guard, voice jumps",
+   "ref": "¿Qué? ¿En serio? Espera, ¿qué quieres decir con eso?"
+  },
+  "shout": {
+   "instruct": "surprised and loud, an exaggerated comic retort",
+   "ref": "¿Cómo? ¿Ahora? ¡Pero qué me estás contando!"
+  },
+  "tsukkomi": {
+   "instruct": "a quick sharp comic retort, exasperated but fond",
+   "ref": "Que no, que no me refiero a eso. ¿Pero tú de qué vas, hombre?"
+  },
+  "annoyed": {
+   "instruct": "annoyed, irritated, sighing",
+   "ref": "Madre mía, otra vez lo mismo. Déjalo ya, por favor."
+  },
+  "sad": {
+   "instruct": "sad, quiet, voice slightly trembling",
+   "ref": "Es que… estoy un poco cansado. No pasa nada, no te preocupes por mí."
+  },
+  "worried": {
+   "instruct": "worried and anxious, hesitant",
+   "ref": "¿Estás bien? ¿Te encuentras mal? ¿Quieres que vayamos al médico?"
+  },
+  "flustered": {
+   "instruct": "flustered and embarrassed, stammering, unsure",
+   "ref": "Eh, esto, yo, espera… es que no sé cómo decirlo…"
+  },
+  "shy": {
+   "instruct": "shy, soft, slightly trailing off",
+   "ref": "Bueno… es que… a mí también me gusta. Así que… podemos ir juntos."
+  },
+  "gentle": {
+   "instruct": "gentle, warm and tender, quiet",
+   "ref": "Tranquilo, poco a poco. Estoy aquí contigo."
+  }
+ }
+}

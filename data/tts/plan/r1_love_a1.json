@@ -1,0 +1,85 @@
+{
+ "ep": "r1_love_a1",
+ "cast": {
+  "B": "marta"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "stiff",
+     "Perdona, ¿tienes libros fáciles?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "¿Fáciles?"
+    ],
+    [
+     "gentle",
+     "Mira, este. Es muy bonito."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Vale. ¿Qué significa te quiero?",
+     "Vale. ¿Qué significa te quiero?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Hombre… ¿Me lo preguntas a mí?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Sí, a ti."
+    ],
+    [
+     "shy",
+     "Te quiero… ¿Está bien?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "…Muy bien. Otra vez, por favor."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "¿Otra vez? ¿Por qué?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Por nada."
+    ],
+    [
+     "shy",
+     "Es que… lo dices muy bien."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "ep": "r3_friends_b1",
+ "cast": {
+  "B": "lucia",
+  "C": "javi"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Son las ocho y media y Javi sin aparecer."
+    ],
+    [
+     "amused",
+     "Menos mal que le dije que quedábamos a las ocho."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "¿Le mentiste? ¿Y si se entera?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Tío, lo hago desde hace tres años."
+    ],
+    [
+     "amused",
+     "Si le digo la hora real, llega a medianoche."
+    ]
+   ],
+   "f": {
+    "text": "Tía, lo hago desde hace tres años. Si le digo la hora real, llega a medianoche.",
+    "rd": "띠아, 로 아고 데스데 아쎄 뜨레스 아뇨스. 시 레 디고 라 오라 레알, 예가 아 메디아노체.",
+    "ko": "야, 나 그거 삼 년째 하고 있어. 진짜 시간 말하면 자정에 온다니까.",
+    "segs": [
+     [
+      "teasing",
+      "Tía, lo hago desde hace tres años."
+     ],
+     [
+      "amused",
+      "Si le digo la hora real, llega a medianoche."
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Pues a mí me parece un poco cruel. Yo en tu lugar se lo diría."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Ya verás cuando llegue. Traerá churros y una excusa nueva."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Por cierto, ¿quién es ese que lleva media hora en el bar de enfrente?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "¿Dónde? Espera…"
+    ],
+    [
+     "shout",
+     "No puede ser. ¡Ese es Javi!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Vaya, me habéis pillado. ¿Ya son las nueve?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Las nueve? ¡Pero si yo te dije a las ocho!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Ya, y tú siempre dices una hora menos."
+    ],
+    [
+     "gentle",
+     "Lo sé desde hace tres años."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "¿Cómo que lo sabes? ¿Y entonces por qué llegas siempre tarde?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "neutral",
+     "Llego a las ocho."
+    ],
+    [
+     "gentle",
+     "Pero me gusta verte esperándome."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "Madre mía. Creo que sobro. ¿Os dejo solos?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "…No digas tonterías."
+    ],
+    [
+     "tsukkomi",
+     "¿Has traído churros, al menos?"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "cheerful",
+     "Claro."
+    ],
+    [
+     "gentle",
+     "Pero están fríos. Llevo aquí desde las ocho."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "shy",
+     "Anda, dámelos. Y la próxima vez, espera conmigo."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "ep": "r2_life_b1",
+ "cast": {
+  "B": "diego",
+  "C": "vecina"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Oye, ¿por qué hay doce sillas en el pasillo?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Ni idea. Esta mañana hablé con la vecina del cuarto."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "¿Con Carmen? Madre mía. ¿Y qué te dijo?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "No sé, hablaba muy rápido. Yo solo dije sí, sí."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Sí, sí? Tío, ¿a qué dijiste que sí?"
+    ]
+   ],
+   "f": {
+    "text": "¿«Sí, sí»? Tía, ¿a qué dijiste que sí?",
+    "rd": "«시, 시»? 띠아, 아 께 디히스떼 께 시?",
+    "ko": "「네, 네」? 야, 뭐에 네라고 한 건데?",
+    "segs": [
+     [
+      "tsukkomi",
+      "¿Sí, sí? Tía, ¿a qué dijiste que sí?"
+     ]
+    ]
+   }
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Bueno, a todo. Parecía muy contenta."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "¡Hola, chicos! ¿Dónde pongo la paella?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "¿Qué paella?"
+    ],
+    [
+     "polite",
+     "Perdone, ¿qué pasa aquí?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "La reunión de vecinos, en vuestro piso. Somos veinte."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "Veinte… Diego, ¿cuántos platos tenemos?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "annoyed",
+     "Tres."
+    ],
+    [
+     "tsukkomi",
+     "La próxima vez, di no entiendo."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "flustered",
+     "Sí, sí."
+    ]
+   ]
+  }
+ }
+}

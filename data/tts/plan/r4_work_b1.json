@@ -1,0 +1,164 @@
+{
+ "ep": "r4_work_b1",
+ "cast": {
+  "B": "directora"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Buenos días, {name}. ¿Tendrías un momento antes de la reunión?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Por supuesto. Si es por el informe, lo habría enviado ayer, pero me faltaban datos."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "No, no es por el informe. Es por el correo que mandaste anoche a las once."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "¿El correo?"
+    ],
+    [
+     "flustered",
+     "Se lo mandé solo a Lucía, para que me echara una mano con la presentación."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Ya. Digamos que le diste a responder a todos."
+    ],
+    [
+     "amused",
+     "Somos cuatrocientos."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Madre mía."
+    ],
+    [
+     "worried",
+     "¿También la frase sobre las reuniones que podrían haber sido un correo?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "También."
+    ],
+    [
+     "teasing",
+     "Y la parte en la que me comparas con una impresora que falla cuando más hace falta."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "stiff",
+     "No sé cómo disculparme."
+    ],
+    [
+     "worried",
+     "Si me permite explicárselo, no era mi intención que…"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "Déjame terminar. Esta mañana el director general lo ha leído en voz alta."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "sad",
+     "Entonces supongo que debería ir recogiendo mis cosas."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Al contrario."
+    ],
+    [
+     "neutral",
+     "Ha cancelado las reuniones de los viernes y quiere que dirijas un comité nuevo."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "¿Cómo dice? ¿Un comité?"
+    ],
+    [
+     "stiff",
+     "¿Para qué, si puede saberse?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "neutral",
+     "Para reducir el número de reuniones."
+    ],
+    [
+     "amused",
+     "Se reunirá todos los lunes a las ocho."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "…¿Y si mando otro correo?"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Ni se te ocurra."
+    ],
+    [
+     "gentle",
+     "Aunque, entre tú y yo, lo de la impresora me hizo gracia."
+    ]
+   ]
+  }
+ }
+}
