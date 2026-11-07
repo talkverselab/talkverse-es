@@ -10,7 +10,7 @@ import '../services/verb_index.dart';
 import '../widgets/achievement_desk.dart';
 import '../widgets/episode_play_pane.dart';
 import '../widgets/spanish_decor.dart';
-import 'conversation_screen.dart';
+import 'about_screen.dart';
 import 'dialogue_card_screen.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
@@ -19,7 +19,7 @@ import 'topic_vocab_screen.dart';
 import 'verb_screen.dart';
 import 'word_freq_screen.dart';
 
-/// 메인 — 탭 4개: 배우기 · 복습 · 탐색 · 나. 일본어앱 main_screen.dart 의 틀을 옮긴 것(2026-11-02, 공통 프롬프터 §5).
+/// 메인 — 탭 4개: 배우기 · 복습 · 탐색 · 프로필. 일본어앱 main_screen.dart 의 틀을 옮긴 것(2026-11-02, 공통 프롬프터 §5).
 /// 넓은 화면(isWide): 앱바 아래 왼쪽 = 탭 레일 + 그 탭의 목록, 오른쪽 = 고른 내용(자기 Navigator). 폰: 하단 탭 + 내용 전체 화면.
 /// 회화 재생·그림 카드처럼 집중하는 화면은 어느 쪽이든 openFull 로 전체 화면.
 class MainScreen extends StatefulWidget {
@@ -37,7 +37,7 @@ class _MainScreenState extends State<MainScreen> {
         (Icons.menu_book_outlined, Icons.menu_book, tr('배우기')),
         (Icons.style_outlined, Icons.style, tr('복습')),
         (Icons.explore_outlined, Icons.explore, tr('탐색')),
-        (Icons.person_outline, Icons.person, tr('나')),
+        (Icons.person_outline, Icons.person, tr('프로필')),
       ];
 
   @override
@@ -79,6 +79,27 @@ class _MainScreenState extends State<MainScreen> {
               selectedLabelTextStyle: const TextStyle(color: AppColors.beni, fontSize: 11, fontWeight: FontWeight.w600),
               unselectedLabelTextStyle: const TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w600),
               destinations: [for (final t in _tabs) NavigationRailDestination(icon: Icon(t.$1), selectedIcon: Icon(t.$2), label: Text(t.$3))],
+              // 레일 맨 아래 「앱 소개」(사용자 지시 2026-11-07). 이 context 는 Pane 바깥이라 openPane 대신 오른쪽 칸 Navigator 로 바로 연다.
+              trailing: Expanded(
+                child: Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Padding(
+                    padding: const EdgeInsets.only(bottom: 16),
+                    child: InkWell(
+                      onTap: () => _pane.currentState?.push(MaterialPageRoute(builder: (_) => const AboutScreen())),
+                      borderRadius: BorderRadius.circular(8),
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+                        child: Column(mainAxisSize: MainAxisSize.min, children: [
+                          const Icon(Icons.info_outline, color: AppColors.muted, size: 22),
+                          const SizedBox(height: 4),
+                          Text(tr('앱 소개'), style: const TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w600)),
+                        ]),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             ),
             const VerticalDivider(width: 1, thickness: 1, color: AppColors.line),
             SizedBox(width: left, child: stack),
@@ -167,7 +188,7 @@ Widget _tabList(BuildContext context, List<Widget> children) => ListView(
 
 // ────────── 배우기 ──────────
 
-/// 배우기: 인사 → 오늘의 학습(이어서 읽기) → 회화 → 기초 → 단어.
+/// 배우기: 인사 → 오늘의 학습(이어서 읽기) → 기초 → 문법 → 회화 → 단어(일본어앱 순서, 사용자 지시 2026-11-07).
 class LearnTab extends StatefulWidget {
   const LearnTab({super.key});
   @override
@@ -206,10 +227,9 @@ class _LearnTabState extends State<LearnTab> {
         Text(tr('한국 학습자, 오늘도 시작해요'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, fontWeight: FontWeight.w500)),
         const SizedBox(height: 14),
         _TodayCard(key: ValueKey(DialogueService.instance.all.length)), // 회화를 다 읽은 뒤 다시 그려지게(const 면 setState 로도 안 바뀜)
-        _section(tr('회화')),
-        _NavRow(badge: '💬', title: tr('회화'), subtitle: tr('장면 컷과 함께 읽고 듣기'), onTap: () => openPane(context, (_) => const DialogueHomeScreen())),
-        _NavRow(badge: '✎', color: AppColors.ai, title: tr('회화 노트'), subtitle: tr('턴마다 외움 표시·메모'), onTap: () => openPane(context, (_) => const ConversationScreen())),
         _section(tr('기초')),
+        _NavRow(badge: 'rr', color: AppColors.er, title: tr('발음'), subtitle: tr('준비 중'), onTap: () => openPane(context, (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)')))),
+        _section(tr('문법')),
         _NavRow(
             badge: 'V',
             color: AppColors.irregular,
@@ -217,9 +237,10 @@ class _LearnTabState extends State<LearnTab> {
             subtitle: VerbIndex.instance.verbs.isEmpty ? 'Conjugación' : trf('만난 동사 {0}/{1}', [AchievementService.instance.verbsSeen.length, VerbIndex.instance.verbs.length]),
             onTap: () => openPane(context, (_) => const VerbScreen())),
         _NavRow(badge: 'el', color: AppColors.mar, title: tr('성·수'), subtitle: tr('준비 중'), onTap: () => openPane(context, (_) => _ComingSoon(title: tr('성·수 일치')))),
-        _NavRow(badge: 'rr', color: AppColors.er, title: tr('발음'), subtitle: tr('준비 중'), onTap: () => openPane(context, (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)')))),
+        _section(tr('회화')),
+        _NavRow(badge: '💬', title: tr('회화'), subtitle: tr('장면 컷과 함께 읽고 듣기'), onTap: () => openPane(context, (_) => const DialogueHomeScreen())),
         _section(tr('단어')),
-        _NavRow(badge: 'F', color: AppColors.muted, title: tr('빈도 단어'), subtitle: 'Frecuencia', onTap: () => openPane(context, (_) => const WordFreqScreen())),
+        _NavRow(badge: 'F', color: AppColors.muted, title: tr('절벽 단어'), subtitle: 'R1~R5', onTap: () => openPane(context, (_) => const WordFreqScreen())),
         _NavRow(badge: 'W', color: AppColors.oliva, title: tr('주제별 단어'), subtitle: 'Vocabulario', onTap: () => openPane(context, (_) => const TopicVocabScreen())),
         _NavRow(
             badge: 'E',
@@ -287,7 +308,6 @@ class ReviewTab extends StatelessWidget {
           },
         ),
         _NavRow(badge: 'V', color: AppColors.irregular, title: tr('동사 활용'), subtitle: tr('활용표 다시 보기'), onTap: () => openPane(context, (_) => const VerbScreen())),
-        _NavRow(badge: '✎', color: AppColors.muted, title: tr('회화 노트'), subtitle: tr('외운 턴 다시 보기'), onTap: () => openPane(context, (_) => const ConversationScreen())),
       ]);
 }
 
@@ -298,7 +318,7 @@ class ExploreTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _tabList(context, [
         _section(tr('단어')),
-        _NavRow(badge: 'F', color: AppColors.muted, title: tr('빈도 단어'), subtitle: 'Frecuencia', onTap: () => openPane(context, (_) => const WordFreqScreen())),
+        _NavRow(badge: 'F', color: AppColors.muted, title: tr('절벽 단어'), subtitle: 'R1~R5', onTap: () => openPane(context, (_) => const WordFreqScreen())),
         _NavRow(badge: 'W', color: AppColors.oliva, title: tr('주제별 단어'), subtitle: 'Vocabulario', onTap: () => openPane(context, (_) => const TopicVocabScreen())),
         _NavRow(
             badge: 'E',
@@ -311,7 +331,7 @@ class ExploreTab extends StatelessWidget {
       ]);
 }
 
-// ────────── 나 ──────────
+// ────────── 프로필 ──────────
 
 class MeTab extends StatelessWidget {
   const MeTab({super.key});
@@ -319,8 +339,8 @@ class MeTab extends StatelessWidget {
   Widget build(BuildContext context) => _tabList(context, [
         _section(tr('성과')),
         const AchievementDesk(),
-        _section(tr('나')),
-        _NavRow(badge: '👤', color: AppColors.ai, title: tr('프로필 · 설정'), subtitle: tr('이름·성별·계정·앱 업데이트'), onTap: () => openPane(context, (_) => const ProfileScreen())),
+        _section(tr('프로필')),
+        _NavRow(badge: '👤', color: AppColors.ai, title: tr('프로필 · 설정'), subtitle: tr('이름·성별·계정'), onTap: () => openPane(context, (_) => const ProfileScreen())),
         _NavRow(badge: '📈', color: AppColors.muted, title: tr('진행'), subtitle: tr('회화·단어 진행도'), onTap: () => openPane(context, (_) => const ProgressScreen())),
       ]);
 }

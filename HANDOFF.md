@@ -22,6 +22,7 @@ _2026-11-03 새벽 전체 다시 씀. 규칙은 `CLAUDE.md`, 인물은 `CHARACTE
 - **talkverse.uk 톤·아이콘**: 아이콘은 talkverse.uk 세션 담당(직접 고치지 말 것).
 - **단어 그림 리스트**: `talkverselab/talkversehanja` `talkverse_art/words/es.csv`(2,500단어, R1 184·R2 157·R3 753·R4 1,406) · `es_food.csv`(50) → 그림 `GET https://auth.talkverse.uk/art/es/manifest`(앱이 자동 사용).
 - **2026-11-04 공통 변경 8가지(일본어앱 9962316, 공통 프롬프터 §5-1)**: ① 장면 컷 말풍선 → 그림 **아래 띠**(`_LineStrip`), 재생 컷엔 말풍선 없음 ② 그림 카드 앞면에 한국어 뜻 ③ 턴 `lemmas`(`tools/add_lemmas.py`, spaCy) → 캡션·카드 뒷면 **레마 칩**(`lemma_chips.dart`, 단어장 = 빈도 단어표 `word_service.dart`·`word_sheet.dart`), 단어장에 없는 레마 `data/review/write/missing_lemmas.csv`(uk 세션에 전달) ④ 시작 때 그림 기기 내려받기 `content_sync.dart`·`sync_screen.dart`, 모든 그림 `artProvider()` ⑤ `assets/data/version.json` `db` 번호(지금 2) — 데이터 바꾸면 이 번호만 올림 ⑥ `{name}` 회화 열 때 이름 없으면 묻기(`learner_setup_dialog.dart`) ⑦ 여자 학습자면 `<편id>_f` 컷 먼저 ⑧ 조연 캐릭터 시트 — **Grok 대기 중이라 아직**(회화 작업이 풀리고 Grok 시작 지시가 오면 `CHARACTERS.md` 조연 정해서 시트 2장 요청).
+- **2026-11-07 단어·메뉴 개편(일본어앱 `docs/MENU_WORDS_2026-11-07.md` §1·§3·§4·§6)**: 절벽 값 코드 한 곳 `lib/core/cliff.dart`(45·69·168·570 = R1~R4 끝 순위, R5 2,000위, 2,000위 누적 약 87.9% = 2,500위 88.9% 에서 2,001~2,500위 몫을 뺀 추정). 빈도 단어표 `assets/data/freq/lang_es_top.csv` 를 옛 200단어 → 레마 목록 2,506행(talkversehanja `words/es.csv` 그대로 — 새로 쓴 뜻 없음, 옛 표의 성·CEFR 만 같은 낱말에 붙임, `version.json` db 3). 레마는 러시아어 기준 그대로 둔다(사용자 2026-11-07). 절벽 단어 화면 = 20어 단원·타일·「회화 단어 포함」(`tools/conv_words.py` → `conv_words_es.json`), 앱 소개 `about_screen.dart`(레일 아래·프로필 정보), 배우기 순서 기초→문법→회화→단어, 탭 「나」 → 「프로필」, 「회화 노트」·앱 업데이트 타일·TTS·변종·테마·Stack 삭제(`conversation_screen.dart`·`update_screen.dart` 파일은 남음), 문장 레마 탭 → 단어창(`TapWords`), 한글독음 기본 미표시(`KoReadingPrefs.toggleFrom`; 지금 회화에 독음 데이터가 없어 앱바 버튼은 안 보이고 프로필 설정 줄만 있음). 문서 §2(문자 절벽) 해당 없음, §5(문장 말하기) 화면이 없어 해당 없음.
 - 아이패드 스크린샷 테스트 `integration_test/dialogue_pane_test.dart` + `tools/pane_shots.py <UDID> <스크래치 폴더> integration_test/dialogue_pane_test.dart`(넘침 0, 통과). 이 세션 시뮬레이터 `es-shots-ipad`(7BE0AF82…).
 
 ## 3. 사용자 결정 / 기다리는 것
@@ -42,12 +43,13 @@ _2026-11-03 새벽 전체 다시 씀. 규칙은 `CLAUDE.md`, 인물은 `CHARACTE
 ## 5. 공통 절차(요약)
 
 - 커밋은 경로 지정만(`git add -A` 금지). 빌드 뒤 잡음 되돌리기: `analysis_options.yaml`·`android/gradle.properties`·`ios/Flutter/*.xcconfig`·`project.pbxproj`(Pods 줄)·`Runner.xcscheme`·`Runner.xcworkspace/contents.xcworkspacedata`, untracked `ios/Podfile*`·`**/swiftpm/` 는 그대로 둔다.
+- (사용자 지시 2026-11-07) 앱을 고치면 Android(Zealot)·iOS(TestFlight)를 항상 함께 올린다.
 - Android 배포: 코드 푸시 → CI(빌드 번호 = 실행 번호) → `gh release download latest -p app-latest.apk -O build/app/outputs/flutter-apk/app-release.apk` → `bash tools/zealot_push.sh "<변경>"`(서명 확인 포함) → PC 백업.
 - iOS: `bash tools/ios_release.sh` 백그라운드(빌드 번호 = KST 시각). `[skip ci]` 커밋은 CI 를 건너뜀.
 - Grok 그림은 한자 세션을 통해(글 시안은 이 세션이 직접). 사용자 결정이 필요하면 PushNotification.
 - (2026-11-03 사용자 지시) 직접 Grok·Gemini 를 쓸 땐 M4 `~/chrome-grok` 쿠키를 **M4 안에서** `~/chrome-grok-es/` 로 복사 → M4 에서 자기 포트(`GROK_CHROME_PORTS.md`)로 띄우고 M6 에서 `ssh -fN -L` 터널, 첨부는 M4 `/tmp/grok_att/es/`. 사용자 지시 있을 때만 켜고, 탭은 건마다 닫고 끝나면 Chrome 도 끈다. 상세 M6 `~/talkverse/GROK_M4_LOGIN.md`.
 - (2026-11-03 사용자 지시) **Grok 작업은 사용자가 따로 지시할 때까지 시작하지 않는다.** M4 Grok 은 새 계정(원본 `~/chrome-grok`, 9222; 옛 계정은 11/9 까지 한도, 새 계정엔 프로젝트·챗·GitHub 커넥터 없음). 시작할 땐 ① M4 안에서 `~/chrome-grok` 쿠키 다시 복사 ② 샘플 1~2개 먼저 ③ PushNotification 으로 사용자 통과 요청 ④ 통과 뒤 본작업.
 - Grok 회화 재작성·장면 컷 요청문 작성법(실제 통과 방식): M6 `~/talkverse/GROK_PROMPT_GUIDE.md`, 틀 파일 `~/talkverse/zh/tools/`(prompts/rewrite_grok.md·rewrite_request.py·scene_prompts.py·grok_*.py) 복사해 코드만 바꿈. 편마다 새 대화방, 받은 재작성은 그대로 쓰지 말고 리뷰.
-- 스페인어 절벽 = 자국 영화·드라마 대사 레마 기준 **R1 45 · R2 69 · R3 168 · R4 570(상위 2,500 레마 88.9%)** — 사용자 결정 2026-11-03. 단어 그림 리스트 talkversehanja `talkverse_art/words/es.csv`(42c80fc)도 이 순위. 앱 「빈도 단어」의 옛 200단어 CSV 는 이 기준으로 바꿀 것(콘텐츠 금지 풀린 뒤).
+- 스페인어 절벽 = 자국 영화·드라마 대사 레마 기준 **R1 45 · R2 69 · R3 168 · R4 570(상위 2,500 레마 88.9%)** — 사용자 결정 2026-11-03. 단어 그림 리스트 talkversehanja `talkverse_art/words/es.csv`(42c80fc)도 이 순위. 앱 단어표는 2026-11-07 이 목록으로 바꿈.
 - (같은 날) 회화가 풀리면 반전 비율: 카오스 30% 이상 · 연애·플러팅 편마다 심쿵 한 줄(여성 주도 편 더 많이) · 편마다 `twist_type`(chaos·slip·reveal·emotion·ignore) · 새 편은 왕초보·초급 위주 · 장면 컷 = A·B 쌍 1컷, 글자·말풍선 없음, 인물 시트 첨부. https://talkverse.uk/talkverse/dialogue-rules/
 - 로컬에 2026-11-03 이력 정리 전 잡음 stash 하나 있음(`git stash list`, 줄바꿈 차이뿐 — 버려도 됨).

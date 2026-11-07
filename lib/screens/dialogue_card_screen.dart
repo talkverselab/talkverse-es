@@ -7,8 +7,10 @@ import '../services/achievement_service.dart';
 import '../services/art_service.dart';
 import '../services/content_sync.dart';
 import '../services/dialogue_service.dart';
+import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
+import '../widgets/episode_play_pane.dart' show TapWords;
 import '../widgets/lemma_chips.dart';
 import '../widgets/spanish_decor.dart';
 
@@ -75,6 +77,7 @@ class _DialogueCardScreenState extends State<DialogueCardScreen> {
           const SizedBox(height: 2),
           Text('${_pos + 1} / ${_order.length}', style: const TextStyle(color: AppColors.muted, fontSize: 10, letterSpacing: 2)),
         ]),
+        actions: [if (d.turns.any((t) => t.rd.isNotEmpty)) const KoReadingToggleAction()],
       ),
       body: Column(children: [
         Expanded(
@@ -158,9 +161,9 @@ class _CardText extends StatelessWidget {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('$name · ${t.num}', style: const TextStyle(fontSize: 11, color: AppColors.muted)),
                 const SizedBox(height: 8),
-                Text(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
+                TapWords(turn: t, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
                 if (t.reading.isNotEmpty && t.reading != t.tl) ...[const SizedBox(height: 6), Text(LearnerPrefs.fill(t.reading), style: const TextStyle(fontSize: 15, color: AppColors.ai, fontWeight: FontWeight.w700))],
-                if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
+                if (t.rd.isNotEmpty) KoReadingText(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
                 const SizedBox(height: 12),
                 const BrushDivider(height: 2),
                 const SizedBox(height: 10),

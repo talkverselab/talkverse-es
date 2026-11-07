@@ -44,7 +44,7 @@ class WordSheet extends StatelessWidget {
           const SizedBox(height: 10),
           Wrap(spacing: 8, children: [
             if (w.pos != null && w.pos!.isNotEmpty) _tag(w.pos!),
-            _tag(trf('빈도 {0}위', [w.rank])),
+            if (w.rank <= 3000) _tag(trf('빈도 {0}위', [w.rank])), // 3001~ = 회화에서 추가된 단어(순위 없음)
             if (w.region != null && w.region!.isNotEmpty) _tag(w.region!),
           ]),
         ]),
