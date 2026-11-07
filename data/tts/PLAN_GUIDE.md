@@ -1,6 +1,6 @@
 # 회화 음성 감정 계획 작성법 (스페인어)
 
-편마다 `data/tts/plan/<편id>.json`. 검사 `python3 tools/tts/check_plan.py`. 일본어앱·중국어앱 `data/tts/PLAN_GUIDE.md` 와 같은 틀, 칸만 다르다(text = `tl`, reading 없음, rd = 한글 독음, ko = 한국어 뜻).
+편마다 `data/tts/plan/<편id>.json` — **손으로 쓰지 않는다.** 회화 파일의 `emotion`·`segs`·`tl_f` 에서 `python3 tools/tts/make_plan.py [편id...]` 로 만들고 검사 `python3 tools/tts/check_plan.py`. 감정을 바꾸려면 회화 파일을 고친다. 아래는 칸 설명이다. 일본어앱·중국어앱 `data/tts/PLAN_GUIDE.md` 와 같은 틀, 칸만 다르다(text = `tl`, reading 없음, rd = 한글 독음, ko = 한국어 뜻).
 
 - **segs** = 말하는 순서대로 나눈 조각 `[감정, 본문]` 또는 `[감정, 본문, 읽기]`. 이어 붙이면 그 턴의 `tl` 과 같아야 한다(공백·문장부호 무시). 감정이 바뀌는 곳에서만 나눈다.
 - 감정: neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle. neutral 만 쓰지 말 것 — 심쿵 턴은 gentle·shy.
