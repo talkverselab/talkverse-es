@@ -48,6 +48,16 @@
    "new": [
     "quedar",
     "aparecer"
+   ],
+   "segs": [
+    [
+     "annoyed",
+     "Son las ocho y media y Javi sin aparecer."
+    ],
+    [
+     "amused",
+     "Menos mal que le dije que quedábamos a las ocho."
+    ]
    ]
   },
   {
@@ -63,7 +73,8 @@
    "new": [
     "mentir",
     "enterarse"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -79,7 +90,17 @@
     "medianoche"
    ],
    "tl_f": "Tía, lo hago desde hace tres años. Si le digo la hora real, llega a medianoche.",
-   "rd_f": "띠아, 로 아고 데스데 아쎄 뜨레스 아뇨스. 시 레 디고 라 오라 레알, 예가 아 메디아노체."
+   "rd_f": "띠아, 로 아고 데스데 아쎄 뜨레스 아뇨스. 시 레 디고 라 오라 레알, 예가 아 메디아노체.",
+   "segs": [
+    [
+     "teasing",
+     "Tío, lo hago desde hace tres años."
+    ],
+    [
+     "amused",
+     "Si le digo la hora real, llega a medianoche."
+    ]
+   ]
   },
   {
    "num": 4,
@@ -94,7 +115,8 @@
    "new": [
     "lugar",
     "cruel"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 5,
@@ -109,7 +131,8 @@
    ],
    "new": [
     "excusa"
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -123,7 +146,8 @@
    ],
    "new": [
     "enfrente"
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 7,
@@ -136,7 +160,17 @@
     "expr:no puede ser",
     "expr:espera"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "¿Dónde? Espera…"
+    ],
+    [
+     "shout",
+     "No puede ser. ¡Ese es Javi!"
+    ]
+   ]
   },
   {
    "num": 8,
@@ -150,7 +184,8 @@
    ],
    "new": [
     "pillar"
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 9,
@@ -160,7 +195,8 @@
    "ko": "아홉 시? 나 여덟 시라고 했잖아!",
    "note": "pero si… = 아니 ~잖아(반박)",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "tsukkomi"
   },
   {
    "num": 10,
@@ -172,7 +208,17 @@
    "tags": [
     "expr:ya"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "teasing",
+     "Ya, y tú siempre dices una hora menos."
+    ],
+    [
+     "gentle",
+     "Lo sé desde hace tres años."
+    ]
+   ]
   },
   {
    "num": 11,
@@ -184,7 +230,8 @@
    "tags": [
     "expr:cómo que"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 12,
@@ -196,7 +243,17 @@
    "tags": [
     "form:gerundio"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Llego a las ocho."
+    ],
+    [
+     "gentle",
+     "Pero me gusta verte esperándome."
+    ]
+   ]
   },
   {
    "num": 13,
@@ -210,7 +267,8 @@
    ],
    "new": [
     "sobrar"
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 14,
@@ -224,6 +282,16 @@
    ],
    "new": [
     "tontería"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "…No digas tonterías."
+    ],
+    [
+     "tsukkomi",
+     "¿Has traído churros, al menos?"
+    ]
    ]
   },
   {
@@ -238,6 +306,16 @@
    ],
    "new": [
     "frío"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Claro."
+    ],
+    [
+     "gentle",
+     "Pero están fríos. Llevo aquí desde las ocho."
+    ]
    ]
   },
   {
@@ -250,7 +328,8 @@
    "tags": [
     "expr:anda"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   }
  ],
  "draft": "claude"

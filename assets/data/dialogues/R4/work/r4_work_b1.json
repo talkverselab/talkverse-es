@@ -39,7 +39,8 @@
    "tags": [
     "form:condicional"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
@@ -53,7 +54,8 @@
    ],
    "new": [
     "informe"
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 3,
@@ -65,7 +67,8 @@
    "tags": [],
    "new": [
     "correo"
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -79,6 +82,16 @@
    ],
    "new": [
     "echar una mano"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "¿El correo?"
+    ],
+    [
+     "flustered",
+     "Se lo mandé solo a Lucía, para que me echara una mano con la presentación."
+    ]
    ]
   },
   {
@@ -93,6 +106,16 @@
    ],
    "new": [
     "responder"
+   ],
+   "segs": [
+    [
+     "neutral",
+     "Ya. Digamos que le diste a responder a todos."
+    ],
+    [
+     "amused",
+     "Somos cuatrocientos."
+    ]
    ]
   },
   {
@@ -105,7 +128,17 @@
    "tags": [
     "expr:madre mía"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shout",
+     "Madre mía."
+    ],
+    [
+     "worried",
+     "¿También la frase sobre las reuniones que podrían haber sido un correo?"
+    ]
+   ]
   },
   {
    "num": 7,
@@ -120,6 +153,16 @@
    "new": [
     "impresora",
     "comparar"
+   ],
+   "segs": [
+    [
+     "neutral",
+     "También."
+    ],
+    [
+     "teasing",
+     "Y la parte en la que me comparas con una impresora que falla cuando más hace falta."
+    ]
    ]
   },
   {
@@ -134,6 +177,16 @@
    ],
    "new": [
     "disculparse"
+   ],
+   "segs": [
+    [
+     "stiff",
+     "No sé cómo disculparme."
+    ],
+    [
+     "worried",
+     "Si me permite explicárselo, no era mi intención que…"
+    ]
    ]
   },
   {
@@ -146,7 +199,8 @@
    "tags": [
     "form:perfecto"
    ],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 10,
@@ -160,7 +214,8 @@
    ],
    "new": [
     "recoger"
-   ]
+   ],
+   "emotion": "sad"
   },
   {
    "num": 11,
@@ -175,6 +230,16 @@
    ],
    "new": [
     "comité"
+   ],
+   "segs": [
+    [
+     "amused",
+     "Al contrario."
+    ],
+    [
+     "neutral",
+     "Ha cancelado las reuniones de los viernes y quiere que dirijas un comité nuevo."
+    ]
    ]
   },
   {
@@ -185,7 +250,17 @@
    "ko": "네? 위원회요? 여쭤봐도 된다면, 뭘 위한 거죠?",
    "note": "si puede saberse = 실례지만(살짝 비꼼)",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "¿Cómo dice? ¿Un comité?"
+    ],
+    [
+     "stiff",
+     "¿Para qué, si puede saberse?"
+    ]
+   ]
   },
   {
    "num": 13,
@@ -197,6 +272,16 @@
    "tags": [],
    "new": [
     "reducir"
+   ],
+   "segs": [
+    [
+     "neutral",
+     "Para reducir el número de reuniones."
+    ],
+    [
+     "amused",
+     "Se reunirá todos los lunes a las ocho."
+    ]
    ]
   },
   {
@@ -207,7 +292,8 @@
    "ko": "…메일 한 통 더 보내면 어떨까요?",
    "note": "¿Y si…? = ~하면 어떨까?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 15,
@@ -219,7 +305,17 @@
    "tags": [
     "expr:ni se te ocurra"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "tsukkomi",
+     "Ni se te ocurra."
+    ],
+    [
+     "gentle",
+     "Aunque, entre tú y yo, lo de la impresora me hizo gracia."
+    ]
+   ]
   }
  ],
  "draft": "claude"

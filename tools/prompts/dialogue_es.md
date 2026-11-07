@@ -48,6 +48,7 @@ A 는 남녀 모두다. A 의 말이나 A 를 부르는 말이 성에 따라 바
 - `kind`: survival · short(a) · long(b) · chat(c). `register`: polite·casual·chat·mixed. `purpose`: travel·study_abroad·work_spain·media·reading·love·making_friends. `domain`: life·friends·love·work·study·culture·travel.
 - 채팅 편: 턴에 `"ui":"bubble"`, 시간 `"at":"23:12"`, 이모지·스탬프 `"stamp":"😂"`, 읽씹은 `"read":false`. 채팅 말투(`q`·`xq`·`jajaja`·`tb`)는 살짝만.
 - `note` = 그 턴 핵심 하나 「X = 뜻」(한국어). `tags` = `expr:`·`form:`·`callback:`. `new` = 이 턴에서 처음 가르치는 말(기본형).
+- **감정(사용자 지시 2026-11-07)**: 턴마다 음성을 고려한 `emotion` 을 쓴다. 값 = neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle. 한 턴에서 감정이 바뀌면 `emotion` 대신 `segs`(`[[감정, 본문], …]`, 이어 붙이면 `tl`)로 나눈다. neutral 만 쓰지 말 것 — 심쿵 턴은 gentle·shy, 받아치기는 tsukkomi.
 - `rd` 는 비워 두고 `python3 tools/check_dialogues.py --fix-rd <폴더>` 로 채운다. 틀린 곳만 손으로 고치고 `"rd_manual":true`.
 
 ## 묶음 구성

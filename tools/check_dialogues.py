@@ -13,6 +13,7 @@ WORDS = {'R0': 8, 'R1': 8, 'R2': 12, 'R3': 22, 'R4': 22}
 TWIST = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
 ISLANDS = {'survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', 'study'}
 NEED = ['id', 'region', 'island', 'kind', 'title', 'emoji', 'scene', 'speakers', 'register', 'twist', 'twist_type', 'expressions', 'purpose', 'domain', 'turns']
+EMOTIONS = set('neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle'.split())
 BAD = re.compile(r'[A-Za-z]')
 pool = {r['expr'].lower() for r in csv.DictReader(open(ROOT / 'data/expressions/top_expressions_es.csv', encoding='utf-8'))}
 
@@ -85,6 +86,15 @@ def check(path, fix):
                 if t.get('rd_f') != r:
                     t['rd_f'] = r
                     changed = True
+        if t.get('segs'):
+            if norm(' '.join(s[1] for s in t['segs'])).replace(' ', '') != norm(tl).replace(' ', ''):
+                e.append(f'{n}: segs 본문 ≠ tl')
+            emos = [s[0] for s in t['segs']]
+        else:
+            emos = [t.get('emotion')]
+        for x in emos:
+            if x not in EMOTIONS:
+                e.append(f'{n}: 감정 {x}')
         if not t.get('rd'):
             e.append(f'{n}: rd 없음')
         elif BAD.search(re.sub(r'\{[a-z_]+\}', '', t['rd'])):

@@ -43,7 +43,8 @@
    ],
    "new": [
     "fácil"
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 2,
@@ -57,6 +58,16 @@
    ],
    "new": [
     "bonito"
+   ],
+   "segs": [
+    [
+     "neutral",
+     "¿Fáciles?"
+    ],
+    [
+     "gentle",
+     "Mira, este. Es muy bonito."
+    ]
    ]
   },
   {
@@ -72,7 +83,8 @@
    ],
    "new": [
     "significar"
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -86,7 +98,8 @@
    ],
    "new": [
     "preguntar"
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 5,
@@ -100,6 +113,16 @@
    ],
    "new": [
     "querer"
+   ],
+   "segs": [
+    [
+     "neutral",
+     "Sí, a ti."
+    ],
+    [
+     "shy",
+     "Te quiero… ¿Está bien?"
+    ]
    ]
   },
   {
@@ -115,7 +138,8 @@
    "new": [
     "otro",
     "vez"
-   ]
+   ],
+   "emotion": "shy"
   },
   {
    "num": 7,
@@ -125,7 +149,8 @@
    "ko": "한 번 더요? 왜요?",
    "note": "¿Por qué? = 왜?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
@@ -139,6 +164,16 @@
    ],
    "new": [
     "decir"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Por nada."
+    ],
+    [
+     "shy",
+     "Es que… lo dices muy bien."
+    ]
    ]
   }
  ],

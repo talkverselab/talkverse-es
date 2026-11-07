@@ -45,7 +45,8 @@
    "new": [
     "silla",
     "pasillo"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 2,
@@ -60,7 +61,8 @@
    ],
    "new": [
     "vecino"
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -72,7 +74,8 @@
    "tags": [
     "expr:madre mía"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 4,
@@ -86,7 +89,8 @@
    ],
    "new": [
     "rápido"
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 5,
@@ -100,7 +104,8 @@
    ],
    "new": [],
    "tl_f": "¿«Sí, sí»? Tía, ¿a qué dijiste que sí?",
-   "rd_f": "«시, 시»? 띠아, 아 께 디히스떼 께 시?"
+   "rd_f": "«시, 시»? 띠아, 아 께 디히스떼 께 시?",
+   "emotion": "tsukkomi"
   },
   {
    "num": 6,
@@ -115,7 +120,8 @@
    "new": [
     "parecer",
     "contento"
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 7,
@@ -129,7 +135,8 @@
    ],
    "new": [
     "paella"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 8,
@@ -141,7 +148,17 @@
    "tags": [
     "expr:qué pasa"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "¿Qué paella?"
+    ],
+    [
+     "polite",
+     "Perdone, ¿qué pasa aquí?"
+    ]
+   ]
   },
   {
    "num": 9,
@@ -156,7 +173,8 @@
    "new": [
     "reunión",
     "piso"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 10,
@@ -168,7 +186,8 @@
    "tags": [],
    "new": [
     "plato"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 11,
@@ -182,6 +201,16 @@
    ],
    "new": [
     "entender"
+   ],
+   "segs": [
+    [
+     "annoyed",
+     "Tres."
+    ],
+    [
+     "tsukkomi",
+     "La próxima vez, di no entiendo."
+    ]
    ]
   },
   {
@@ -192,7 +221,8 @@
    "ko": "네, 네.",
    "note": "입버릇은 안 고쳐진다 — 끝 줄 콜백",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   }
  ],
  "draft": "claude"
