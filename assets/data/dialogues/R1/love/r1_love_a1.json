@@ -1,0 +1,146 @@
+{
+ "id": "r1_love_a1",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "title": "한 번 더요",
+ "emoji": "📖",
+ "scene": "헌책방에서 쉬운 책을 찾다가 알바생 Marta 에게 단어 뜻을 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "가게에서 말 걸기 · 뜻 묻기(¿Qué significa…?)",
+ "expressions": [
+  "perdona",
+  "mira",
+  "vale",
+  "hombre",
+  "por favor",
+  "es que"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Perdona, ¿tienes libros fáciles?",
+   "rd": "뻬르도나, 띠에네스 리브로스 파씰레스?",
+   "ko": "저기요, 쉬운 책 있어요?",
+   "note": "perdona = 말 걸 때 「저기요」",
+   "tags": [
+    "expr:perdona"
+   ],
+   "new": [
+    "fácil"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "¿Fáciles? Mira, este. Es muy bonito.",
+   "rd": "파씰레스? 미라, 에스떼. 에스 무이 보니또.",
+   "ko": "쉬운 거요? 봐요, 이거. 되게 예뻐요.",
+   "note": "mira = 「봐요」, 보여 줄 때",
+   "tags": [
+    "expr:mira"
+   ],
+   "new": [
+    "bonito"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Vale. ¿Qué significa «te quiero»?",
+   "rd": "발레. 께 시그니피까 «떼 끼에로»?",
+   "ko": "네. 「te quiero」가 무슨 뜻이에요?",
+   "note": "¿Qué significa…? = ~가 무슨 뜻이에요?",
+   "tags": [
+    "expr:vale",
+    "form:significar"
+   ],
+   "new": [
+    "significar"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Hombre… ¿Me lo preguntas a mí?",
+   "rd": "옴브레… 메 로 쁘레군따스 아 미?",
+   "ko": "아니… 그걸 저한테 물어요?",
+   "note": "hombre = 놀랐을 때 말머리(상대 성별과 무관)",
+   "tags": [
+    "expr:hombre"
+   ],
+   "new": [
+    "preguntar"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Sí, a ti. Te quiero… ¿Está bien?",
+   "rd": "시, 아 띠. 떼 끼에로… 에스따 비엔?",
+   "ko": "네, 그쪽한테요. 사랑해… 이렇게 하면 돼요?",
+   "note": "te quiero = 사랑해 — 발음 연습인데 고백이 되어 버렸다",
+   "tags": [
+    "form:querer"
+   ],
+   "new": [
+    "querer"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "…Muy bien. Otra vez, por favor.",
+   "rd": "…무이 비엔. 오뜨라 베쓰, 뽀르 파보르.",
+   "ko": "…아주 좋아요. 한 번 더요.",
+   "note": "otra vez = 한 번 더",
+   "tags": [
+    "expr:por favor"
+   ],
+   "new": [
+    "otro",
+    "vez"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "¿Otra vez? ¿Por qué?",
+   "rd": "오뜨라 베쓰? 뽀르 께?",
+   "ko": "한 번 더요? 왜요?",
+   "note": "¿Por qué? = 왜?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Por nada. Es que… lo dices muy bien.",
+   "rd": "뽀르 나다. 에스 께… 로 디쎄스 무이 비엔.",
+   "ko": "아무것도 아니에요. 그게… 너무 잘 말해서요.",
+   "note": "es que = 변명·이유 앞에 「그게」",
+   "tags": [
+    "expr:es que"
+   ],
+   "new": [
+    "decir"
+   ]
+  }
+ ],
+ "draft": "claude"
+}

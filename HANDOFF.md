@@ -28,7 +28,7 @@ _2026-11-03 새벽 전체 다시 씀. 규칙은 `CLAUDE.md`, 인물은 `CHARACTE
 ## 3. 사용자 결정 / 기다리는 것
 
 1. **평생 이용권이 열 기능** — 사용자 「수요일」(2026-11-03 답, 그날 정할 것으로 이해). 정해지기 전에는 잠그지 않는다. 아무것도 안 열면 App Store 심사(3.1.1)에 걸릴 수 있음.
-2. **회화 작성 금지 중**(공통 프롬프터 §0-1) — 회화·예문 새로 쓰지 말 것. 풀리면 `docs/DIALOGUE.md` + 회화 공통 원칙대로 R1~R4 구조로 다시 쓰고(지금 L1 은 옛 인물 Minjun·Lucía, 20턴, 독음 없음), 장면 컷 요청(편당 4장, `CHARACTERS.md` 첨부).
+2. **회화 초안(2026-11-07 제한 해제, 사용자 지시)** — 굴절어는 **레벨별 한 편씩만** 쓰고 멈춤. R1~R4 각 1편 작성 완료(`assets/data/dialogues/R<n>/<주제>/`, `draft: claude`, `tools/check_dialogues.py` 통과, 규칙 `tools/prompts/dialogue_es.md`, 독음 `tools/rd_es.py`, 표현 풀 `data/expressions/top_expressions_es.csv`). **앱에는 아직 안 들어감**(pubspec 은 하위 폴더를 안 묶고 `dialogue_service.dart` 는 L1 만 읽음). 다음 = Grok 재작성(11/10 뒤, 사용자 지시 있을 때) → `tools/add_lemmas.py` 를 편 JSON 형식에 맞춤 → 로더·pubspec → 리뷰 → 장면 컷. 단어·문법 동결은 그대로.
 3. Play 프로텍트 「피싱」 경고(스토어 밖 설치 + 개발 키 + 로그인 화면 조합이면 뜸, 앱은 안전) — 근본 해결은 이메일 칸 숨기기 또는 Play 내부 테스트 배포, 사용자 결정.
 3-1. 스토어 콘솔(사용자): App ID 에 Sign in with Apple capability, 인앱 상품 등록, Play 판이면 `REQUEST_INSTALL_PACKAGES`·「앱 업데이트」 타일 빼기.
 4. 조연 캐릭터 시트(§5-1 ⑧) — Grok 대기 해제 뒤. 회화 금지가 풀려 새 편을 쓰면 `tools/add_lemmas.py` 를 다시 돌려 `lemmas` 를 채우고 `version.json` 번호를 올린다.

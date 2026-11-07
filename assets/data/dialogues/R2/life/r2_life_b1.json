@@ -1,0 +1,199 @@
+{
+ "id": "r2_life_b1",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "title": "「Sí, sí」의 대가",
+ "emoji": "🥘",
+ "scene": "못 알아듣고 이웃에게 「네, 네」만 했더니 복도에 의자 열두 개가 놓였다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Diego",
+  "C": "Vecina"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "단순과거·불완료로 있었던 일 말하기(dije / hablaba)",
+ "expressions": [
+  "oye",
+  "ni idea",
+  "madre mía",
+  "tío",
+  "bueno",
+  "tranquilos"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Oye, ¿por qué hay doce sillas en el pasillo?",
+   "rd": "오예, 뽀르 께 아이 도쎄 시야스 엔 엘 빠시요?",
+   "ko": "야, 복도에 왜 의자가 열두 개나 있어?",
+   "note": "pasillo = 복도",
+   "tags": [
+    "expr:oye"
+   ],
+   "new": [
+    "silla",
+    "pasillo"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Ni idea. Esta mañana hablé con la vecina del cuarto.",
+   "rd": "니 이데아. 에스따 마냐나 아브레 꼰 라 베씨나 델 꾸아르또.",
+   "ko": "몰라. 아침에 4층 아주머니랑 얘기하긴 했는데.",
+   "note": "hablé = 단순과거 「얘기했다」",
+   "tags": [
+    "expr:ni idea",
+    "form:indefinido"
+   ],
+   "new": [
+    "vecino"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "¿Con Carmen? Madre mía. ¿Y qué te dijo?",
+   "rd": "꼰 까르멘? 마드레 미아. 이 께 떼 디호?",
+   "ko": "카르멘 아주머니랑? 세상에. 뭐라고 하셨는데?",
+   "note": "madre mía = 세상에",
+   "tags": [
+    "expr:madre mía"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "No sé, hablaba muy rápido. Yo solo dije «sí, sí».",
+   "rd": "노 세, 아브라바 무이 라삐도. 요 솔로 디헤 «시, 시».",
+   "ko": "몰라, 말이 너무 빨라서… 난 그냥 「네, 네」만 했어.",
+   "note": "hablaba = 불완료, 그때 계속 이어지던 일",
+   "tags": [
+    "form:imperfecto"
+   ],
+   "new": [
+    "rápido"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "¿«Sí, sí»? Tío, ¿a qué dijiste que sí?",
+   "rd": "«시, 시»? 띠오, 아 께 디히스떼 께 시?",
+   "ko": "「네, 네」? 야, 뭐에 네라고 한 건데?",
+   "note": "decir que sí = 그러겠다고 하다",
+   "tags": [
+    "expr:tío"
+   ],
+   "new": [],
+   "tl_f": "¿«Sí, sí»? Tía, ¿a qué dijiste que sí?",
+   "rd_f": "«시, 시»? 띠아, 아 께 디히스떼 께 시?"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Bueno, a todo. Parecía muy contenta.",
+   "rd": "부에노, 아 또도. 빠레씨아 무이 꼰뗀따.",
+   "ko": "음, 전부 다. 되게 좋아하시던데.",
+   "note": "parecer = ~해 보이다",
+   "tags": [
+    "expr:bueno"
+   ],
+   "new": [
+    "parecer",
+    "contento"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "¡Hola, chicos! ¿Dónde pongo la paella?",
+   "rd": "올라, 치꼬스! 돈데 뽄고 라 빠에야?",
+   "ko": "얘들아, 안녕! 파에야는 어디다 놓을까?",
+   "note": "¿Dónde pongo…? = ~를 어디 놓을까?",
+   "tags": [
+    "form:poner"
+   ],
+   "new": [
+    "paella"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "¿Qué paella? Perdone, ¿qué pasa aquí?",
+   "rd": "께 빠에야? 뻬르도네, 께 빠사 아끼?",
+   "ko": "무슨 파에야요? 저기요, 지금 이게 무슨 일이에요?",
+   "note": "perdone = 어른께 쓰는 usted 형",
+   "tags": [
+    "expr:qué pasa"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "La reunión de vecinos, en vuestro piso. Somos veinte.",
+   "rd": "라 레우니온 데 베씨노스, 엔 부에스뜨로 삐소. 소모스 베인떼.",
+   "ko": "주민 회의잖니, 너희 집에서. 스무 명이야.",
+   "note": "vuestro = 너희의(스페인식 vosotros)",
+   "tags": [
+    "form:vosotros"
+   ],
+   "new": [
+    "reunión",
+    "piso"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Veinte… Diego, ¿cuántos platos tenemos?",
+   "rd": "베인떼… 디에고, 꾸안또스 쁘라또스 떼네모스?",
+   "ko": "스무 명… 디에고, 우리 접시 몇 개 있어?",
+   "note": "¿Cuántos…? = 몇 개?",
+   "tags": [],
+   "new": [
+    "plato"
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Tres. La próxima vez, di «no entiendo».",
+   "rd": "뜨레스. 라 쁘록시마 베쓰, 디 «노 엔띠엔도».",
+   "ko": "세 개. 다음엔 「못 알아듣겠어요」라고 해.",
+   "note": "di = decir 의 명령형",
+   "tags": [
+    "form:imperativo"
+   ],
+   "new": [
+    "entender"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Sí, sí.",
+   "rd": "시, 시.",
+   "ko": "네, 네.",
+   "note": "입버릇은 안 고쳐진다 — 끝 줄 콜백",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "draft": "claude"
+}
