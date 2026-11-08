@@ -237,7 +237,7 @@ class _UnitBlock extends StatelessWidget {
           GridView.builder(
             shrinkWrap: true,
             physics: const NeverScrollableScrollPhysics(),
-            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: cols, mainAxisSpacing: 6, crossAxisSpacing: 6),
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: cols, mainAxisSpacing: 6, crossAxisSpacing: 6, childAspectRatio: 0.86), // 그림+단어+뜻이 정사각형에 4~6px 넘침(아이패드 스크린샷) → 세로로 조금 길게
             itemCount: words.length,
             itemBuilder: (context, i) => _WordTile(w: words[i], color: regions[words[i].region]?.color ?? AppColors.sumi),
           ),
@@ -261,7 +261,7 @@ class _WordTile extends StatelessWidget {
           padding: const EdgeInsets.all(6),
           child: LayoutBuilder(
             builder: (context, c) {
-              final art = (c.maxHeight * 0.42).clamp(28.0, 72.0);
+              final art = (c.maxHeight * 0.40).clamp(28.0, 72.0);
               return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
