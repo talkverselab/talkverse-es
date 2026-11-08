@@ -1,0 +1,150 @@
+{
+ "id": "r3_s01_life",
+ "region": "R3",
+ "stage": 1,
+ "source": "r1_s01_life",
+ "level_name": "그래머2(복수·존댓말)",
+ "island": "life",
+ "kind": "short",
+ "title": "그 방들의 주인",
+ "emoji": "📦",
+ "scene": "1단계 「그 방의 주인」을 복수·존댓말로 — 집주인이 방을 보여 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Casera"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "같은 이야기를 복수(las·los·son·tienen)와 usted(mire·su)로 갈아끼우기 — 새 단어 0",
+ "expressions": [
+  "vale",
+  "bueno"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Mire, estas son las habitaciones. Los baños, ahí.",
+   "rd": "미레, 에스따스 손 라스 아비따씨오네스. 로스 바뇨스, 아이.",
+   "ko": "보세요, 여기가 방들이에요. 화장실은 저기고요.",
+   "note": "mire = mirar 의 usted 명령",
+   "tags": [
+    "form:usted",
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¡Qué bonitas! ¿Son grandes?",
+   "rd": "께 보니따스! 손 그란데스?",
+   "ko": "예쁘네요! 큰가요?",
+   "note": "bonitas = habitaciones 에 맞춘 여성 복수",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "excited"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Son pequeñas, pero tienen mucha luz.",
+   "rd": "손 뻬께냐스, 뻬로 띠에넨 무차 루쓰.",
+   "ko": "작긴 한데, 햇빛이 잘 들어요.",
+   "note": "tienen = tener 3인칭 복수",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Perfecto. ¿Y esas cajas rojas?",
+   "rd": "뻬르페끄또. 이 에사스 까하스 로하스?",
+   "ko": "좋네요. 저 빨간 상자들은요?",
+   "note": "cajas rojas = 여성 복수 일치",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ah, no. Esas cajas son de mis gatos.",
+   "rd": "아, 노. 에사스 까하스 손 데 미스 가또스.",
+   "ko": "아, 그건요. 우리 고양이들 상자예요.",
+   "note": "mis gatos = 내 고양이들",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Sus gatos? ¿Y dónde están los gatos?",
+   "rd": "수스 가또스? 이 돈데 에스딴 로스 가또스?",
+   "ko": "고양이들이요? 고양이들은 어디 있어요?",
+   "note": "sus = usted 의(당신의)",
+   "tags": [
+    "form:usted"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "En su cama. Bueno… es su habitación.",
+   "rd": "엔 수 까마. 부에노… 에스 수 아비따씨온.",
+   "ko": "손님 침대에요. 뭐… 원래 걔들 방이거든요.",
+   "note": "su = 「손님의」도 「걔들의」도 된다(중의)",
+   "tags": [
+    "expr:bueno",
+    "form:usted"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "En su cama."
+    ],
+    [
+     "teasing",
+     "Bueno… es su habitación."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Vale. ¿Y ellos pagan también?",
+   "rd": "발레. 이 에요스 빠간 땀비엔?",
+   "ko": "네. 그럼 걔들도 돈 내나요?",
+   "note": "ellos pagan = 그들이 낸다(3인칭 복수)",
+   "tags": [
+    "expr:vale",
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  }
+ ],
+ "draft": "claude"
+}

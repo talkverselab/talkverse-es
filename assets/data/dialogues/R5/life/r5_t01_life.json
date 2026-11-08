@@ -1,0 +1,246 @@
+{
+ "id": "r5_t01_life",
+ "region": "R5",
+ "stage": 1,
+ "level_name": "어휘 완주",
+ "island": "life",
+ "kind": "long",
+ "title": "조용한 동네",
+ "emoji": "🏢",
+ "scene": "Lucía 와 함께 집을 보러 갔다 — 주제 1 「집」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía",
+  "C": "Agente"
+ },
+ "register": "mixed",
+ "twist": 13,
+ "twist_type": "chaos",
+ "flags": [
+  "alcohol"
+ ],
+ "purpose": [
+  "study_abroad",
+  "work_spain"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "집 구하기 어휘(alquiler·fianza·calefacción·ascensor·portero·ruido·firmar)",
+ "expressions": [
+  "bueno",
+  "madre mía",
+  "espera"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Bienvenidos. El piso tiene ochenta metros, terraza y mucha luz.",
+   "rd": "비엔베니도스. 엘 삐소 띠에네 오첸따 메뜨로스, 떼라싸 이 무차 루쓰.",
+   "ko": "어서 오세요. 이 집은 80제곱미터에 테라스, 채광도 좋아요.",
+   "note": "metros = 제곱미터(집 넓이)",
+   "tags": [],
+   "new": [
+    "terraza",
+    "luz",
+    "metro"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "¿Y el alquiler? Porque en el anuncio no ponía nada.",
+   "rd": "이 엘 알낄레르? 뽀르께 엔 엘 아눈씨오 노 뽀니아 나다.",
+   "ko": "월세는요? 광고엔 아무것도 안 적혀 있던데요.",
+   "note": "alquiler = 월세 · anuncio = 광고",
+   "tags": [],
+   "new": [
+    "alquiler",
+    "anuncio"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Mil cuatrocientos al mes, más dos meses de fianza.",
+   "rd": "밀 꾸아뜨로씨엔또스 알 메스, 마스 도스 메세스 데 피안싸.",
+   "ko": "한 달에 1,400이고, 보증금 두 달 치 따로요.",
+   "note": "fianza = 보증금",
+   "tags": [],
+   "new": [
+    "fianza"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Mil cuatrocientos? ¿Están incluidas la calefacción y el agua?",
+   "rd": "밀 꾸아뜨로씨엔또스? 에스딴 인끄루이다스 라 깔레파끄씨온 이 엘 아구아?",
+   "ko": "1,400이요? 난방이랑 수도는 포함인가요?",
+   "note": "incluido = 포함된",
+   "tags": [],
+   "new": [
+    "calefacción",
+    "incluir"
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "La calefacción, no. Pero el edificio tiene ascensor y portero.",
+   "rd": "라 깔레파끄씨온, 노. 뻬로 엘 에디피씨오 띠에네 아스쎈소르 이 뽀르떼로.",
+   "ko": "난방은 아니에요. 대신 엘리베이터랑 경비원이 있어요.",
+   "note": "portero = 건물 관리인·경비",
+   "tags": [],
+   "new": [
+    "edificio",
+    "ascensor",
+    "portero"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "¿Y el ruido? La calle parece bastante tranquila.",
+   "rd": "이 엘 루이도? 라 까예 빠레쎄 바스딴떼 뜨란낄라.",
+   "ko": "소음은요? 길은 꽤 조용해 보이는데.",
+   "note": "ruido = 소음",
+   "tags": [],
+   "new": [
+    "ruido",
+    "tranquilo"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Muy tranquila. Bueno, menos los fines de semana.",
+   "rd": "무이 뜨란낄라. 부에노, 메노스 로스 피네스 데 세마나.",
+   "ko": "아주 조용해요. 뭐, 주말만 빼면요.",
+   "note": "menos = ~을 빼고",
+   "tags": [
+    "expr:bueno"
+   ],
+   "new": [
+    "fin de semana"
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "¿Qué pasa los fines de semana?",
+   "rd": "께 빠사 로스 피네스 데 세마나?",
+   "ko": "주말에 무슨 일이 있는데요?",
+   "note": "los fines de semana = 주말마다",
+   "tags": [],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "Nada grave. Abajo hay una discoteca, pero cierra a las seis.",
+   "rd": "나다 그라베. 아바호 아이 우나 디스꼬떼까, 뻬로 씨에라 아 라스 세이스.",
+   "ko": "별거 아니에요. 아래층에 클럽이 있는데, 여섯 시에 닫아요.",
+   "note": "abajo = 아래(층)에",
+   "tags": [],
+   "new": [
+    "discoteca",
+    "grave",
+    "cerrar"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "¿A las seis de la tarde?",
+   "rd": "아 라스 세이스 데 라 따르데?",
+   "ko": "오후 여섯 시요?",
+   "note": "de la tarde = 오후",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "De la mañana. Pero los vecinos dicen que uno se acostumbra.",
+   "rd": "데 라 마냐나. 뻬로 로스 베씨노스 디쎈 께 우노 세 아꼬스뚬브라.",
+   "ko": "아침 여섯 시요. 근데 이웃들 말로는 금방 익숙해진대요.",
+   "note": "acostumbrarse = 익숙해지다",
+   "tags": [],
+   "new": [
+    "acostumbrarse",
+    "vecino"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Y si firmamos hoy, ¿nos baja el precio?",
+   "rd": "이 시 피르마모스 오이, 노스 바하 엘 쁘레씨오?",
+   "ko": "오늘 계약하면 가격 좀 깎아 주시나요?",
+   "note": "firmar = 서명하다·계약하다",
+   "tags": [],
+   "new": [
+    "firmar",
+    "precio",
+    "bajar"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "Si firman hoy, les regalo dos entradas para la discoteca.",
+   "rd": "시 피르만 오이, 레스 레갈로 도스 엔뜨라다스 빠라 라 디스꼬떼까.",
+   "ko": "오늘 계약하시면 그 클럽 입장권 두 장 드릴게요.",
+   "note": "regalar = 선물로 주다",
+   "tags": [],
+   "new": [
+    "regalar",
+    "entrada"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Madre mía. Vámonos, {name}.",
+   "rd": "마드레 미아. 바모노스, {name}.",
+   "ko": "세상에. 가자, {name}.",
+   "note": "vámonos = 가자",
+   "tags": [
+    "expr:madre mía"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "Espera. ¿Las entradas incluyen copas?",
+   "rd": "에스뻬라. 라스 엔뜨라다스 인끄루옌 꼬빠스?",
+   "ko": "잠깐만요. 입장권에 술도 포함인가요?",
+   "note": "copa = (술) 한 잔",
+   "tags": [
+    "expr:espera"
+   ],
+   "new": [
+    "copa"
+   ],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

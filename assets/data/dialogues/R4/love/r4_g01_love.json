@@ -1,0 +1,260 @@
+{
+ "id": "r4_g01_love",
+ "region": "R4",
+ "stage": 1,
+ "level_name": "어려운 문법",
+ "island": "love",
+ "kind": "long",
+ "title": "마지막 장",
+ "emoji": "📕",
+ "scene": "Marta 가 토요일 전에 꼭 읽으라며 책 한 권을 건넨다 — 문법 1 「접속법 현재: 바람·감정」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "casual",
+ "twist": 12,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "reading"
+ ],
+ "domain": [
+  "love",
+  "culture"
+ ],
+ "goal": "quiero que·no creo que·espero que·ojalá·me da vergüenza que + 접속법",
+ "expressions": [
+  "a ver",
+  "espera",
+  "qué fuerte",
+  "vaya",
+  "ojalá",
+  "me da vergüenza"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Toma. Quiero que leas este libro antes del sábado.",
+   "rd": "또마. 끼에로 께 레아스 에스떼 리브로 안떼스 델 사바도.",
+   "ko": "자. 토요일 전에 이 책 꼭 읽어 줘.",
+   "note": "quiero que + 접속법(leas)",
+   "tags": [
+    "form:subjuntivo"
+   ],
+   "new": [
+    "leer"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¿Antes del sábado? ¿Por qué tanta prisa?",
+   "rd": "안떼스 델 사바도? 뽀르 께 딴따 쁘리사?",
+   "ko": "토요일 전에? 왜 그렇게 급해?",
+   "note": "tanta prisa = 그렇게 급하게",
+   "tags": [],
+   "new": [
+    "prisa"
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Porque el sábado lo presento y quiero que vengas.",
+   "rd": "뽀르께 엘 사바도 로 쁘레센또 이 끼에로 께 벤가스.",
+   "ko": "토요일에 내가 이 책을 소개하는데, 네가 와 줬으면 해서.",
+   "note": "quiero que vengas = 네가 와 줬으면 · presentar = 소개하다",
+   "tags": [
+    "form:subjuntivo"
+   ],
+   "new": [
+    "presentar"
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Lo presentas tú? ¿Y de quién es?",
+   "rd": "로 쁘레센따스 뚜? 이 데 끼엔 에스?",
+   "ko": "네가 소개한다고? 누구 책인데?",
+   "note": "¿De quién es? = 누구 거야?",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "De una chica nueva. No creo que la conozcas.",
+   "rd": "데 우나 치까 누에바. 노 끄레오 께 라 꼬노쓰까스.",
+   "ko": "신인이야. 넌 모를 거야.",
+   "note": "no creo que + 접속법(conozcas)",
+   "tags": [
+    "form:subjuntivo"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "A ver… Espera, ¿esta foto no eres tú?",
+   "rd": "아 베르… 에스뻬라, 에스따 포또 노 에레스 뚜?",
+   "ko": "어디 보자… 잠깐, 이 사진 너 아니야?",
+   "note": "a ver = 어디 보자",
+   "tags": [
+    "expr:a ver",
+    "expr:espera"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "…Puede ser. Pero no quiero que se lo digas a nadie.",
+   "rd": "…뿌에데 세르. 뻬로 노 끼에로 께 세 로 디가스 아 나디에.",
+   "ko": "…그럴 수도. 근데 아무한테도 말하지 마.",
+   "note": "no quiero que + 접속법",
+   "tags": [
+    "form:subjuntivo"
+   ],
+   "new": [],
+   "emotion": "shy"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "¡Qué fuerte! ¿Y de qué va?",
+   "rd": "께 푸에르떼! 이 데 께 바?",
+   "ko": "대박! 무슨 내용인데?",
+   "note": "¿De qué va? = 무슨 내용이야?",
+   "tags": [
+    "expr:qué fuerte"
+   ],
+   "new": [],
+   "emotion": "excited"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "De una chica que trabaja con libros y se enamora de un cliente.",
+   "rd": "데 우나 치까 께 뜨라바하 꼰 리브로스 이 세 에나모라 데 운 끄리엔떼.",
+   "ko": "책 일을 하는 여자가 손님한테 반하는 얘기야.",
+   "note": "enamorarse de = ~에게 반하다",
+   "tags": [
+    "form:reflexivo"
+   ],
+   "new": [
+    "enamorarse",
+    "cliente"
+   ],
+   "emotion": "shy",
+   "tl_f": "De una chica que trabaja con libros y se enamora de una clienta.",
+   "rd_f": "데 우나 치까 께 뜨라바하 꼰 리브로스 이 세 에나모라 데 우나 끄리엔따."
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Vaya. Espero que el cliente sea guapo, por lo menos.",
+   "rd": "바야. 에스뻬로 께 엘 끄리엔떼 세아 구아뽀, 뽀르 로 메노스.",
+   "ko": "오. 그 손님 잘생겼으면 좋겠다, 적어도.",
+   "note": "espero que + 접속법(sea)",
+   "tags": [
+    "expr:vaya",
+    "form:subjuntivo"
+   ],
+   "new": [
+    "guapo"
+   ],
+   "emotion": "teasing",
+   "tl_f": "Vaya. Espero que la clienta sea guapa, por lo menos.",
+   "ko_f": "오. 그 손님 예뻤으면 좋겠다, 적어도.",
+   "rd_f": "바야. 에스뻬로 께 라 끄리엔따 세아 구아빠, 뽀르 로 메노스."
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Bastante. Aunque no sabe pronunciar «te quiero».",
+   "rd": "바스딴떼. 아운께 노 사베 쁘로눈씨아르 «떼 끼에로».",
+   "ko": "꽤. 근데 「te quiero」 발음을 못 해.",
+   "note": "aunque = 그런데도·~지만",
+   "tags": [
+    "callback:r1_love_a1"
+   ],
+   "new": [
+    "pronunciar"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "…Espera. ¿Ese soy yo?",
+   "rd": "…에스뻬라. 에세 소이 요?",
+   "ko": "…잠깐. 그거 나야?",
+   "note": "ese soy yo = 그게 나야",
+   "tags": [
+    "expr:espera"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "tl_f": "…Espera. ¿Esa soy yo?",
+   "rd_f": "…에스뻬라. 에사 소이 요?"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Ojalá que llegues al final antes del sábado.",
+   "rd": "오할라 께 예게스 알 피날 안떼스 델 사바도.",
+   "ko": "토요일 전에 끝까지 읽었으면 좋겠다.",
+   "note": "ojalá que + 접속법 = ~하면 좋겠다",
+   "tags": [
+    "expr:ojalá",
+    "form:subjuntivo"
+   ],
+   "new": [
+    "final"
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "¿Por qué? ¿Qué pasa al final?",
+   "rd": "뽀르 께? 께 빠사 알 피날?",
+   "ko": "왜? 끝에 무슨 일이 있는데?",
+   "note": "¿Qué pasa…? = 무슨 일이 있어?",
+   "tags": [
+    "expr:qué pasa"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Léelo. Me da vergüenza que lo oigas de mí.",
+   "rd": "레엘로. 메 다 베르그우엔싸 께 로 오이가스 데 미.",
+   "ko": "읽어 봐. 내 입으로 듣는 건 부끄러우니까.",
+   "note": "me da vergüenza que + 접속법",
+   "tags": [
+    "expr:me da vergüenza",
+    "form:subjuntivo"
+   ],
+   "new": [
+    "oír"
+   ],
+   "emotion": "shy"
+  }
+ ],
+ "draft": "claude"
+}

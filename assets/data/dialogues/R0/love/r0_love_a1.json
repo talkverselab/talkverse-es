@@ -1,0 +1,154 @@
+{
+ "id": "r0_love_a1",
+ "region": "R0",
+ "stage": 1,
+ "level_name": "소리·짧은 회화",
+ "island": "love",
+ "kind": "chat",
+ "title": "내 사진 말고",
+ "emoji": "🐶",
+ "scene": "데이팅앱에서 매칭된 Marta 의 첫 메시지",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "인사·ser 로 자기소개(soy) · 짧은 반응",
+ "expressions": [
+  "vale",
+  "ya",
+  "es que"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¡Hola! ¿Eres {name}?",
+   "rd": "올라! 에레스 {name}?",
+   "ko": "안녕! 너 {name} 맞지?",
+   "note": "¿Eres…? = 너 ~야?",
+   "tags": [
+    "form:ser"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "21:03"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Sí, soy yo. ¡Hola, Marta!",
+   "rd": "시, 소이 요. 올라, 마르따!",
+   "ko": "응, 나야. 안녕, 마르타!",
+   "note": "soy yo = 나야",
+   "tags": [
+    "form:ser"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "21:04"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Tu foto es muy bonita.",
+   "rd": "뚜 포또 에스 무이 보니따.",
+   "ko": "네 사진 진짜 예쁘다.",
+   "note": "tu foto = 네 사진",
+   "tags": [],
+   "new": [
+    "foto"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "21:04"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Mi foto? Es mi perro.",
+   "rd": "미 포또? 에스 미 뻬로.",
+   "ko": "내 사진? 그거 우리 개인데.",
+   "note": "mi perro = 우리 개(내 개)",
+   "tags": [],
+   "new": [
+    "perro"
+   ],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "21:05"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ya… Es que me gusta tu perro.",
+   "rd": "야… 에스 께 메 구스따 뚜 뻬로.",
+   "ko": "아… 그게, 네 개가 마음에 들어서.",
+   "note": "me gusta = 마음에 들어",
+   "tags": [
+    "expr:ya",
+    "expr:es que"
+   ],
+   "new": [
+    "gustar"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Ya…"
+    ],
+    [
+     "amused",
+     "Es que me gusta tu perro."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "21:05",
+   "stamp": "🙈"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Vale. ¿Y yo?",
+   "rd": "발레. 이 요?",
+   "ko": "그래. 그럼 나는?",
+   "note": "¿Y yo? = 나는?",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "21:06"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Tú también. Un poco.",
+   "rd": "뚜 땀비엔. 운 뽀꼬.",
+   "ko": "너도. 조금.",
+   "note": "un poco = 조금",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "21:08",
+   "stamp": "😂"
+  }
+ ],
+ "draft": "claude"
+}

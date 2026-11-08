@@ -1,0 +1,166 @@
+{
+ "id": "r1_s01_life",
+ "region": "R1",
+ "stage": 1,
+ "level_name": "관사·성수·활용 골격",
+ "island": "life",
+ "kind": "short",
+ "title": "그 방의 주인",
+ "emoji": "📦",
+ "scene": "셰어하우스 첫날, 룸메이트 Diego 가 집을 보여 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Diego"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "관사 el/la·un/una 와 형용사 성 일치(bonita·pequeña·roja)",
+ "expressions": [
+  "mira",
+  "vale",
+  "bueno",
+  "pues"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Mira, esta es la cocina. El baño, ahí.",
+   "rd": "미라, 에스따 에스 라 꼬씨나. 엘 바뇨, 아이.",
+   "ko": "봐, 여기가 부엌이야. 화장실은 저기.",
+   "note": "la cocina(여) · el baño(남)",
+   "tags": [
+    "expr:mira",
+    "form:artículo"
+   ],
+   "new": [
+    "cocina",
+    "baño"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¡Qué bonita! ¿Y la habitación?",
+   "rd": "께 보니따! 이 라 아비따씨온?",
+   "ko": "예쁘다! 내 방은?",
+   "note": "bonita = cocina 에 맞춘 여성형",
+   "tags": [
+    "form:concordancia"
+   ],
+   "new": [
+    "habitación"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Es pequeña, pero tiene mucha luz.",
+   "rd": "에스 뻬께냐, 뻬로 띠에네 무차 루쓰.",
+   "ko": "좀 작은데, 햇빛이 잘 들어.",
+   "note": "pequeña = habitación 에 맞춘 여성형 · mucha luz(여)",
+   "tags": [
+    "form:concordancia"
+   ],
+   "new": [
+    "luz",
+    "pequeño"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Perfecto. ¿Y esa caja roja?",
+   "rd": "뻬르페끄또. 이 에사 까하 로하?",
+   "ko": "완벽해. 저 빨간 상자는 뭐야?",
+   "note": "caja roja = 여성 명사 + 여성 형용사",
+   "tags": [
+    "form:concordancia"
+   ],
+   "new": [
+    "caja",
+    "rojo"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ah, no. Esa caja es de mi gato.",
+   "rd": "아, 노. 에사 까하 에스 데 미 가또.",
+   "ko": "아, 그거. 그 상자는 우리 고양이 거야.",
+   "note": "es de… = ~의 것이다",
+   "tags": [
+    "form:ser"
+   ],
+   "new": [
+    "gato"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Un gato? ¿Y dónde está el gato?",
+   "rd": "운 가또? 이 돈데 에스따 엘 가또?",
+   "ko": "고양이? 고양이는 어디 있는데?",
+   "note": "un gato → el gato(처음 말할 때 un, 다시 말할 때 el)",
+   "tags": [
+    "form:artículo"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "En tu cama. Bueno… es su habitación.",
+   "rd": "엔 뚜 까마. 부에노… 에스 수 아비따씨온.",
+   "ko": "네 침대에. 뭐… 원래 걔 방이거든.",
+   "note": "su = 그(고양이)의",
+   "tags": [
+    "expr:bueno"
+   ],
+   "new": [
+    "cama"
+   ],
+   "segs": [
+    [
+     "amused",
+     "En tu cama."
+    ],
+    [
+     "teasing",
+     "Bueno… es su habitación."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Pues… ¡hola, compañero!",
+   "rd": "뿌에스… 올라, 꼼빠녜로!",
+   "ko": "그럼… 안녕, 룸메이트!",
+   "note": "compañero = 같이 사는 사람·짝",
+   "tags": [
+    "expr:pues"
+   ],
+   "new": [
+    "compañero"
+   ],
+   "emotion": "flustered"
+  }
+ ],
+ "draft": "claude"
+}

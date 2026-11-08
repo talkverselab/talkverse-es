@@ -1,0 +1,168 @@
+{
+ "id": "r2_s04_friends",
+ "region": "R2",
+ "stage": 4,
+ "level_name": "챗 실전",
+ "island": "friends",
+ "kind": "chat",
+ "title": "오 분만",
+ "emoji": "🍕",
+ "scene": "약속에 늦는 Javi 와의 채팅 — 상황 4 「늦음」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Javi"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "채팅에서 재촉하기·변명 받아치기",
+ "expressions": [
+  "te lo juro",
+  "de verdad",
+  "vale",
+  "ya"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Javi, ¿dónde estás?",
+   "rd": "하비, 돈데 에스따스?",
+   "ko": "하비, 어디야?",
+   "note": "¿Dónde estás? = 어디야?",
+   "tags": [
+    "form:estar"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "20:05",
+   "stamp": "🙄"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Llego en cinco minutos, te lo juro.",
+   "rd": "예고 엔 씬꼬 미누또스, 떼 로 후로.",
+   "ko": "오 분 안에 도착해, 진짜로.",
+   "note": "te lo juro = 맹세해, 진짜야",
+   "tags": [
+    "expr:te lo juro"
+   ],
+   "new": [
+    "jurar"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "20:09"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "¿Cinco minutos de verdad?",
+   "rd": "씬꼬 미누또스 데 베르다드?",
+   "ko": "진짜 오 분 맞아?",
+   "note": "de verdad = 정말로",
+   "tags": [
+    "expr:de verdad"
+   ],
+   "new": [],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "20:31",
+   "stamp": "😐"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Vale, vale. Ya estoy de camino.",
+   "rd": "발레, 발레. 야 에스또이 데 까미노.",
+   "ko": "알았어, 알았어. 지금 가는 중이야.",
+   "note": "de camino = 가는 중",
+   "tags": [
+    "expr:vale",
+    "expr:ya"
+   ],
+   "new": [
+    "camino"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "20:32"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "¿Metro? Tu historia dice: sofá, peli y pizza.",
+   "rd": "메뜨로? 뚜 이스또리아 디쎄: 소파, 뻴리 이 삐쓰싸.",
+   "ko": "지하철? 네 스토리엔 소파, 영화, 피자던데.",
+   "note": "historia = SNS 스토리",
+   "tags": [],
+   "new": [
+    "historia",
+    "sofá"
+   ],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "20:33"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Jajaja. Es una foto vieja.",
+   "rd": "하하하. 에스 우나 포또 비에하.",
+   "ko": "ㅋㅋㅋ 옛날 사진이야.",
+   "note": "vieja = foto 에 맞춘 여성형",
+   "tags": [
+    "form:concordancia"
+   ],
+   "new": [
+    "viejo"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "20:35"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "La pizza tiene la fecha de hoy.",
+   "rd": "라 삐쓰싸 띠에네 라 페차 데 오이.",
+   "ko": "피자에 오늘 날짜가 찍혀 있는데.",
+   "note": "la fecha de hoy = 오늘 날짜",
+   "tags": [],
+   "new": [
+    "fecha"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "20:35",
+   "stamp": "😂"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Vale. Salgo ya. ¿Te guardo un trozo?",
+   "rd": "발레. 살고 야. 떼 구아르도 운 뜨로쏘?",
+   "ko": "그래. 지금 나가. 한 조각 남겨 줄까?",
+   "note": "salgo ya = 지금 나가",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [
+    "trozo"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "20:36"
+  }
+ ],
+ "draft": "claude"
+}
