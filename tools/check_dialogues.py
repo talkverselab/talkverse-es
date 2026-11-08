@@ -8,13 +8,17 @@ sys.path.insert(0, str(Path(__file__).parent))
 from rd_es import rd
 
 ROOT = Path(__file__).resolve().parent.parent
-TURNS = {'R0': (6, 8), 'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 16)}
-WORDS = {'R0': 8, 'R1': 8, 'R2': 12, 'R3': 22, 'R4': 22}
+TURNS = {'R0': (6, 8), 'R1': (6, 8), 'R2': (6, 12), 'R3': (6, 16), 'R4': (12, 16), 'R5': (12, 16)}
+WORDS = {'R0': 8, 'R1': 8, 'R2': 10, 'R3': 10, 'R4': 22, 'R5': 22}
+# 2026-11-07 옛 번호로 쓴 4편(stage 없음)은 옛 기준
+OLD_TURNS = {'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 16)}
+OLD_WORDS = {'R1': 8, 'R2': 12, 'R3': 22, 'R4': 22}
 TWIST = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
 ISLANDS = {'survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', 'study'}
 NEED = ['id', 'region', 'island', 'kind', 'title', 'emoji', 'scene', 'speakers', 'register', 'twist', 'twist_type', 'expressions', 'purpose', 'domain', 'turns']
 EMOTIONS = set('neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle'.split())
 BAD = re.compile(r'[A-Za-z]')
+PLURAL = re.compile(r'(?<![\wáéíóúñ])(nosotros|nosotras|vosotros|vosotras|ellos|ellas|usted|ustedes|os|vuestro|vuestra|vuestros|vuestras|nuestro|nuestra|nuestros|nuestras|somos|sois|son|estamos|estáis|están|tenemos|tenéis|tienen|vamos|vais|van|podemos|podéis|pueden|queremos|queréis|quieren|hacemos|hacéis|hacen|habéis|hemos|han|perdone|oiga|disculpe)(?![\wáéíóúñ])', re.I)
 pool = {r['expr'].lower() for r in csv.DictReader(open(ROOT / 'data/expressions/top_expressions_es.csv', encoding='utf-8'))}
 
 
@@ -41,7 +45,9 @@ def check(path, fix):
         e.append(f"island {d['island']}")
     if d['twist_type'] not in TWIST:
         e.append(f"twist_type {d['twist_type']}")
-    lo, hi = TURNS[lv]
+    old = d.get('stage') is None and lv in OLD_TURNS
+    lo, hi = (OLD_TURNS if old else TURNS)[lv]
+    wmax = (OLD_WORDS if old else WORDS)[lv]
     ts = d['turns']
     if not lo <= len(ts) <= hi:
         e.append(f'턴 수 {len(ts)} (허용 {lo}~{hi})')
@@ -55,6 +61,13 @@ def check(path, fix):
     hit = [x for x in pool if re.search(r'(?<![\wáéíóúüñ])' + re.escape(x) + r'(?![\wáéíóúüñ])', text)]
     if len(hit) < 2:
         e.append(f'표현 풀 {len(hit)}개(≥2)')
+    # 레벨 1·2(골격·챗)와 0: 단수·반말만(굴절어 전략 A3·A4) — 옛 4편(stage 없음)은 건너뜀
+    if d.get('stage') is not None and lv in ('R0', 'R1', 'R2'):
+        for t in ts:
+            for x in (t.get('tl', ''), t.get('tl_f', '')):
+                m = PLURAL.search(x)
+                if m:
+                    e.append(f"{t['num']}: 단수·반말 레벨에 「{m[0]}」")
     changed = False
     for i, t in enumerate(ts):
         n = t.get('num')
@@ -67,9 +80,9 @@ def check(path, fix):
         if t.get('speaker') not in d['speakers']:
             e.append(f'{n}: 화자 {t.get("speaker")} 가 speakers 에 없음')
         w = nwords(tl)
-        if w > WORDS[lv]:
-            e.append(f'{n}: 단어 {w} (≤{WORDS[lv]})')
-        if lv in ('R0', 'R1') and w == 1 and n != d['twist'] and n != len(ts) and norm(tl) not in pool and d['kind'] != 'chat':
+        if w > wmax:
+            e.append(f'{n}: 단어 {w} (≤{wmax})')
+        if lv in ('R0', 'R1', 'R2', 'R3') and w == 1 and n != d['twist'] and n != len(ts) and norm(tl) not in pool and d['kind'] != 'chat':
             e.append(f'{n}: 1단어 턴')
         for a, b in (('¿', '?'), ('¡', '!')):
             if tl.count(a) != tl.count(b):
@@ -113,7 +126,7 @@ def main():
     files = []
     for x in a:
         files += [x] if x.endswith('.json') else glob.glob(x + '/**/*.json', recursive=True)
-    files = [f for f in files if re.search(r'/R[0-4]/', f)]
+    files = [f for f in files if re.search(r'/R[0-5]/', f)]
     bad, tw, kinds = 0, collections.Counter(), collections.Counter()
     for f in sorted(files):
         try:

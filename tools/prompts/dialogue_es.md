@@ -51,5 +51,19 @@ A 는 남녀 모두다. A 의 말이나 A 를 부르는 말이 성에 따라 바
 - **감정(사용자 지시 2026-11-07)**: 턴마다 음성을 고려한 `emotion` 을 쓴다. 값 = neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle. 한 턴에서 감정이 바뀌면 `emotion` 대신 `segs`(`[[감정, 본문], …]`, 이어 붙이면 `tl`)로 나눈다. neutral 만 쓰지 말 것 — 심쿵 턴은 gentle·shy, 받아치기는 tsukkomi.
 - `rd` 는 비워 두고 `python3 tools/check_dialogues.py --fix-rd <폴더>` 로 채운다. 틀린 곳만 손으로 고치고 `"rd_manual":true`.
 
+## 레벨 = 문법 단계(굴절어 전략 A1, 사용자 결정 2026-11-08) — 폴더 R 숫자 = 회화 레벨
+`docs/DIALOGUE_RULES_es.md` 참고. 단어 메뉴 R1~R5(절벽 tier)와 다른 번호다. 각 편에 `stage`(단계 번호)와 `level_name` 을 적는다. 핵심 문장 = 회화 편의 줄(변형 카드 450 은 동결 대상이라 아직 안 씀).
+
+| 폴더 | 레벨 | 편 | 턴 | 어휘 | 문법·말투 |
+|---|---|---|---|---|---|
+| R0 | 0 소리·짧은 회화 | 8편(r0_<주제>_a1~) | 6 | 주로 300위 안 | 현재형·인사·짧은 반응. 반말 관계만, 단수만 |
+| R1 | 1 관사·성수·활용 골격 | 10편 = 골격 10단계 × 1(편 id r1_s01~s10_<주제>) | 6~8 | 주로 570위 안 | 단계: ①관사·성수 일치 ②ser/estar ③현재 규칙 -ar/-er/-ir ④gustar 구문 ⑤목적 대명사 lo/la/le ⑥전치사 a·de·en·con ⑦현재완료(오늘 일) ⑧ir a+원형 ⑨재귀동사 ⑩단순과거 씨앗. **단수 1·2·3인칭만**(nosotros·vosotros·ellos·ustedes 금지), **반말 관계만**(친구·채팅·연인·룸메이트 — 가게·낯선 사이 장면 금지, usted 금지). 불규칙 8동사(ser·estar·ir·tener·hacer·poder·querer·decir)는 통문장으로 |
+| R2 | 2 챗 실전 | 10편 = 채팅 상황 10(첫 인사·사진·약속·늦음·사과·취소·농담·오해·화해·다음 약속) | 6~8 | 주로 570위 안 + 채팅 말 | 모두 chat(ui bubble·at·stamp·read). 단수만, 반말만. 진짜 스페인 채팅 말투(jajaja·q·xq·tb 살짝) |
+| R3 | 3 그래머2 | 10편 = R1 10편을 **복수·존댓말로 갈아끼운 것**(같은 이야기, 새 단어 0) | 6~8 | R1 과 같음 | nosotros·vosotros·ellos/ellas·usted·ustedes 해금. 가게·낯선 사이 장면은 여기부터 |
+| R4 | 4 어려운 문법 | 10편 = 문법 10(접속법 현재-바람·감정 / cuando+접속법 / 조건법 / 단순과거↔불완료 / 과거완료 / 명령형 긍정·부정 / 대명사 결합 se lo / 무인칭·수동 se / por↔para / si+접속법 과거) | 12~16 | 주로 1,000위 안 | 「정복」이 아니라 씨앗 — 그 문법이 자연스럽게 두세 번 나오면 된다 |
+| R5 | 5 어휘 완주 | 10편 = 주제 10(집·일·건강·감정·날씨/계절·여행/이동·돈·가족 행사·갈등·미래) | 12~16 | 571~2,000위 단어를 편마다 많이 | 새 문법 없음 |
+
+2026-11-07 의 레벨별 한 편 초안 4편(R1 love·R2 life·R3 friends·R4 work)은 옛 번호 기준이라 그대로 두고, 위 구성의 편과 별도다(점검표 `docs/DIALOGUE_RULES_es.md` C-2).
+
 ## 묶음 구성
 R1 = survival s1~s3(6턴) + 주제 5개(friends·love·life·travel·culture) × 16편(a1~a6 짧은 6턴 · b1~b6 긴 7~8턴 · c1~c4 채팅 6~8턴). R2 = 7주제(+work·study) × b1~b8. R3 = 7주제 중 6 × b1~b6(편 id `r2_love_b1` 식).
