@@ -35,11 +35,13 @@ _2026-11-03 새벽 전체 다시 씀. 규칙은 `CLAUDE.md`, 인물은 `CHARACTE
 4. 조연 캐릭터 시트(§5-1 ⑧) — Grok 대기 해제 뒤. 회화 금지가 풀려 새 편을 쓰면 `tools/add_lemmas.py` 를 다시 돌려 `lemmas` 를 채우고 `version.json` 번호를 올린다.
 5. 비어 있는 주제별 단어·표현(`assets/data/vocab/travel_*.json`) — 저작권 정리로 비움, 자체 제작으로 채울 것(콘텐츠 금지 풀린 뒤).
 
-## 4. 다음 할 일(순서)
+## 4. 다음 할 일(순서) — 2026-11-08 세션 종료 시점
 
-1. TestFlight 처리 확인 → 아이패드에서 두 화면·동사 칩·로그인(데모 계정)·구매 시트 확인. IPA 의 `applesignin` 확인: `codesign -d --entitlements :- Payload/Runner.app | grep applesignin` — 없으면 포털 capability(사용자).
-2. 이용권 범위가 정해지면 `Entitlement.premium` 으로 잠금 + 잠금 시트 혜택 문구 + 심사 메모 갱신.
-3. 성·수 / 발음 화면(「준비 중」), 성·수 일치 표시는 회화 데이터 `tags` 가 생긴 뒤.
+1. **Grok 완전 재작성(11/9 13:30 재개, 사용자 지시)** — 회화 Claude 초안 58편(`stage` 칸 있는 편, R0~R5)을 편마다 새 대화방에서 「전문가」 모델로 모든 줄 새로 쓰기(GROK_PROMPT_GUIDE.md, zh 틀 복사). 받은 뒤 검사기·`tools/inflection_audit.py`(spaCy 는 2인칭 형태를 덜 셈) 통과 → 리뷰 페이지(`tools/review_html.py`, 새 편 먼저·옛 4편 뒤) → uk 「REVIEW_es 갱신」 → 사용자 통과 → `approved`.
+2. **DB·앱 연결**(`docs/APP_BUILD_STRATEGY_es.md` 순서): `levels.json`·로더(`dialogue_service.dart` 가 R 폴더 읽기)·pubspec 하위 폴더·`DialogueTurn` 에 `tl_f`·`rd_f`·`emotion`·`segs`, 레벨 길 화면, 음성 재생(일본어앱 `dialogue_audio.dart` 이식), `tools/add_lemmas.py` 를 편 JSON 형식에 맞춰 레마·morph 태그, `version.json` db+1. 통과한 편은 음성(`tools/tts/make_plan.py` → uk 「지금 시작」 뒤 PC MOSS) · 장면 컷 4장(한자 세션 경유).
+3. **사용자 결정 대기**: A6(어휘 완주 1,430개 > 1,000), 빌드 전략 7장 11건(레벨 어휘 상한 매핑·이용권 범위=A10·옛 `L1.json` 삭제·변형 카드 코퍼스 풀 위치 등), 평생 이용권 범위, 외계인 캐릭터 시트(A10). 문법 배치는 2026-11-08 결정 4건 반영(`docs/GRAMMAR_PLACEMENT_es.md`).
+4. 동결 해제로 가능해진 회화 밖 콘텐츠(A12): R1 코어 40·골격 매핑표·변형 카드(1:9)·비어 있는 `travel_*.json` — 사용자 지시 때.
+5. 실기기 확인(사용자): TestFlight 2611081700 / Zealot 13 — 「알파벳과 발음」 자동 재생·조음 위치 동그라미, 절벽 단어, 앱 소개, 단어창. 조음·모음 그림은 임시(출시 전 Grok 공용 그림으로 교체, 출처 표기 없음).
 
 ## 5. 공통 절차(요약)
 
