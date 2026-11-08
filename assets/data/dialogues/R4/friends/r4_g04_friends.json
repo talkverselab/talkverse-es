@@ -24,11 +24,12 @@
   "friends",
   "life"
  ],
- "goal": "salía… y vi / llevaba… me la quitó / corrí… hacía calor(배경 = 불완료, 사건 = 단순과거)",
+ "goal": "salía… y vi / llevaba… me la quitó / corrí·corriste·corría / hacía calor(배경 = 불완료, 사건 = 단순과거)",
  "expressions": [
   "tío",
   "vale",
   "ya",
+  "pues",
   "bueno",
   "no me digas",
   "te lo dije"
@@ -65,22 +66,32 @@
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Ya empezamos. ¿Y?",
-   "rd": "야 엠뻬싸모스. 이?",
-   "ko": "또 시작이네. 그래서?",
-   "note": "ya empezamos = 또 시작이네",
+   "tl": "Ya empezamos. ¿Y tú qué hacías? ¿Mirabas el móvil?",
+   "rd": "야 엠뻬싸모스. 이 뚜 께 아씨아스? 미라바스 엘 모빌?",
+   "ko": "또 시작이네. 넌 뭐 하고 있었는데? 폰 보고 있었지?",
+   "note": "¿qué hacías? = 뭐 하고 있었어?(배경)",
    "tags": [
-    "expr:ya"
+    "expr:ya",
+    "form:imperfecto"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "segs": [
+    [
+     "tsukkomi",
+     "Ya empezamos."
+    ],
+    [
+     "teasing",
+     "¿Y tú qué hacías? ¿Mirabas el móvil?"
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Yo llevaba una bolsa de churros. Y el perro, ¡zas!, me la quitó.",
-   "rd": "요 예바바 우나 볼사 데 추로스. 이 엘 뻬로, 싸스!, 메 라 끼또.",
-   "ko": "내가 추로스 봉지를 들고 있었거든. 근데 그 개가 휙! 낚아챘어.",
+   "tl": "…Un poco. Yo llevaba una bolsa de churros. Y el perro, ¡zas!, me la quitó.",
+   "rd": "…운 뽀꼬. 요 예바바 우나 볼사 데 추로스. 이 엘 뻬로, 싸스!, 메 라 끼또.",
+   "ko": "…조금. 내가 추로스 봉지를 들고 있었거든. 근데 그 개가 휙! 낚아챘어.",
    "note": "llevaba(배경) + quitó(사건) · zas = 휙",
    "tags": [
     "form:imperfecto",
@@ -93,7 +104,7 @@
    "segs": [
     [
      "sad",
-     "Yo llevaba una bolsa de churros."
+     "…Un poco. Yo llevaba una bolsa de churros."
     ],
     [
      "shout",
@@ -104,10 +115,10 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "¿Y tú qué hacías? ¿Mirar el móvil?",
-   "rd": "이 뚜 께 아씨아스? 미라르 엘 모빌?",
-   "ko": "넌 뭐 하고 있었는데? 폰 보고 있었지?",
-   "note": "¿qué hacías? = 뭐 하고 있었어?(배경)",
+   "tl": "¿Llevabas churros? ¿Para mí o para ti?",
+   "rd": "예바바스 추로스? 빠라 미 오 빠라 띠?",
+   "ko": "추로스를 들고 있었다고? 나 주려고, 너 먹으려고?",
+   "note": "llevabas = (너) 들고 있었다",
    "tags": [
     "form:imperfecto"
    ],
@@ -117,10 +128,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "tl": "…Un poco. Pero luego corrí detrás del perro tres calles. ¡Tres!",
-   "rd": "…운 뽀꼬. 뻬로 루에고 꼬리 데뜨라스 델 뻬로 뜨레스 까예스. 뜨레스!",
-   "ko": "…조금. 근데 그다음에 개 쫓아서 세 블록이나 뛰었어. 세 블록!",
-   "note": "corrí = 뛰었다(사건)",
+   "tl": "Para los dos. Por eso corrí detrás del perro tres calles. ¡Tres!",
+   "rd": "빠라 로스 도스. 뽀르 에소 꼬리 데뜨라스 델 뻬로 뜨레스 까예스. 뜨레스!",
+   "ko": "둘 다. 그래서 개 쫓아서 세 블록이나 뛰었어. 세 블록!",
+   "note": "corrí = (나) 뛰었다(사건)",
    "tags": [
     "form:indefinido"
    ],
@@ -130,25 +141,25 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Ya. ¿Y por eso llegas tarde?",
-   "rd": "야. 이 뽀르 에소 예가스 따르데?",
-   "ko": "그러셔. 그래서 늦었다고?",
-   "note": "por eso = 그래서",
+   "tl": "¿Tú corriste? Javi, tú no corres ni para coger el autobús.",
+   "rd": "뚜 꼬리스떼? 하비, 뚜 노 꼬레스 니 빠라 꼬헤르 엘 아우또부스.",
+   "ko": "네가 뛰었다고? 하비, 넌 버스 잡을 때도 안 뛰잖아.",
+   "note": "corriste(과거) ↔ corres(현재)",
    "tags": [
-    "expr:ya"
+    "form:indefinido"
    ],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "tsukkomi"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Claro. Hacía un calor horrible y yo iba con el abrigo.",
-   "rd": "끌라로. 아씨아 운 깔로르 오리블레 이 요 이바 꼰 엘 아브리고.",
-   "ko": "당연하지. 날은 엄청 덥고 난 외투까지 입고 있었다니까.",
+   "tl": "Pues corrí. Hacía un calor horrible y yo iba con el abrigo.",
+   "rd": "뿌에스 꼬리. 아씨아 운 깔로르 오리블레 이 요 이바 꼰 엘 아브리고.",
+   "ko": "뛰었다니까. 날은 엄청 덥고 난 외투까지 입고 있었고.",
    "note": "hacía calor = 더웠다(배경 날씨는 불완료)",
    "tags": [
-    "expr:claro",
+    "expr:pues",
     "form:imperfecto"
    ],
    "new": [
@@ -177,7 +188,8 @@
    "ko": "…뭐, 난 더웠다고. 뛰어서.",
    "note": "tener calor = (사람이) 덥다",
    "tags": [
-    "expr:bueno"
+    "expr:bueno",
+    "form:imperfecto"
    ],
    "new": [],
    "emotion": "flustered"
@@ -185,10 +197,10 @@
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Vale. ¿Y recuperaste los churros o no?",
-   "rd": "발레. 이 레꾸뻬라스떼 로스 추로스 오 노?",
-   "ko": "알았어. 그래서 추로스는 찾았어, 못 찾았어?",
-   "note": "recuperar = 되찾다",
+   "tl": "Vale. ¿Y viste otra vez al perro? ¿Recuperaste los churros?",
+   "rd": "발레. 이 비스떼 오뜨라 베쓰 알 뻬로? 레꾸뻬라스떼 로스 추로스?",
+   "ko": "알았어. 그래서 그 개 다시 봤어? 추로스는 찾았고?",
+   "note": "viste = (너) 봤다 · recuperar = 되찾다",
    "tags": [
     "expr:vale",
     "form:indefinido"
@@ -237,6 +249,20 @@
   },
   {
    "num": 15,
+   "speaker": "C",
+   "tl": "Verdad. Su amigo corría como un loco. Rufo y yo nunca vimos nada igual.",
+   "rd": "베르다드. 수 아미고 꼬리아 꼬모 운 로꼬. 루포 이 요 눈까 비모스 나다 이구알.",
+   "ko": "진짜예요. 친구분이 미친 듯이 뛰더라고요. 루포도 저도 그런 건 처음 봤어요.",
+   "note": "corría(장면 묘사) · vimos = (우리) 봤다",
+   "tags": [
+    "form:imperfecto",
+    "form:indefinido"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 16,
    "speaker": "B",
    "tl": "Te lo dije. Yo nunca miento. Solo llego tarde.",
    "rd": "떼 로 디헤. 요 눈까 미엔또. 솔로 예고 따르데.",

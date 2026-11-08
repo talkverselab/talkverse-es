@@ -26,7 +26,6 @@
  "expressions": [
   "oye",
   "qué guay",
-  "qué tal",
   "ya",
   "vale"
  ],
@@ -49,15 +48,16 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¡Hola! Qué guay, ¿qué tal?",
-   "rd": "올라! 께 구아이, 께 딸?",
-   "ko": "안녕! 와 반갑다, 잘 지내?",
-   "note": "qué guay = 좋다·반갑다",
+   "tl": "¡Hola! ¿Me escribes tú? Qué guay.",
+   "rd": "올라! 메 에스끄리베스 뚜? 께 구아이.",
+   "ko": "안녕! 네가 먼저 연락한 거야? 와 좋다.",
+   "note": "¿me escribes? = 나한테 연락하는 거야?(escribir 2인칭)",
    "tags": [
-    "expr:qué guay",
-    "expr:qué tal"
+    "expr:qué guay"
    ],
-   "new": [],
+   "new": [
+    "escribir"
+   ],
    "emotion": "excited",
    "ui": "bubble",
    "at": "21:41",
@@ -84,9 +84,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Ah, ¿sí? Qué raro… jajaja.",
-   "rd": "아, 시? 께 라로… 하하하.",
-   "ko": "아, 그래? 이상하네… ㅋㅋㅋ",
+   "tl": "Ah, ¿sí? ¿Qué libro es? Qué raro… jajaja.",
+   "rd": "아, 시? 께 리브로 에스? 께 라로… 하하하.",
+   "ko": "아, 그래? 무슨 책인데? 이상하네… ㅋㅋㅋ",
    "note": "qué raro = 이상하네",
    "tags": [],
    "new": [
@@ -99,12 +99,13 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ya. En la página del primer beso.",
-   "rd": "야. 엔 라 빠히나 델 쁘리메르 베소.",
-   "ko": "그러게. 첫 키스 장면 페이지에.",
-   "note": "primer beso = 첫 키스",
+   "tl": "Ya. Está en la página del primer beso.",
+   "rd": "야. 에스따 엔 라 빠히나 델 쁘리메르 베소.",
+   "ko": "그러게. 첫 키스 페이지에 있어.",
+   "note": "está = 있어(estar 3인칭, 3번 턴 estaba 와 짝) · primer beso = 첫 키스",
    "tags": [
-    "expr:ya"
+    "expr:ya",
+    "form:estar"
    ],
    "new": [
     "página",
@@ -138,7 +139,7 @@
    "tl": "Mucho. Por eso te escribo…",
    "rd": "무초. 뽀르 에소 떼 에스끄리보…",
    "ko": "엄청. 그래서 연락하는 거야…",
-   "note": "por eso = 그래서",
+   "note": "te escribo = 너한테 연락해(escribir 1인칭, 2번 턴 escribes 와 짝) · por eso = 그래서",
    "tags": [],
    "new": [],
    "segs": [

@@ -73,7 +73,7 @@
    "tl": "Te hago una tarta de paz.",
    "rd": "떼 아고 우나 따르따 데 빠쓰.",
    "ko": "화해 케이크 만들어 줄게.",
-   "note": "tarta = 케이크",
+   "note": "te hago = 만들어 줄게(hacer 1인칭) · tarta = 케이크",
    "tags": [],
    "new": [
     "tarta",
@@ -87,10 +87,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Tú? ¿Una tarta? Qué mono.",
-   "rd": "뚜? 우나 따르따? 께 모노.",
-   "ko": "네가? 케이크를? 귀엽네.",
-   "note": "qué mono = 귀엽다",
+   "tl": "¿Tú haces tartas? Qué mono.",
+   "rd": "뚜 아쎄스 따르따스? 께 모노.",
+   "ko": "네가 케이크를 만들어? 귀엽네.",
+   "note": "¿tú haces? = 네가 만들어?(hacer 2인칭, 3번 턴 hago 와 짝) · tartas = tarta 복수",
    "tags": [
     "expr:qué mono"
    ],
@@ -122,7 +122,7 @@
    "tl": "¡No! ¡Apágalo ya!",
    "rd": "노! 아빠갈로 야!",
    "ko": "아니! 당장 꺼!",
-   "note": "apágalo = 그거 꺼(명령+lo)",
+   "note": "apágalo = 그거 꺼(apagar 명령+lo)",
    "tags": [
     "form:imperativo"
    ],
@@ -136,10 +136,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Tarde. Suena la alarma y viene la vecina.",
-   "rd": "따르데. 수에나 라 알라르마 이 비에네 라 베씨나.",
-   "ko": "늦었어. 경보 울리고 옆집 아주머니 와.",
-   "note": "suena = 울리다(sonar)",
+   "tl": "No se apaga. Suena la alarma y viene la vecina.",
+   "rd": "노 세 아빠가. 수에나 라 알라르마 이 비에네 라 베씨나.",
+   "ko": "안 꺼져. 경보 울리고 옆집 아주머니 와.",
+   "note": "no se apaga = 안 꺼져(apagarse 3인칭) · suena = 울리다(sonar)",
    "tags": [],
    "new": [
     "alarma",

@@ -16,14 +16,24 @@ for f in sorted(glob.glob(str(ROOT / 'assets/data/dialogues/R*/*/*.json'))):
     if d.get('stage') is None:
         continue
     forms = collections.defaultdict(set); toks = within = 0
+    docs = [nlp(re.sub(r'\{[a-z_]+\}', ' ', t['tl']).lower()) for t in d['turns']]
+    verbs = {x.lemma_.lower() for doc in docs for x in doc if x.pos_ in ('VERB', 'AUX') and re.search(r'(ar|er|ir)$', x.lemma_.lower())}
     for t in d['turns']:
-        for tok in nlp(re.sub(r'\{[a-z_]+\}', ' ', t['tl'])):
+        for tok in nlp(re.sub(r'\{[a-z_]+\}', ' ', t['tl']).lower()):  # 소문자로 — 문장 첫 낱말을 고유명사로 잡는 것 방지
             if not tok.is_alpha:
                 continue
             lem = tok.lemma_.lower().split()[0]
-            if tok.pos_ in KEEP and tok.pos_ != 'PROPN':
-                forms[(lem, tok.pos_ if tok.pos_ != 'AUX' else 'VERB')].add(tok.text.lower())
-            if tok.pos_ in ('NOUN', 'VERB', 'ADJ', 'ADV', 'AUX'):
+            pos = tok.pos_
+            # spaCy 가 2인칭·1인칭 활용형을 기본형으로 못 묶는 경우: 같은 편의 동사 기본형 어간과 맞춰 본다
+            if pos in ('NOUN', 'PROPN', 'ADJ', 'X') or lem == tok.text.lower():
+                for v in verbs:
+                    st = v[:-2]
+                    if len(st) >= 3 and tok.text.lower().startswith(st) and tok.text.lower() != v and re.search(r'(o|as|es|a|e|amos|emos|imos|áis|éis|ís|an|en|é|aste|iste|ó|ió)$', tok.text.lower()):
+                        lem, pos = v, 'VERB'
+                        break
+            if pos in KEEP:
+                forms[(lem, pos if pos != 'AUX' else 'VERB')].add(tok.text.lower())
+            if pos in ('NOUN', 'VERB', 'ADJ', 'ADV', 'AUX'):
                 toks += 1
                 within += rank.get(lem, 99999) <= CAP[d['region']]
     rep = sorted(f'{l}({"/".join(sorted(v))})' for (l, p), v in forms.items() if len(v) >= 2 and p in ('VERB', 'ADJ', 'NOUN'))

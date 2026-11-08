@@ -22,7 +22,7 @@
  "domain": [
   "friends"
  ],
- "goal": "¿Dónde estás? · estar 로 위치 · 짧은 받아치기",
+ "goal": "estar(estás·estoy) · llegar(llegas·llego) · ver(veo·ves) — 짧은 받아치기",
  "expressions": [
   "ya voy",
   "en serio",
@@ -63,14 +63,17 @@
   {
    "num": 3,
    "speaker": "A",
-   "tl": "¿Cinco? ¿En serio?",
-   "rd": "씬꼬? 엔 세리오?",
-   "ko": "5분? 진심?",
-   "note": "¿En serio? = 진짜?·진심?",
+   "tl": "¿Cinco? ¿En serio? Siempre llegas tarde.",
+   "rd": "씬꼬? 엔 세리오? 시엠쁘레 예가스 따르데.",
+   "ko": "5분? 진심? 너 맨날 늦잖아.",
+   "note": "llegas tarde = 너 늦게 와",
    "tags": [
-    "expr:en serio"
+    "expr:en serio",
+    "form:llegar"
    ],
-   "new": [],
+   "new": [
+    "llegar"
+   ],
    "emotion": "tsukkomi",
    "ui": "bubble",
    "at": "18:06"
@@ -78,12 +81,13 @@
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Bueno… diez.",
-   "rd": "부에노… 디에쓰.",
-   "ko": "음… 10분.",
-   "note": "bueno = 음·뭐(말 고르기)",
+   "tl": "Bueno… diez. Pero hoy no llego tarde.",
+   "rd": "부에노… 디에쓰. 뻬로 오이 노 예고 따르데.",
+   "ko": "음… 10분. 근데 오늘은 안 늦어.",
+   "note": "llego = 나 도착해",
    "tags": [
-    "expr:bueno"
+    "expr:bueno",
+    "form:llegar"
    ],
    "new": [],
    "emotion": "flustered",
@@ -109,11 +113,13 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Mi puerta? No te veo.",
-   "rd": "미 뿌에르따? 노 떼 베오.",
-   "ko": "우리 집 문? 너 안 보이는데.",
-   "note": "no te veo = 너 안 보여",
-   "tags": [],
+   "tl": "¿Mi puerta? No te veo. ¿Me ves?",
+   "rd": "미 뿌에르따? 노 떼 베오. 메 베스?",
+   "ko": "우리 집 문? 너 안 보이는데. 나 보여?",
+   "note": "veo = 나 보여 · ves = 너 보여",
+   "tags": [
+    "form:ver"
+   ],
    "new": [],
    "emotion": "surprised",
    "ui": "bubble",

@@ -23,15 +23,15 @@
  "domain": [
   "life"
  ],
- "goal": "pela·echa·ponla·dale la vuelta ↔ no las cortes·no lo toques·no se lo digas·no llame·no le pongáis",
+ "goal": "ponle·echa·dale la vuelta·córtalas ↔ no las cortes·no eches·no lo toques·no se lo digas·no llame(usted)·no le pongáis(vosotros)",
  "expressions": [
   "venga",
   "vale",
   "tranqui",
   "espera",
   "por favor",
-  "madre mía",
-  "oye"
+  "oye",
+  "qué pasa"
  ],
  "turns": [
   {
@@ -64,11 +64,12 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Todas. Y no las cortes muy grandes. Así, finas.",
-   "rd": "또다스. 이 노 라스 꼬르떼스 무이 그란데스. 아시, 피나스.",
-   "ko": "전부. 너무 크게 썰지 마. 이렇게 얇게.",
-   "note": "no las cortes = 썰지 마(부정 명령 = 접속법형)",
+   "tl": "Todas. Y no las cortes muy grandes. Córtalas así, finas.",
+   "rd": "또다스. 이 노 라스 꼬르떼스 무이 그란데스. 꼬르딸라스 아시, 피나스.",
+   "ko": "전부. 너무 크게 썰지 마. 이렇게 얇게 썰어.",
+   "note": "no las cortes(부정 = 앞에) ↔ córtalas(긍정 = 뒤에 붙임)",
    "tags": [
+    "form:imperativo",
     "form:imperativo_negativo"
    ],
    "new": [],
@@ -92,10 +93,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Uf, pregunta peligrosa. Ponla. Pero no se lo digas a mi madre.",
-   "rd": "우프, 쁘레군따 뻴리그로사. 뽄라. 뻬로 노 세 로 디가스 아 미 마드레.",
+   "tl": "Uf, pregunta peligrosa. Ponle. Pero no se lo digas a mi madre.",
+   "rd": "우프, 쁘레군따 뻴리그로사. 뽄레. 뻬로 노 세 로 디가스 아 미 마드레.",
    "ko": "어휴, 위험한 질문이네. 넣어. 근데 우리 엄마한테는 말하지 마.",
-   "note": "ponla(긍정 = 뒤에 붙임) ↔ no se lo digas(부정 = 앞에)",
+   "note": "ponle(긍정) ↔ no se lo digas(부정)",
    "tags": [
     "form:imperativo",
     "form:imperativo_negativo"
@@ -106,10 +107,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Por qué no?",
-   "rd": "뽀르 께 노?",
-   "ko": "왜?",
-   "note": "¿por qué no? = 왜 안 돼?",
+   "tl": "¿Por qué? ¿Tu madre no le pone cebolla?",
+   "rd": "뽀르 께? 뚜 마드레 노 레 뽀네 쎄보야?",
+   "ko": "왜? 너희 엄마는 양파 안 넣어?",
+   "note": "pone = (그녀가) 넣는다",
    "tags": [],
    "new": [],
    "emotion": "surprised"
@@ -141,10 +142,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "¡Diego, esto es un mar de aceite!",
-   "rd": "디에고, 에스또 에스 운 마르 데 아쎄이떼!",
-   "ko": "디에고, 이거 완전 기름 바다잖아!",
-   "note": "un mar de… = ~의 바다(엄청 많음)",
+   "tl": "¡Diego, esto es un mar de aceite! ¿Echo más?",
+   "rd": "디에고, 에스또 에스 운 마르 데 아쎄이떼! 에초 마스?",
+   "ko": "디에고, 이거 완전 기름 바다잖아! 더 부어?",
+   "note": "un mar de… = ~의 바다 · echo = (내가) 붓다",
    "tags": [],
    "new": [],
    "emotion": "tsukkomi"
@@ -152,13 +153,14 @@
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Tranqui. Ahora echa el huevo y no lo toques. Espera.",
-   "rd": "뜨란끼. 아오라 에차 엘 우에보 이 노 로 또께스. 에스뻬라.",
-   "ko": "진정해. 이제 달걀 넣고 건드리지 마. 기다려.",
-   "note": "no lo toques = 건드리지 마",
+   "tl": "Tranqui, no eches más. Ahora echa el huevo y no lo toques. Espera.",
+   "rd": "뜨란끼, 노 에체스 마스. 아오라 에차 엘 우에보 이 노 로 또께스. 에스뻬라.",
+   "ko": "진정해, 더 붓지 마. 이제 달걀 넣고 건드리지 마. 기다려.",
+   "note": "no eches ↔ echa · no lo toques = 건드리지 마",
    "tags": [
     "expr:tranqui",
     "expr:espera",
+    "form:imperativo",
     "form:imperativo_negativo"
    ],
    "new": [],
@@ -167,9 +169,9 @@
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Oye, huele a quemado… ¿Le doy la vuelta?",
-   "rd": "오예, 우엘레 아 께마도… 레 도이 라 부엘따?",
-   "ko": "저기, 탄내 나는데… 뒤집어?",
+   "tl": "Oye, huele a quemado… ¿Lo toco? ¿Le doy la vuelta?",
+   "rd": "오예, 우엘레 아 께마도… 로 또꼬? 레 도이 라 부엘따?",
+   "ko": "저기, 탄내 나는데… 건드려? 뒤집어?",
    "note": "dar la vuelta = 뒤집다 · oler a = ~냄새가 나다",
    "tags": [
     "expr:oye"
@@ -180,12 +182,13 @@
   {
    "num": 11,
    "speaker": "B",
-   "tl": "¡No! Bueno, sí. ¡Dale la vuelta! ¡Rápido! ¡Usa el plato!",
-   "rd": "노! 부에노, 시. 달레 라 부엘따! 라삐도! 우사 엘 쁠라또!",
-   "ko": "안 돼! 아니, 돼. 뒤집어! 빨리! 접시 써!",
+   "tl": "¡No lo toques! Bueno, sí. ¡Dale la vuelta! ¡Rápido! ¡Usa el plato!",
+   "rd": "노 로 또께스! 부에노, 시. 달레 라 부엘따! 라삐도! 우사 엘 쁠라또!",
+   "ko": "건드리지 마! 아니, 건드려. 뒤집어! 빨리! 접시 써!",
    "note": "dale la vuelta = 뒤집어",
    "tags": [
-    "form:imperativo"
+    "form:imperativo",
+    "form:imperativo_negativo"
    ],
    "new": [],
    "emotion": "shout"
@@ -209,7 +212,7 @@
    "tl": "¿Diego? ¿Qué pasa ahí? ¿Llamo a la policía?",
    "rd": "디에고? 께 빠사 아이? 야모 아 라 뽈리씨아?",
    "ko": "디에고? 거기 무슨 일이야? 경찰 부를까?",
-   "note": "¿qué pasa? = 무슨 일이야?",
+   "note": "¿llamo…? = (내가) 부를까?",
    "tags": [
     "expr:qué pasa"
    ],

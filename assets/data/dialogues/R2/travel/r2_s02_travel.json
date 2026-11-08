@@ -72,7 +72,7 @@
    "tl": "Ahí va. ¿Qué tal salgo?",
    "rd": "아이 바. 께 딸 살고?",
    "ko": "보낸다. 나 어떻게 나왔어?",
-   "note": "salir (en la foto) = 사진에 나오다",
+   "note": "¿qué tal salgo? = 나 어떻게 나왔어?(salir 1인칭)",
    "tags": [
     "expr:qué tal"
    ],
@@ -84,11 +84,13 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Bien… pero ¿quién es el señor de detrás?",
-   "rd": "비엔… 뻬로 끼엔 에스 엘 세뇨르 데 데뜨라스?",
-   "ko": "잘 나왔어… 근데 뒤에 아저씨는 누구야?",
-   "note": "de detrás = 뒤쪽의",
-   "tags": [],
+   "tl": "Sales guapa… pero ¿quién es el señor de detrás?",
+   "rd": "살레스 구아빠… 뻬로 끼엔 에스 엘 세뇨르 데 데뜨라스?",
+   "ko": "예쁘게 나왔어… 근데 뒤에 아저씨는 누구야?",
+   "note": "sales guapa = 예쁘게 나왔어(salir 2인칭·guapa 여성형) · de detrás = 뒤쪽의",
+   "tags": [
+    "form:concordancia"
+   ],
    "new": [
     "detrás"
    ],
@@ -99,25 +101,35 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "¿Qué señor? Ay, madre mía.",
-   "rd": "께 세뇨르? 아이, 마드레 미아.",
-   "ko": "무슨 아저씨? 헐, 세상에.",
-   "note": "madre mía = 세상에",
+   "tl": "¿Qué señor? Ay, madre mía. Sale más guapo que yo.",
+   "rd": "께 세뇨르? 아이, 마드레 미아. 살레 마스 구아뽀 께 요.",
+   "ko": "무슨 아저씨? 헐, 세상에. 나보다 잘 나왔네.",
+   "note": "sale más guapo = 더 잘생기게 나와(salir 3인칭·guapo 남성형)",
    "tags": [
-    "expr:madre mía"
+    "expr:madre mía",
+    "form:concordancia"
    ],
    "new": [],
-   "emotion": "surprised",
    "ui": "bubble",
-   "at": "12:14"
+   "at": "12:14",
+   "segs": [
+    [
+     "surprised",
+     "¿Qué señor? Ay, madre mía."
+    ],
+    [
+     "tsukkomi",
+     "Sale más guapo que yo."
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Y un perro. Y una boda entera.",
-   "rd": "이 운 뻬로. 이 우나 보다 엔떼라.",
-   "ko": "개도 있어. 결혼식 하객 전원도.",
-   "note": "entero/entera = 통째로·전부",
+   "tl": "Y está con un perro. Y una boda entera.",
+   "rd": "이 에스따 꼰 운 뻬로. 이 우나 보다 엔떼라.",
+   "ko": "개도 같이 있어. 결혼식 하객 전원도.",
+   "note": "está con ~ = ~랑 같이 있어(estar 3인칭, 1번 턴 estoy 와 짝) · entera = 통째로",
    "tags": [],
    "new": [
     "boda"

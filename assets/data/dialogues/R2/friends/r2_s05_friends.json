@@ -38,7 +38,7 @@
    "tl": "Lucía, lo siento mucho. Me olvidé.",
    "rd": "루씨아, 로 시엔또 무초. 메 올비데.",
    "ko": "루시아, 진짜 미안해. 깜빡했어.",
-   "note": "lo siento = 미안해",
+   "note": "me olvidé = 깜빡했어(olvidarse 1인칭 과거) · lo siento = 미안해",
    "tags": [
     "expr:lo siento",
     "form:indefinido"
@@ -53,12 +53,13 @@
   {
    "num": 2,
    "speaker": "B",
-   "tl": "¿De qué? ¿Qué pasa?",
-   "rd": "데 께? 께 빠사?",
-   "ko": "뭘? 무슨 일인데?",
-   "note": "¿qué pasa? = 무슨 일이야?",
+   "tl": "¿Te olvidaste de qué? ¿Qué pasa?",
+   "rd": "떼 올비다스떼 데 께? 께 빠사?",
+   "ko": "뭘 깜빡했는데? 무슨 일이야?",
+   "note": "te olvidaste = 너 깜빡했어(2인칭 과거, 1번 턴 me olvidé 와 짝)",
    "tags": [
-    "expr:qué pasa"
+    "expr:qué pasa",
+    "form:indefinido"
    ],
    "new": [],
    "emotion": "surprised",
@@ -107,7 +108,7 @@
    "tl": "Te invito a cenar hoy. Eliges tú.",
    "rd": "떼 인비또 아 쎄나르 오이. 엘리헤스 뚜.",
    "ko": "오늘 저녁 내가 살게. 네가 골라.",
-   "note": "te invito = 내가 낼게",
+   "note": "te invito = 내가 살게(invitar 1인칭) · eliges tú = 네가 골라",
    "tags": [],
    "new": [
     "elegir"
@@ -145,11 +146,13 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "¿Mañana? ¿Y lo de «sola toda la noche»?",
-   "rd": "마냐나? 이 로 데 «솔라 또다 라 노체»?",
-   "ko": "내일? 그럼 「밤새 혼자」는 뭔데?",
-   "note": "lo de ~ = ~라는 거",
-   "tags": [],
+   "tl": "¿Mañana? ¿Y estuviste «sola toda la noche»?",
+   "rd": "마냐나? 이 에스뚜비스떼 «솔라 또다 라 노체»?",
+   "ko": "내일? 그럼 「밤새 혼자」 있었다는 건 뭔데?",
+   "note": "estuviste = 너 있었어(estar 2인칭 과거, 4번 턴 estuve 와 짝)",
+   "tags": [
+    "form:indefinido"
+   ],
    "new": [],
    "emotion": "tsukkomi",
    "ui": "bubble",
@@ -158,10 +161,10 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Quería verte sufrir. La cena sigue, ¿eh?",
-   "rd": "께리아 베르떼 수프리르. 라 쎄나 시게, 에?",
-   "ko": "네가 쩔쩔매는 거 보고 싶었지. 저녁은 그대로다?",
-   "note": "quería = ~하고 싶었어(불완료)",
+   "tl": "Quería verte sufrir. ¿Me invitas igual?",
+   "rd": "께리아 베르떼 수프리르. 메 인비따스 이구알?",
+   "ko": "네가 쩔쩔매는 거 보고 싶었지. 그래도 사 줄 거지?",
+   "note": "¿me invitas? = 나 사 줄 거지?(invitar 2인칭) · quería = ~하고 싶었어(불완료)",
    "tags": [
     "form:imperfecto"
    ],

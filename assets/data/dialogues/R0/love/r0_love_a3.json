@@ -24,7 +24,7 @@
  "domain": [
   "love"
  ],
- "goal": "¿Qué haces? · 현재형 1·2인칭 · 짧은 반응",
+ "goal": "hacer(haces·hago) · leer(leo·lees) · libro/libros · 짧은 반응",
  "expressions": [
   "oye",
   "y tú",
@@ -53,12 +53,13 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Nada, en casa. ¿Y tú?",
-   "rd": "나다, 엔 까사. 이 뚜?",
-   "ko": "아무것도. 집이야. 너는?",
-   "note": "nada = 아무것도",
+   "tl": "No hago nada. ¿Y tú?",
+   "rd": "노 아고 나다. 이 뚜?",
+   "ko": "아무것도 안 해. 너는?",
+   "note": "no hago nada = 아무것도 안 해",
    "tags": [
-    "expr:y tú"
+    "expr:y tú",
+    "form:hacer"
    ],
    "new": [],
    "emotion": "cheerful",
@@ -72,7 +73,9 @@
    "rd": "레오. 운 리브로 데 아모르.",
    "ko": "책 읽어. 연애 소설.",
    "note": "leo = 나 읽어(leer)",
-   "tags": [],
+   "tags": [
+    "form:leer"
+   ],
    "new": [
     "libro"
    ],
@@ -83,12 +86,13 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿De amor? ¡No me digas!",
-   "rd": "데 아모르? 노 메 디가스!",
-   "ko": "연애 소설? 설마!",
-   "note": "¡No me digas! = 설마·진짜?",
+   "tl": "¿Lees libros de amor? ¡No me digas!",
+   "rd": "레에스 리브로스 데 아모르? 노 메 디가스!",
+   "ko": "연애 소설 읽어? 설마!",
+   "note": "lees = 너 읽어 · libros = 책들",
    "tags": [
-    "expr:no me digas"
+    "expr:no me digas",
+    "form:leer"
    ],
    "new": [],
    "emotion": "teasing",

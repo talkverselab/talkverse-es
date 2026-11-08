@@ -24,7 +24,7 @@
  "domain": [
   "life"
  ],
- "goal": "몸·병원 어휘(doler·fiebre·espalda·estómago·pecho·grave·sano·tratamiento·ambulancia)",
+ "goal": "몸·병원 어휘(doler·fiebre·espalda·estómago·pecho·grave·sano·tratamiento·ambulancia) + me duele/me duelen/le duele, tengo/tienes/tiene, estoy/está/estaba",
  "expressions": [
   "tío",
   "a ver",
@@ -49,16 +49,16 @@
     "enfermo"
    ],
    "tl_f": "¿Sigues en la cama? Tienes cara de enferma, tía.",
-   "emotion": "worried",
-   "rd_f": "시게스 엔 라 까마? 띠에네스 까라 데 엔페르마, 띠아."
+   "rd_f": "시게스 엔 라 까마? 띠에네스 까라 데 엔페르마, 띠아.",
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Me duele todo: la cabeza, la espalda, el estómago… Creo que tengo fiebre.",
-   "rd": "메 두엘레 또도: 라 까베싸, 라 에스빨다, 엘 에스또마고… 끄레오 께 뗀고 피에브레.",
-   "ko": "다 아파. 머리, 허리, 배… 열 나는 것 같아.",
-   "note": "doler = 아프다(gustar 처럼 me duele)",
+   "tl": "Estoy fatal. Me duele la cabeza, me duelen la espalda y el estómago… Tengo fiebre, seguro.",
+   "rd": "에스또이 파딸. 메 두엘레 라 까베싸, 메 두엘렌 라 에스빨다 이 엘 에스또마고… 뗀고 피에브레, 세구로.",
+   "ko": "완전 죽겠어. 머리 아프고, 허리랑 배도 아파… 열 나는 게 분명해.",
+   "note": "me duele(하나) ↔ me duelen(여럿) · fatal = 엉망인",
    "tags": [],
    "new": [
     "doler",
@@ -71,9 +71,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "A ver, el termómetro… ¡Treinta y nueve! Nos vamos al médico ahora mismo.",
-   "rd": "아 베르, 엘 떼르모메뜨로… 뜨레인따 이 누에베! 노스 바모스 알 메디꼬 아오라 미스모.",
-   "ko": "어디 보자, 체온계가… 39도! 지금 당장 병원 가자.",
+   "tl": "A ver, el termómetro… ¡Treinta y nueve! Tienes fiebre de verdad. Nos vamos al médico ahora mismo.",
+   "rd": "아 베르, 엘 떼르모메뜨로… 뜨레인따 이 누에베! 띠에네스 피에브레 데 베르다드. 노스 바모스 알 메디꼬 아오라 미스모.",
+   "ko": "어디 보자, 체온계가… 39도! 진짜 열 나네. 지금 당장 병원 가자.",
    "note": "termómetro = 체온계",
    "tags": [
     "expr:a ver",
@@ -85,12 +85,12 @@
    ],
    "segs": [
     [
-     "neutral",
+     "worried",
      "A ver, el termómetro…"
     ],
     [
      "shout",
-     "¡Treinta y nueve! Nos vamos al médico ahora mismo."
+     "¡Treinta y nueve! Tienes fiebre de verdad. Nos vamos al médico ahora mismo."
     ]
    ]
   },
@@ -127,10 +127,10 @@
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Buenos días. ¿Desde cuándo se encuentra así?",
-   "rd": "부에노스 디아스. 데스데 꾸안도 세 엔꾸엔뜨라 아시?",
-   "ko": "안녕하세요. 언제부터 이러셨어요?",
-   "note": "encontrarse = (몸 상태가) ~하다",
+   "tl": "Buenos días. ¿Desde cuándo está así? ¿Qué le duele?",
+   "rd": "부에노스 디아스. 데스데 꾸안도 에스따 아시? 께 레 두엘레?",
+   "ko": "안녕하세요. 언제부터 이러셨어요? 어디가 아프세요?",
+   "note": "¿qué le duele? = 어디가 아프세요?(usted)",
    "tags": [],
    "new": [],
    "emotion": "polite"
@@ -138,9 +138,9 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Desde anoche. Y justo hoy tengo un examen muy importante.",
-   "rd": "데스데 아노체. 이 후스또 오이 뗀고 운 엑사멘 무이 임뽀르딴떼.",
-   "ko": "어젯밤부터요. 하필 오늘 아주 중요한 시험이 있는데.",
+   "tl": "Desde anoche. Me duele todo. Y justo hoy tengo un examen muy importante.",
+   "rd": "데스데 아노체. 메 두엘레 또도. 이 후스또 오이 뗀고 운 엑사멘 무이 임뽀르딴떼.",
+   "ko": "어젯밤부터요. 다 아파요. 하필 오늘 아주 중요한 시험이 있는데.",
    "note": "anoche = 어젯밤 · justo = 하필",
    "tags": [],
    "new": [
@@ -168,10 +168,10 @@
   {
    "num": 9,
    "speaker": "B",
-   "tl": "¿Es grave, doctora? Anoche estaba perfectamente.",
-   "rd": "에스 그라베, 도끄또라? 아노체 에스따바 뻬르페끄따멘떼.",
-   "ko": "심각한가요, 선생님? 어젯밤엔 멀쩡했거든요.",
-   "note": "grave = 심각한",
+   "tl": "¿Es grave, doctora? Anoche estaba perfectamente. Estábamos viendo una película.",
+   "rd": "에스 그라베, 도끄또라? 아노체 에스따바 뻬르페끄따멘떼. 에스따바모스 비엔도 우나 뻴리꿀라.",
+   "ko": "심각한가요, 선생님? 어젯밤엔 멀쩡했어요. 같이 영화 보고 있었거든요.",
+   "note": "grave = 심각한 · estaba(그) ↔ estábamos(우리)",
    "tags": [],
    "new": [
     "grave",
@@ -188,7 +188,7 @@
    "note": "antes de + 원형 = ~하기 전에",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "stiff"
   },
   {
    "num": 11,
@@ -209,25 +209,25 @@
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Entonces no hay fiebre. Está usted completamente sano.",
-   "rd": "엔똔쎄스 노 아이 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사노.",
+   "tl": "Entonces no tiene fiebre. Está usted completamente sano.",
+   "rd": "엔똔쎄스 노 띠에네 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사노.",
    "ko": "그럼 열은 없네요. 완전히 건강하세요.",
-   "note": "sano = 건강한",
+   "note": "tiene = (당신은) 있다 · sano = 건강한",
    "tags": [],
    "new": [
     "completamente",
     "sano"
    ],
-   "tl_f": "Entonces no hay fiebre. Está usted completamente sana.",
-   "emotion": "amused",
-   "rd_f": "엔똔쎄스 노 아이 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사나."
+   "tl_f": "Entonces no tiene fiebre. Está usted completamente sana.",
+   "rd_f": "엔똔쎄스 노 띠에네 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사나.",
+   "emotion": "amused"
   },
   {
    "num": 13,
    "speaker": "A",
-   "tl": "¿Y el dolor de estómago? Eso es real, se lo juro.",
-   "rd": "이 엘 돌로르 데 에스또마고? 에소 에스 레알, 세 로 후로.",
-   "ko": "배 아픈 건요? 그건 진짜예요, 맹세해요.",
+   "tl": "¿Y el dolor de estómago? Eso es real, se lo juro. Todavía me duele.",
+   "rd": "이 엘 돌로르 데 에스또마고? 에소 에스 레알, 세 로 후로. 또다비아 메 두엘레.",
+   "ko": "배 아픈 건요? 그건 진짜예요, 맹세해요. 아직도 아파요.",
    "note": "dolor = 통증 · jurar = 맹세하다",
    "tags": [],
    "new": [],
@@ -236,10 +236,10 @@
   {
    "num": 14,
    "speaker": "C",
-   "tl": "Eso se llama examen. Tratamiento: estudiar y menos té.",
-   "rd": "에소 세 야마 엑사멘. 뜨라따미엔또: 에스뚜디아르 이 메노스 떼.",
-   "ko": "그건 「시험」이라는 병이에요. 처방: 공부하고, 차는 줄이세요.",
-   "note": "tratamiento = 치료·처방",
+   "tl": "Eso se llama examen. En junio les duele a todos. Tratamiento: estudiar y menos té.",
+   "rd": "에소 세 야마 엑사멘. 엔 후니오 레스 두엘레 아 또도스. 뜨라따미엔또: 에스뚜디아르 이 메노스 떼.",
+   "ko": "그건 「시험」이라는 병이에요. 6월엔 다들 아파요. 처방: 공부하고, 차는 줄이세요.",
+   "note": "les duele a todos = 다들 아프다 · tratamiento = 처방",
    "tags": [],
    "new": [
     "tratamiento",

@@ -32,10 +32,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Javi, ¿dónde estás?",
-   "rd": "하비, 돈데 에스따스?",
-   "ko": "하비, 어디야?",
-   "note": "¿Dónde estás? = 어디야?",
+   "tl": "Javi, ¿dónde estás? ¿Llegas ya?",
+   "rd": "하비, 돈데 에스따스? 예가스 야?",
+   "ko": "하비, 어디야? 곧 와?",
+   "note": "¿llegas? = 도착해?(llegar 2인칭) · ¿dónde estás? = 어디야?",
    "tags": [
     "form:estar"
    ],
@@ -51,7 +51,7 @@
    "tl": "Llego en cinco minutos, te lo juro.",
    "rd": "예고 엔 씬꼬 미누또스, 떼 로 후로.",
    "ko": "오 분 안에 도착해, 진짜로.",
-   "note": "te lo juro = 맹세해, 진짜야",
+   "note": "llego = 도착해(llegar 1인칭) · te lo juro = 맹세해, 진짜야",
    "tags": [
     "expr:te lo juro"
    ],
@@ -82,7 +82,7 @@
    "tl": "Vale, vale. Ya estoy en el metro.",
    "rd": "발레, 발레. 야 에스또이 엔 엘 메뜨로.",
    "ko": "알았어, 알았어. 지금 지하철이야.",
-   "note": "ya estoy = 이미 ~에 있어",
+   "note": "ya estoy = 이미 ~에 있어(estar 1인칭)",
    "tags": [
     "expr:vale",
     "expr:ya"
@@ -97,10 +97,10 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "¿Metro? En tu historia hay sofá, peli y pizza.",
-   "rd": "메뜨로? 엔 뚜 이스또리아 아이 소파, 뻴리 이 삐짜.",
-   "ko": "지하철? 네 스토리엔 소파에 영화에 피자던데.",
-   "note": "historia = SNS 스토리 · hay = ~이 있다",
+   "tl": "¿Metro? En tu historia estás en el sofá con pizza.",
+   "rd": "메뜨로? 엔 뚜 이스또리아 에스따스 엔 엘 소파 꼰 삐짜.",
+   "ko": "지하철? 네 스토리엔 소파에서 피자 먹고 있던데.",
+   "note": "estás en ~ = ~에 있어(estar 2인칭) · historia = SNS 스토리",
    "tags": [],
    "new": [
     "historia",
@@ -130,10 +130,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "La historia es de hace diez minutos.",
-   "rd": "라 이스또리아 에스 데 아쎄 디에쓰 미누또스.",
-   "ko": "그 스토리 10분 전에 올린 거거든.",
-   "note": "de hace diez minutos = 10분 전의",
+   "tl": "¿Vieja? Es de hace diez minutos. ¿Sales o no?",
+   "rd": "비에하? 에스 데 아쎄 디에쓰 미누또스. 살레스 오 노?",
+   "ko": "옛날? 10분 전에 올린 거거든. 나와, 안 나와?",
+   "note": "¿sales? = 나와?(salir 2인칭) · de hace diez minutos = 10분 전의",
    "tags": [],
    "new": [],
    "emotion": "amused",
@@ -147,7 +147,7 @@
    "tl": "Vale. Salgo ya. ¿Te guardo un trozo?",
    "rd": "발레. 살고 야. 떼 구아르도 운 뜨로쏘?",
    "ko": "그래. 지금 나가. 한 조각 남겨 줄까?",
-   "note": "salgo ya = 지금 나가",
+   "note": "salgo ya = 지금 나가(salir 1인칭, 7번 턴 sales 와 짝)",
    "tags": [
     "expr:vale"
    ],

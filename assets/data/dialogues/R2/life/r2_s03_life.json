@@ -26,6 +26,7 @@
  "expressions": [
   "oye",
   "claro",
+  "qué pasa",
   "te apetece",
   "genial",
   "me da igual",
@@ -38,7 +39,7 @@
    "tl": "Oye, ¿cenas en casa el viernes?",
    "rd": "오예, 쎄나스 엔 까사 엘 비에르네스?",
    "ko": "있잖아, 금요일에 집에서 저녁 먹어?",
-   "note": "cenar = 저녁 먹다",
+   "note": "¿cenas? = 저녁 먹어?(cenar 2인칭)",
    "tags": [
     "expr:oye"
    ],
@@ -52,12 +53,13 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Claro. ¿Qué pasa el viernes?",
-   "rd": "끌라로. 께 빠사 엘 비에르네스?",
-   "ko": "당연하지. 금요일에 뭐 있어?",
-   "note": "claro = 당연하지",
+   "tl": "Claro, ceno en casa. ¿Qué pasa?",
+   "rd": "끌라로, 쎄노 엔 까사. 께 빠사?",
+   "ko": "당연하지, 집에서 먹어. 왜?",
+   "note": "ceno = 저녁 먹어(cenar 1인칭) · ¿qué pasa? = 왜·무슨 일이야?",
    "tags": [
-    "expr:claro"
+    "expr:claro",
+    "expr:qué pasa"
    ],
    "new": [],
    "emotion": "surprised",
@@ -70,7 +72,7 @@
    "tl": "Nada. Hago paella. ¿Te apetece?",
    "rd": "나다. 아고 빠에야. 떼 아뻬떼쎄?",
    "ko": "별거 없어. 파에야 하려고. 먹을래?",
-   "note": "¿te apetece? = ~할래?",
+   "note": "hago paella = 파에야 해(hacer 1인칭) · ¿te apetece? = ~할래?",
    "tags": [
     "expr:te apetece"
    ],
@@ -137,7 +139,7 @@
    "tl": "Ya hay diez en el grupo. Y dos perros.",
    "rd": "야 아이 디에쓰 엔 엘 그루뽀. 이 도스 뻬로스.",
    "ko": "단톡방에 벌써 열 명. 개도 두 마리.",
-   "note": "ya hay ~ = 벌써 ~ 있다",
+   "note": "perros = perro 의 복수 · ya hay ~ = 벌써 ~ 있다",
    "tags": [],
    "new": [
     "grupo"
@@ -150,10 +152,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "¿Diez? ¡Tu paella es para dos!",
-   "rd": "디에쓰? 뚜 빠에야 에스 빠라 도스!",
-   "ko": "열 명? 네 파에야 2인분이잖아!",
-   "note": "para dos = 2인분",
+   "tl": "¿Diez? ¡Haces paella para dos!",
+   "rd": "디에쓰? 아쎄스 빠에야 빠라 도스!",
+   "ko": "열 명? 너 파에야 2인분 하잖아!",
+   "note": "haces = 너 ~ 하잖아(hacer 2인칭, 3번 턴 hago 와 짝) · para dos = 2인분",
    "tags": [],
    "new": [],
    "emotion": "tsukkomi",

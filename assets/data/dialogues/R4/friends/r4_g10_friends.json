@@ -25,7 +25,7 @@
   "friends",
   "culture"
  ],
- "goal": "si os tocara…, ¿qué haríais?·si tuviera…, compraría·si fuera rico, me quedaría·si yo fuera tú",
+ "goal": "si os tocara…, ¿qué haríais?·¿qué harías?·si tuviera / si tuvieras·trabajaría / trabajarías·si fuera rico·si yo fuera tú",
  "expressions": [
   "oye",
   "tía",
@@ -40,7 +40,7 @@
    "tl": "Oye, si os tocara la lotería mañana, ¿qué haríais?",
    "rd": "오예, 시 오스 또까라 라 로떼리아 마냐나, 께 아리아이스?",
    "ko": "있잖아, 내일 너희가 복권에 당첨되면 뭐 할 거야?",
-   "note": "si + 접속법 과거(tocara), 조건법(haríais)",
+   "note": "si + 접속법 과거(tocara), 조건법(haríais = 너희는 하겠니)",
    "tags": [
     "expr:oye",
     "form:subjuntivo_imperfecto",
@@ -57,7 +57,7 @@
    "tl": "Fácil. Si tuviera un millón, compraría una churrería. Y no trabajaría nunca.",
    "rd": "파씰. 시 뚜비에라 운 미욘, 꼼쁘라리아 우나 추레리아. 이 노 뜨라바하리아 눈까.",
    "ko": "쉽지. 백만 유로 있으면 추로스 가게 살 거야. 그리고 평생 일 안 하고.",
-   "note": "si tuviera = 내가 갖고 있다면",
+   "note": "si tuviera = 내가 갖고 있다면 · trabajaría = (나) 일하겠다",
    "tags": [
     "form:subjuntivo_imperfecto",
     "form:condicional"
@@ -73,7 +73,7 @@
    "tl": "Javi, si tuvieras una churrería, trabajarías todo el día.",
    "rd": "하비, 시 뚜비에라스 우나 추레리아, 뜨라바하리아스 또도 엘 디아.",
    "ko": "하비, 추로스 가게 있으면 하루 종일 일해야 하거든.",
-   "note": "si tuvieras = 네가 갖고 있다면",
+   "note": "si tuvieras = 네가 갖고 있다면 · trabajarías = (너) 일하겠다",
    "tags": [
     "form:subjuntivo_imperfecto",
     "form:condicional"
@@ -97,12 +97,13 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "¿Y tú, {name}? Si pudieras vivir en cualquier sitio…",
-   "rd": "이 뚜, {name}? 시 뿌디에라스 비비르 엔 꾸알끼에르 시띠오…",
-   "ko": "너는, {name}? 어디서든 살 수 있다면…",
-   "note": "si pudieras = 네가 할 수 있다면",
+   "tl": "¿Y tú, {name}? ¿Qué harías tú? Si pudieras vivir en cualquier sitio…",
+   "rd": "이 뚜, {name}? 께 아리아스 뚜? 시 뿌디에라스 비비르 엔 꾸알끼에르 시띠오…",
+   "ko": "너는, {name}? 넌 뭐 할래? 어디서든 살 수 있다면…",
+   "note": "harías = (너) 하겠니 · si pudieras = 네가 할 수 있다면",
    "tags": [
-    "form:subjuntivo_imperfecto"
+    "form:subjuntivo_imperfecto",
+    "form:condicional"
    ],
    "new": [],
    "emotion": "gentle"
@@ -121,9 +122,9 @@
    "new": [
     "ascensor"
    ],
-   "emotion": "cheerful",
    "tl_f": "Si fuera rica, me quedaría en Madrid. Pero en un piso con ascensor.",
-   "rd_f": "시 푸에라 리까, 메 께다리아 엔 마드리드. 뻬로 엔 운 삐소 꼰 아스쎈소르."
+   "rd_f": "시 푸에라 리까, 메 께다리아 엔 마드리드. 뻬로 엔 운 삐소 꼰 아스쎈소르.",
+   "emotion": "cheerful"
   },
   {
    "num": 7,
@@ -137,9 +138,9 @@
     "form:condicional"
    ],
    "new": [],
-   "emotion": "teasing",
    "tl_f": "¡Qué poco ambiciosa! Yo, si ganara, me compraría un barco.",
-   "rd_f": "께 뽀꼬 암비씨오사! 요, 시 가나라, 메 꼼쁘라리아 운 바르꼬."
+   "rd_f": "께 뽀꼬 암비씨오사! 요, 시 가나라, 메 꼼쁘라리아 운 바르꼬.",
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -195,10 +196,10 @@
   {
    "num": 12,
    "speaker": "B",
-   "tl": "¡Madre mía! ¡Mi barco!",
-   "rd": "마드레 미아! 미 바르꼬!",
-   "ko": "세상에! 내 배!",
-   "note": "madre mía = 세상에",
+   "tl": "¡Madre mía! ¡Somos ricos! ¡Mi barco!",
+   "rd": "마드레 미아! 소모스 리꼬스! 미 바르꼬!",
+   "ko": "세상에! 우리 부자야! 내 배!",
+   "note": "madre mía = 세상에 · somos = 우리는 ~이다",
    "tags": [
     "expr:madre mía"
    ],
@@ -232,10 +233,10 @@
   {
    "num": 15,
    "speaker": "C",
-   "tl": "…Y acabo de invitar a todo el bar.",
-   "rd": "…이 아까보 데 인비따르 아 또도 엘 바르.",
-   "ko": "…근데 나 방금 바 전체에 쏜다고 했는데.",
-   "note": "acabar de = 방금 ~했다",
+   "tl": "…Y acabo de invitar a todo el bar. ¿Qué hago ahora?",
+   "rd": "…이 아까보 데 인비따르 아 또도 엘 바르. 께 아고 아오라?",
+   "ko": "…근데 나 방금 바 전체에 쏜다고 했는데. 이제 어떡해?",
+   "note": "acabar de = 방금 ~했다 · ¿qué hago? = 어떡하지?",
    "tags": [],
    "new": [],
    "emotion": "sad"

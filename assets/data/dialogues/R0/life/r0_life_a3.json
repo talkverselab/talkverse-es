@@ -22,7 +22,7 @@
  "domain": [
   "life"
  ],
- "goal": "현재형으로 오늘 계획 · cómo que · 짧은 반응",
+ "goal": "comer(comes·como) · cocinar(cocino·cocinas) · querer(quieres·quiero) · cómo que",
  "expressions": [
   "qué guay",
   "cómo que",
@@ -48,11 +48,13 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Sí. ¿Por qué?",
-   "rd": "시. 뽀르 께?",
-   "ko": "응. 왜?",
-   "note": "¿Por qué? = 왜?",
-   "tags": [],
+   "tl": "Sí, como en casa. ¿Por qué?",
+   "rd": "시, 꼬모 엔 까사. 뽀르 께?",
+   "ko": "응, 집에서 먹어. 왜?",
+   "note": "como = 나 먹어(comer)",
+   "tags": [
+    "form:comer"
+   ],
    "new": [],
    "emotion": "neutral",
    "ui": "bubble",
@@ -61,11 +63,14 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Hoy cocino yo.",
-   "rd": "오이 꼬씨노 요.",
-   "ko": "오늘은 내가 요리해.",
-   "note": "cocino yo = 내가 요리해",
-   "tags": [],
+   "tl": "Hoy cocino yo. ¿Quieres?",
+   "rd": "오이 꼬씨노 요. 끼에레스?",
+   "ko": "오늘은 내가 요리해. 먹을래?",
+   "note": "cocino = 나 요리해 · ¿Quieres? = 할래?·먹을래?",
+   "tags": [
+    "form:cocinar",
+    "form:querer"
+   ],
    "new": [
     "cocinar"
    ],
@@ -77,17 +82,27 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¡Qué guay! ¿Qué es?",
-   "rd": "께 구아이! 께 에스?",
-   "ko": "오 대박! 뭔데?",
-   "note": "¡Qué guay! = 멋지다·대박",
+   "tl": "¿Tú cocinas? ¡Qué guay! ¿Qué es?",
+   "rd": "뚜 꼬씨나스? 께 구아이! 께 에스?",
+   "ko": "네가 요리한다고? 오 대박! 뭔데?",
+   "note": "cocinas = 너 요리해",
    "tags": [
-    "expr:qué guay"
+    "expr:qué guay",
+    "form:cocinar"
    ],
    "new": [],
-   "emotion": "excited",
    "ui": "bubble",
-   "at": "19:04"
+   "at": "19:04",
+   "segs": [
+    [
+     "surprised",
+     "¿Tú cocinas? "
+    ],
+    [
+     "excited",
+     "¡Qué guay! ¿Qué es?"
+    ]
+   ]
   },
   {
    "num": 5,
@@ -143,9 +158,10 @@
    "tl": "Vale. Yo quiero la grande.",
    "rd": "발레. 요 끼에로 라 그란데.",
    "ko": "오케이. 난 라지로.",
-   "note": "la grande = 큰 거",
+   "note": "quiero = 나 ~원해 · la grande = 큰 거",
    "tags": [
-    "expr:vale"
+    "expr:vale",
+    "form:querer"
    ],
    "new": [],
    "emotion": "cheerful",

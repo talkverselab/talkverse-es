@@ -22,7 +22,7 @@
  "domain": [
   "life"
  ],
- "goal": "tener frío · 짧은 반응 · 명사 + y otro",
+ "goal": "tener frío/calor(tengo·tienes) · estar(estás·estoy·está) · 단수·복수 명사(manta·mantas)",
  "expressions": [
   "qué tal",
   "un momento",
@@ -33,12 +33,13 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Buenos días, {name}. ¿Qué tal?",
-   "rd": "부에노스 디아스, {name}. 께 딸?",
+   "tl": "Buenos días, {name}. ¿Qué tal estás?",
+   "rd": "부에노스 디아스, {name}. 께 딸 에스따스?",
    "ko": "좋은 아침, {name}. 잘 잤어?",
-   "note": "buenos días = 좋은 아침",
+   "note": "buenos días = 좋은 아침 · estás = 너 ~해(상태)",
    "tags": [
-    "expr:qué tal"
+    "expr:qué tal",
+    "form:estar"
    ],
    "new": [],
    "emotion": "gentle"
@@ -61,12 +62,13 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "¿Frío? ¡Un momento!",
-   "rd": "프리오? 운 모멘또!",
+   "tl": "¿Tienes frío? ¡Un momento!",
+   "rd": "띠에네스 프리오? 운 모멘또!",
    "ko": "추워? 잠깐만!",
-   "note": "¡Un momento! = 잠깐만!",
+   "note": "¿Tienes frío? = 추워?",
    "tags": [
-    "expr:un momento"
+    "expr:un momento",
+    "form:tener"
    ],
    "new": [],
    "emotion": "worried"
@@ -74,10 +76,10 @@
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Toma. Una manta. Y otra.",
-   "rd": "또마. 우나 만따. 이 오뜨라.",
-   "ko": "자. 담요. 하나 더.",
-   "note": "toma = 자, 받아",
+   "tl": "Toma, una manta. Y dos mantas más.",
+   "rd": "또마, 우나 만따. 이 도스 만따스 마스.",
+   "ko": "자, 담요. 그리고 두 장 더.",
+   "note": "mantas = 담요들(복수) · toma = 자, 받아",
    "tags": [],
    "new": [
     "manta"
@@ -87,10 +89,10 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Diego, espera. Estoy bien.",
-   "rd": "디에고, 에스뻬라. 에스또이 비엔.",
-   "ko": "디에고, 잠깐. 나 괜찮아.",
-   "note": "espera = 잠깐·기다려",
+   "tl": "Diego, espera. Ya estoy bien.",
+   "rd": "디에고, 에스뻬라. 야 에스또이 비엔.",
+   "ko": "디에고, 잠깐. 나 이제 괜찮아.",
+   "note": "ya estoy bien = 이제 괜찮아",
    "tags": [
     "expr:espera",
     "form:estar"

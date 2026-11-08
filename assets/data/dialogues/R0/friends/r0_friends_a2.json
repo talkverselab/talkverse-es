@@ -22,25 +22,27 @@
  "domain": [
   "friends"
  ],
- "goal": "인사 ¿Qué tal? · tener hambre · 짧은 반응",
+ "goal": "estar(estás·estoy) · tener hambre(tienes·tengo) · querer(quieres·quiero)",
  "expressions": [
   "qué tal",
   "y tú",
   "genial",
   "oye",
   "ahora mismo",
-  "ya"
+  "ya",
+  "tía"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¡Hola, {name}! ¿Qué tal?",
-   "rd": "올라, {name}! 께 딸?",
+   "tl": "¡Hola, {name}! ¿Qué tal estás?",
+   "rd": "올라, {name}! 께 딸 에스따스?",
    "ko": "안녕, {name}! 잘 지내?",
-   "note": "¿Qué tal? = 잘 지내?·어때?",
+   "note": "¿Qué tal estás? = 잘 지내?",
    "tags": [
-    "expr:qué tal"
+    "expr:qué tal",
+    "form:estar"
    ],
    "new": [],
    "emotion": "cheerful"
@@ -48,12 +50,13 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Bien. ¿Y tú?",
-   "rd": "비엔. 이 뚜?",
+   "tl": "Estoy bien. ¿Y tú?",
+   "rd": "에스또이 비엔. 이 뚜?",
    "ko": "잘 지내. 너는?",
-   "note": "¿Y tú? = 너는?",
+   "note": "estoy bien = 나 잘 지내",
    "tags": [
-    "expr:y tú"
+    "expr:y tú",
+    "form:estar"
    ],
    "new": [],
    "emotion": "cheerful"
@@ -78,23 +81,25 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Un poco. ¿Por qué?",
-   "rd": "운 뽀꼬. 뽀르 께?",
-   "ko": "조금. 왜?",
-   "note": "¿Por qué? = 왜?",
-   "tags": [],
+   "tl": "Un poco. ¿Quieres comer algo?",
+   "rd": "운 뽀꼬. 끼에레스 꼬메르 알고?",
+   "ko": "조금. 뭐 먹을래?",
+   "note": "¿Quieres…? = ~할래?",
+   "tags": [
+    "form:querer"
+   ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "amused"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Conozco un sitio. ¡Ahora mismo!",
-   "rd": "꼬노쓰꼬 운 시띠오. 아오라 미스모!",
-   "ko": "나 아는 데 있어. 지금 당장 가자!",
-   "note": "un sitio = 어떤 곳·가게",
+   "tl": "¡Quiero comer todo! Conozco un sitio.",
+   "rd": "끼에로 꼬메르 또도! 꼬노쓰꼬 운 시띠오.",
+   "ko": "다 먹고 싶어! 나 아는 데 있어.",
+   "note": "quiero = 나 ~하고 싶어 · un sitio = 가게",
    "tags": [
-    "expr:ahora mismo"
+    "form:querer"
    ],
    "new": [
     "sitio"
@@ -130,9 +135,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Ya. Yo tengo mucha.",
-   "rd": "야. 요 뗀고 무차.",
-   "ko": "알아. 난 엄청 고파.",
+   "tl": "Ya. Pero yo tengo mucha.",
+   "rd": "야. 뻬로 요 뗀고 무차.",
+   "ko": "알아. 근데 난 엄청 고파.",
    "note": "mucha (hambre) = 많이",
    "tags": [
     "expr:ya"

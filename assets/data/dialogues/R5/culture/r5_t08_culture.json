@@ -81,10 +81,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Un discurso? ¿En español? ¿Delante de cuarenta personas?",
-   "rd": "운 디스꾸르소? 엔 에스빠뇰? 델란떼 데 꾸아렌따 뻬르소나스?",
-   "ko": "연설? 스페인어로? 마흔 명 앞에서?",
-   "note": "discurso = 연설",
+   "tl": "¿Un discurso? ¿Yo también lo hago? ¿En español? ¿Delante de cuarenta personas?",
+   "rd": "운 디스꾸르소? 요 땀비엔 로 아고? 엔 에스빠뇰? 델란떼 데 꾸아렌따 뻬르소나스?",
+   "ko": "연설? 나도 해? 스페인어로? 마흔 명 앞에서?",
+   "note": "discurso = 연설 · hace(그가) ↔ hago(내가)",
    "tags": [],
    "new": [
     "discurso"
@@ -110,10 +110,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Sí, señora. ¡Muchas felicidades! Le he traído estas flores.",
-   "rd": "시, 세뇨라. 무차스 펠리씨다데스! 레 에 뜨라이도 에스따스 플로레스.",
+   "tl": "Sí, señora. ¡Muchas felicidades! Le traigo estas flores.",
+   "rd": "시, 세뇨라. 무차스 펠리씨다데스! 레 뜨라이고 에스따스 플로레스.",
    "ko": "네, 할머니. 생신 축하드려요! 꽃 가져왔어요.",
-   "note": "felicidades = 축하해요(생일)",
+   "note": "felicidades = 축하해요(생일) · traigo = 가져오다(he traído ↔ traigo)",
    "tags": [],
    "new": [
     "felicidad"

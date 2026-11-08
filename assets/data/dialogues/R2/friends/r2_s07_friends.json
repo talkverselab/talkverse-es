@@ -36,7 +36,7 @@
    "tl": "Javi, churros gratis en la plaza. ¡Corre!",
    "rd": "하비, 추로스 그라띠스 엔 라 쁠라싸. 꼬레!",
    "ko": "하비, 광장에서 추로스 공짜래. 뛰어!",
-   "note": "¡corre! = 뛰어!(명령)",
+   "note": "¡corre! = 뛰어!(correr 명령)",
    "tags": [
     "form:imperativo"
    ],
@@ -51,10 +51,10 @@
   {
    "num": 2,
    "speaker": "B",
-   "tl": "¿En serio? ¿Dónde? ¡Voy ya!",
-   "rd": "엔 세리오? 돈데? 보이 야!",
-   "ko": "진짜? 어디? 지금 간다!",
-   "note": "en serio = 진짜로",
+   "tl": "¿En serio? ¿Dónde? ¡Voy ya! ¿Vas tú?",
+   "rd": "엔 세리오? 돈데? 보이 야! 바스 뚜?",
+   "ko": "진짜? 어디? 지금 간다! 너도 가?",
+   "note": "voy = 가(ir 1인칭) · ¿vas? = 너 가?(2인칭)",
    "tags": [
     "expr:en serio"
    ],
@@ -67,10 +67,10 @@
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Jajaja, es broma, tío.",
-   "rd": "하하하, 에스 브로마, 띠오.",
-   "ko": "ㅋㅋㅋ 농담이야.",
-   "note": "es broma = 농담이야",
+   "tl": "Jajaja, no voy. Es broma, tío.",
+   "rd": "하하하, 노 보이. 에스 브로마, 띠오.",
+   "ko": "ㅋㅋㅋ 안 가. 농담이야.",
+   "note": "es broma = 농담이야 · no voy = 안 가",
    "tags": [
     "expr:tío"
    ],
@@ -114,10 +114,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Hay mil tíos en la plaza. Y el churrero, feliz.",
-   "rd": "아이 밀 띠오스 엔 라 쁠라싸. 이 엘 추레로, 펠리쓰.",
-   "ko": "광장에 천 명. 추로스 아저씨는 신났어.",
-   "note": "churrero = 추로스 장수",
+   "tl": "Hay mil tíos corriendo. Y el churrero, feliz.",
+   "rd": "아이 밀 띠오스 꼬리엔도. 이 엘 추레로, 펠리쓰.",
+   "ko": "천 명이 뛰고 있어. 추로스 아저씨는 신났어.",
+   "note": "corriendo = 뛰는 중(correr, 1번 턴 corre 와 짝) · tíos = 사람들(구어)",
    "tags": [],
    "new": [
     "churrero"

@@ -25,7 +25,7 @@
  "domain": [
   "love"
  ],
- "goal": "인사·ser 로 자기소개(soy) · 짧은 반응",
+ "goal": "ser(eres·soy·es) · bonito/bonita 성 일치 · gustar(gusto·gustas)",
  "expressions": [
   "vale",
   "ya",
@@ -95,25 +95,24 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ya… Es que me gusta tu perro.",
-   "rd": "야… 에스 께 메 구스따 뚜 뻬로.",
-   "ko": "아… 그게, 네 개가 마음에 들어서.",
-   "note": "me gusta = 마음에 들어",
+   "tl": "Ya… Es que tu perro es muy bonito.",
+   "rd": "야… 에스 께 뚜 뻬로 에스 무이 보니또.",
+   "ko": "아… 그게, 네 개가 너무 예뻐서.",
+   "note": "bonita(사진) / bonito(개) = 예쁜 — 명사 성에 맞춤",
    "tags": [
     "expr:ya",
-    "expr:es que"
+    "expr:es que",
+    "form:ser"
    ],
-   "new": [
-    "gustar"
-   ],
+   "new": [],
    "segs": [
     [
      "flustered",
-     "Ya…"
+     "Ya… "
     ],
     [
      "amused",
-     "Es que me gusta tu perro."
+     "Es que tu perro es muy bonito."
     ]
    ],
    "ui": "bubble",
@@ -123,14 +122,17 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Vale. ¿Y yo?",
-   "rd": "발레. 이 요?",
-   "ko": "그래. 그럼 나는?",
-   "note": "¿Y yo? = 나는?",
+   "tl": "Vale. ¿Y yo no te gusto?",
+   "rd": "발레. 이 요 노 떼 구스또?",
+   "ko": "그래. 그럼 나는 별로야?",
+   "note": "¿no te gusto? = 내가 맘에 안 들어?",
    "tags": [
-    "expr:vale"
+    "expr:vale",
+    "form:gustar"
    ],
-   "new": [],
+   "new": [
+    "gustar"
+   ],
    "emotion": "tsukkomi",
    "ui": "bubble",
    "at": "21:06"
@@ -138,11 +140,13 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Tú también. Un poco.",
-   "rd": "뚜 땀비엔. 운 뽀꼬.",
-   "ko": "너도. 조금.",
-   "note": "un poco = 조금",
-   "tags": [],
+   "tl": "Tú también me gustas. Un poco.",
+   "rd": "뚜 땀비엔 메 구스따스. 운 뽀꼬.",
+   "ko": "너도 맘에 들어. 조금.",
+   "note": "me gustas = 네가 좋아·맘에 들어",
+   "tags": [
+    "form:gustar"
+   ],
    "new": [],
    "emotion": "shy",
    "ui": "bubble",
