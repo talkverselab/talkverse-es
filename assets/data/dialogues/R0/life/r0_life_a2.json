@@ -1,0 +1,142 @@
+{
+ "id": "r0_life_a2",
+ "region": "R0",
+ "stage": 1,
+ "level_name": "소리·짧은 회화",
+ "island": "life",
+ "kind": "short",
+ "title": "조금 추워",
+ "emoji": "🧣",
+ "scene": "아침 거실, 룸메이트 Diego 에게 춥다고 했더니",
+ "speakers": {
+  "A": "{name}",
+  "B": "Diego"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "tener frío · 짧은 반응 · 명사 + y otro",
+ "expressions": [
+  "qué tal",
+  "un momento",
+  "espera",
+  "ya está"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Buenos días, {name}. ¿Qué tal?",
+   "rd": "부에노스 디아스, {name}. 께 딸?",
+   "ko": "좋은 아침, {name}. 잘 잤어?",
+   "note": "buenos días = 좋은 아침",
+   "tags": [
+    "expr:qué tal"
+   ],
+   "new": [],
+   "emotion": "gentle"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Mal. Tengo un poco de frío.",
+   "rd": "말. 뗀고 운 뽀꼬 데 프리오.",
+   "ko": "별로. 좀 추워.",
+   "note": "tener frío = 춥다",
+   "tags": [
+    "form:tener"
+   ],
+   "new": [
+    "frío"
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "¿Frío? ¡Un momento!",
+   "rd": "프리오? 운 모멘또!",
+   "ko": "추워? 잠깐만!",
+   "note": "¡Un momento! = 잠깐만!",
+   "tags": [
+    "expr:un momento"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Toma. Una manta. Y otra.",
+   "rd": "또마. 우나 만따. 이 오뜨라.",
+   "ko": "자. 담요. 하나 더.",
+   "note": "toma = 자, 받아",
+   "tags": [],
+   "new": [
+    "manta"
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Diego, espera. Estoy bien.",
+   "rd": "디에고, 에스뻬라. 에스또이 비엔.",
+   "ko": "디에고, 잠깐. 나 괜찮아.",
+   "note": "espera = 잠깐·기다려",
+   "tags": [
+    "expr:espera",
+    "form:estar"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "¡Y mi guitarra! Para ti.",
+   "rd": "이 미 기따라! 빠라 띠.",
+   "ko": "그리고 내 기타! 너를 위해.",
+   "note": "para ti = 너를 위해",
+   "tags": [],
+   "new": [],
+   "emotion": "excited"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Ya está, ya está.",
+   "rd": "야 에스따, 야 에스따.",
+   "ko": "됐어, 됐어.",
+   "note": "ya está = 됐어",
+   "tags": [
+    "expr:ya está"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Ahora tengo calor.",
+   "rd": "아오라 뗀고 깔로르.",
+   "ko": "이제 더워.",
+   "note": "tener calor = 덥다",
+   "tags": [
+    "form:tener"
+   ],
+   "new": [
+    "calor"
+   ],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

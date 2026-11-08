@@ -1,0 +1,167 @@
+{
+ "id": "r2_s02_travel",
+ "region": "R2",
+ "stage": 2,
+ "level_name": "챗 실전",
+ "island": "travel",
+ "kind": "chat",
+ "title": "사진 한 장만",
+ "emoji": "📸",
+ "scene": "카디스 바닷가에 간 Lucía 에게 사진을 조르는 채팅 — 상황 2 「사진」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "채팅에서 사진 조르기·사진에 대해 반응하기",
+ "expressions": [
+  "tío",
+  "mira",
+  "madre mía",
+  "qué fuerte"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¡Tío, estoy en Cádiz! Mira qué mar.",
+   "rd": "띠오, 에스또이 엔 까디쓰! 미라 께 마르.",
+   "ko": "야, 나 카디스야! 바다 좀 봐.",
+   "note": "mira qué ~ = ~ 좀 봐",
+   "tags": [
+    "expr:tío",
+    "expr:mira"
+   ],
+   "new": [
+    "mar"
+   ],
+   "emotion": "excited",
+   "tl_f": "¡Tía, estoy en Cádiz! Mira qué mar.",
+   "ui": "bubble",
+   "at": "12:10",
+   "stamp": "🌊",
+   "rd_f": "띠아, 에스또이 엔 까디쓰! 미라 께 마르."
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Qué envidia. ¿Y la foto, guapa?",
+   "rd": "께 엔비디아. 이 라 포또, 구아빠?",
+   "ko": "부럽다. 사진은, 예쁜이?",
+   "note": "qué envidia = 부럽다",
+   "tags": [],
+   "new": [
+    "envidia"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "12:12"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Ahí va. ¿Qué tal salgo?",
+   "rd": "아이 바. 께 딸 살고?",
+   "ko": "보낸다. 나 어떻게 나왔어?",
+   "note": "salir (en la foto) = 사진에 나오다",
+   "tags": [
+    "expr:qué tal"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "12:13"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Bien… pero ¿quién es el señor de detrás?",
+   "rd": "비엔… 뻬로 끼엔 에스 엘 세뇨르 데 데뜨라스?",
+   "ko": "잘 나왔어… 근데 뒤에 아저씨는 누구야?",
+   "note": "de detrás = 뒤쪽의",
+   "tags": [],
+   "new": [
+    "detrás"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "12:14"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "¿Qué señor? Ay, madre mía.",
+   "rd": "께 세뇨르? 아이, 마드레 미아.",
+   "ko": "무슨 아저씨? 헐, 세상에.",
+   "note": "madre mía = 세상에",
+   "tags": [
+    "expr:madre mía"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "12:14"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Y un perro. Y una boda entera.",
+   "rd": "이 운 뻬로. 이 우나 보다 엔떼라.",
+   "ko": "개도 있어. 결혼식 하객 전원도.",
+   "note": "entero/entera = 통째로·전부",
+   "tags": [],
+   "new": [
+    "boda"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "12:15",
+   "stamp": "😂"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Y ya está en mi historia. Mil vistas.",
+   "rd": "이 야 에스따 엔 미 이스또리아. 밀 비스따스.",
+   "ko": "근데 벌써 내 스토리에 올렸어. 조회수 천.",
+   "note": "historia = SNS 스토리",
+   "tags": [
+    "callback:r2_s04_friends"
+   ],
+   "new": [
+    "vista"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "12:20"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Ahora la novia me pide la foto. Qué fuerte.",
+   "rd": "아오라 라 노비아 메 삐데 라 포또. 께 푸에르떼.",
+   "ko": "이제 신부가 그 사진 달래. 대박.",
+   "note": "qué fuerte = 대박·헐",
+   "tags": [
+    "expr:qué fuerte"
+   ],
+   "new": [
+    "novia"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "12:31",
+   "stamp": "👰"
+  }
+ ],
+ "draft": "claude"
+}

@@ -1,0 +1,254 @@
+{
+ "id": "r5_t06_travel",
+ "region": "R5",
+ "stage": 6,
+ "level_name": "어휘 완주",
+ "island": "travel",
+ "kind": "long",
+ "title": "비행기 아니고",
+ "emoji": "✈️",
+ "scene": "Javi 와 세비야 여행, 공항 카운터 — 주제 6 「여행·이동」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Javi",
+  "C": "Empleada"
+ },
+ "register": "mixed",
+ "twist": 12,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "이동 어휘(vuelo·aeropuerto·pasaporte·maleta·billete·tren·estación·asiento·destino·kilómetro)",
+ "expressions": [
+  "ya",
+  "tranqui",
+  "es que",
+  "vale",
+  "por cierto",
+  "venga"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "¡Javi! El vuelo sale en cuarenta minutos. ¿Dónde estás?",
+   "rd": "하비! 엘 부엘로 살레 엔 꾸아렌따 미누또스. 돈데 에스따스?",
+   "ko": "하비! 비행기 40분 뒤에 떠. 어디야?",
+   "note": "vuelo = 항공편",
+   "tags": [],
+   "new": [
+    "vuelo"
+   ],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Tranqui, ya estoy en la puerta del aeropuerto. Traigo churros.",
+   "rd": "뜨란끼, 야 에스또이 엔 라 뿌에르따 델 아에로뿌에르또. 뜨라이고 추로스.",
+   "ko": "진정해, 공항 입구야. 추로스 사 왔어.",
+   "note": "tranqui = 진정해(줄임) · aeropuerto = 공항",
+   "tags": [
+    "expr:ya",
+    "expr:tranqui"
+   ],
+   "new": [
+    "aeropuerto",
+    "churro"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "¿Tienes el pasaporte? ¿Y la tarjeta del vuelo?",
+   "rd": "띠에네스 엘 빠사뽀르떼? 이 라 따르헤따 델 부엘로?",
+   "ko": "여권은 있어? 탑승권은?",
+   "note": "pasaporte = 여권",
+   "tags": [],
+   "new": [
+    "pasaporte",
+    "tarjeta"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Pasaporte, sí. La tarjeta está en el móvil. Somos modernos.",
+   "rd": "빠사뽀르떼, 시. 라 따르헤따 에스따 엔 엘 모빌. 소모스 모데르노스.",
+   "ko": "여권 있지. 탑승권은 폰에 있어. 우리 요즘 사람이잖아.",
+   "note": "moderno = 현대적인",
+   "tags": [],
+   "new": [
+    "moderno"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Buenos días. Su maleta pesa veintisiete kilos. El límite son veinte.",
+   "rd": "부에노스 디아스. 수 말레따 뻬사 베인띠시에떼 낄로스. 엘 리미떼 손 베인떼.",
+   "ko": "안녕하세요. 가방이 27킬로네요. 한도는 20킬로예요.",
+   "note": "maleta = 여행 가방 · límite = 한도",
+   "tags": [],
+   "new": [
+    "maleta",
+    "kilo",
+    "límite"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Es que llevo regalos para mi primo. Y un jamón.",
+   "rd": "에스 께 예보 레갈로스 빠라 미 쁘리모. 이 운 하몬.",
+   "ko": "그게, 사촌 선물이 들어 있어서요. 하몽 하나랑.",
+   "note": "primo = 사촌 · jamón = 하몽",
+   "tags": [
+    "expr:es que"
+   ],
+   "new": [
+    "primo",
+    "jamón"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Tiene que pagar cincuenta más. O sacar algo de la maleta.",
+   "rd": "띠에네 께 빠가르 씬꾸엔따 마스. 오 사까르 알고 데 라 말레따.",
+   "ko": "50 더 내셔야 해요. 아니면 가방에서 뭘 빼시든가요.",
+   "note": "sacar = 꺼내다",
+   "tags": [],
+   "new": [],
+   "emotion": "stiff"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Vale. Me como los churros aquí y así pesa menos.",
+   "rd": "발레. 메 꼬모 로스 추로스 아끼 이 아시 뻬사 메노스.",
+   "ko": "알겠어요. 추로스 여기서 먹을게요. 그럼 가벼워지겠죠.",
+   "note": "así = 그러면",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "sad"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Los churros no pesan nada, Javi. El jamón pesa siete kilos.",
+   "rd": "로스 추로스 노 뻬산 나다, 하비. 엘 하몬 뻬사 시에떼 낄로스.",
+   "ko": "추로스는 무게도 안 나가, 하비. 하몽이 7킬로야.",
+   "note": "pesar = 무게가 나가다",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Por cierto, ¿cuál es su destino hoy?",
+   "rd": "뽀르 씨에르또, 꾸알 에스 수 데스띠노 오이?",
+   "ko": "그런데 오늘 목적지가 어디세요?",
+   "note": "destino = 목적지",
+   "tags": [
+    "expr:por cierto"
+   ],
+   "new": [
+    "destino"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Sevilla. Viajamos juntos, asientos doce A y doce B.",
+   "rd": "세비야. 비아하모스 훈또스, 아시엔또스 도쎄 아 이 도쎄 브.",
+   "ko": "세비야요. 같이 가요. 좌석 12A랑 12B.",
+   "note": "asiento = 좌석 · viajar = 여행하다",
+   "tags": [],
+   "new": [
+    "viajar",
+    "asiento"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Este billete es a Sevilla… pero en tren. Y la estación está a quince kilómetros.",
+   "rd": "에스떼 비예떼 에스 아 세비야… 뻬로 엔 뜨렌. 이 라 에스따씨온 에스따 아 낀쎄 낄로메뜨로스.",
+   "ko": "이 표는 세비야행 맞는데… 기차표네요. 기차역은 여기서 15킬로 떨어져 있고요.",
+   "note": "billete = 표 · estación = 역",
+   "tags": [],
+   "new": [
+    "billete",
+    "tren",
+    "estación",
+    "kilómetro"
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "tl": "¿¡En tren!? ¡Javi!",
+   "rd": "엔 뜨렌!? 하비!",
+   "ko": "기차!? 하비!",
+   "note": "¿¡…!? = 놀람+질문",
+   "tags": [],
+   "new": [],
+   "emotion": "shout"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Era mucho más barato. Y en el tren dejan llevar jamón.",
+   "rd": "에라 무초 마스 바라또. 이 엔 엘 뜨렌 데한 예바르 하몬.",
+   "ko": "훨씬 쌌단 말이야. 그리고 기차는 하몽 들고 타도 돼.",
+   "note": "barato = 싼",
+   "tags": [],
+   "new": [
+    "barato"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "tl": "El tren sale en treinta minutos. Si corren, llegan.",
+   "rd": "엘 뜨렌 살레 엔 뜨레인따 미누또스. 시 꼬렌, 예간.",
+   "ko": "기차 30분 뒤에 출발해요. 뛰면 도착해요.",
+   "note": "correr = 뛰다",
+   "tags": [],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "tl": "¡Venga! Por una vez no llego tarde yo solo.",
+   "rd": "벤가! 뽀르 우나 베쓰 노 예고 따르데 요 솔로.",
+   "ko": "가자! 이번엔 나 혼자 늦는 거 아니다.",
+   "note": "por una vez = 이번만은",
+   "tags": [
+    "expr:venga"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  }
+ ],
+ "draft": "claude"
+}

@@ -1,0 +1,156 @@
+{
+ "id": "r3_s02_friends",
+ "region": "R3",
+ "stage": 2,
+ "source": "r1_s02_friends",
+ "level_name": "그래머2(복수·존댓말)",
+ "island": "friends",
+ "kind": "short",
+ "title": "아픈 사람들 어디 있게",
+ "emoji": "🥨",
+ "scene": "2단계 「아픈 사람 어디 있게」를 복수로 — Lucía·Marta 를 만나 Javi·Diego 소식을 듣는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "같은 이야기를 복수 ser/estar(estáis·estamos·están·son)로 — 새 단어 0",
+ "expressions": [
+  "qué tal",
+  "fatal",
+  "tío",
+  "qué pena",
+  "mira"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "¡Hola, Lucía! ¿Qué tal? ¿Estáis cansadas?",
+   "rd": "올라, 루씨아! 께 딸? 에스따이스 깐사다스?",
+   "ko": "안녕, 루시아! 잘 지내? 둘 다 피곤해?",
+   "note": "estáis = estar 2인칭 복수(vosotras)",
+   "tags": [
+    "expr:qué tal",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Estamos fatal, tío. Es lunes.",
+   "rd": "에스따모스 파딸, 띠오. 에스 루네스.",
+   "ko": "우리 완전 최악이야. 월요일이잖아.",
+   "note": "estamos = estar 1인칭 복수",
+   "tags": [
+    "expr:fatal",
+    "expr:tío",
+    "form:nosotros"
+   ],
+   "new": [],
+   "emotion": "sad",
+   "tl_f": "Estamos fatal, tía. Es lunes.",
+   "rd_f": "에스따모스 파딸, 띠아. 에스 루네스."
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "¿Y Javi y Diego? ¿Dónde están?",
+   "rd": "이 하비 이 디에고? 돈데 에스딴?",
+   "ko": "하비랑 디에고는? 어디 있어?",
+   "note": "están = estar 3인칭 복수",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Están en casa. Están enfermos, dicen.",
+   "rd": "에스딴 엔 까사. 에스딴 엔페르모스, 디쎈.",
+   "ko": "집에 있대. 둘 다 아프다나 봐.",
+   "note": "enfermos = 남성 복수 · dicen = 그들이 말한다",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Qué pena. Son muy fuertes, ¿no?",
+   "rd": "께 뻬나. 손 무이 푸에르떼스, 노?",
+   "ko": "안됐다. 둘 다 원래 엄청 튼튼하잖아?",
+   "note": "son = ser 3인칭 복수(성질)",
+   "tags": [
+    "expr:qué pena",
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Sí… Mira esta foto. Es de hoy.",
+   "rd": "시… 미라 에스따 포또. 에스 데 오이.",
+   "ko": "응… 이 사진 봐. 오늘 거야.",
+   "note": "es de hoy = 오늘 것(ser)",
+   "tags": [
+    "expr:mira"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Sí…"
+    ],
+    [
+     "teasing",
+     "Mira esta foto. Es de hoy."
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "¡Están en la churrería! ¿Enfermos?",
+   "rd": "에스딴 엔 라 추레리아! 엔페르모스?",
+   "ko": "추로스 가게에 있잖아! 아프다며?",
+   "note": "están en = (그들이) ~에 있다",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Sí, enfermos… de hambre.",
+   "rd": "시, 엔페르모스… 데 암브레.",
+   "ko": "응, 아프대… 배고파서.",
+   "note": "enfermos = 복수 일치",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

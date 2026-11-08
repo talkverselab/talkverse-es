@@ -1,0 +1,170 @@
+{
+ "id": "r2_s06_work",
+ "region": "R2",
+ "stage": 6,
+ "level_name": "챗 실전",
+ "island": "work",
+ "kind": "chat",
+ "title": "또 취소",
+ "emoji": "🍺",
+ "scene": "알바 때문에 약속을 취소한 Javi 를 기다리는 채팅 — 상황 6 「취소」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Javi"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [],
+ "purpose": [
+  "work_spain"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "취소 받아들이기·읽씹 뒤 받아치기",
+ "expressions": [
+  "tío",
+  "lo siento",
+  "qué pasa",
+  "vaya",
+  "no pasa nada",
+  "oye",
+  "qué tal",
+  "perdona",
+  "qué morro"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Tío, lo siento. Hoy no puedo.",
+   "rd": "띠오, 로 시엔또. 오이 노 뿌에도.",
+   "ko": "야, 미안. 오늘 안 되겠어.",
+   "note": "hoy no puedo = 오늘 안 돼",
+   "tags": [
+    "expr:tío",
+    "expr:lo siento"
+   ],
+   "new": [],
+   "emotion": "sad",
+   "tl_f": "Tía, lo siento. Hoy no puedo.",
+   "ui": "bubble",
+   "at": "17:00",
+   "rd_f": "띠아, 로 시엔또. 오이 노 뿌에도."
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¿Otra vez? ¿Qué pasa ahora?",
+   "rd": "오뜨라 베쓰? 께 빠사 아오라?",
+   "ko": "또? 이번엔 뭔데?",
+   "note": "otra vez = 또",
+   "tags": [
+    "expr:qué pasa"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "17:02",
+   "stamp": "🙄"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Me toca trabajar hasta tarde en el bar.",
+   "rd": "메 또까 뜨라바하르 아스따 따르데 엔 엘 바르.",
+   "ko": "바에서 늦게까지 일해야 돼.",
+   "note": "me toca + 원형 = ~해야 돼(내 차례)",
+   "tags": [],
+   "new": [],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "17:03"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Vaya. Vale, no pasa nada.",
+   "rd": "바야. 발레, 노 빠사 나다.",
+   "ko": "아이고. 알았어, 괜찮아.",
+   "note": "no pasa nada = 괜찮아",
+   "tags": [
+    "expr:vaya",
+    "expr:no pasa nada"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "17:05"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Oye, ¿qué tal el trabajo?",
+   "rd": "오예, 께 딸 엘 뜨라바호?",
+   "ko": "저기, 일은 어때?",
+   "note": "¿qué tal ~? = ~ 어때?",
+   "tags": [
+    "expr:oye",
+    "expr:qué tal"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "21:30",
+   "read": false
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Javi? ¿Sigues trabajando?",
+   "rd": "하비? 시게스 뜨라바한도?",
+   "ko": "하비? 아직 일해?",
+   "note": "seguir + -ando = 계속 ~하다",
+   "tags": [],
+   "new": [
+    "seguir"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "22:45",
+   "read": false
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Perdona. Me dormí en el almacén.",
+   "rd": "뻬르도나. 메 도르미 엔 엘 알마쎈.",
+   "ko": "미안. 창고에서 잠들었어.",
+   "note": "me dormí = 잠들었어(단순과거)",
+   "tags": [
+    "expr:perdona",
+    "form:indefinido"
+   ],
+   "new": [
+    "almacén"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "00:12",
+   "stamp": "😴"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "¿En el trabajo? Qué morro, tío.",
+   "rd": "엔 엘 뜨라바호? 께 모로, 띠오.",
+   "ko": "일하다가? 뻔뻔하다, 너.",
+   "note": "qué morro = 뻔뻔하네",
+   "tags": [
+    "expr:qué morro"
+   ],
+   "new": [],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "00:13"
+  }
+ ],
+ "draft": "claude"
+}

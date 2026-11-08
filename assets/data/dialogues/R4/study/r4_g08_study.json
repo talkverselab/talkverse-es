@@ -1,0 +1,260 @@
+{
+ "id": "r4_g08_study",
+ "region": "R4",
+ "stage": 8,
+ "level_name": "어려운 문법",
+ "island": "study",
+ "kind": "long",
+ "title": "서류를 신청하는 서류",
+ "emoji": "🗂️",
+ "scene": "대학 행정실 창구. 학생증 하나 만들려다 끝없는 서류 미로에 빠진다 — 문법 8 「무인칭·수동 se」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Secretaria"
+ },
+ "register": "polite",
+ "twist": 12,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study",
+  "life"
+ ],
+ "goal": "¿aquí se pide…?·se hace por internet·se necesita una foto·se entrega·se abre·se aprende(누가 하는지 말하지 않기)",
+ "expressions": [
+  "claro",
+  "es que",
+  "vale",
+  "madre mía",
+  "ya"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Buenos días. ¿Aquí se pide el carné de estudiante?",
+   "rd": "부에노스 디아스. 아끼 세 삐데 엘 까르네 데 에스뚜디안떼?",
+   "ko": "안녕하세요. 학생증 여기서 신청하나요?",
+   "note": "se pide = 신청한다(무인칭)",
+   "tags": [
+    "form:se_impersonal"
+   ],
+   "new": [
+    "carné"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Sí, pero aquí no se pide en papel. Se hace por internet.",
+   "rd": "시, 뻬로 아끼 노 세 삐데 엔 빠뻴. 세 아쎄 뽀르 인떼르네뜨.",
+   "ko": "네, 근데 여기선 종이로 안 받아요. 인터넷으로 해요.",
+   "note": "se hace por internet = 인터넷으로 한다",
+   "tags": [
+    "form:se_impersonal"
+   ],
+   "new": [],
+   "emotion": "stiff"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Ya lo he intentado. La página dice que se necesita una foto.",
+   "rd": "야 로 에 인뗀따도. 라 빠히나 디쎄 께 세 네쎄시따 우나 포또.",
+   "ko": "이미 해 봤어요. 사이트에서 사진이 필요하다고 나와요.",
+   "note": "se necesita = 필요하다(수동 se)",
+   "tags": [
+    "form:se_pasiva"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Claro. Y la foto se sube en la segunda página.",
+   "rd": "끌라로. 이 라 포또 세 수베 엔 라 세군다 빠히나.",
+   "ko": "그렇죠. 사진은 두 번째 페이지에서 올려요.",
+   "note": "se sube = 올린다",
+   "tags": [
+    "expr:claro",
+    "form:se_pasiva"
+   ],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Es que no hay segunda página. Solo se ve un error.",
+   "rd": "에스 께 노 아이 세군다 빠히나. 솔로 세 베 운 에로르.",
+   "ko": "그게, 두 번째 페이지가 없어요. 오류만 떠요.",
+   "note": "es que = 그게 말이죠",
+   "tags": [
+    "expr:es que",
+    "form:se_pasiva"
+   ],
+   "new": [],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Ah, ese error. Entonces se hace con este papel.",
+   "rd": "아, 에세 에로르. 엔똔쎄스 세 아쎄 꼰 에스떼 빠뻴.",
+   "ko": "아, 그 오류요. 그럼 이 종이로 하시면 돼요.",
+   "note": "entonces = 그럼",
+   "tags": [
+    "form:se_impersonal"
+   ],
+   "new": [],
+   "emotion": "polite"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Vale. ¿Y dónde se firma?",
+   "rd": "발레. 이 돈데 세 피르마?",
+   "ko": "네. 서명은 어디에 하나요?",
+   "note": "se firma = 서명한다",
+   "tags": [
+    "expr:vale",
+    "form:se_impersonal"
+   ],
+   "new": [
+    "firmar"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Aquí. Y aquí. Y se entrega en la ventanilla tres.",
+   "rd": "아끼. 이 아끼. 이 세 엔뜨레가 엔 라 벤따니야 뜨레스.",
+   "ko": "여기요. 그리고 여기. 그리고 3번 창구에 내세요.",
+   "note": "se entrega = 제출한다",
+   "tags": [
+    "form:se_pasiva"
+   ],
+   "new": [
+    "ventanilla"
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "¿La tres? Pero la tres está cerrada.",
+   "rd": "라 뜨레스? 뻬로 라 뜨레스 에스따 쎄라다.",
+   "ko": "3번이요? 3번 닫혀 있던데요.",
+   "note": "estar cerrado = 닫혀 있다",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Sí, la tres solo se abre los martes. Hoy es lunes.",
+   "rd": "시, 라 뜨레스 솔로 세 아브레 로스 마르떼스. 오이 에스 루네스.",
+   "ko": "네, 3번은 화요일에만 열려요. 오늘은 월요일이고요.",
+   "note": "se abre = 열린다",
+   "tags": [
+    "form:se_pasiva"
+   ],
+   "new": [],
+   "emotion": "polite"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "¿Y no se puede hacer nada hoy?",
+   "rd": "이 노 세 뿌에데 아쎄르 나다 오이?",
+   "ko": "오늘은 아무것도 못 하나요?",
+   "note": "no se puede = 할 수 없다(무인칭)",
+   "tags": [
+    "form:se_impersonal"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Sí, claro. Se rellena el papel para pedir el papel. Son cuatro hojas. Tome.",
+   "rd": "시, 끌라로. 세 레예나 엘 빠뻴 빠라 뻬디르 엘 빠뻴. 손 꾸아뜨로 오하스. 또메.",
+   "ko": "아뇨, 할 수 있죠. 서류를 신청하는 서류를 쓰시면 돼요. 네 장이에요. 여기요.",
+   "note": "se rellena = 작성한다 · tome = 받으세요(usted 명령)",
+   "tags": [
+    "expr:claro",
+    "form:se_pasiva"
+   ],
+   "new": [
+    "rellenar"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "tl": "¿Cuatro hojas? ¿Para un carné? ¡Madre mía!",
+   "rd": "꾸아뜨로 오하스? 빠라 운 까르네? 마드레 미아!",
+   "ko": "네 장이요? 학생증 하나에? 세상에!",
+   "note": "madre mía = 세상에",
+   "tags": [
+    "expr:madre mía"
+   ],
+   "new": [],
+   "emotion": "shout"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Bienvenido a la universidad. Aquí se aprende mucho. Sobre todo, paciencia.",
+   "rd": "비엔베니도 아 라 우니베르시다드. 아끼 세 아쁘렌데 무초. 소브레 또도, 빠씨엔씨아.",
+   "ko": "대학에 오신 걸 환영해요. 여기선 많이 배워요. 특히 인내심을.",
+   "note": "se aprende = 배운다",
+   "tags": [
+    "form:se_impersonal"
+   ],
+   "new": [
+    "paciencia"
+   ],
+   "emotion": "amused",
+   "tl_f": "Bienvenida a la universidad. Aquí se aprende mucho. Sobre todo, paciencia.",
+   "rd_f": "비엔베니다 아 라 우니베르시다드. 아끼 세 아쁘렌데 무초. 소브레 또도, 빠씨엔씨아."
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "Ya veo. ¿Y aquí se vende café?",
+   "rd": "야 베오. 이 아끼 세 벤데 까페?",
+   "ko": "그렇군요. 여기 커피는 파나요?",
+   "note": "se vende = 판다(수동 se)",
+   "tags": [
+    "expr:ya",
+    "form:se_pasiva"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "tl": "No. Pero se pide por internet.",
+   "rd": "노. 뻬로 세 삐데 뽀르 인떼르네뜨.",
+   "ko": "아뇨. 근데 인터넷으로 주문돼요.",
+   "note": "se pide = 주문한다",
+   "tags": [
+    "form:se_impersonal"
+   ],
+   "new": [],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

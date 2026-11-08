@@ -1,0 +1,252 @@
+{
+ "id": "r4_g07_love",
+ "region": "R4",
+ "stage": 7,
+ "level_name": "어려운 문법",
+ "island": "love",
+ "kind": "long",
+ "title": "안경 낀 그 사람에게",
+ "emoji": "✉️",
+ "scene": "헌책방. Marta 가 먼저 말을 건다 — A 가 Lucía 에게 빌려준 책 속 쪽지가 Marta 손에 들어갔다 — 문법 7 「대명사 결합 se lo·te la」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "reading"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "se lo prestaste·te lo ha dado·dártela·se lo dije·te la doy(간접 + 직접 대명사, le → se)",
+ "expressions": [
+  "o sea",
+  "madre mía",
+  "tranquilo",
+  "tranquila",
+  "me da vergüenza"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hola. Lucía ha pasado por aquí esta mañana. Muy contenta. Demasiado.",
+   "rd": "올라. 루씨아 아 빠사도 뽀르 아끼 에스따 마냐나. 무이 꼰뗀따. 데마시아도.",
+   "ko": "안녕. 루시아가 아침에 여기 들렀어. 엄청 신나서. 지나치게.",
+   "note": "pasar por = ~에 들르다",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¿Ah, sí? Qué raro. ¿Te ha dicho algo?",
+   "rd": "아, 시? 께 라로. 떼 아 디초 알고?",
+   "ko": "아, 그래? 이상하네. 뭐라고 했어?",
+   "note": "qué raro = 이상하네",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Me ha dado un libro. Dice que es tuyo, que se lo prestaste.",
+   "rd": "메 아 다도 운 리브로. 디쎄 께 에스 뚜요, 께 세 로 쁘레스따스떼.",
+   "ko": "책 한 권 주더라. 네 거래, 네가 빌려줬다고.",
+   "note": "se lo prestaste = 그녀에게 그걸 빌려줬다(le lo → se lo)",
+   "tags": [
+    "form:pronombres_dobles"
+   ],
+   "new": [
+    "prestar"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Sí, se lo presté la semana pasada. ¿Y por qué te lo ha dado a ti?",
+   "rd": "시, 세 로 쁘레스떼 라 세마나 빠사다. 이 뽀르 께 떼 로 아 다도 아 띠?",
+   "ko": "응, 지난주에 빌려줬지. 근데 그걸 왜 너한테 줬대?",
+   "note": "te lo ha dado = 너한테 그걸 줬다",
+   "tags": [
+    "form:pronombres_dobles"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ni idea. Pero dentro había una nota.",
+   "rd": "니 이데아. 뻬로 덴뜨로 아비아 우나 노따.",
+   "ko": "몰라. 근데 안에 쪽지가 있었어.",
+   "note": "ni idea = 전혀 몰라",
+   "tags": [
+    "expr:ni idea"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "…¿Una nota?",
+   "rd": "…우나 노따?",
+   "ko": "…쪽지?",
+   "note": "침묵 「…」 = 들켰다",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Con tu letra. «Para la chica de las gafas redondas». ¿Se la escribiste a alguien?",
+   "rd": "꼰 뚜 레뜨라. «빠라 라 치까 데 라스 가파스 레돈다스». 세 라 에스끄리비스떼 아 알기엔?",
+   "ko": "네 글씨로. 「동그란 안경 낀 그 사람에게」. 누구한테 쓴 거야?",
+   "note": "se la escribiste = 그녀에게 그걸 썼다",
+   "tags": [
+    "form:pronombres_dobles"
+   ],
+   "new": [
+    "gafas"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Eh… No. O sea, sí. Pero no era para dártela así.",
+   "rd": "에… 노. 오 세아, 시. 뻬로 노 에라 빠라 다르뗄라 아시.",
+   "ko": "어… 아니. 그러니까, 맞아. 근데 이렇게 전해질 줄은 몰랐어.",
+   "note": "dártela = 너에게 그걸 주다(동사 원형 뒤에 붙임)",
+   "tags": [
+    "expr:o sea",
+    "form:pronombres_dobles"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Eh… No. O sea, sí."
+    ],
+    [
+     "shy",
+     "Pero no era para dártela así."
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "¿Así cómo? ¿Con una mancha de chocolate encima?",
+   "rd": "아시 꼬모? 꼰 우나 만차 데 초꼴라떼 엔씨마?",
+   "ko": "이렇게가 어떻게? 위에 초콜릿 얼룩 묻은 채로?",
+   "note": "encima = 위에",
+   "tags": [],
+   "new": [
+    "mancha"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "¡Madre mía! Se lo voy a decir a Lucía. Bueno, se lo voy a gritar.",
+   "rd": "마드레 미아! 세 로 보이 아 데씨르 아 루씨아. 부에노, 세 로 보이 아 그리따르.",
+   "ko": "세상에! 루시아한테 따질 거야. 아니, 소리 지를 거야.",
+   "note": "se lo voy a decir = 그녀에게 그걸 말할 거야",
+   "tags": [
+    "expr:madre mía",
+    "form:pronombres_dobles"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "shout",
+     "¡Madre mía! Se lo voy a decir a Lucía."
+    ],
+    [
+     "annoyed",
+     "Bueno, se lo voy a gritar."
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Tranquilo. Ya se lo dije yo. Le di las gracias.",
+   "rd": "뜨란낄로. 야 세 로 디헤 요. 레 디 라스 그라씨아스.",
+   "ko": "진정해. 내가 벌써 말했어. 고맙다고.",
+   "note": "ya se lo dije = 내가 이미 그녀에게 말했다",
+   "tags": [
+    "expr:tranquilo",
+    "form:pronombres_dobles"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "tl_f": "Tranquila. Ya se lo dije yo. Le di las gracias.",
+   "rd_f": "뜨란낄라. 야 세 로 디헤 요. 레 디 라스 그라씨아스."
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "¿Las gracias? ¿Por qué?",
+   "rd": "라스 그라씨아스? 뽀르 께?",
+   "ko": "고맙다고? 왜?",
+   "note": "dar las gracias = 고맙다고 하다",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Toma. Esta la he escrito yo. Y te la doy yo, sin nadie en medio.",
+   "rd": "또마. 에스따 라 에 에스끄리또 요. 이 떼 라 도이 요, 신 나디에 엔 메디오.",
+   "ko": "자. 이건 내가 쓴 거야. 그리고 내가 직접 줄게, 중간에 아무도 없이.",
+   "note": "te la doy = 너에게 그걸 준다",
+   "tags": [
+    "form:pronombres_dobles"
+   ],
+   "new": [],
+   "emotion": "shy"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "¿Qué pone?",
+   "rd": "께 뽀네?",
+   "ko": "뭐라고 썼어?",
+   "note": "¿qué pone? = 뭐라고 쓰여 있어?",
+   "tags": [],
+   "new": [],
+   "emotion": "shy"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "…Léela en casa. Delante de ti, me da vergüenza.",
+   "rd": "…레엘라 엔 까사. 델란떼 데 띠, 메 다 베르구엔싸.",
+   "ko": "…집에 가서 읽어. 네 앞에선 부끄러우니까.",
+   "note": "léela = 그걸 읽어(명령 + 대명사)",
+   "tags": [
+    "expr:me da vergüenza",
+    "callback:r4_g01_love"
+   ],
+   "new": [],
+   "emotion": "shy"
+  }
+ ],
+ "draft": "claude"
+}

@@ -40,6 +40,8 @@ def tokens(w):
         elif c == 'g' and nx in ('e', 'i') and nx: cons = 'ㅎ'
         elif c == 'x':
             out.append(('ㄱ', None, None)); cons = 'ㅅ'
+        elif c == 'g' and nx == 'ü' and i + 2 < n and w[i + 2] in vow:
+            out.append(('ㄱ', V, 'u')); i += 2; continue
         elif c == 'ü': out.append(('ㅇ', V, 'u')); i += 1; continue
         else: cons = MAP.get(c)
         if cons is None: i += 1; continue
@@ -51,7 +53,12 @@ def tokens(w):
     return out
 
 
+EXC = {'pizza': '삐짜', 'pizzas': '삐짜스'}
+
+
 def word(w):
+    if w.lower() in EXC:
+        return EXC[w.lower()]
     w = w.lower().replace('ñ', '\0')
     w = ''.join(ch for ch in unicodedata.normalize('NFD', w) if unicodedata.category(ch) != 'Mn' or ch == '̈')
     w = w.replace('ü', 'ü').replace('\0', 'ñ')
@@ -61,6 +68,8 @@ def word(w):
         if t is not None:
             # 모음 사이 l → 앞 음절 받침 ㄹ + ㄹ (hola 올라)
             if c == 'ㄹ' and res and res[-1][2] == ' ' and i > 0 and ts[i - 1][1] is not None and w_has_l(w, ts, i):
+                res[-1][2] = 'ㄹ'
+            if c == 'ㄹ' and res and res[-1][1] == 'ㅡ' and res[-1][2] == ' ' and w_has_l(w, ts, i):
                 res[-1][2] = 'ㄹ'
             res.append([c, t[v], ' '])
             continue

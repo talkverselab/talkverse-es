@@ -1,0 +1,165 @@
+{
+ "id": "r2_s03_life",
+ "region": "R2",
+ "stage": 3,
+ "level_name": "챗 실전",
+ "island": "life",
+ "kind": "chat",
+ "title": "파에야 2인분",
+ "emoji": "🥘",
+ "scene": "룸메이트 Diego 가 금요일 저녁을 제안하는 채팅 — 상황 3 「약속」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Diego"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "채팅으로 약속 잡기·「상관없어」의 대가",
+ "expressions": [
+  "oye",
+  "claro",
+  "te apetece",
+  "genial",
+  "me da igual",
+  "vale"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Oye, ¿cenas en casa el viernes?",
+   "rd": "오예, 쎄나스 엔 까사 엘 비에르네스?",
+   "ko": "있잖아, 금요일에 집에서 저녁 먹어?",
+   "note": "cenar = 저녁 먹다",
+   "tags": [
+    "expr:oye"
+   ],
+   "new": [
+    "cenar"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "18:02"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Claro. ¿Qué pasa el viernes?",
+   "rd": "끌라로. 께 빠사 엘 비에르네스?",
+   "ko": "당연하지. 금요일에 뭐 있어?",
+   "note": "claro = 당연하지",
+   "tags": [
+    "expr:claro"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "18:05"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Nada. Hago paella. ¿Te apetece?",
+   "rd": "나다. 아고 빠에야. 떼 아뻬떼쎄?",
+   "ko": "별거 없어. 파에야 하려고. 먹을래?",
+   "note": "¿te apetece? = ~할래?",
+   "tags": [
+    "expr:te apetece"
+   ],
+   "new": [
+    "paella"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "18:05"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Genial. Invita a quien sea, me da igual.",
+   "rd": "헤니알. 인비따 아 끼엔 세아, 메 다 이구알.",
+   "ko": "좋지. 아무나 불러, 난 상관없어.",
+   "note": "me da igual = 난 상관없어",
+   "tags": [
+    "expr:genial",
+    "expr:me da igual",
+    "form:imperativo"
+   ],
+   "new": [
+    "invitar"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "18:06",
+   "stamp": "👍"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Vale. Escribo a Lucía.",
+   "rd": "발레. 에스끄리보 아 루씨아.",
+   "ko": "오케이. 루시아한테 연락할게.",
+   "note": "escribir a ~ = ~에게 메시지 보내다",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "18:07"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Lucía trae a su prima, su novio y un perro.",
+   "rd": "루씨아 뜨라에 아 수 쁘리마, 수 노비오 이 운 뻬로.",
+   "ko": "루시아가 사촌이랑 남친이랑 개를 데려온대.",
+   "note": "traer a ~ = ~를 데려오다",
+   "tags": [],
+   "new": [
+    "prima"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "19:30"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Ya hay diez en el grupo. Y dos perros.",
+   "rd": "야 아이 디에쓰 엔 엘 그루뽀. 이 도스 뻬로스.",
+   "ko": "단톡방에 벌써 열 명. 개도 두 마리.",
+   "note": "ya hay ~ = 벌써 ~ 있다",
+   "tags": [],
+   "new": [
+    "grupo"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "19:31",
+   "stamp": "🎉"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "¿Diez? ¡Tu paella es para dos!",
+   "rd": "디에쓰? 뚜 빠에야 에스 빠라 도스!",
+   "ko": "열 명? 네 파에야 2인분이잖아!",
+   "note": "para dos = 2인분",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "19:33"
+  }
+ ],
+ "draft": "claude"
+}

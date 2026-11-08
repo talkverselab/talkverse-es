@@ -1,0 +1,163 @@
+{
+ "id": "r1_s04_friends",
+ "region": "R1",
+ "stage": 4,
+ "level_name": "관사·성수·활용 골격",
+ "island": "friends",
+ "kind": "short",
+ "title": "다 좋아한다며",
+ "emoji": "🍫",
+ "scene": "Javi 의 자취방, Javi 가 저녁을 해 주겠다며 취향을 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Javi"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "gustar 구문 — me gusta + 단수 / me gustan + 복수 / ¿te gusta…?, me encanta",
+ "expressions": [
+  "oye",
+  "me encanta",
+  "tío",
+  "claro",
+  "de verdad",
+  "vale",
+  "bueno"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Oye, hago la cena. ¿Te gusta el ajo?",
+   "rd": "오예, 아고 라 쎄나. 떼 구스따 엘 아호?",
+   "ko": "야, 내가 저녁 할게. 마늘 좋아해?",
+   "note": "¿te gusta + 단수? = ~ 좋아해?",
+   "tags": [
+    "expr:oye",
+    "form:gustar"
+   ],
+   "new": [
+    "ajo"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Sí, me gusta mucho el ajo.",
+   "rd": "시, 메 구스따 무초 엘 아호.",
+   "ko": "응, 마늘 엄청 좋아해.",
+   "note": "me gusta = (그게) 나한테 좋다",
+   "tags": [
+    "form:gustar"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "¿Y te gustan las patatas?",
+   "rd": "이 떼 구스딴 라스 빠따따스?",
+   "ko": "감자도 좋아해?",
+   "note": "gustan = 복수 명사(las patatas)에 맞춤",
+   "tags": [
+    "form:gustar"
+   ],
+   "new": [
+    "patata"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Me encantan. Me gusta todo, tío.",
+   "rd": "메 엔깐딴. 메 구스따 또도, 띠오.",
+   "ko": "완전 좋아. 난 다 좋아해.",
+   "note": "me encantan = 엄청 좋아해(복수) · me gusta todo = 다 좋아",
+   "tags": [
+    "expr:me encanta",
+    "expr:tío",
+    "form:gustar"
+   ],
+   "new": [],
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "¿Todo? ¿También el chocolate?",
+   "rd": "또도? 땀비엔 엘 초꼴라떼?",
+   "ko": "다? 초콜릿도?",
+   "note": "también = ~도",
+   "tags": [],
+   "new": [
+    "chocolate"
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Claro. Me gusta todo, de verdad.",
+   "rd": "끌라로. 메 구스따 또도, 데 베르다드.",
+   "ko": "당연하지. 진짜 다 좋아해.",
+   "note": "de verdad = 진짜로",
+   "tags": [
+    "expr:claro",
+    "expr:de verdad",
+    "form:gustar"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Vale. Patatas, ajo, chocolate… y pescado.",
+   "rd": "발레. 빠따따스, 아호, 초꼴라떼… 이 뻬스까도.",
+   "ko": "오케이. 감자, 마늘, 초콜릿… 그리고 생선.",
+   "note": "pescado = (요리용) 생선",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [
+    "pescado"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Vale."
+    ],
+    [
+     "excited",
+     "Patatas, ajo, chocolate… y pescado."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Bueno… no me gusta todo.",
+   "rd": "부에노… 노 메 구스따 또도.",
+   "ko": "그게… 다 좋아하는 건 아니야.",
+   "note": "no me gusta = 안 좋아해",
+   "tags": [
+    "expr:bueno",
+    "form:gustar"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  }
+ ],
+ "draft": "claude"
+}

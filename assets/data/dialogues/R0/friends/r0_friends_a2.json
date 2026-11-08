@@ -1,0 +1,145 @@
+{
+ "id": "r0_friends_a2",
+ "region": "R0",
+ "stage": 1,
+ "level_name": "소리·짧은 회화",
+ "island": "friends",
+ "kind": "short",
+ "title": "조금 배고픈데",
+ "emoji": "🥨",
+ "scene": "길에서 마주친 Lucía 가 배고프냐고 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "인사 ¿Qué tal? · tener hambre · 짧은 반응",
+ "expressions": [
+  "qué tal",
+  "y tú",
+  "genial",
+  "oye",
+  "ahora mismo",
+  "ya"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¡Hola, {name}! ¿Qué tal?",
+   "rd": "올라, {name}! 께 딸?",
+   "ko": "안녕, {name}! 잘 지내?",
+   "note": "¿Qué tal? = 잘 지내?·어때?",
+   "tags": [
+    "expr:qué tal"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Bien. ¿Y tú?",
+   "rd": "비엔. 이 뚜?",
+   "ko": "잘 지내. 너는?",
+   "note": "¿Y tú? = 너는?",
+   "tags": [
+    "expr:y tú"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "¡Genial! Oye, ¿tienes hambre?",
+   "rd": "헤니알! 오예, 띠에네스 암브레?",
+   "ko": "완전 좋아! 근데 너 배고파?",
+   "note": "tener hambre = 배고프다",
+   "tags": [
+    "expr:genial",
+    "expr:oye",
+    "form:tener"
+   ],
+   "new": [
+    "hambre"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Un poco. ¿Por qué?",
+   "rd": "운 뽀꼬. 뽀르 께?",
+   "ko": "조금. 왜?",
+   "note": "¿Por qué? = 왜?",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Conozco un sitio. ¡Ahora mismo!",
+   "rd": "꼬노쓰꼬 운 시띠오. 아오라 미스모!",
+   "ko": "나 아는 데 있어. 지금 당장 가자!",
+   "note": "un sitio = 어떤 곳·가게",
+   "tags": [
+    "expr:ahora mismo"
+   ],
+   "new": [
+    "sitio"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Y luego otro. Y otro. ¡Y churros!",
+   "rd": "이 루에고 오뜨로. 이 오뜨로. 이 추로스!",
+   "ko": "그다음엔 딴 데. 또 딴 데. 그리고 추로스!",
+   "note": "y luego = 그다음에",
+   "tags": [],
+   "new": [
+    "churro"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Tía, tengo un poco de hambre.",
+   "rd": "띠아, 뗀고 운 뽀꼬 데 암브레.",
+   "ko": "야, 나 «조금» 배고프다니까.",
+   "note": "tía = 야(여자 친구에게)",
+   "tags": [
+    "expr:tía"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Ya. Yo tengo mucha.",
+   "rd": "야. 요 뗀고 무차.",
+   "ko": "알아. 난 엄청 고파.",
+   "note": "mucha (hambre) = 많이",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

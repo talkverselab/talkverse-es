@@ -1,0 +1,177 @@
+{
+ "id": "r2_s01_love",
+ "region": "R2",
+ "stage": 1,
+ "level_name": "챗 실전",
+ "island": "love",
+ "kind": "chat",
+ "title": "책 속의 번호",
+ "emoji": "📕",
+ "scene": "헌책방에서 본 Marta 가 먼저 보낸 첫 메시지 — 상황 1 「첫 인사」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "채팅 첫 인사 주고받기·먼저 다가오는 말 받기",
+ "expressions": [
+  "oye",
+  "qué guay",
+  "qué tal",
+  "ya",
+  "vale"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hola. Soy Marta, la de la librería.",
+   "rd": "올라. 소이 마르따, 라 데 라 리브레리아.",
+   "ko": "안녕. 나 마르타, 서점의 그 사람.",
+   "note": "la de la librería = 서점의 그 사람",
+   "tags": [],
+   "new": [
+    "librería"
+   ],
+   "emotion": "stiff",
+   "ui": "bubble",
+   "at": "21:40"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¡Hola! Qué guay, ¿qué tal?",
+   "rd": "올라! 께 구아이, 께 딸?",
+   "ko": "안녕! 와 반갑다, 잘 지내?",
+   "note": "qué guay = 좋다·반갑다",
+   "tags": [
+    "expr:qué guay",
+    "expr:qué tal"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "21:41",
+   "stamp": "😊"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Bien. Oye, tu número estaba en un libro.",
+   "rd": "비엔. 오예, 뚜 누메로 에스따바 엔 운 리브로.",
+   "ko": "잘 지내. 근데 네 번호가 어떤 책에 있던데.",
+   "note": "estaba = 있었어(불완료)",
+   "tags": [
+    "expr:oye",
+    "form:imperfecto"
+   ],
+   "new": [
+    "número"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "21:43"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Ah, ¿sí? Qué raro… jajaja.",
+   "rd": "아, 시? 께 라로… 하하하.",
+   "ko": "아, 그래? 이상하네… ㅋㅋㅋ",
+   "note": "qué raro = 이상하네",
+   "tags": [],
+   "new": [
+    "raro"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "21:43"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ya. En la página del primer beso.",
+   "rd": "야. 엔 라 빠히나 델 쁘리메르 베소.",
+   "ko": "그러게. 첫 키스 장면 페이지에.",
+   "note": "primer beso = 첫 키스",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [
+    "página",
+    "beso"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "21:44"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Vale, fui yo. ¿Te molesta?",
+   "rd": "발레, 푸이 요. 떼 몰레스따?",
+   "ko": "알았어, 나야. 불편했어?",
+   "note": "fui yo = 나였어(단순과거)",
+   "tags": [
+    "expr:vale",
+    "form:indefinido"
+   ],
+   "new": [
+    "molestar"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "21:46"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Mucho. Por eso te escribo…",
+   "rd": "무초. 뽀르 에소 떼 에스끄리보…",
+   "ko": "엄청. 그래서 연락하는 거야…",
+   "note": "por eso = 그래서",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "teasing",
+     "Mucho."
+    ],
+    [
+     "shy",
+     "Por eso te escribo…"
+    ]
+   ],
+   "ui": "bubble",
+   "at": "21:49"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Mañana a las cinco. Trae el libro.",
+   "rd": "마냐나 아 라스 씬꼬. 뜨라에 엘 리브로.",
+   "ko": "내일 다섯 시. 그 책 가져와.",
+   "note": "trae = 가져와(명령)",
+   "tags": [
+    "form:imperativo"
+   ],
+   "new": [
+    "traer"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "21:49",
+   "stamp": "☕"
+  }
+ ],
+ "draft": "claude"
+}

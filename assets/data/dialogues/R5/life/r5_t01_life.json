@@ -46,7 +46,9 @@
     "luz",
     "metro"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "tl_f": "Bienvenidas. El piso tiene ochenta metros, terraza y mucha luz.",
+   "rd_f": "비엔베니다스. 엘 삐소 띠에네 오첸따 메뜨로스, 떼라싸 이 무차 루쓰."
   },
   {
    "num": 2,
@@ -67,7 +69,7 @@
    "speaker": "C",
    "tl": "Mil cuatrocientos al mes, más dos meses de fianza.",
    "rd": "밀 꾸아뜨로씨엔또스 알 메스, 마스 도스 메세스 데 피안싸.",
-   "ko": "한 달에 1,400이고, 보증금 두 달 치 따로요.",
+   "ko": "한 달에 1,400유로고, 보증금은 두 달 치 따로예요.",
    "note": "fianza = 보증금",
    "tags": [],
    "new": [
@@ -79,7 +81,7 @@
    "num": 4,
    "speaker": "A",
    "tl": "¿Mil cuatrocientos? ¿Están incluidas la calefacción y el agua?",
-   "rd": "밀 꾸아뜨로씨엔또스? 에스딴 인끄루이다스 라 깔레파끄씨온 이 엘 아구아?",
+   "rd": "밀 꾸아뜨로씨엔또스? 에스딴 인끌루이다스 라 깔레파끄씨온 이 엘 아구아?",
    "ko": "1,400이요? 난방이랑 수도는 포함인가요?",
    "note": "incluido = 포함된",
    "tags": [],
@@ -230,7 +232,7 @@
    "num": 15,
    "speaker": "A",
    "tl": "Espera. ¿Las entradas incluyen copas?",
-   "rd": "에스뻬라. 라스 엔뜨라다스 인끄루옌 꼬빠스?",
+   "rd": "에스뻬라. 라스 엔뜨라다스 인끌루옌 꼬빠스?",
    "ko": "잠깐만요. 입장권에 술도 포함인가요?",
    "note": "copa = (술) 한 잔",
    "tags": [

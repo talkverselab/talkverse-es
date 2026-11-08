@@ -1,0 +1,287 @@
+{
+ "id": "r5_t02_work",
+ "region": "R5",
+ "stage": 2,
+ "level_name": "어휘 완주",
+ "island": "work",
+ "kind": "long",
+ "title": "전체 답장",
+ "emoji": "📧",
+ "scene": "첫 출근 날, 팀장과 옆자리 동료 — 주제 2 「일」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jefa",
+  "C": "Compañero"
+ },
+ "register": "mixed",
+ "twist": 12,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_spain"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "직장 어휘(empresa·oficina·reunión·cliente·informe·contrato·correo·sueldo·cobrar)",
+ "expressions": [
+  "gracias",
+  "vaya",
+  "por cierto",
+  "tranquilo",
+  "claro",
+  "vale",
+  "ya está",
+  "madre mía",
+  "mira",
+  "ya"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bienvenido a la empresa, {name}. Esta es tu mesa y este, tu ordenador.",
+   "rd": "비엔베니도 아 라 엠쁘레사, {name}. 에스따 에스 뚜 메사 이 에스떼, 뚜 오르데나도르.",
+   "ko": "회사에 온 걸 환영해요, {name}. 여기가 자리고, 이게 컴퓨터예요.",
+   "note": "empresa = 회사 · ordenador = 컴퓨터(스페인)",
+   "tags": [],
+   "new": [
+    "empresa",
+    "mesa",
+    "ordenador"
+   ],
+   "tl_f": "Bienvenida a la empresa, {name}. Esta es tu mesa y este, tu ordenador.",
+   "emotion": "cheerful",
+   "rd_f": "비엔베니다 아 라 엠쁘레사, {name}. 에스따 에스 뚜 메사 이 에스떼, 뚜 오르데나도르."
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Gracias. ¿A qué hora es la reunión de hoy?",
+   "rd": "그라씨아스. 아 께 오라 에스 라 레우니온 데 오이?",
+   "ko": "감사합니다. 오늘 회의는 몇 시예요?",
+   "note": "reunión = 회의",
+   "tags": [
+    "expr:gracias"
+   ],
+   "new": [
+    "reunión"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "A las diez. Vas a conocer al cliente más importante de la oficina.",
+   "rd": "아 라스 디에쓰. 바스 아 꼬노쎄르 알 끌리엔떼 마스 임뽀르딴떼 데 라 오피씨나.",
+   "ko": "열 시요. 우리 사무실에서 제일 중요한 고객을 만나게 될 거예요.",
+   "note": "cliente = 고객 · oficina = 사무실",
+   "tags": [],
+   "new": [
+    "cliente",
+    "oficina"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Y el más pesado. Le encanta comentar los informes delante de todos.",
+   "rd": "이 엘 마스 뻬사도. 레 엔깐따 꼬멘따르 로스 인포르메스 델란떼 데 또도스.",
+   "ko": "제일 피곤한 고객이기도 하고. 다들 보는 앞에서 보고서 하나하나 지적하는 걸 좋아해.",
+   "note": "pesado = 피곤한·귀찮은(사람) · delante de = ~앞에서",
+   "tags": [],
+   "new": [
+    "pesado",
+    "informe",
+    "delante"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Vaya. ¿Y qué tengo que preparar yo?",
+   "rd": "바야. 이 께 뗀고 께 쁘레빠라르 요?",
+   "ko": "이런. 그럼 저는 뭘 준비하면 돼요?",
+   "note": "vaya = 이런·저런",
+   "tags": [
+    "expr:vaya"
+   ],
+   "new": [
+    "preparar"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Nada complicado. Revisa el contrato y mándale un correo con tus preguntas.",
+   "rd": "나다 꼼쁠리까도. 레비사 엘 꼰뜨라또 이 만달레 운 꼬레오 꼰 뚜스 쁘레군따스.",
+   "ko": "어려운 건 없어요. 계약서 검토하고, 궁금한 거 메일로 보내 두세요.",
+   "note": "revisar = 검토하다 · correo = 메일",
+   "tags": [],
+   "new": [
+    "complicado",
+    "revisar",
+    "contrato",
+    "correo"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Y cuidado con el botón de «responder a todos». Te lo digo por experiencia.",
+   "rd": "이 꾸이다도 꼰 엘 보똔 데 «레스뽄데르 아 또도스». 떼 로 디고 뽀르 엑스뻬리엔씨아.",
+   "ko": "그리고 「전체 답장」 버튼 조심해. 경험에서 하는 말이야.",
+   "note": "responder = 답하다 · por experiencia = 경험상",
+   "tags": [],
+   "new": [
+    "responder",
+    "experiencia"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Tranquilo, lo controlo. Por cierto, ¿el sueldo se cobra a final de mes?",
+   "rd": "뜨란낄로, 로 꼰뜨롤로. 뽀르 씨에르또, 엘 수엘도 세 꼬브라 아 피날 데 메스?",
+   "ko": "걱정 마요, 잘 알아요. 그나저나 월급은 월말에 나오나요?",
+   "note": "sueldo = 월급 · cobrar = (돈을) 받다",
+   "tags": [
+    "expr:por cierto",
+    "expr:tranquilo"
+   ],
+   "new": [
+    "controlar",
+    "sueldo",
+    "cobrar"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "El día treinta. Si no hay crisis, claro.",
+   "rd": "엘 디아 뜨레인따. 시 노 아이 끄리시스, 끌라로.",
+   "ko": "30일이요. 위기만 없으면요.",
+   "note": "crisis = 위기(단복수 같음)",
+   "tags": [
+    "expr:claro"
+   ],
+   "new": [
+    "crisis"
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Vale, ya está. Le he mandado el correo con todas mis preguntas.",
+   "rd": "발레, 야 에스따. 레 에 만다도 엘 꼬레오 꼰 또다스 미스 쁘레군따스.",
+   "ko": "네, 됐어요. 궁금한 거 전부 메일로 보냈어요.",
+   "note": "he mandado = 보냈다(오늘 일)",
+   "tags": [
+    "expr:vale",
+    "expr:ya está"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "¿Solo a él? ¿Y por qué me acaba de llegar a mí también?",
+   "rd": "솔로 아 엘? 이 뽀르 께 메 아까바 데 예가르 아 미 땀비엔?",
+   "ko": "그 사람한테만? 근데 왜 나한테도 방금 왔지?",
+   "note": "acabar de = 방금 ~하다",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Y a mí. Y al director. Y a los doscientos trabajadores de la empresa.",
+   "rd": "이 아 미. 이 알 디레끄또르. 이 아 로스 도스씨엔또스 뜨라바하도레스 데 라 엠쁘레사.",
+   "ko": "나한테도요. 사장님한테도. 그리고 회사 직원 이백 명 전원한테.",
+   "note": "director = 사장·대표 · trabajador = 직원",
+   "tags": [],
+   "new": [
+    "director",
+    "trabajador"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "Madre mía. «Pregunta uno: ¿este cliente siempre es así de pesado?»",
+   "rd": "마드레 미아. «쁘레군따 우노: 에스떼 끌리엔떼 시엠쁘레 에스 아시 데 뻬사도?»",
+   "ko": "세상에. 「질문 하나: 이 고객은 원래 이렇게 피곤한가요?」",
+   "note": "así de + 형용사 = 이렇게나 ~한",
+   "tags": [
+    "expr:madre mía"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "¡Era una broma para ti! ¿Cómo lo borro?",
+   "rd": "에라 우나 브로마 빠라 띠! 꼬모 로 보로?",
+   "ko": "그건 너한테 한 농담이었다고! 어떻게 지워?",
+   "note": "broma = 농담 · borrar = 지우다",
+   "tags": [],
+   "new": [
+    "broma"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "No se puede. Pero mira: el cliente ya ha contestado.",
+   "rd": "노 세 뿌에데. 뻬로 미라: 엘 끌리엔떼 야 아 꼰떼스따도.",
+   "ko": "못 지워요. 근데 봐요, 고객이 벌써 답장했어요.",
+   "note": "contestar = 답장하다",
+   "tags": [
+    "expr:mira",
+    "expr:ya"
+   ],
+   "new": [
+    "contestar"
+   ],
+   "segs": [
+    [
+     "stiff",
+     "No se puede."
+    ],
+    [
+     "surprised",
+     "Pero mira: el cliente ya ha contestado."
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "tl": "«Por fin alguien sincero. Quiero trabajar con él.» Compañero, te odio.",
+   "rd": "«뽀르 핀 알기엔 신쎄로. 끼에로 뜨라바하르 꼰 엘.» 꼼빠녜로, 떼 오디오.",
+   "ko": "「드디어 솔직한 사람이 왔군요. 이분이랑 일하고 싶습니다.」 야, 진짜 미워.",
+   "note": "sincero = 솔직한 · compañero = 동료",
+   "tags": [],
+   "new": [
+    "sincero",
+    "compañero"
+   ],
+   "tl_f": "«Por fin alguien sincero. Quiero trabajar con ella.» Compañera, te odio.",
+   "emotion": "amused",
+   "rd_f": "«뽀르 핀 알기엔 신쎄로. 끼에로 뜨라바하르 꼰 에야.» 꼼빠녜라, 떼 오디오."
+  }
+ ],
+ "draft": "claude"
+}

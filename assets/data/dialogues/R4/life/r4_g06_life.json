@@ -1,0 +1,258 @@
+{
+ "id": "r4_g06_life",
+ "region": "R4",
+ "stage": 6,
+ "level_name": "어려운 문법",
+ "island": "life",
+ "kind": "long",
+ "title": "뒤집어! 아니, 뒤집지 마!",
+ "emoji": "🍳",
+ "scene": "룸메이트 Diego 가 처음으로 A 에게 또르띠야 만드는 법을 가르친다 — 문법 6 「명령형 긍정 ↔ 부정」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Diego",
+  "C": "Vecina"
+ },
+ "register": "mixed",
+ "twist": 12,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "pela·echa·ponla·dale la vuelta ↔ no las cortes·no lo toques·no se lo digas·no llame·no le pongáis",
+ "expressions": [
+  "venga",
+  "vale",
+  "tranqui",
+  "espera",
+  "por favor",
+  "madre mía",
+  "oye"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Venga, hoy la tortilla la haces tú. Primero, pela las patatas.",
+   "rd": "벤가, 오이 라 또르띠야 라 아쎄스 뚜. 쁘리메로, 뻴라 라스 빠따따스.",
+   "ko": "자, 오늘 또르띠야는 네가 만든다. 먼저 감자 껍질 까.",
+   "note": "pela = 까(pelar 명령)",
+   "tags": [
+    "expr:venga",
+    "form:imperativo"
+   ],
+   "new": [
+    "patata"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¿Todas? Hay como diez.",
+   "rd": "또다스? 아이 꼬모 디에쓰.",
+   "ko": "전부? 한 열 개는 되는데.",
+   "note": "como diez = 한 열 개쯤",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Todas. Y no las cortes muy grandes. Así, finas.",
+   "rd": "또다스. 이 노 라스 꼬르떼스 무이 그란데스. 아시, 피나스.",
+   "ko": "전부. 너무 크게 썰지 마. 이렇게 얇게.",
+   "note": "no las cortes = 썰지 마(부정 명령 = 접속법형)",
+   "tags": [
+    "form:imperativo_negativo"
+   ],
+   "new": [],
+   "emotion": "gentle"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Vale. ¿Y la cebolla? ¿Le pongo cebolla?",
+   "rd": "발레. 이 라 쎄보야? 레 뽄고 쎄보야?",
+   "ko": "알았어. 양파는? 양파 넣어?",
+   "note": "poner a… = ~에 넣다",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [
+    "cebolla"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Uf, pregunta peligrosa. Ponla. Pero no se lo digas a mi madre.",
+   "rd": "우프, 쁘레군따 뻴리그로사. 뽄라. 뻬로 노 세 로 디가스 아 미 마드레.",
+   "ko": "어휴, 위험한 질문이네. 넣어. 근데 우리 엄마한테는 말하지 마.",
+   "note": "ponla(긍정 = 뒤에 붙임) ↔ no se lo digas(부정 = 앞에)",
+   "tags": [
+    "form:imperativo",
+    "form:imperativo_negativo"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Por qué no?",
+   "rd": "뽀르 께 노?",
+   "ko": "왜?",
+   "note": "¿por qué no? = 왜 안 돼?",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "En mi familia, la tortilla con cebolla es una guerra. Echa el aceite. Más. ¡Más!",
+   "rd": "엔 미 파밀리아, 라 또르띠야 꼰 쎄보야 에스 우나 게라. 에차 엘 아쎄이떼. 마스. 마스!",
+   "ko": "우리 집에선 양파 든 또르띠야는 전쟁이야. 기름 부어. 더. 더!",
+   "note": "echa = 부어(echar 명령)",
+   "tags": [
+    "form:imperativo"
+   ],
+   "new": [
+    "aceite"
+   ],
+   "segs": [
+    [
+     "amused",
+     "En mi familia, la tortilla con cebolla es una guerra."
+    ],
+    [
+     "excited",
+     "Echa el aceite. Más. ¡Más!"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "¡Diego, esto es un mar de aceite!",
+   "rd": "디에고, 에스또 에스 운 마르 데 아쎄이떼!",
+   "ko": "디에고, 이거 완전 기름 바다잖아!",
+   "note": "un mar de… = ~의 바다(엄청 많음)",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Tranqui. Ahora echa el huevo y no lo toques. Espera.",
+   "rd": "뜨란끼. 아오라 에차 엘 우에보 이 노 로 또께스. 에스뻬라.",
+   "ko": "진정해. 이제 달걀 넣고 건드리지 마. 기다려.",
+   "note": "no lo toques = 건드리지 마",
+   "tags": [
+    "expr:tranqui",
+    "expr:espera",
+    "form:imperativo_negativo"
+   ],
+   "new": [],
+   "emotion": "gentle"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Oye, huele a quemado… ¿Le doy la vuelta?",
+   "rd": "오예, 우엘레 아 께마도… 레 도이 라 부엘따?",
+   "ko": "저기, 탄내 나는데… 뒤집어?",
+   "note": "dar la vuelta = 뒤집다 · oler a = ~냄새가 나다",
+   "tags": [
+    "expr:oye"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "¡No! Bueno, sí. ¡Dale la vuelta! ¡Rápido! ¡Usa el plato!",
+   "rd": "노! 부에노, 시. 달레 라 부엘따! 라삐도! 우사 엘 쁠라또!",
+   "ko": "안 돼! 아니, 돼. 뒤집어! 빨리! 접시 써!",
+   "note": "dale la vuelta = 뒤집어",
+   "tags": [
+    "form:imperativo"
+   ],
+   "new": [],
+   "emotion": "shout"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "¡Ay! ¡Está en el suelo! ¡Y suena la alarma!",
+   "rd": "아이! 에스따 엔 엘 수엘로! 이 수에나 라 알라르마!",
+   "ko": "악! 바닥에 떨어졌어! 경보기까지 울려!",
+   "note": "sonar = 울리다",
+   "tags": [],
+   "new": [
+    "alarma"
+   ],
+   "emotion": "shout"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "¿Diego? ¿Qué pasa ahí? ¿Llamo a la policía?",
+   "rd": "디에고? 께 빠사 아이? 야모 아 라 뽈리씨아?",
+   "ko": "디에고? 거기 무슨 일이야? 경찰 부를까?",
+   "note": "¿qué pasa? = 무슨 일이야?",
+   "tags": [
+    "expr:qué pasa"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "¡No llame, por favor! ¡Abre la ventana, {name}! ¡No te quedes ahí!",
+   "rd": "노 야메, 뽀르 파보르! 아브레 라 벤따나, {name}! 노 떼 께데스 아이!",
+   "ko": "부르지 마세요, 제발! 창문 열어, {name}! 거기 서 있지 말고!",
+   "note": "no llame(usted) · abre(tú) · no te quedes",
+   "tags": [
+    "expr:por favor",
+    "form:imperativo",
+    "form:imperativo_negativo"
+   ],
+   "new": [],
+   "emotion": "shout"
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "tl": "Tranquilos, chicos. Os traigo mi tortilla. Y no le pongáis cebolla, ¿eh?",
+   "rd": "뜨란낄로스, 치꼬스. 오스 뜨라이고 미 또르띠야. 이 노 레 뽄가이스 쎄보야, 에?",
+   "ko": "진정해, 얘들아. 내 또르띠야 갖다줄게. 그리고 양파는 넣지 마라, 응?",
+   "note": "no le pongáis = 넣지 마(vosotros 부정 명령)",
+   "tags": [
+    "form:imperativo_negativo"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Tranquilos, chicos. Os traigo mi tortilla."
+    ],
+    [
+     "teasing",
+     "Y no le pongáis cebolla, ¿eh?"
+    ]
+   ]
+  }
+ ],
+ "draft": "claude"
+}

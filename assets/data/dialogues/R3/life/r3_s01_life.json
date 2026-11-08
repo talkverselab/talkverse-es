@@ -23,10 +23,11 @@
  "domain": [
   "life"
  ],
- "goal": "같은 이야기를 복수(las·los·son·tienen)와 usted(mire·su)로 갈아끼우기 — 새 단어 0",
+ "goal": "같은 이야기를 복수(las·los·son·tienen)·usted(mire·su)·vosotros(tenéis)로 갈아끼우기 — 새 단어 0",
  "expressions": [
   "vale",
-  "bueno"
+  "bueno",
+  "pues"
  ],
  "turns": [
   {
@@ -46,10 +47,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¡Qué bonitas! ¿Son grandes?",
-   "rd": "께 보니따스! 손 그란데스?",
-   "ko": "예쁘네요! 큰가요?",
-   "note": "bonitas = habitaciones 에 맞춘 여성 복수",
+   "tl": "¡Qué bonitas! ¿Son pequeñas?",
+   "rd": "께 보니따스! 손 뻬께냐스?",
+   "ko": "예쁘네요! 작은가요?",
+   "note": "bonitas·pequeñas = habitaciones 에 맞춘 여성 복수",
    "tags": [
     "form:plural"
    ],
@@ -59,9 +60,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Son pequeñas, pero tienen mucha luz.",
-   "rd": "손 뻬께냐스, 뻬로 띠에넨 무차 루쓰.",
-   "ko": "작긴 한데, 햇빛이 잘 들어요.",
+   "tl": "Sí, son pequeñas, pero tienen mucha luz.",
+   "rd": "시, 손 뻬께냐스, 뻬로 띠에넨 무차 루쓰.",
+   "ko": "네, 작긴 한데 햇빛이 잘 들어요.",
    "note": "tienen = tener 3인칭 복수",
    "tags": [
     "form:plural"
@@ -80,7 +81,7 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -111,10 +112,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "En su cama. Bueno… es su habitación.",
-   "rd": "엔 수 까마. 부에노… 에스 수 아비따씨온.",
-   "ko": "손님 침대에요. 뭐… 원래 걔들 방이거든요.",
-   "note": "su = 「손님의」도 「걔들의」도 된다(중의)",
+   "tl": "En su cama. Bueno… la habitación es de ellos.",
+   "rd": "엔 수 까마. 부에노… 라 아비따씨온 에스 데 에요스.",
+   "ko": "손님 침대에요. 뭐… 그 방이 원래 걔들 거거든요.",
+   "note": "es de ellos = 그들(고양이들) 것이다",
    "tags": [
     "expr:bueno",
     "form:usted"
@@ -127,20 +128,20 @@
     ],
     [
      "teasing",
-     "Bueno… es su habitación."
+     "Bueno… la habitación es de ellos."
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Vale. ¿Y ellos pagan también?",
-   "rd": "발레. 이 에요스 빠간 땀비엔?",
-   "ko": "네. 그럼 걔들도 돈 내나요?",
-   "note": "ellos pagan = 그들이 낸다(3인칭 복수)",
+   "tl": "Pues… ¡hola, compañeros! Vosotros tenéis la cama, ¿y yo?",
+   "rd": "뿌에스… 올라, 꼼빠녜로스! 보소뜨로스 떼네이스 라 까마, 이 요?",
+   "ko": "그럼… 안녕, 룸메이트들! 너희가 침대 차지면, 나는?",
+   "note": "vosotros tenéis = 너희는 가지고 있다(스페인식 2인칭 복수)",
    "tags": [
-    "expr:vale",
-    "form:plural"
+    "expr:pues",
+    "form:vosotros"
    ],
    "new": [],
    "emotion": "tsukkomi"

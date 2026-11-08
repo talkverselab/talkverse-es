@@ -1,0 +1,173 @@
+{
+ "id": "r2_s10_love",
+ "region": "R2",
+ "stage": 10,
+ "level_name": "챗 실전",
+ "island": "love",
+ "kind": "chat",
+ "title": "여덟 시에 닫아",
+ "emoji": "🌙",
+ "scene": "첫 데이트 뒤 Marta 와 다음 약속을 잡는 채팅 — 상황 10 「다음 약속」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "다음 약속 잡기·돌려 말하는 마음 알아채기",
+ "expressions": [
+  "ya",
+  "no sé",
+  "vaya"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Hoy me gustó mucho. ¿Y a ti?",
+   "rd": "오이 메 구스또 무초. 이 아 띠?",
+   "ko": "오늘 정말 좋았어. 너는?",
+   "note": "me gustó = 좋았어(단순과거)",
+   "tags": [
+    "form:indefinido",
+    "form:gustar"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "23:10"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "A mí tb. El café estaba horrible.",
+   "rd": "아 미 뜨브. 엘 까페 에스따바 오리블레.",
+   "ko": "나도. 커피는 끔찍했지만.",
+   "note": "estaba = ~였어(불완료 묘사)",
+   "tags": [
+    "form:imperfecto"
+   ],
+   "new": [
+    "horrible"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "23:14"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Jajaja, ya. ¿Y la próxima?",
+   "rd": "하하하, 야. 이 라 쁘록시마?",
+   "ko": "ㅋㅋ 그러게. 다음엔?",
+   "note": "la próxima (vez) = 다음번",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [
+    "próximo"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "23:14"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Mmm… no sé. Estoy muy ocupada.",
+   "rd": "믐므… 노 세. 에스또이 무이 오꾸빠다.",
+   "ko": "음… 글쎄. 나 엄청 바빠.",
+   "note": "ocupado/ocupada = 바쁜",
+   "tags": [
+    "expr:no sé"
+   ],
+   "new": [
+    "ocupado"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "23:16"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Vaya. ¿Y el sábado?",
+   "rd": "바야. 이 엘 사바도?",
+   "ko": "아쉽네. 토요일은?",
+   "note": "vaya = 이런·아쉽네",
+   "tags": [
+    "expr:vaya"
+   ],
+   "new": [
+    "sábado"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "23:16"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "El sábado trabajo en la librería.",
+   "rd": "엘 사바도 뜨라바호 엔 라 리브레리아.",
+   "ko": "토요일엔 서점 알바야.",
+   "note": "trabajo = 일해(현재)",
+   "tags": [
+    "callback:r2_s01_love"
+   ],
+   "new": [],
+   "emotion": "stiff",
+   "ui": "bubble",
+   "at": "23:18"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Pero cierro a las ocho… y no tengo planes.",
+   "rd": "뻬로 씨에로 아 라스 오초… 이 노 뗀고 쁠라네스.",
+   "ko": "근데 여덟 시에 닫아… 그리고 약속 없어.",
+   "note": "cerrar = 닫다",
+   "tags": [],
+   "new": [
+    "cerrar"
+   ],
+   "segs": [
+    [
+     "shy",
+     "Pero cierro a las ocho…"
+    ],
+    [
+     "gentle",
+     "y no tengo planes."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:19"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Entonces a las ocho. Llevo el libro.",
+   "rd": "엔똔쎄스 아 라스 오초. 예보 엘 리브로.",
+   "ko": "그럼 여덟 시. 그 책 가져갈게.",
+   "note": "llevar = 가져가다",
+   "tags": [
+    "callback:r2_s01_love"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "23:19",
+   "stamp": "📕"
+  }
+ ],
+ "draft": "claude"
+}

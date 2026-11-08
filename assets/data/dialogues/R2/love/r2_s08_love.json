@@ -1,0 +1,162 @@
+{
+ "id": "r2_s08_love",
+ "region": "R2",
+ "stage": 8,
+ "level_name": "챗 실전",
+ "island": "love",
+ "kind": "chat",
+ "title": "소파 위의 누군가",
+ "emoji": "🛋️",
+ "scene": "「특별한 사람이랑 있어」 한마디로 Marta 가 오해하는 채팅 — 상황 8 「오해」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "jealousy"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "오해 풀기·질투를 들킨 말 받기",
+ "expressions": [
+  "pues",
+  "espera",
+  "es que",
+  "nada"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¿Qué haces?",
+   "rd": "께 아쎄스?",
+   "ko": "뭐 해?",
+   "note": "¿qué haces? = 뭐 해?",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "22:00",
+   "stamp": "📚"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Nada, en el sofá con alguien especial.",
+   "rd": "나다, 엔 엘 소파 꼰 알기엔 에스뻬씨알.",
+   "ko": "별거 안 해, 특별한 사람이랑 소파에.",
+   "note": "alguien especial = 특별한 사람",
+   "tags": [],
+   "new": [
+    "especial"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "22:03"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Ah. Vale.",
+   "rd": "아. 발레.",
+   "ko": "아. 그래.",
+   "note": "vale = 알았어(짧으면 서늘함)",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "stiff",
+   "ui": "bubble",
+   "at": "22:03"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Pues nada. Buenas noches.",
+   "rd": "뿌에스 나다. 부에나스 노체스.",
+   "ko": "그럼 됐어. 잘 자.",
+   "note": "pues nada = 그럼 됐고",
+   "tags": [
+    "expr:pues"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "22:04"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "¡Espera! Es Diego, mi compañero de piso.",
+   "rd": "에스뻬라! 에스 디에고, 미 꼼빠녜로 데 삐소.",
+   "ko": "잠깐! 디에고야, 룸메이트.",
+   "note": "compañero de piso = 룸메이트",
+   "tags": [
+    "expr:espera"
+   ],
+   "new": [
+    "compañero"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "22:04"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "¿Diego es tu «alguien especial»? Jajaja.",
+   "rd": "디에고 에스 뚜 «알기엔 에스뻬씨알»? 하하하.",
+   "ko": "디에고가 네 「특별한 사람」이야? ㅋㅋ",
+   "note": "jajaja = ㅋㅋㅋ",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "22:06"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Es que… me puse celosa. Un poco.",
+   "rd": "에스 께… 메 뿌세 쎌로사. 운 뽀꼬.",
+   "ko": "그게… 질투 났어. 조금.",
+   "note": "me puse celosa = 질투 났어",
+   "tags": [
+    "expr:es que",
+    "form:indefinido"
+   ],
+   "new": [
+    "celoso"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "22:07"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "¿Celosa? Pues el sofá tiene sitio.",
+   "rd": "쎌로사? 뿌에스 엘 소파 띠에네 시띠오.",
+   "ko": "질투? 그럼 소파에 자리 있는데.",
+   "note": "tener sitio = 자리가 있다",
+   "tags": [
+    "expr:pues"
+   ],
+   "new": [
+    "sitio"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "22:08",
+   "stamp": "🛋️"
+  }
+ ],
+ "draft": "claude"
+}

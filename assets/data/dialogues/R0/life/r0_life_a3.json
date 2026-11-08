@@ -1,0 +1,158 @@
+{
+ "id": "r0_life_a3",
+ "region": "R0",
+ "stage": 1,
+ "level_name": "소리·짧은 회화",
+ "island": "life",
+ "kind": "chat",
+ "title": "오늘은 내가 요리",
+ "emoji": "🍝",
+ "scene": "룸메이트 Diego 가 오늘 저녁을 하겠다는 채팅",
+ "speakers": {
+  "A": "{name}",
+  "B": "Diego"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "현재형으로 오늘 계획 · cómo que · 짧은 반응",
+ "expressions": [
+  "qué guay",
+  "cómo que",
+  "tranqui",
+  "vale"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¿Comes en casa hoy?",
+   "rd": "꼬메스 엔 까사 오이?",
+   "ko": "오늘 집에서 먹어?",
+   "note": "comes = 너 먹어(comer)",
+   "tags": [
+    "form:comer"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "19:02"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Sí. ¿Por qué?",
+   "rd": "시. 뽀르 께?",
+   "ko": "응. 왜?",
+   "note": "¿Por qué? = 왜?",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "ui": "bubble",
+   "at": "19:03"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Hoy cocino yo.",
+   "rd": "오이 꼬씨노 요.",
+   "ko": "오늘은 내가 요리해.",
+   "note": "cocino yo = 내가 요리해",
+   "tags": [],
+   "new": [
+    "cocinar"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "19:03",
+   "stamp": "👨‍🍳"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¡Qué guay! ¿Qué es?",
+   "rd": "께 구아이! 께 에스?",
+   "ko": "오 대박! 뭔데?",
+   "note": "¡Qué guay! = 멋지다·대박",
+   "tags": [
+    "expr:qué guay"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "19:04"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Pasta. Creo.",
+   "rd": "빠스따. 끄레오.",
+   "ko": "파스타. 아마도.",
+   "note": "creo = 아마·내 생각엔",
+   "tags": [],
+   "new": [
+    "pasta"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "19:41",
+   "stamp": "📷"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Cómo que «creo»?",
+   "rd": "꼬모 께 «끄레오»?",
+   "ko": "«아마도»라니?",
+   "note": "¿Cómo que…? = ~라니?",
+   "tags": [
+    "expr:cómo que"
+   ],
+   "new": [],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "19:41"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Tranqui. Tengo el teléfono de la pizza.",
+   "rd": "뜨란끼. 뗀고 엘 뗄레포노 데 라 삐짜.",
+   "ko": "진정해. 피자집 번호 있어.",
+   "note": "tranqui = 진정해",
+   "tags": [
+    "expr:tranqui"
+   ],
+   "new": [
+    "pizza"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "19:42"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Vale. Yo quiero la grande.",
+   "rd": "발레. 요 끼에로 라 그란데.",
+   "ko": "오케이. 난 라지로.",
+   "note": "la grande = 큰 거",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "19:42",
+   "stamp": "🍕"
+  }
+ ],
+ "draft": "claude"
+}

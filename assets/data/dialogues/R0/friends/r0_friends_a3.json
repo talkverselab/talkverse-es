@@ -1,0 +1,156 @@
+{
+ "id": "r0_friends_a3",
+ "region": "R0",
+ "stage": 1,
+ "level_name": "소리·짧은 회화",
+ "island": "friends",
+ "kind": "chat",
+ "title": "네 집 문 앞이야",
+ "emoji": "🚪",
+ "scene": "늘 늦는 Javi 를 기다리는 채팅",
+ "speakers": {
+  "A": "{name}",
+  "B": "Javi"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "¿Dónde estás? · estar 로 위치 · 짧은 받아치기",
+ "expressions": [
+  "ya voy",
+  "en serio",
+  "bueno",
+  "madre mía"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Javi, ¿dónde estás?",
+   "rd": "하비, 돈데 에스따스?",
+   "ko": "하비, 어디야?",
+   "note": "¿Dónde estás? = 어디야?",
+   "tags": [
+    "form:estar"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "18:05"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "¡Ya voy! Cinco minutos.",
+   "rd": "야 보이! 씬꼬 미누또스.",
+   "ko": "가는 중! 5분만.",
+   "note": "ya voy = 지금 가",
+   "tags": [
+    "expr:ya voy"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "18:05"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "¿Cinco? ¿En serio?",
+   "rd": "씬꼬? 엔 세리오?",
+   "ko": "5분? 진심?",
+   "note": "¿En serio? = 진짜?·진심?",
+   "tags": [
+    "expr:en serio"
+   ],
+   "new": [],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "18:06"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Bueno… diez.",
+   "rd": "부에노… 디에쓰.",
+   "ko": "음… 10분.",
+   "note": "bueno = 음·뭐(말 고르기)",
+   "tags": [
+    "expr:bueno"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "18:06",
+   "stamp": "🙏"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "¡Ya estoy! En tu puerta.",
+   "rd": "야 에스또이! 엔 뚜 뿌에르따.",
+   "ko": "도착! 너네 집 문 앞이야.",
+   "note": "ya estoy = 다 왔어",
+   "tags": [
+    "form:estar"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "18:24"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Mi puerta? No te veo.",
+   "rd": "미 뿌에르따? 노 떼 베오.",
+   "ko": "우리 집 문? 너 안 보이는데.",
+   "note": "no te veo = 너 안 보여",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "18:24"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Hola, señora… Vale, no es tu casa.",
+   "rd": "올라, 세뇨라… 발레, 노 에스 뚜 까사.",
+   "ko": "안녕하세요, 아주머니… 아, 너네 집 아니네.",
+   "note": "señora = 아주머니·부인",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "18:25",
+   "stamp": "😅"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Madre mía, Javi.",
+   "rd": "마드레 미아, 하비.",
+   "ko": "세상에, 하비.",
+   "note": "madre mía = 세상에",
+   "tags": [
+    "expr:madre mía"
+   ],
+   "new": [],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "18:25",
+   "stamp": "😂"
+  }
+ ],
+ "draft": "claude"
+}

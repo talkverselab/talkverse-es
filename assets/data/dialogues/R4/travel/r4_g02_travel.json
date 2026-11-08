@@ -1,0 +1,241 @@
+{
+ "id": "r4_g02_travel",
+ "region": "R4",
+ "stage": 2,
+ "level_name": "어려운 문법",
+ "island": "travel",
+ "kind": "long",
+ "title": "도착하면 문자해",
+ "emoji": "🥘",
+ "scene": "Lucía 가 주말에 발렌시아 근처 이모네 시골집에 놀러 오라고 한다 — 문법 2 「cuando + 접속법(앞으로 할 일)」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel",
+  "friends"
+ ],
+ "goal": "cuando llegues·cuando estés·cuando se entere·cuando veas(앞일 = 접속법) ↔ cuando hay(늘 그런 일 = 직설법)",
+ "expressions": [
+  "oye",
+  "en serio",
+  "vale",
+  "tranqui",
+  "da igual",
+  "pues",
+  "ya",
+  "madre mía",
+  "te lo juro"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Oye, ¿te vienes el sábado? Mi tía tiene una casa en un pueblo cerca de Valencia.",
+   "rd": "오예, 떼 비에네스 엘 사바도? 미 띠아 띠에네 우나 까사 엔 운 뿌에블로 쎄르까 데 발렌씨아.",
+   "ko": "있잖아, 토요일에 같이 갈래? 이모가 발렌시아 근처 시골에 집이 있거든.",
+   "note": "venirse = 같이 가다(따라오다)",
+   "tags": [
+    "expr:oye"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¿En serio? Vale. Pero ¿cómo llego desde la estación?",
+   "rd": "엔 세리오? 발레. 뻬로 꼬모 예고 데스데 라 에스따씨온?",
+   "ko": "진짜? 좋아. 근데 역에서 어떻게 가?",
+   "note": "¿cómo llego? = 어떻게 가?",
+   "tags": [
+    "expr:en serio",
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Tranqui. Cuando llegues, mándame un mensaje y bajo a buscarte.",
+   "rd": "뜨란끼. 꾸안도 예게스, 만다메 운 멘사헤 이 바호 아 부스까르떼.",
+   "ko": "걱정 마. 도착하면 문자해, 내가 데리러 내려갈게.",
+   "note": "cuando + 접속법(llegues) = ~하면(앞일)",
+   "tags": [
+    "expr:tranqui",
+    "form:subjuntivo"
+   ],
+   "new": [],
+   "emotion": "gentle"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Y si llego tarde? El tren llega casi a las once.",
+   "rd": "이 시 예고 따르데? 엘 뜨렌 예가 까시 아 라스 온쎄.",
+   "ko": "늦게 도착하면? 기차가 거의 11시에 들어가는데.",
+   "note": "casi = 거의",
+   "tags": [
+    "expr:casi"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Da igual. Cuando estés allí, te espero con algo de cenar.",
+   "rd": "다 이구알. 꾸안도 에스떼스 아이, 떼 에스뻬로 꼰 알고 데 쎄나르.",
+   "ko": "상관없어. 네가 오면 저녁거리 차려 놓고 기다릴게.",
+   "note": "cuando estés = 네가 거기 있을 때(앞일)",
+   "tags": [
+    "expr:da igual",
+    "form:subjuntivo"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Qué bien. ¿Y quién más va a estar?",
+   "rd": "께 비엔. 이 끼엔 마스 바 아 에스따르?",
+   "ko": "좋다. 또 누가 와?",
+   "note": "¿quién más? = 또 누가?",
+   "tags": [
+    "expr:qué bien"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Pues… mi tía, mi prima y su novio. Ah, y mi abuela.",
+   "rd": "뿌에스… 미 띠아, 미 쁘리마 이 수 노비오. 아, 이 미 아부엘라.",
+   "ko": "그게… 이모, 사촌 언니, 언니 남자친구. 아, 우리 할머니도.",
+   "note": "pues = 그게(말 꺼낼 때)",
+   "tags": [
+    "expr:pues"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "¿Tu abuela también?",
+   "rd": "뚜 아부엘라 땀비엔?",
+   "ko": "할머니도?",
+   "note": "también = ~도",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Sí. Y cuando se entere de que vienes, va a invitar a los vecinos.",
+   "rd": "시. 이 꾸안도 세 엔떼레 데 께 비에네스, 바 아 인비따르 아 로스 베씨노스.",
+   "ko": "응. 근데 할머니가 너 온다는 거 알면, 동네 사람들 다 부를 거야.",
+   "note": "enterarse de = ~을 알게 되다",
+   "tags": [
+    "form:subjuntivo"
+   ],
+   "new": [
+    "enterarse"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "¿A los vecinos? Lucía, yo solo quiero ver el mar.",
+   "rd": "아 로스 베씨노스? 루씨아, 요 솔로 끼에로 베르 엘 마르.",
+   "ko": "동네 사람들을? 루시아, 나 그냥 바다 보고 싶은 건데.",
+   "note": "solo = 그냥·~만",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Ya, ya. Pero en mi familia, cuando hay invitado, hay fiesta. Es así.",
+   "rd": "야, 야. 뻬로 엔 미 파밀리아, 꾸안도 아이 인비따도, 아이 피에스따. 에스 아시.",
+   "ko": "알지, 알지. 근데 우리 집은 손님 오면 무조건 잔치야. 원래 그래.",
+   "note": "cuando hay = ~할 때마다(늘 그런 일 → 직설법)",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Vale… ¿Y cuántas personas son al final?",
+   "rd": "발레… 이 꾸안따스 뻬르소나스 손 알 피날?",
+   "ko": "알았어… 그래서 결국 몇 명인데?",
+   "note": "al final = 결국",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Ahora mismo, treinta y dos. Mi tía ya ha comprado la paellera más grande del pueblo.",
+   "rd": "아오라 미스모, 뜨레인따 이 도스. 미 띠아 야 아 꼼쁘라도 라 빠에예라 마스 그란데 델 뿌에블로.",
+   "ko": "지금으로선 서른두 명. 이모가 벌써 동네에서 제일 큰 빠에야 팬을 샀어.",
+   "note": "paellera = 빠에야 팬",
+   "tags": [
+    "expr:ahora mismo"
+   ],
+   "new": [
+    "paellera"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "¿Treinta y dos? ¡Madre mía!",
+   "rd": "뜨레인따 이 도스? 마드레 미아!",
+   "ko": "서른두 명? 세상에!",
+   "note": "madre mía = 세상에",
+   "tags": [
+    "expr:madre mía"
+   ],
+   "new": [],
+   "emotion": "shout"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Cuando veas esa paella, me das las gracias. Te lo juro.",
+   "rd": "꾸안도 베아스 에사 빠에야, 메 다스 라스 그라씨아스. 떼 로 후로.",
+   "ko": "그 빠에야 보면 나한테 고맙다고 할걸. 장담해.",
+   "note": "cuando veas = 네가 보면(앞일)",
+   "tags": [
+    "form:subjuntivo",
+    "expr:te lo juro"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  }
+ ],
+ "draft": "claude"
+}

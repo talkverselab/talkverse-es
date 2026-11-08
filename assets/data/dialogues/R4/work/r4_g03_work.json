@@ -1,0 +1,259 @@
+{
+ "id": "r4_g03_work",
+ "region": "R4",
+ "stage": 3,
+ "level_name": "어려운 문법",
+ "island": "work",
+ "kind": "long",
+ "title": "금요일을 청하다",
+ "emoji": "💍",
+ "scene": "A 가 부장에게 금요일 휴가를 말하기 전에 옆자리 동료와 연습한다 — 문법 3 「조건법: 공손한 부탁·yo que tú」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Compañera",
+  "C": "Jefe"
+ },
+ "register": "mixed",
+ "twist": 12,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "work_spain"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "me gustaría·¿sería posible?·yo que tú, diría…·trabajarías(조건법으로 부드럽게)",
+ "expressions": [
+  "oye",
+  "claro",
+  "vale",
+  "hombre",
+  "perdón",
+  "ya"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Oye, ¿tienes un minuto? Tengo que pedirle algo al jefe y estoy nervioso.",
+   "rd": "오예, 띠에네스 운 미누또? 뗀고 께 뻬디를레 알고 알 헤페 이 에스또이 네르비오소.",
+   "ko": "저기, 잠깐 시간 돼? 부장님한테 부탁할 게 있는데 떨려.",
+   "note": "estar nervioso = 긴장되다",
+   "tags": [
+    "expr:oye"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "tl_f": "Oye, ¿tienes un minuto? Tengo que pedirle algo al jefe y estoy nerviosa.",
+   "rd_f": "오예, 띠에네스 운 미누또? 뗀고 께 뻬디를레 알고 알 헤페 이 에스또이 네르비오사."
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Claro. ¿Qué le quieres pedir?",
+   "rd": "끌라로. 께 레 끼에레스 뻬디르?",
+   "ko": "그럼. 뭘 부탁하려고?",
+   "note": "pedir = 부탁하다·청하다",
+   "tags": [
+    "expr:claro"
+   ],
+   "new": [],
+   "emotion": "gentle"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "El viernes libre. Mi hermano se casa en Sevilla.",
+   "rd": "엘 비에르네스 리브레. 미 에르마노 세 까사 엔 세비야.",
+   "ko": "금요일 휴가. 우리 형이 세비야에서 결혼하거든.",
+   "note": "casarse = 결혼하다",
+   "tags": [
+    "form:reflexivo"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ko_f": "금요일 휴가. 우리 오빠가 세비야에서 결혼하거든."
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Vale. Yo que tú, no diría «quiero». Diría «me gustaría».",
+   "rd": "발레. 요 께 뚜, 노 디리아 «끼에로». 디리아 «메 구스따리아».",
+   "ko": "알았어. 나 같으면 「원해요」라고는 안 해. 「~하고 싶습니다」라고 하지.",
+   "note": "yo que tú + 조건법 = 나 같으면 ~할 거야",
+   "tags": [
+    "expr:vale",
+    "form:condicional"
+   ],
+   "new": [],
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "«Me gustaría tener el viernes libre». ¿Así?",
+   "rd": "«메 구스따리아 떼네르 엘 비에르네스 리브레». 아시?",
+   "ko": "「금요일에 쉬고 싶습니다.」 이렇게?",
+   "note": "me gustaría = ~하고 싶습니다(공손)",
+   "tags": [
+    "form:condicional"
+   ],
+   "new": [],
+   "emotion": "shy"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Mejor. Y al final añadiría: «¿Sería posible?». Suena más educado.",
+   "rd": "메호르. 이 알 피날 아냐디리아: «세리아 뽀시블레?». 수에나 마스 에두까도.",
+   "ko": "훨씬 낫다. 끝에 「가능할까요?」도 붙이고. 그게 더 예의 바르게 들려.",
+   "note": "¿sería posible? = 가능할까요?",
+   "tags": [
+    "form:condicional"
+   ],
+   "new": [
+    "educado"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "¿No sería demasiado? Parece una carta a la reina.",
+   "rd": "노 세리아 데마시아도? 빠레쎄 우나 까르따 아 라 레이나.",
+   "ko": "너무 오버 아냐? 여왕님한테 쓰는 편지 같은데.",
+   "note": "demasiado = 지나친",
+   "tags": [
+    "form:condicional"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Hombre, aquí todo el mundo le habla así. Le encanta.",
+   "rd": "옴브레, 아끼 또도 엘 문도 레 아블라 아시. 레 엔깐따.",
+   "ko": "아이고, 여기선 다들 부장님한테 그렇게 말해. 엄청 좋아하셔.",
+   "note": "todo el mundo = 모두",
+   "tags": [
+    "expr:hombre"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Vale… ¿Y si me dice que no?",
+   "rd": "발레… 이 시 메 디쎄 께 노?",
+   "ko": "알았어… 근데 안 된다고 하시면?",
+   "note": "¿y si…? = ~하면 어떡해?",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Entonces le dirías que trabajarías el sábado. Funciona siempre.",
+   "rd": "엔똔쎄스 레 디리아스 께 뜨라바하리아스 엘 사바도. 푼씨오나 시엠쁘레.",
+   "ko": "그럼 토요일에 일하겠다고 하면 돼. 이거 백발백중이야.",
+   "note": "dirías·trabajarías = 조건법(제안)",
+   "tags": [
+    "form:condicional"
+   ],
+   "new": [],
+   "emotion": "gentle"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "{name}, ¿me buscabas?",
+   "rd": "{name}, 메 부스까바스?",
+   "ko": "{name} 씨, 나 찾았어요?",
+   "note": "¿me buscabas? = 날 찾았어?(부드러운 불완료)",
+   "tags": [],
+   "new": [],
+   "emotion": "polite"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "¡Sí! Eh… Me gustaría pedirle… …la mano.",
+   "rd": "시! 에… 메 구스따리아 뻬디를레… …라 마노.",
+   "ko": "네! 어… 저기… 부장님께… 청혼을 드리고 싶습니다.",
+   "note": "pedir la mano = 청혼하다(원래 「손을 청하다」)",
+   "tags": [
+    "form:condicional"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "¡Sí! Eh… Me gustaría pedirle…"
+    ],
+    [
+     "stiff",
+     "…la mano."
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "¿Perdón?",
+   "rd": "뻬르돈?",
+   "ko": "네?",
+   "note": "¿perdón? = 네?·뭐라고요?",
+   "tags": [
+    "expr:perdón"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "¡El viernes! ¡Me gustaría pedirle el viernes libre! Lo de la mano, no.",
+   "rd": "엘 비에르네스! 메 구스따리아 뻬디를레 엘 비에르네스 리브레! 로 데 라 마노, 노.",
+   "ko": "금요일이요! 금요일에 쉬고 싶습니다! 청혼은 아니고요.",
+   "note": "lo de… = ~건·~얘기",
+   "tags": [
+    "form:condicional"
+   ],
+   "new": [],
+   "emotion": "shout"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Yo que tú, ahora diría «¿sería posible?».",
+   "rd": "요 께 뚜, 아오라 디리아 «세리아 뽀시블레?».",
+   "ko": "나 같으면 지금 「가능할까요?」 하겠다.",
+   "note": "다시 yo que tú + 조건법",
+   "tags": [
+    "form:condicional"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "tl": "Sería posible. Pero lo de la mano lo hablamos otro día.",
+   "rd": "세리아 뽀시블레. 뻬로 로 데 라 마노 로 아블라모스 오뜨로 디아.",
+   "ko": "가능합니다. 근데 청혼 건은 다음에 얘기하죠.",
+   "note": "lo hablamos otro día = 다음에 얘기하자",
+   "tags": [
+    "form:condicional"
+   ],
+   "new": [],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

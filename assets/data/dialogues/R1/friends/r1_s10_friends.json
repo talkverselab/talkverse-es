@@ -1,0 +1,162 @@
+{
+ "id": "r1_s10_friends",
+ "region": "R1",
+ "stage": 10,
+ "level_name": "관사·성수·활용 골격",
+ "island": "friends",
+ "kind": "short",
+ "title": "어제 경기",
+ "emoji": "⚽",
+ "scene": "동네 공원, 어제 축구 경기에 안 나온 Javi 를 붙잡았다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Javi"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "단순과거 씨앗 — llamé / esperé / jugué / comí / fue / pasó(어제 일)",
+ "expressions": [
+  "tío",
+  "ya",
+  "perdona",
+  "menos mal"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Ayer te llamé tres veces, tío.",
+   "rd": "아예르 떼 야메 뜨레스 베쎄스, 띠오.",
+   "ko": "어제 너한테 전화 세 번 했어.",
+   "note": "llamé = llamar 단순과거 1인칭 · ayer = 어제",
+   "tags": [
+    "expr:tío",
+    "form:indefinido"
+   ],
+   "new": [
+    "ayer"
+   ],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Ya, perdona. Ayer comí con mi abuela.",
+   "rd": "야, 뻬르도나. 아예르 꼬미 꼰 미 아부엘라.",
+   "ko": "알아, 미안. 어제 할머니랑 밥 먹었어.",
+   "note": "comí = comer 단순과거 1인칭",
+   "tags": [
+    "expr:ya",
+    "expr:perdona",
+    "form:indefinido"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "¿Y el partido? Te esperé una hora.",
+   "rd": "이 엘 빠르띠도? 떼 에스뻬레 우나 오라.",
+   "ko": "경기는? 한 시간 기다렸어.",
+   "note": "esperé = esperar 단순과거 1인칭",
+   "tags": [
+    "form:indefinido"
+   ],
+   "new": [
+    "partido"
+   ],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "¿Ayer? ¿El partido no es hoy?",
+   "rd": "아예르? 엘 빠르띠도 노 에스 오이?",
+   "ko": "어제? 경기 오늘 아니야?",
+   "note": "es hoy = 현재로 되묻기",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "No. Fue ayer. Jugué yo en tu lugar.",
+   "rd": "노. 푸에 아예르. 후게 요 엔 뚜 루가르.",
+   "ko": "아니. 어제였어. 내가 네 자리에서 뛰었어.",
+   "note": "fue = ser 단순과거 · jugué = jugar 1인칭(철자 gu)",
+   "tags": [
+    "form:indefinido"
+   ],
+   "new": [
+    "jugar",
+    "lugar"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "¿Tú? ¿Y qué pasó?",
+   "rd": "뚜? 이 께 빠소?",
+   "ko": "네가? 그래서 어떻게 됐어?",
+   "note": "¿qué pasó? = 무슨 일 있었어?",
+   "tags": [
+    "form:indefinido"
+   ],
+   "new": [
+    "pasar"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Marqué dos goles. Los dos en mi portería.",
+   "rd": "마르께 도스 골레스. 로스 도스 엔 미 뽀르떼리아.",
+   "ko": "두 골 넣었지. 둘 다 우리 골대에.",
+   "note": "marqué = marcar 1인칭(철자 qu) · portería = 골대",
+   "tags": [
+    "form:indefinido"
+   ],
+   "new": [
+    "marcar",
+    "gol",
+    "portería"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Marqué dos goles."
+    ],
+    [
+     "sad",
+     "Los dos en mi portería."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Menos mal que comí con mi abuela.",
+   "rd": "메노스 말 께 꼬미 꼰 미 아부엘라.",
+   "ko": "할머니랑 밥 먹길 다행이다.",
+   "note": "menos mal = 다행이다",
+   "tags": [
+    "expr:menos mal"
+   ],
+   "new": [],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

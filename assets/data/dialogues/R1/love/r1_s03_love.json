@@ -1,0 +1,162 @@
+{
+ "id": "r1_s03_love",
+ "region": "R1",
+ "stage": 3,
+ "level_name": "관사·성수·활용 골격",
+ "island": "love",
+ "kind": "short",
+ "title": "여섯 시의 손님",
+ "emoji": "📚",
+ "scene": "헌책방, 매일 오는 A 에게 알바생 Marta 가 먼저 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "현재 규칙 활용 -ar(compras·llegas·trabajo) / -er(leo·lee) / -ir 맛보기 — 1·2·3인칭 단수",
+ "expressions": [
+  "ya",
+  "bueno",
+  "pues"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¿Otra vez aquí? ¿Compras o solo miras?",
+   "rd": "오뜨라 베쓰 아끼? 꼼쁘라스 오 솔로 미라스?",
+   "ko": "또 왔네? 사는 거야, 구경만 하는 거야?",
+   "note": "compras / miras = -ar 동사 2인칭(-as)",
+   "tags": [
+    "form:presente_ar"
+   ],
+   "new": [
+    "comprar"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Miro. Bueno… leo un poco.",
+   "rd": "미로. 부에노… 레오 운 뽀꼬.",
+   "ko": "구경. 뭐… 조금 읽기도 하고.",
+   "note": "miro(-ar) · leo(-er) = 1인칭은 -o",
+   "tags": [
+    "expr:bueno",
+    "form:presente_er"
+   ],
+   "new": [
+    "leer"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Ya. Llegas todos los días a las seis.",
+   "rd": "야. 예가스 또도스 로스 디아스 아 라스 세이스.",
+   "ko": "그렇겠지. 매일 여섯 시에 오더라.",
+   "note": "llegas = llegar 2인칭 · todos los días = 매일",
+   "tags": [
+    "expr:ya",
+    "form:presente_ar"
+   ],
+   "new": [
+    "llegar"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Y tú? ¿Trabajas todos los días?",
+   "rd": "이 뚜? 뜨라바하스 또도스 로스 디아스?",
+   "ko": "너는? 매일 일해?",
+   "note": "trabajas = trabajar 2인칭",
+   "tags": [
+    "form:presente_ar"
+   ],
+   "new": [
+    "trabajar"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "No. Trabajo los lunes y los miércoles.",
+   "rd": "노. 뜨라바호 로스 루네스 이 로스 미에르꼴레스.",
+   "ko": "아니. 월요일이랑 수요일만 일해.",
+   "note": "trabajo = 1인칭 · los lunes = 월요일마다",
+   "tags": [
+    "form:presente_ar"
+   ],
+   "new": [
+    "miércoles"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Pero hoy es viernes… ¿Qué haces aquí?",
+   "rd": "뻬로 오이 에스 비에르네스… 께 아쎄스 아끼?",
+   "ko": "근데 오늘 금요일인데… 여기서 뭐 해?",
+   "note": "haces = hacer 2인칭(불규칙, 통문장)",
+   "tags": [
+    "form:hacer"
+   ],
+   "new": [
+    "viernes"
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Pues… espero a un chico que lee mucho.",
+   "rd": "뿌에스… 에스뻬로 아 운 치꼬 께 레에 무초.",
+   "ko": "그게… 책 많이 읽는 남자를 기다려.",
+   "note": "espero a + 사람 = ~를 기다리다 · lee = 3인칭",
+   "tags": [
+    "expr:pues",
+    "form:presente_er"
+   ],
+   "new": [
+    "esperar"
+   ],
+   "emotion": "shy",
+   "tl_f": "Pues… espero a una chica que lee mucho.",
+   "ko_f": "그게… 책 많이 읽는 여자를 기다려.",
+   "rd_f": "뿌에스… 에스뻬로 아 우나 치까 께 레에 무초."
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Pues el chico hoy compra un libro.",
+   "rd": "뿌에스 엘 치꼬 오이 꼼쁘라 운 리브로.",
+   "ko": "그럼 그 남자, 오늘은 책 한 권 산다.",
+   "note": "compra = comprar 3인칭(자기 얘기를 3인칭으로)",
+   "tags": [
+    "expr:pues",
+    "form:presente_ar"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "tl_f": "Pues la chica hoy compra un libro.",
+   "ko_f": "그럼 그 여자, 오늘은 책 한 권 산다.",
+   "rd_f": "뿌에스 라 치까 오이 꼼쁘라 운 리브로."
+  }
+ ],
+ "draft": "claude"
+}

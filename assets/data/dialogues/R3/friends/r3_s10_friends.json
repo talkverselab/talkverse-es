@@ -1,0 +1,154 @@
+{
+ "id": "r3_s10_friends",
+ "region": "R3",
+ "stage": 10,
+ "source": "r1_s10_friends",
+ "level_name": "그래머2(복수·존댓말)",
+ "island": "friends",
+ "kind": "short",
+ "title": "어제 경기들",
+ "emoji": "⚽",
+ "scene": "10단계 「어제 경기」를 복수로 — 어제 경기에 안 나온 Javi 형제를 붙잡았다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Javi"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "같은 이야기를 복수 단순과거(comimos·esperamos·jugamos·marcamos)로 — 새 단어 0",
+ "expressions": [
+  "ya",
+  "perdona",
+  "menos mal"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Ayer os llamé tres veces, tíos.",
+   "rd": "아예르 오스 야메 뜨레스 베쎄스, 띠오스.",
+   "ko": "어제 너희한테 전화 세 번 했어.",
+   "note": "os = 너희에게 · llamé = 단순과거 1인칭",
+   "tags": [
+    "form:vosotros",
+    "form:indefinido"
+   ],
+   "new": [],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Ya, perdona. Ayer comimos con nuestra abuela.",
+   "rd": "야, 뻬르도나. 아예르 꼬미모스 꼰 누에스뜨라 아부엘라.",
+   "ko": "알아, 미안. 어제 우리 할머니랑 밥 먹었어.",
+   "note": "comimos = comer 단순과거 1인칭 복수",
+   "tags": [
+    "expr:ya",
+    "expr:perdona",
+    "form:nosotros",
+    "form:indefinido"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "¿Y el partido? Os esperamos una hora.",
+   "rd": "이 엘 빠르띠도? 오스 에스뻬라모스 우나 오라.",
+   "ko": "경기는? 우리 한 시간 기다렸어.",
+   "note": "esperamos = 단순과거 1인칭 복수(현재와 모양이 같다)",
+   "tags": [
+    "form:indefinido",
+    "form:nosotros"
+   ],
+   "new": [],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "¿Ayer? ¿El partido no es hoy?",
+   "rd": "아예르? 엘 빠르띠도 노 에스 오이?",
+   "ko": "어제? 경기 오늘 아니야?",
+   "note": "es hoy = 현재로 되묻기",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "No. Fue ayer. Jugamos Lucía y yo en vuestro lugar.",
+   "rd": "노. 푸에 아예르. 후가모스 루씨아 이 요 엔 부에스뜨로 루가르.",
+   "ko": "아니. 어제였어. 루시아랑 내가 너희 자리에서 뛰었어.",
+   "note": "jugamos = 1인칭 복수 · vuestro lugar = 너희 자리",
+   "tags": [
+    "form:indefinido",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "¿Vosotros? ¿Y qué pasó?",
+   "rd": "보소뜨로스? 이 께 빠소?",
+   "ko": "너희가? 그래서 어떻게 됐어?",
+   "note": "vosotros = 너희(섞인 무리는 남성형)",
+   "tags": [
+    "form:vosotros",
+    "form:indefinido"
+   ],
+   "new": [],
+   "emotion": "excited"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Marcamos dos goles. Los dos en nuestra portería.",
+   "rd": "마르까모스 도스 골레스. 로스 도스 엔 누에스뜨라 뽀르떼리아.",
+   "ko": "두 골 넣었지. 둘 다 우리 골대에.",
+   "note": "marcamos = 1인칭 복수 · nuestra portería",
+   "tags": [
+    "form:indefinido",
+    "form:nosotros"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Marcamos dos goles."
+    ],
+    [
+     "sad",
+     "Los dos en nuestra portería."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Menos mal que comimos con la abuela.",
+   "rd": "메노스 말 께 꼬미모스 꼰 라 아부엘라.",
+   "ko": "할머니랑 밥 먹길 다행이다.",
+   "note": "menos mal = 다행이다",
+   "tags": [
+    "expr:menos mal"
+   ],
+   "new": [],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

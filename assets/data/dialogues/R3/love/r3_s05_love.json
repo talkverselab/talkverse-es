@@ -1,0 +1,171 @@
+{
+ "id": "r3_s05_love",
+ "region": "R3",
+ "stage": 5,
+ "source": "r1_s05_love",
+ "level_name": "그래머2(복수·존댓말)",
+ "island": "love",
+ "kind": "chat",
+ "title": "책 속의 편지들",
+ "emoji": "✉️",
+ "scene": "5단계 「책 속의 편지」를 복수로 — 빌려 간 책을 찾는 Marta 의 메시지, A 는 룸메이트 Diego 와 함께 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "같은 이야기를 복수 목적 대명사 los·las 와 vosotros 활용으로 — 새 단어 0",
+ "expressions": [
+  "oye",
+  "vale"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Oye, ¿tenéis mis libros rojos?",
+   "rd": "오예, 떼네이스 미스 리브로스 로호스?",
+   "ko": "있잖아, 내 빨간 책들 너희한테 있어?",
+   "note": "tenéis = tener 2인칭 복수 · libros rojos = 남성 복수 일치",
+   "tags": [
+    "expr:oye",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "neutral",
+   "ui": "bubble",
+   "at": "23:10"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Sí, los tenemos. Diego y yo los leemos.",
+   "rd": "시, 로스 떼네모스. 디에고 이 요 로스 레에모스.",
+   "ko": "응, 우리한테 있어. 디에고랑 나랑 읽는 중.",
+   "note": "los = los libros(남성 복수) 대신",
+   "tags": [
+    "form:los",
+    "form:nosotros"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "23:11"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "¿Los leéis? ¿Todos?",
+   "rd": "로스 레에이스? 또도스?",
+   "ko": "그걸 읽어? 전부?",
+   "note": "leéis = leer 2인칭 복수",
+   "tags": [
+    "form:los",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "23:11",
+   "stamp": "😳"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Sí. Y hay unas cartas dentro.",
+   "rd": "시. 이 아이 우나스 까르따스 덴뜨로.",
+   "ko": "응. 그리고 안에 편지가 몇 장 있어.",
+   "note": "unas cartas = 여성 복수 부정관사",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "neutral",
+   "ui": "bubble",
+   "at": "23:12"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "¿Las cartas? ¿Las tenéis?",
+   "rd": "라스 까르따스? 라스 떼네이스?",
+   "ko": "그 편지들? 너희가 갖고 있어?",
+   "note": "las = las cartas 대신",
+   "tags": [
+    "form:las",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "23:12"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Son para Javi, ¿no? Le damos las cartas.",
+   "rd": "손 빠라 하비, 노? 레 다모스 라스 까르따스.",
+   "ko": "하비한테 주는 거지? 우리가 전해 줄게.",
+   "note": "damos = dar 1인칭 복수 · son = 복수 ser",
+   "tags": [
+    "form:nosotros",
+    "form:le"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "23:13",
+   "stamp": "👍"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "¡No! No son para Javi… Son para ti.",
+   "rd": "노! 노 손 빠라 하비… 손 빠라 띠.",
+   "ko": "안 돼! 하비 거 아니야… 너 거야.",
+   "note": "no son = (그것들은) ~가 아니다",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "shout",
+     "¡No!"
+    ],
+    [
+     "shy",
+     "No son para Javi… Son para ti."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:13"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Vale… las leemos otra vez.",
+   "rd": "발레… 라스 레에모스 오뜨라 베쓰.",
+   "ko": "알았어… 그럼 우리 다시 읽을게.",
+   "note": "las leemos = 그것들을 (우리가) 읽는다 — 디에고도 같이",
+   "tags": [
+    "expr:vale",
+    "form:las"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "23:20"
+  }
+ ],
+ "draft": "claude"
+}

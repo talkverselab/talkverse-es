@@ -1,0 +1,167 @@
+{
+ "id": "r1_s09_love",
+ "region": "R1",
+ "stage": 9,
+ "level_name": "관사·성수·활용 골격",
+ "island": "love",
+ "kind": "chat",
+ "title": "세 번째 옷",
+ "emoji": "👗",
+ "scene": "토요일 아침, Marta 가 먼저 헌책 장터에 가자고 메시지를 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "재귀동사 me levanto / me ducho / me visto / te levantas — 자기 몸에 하는 일",
+ "expressions": [
+  "vale",
+  "bueno"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¿A qué hora te levantas los sábados?",
+   "rd": "아 께 오라 떼 레반따스 로스 사바도스?",
+   "ko": "너 토요일엔 몇 시에 일어나?",
+   "note": "te levantas = (너는) 일어난다(levantarse)",
+   "tags": [
+    "form:reflexivo"
+   ],
+   "new": [
+    "levantar",
+    "sábado"
+   ],
+   "emotion": "neutral",
+   "ui": "bubble",
+   "at": "10:12"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Me levanto tarde. ¿Por qué?",
+   "rd": "메 레반또 따르데. 뽀르 께?",
+   "ko": "늦게 일어나. 왜?",
+   "note": "me levanto = 나는 일어난다",
+   "tags": [
+    "form:reflexivo"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "10:40"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Hay un mercado de libros a las doce.",
+   "rd": "아이 운 메르까도 데 리브로스 아 라스 도쎄.",
+   "ko": "열두 시에 헌책 장터가 있어.",
+   "note": "mercado de libros = 책 장터",
+   "tags": [],
+   "new": [
+    "mercado"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "10:41"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Vale. Me ducho y me visto. ¿Y tú?",
+   "rd": "발레. 메 두초 이 메 비스또. 이 뚜?",
+   "ko": "좋아. 씻고 옷 입을게. 너는?",
+   "note": "me ducho = 샤워하다 · me visto = 옷을 입다",
+   "tags": [
+    "expr:vale",
+    "form:reflexivo"
+   ],
+   "new": [
+    "duchar",
+    "vestir"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "10:41"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Me visto ahora. Bueno… otra vez.",
+   "rd": "메 비스또 아오라. 부에노… 오뜨라 베쓰.",
+   "ko": "나 지금 옷 입어. 뭐… 또.",
+   "note": "otra vez = 다시·또",
+   "tags": [
+    "expr:bueno",
+    "form:reflexivo"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "10:43"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Otra vez?",
+   "rd": "오뜨라 베쓰?",
+   "ko": "또?",
+   "note": "¿otra vez? = 또?(되묻기)",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "10:43",
+   "stamp": "🤔"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Me he cambiado tres veces. Por ti.",
+   "rd": "메 에 깜비아도 뜨레스 베쎄스. 뽀르 띠.",
+   "ko": "벌써 세 번 갈아입었어. 너 때문에.",
+   "note": "cambiarse = 갈아입다 · por ti = 너 때문에",
+   "tags": [
+    "form:reflexivo"
+   ],
+   "new": [
+    "cambiar"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "10:47"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Vale… ahora me pongo nervioso.",
+   "rd": "발레… 아오라 메 뽄고 네르비오소.",
+   "ko": "아… 이제 나 떨린다.",
+   "note": "ponerse nervioso = 긴장되다(재귀)",
+   "tags": [
+    "expr:vale",
+    "form:reflexivo"
+   ],
+   "new": [
+    "nervioso"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "10:52",
+   "tl_f": "Vale… ahora me pongo nerviosa.",
+   "rd_f": "발레… 아오라 메 뽄고 네르비오사."
+  }
+ ],
+ "draft": "claude"
+}

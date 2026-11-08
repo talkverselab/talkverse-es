@@ -1,0 +1,262 @@
+{
+ "id": "r4_g05_culture",
+ "region": "R4",
+ "stage": 5,
+ "level_name": "어려운 문법",
+ "island": "culture",
+ "kind": "long",
+ "title": "미술관 벤치",
+ "emoji": "🖼️",
+ "scene": "무료 입장 시간, 마드리드 토박이 Lucía 가 미술관을 안내하는데 위층 이야기만 나오면 말을 돌린다 — 문법 5 「과거완료 había + 과거분사」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía",
+  "C": "Vigilante"
+ },
+ "register": "mixed",
+ "twist": 12,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture",
+  "friends"
+ ],
+ "goal": "¿no habías venido nunca?·ya me habían dicho·ya había cerrado·ya le habíamos guardado(그때보다 더 앞선 일)",
+ "expressions": [
+  "tío",
+  "tía",
+  "pues",
+  "claro",
+  "mira",
+  "qué guay",
+  "bueno",
+  "casi",
+  "qué va",
+  "madre mía",
+  "qué fuerte",
+  "vale"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Tío, ¿no habías venido nunca a este museo? ¡Llevas un año en Madrid!",
+   "rd": "띠오, 노 아비아스 베니도 눈까 아 에스떼 무세오? 예바스 운 아뇨 엔 마드리드!",
+   "ko": "야, 이 미술관 한 번도 안 와 봤다고? 마드리드 산 지 1년이나 됐는데!",
+   "note": "¿no habías venido nunca? = 한 번도 안 와 봤어?(과거완료)",
+   "tags": [
+    "expr:tío",
+    "form:pluscuamperfecto"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "tl_f": "Tía, ¿no habías venido nunca a este museo? ¡Llevas un año en Madrid!",
+   "rd_f": "띠아, 노 아비아스 베니도 눈까 아 에스떼 무세오? 예바스 운 아뇨 엔 마드리드!"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "No. Cuando llegué, ya me habían dicho que siempre hay cola.",
+   "rd": "노. 꾸안도 예게, 야 메 아비안 디초 께 시엠쁘레 아이 꼴라.",
+   "ko": "응. 처음 왔을 때 이미 사람들이 줄이 늘 길다고 하더라고.",
+   "note": "ya me habían dicho = (그 전에) 이미 들었었다",
+   "tags": [
+    "form:pluscuamperfecto"
+   ],
+   "new": [
+    "cola"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Pues desde las seis es gratis. Y yo ya lo había mirado todo antes.",
+   "rd": "뿌에스 데스데 라스 세이스 에스 그라띠스. 이 요 야 로 아비아 미라도 또도 안떼스.",
+   "ko": "근데 6시부터는 공짜야. 나 그것도 미리 다 알아봤지.",
+   "note": "ya lo había mirado = 미리 알아봐 뒀다",
+   "tags": [
+    "expr:pues",
+    "form:pluscuamperfecto"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Claro, tú lo sabes todo. ¿Cuántas veces has venido?",
+   "rd": "끌라로, 뚜 로 사베스 또도. 꾸안따스 베쎄스 아스 베니도?",
+   "ko": "그렇지, 넌 모르는 게 없지. 몇 번이나 와 봤어?",
+   "note": "¿cuántas veces? = 몇 번?",
+   "tags": [
+    "expr:claro"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Muchas. Mira este cuadro. Nadie había pintado la luz así antes.",
+   "rd": "무차스. 미라 에스떼 꾸아드로. 나디에 아비아 삔따도 라 루쓰 아시 안떼스.",
+   "ko": "많이. 이 그림 봐. 그 전엔 아무도 빛을 이렇게 못 그렸어.",
+   "note": "nadie había pintado = 그 전엔 아무도 안 그렸다",
+   "tags": [
+    "expr:mira",
+    "form:pluscuamperfecto"
+   ],
+   "new": [
+    "cuadro"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Qué guay. ¿Y la sala de arriba?",
+   "rd": "께 구아이. 이 라 살라 데 아리바?",
+   "ko": "멋지다. 위층 전시실은?",
+   "note": "sala = 전시실·방",
+   "tags": [
+    "expr:qué guay"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Eh… arriba. Sí. Es… muy bonita.",
+   "rd": "에… 아리바. 시. 에스… 무이 보니따.",
+   "ko": "어… 위층. 응. 거기… 아주 예뻐.",
+   "note": "말 더듬기로 얼버무리기",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Lucía. ¿Has subido alguna vez?",
+   "rd": "루씨아. 아스 수비도 알구나 베쓰?",
+   "ko": "루시아. 올라가 본 적은 있어?",
+   "note": "alguna vez = 한 번이라도",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "¡Claro! Bueno… casi. La última vez el museo ya había cerrado.",
+   "rd": "끌라로! 부에노… 까시. 라 울띠마 베쓰 엘 무세오 야 아비아 쎄라도.",
+   "ko": "당연하지! 음… 거의. 지난번엔 미술관이 벌써 문을 닫았더라고.",
+   "note": "ya había cerrado = (도착했을 땐) 이미 닫았었다",
+   "tags": [
+    "expr:claro",
+    "expr:bueno",
+    "expr:casi",
+    "form:pluscuamperfecto"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "¿Y la vez anterior?",
+   "rd": "이 라 베쓰 안떼리오르?",
+   "ko": "그럼 그 전번엔?",
+   "note": "la vez anterior = 그 전번",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Me había comido un bocadillo enorme y me dormí en ese banco.",
+   "rd": "메 아비아 꼬미도 운 보까디요 에노르메 이 메 도르미 엔 에세 반꼬.",
+   "ko": "엄청 큰 샌드위치를 먹은 뒤라서, 저 벤치에서 잠들었어.",
+   "note": "me había comido(먼저) → me dormí(그다음)",
+   "tags": [
+    "form:pluscuamperfecto"
+   ],
+   "new": [
+    "bocadillo"
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Perdone, señorita… ¿Usted no es la chica del banco?",
+   "rd": "뻬르도네, 세뇨리따… 우스떼드 노 에스 라 치까 델 반꼬?",
+   "ko": "실례지만, 아가씨… 혹시 그 벤치 아가씨 아니세요?",
+   "note": "perdone = 실례합니다(usted)",
+   "tags": [],
+   "new": [],
+   "emotion": "polite"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "¿Yo? Qué va. No sé de qué me habla.",
+   "rd": "요? 께 바. 노 세 데 께 메 아블라.",
+   "ko": "저요? 에이, 아니에요. 무슨 말씀이신지 모르겠네요.",
+   "note": "qué va = 에이 아니야",
+   "tags": [
+    "expr:qué va"
+   ],
+   "new": [],
+   "emotion": "stiff"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "tl": "Tres veces este año. Ya le habíamos guardado una manta.",
+   "rd": "뜨레스 베쎄스 에스떼 아뇨. 야 레 아비아모스 구아르다도 우나 만따.",
+   "ko": "올해만 세 번이에요. 저희가 담요까지 따로 챙겨 뒀었는데요.",
+   "note": "ya le habíamos guardado = 이미 챙겨 뒀었다",
+   "tags": [
+    "form:pluscuamperfecto"
+   ],
+   "new": [
+    "manta"
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "¿Tres siestas en el museo? Qué fuerte, Lucía.",
+   "rd": "뜨레스 시에스따스 엔 엘 무세오? 께 푸에르떼, 루씨아.",
+   "ko": "미술관에서 낮잠을 세 번? 대박이다, 루시아.",
+   "note": "qué fuerte = 대박",
+   "tags": [
+    "expr:qué fuerte"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "tl": "El banco es muy cómodo, ¿vale? Eso también es arte.",
+   "rd": "엘 반꼬 에스 무이 꼬모도, 발레? 에소 땀비엔 에스 아르떼.",
+   "ko": "저 벤치 엄청 편하거든? 그것도 예술이야.",
+   "note": "¿vale? = 알았지?",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "annoyed"
+  }
+ ],
+ "draft": "claude"
+}

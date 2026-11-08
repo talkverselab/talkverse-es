@@ -1,0 +1,144 @@
+{
+ "id": "r0_culture_a1",
+ "region": "R0",
+ "stage": 1,
+ "level_name": "소리·짧은 회화",
+ "island": "culture",
+ "kind": "short",
+ "title": "저녁은 열 시",
+ "emoji": "🕙",
+ "scene": "Lucía 에게 저녁 시간을 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "goal": "시간 a las… · ser 로 시각 · 짧은 반응",
+ "expressions": [
+  "madre mía",
+  "hombre",
+  "tranqui",
+  "genial"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Lucía, ¿a qué hora es la cena?",
+   "rd": "루씨아, 아 께 오라 에스 라 쎄나?",
+   "ko": "루시아, 저녁 몇 시야?",
+   "note": "¿a qué hora? = 몇 시에?",
+   "tags": [
+    "form:ser"
+   ],
+   "new": [
+    "cena"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "¿La cena? A las diez.",
+   "rd": "라 쎄나? 아 라스 디에쓰.",
+   "ko": "저녁? 열 시.",
+   "note": "a las diez = 열 시에",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "¿A las diez? ¡Madre mía!",
+   "rd": "아 라스 디에쓰? 마드레 미아!",
+   "ko": "열 시? 세상에!",
+   "note": "¡Madre mía! = 세상에!",
+   "tags": [
+    "expr:madre mía"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Hombre, es pronto.",
+   "rd": "옴브레, 에스 쁘론또.",
+   "ko": "아이, 이른 편이지.",
+   "note": "pronto = 이른·일찍",
+   "tags": [
+    "expr:hombre",
+    "form:ser"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Pero tengo hambre ahora.",
+   "rd": "뻬로 뗀고 암브레 아오라.",
+   "ko": "근데 나 지금 배고파.",
+   "note": "tengo hambre = 배고파",
+   "tags": [
+    "expr:tengo hambre",
+    "form:tener"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Tranqui. Antes hay merienda.",
+   "rd": "뜨란끼. 안떼스 아이 메리엔다.",
+   "ko": "진정해. 그 전에 간식 시간 있어.",
+   "note": "merienda = 오후 간식",
+   "tags": [
+    "expr:tranqui"
+   ],
+   "new": [
+    "merienda"
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "¡Genial! ¿Y después?",
+   "rd": "헤니알! 이 데스뿌에스?",
+   "ko": "좋아! 그다음엔?",
+   "note": "después = 그다음에",
+   "tags": [
+    "expr:genial"
+   ],
+   "new": [],
+   "emotion": "excited"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Aperitivo. Y después, la cena.",
+   "rd": "아뻬리띠보. 이 데스뿌에스, 라 쎄나.",
+   "ko": "안주 타임. 그다음에 저녁.",
+   "note": "aperitivo = 식전 한 입",
+   "tags": [],
+   "new": [
+    "aperitivo"
+   ],
+   "emotion": "teasing"
+  }
+ ],
+ "draft": "claude"
+}

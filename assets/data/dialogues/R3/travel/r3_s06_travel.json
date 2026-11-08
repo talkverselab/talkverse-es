@@ -1,0 +1,142 @@
+{
+ "id": "r3_s06_travel",
+ "region": "R3",
+ "stage": 6,
+ "source": "r1_s06_travel",
+ "level_name": "그래머2(복수·존댓말)",
+ "island": "travel",
+ "kind": "short",
+ "title": "톨레도행 열차들",
+ "emoji": "🚆",
+ "scene": "6단계 「톨레도행 열차」를 복수로 — A·Diego 와 Lucía·Marta 가 각자 탄 열차에서 통화",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "같은 이야기를 복수(estáis·estamos·nosotras·os)와 전치사로 — 새 단어 0",
+ "expressions": [
+  "pues",
+  "bueno"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¿Dónde estáis? El tren es a las diez.",
+   "rd": "돈데 에스따이스? 엘 뜨렌 에스 아 라스 디에쓰.",
+   "ko": "너희 어디야? 기차 열 시야.",
+   "note": "estáis = 2인칭 복수",
+   "tags": [
+    "form:vosotros",
+    "form:prep_a"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Estamos en el tren, en la ventana.",
+   "rd": "에스따모스 엔 엘 뜨렌, 엔 라 벤따나.",
+   "ko": "우리 기차 안이야, 창가 자리.",
+   "note": "estamos = 1인칭 복수",
+   "tags": [
+    "form:nosotros",
+    "form:prep_en"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "¿En el tren? Nosotras también. ¿Con quién estáis?",
+   "rd": "엔 엘 뜨렌? 노소뜨라스 땀비엔. 꼰 끼엔 에스따이스?",
+   "ko": "기차라고? 우리도. 너희 누구랑 있어?",
+   "note": "nosotras = 우리(여성들)",
+   "tags": [
+    "form:nosotros",
+    "form:prep_con"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Con los perros de unas señoras.",
+   "rd": "꼰 로스 뻬로스 데 우나스 세뇨라스.",
+   "ko": "어떤 아주머니들 개들이랑.",
+   "note": "los perros de unas señoras = 복수 + de",
+   "tags": [
+    "form:plural",
+    "form:prep_de"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "¿Perros? Aquí no hay perros.",
+   "rd": "뻬로스? 아끼 노 아이 뻬로스.",
+   "ko": "개? 여긴 개 없는데.",
+   "note": "perros = 복수(관사 없이)",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Pues nuestro tren va a… ¿Sevilla?",
+   "rd": "뿌에스 누에스뜨로 뜨렌 바 아… 세비야?",
+   "ko": "근데 우리 기차… 세비야 가는데?",
+   "note": "nuestro = 우리의",
+   "tags": [
+    "expr:pues",
+    "form:nosotros"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "¡Tíos! ¡Nuestro tren va a Toledo!",
+   "rd": "띠오스! 누에스뜨로 뜨렌 바 아 똘레도!",
+   "ko": "얘들아! 우리 기차는 톨레도 가거든!",
+   "note": "tíos = 얘들아(복수, 섞인 무리도 남성형)",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "shout"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Bueno… os llamamos desde Sevilla.",
+   "rd": "부에노… 오스 야마모스 데스데 세비야.",
+   "ko": "뭐… 세비야에서 전화할게.",
+   "note": "os = 너희에게 · llamamos = 1인칭 복수",
+   "tags": [
+    "expr:bueno",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

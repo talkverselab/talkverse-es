@@ -25,7 +25,6 @@
  "goal": "채팅에서 재촉하기·변명 받아치기",
  "expressions": [
   "te lo juro",
-  "de verdad",
   "vale",
   "ya"
  ],
@@ -66,13 +65,11 @@
   {
    "num": 3,
    "speaker": "A",
-   "tl": "¿Cinco minutos de verdad?",
-   "rd": "씬꼬 미누또스 데 베르다드?",
-   "ko": "진짜 오 분 맞아?",
-   "note": "de verdad = 정말로",
-   "tags": [
-    "expr:de verdad"
-   ],
+   "tl": "¿Cinco minutos, eh?",
+   "rd": "씬꼬 미누또스, 에?",
+   "ko": "오 분이라며?",
+   "note": "…, eh? = ~라며?(확인·의심)",
+   "tags": [],
    "new": [],
    "emotion": "tsukkomi",
    "ui": "bubble",
@@ -82,16 +79,16 @@
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Vale, vale. Ya estoy de camino.",
-   "rd": "발레, 발레. 야 에스또이 데 까미노.",
-   "ko": "알았어, 알았어. 지금 가는 중이야.",
-   "note": "de camino = 가는 중",
+   "tl": "Vale, vale. Ya estoy en el metro.",
+   "rd": "발레, 발레. 야 에스또이 엔 엘 메뜨로.",
+   "ko": "알았어, 알았어. 지금 지하철이야.",
+   "note": "ya estoy = 이미 ~에 있어",
    "tags": [
     "expr:vale",
     "expr:ya"
    ],
    "new": [
-    "camino"
+    "metro"
    ],
    "emotion": "flustered",
    "ui": "bubble",
@@ -100,10 +97,10 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "¿Metro? Tu historia dice: sofá, peli y pizza.",
-   "rd": "메뜨로? 뚜 이스또리아 디쎄: 소파, 뻴리 이 삐쓰싸.",
-   "ko": "지하철? 네 스토리엔 소파, 영화, 피자던데.",
-   "note": "historia = SNS 스토리",
+   "tl": "¿Metro? En tu historia hay sofá, peli y pizza.",
+   "rd": "메뜨로? 엔 뚜 이스또리아 아이 소파, 뻴리 이 삐짜.",
+   "ko": "지하철? 네 스토리엔 소파에 영화에 피자던데.",
+   "note": "historia = SNS 스토리 · hay = ~이 있다",
    "tags": [],
    "new": [
     "historia",
@@ -133,14 +130,12 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "La pizza tiene la fecha de hoy.",
-   "rd": "라 삐쓰싸 띠에네 라 페차 데 오이.",
-   "ko": "피자에 오늘 날짜가 찍혀 있는데.",
-   "note": "la fecha de hoy = 오늘 날짜",
+   "tl": "La historia es de hace diez minutos.",
+   "rd": "라 이스또리아 에스 데 아쎄 디에쓰 미누또스.",
+   "ko": "그 스토리 10분 전에 올린 거거든.",
+   "note": "de hace diez minutos = 10분 전의",
    "tags": [],
-   "new": [
-    "fecha"
-   ],
+   "new": [],
    "emotion": "amused",
    "ui": "bubble",
    "at": "20:35",

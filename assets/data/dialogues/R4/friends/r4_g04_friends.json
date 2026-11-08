@@ -1,0 +1,253 @@
+{
+ "id": "r4_g04_friends",
+ "region": "R4",
+ "stage": 4,
+ "level_name": "어려운 문법",
+ "island": "friends",
+ "kind": "long",
+ "title": "추로스 도둑",
+ "emoji": "🐕",
+ "scene": "또 40분 늦은 Javi 가 말도 안 되는 변명을 늘어놓는다 — 문법 4 「단순과거(사건) ↔ 불완료(배경)」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Javi",
+  "C": "Camarera"
+ },
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "goal": "salía… y vi / llevaba… me la quitó / corrí… hacía calor(배경 = 불완료, 사건 = 단순과거)",
+ "expressions": [
+  "tío",
+  "vale",
+  "ya",
+  "bueno",
+  "no me digas",
+  "te lo dije"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "¡Javi! Cuarenta minutos, tío. ¿Qué te pasó esta vez?",
+   "rd": "하비! 꾸아렌따 미누또스, 띠오. 께 떼 빠소 에스따 베쓰?",
+   "ko": "하비! 40분이야, 야. 이번엔 또 뭔데?",
+   "note": "tío = 야(남자 친구에게)",
+   "tags": [
+    "expr:tío"
+   ],
+   "new": [],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Vale, vale. Escucha. Yo salía de casa y vi a una señora con un perro enorme.",
+   "rd": "발레, 발레. 에스꾸차. 요 살리아 데 까사 이 비 아 우나 세뇨라 꼰 운 뻬로 에노르메.",
+   "ko": "알았어, 알았어. 들어 봐. 내가 집에서 나오는데 어떤 아주머니가 엄청 큰 개를 데리고 있는 걸 봤어.",
+   "note": "salía(배경) + vi(사건)",
+   "tags": [
+    "expr:vale",
+    "form:imperfecto",
+    "form:indefinido"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Ya empezamos. ¿Y?",
+   "rd": "야 엠뻬싸모스. 이?",
+   "ko": "또 시작이네. 그래서?",
+   "note": "ya empezamos = 또 시작이네",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Yo llevaba una bolsa de churros. Y el perro, ¡zas!, me la quitó.",
+   "rd": "요 예바바 우나 볼사 데 추로스. 이 엘 뻬로, 싸스!, 메 라 끼또.",
+   "ko": "내가 추로스 봉지를 들고 있었거든. 근데 그 개가 휙! 낚아챘어.",
+   "note": "llevaba(배경) + quitó(사건) · zas = 휙",
+   "tags": [
+    "form:imperfecto",
+    "form:indefinido"
+   ],
+   "new": [
+    "churro",
+    "zas"
+   ],
+   "segs": [
+    [
+     "sad",
+     "Yo llevaba una bolsa de churros."
+    ],
+    [
+     "shout",
+     "Y el perro, ¡zas!, me la quitó."
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "¿Y tú qué hacías? ¿Mirar el móvil?",
+   "rd": "이 뚜 께 아씨아스? 미라르 엘 모빌?",
+   "ko": "넌 뭐 하고 있었는데? 폰 보고 있었지?",
+   "note": "¿qué hacías? = 뭐 하고 있었어?(배경)",
+   "tags": [
+    "form:imperfecto"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "…Un poco. Pero luego corrí detrás del perro tres calles. ¡Tres!",
+   "rd": "…운 뽀꼬. 뻬로 루에고 꼬리 데뜨라스 델 뻬로 뜨레스 까예스. 뜨레스!",
+   "ko": "…조금. 근데 그다음에 개 쫓아서 세 블록이나 뛰었어. 세 블록!",
+   "note": "corrí = 뛰었다(사건)",
+   "tags": [
+    "form:indefinido"
+   ],
+   "new": [],
+   "emotion": "excited"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Ya. ¿Y por eso llegas tarde?",
+   "rd": "야. 이 뽀르 에소 예가스 따르데?",
+   "ko": "그러셔. 그래서 늦었다고?",
+   "note": "por eso = 그래서",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Claro. Hacía un calor horrible y yo iba con el abrigo.",
+   "rd": "끌라로. 아씨아 운 깔로르 오리블레 이 요 이바 꼰 엘 아브리고.",
+   "ko": "당연하지. 날은 엄청 덥고 난 외투까지 입고 있었다니까.",
+   "note": "hacía calor = 더웠다(배경 날씨는 불완료)",
+   "tags": [
+    "expr:claro",
+    "form:imperfecto"
+   ],
+   "new": [
+    "abrigo"
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Javi, estamos en enero. Esta mañana hacía dos grados.",
+   "rd": "하비, 에스따모스 엔 에네로. 에스따 마냐나 아씨아 도스 그라도스.",
+   "ko": "하비, 지금 1월이야. 오늘 아침 2도였어.",
+   "note": "hacía dos grados = 2도였다",
+   "tags": [
+    "form:imperfecto"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "…Bueno, yo tenía calor. Por correr.",
+   "rd": "…부에노, 요 떼니아 깔로르. 뽀르 꼬레르.",
+   "ko": "…뭐, 난 더웠다고. 뛰어서.",
+   "note": "tener calor = (사람이) 덥다",
+   "tags": [
+    "expr:bueno"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Vale. ¿Y recuperaste los churros o no?",
+   "rd": "발레. 이 레꾸뻬라스떼 로스 추로스 오 노?",
+   "ko": "알았어. 그래서 추로스는 찾았어, 못 찾았어?",
+   "note": "recuperar = 되찾다",
+   "tags": [
+    "expr:vale",
+    "form:indefinido"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "No. Pero la señora era muy simpática. Llevaba un abrigo rojo y…",
+   "rd": "노. 뻬로 라 세뇨라 에라 무이 심빠띠까. 예바바 운 아브리고 로호 이…",
+   "ko": "아니. 근데 그 아주머니 엄청 친절했어. 빨간 외투를 입고 있었는데…",
+   "note": "era·llevaba = 묘사는 불완료",
+   "tags": [
+    "form:imperfecto"
+   ],
+   "new": [],
+   "emotion": "shy"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "…Y un perro que se llama Rufo. La señora era yo. Toma, tus churros.",
+   "rd": "…이 운 뻬로 께 세 야마 루포. 라 세뇨라 에라 요. 또마, 뚜스 추로스.",
+   "ko": "…그리고 루포라는 개도 있었죠. 그 아주머니가 저예요. 자, 추로스 여기요.",
+   "note": "la señora era yo = 그 아주머니가 저예요",
+   "tags": [
+    "form:imperfecto"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "¿Era verdad? ¡No me digas!",
+   "rd": "에라 베르다드? 노 메 디가스!",
+   "ko": "진짜였어? 말도 안 돼!",
+   "note": "no me digas = 설마·진짜?",
+   "tags": [
+    "expr:no me digas"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Te lo dije. Yo nunca miento. Solo llego tarde.",
+   "rd": "떼 로 디헤. 요 눈까 미엔또. 솔로 예고 따르데.",
+   "ko": "내가 말했잖아. 난 거짓말 안 해. 늦을 뿐이지.",
+   "note": "te lo dije = 내가 말했잖아",
+   "tags": [
+    "expr:te lo dije"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  }
+ ],
+ "draft": "claude"
+}

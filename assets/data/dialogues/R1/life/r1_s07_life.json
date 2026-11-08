@@ -1,0 +1,166 @@
+{
+ "id": "r1_s07_life",
+ "region": "R1",
+ "stage": 7,
+ "level_name": "관사·성수·활용 골격",
+ "island": "life",
+ "kind": "short",
+ "title": "분홍색 하루",
+ "emoji": "🧺",
+ "scene": "셰어하우스, 집에 오니 룸메이트 Diego 가 오늘 한 일을 자랑한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Diego"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "현재완료 he/has/ha + 과거분사로 「오늘 한 일」 — he limpiado / has visto / has hecho",
+ "expressions": [
+  "qué bien",
+  "bueno",
+  "madre mía",
+  "pues"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¡Hola! He limpiado el piso. ¿Has visto?",
+   "rd": "올라! 에 림삐아도 엘 삐소. 아스 비스또?",
+   "ko": "왔어! 나 집 청소했다. 봤어?",
+   "note": "he limpiado = (오늘) 청소했다 · piso = 집(아파트)",
+   "tags": [
+    "form:perfecto"
+   ],
+   "new": [
+    "limpiar",
+    "piso"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¡Qué bien! ¿Has hecho la cena también?",
+   "rd": "께 비엔! 아스 에초 라 쎄나 땀비엔?",
+   "ko": "대박! 저녁도 했어?",
+   "note": "has hecho = hacer 의 완료(불규칙 hecho)",
+   "tags": [
+    "expr:qué bien",
+    "form:perfecto"
+   ],
+   "new": [
+    "cena"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "No, pero he lavado tu ropa.",
+   "rd": "노, 뻬로 에 라바도 뚜 로빠.",
+   "ko": "아니, 근데 네 빨래 했어.",
+   "note": "he lavado = 빨았다",
+   "tags": [
+    "form:perfecto"
+   ],
+   "new": [
+    "lavar",
+    "ropa"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Mi ropa? ¿Toda?",
+   "rd": "미 로빠? 또다?",
+   "ko": "내 옷을? 전부?",
+   "note": "toda = ropa(여성)에 맞춘 todo",
+   "tags": [
+    "form:concordancia"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Sí. Y también he lavado mi camiseta roja.",
+   "rd": "시. 이 땀비엔 에 라바도 미 까미세따 로하.",
+   "ko": "응. 그리고 내 빨간 티도 같이 빨았어.",
+   "note": "camiseta roja = 여성 일치",
+   "tags": [
+    "form:perfecto"
+   ],
+   "new": [
+    "camiseta"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Con mi ropa blanca?",
+   "rd": "꼰 미 로빠 블란까?",
+   "ko": "내 흰 옷이랑 같이?",
+   "note": "blanca = ropa 에 맞춘 여성형",
+   "tags": [
+    "form:concordancia"
+   ],
+   "new": [
+    "blanco"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Bueno… ahora tienes mucha ropa rosa.",
+   "rd": "부에노… 아오라 띠에네스 무차 로빠 로사.",
+   "ko": "뭐… 이제 너 분홍 옷 엄청 많아.",
+   "note": "rosa = 분홍(형용사인데 형태가 안 바뀐다)",
+   "tags": [
+    "expr:bueno"
+   ],
+   "new": [
+    "rosa"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Madre mía. Pues… el rosa me queda bien.",
+   "rd": "마드레 미아. 뿌에스… 엘 로사 메 께다 비엔.",
+   "ko": "세상에. 뭐… 분홍 나한테 잘 어울려.",
+   "note": "me queda bien = 나한테 잘 어울린다",
+   "tags": [
+    "expr:madre mía",
+    "expr:pues"
+   ],
+   "new": [
+    "quedar"
+   ],
+   "segs": [
+    [
+     "shout",
+     "Madre mía."
+    ],
+    [
+     "amused",
+     "Pues… el rosa me queda bien."
+    ]
+   ]
+  }
+ ],
+ "draft": "claude"
+}

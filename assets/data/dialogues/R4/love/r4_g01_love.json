@@ -69,7 +69,7 @@
    "speaker": "B",
    "tl": "Porque el sábado lo presento y quiero que vengas.",
    "rd": "뽀르께 엘 사바도 로 쁘레센또 이 끼에로 께 벤가스.",
-   "ko": "토요일에 내가 이 책을 소개하는데, 네가 와 줬으면 해서.",
+   "ko": "토요일에 이 책 소개하는 자리가 있는데, 너도 왔으면 해서.",
    "note": "quiero que vengas = 네가 와 줬으면 · presentar = 소개하다",
    "tags": [
     "form:subjuntivo"
@@ -93,14 +93,16 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "De una chica nueva. No creo que la conozcas.",
-   "rd": "데 우나 치까 누에바. 노 끄레오 께 라 꼬노쓰까스.",
-   "ko": "신인이야. 넌 모를 거야.",
+   "tl": "De una autora nueva. No creo que la conozcas.",
+   "rd": "데 우나 아우또라 누에바. 노 끄레오 께 라 꼬노쓰까스.",
+   "ko": "신인 작가야. 넌 모를 거야.",
    "note": "no creo que + 접속법(conozcas)",
    "tags": [
     "form:subjuntivo"
    ],
-   "new": [],
+   "new": [
+    "autor"
+   ],
    "emotion": "flustered"
   },
   {
@@ -147,8 +149,8 @@
    "num": 9,
    "speaker": "B",
    "tl": "De una chica que trabaja con libros y se enamora de un cliente.",
-   "rd": "데 우나 치까 께 뜨라바하 꼰 리브로스 이 세 에나모라 데 운 끄리엔떼.",
-   "ko": "책 일을 하는 여자가 손님한테 반하는 얘기야.",
+   "rd": "데 우나 치까 께 뜨라바하 꼰 리브로스 이 세 에나모라 데 운 끌리엔떼.",
+   "ko": "책 다루는 일을 하는 여자가 손님한테 반하는 이야기야.",
    "note": "enamorarse de = ~에게 반하다",
    "tags": [
     "form:reflexivo"
@@ -159,13 +161,13 @@
    ],
    "emotion": "shy",
    "tl_f": "De una chica que trabaja con libros y se enamora de una clienta.",
-   "rd_f": "데 우나 치까 께 뜨라바하 꼰 리브로스 이 세 에나모라 데 우나 끄리엔따."
+   "rd_f": "데 우나 치까 께 뜨라바하 꼰 리브로스 이 세 에나모라 데 우나 끌리엔따."
   },
   {
    "num": 10,
    "speaker": "A",
    "tl": "Vaya. Espero que el cliente sea guapo, por lo menos.",
-   "rd": "바야. 에스뻬로 께 엘 끄리엔떼 세아 구아뽀, 뽀르 로 메노스.",
+   "rd": "바야. 에스뻬로 께 엘 끌리엔떼 세아 구아뽀, 뽀르 로 메노스.",
    "ko": "오. 그 손님 잘생겼으면 좋겠다, 적어도.",
    "note": "espero que + 접속법(sea)",
    "tags": [
@@ -178,14 +180,14 @@
    "emotion": "teasing",
    "tl_f": "Vaya. Espero que la clienta sea guapa, por lo menos.",
    "ko_f": "오. 그 손님 예뻤으면 좋겠다, 적어도.",
-   "rd_f": "바야. 에스뻬로 께 라 끄리엔따 세아 구아빠, 뽀르 로 메노스."
+   "rd_f": "바야. 에스뻬로 께 라 끌리엔따 세아 구아빠, 뽀르 로 메노스."
   },
   {
    "num": 11,
    "speaker": "B",
    "tl": "Bastante. Aunque no sabe pronunciar «te quiero».",
    "rd": "바스딴떼. 아운께 노 사베 쁘로눈씨아르 «떼 끼에로».",
-   "ko": "꽤. 근데 「te quiero」 발음을 못 해.",
+   "ko": "꽤 잘생겼어. 근데 「te quiero」 발음이 엉망이야.",
    "note": "aunque = 그런데도·~지만",
    "tags": [
     "callback:r1_love_a1"
@@ -193,7 +195,8 @@
    "new": [
     "pronunciar"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "ko_f": "꽤 예뻐. 근데 「te quiero」 발음이 엉망이야."
   },
   {
    "num": 12,
@@ -242,17 +245,15 @@
   {
    "num": 15,
    "speaker": "B",
-   "tl": "Léelo. Me da vergüenza que lo oigas de mí.",
-   "rd": "레엘로. 메 다 베르그우엔싸 께 로 오이가스 데 미.",
-   "ko": "읽어 봐. 내 입으로 듣는 건 부끄러우니까.",
-   "note": "me da vergüenza que + 접속법",
+   "tl": "Léelo. Me da vergüenza que me lo preguntes.",
+   "rd": "레엘로. 메 다 베르구엔싸 께 메 로 쁘레군떼스.",
+   "ko": "읽어 봐. 그걸 나한테 물어보면 부끄럽잖아.",
+   "note": "me da vergüenza que + 접속법(preguntes)",
    "tags": [
     "expr:me da vergüenza",
     "form:subjuntivo"
    ],
-   "new": [
-    "oír"
-   ],
+   "new": [],
    "emotion": "shy"
   }
  ],

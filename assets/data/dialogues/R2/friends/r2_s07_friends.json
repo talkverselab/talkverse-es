@@ -1,0 +1,166 @@
+{
+ "id": "r2_s07_friends",
+ "region": "R2",
+ "stage": 7,
+ "level_name": "챗 실전",
+ "island": "friends",
+ "kind": "chat",
+ "title": "공짜 추로스",
+ "emoji": "🥨",
+ "scene": "Javi 에게 던진 농담이 동네를 뒤집는 채팅 — 상황 7 「농담」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Javi"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "채팅에서 농담하기·「농담이야」 말하기",
+ "expressions": [
+  "en serio",
+  "tío",
+  "cómo que",
+  "espera"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Javi, churros gratis en la plaza. ¡Corre!",
+   "rd": "하비, 추로스 그라띠스 엔 라 쁠라싸. 꼬레!",
+   "ko": "하비, 광장에서 추로스 공짜래. 뛰어!",
+   "note": "¡corre! = 뛰어!(명령)",
+   "tags": [
+    "form:imperativo"
+   ],
+   "new": [
+    "churro",
+    "gratis"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "10:00"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "¿En serio? ¿Dónde? ¡Voy ya!",
+   "rd": "엔 세리오? 돈데? 보이 야!",
+   "ko": "진짜? 어디? 지금 간다!",
+   "note": "en serio = 진짜로",
+   "tags": [
+    "expr:en serio"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "10:00",
+   "stamp": "🏃"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Jajaja, es broma, tío.",
+   "rd": "하하하, 에스 브로마, 띠오.",
+   "ko": "ㅋㅋㅋ 농담이야.",
+   "note": "es broma = 농담이야",
+   "tags": [
+    "expr:tío"
+   ],
+   "new": [
+    "broma"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "10:02"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Demasiado tarde. Ya lo sabe mi equipo.",
+   "rd": "데마시아도 따르데. 야 로 사베 미 에끼뽀.",
+   "ko": "너무 늦었어. 우리 팀이 벌써 알아.",
+   "note": "demasiado tarde = 너무 늦었어",
+   "tags": [],
+   "new": [
+    "equipo"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "10:20"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "¿Cómo que lo sabe tu equipo?",
+   "rd": "꼬모 께 로 사베 뚜 에끼뽀?",
+   "ko": "팀이 안다니 무슨 소리야?",
+   "note": "cómo que ~ = ~라니?",
+   "tags": [
+    "expr:cómo que"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "10:21"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Hay mil tíos en la plaza. Y el churrero, feliz.",
+   "rd": "아이 밀 띠오스 엔 라 쁠라싸. 이 엘 추레로, 펠리쓰.",
+   "ko": "광장에 천 명. 추로스 아저씨는 신났어.",
+   "note": "churrero = 추로스 장수",
+   "tags": [],
+   "new": [
+    "churrero"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "10:40",
+   "stamp": "🎉"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Espera… ¿me guardas uno?",
+   "rd": "에스뻬라… 메 구아르다스 우노?",
+   "ko": "잠깐… 나 하나 남겨 줄래?",
+   "note": "espera = 잠깐",
+   "tags": [
+    "expr:espera",
+    "callback:r2_s04_friends"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "10:41"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Jajaja. Es broma, tío.",
+   "rd": "하하하. 에스 브로마, 띠오.",
+   "ko": "ㅋㅋㅋ 농담이야.",
+   "note": "es broma = 농담이야",
+   "tags": [
+    "expr:tío",
+    "callback:r2_s07_friends"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "tl_f": "Jajaja. Es broma, tía.",
+   "ui": "bubble",
+   "at": "10:41",
+   "rd_f": "하하하. 에스 브로마, 띠아."
+  }
+ ],
+ "draft": "claude"
+}

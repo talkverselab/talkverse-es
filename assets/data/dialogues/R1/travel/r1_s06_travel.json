@@ -1,0 +1,148 @@
+{
+ "id": "r1_s06_travel",
+ "region": "R1",
+ "stage": 6,
+ "level_name": "관사·성수·활용 골격",
+ "island": "travel",
+ "kind": "short",
+ "title": "톨레도행 열차",
+ "emoji": "🚆",
+ "scene": "주말 당일치기, 역에서 각자 열차에 탄 A 와 Lucía 의 통화",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "전치사 a(시각·방향)·de(소속)·en(장소)·con(동반) + desde",
+ "expressions": [
+  "pues",
+  "tío",
+  "bueno"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¿Dónde estás? El tren es a las diez.",
+   "rd": "돈데 에스따스? 엘 뜨렌 에스 아 라스 디에쓰.",
+   "ko": "어디야? 기차 열 시야.",
+   "note": "a las diez = 열 시에(시각은 a)",
+   "tags": [
+    "form:prep_a"
+   ],
+   "new": [
+    "tren"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Estoy en el tren, en la ventana.",
+   "rd": "에스또이 엔 엘 뜨렌, 엔 라 벤따나.",
+   "ko": "기차 안이야, 창가 자리.",
+   "note": "en = ~에·안에(장소)",
+   "tags": [
+    "form:prep_en"
+   ],
+   "new": [
+    "ventana"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "¿En el tren? Yo también. ¿Con quién estás?",
+   "rd": "엔 엘 뜨렌? 요 땀비엔. 꼰 끼엔 에스따스?",
+   "ko": "기차라고? 나도. 누구랑 있어?",
+   "note": "con = ~와 함께",
+   "tags": [
+    "form:prep_con"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Con el perro de una señora.",
+   "rd": "꼰 엘 뻬로 데 우나 세뇨라.",
+   "ko": "어떤 아주머니 개랑.",
+   "note": "el perro de una señora = 아주머니의 개(소속은 de)",
+   "tags": [
+    "form:prep_de"
+   ],
+   "new": [
+    "perro",
+    "señora"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "¿Un perro? Aquí no hay perros.",
+   "rd": "운 뻬로? 아끼 노 아이 뻬로스.",
+   "ko": "개? 여긴 개 없는데.",
+   "note": "aquí no hay = 여긴 없다",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Pues este tren va a… ¿Sevilla?",
+   "rd": "뿌에스 에스떼 뜨렌 바 아… 세비야?",
+   "ko": "근데 이 기차… 세비야 가는데?",
+   "note": "va a + 장소 = ~로 간다(방향은 a)",
+   "tags": [
+    "expr:pues",
+    "form:prep_a"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "¡Tío! ¡Mi tren va a Toledo!",
+   "rd": "띠오! 미 뜨렌 바 아 똘레도!",
+   "ko": "야! 내 기차는 톨레도 가거든!",
+   "note": "Toledo = 마드리드 남쪽 도시",
+   "tags": [
+    "expr:tío"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "tl_f": "¡Tía! ¡Mi tren va a Toledo!",
+   "rd_f": "띠아! 미 뜨렌 바 아 똘레도!"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Bueno… te llamo desde Sevilla.",
+   "rd": "부에노… 떼 야모 데스데 세비야.",
+   "ko": "뭐… 세비야에서 전화할게.",
+   "note": "desde = ~에서(출발점)",
+   "tags": [
+    "expr:bueno"
+   ],
+   "new": [
+    "desde"
+   ],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

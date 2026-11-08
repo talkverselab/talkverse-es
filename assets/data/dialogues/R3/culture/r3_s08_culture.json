@@ -1,0 +1,156 @@
+{
+ "id": "r3_s08_culture",
+ "region": "R3",
+ "stage": 8,
+ "source": "r1_s08_culture",
+ "level_name": "그래머2(복수·존댓말)",
+ "island": "culture",
+ "kind": "short",
+ "title": "동네 챔피언들",
+ "emoji": "💃",
+ "scene": "8단계 「동네 챔피언」을 복수로 — Lucía 가 A 와 Diego 를 동네 축제에 부른다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "goal": "같은 이야기를 복수 ir a + 원형(vamos a·vais a·van a)으로 — 새 단어 0",
+ "expressions": [
+  "qué mono",
+  "tía",
+  "vale"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoy vamos a ir a la verbena. ¿Venís?",
+   "rd": "오이 바모스 아 이르 아 라 베르베나. 베니스?",
+   "ko": "오늘 밤에 우리 동네 축제 갈 거야. 너희도 올래?",
+   "note": "vamos a ir = 갈 거야(우리) · venís = 2인칭 복수",
+   "tags": [
+    "form:ir_a",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¿Qué es? ¿Vais a bailar?",
+   "rd": "께 에스? 바이스 아 바일라르?",
+   "ko": "그게 뭔데? 춤출 거야?",
+   "note": "vais a bailar = 2인칭 복수",
+   "tags": [
+    "form:ir_a",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Claro. Vamos a bailar con mis abuelos.",
+   "rd": "끌라로. 바모스 아 바일라르 꼰 미스 아부엘로스.",
+   "ko": "당연하지. 우리 할아버지 할머니랑 출 거야.",
+   "note": "mis abuelos = 조부모(남성 복수 = 둘 다)",
+   "tags": [
+    "expr:claro",
+    "form:ir_a",
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Con tus abuelos? ¡Qué monos!",
+   "rd": "꼰 뚜스 아부엘로스? 께 모노스!",
+   "ko": "할아버지 할머니랑? 귀엽다!",
+   "note": "monos = 복수 일치",
+   "tags": [
+    "expr:qué mono",
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Y vosotros vais a bailar con mis abuelas.",
+   "rd": "이 보소뜨로스 바이스 아 바일라르 꼰 미스 아부엘라스.",
+   "ko": "그리고 너희는 우리 할머니들이랑 출 거야.",
+   "note": "vosotros vais a = 너희는 ~할 거야",
+   "tags": [
+    "form:ir_a",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Nosotros? No sabemos bailar, tía.",
+   "rd": "노소뜨로스? 노 사베모스 바일라르, 띠아.",
+   "ko": "우리가? 우리 춤 못 춰.",
+   "note": "no sabemos + 원형 = ~할 줄 몰라(우리)",
+   "tags": [
+    "expr:tía",
+    "form:nosotros"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Tranquilos. Mis abuelas son las campeonas del barrio.",
+   "rd": "뜨란낄로스. 미스 아부엘라스 손 라스 깜뻬오나스 델 바리오.",
+   "ko": "걱정 마. 우리 할머니들 동네 챔피언이야.",
+   "note": "tranquilos = 복수 · son las campeonas = 여성 복수",
+   "tags": [
+    "form:plural"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Tranquilos."
+    ],
+    [
+     "teasing",
+     "Mis abuelas son las campeonas del barrio."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Vale. Vamos a hacer el ridículo.",
+   "rd": "발레. 바모스 아 아쎄르 엘 리디꿀로.",
+   "ko": "알았어. 우리 망신당하겠다.",
+   "note": "vamos a hacer = 우리가 ~할 거야",
+   "tags": [
+    "expr:vale",
+    "form:ir_a"
+   ],
+   "new": [],
+   "emotion": "sad"
+  }
+ ],
+ "draft": "claude"
+}

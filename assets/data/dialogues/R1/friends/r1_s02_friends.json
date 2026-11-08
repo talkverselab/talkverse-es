@@ -1,0 +1,167 @@
+{
+ "id": "r1_s02_friends",
+ "region": "R1",
+ "stage": 2,
+ "level_name": "관사·성수·활용 골격",
+ "island": "friends",
+ "kind": "short",
+ "title": "아픈 사람 어디 있게",
+ "emoji": "🥨",
+ "scene": "월요일 아침, 학원 앞에서 Lucía 를 만나 Javi 소식을 듣는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "ser(성질·요일·출처) ↔ estar(상태·위치) 구별 — es lunes / está enfermo / está en casa",
+ "expressions": [
+  "qué tal",
+  "fatal",
+  "tío",
+  "qué pena",
+  "mira"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "¡Hola, Lucía! ¿Qué tal? ¿Estás cansada?",
+   "rd": "올라, 루씨아! 께 딸? 에스따스 깐사다?",
+   "ko": "안녕, 루시아! 잘 지내? 피곤해?",
+   "note": "estás cansada = 지금 상태 → estar",
+   "tags": [
+    "expr:qué tal",
+    "form:estar"
+   ],
+   "new": [
+    "cansado"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Estoy fatal, tío. Es lunes.",
+   "rd": "에스또이 파딸, 띠오. 에스 루네스.",
+   "ko": "완전 최악이야. 월요일이잖아.",
+   "note": "es lunes = 요일은 ser · estoy fatal = 상태는 estar",
+   "tags": [
+    "expr:fatal",
+    "expr:tío",
+    "form:ser",
+    "form:estar"
+   ],
+   "new": [
+    "lunes"
+   ],
+   "emotion": "sad",
+   "tl_f": "Estoy fatal, tía. Es lunes.",
+   "rd_f": "에스또이 파딸, 띠아. 에스 루네스."
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "¿Y Javi? ¿Dónde está?",
+   "rd": "이 하비? 돈데 에스따?",
+   "ko": "하비는? 어디 있어?",
+   "note": "¿dónde está? = 위치는 estar",
+   "tags": [
+    "form:estar"
+   ],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Está en casa. Está enfermo, dice.",
+   "rd": "에스따 엔 까사. 에스따 엔페르모, 디쎄.",
+   "ko": "집에 있대. 아프다나 봐.",
+   "note": "está enfermo = 지금 아픈 상태",
+   "tags": [
+    "form:estar"
+   ],
+   "new": [
+    "enfermo"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Qué pena. Javi es muy fuerte, ¿no?",
+   "rd": "께 뻬나. 하비 에스 무이 푸에르떼, 노?",
+   "ko": "안됐다. 하비 원래 엄청 튼튼하잖아?",
+   "note": "es fuerte = 원래 성질 → ser",
+   "tags": [
+    "expr:qué pena",
+    "form:ser"
+   ],
+   "new": [],
+   "emotion": "worried"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Sí… Mira esta foto. Es de hoy.",
+   "rd": "시… 미라 에스따 포또. 에스 데 오이.",
+   "ko": "응… 이 사진 봐. 오늘 거야.",
+   "note": "es de hoy = 「오늘 것」(출처) → ser",
+   "tags": [
+    "expr:mira",
+    "form:ser"
+   ],
+   "new": [
+    "foto"
+   ],
+   "segs": [
+    [
+     "neutral",
+     "Sí…"
+    ],
+    [
+     "teasing",
+     "Mira esta foto. Es de hoy."
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "¡Está en la churrería! ¿Enfermo?",
+   "rd": "에스따 엔 라 추레리아! 엔페르모?",
+   "ko": "추로스 가게에 있잖아! 아프다며?",
+   "note": "churrería = 추로스 가게 · está en = 위치",
+   "tags": [
+    "form:estar"
+   ],
+   "new": [
+    "churrería"
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Sí, enfermo… de hambre.",
+   "rd": "시, 엔페르모… 데 암브레.",
+   "ko": "응, 아프대… 배고파서.",
+   "note": "de hambre = 배가 고파서",
+   "tags": [],
+   "new": [
+    "hambre"
+   ],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

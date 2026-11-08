@@ -1,0 +1,257 @@
+{
+ "id": "r4_g09_love",
+ "region": "R4",
+ "stage": 9,
+ "level_name": "어려운 문법",
+ "island": "love",
+ "kind": "chat",
+ "title": "por 너, para 너",
+ "emoji": "💬",
+ "scene": "데이팅 앱. 매칭된 상대가 먼저 메시지를 보낸다 — 문법 9 「por ↔ para」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nerea"
+ },
+ "register": "chat",
+ "twist": 12,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "gracias por·por un café·por eso·por ti(이유·대가) ↔ para trabajar·para el viernes·para ti(목적·기한·받는 사람)",
+ "expressions": [
+  "por cierto",
+  "me encanta",
+  "vale",
+  "ni se te ocurra",
+  "perdona",
+  "ya"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hola 😊 Tu foto con el perro me ha matado. ¿Es tuyo?",
+   "rd": "올라 😊 뚜 포또 꼰 엘 뻬로 메 아 마따도. 에스 뚜요?",
+   "ko": "안녕 😊 강아지랑 찍은 사진 보고 쓰러졌어. 네 강아지야?",
+   "note": "me ha matado = 완전 반했어(과장)",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "21:40"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Jajaja gracias para el mensaje. No, es de mi vecina.",
+   "rd": "하하하 그라씨아스 빠라 엘 멘사헤. 노, 에스 데 미 베씨나.",
+   "ko": "ㅋㅋㅋ 메시지 고마워. 아니, 이웃집 강아지야.",
+   "note": "틀린 말: gracias para → gracias por 가 맞다",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "21:42"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "«Gracias por», guapo 😏 Por cierto, ¿estudias español?",
+   "rd": "«그라씨아스 뽀르», 구아뽀 😏 뽀르 씨에르또, 에스뚜디아스 에스빠뇰?",
+   "ko": "「gracias por」야, 잘생긴 분 😏 그나저나, 스페인어 공부해?",
+   "note": "gracias por = ~해 줘서 고마워(이유는 por)",
+   "tags": [
+    "expr:por cierto"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "21:43",
+   "tl_f": "«Gracias por», guapa 😏 Por cierto, ¿estudias español?",
+   "ko_f": "「gracias por」야, 예쁜 분 😏 그나저나, 스페인어 공부해?",
+   "rd_f": "«그라씨아스 뽀르», 구아빠 😏 뽀르 씨에르또, 에스뚜디아스 에스빠뇰?"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Sí, para trabajar aquí. Llevo seis meses. Por eso cometo errores 😅",
+   "rd": "시, 빠라 뜨라바하르 아끼. 예보 세이스 메세스. 뽀르 에소 꼬메또 에로레스 😅",
+   "ko": "응, 여기서 일하려고. 6개월 됐어. 그래서 자꾸 틀려 😅",
+   "note": "para trabajar = 일하려고(목적) · por eso = 그래서(이유)",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "21:45"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Me encanta. Puedo ser tu profe… por un café.",
+   "rd": "메 엔깐따. 뿌에도 세르 뚜 쁘로페… 뽀르 운 까페.",
+   "ko": "좋은데. 내가 선생님 해 줄 수 있어… 커피 한 잔에.",
+   "note": "por un café = 커피 한 잔 대가로(교환은 por)",
+   "tags": [
+    "expr:me encanta"
+   ],
+   "new": [
+    "profe"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "21:46"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Por un café? Trato hecho. ¿Para cuándo?",
+   "rd": "뽀르 운 까페? 뜨라또 에초. 빠라 꾸안도?",
+   "ko": "커피 한 잔에? 콜. 언제로 할까?",
+   "note": "¿para cuándo? = 언제로?(기한·날짜는 para)",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "21:46"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Para el viernes. Paso por tu barrio a las siete, ¿vale?",
+   "rd": "빠라 엘 비에르네스. 빠소 뽀르 뚜 바리오 아 라스 시에떼, 발레?",
+   "ko": "금요일로. 7시에 너희 동네로 갈게, 괜찮지?",
+   "note": "pasar por = ~를 지나가다·들르다(경로는 por)",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "21:48"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Perfecto. Te escribo un poema para el viernes 😂",
+   "rd": "뻬르페끄또. 떼 에스끄리보 운 뽀에마 빠라 엘 비에르네스 😂",
+   "ko": "완벽해. 금요일까지 시 한 편 써 갈게 😂",
+   "note": "para el viernes = 금요일까지",
+   "tags": [],
+   "new": [
+    "poema"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "21:49"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Jajaja ni se te ocurra. ¿Por qué un poema?",
+   "rd": "하하하 니 세 떼 오꾸라. 뽀르 께 운 뽀에마?",
+   "ko": "ㅋㅋㅋ 꿈도 꾸지 마. 시는 왜?",
+   "note": "ni se te ocurra = 꿈도 꾸지 마",
+   "tags": [
+    "expr:ni se te ocurra"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "21:50"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Para practicar. Y también por ti. O para ti. Ya no sé cuál va 😩",
+   "rd": "빠라 쁘라끄띠까르. 이 땀비엔 뽀르 띠. 오 빠라 띠. 야 노 세 꾸알 바 😩",
+   "ko": "연습하려고. 그리고 너 때문에도. 아니 너를 위해서. 이제 뭐가 맞는지 모르겠어 😩",
+   "note": "por ti = 너 때문에 · para ti = 너한테 주려고",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "21:52"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Las dos valen. Pero «por ti» suena más bonito… 😌",
+   "rd": "라스 도스 발렌. 뻬로 «뽀르 띠» 수에나 마스 보니또… 😌",
+   "ko": "둘 다 맞아. 근데 「por ti」가 더 예쁘게 들려… 😌",
+   "note": "valer = 맞다·통하다",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "21:55"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Mamá, ¡he quedado con alguien guapísimo para el viernes! Por fin 🙈",
+   "rd": "마마, 에 께다도 꼰 알기엔 구아삐시모 빠라 엘 비에르네스! 뽀르 핀 🙈",
+   "ko": "엄마, 나 금요일에 엄청 멋진 사람이랑 약속 잡았어! 드디어 🙈",
+   "note": "quedar con = ~와 만나기로 하다",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "22:15"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "tl": "…Perdona. Eso no era para ti.",
+   "rd": "…뻬르도나. 에소 노 에라 빠라 띠.",
+   "ko": "…미안. 그거 너한테 보낸 거 아니야.",
+   "note": "no era para ti = 너한테 보낸 게 아니었어",
+   "tags": [
+    "expr:perdona"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "22:15"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Ya lo veo 😂 Saluda a tu madre de mi parte.",
+   "rd": "야 로 베오 😂 살루다 아 뚜 마드레 데 미 빠르떼.",
+   "ko": "알아 😂 어머님께 안부 전해 줘.",
+   "note": "de mi parte = 내 대신",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "22:17",
+   "stamp": "😂"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Y gracias por lo de «guapísimo». Me lo guardo para el viernes.",
+   "rd": "이 그라씨아스 뽀르 로 데 «구아삐시모». 메 로 구아르도 빠라 엘 비에르네스.",
+   "ko": "그리고 「엄청 멋진」 고마워. 금요일까지 아껴 둘게.",
+   "note": "gracias por… = ~고마워 · para el viernes = 금요일까지",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "22:17"
+  }
+ ],
+ "draft": "claude"
+}

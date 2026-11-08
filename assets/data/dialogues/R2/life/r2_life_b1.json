@@ -52,7 +52,7 @@
    "num": 2,
    "speaker": "A",
    "tl": "Ni idea. Esta mañana hablé con la vecina del cuarto.",
-   "rd": "니 이데아. 에스따 마냐나 아브레 꼰 라 베씨나 델 꾸아르또.",
+   "rd": "니 이데아. 에스따 마냐나 아블레 꼰 라 베씨나 델 꾸아르또.",
    "ko": "몰라. 아침에 4층 아주머니랑 얘기하긴 했는데.",
    "note": "hablé = 단순과거 「얘기했다」",
    "tags": [
@@ -81,7 +81,7 @@
    "num": 4,
    "speaker": "A",
    "tl": "No sé, hablaba muy rápido. Yo solo dije «sí, sí».",
-   "rd": "노 세, 아브라바 무이 라삐도. 요 솔로 디헤 «시, 시».",
+   "rd": "노 세, 아블라바 무이 라삐도. 요 솔로 디헤 «시, 시».",
    "ko": "몰라, 말이 너무 빨라서… 난 그냥 「네, 네」만 했어.",
    "note": "hablaba = 불완료, 그때 계속 이어지던 일",
    "tags": [
@@ -180,7 +180,7 @@
    "num": 10,
    "speaker": "A",
    "tl": "Veinte… Diego, ¿cuántos platos tenemos?",
-   "rd": "베인떼… 디에고, 꾸안또스 쁘라또스 떼네모스?",
+   "rd": "베인떼… 디에고, 꾸안또스 쁠라또스 떼네모스?",
    "ko": "스무 명… 디에고, 우리 접시 몇 개 있어?",
    "note": "¿Cuántos…? = 몇 개?",
    "tags": [],

@@ -1,0 +1,165 @@
+{
+ "id": "r1_s08_culture",
+ "region": "R1",
+ "stage": 8,
+ "level_name": "관사·성수·활용 골격",
+ "island": "culture",
+ "kind": "short",
+ "title": "동네 챔피언",
+ "emoji": "💃",
+ "scene": "여름 밤, Lucía 가 동네 축제(verbena)에 같이 가자고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "goal": "ir a + 원형 = ~할 거야(가까운 미래) — voy a bailar / vas a bailar / va a…",
+ "expressions": [
+  "qué mono",
+  "tía",
+  "no sé",
+  "tranqui",
+  "vale"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoy voy a ir a la verbena. ¿Vienes?",
+   "rd": "오이 보이 아 이르 아 라 베르베나. 비에네스?",
+   "ko": "오늘 밤에 동네 축제 갈 거야. 올래?",
+   "note": "voy a ir = 갈 거야 · verbena = 여름 동네 축제",
+   "tags": [
+    "form:ir_a"
+   ],
+   "new": [
+    "verbena"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¿Qué es? ¿Vas a bailar?",
+   "rd": "께 에스? 바스 아 바일라르?",
+   "ko": "그게 뭔데? 춤출 거야?",
+   "note": "vas a bailar = 춤출 거야?",
+   "tags": [
+    "form:ir_a"
+   ],
+   "new": [
+    "bailar"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Claro. Voy a bailar con mi abuelo.",
+   "rd": "끌라로. 보이 아 바일라르 꼰 미 아부엘로.",
+   "ko": "당연하지. 우리 할아버지랑 출 거야.",
+   "note": "voy a + 원형",
+   "tags": [
+    "expr:claro",
+    "form:ir_a"
+   ],
+   "new": [
+    "abuelo"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Con tu abuelo? ¡Qué mono!",
+   "rd": "꼰 뚜 아부엘로? 께 모노!",
+   "ko": "할아버지랑? 귀엽다!",
+   "note": "qué mono = 귀엽다",
+   "tags": [
+    "expr:qué mono"
+   ],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Y tú vas a bailar con mi abuela.",
+   "rd": "이 뚜 바스 아 바일라르 꼰 미 아부엘라.",
+   "ko": "그리고 넌 우리 할머니랑 출 거야.",
+   "note": "vas a bailar = (너는) 출 거야",
+   "tags": [
+    "form:ir_a"
+   ],
+   "new": [
+    "abuela"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Yo? No sé bailar, tía.",
+   "rd": "요? 노 세 바일라르, 띠아.",
+   "ko": "내가? 나 춤 못 춰.",
+   "note": "no sé + 원형 = ~할 줄 몰라",
+   "tags": [
+    "expr:no sé",
+    "expr:tía"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Tranqui. Mi abuela es la campeona del barrio.",
+   "rd": "뜨란끼. 미 아부엘라 에스 라 깜뻬오나 델 바리오.",
+   "ko": "걱정 마. 우리 할머니 동네 챔피언이야.",
+   "note": "campeona = 챔피언(여) · del barrio = 동네의",
+   "tags": [
+    "expr:tranqui"
+   ],
+   "new": [
+    "campeón",
+    "barrio"
+   ],
+   "segs": [
+    [
+     "gentle",
+     "Tranqui."
+    ],
+    [
+     "teasing",
+     "Mi abuela es la campeona del barrio."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Vale. Voy a hacer el ridículo.",
+   "rd": "발레. 보이 아 아쎄르 엘 리디꿀로.",
+   "ko": "알았어. 나 망신당하겠다.",
+   "note": "hacer el ridículo = 망신당하다",
+   "tags": [
+    "expr:vale",
+    "form:ir_a"
+   ],
+   "new": [
+    "ridículo"
+   ],
+   "emotion": "sad"
+  }
+ ],
+ "draft": "claude"
+}

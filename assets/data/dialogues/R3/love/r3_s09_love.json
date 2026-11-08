@@ -1,0 +1,157 @@
+{
+ "id": "r3_s09_love",
+ "region": "R3",
+ "stage": 9,
+ "source": "r1_s09_love",
+ "level_name": "그래머2(복수·존댓말)",
+ "island": "love",
+ "kind": "chat",
+ "title": "세 번째 옷들",
+ "emoji": "👗",
+ "scene": "9단계 「세 번째 옷」을 복수로 — Marta 가 A·Diego 에게 헌책 장터에 가자고 단톡방에 쓴다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "같은 이야기를 복수 재귀동사(os levantáis·nos duchamos·nos vestimos)로 — 새 단어 0",
+ "expressions": [
+  "vale",
+  "bueno"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¿A qué hora os levantáis los sábados?",
+   "rd": "아 께 오라 오스 레반따이스 로스 사바도스?",
+   "ko": "너희 토요일엔 몇 시에 일어나?",
+   "note": "os levantáis = 2인칭 복수 재귀",
+   "tags": [
+    "form:reflexivo",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "neutral",
+   "ui": "bubble",
+   "at": "10:12"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Nos levantamos tarde. ¿Por qué?",
+   "rd": "노스 레반따모스 따르데. 뽀르 께?",
+   "ko": "우리 늦게 일어나. 왜?",
+   "note": "nos levantamos = 1인칭 복수 재귀",
+   "tags": [
+    "form:reflexivo",
+    "form:nosotros"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "10:40"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Hay un mercado de libros a las doce.",
+   "rd": "아이 운 메르까도 데 리브로스 아 라스 도쎄.",
+   "ko": "열두 시에 헌책 장터가 있어.",
+   "note": "hay = ~가 있다",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "10:41"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Vale. Nos duchamos y nos vestimos. ¿Y vosotras?",
+   "rd": "발레. 노스 두차모스 이 노스 베스띠모스. 이 보소뜨라스?",
+   "ko": "좋아. 씻고 옷 입을게. 너희는?",
+   "note": "nos duchamos · nos vestimos",
+   "tags": [
+    "expr:vale",
+    "form:reflexivo"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "10:41"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Nosotras nos vestimos ahora. Bueno… otra vez.",
+   "rd": "노소뜨라스 노스 베스띠모스 아오라. 부에노… 오뜨라 베쓰.",
+   "ko": "우리 지금 옷 입어. 뭐… 또.",
+   "note": "nosotras = 우리(Lucía 와 Marta)",
+   "tags": [
+    "expr:bueno",
+    "form:reflexivo"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "10:43"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Otra vez?",
+   "rd": "오뜨라 베쓰?",
+   "ko": "또?",
+   "note": "¿otra vez? = 또?",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "10:43",
+   "stamp": "🤔"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Nos hemos cambiado tres veces. Por vosotros.",
+   "rd": "노스 에모스 깜비아도 뜨레스 베쎄스. 뽀르 보소뜨로스.",
+   "ko": "벌써 세 번 갈아입었어. 너희 때문에.",
+   "note": "nos hemos cambiado = 1인칭 복수 재귀 완료",
+   "tags": [
+    "form:reflexivo",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "10:47"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Vale… ahora nos ponemos nerviosos.",
+   "rd": "발레… 아오라 노스 뽀네모스 네르비오소스.",
+   "ko": "아… 이제 우리 떨린다.",
+   "note": "nos ponemos nerviosos = 복수 일치",
+   "tags": [
+    "expr:vale",
+    "form:reflexivo"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "10:52"
+  }
+ ],
+ "draft": "claude"
+}

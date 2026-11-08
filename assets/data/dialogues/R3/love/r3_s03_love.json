@@ -1,0 +1,149 @@
+{
+ "id": "r3_s03_love",
+ "region": "R3",
+ "stage": 3,
+ "source": "r1_s03_love",
+ "level_name": "그래머2(복수·존댓말)",
+ "island": "love",
+ "kind": "short",
+ "title": "여섯 시의 손님들",
+ "emoji": "📚",
+ "scene": "3단계 「여섯 시의 손님」을 복수로 — 매일 오는 A 와 Diego 에게 Marta 가 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "같은 이야기를 복수 규칙 활용(compráis·miramos·trabajamos·leen)으로 — 새 단어 0",
+ "expressions": [
+  "ya",
+  "bueno",
+  "pues"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¿Otra vez aquí? ¿Compráis o solo miráis?",
+   "rd": "오뜨라 베쓰 아끼? 꼼쁘라이스 오 솔로 미라이스?",
+   "ko": "또 왔네? 사는 거야, 구경만 하는 거야?",
+   "note": "compráis / miráis = -ar 2인칭 복수(-áis)",
+   "tags": [
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Miramos. Bueno… leemos un poco.",
+   "rd": "미라모스. 부에노… 레에모스 운 뽀꼬.",
+   "ko": "구경. 뭐… 조금 읽기도 하고.",
+   "note": "miramos(-ar) · leemos(-er) = 1인칭 복수",
+   "tags": [
+    "expr:bueno",
+    "form:nosotros"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Ya. Llegáis todos los días a las seis.",
+   "rd": "야. 예가이스 또도스 로스 디아스 아 라스 세이스.",
+   "ko": "그렇겠지. 둘이 매일 여섯 시에 오더라.",
+   "note": "llegáis = llegar 2인칭 복수",
+   "tags": [
+    "expr:ya",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Y vosotras? ¿Trabajáis todos los días?",
+   "rd": "이 보소뜨라스? 뜨라바하이스 또도스 로스 디아스?",
+   "ko": "너희는? 매일 일해?",
+   "note": "vosotras = 너희(여성들) · trabajáis",
+   "tags": [
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "No. Trabajamos los lunes y los miércoles.",
+   "rd": "노. 뜨라바하모스 로스 루네스 이 로스 미에르꼴레스.",
+   "ko": "아니. 월요일이랑 수요일만 일해.",
+   "note": "trabajamos = 1인칭 복수",
+   "tags": [
+    "form:nosotros"
+   ],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Pero hoy es viernes… ¿Qué hacéis aquí?",
+   "rd": "뻬로 오이 에스 비에르네스… 께 아쎄이스 아끼?",
+   "ko": "근데 오늘 금요일인데… 여기서 뭐 해?",
+   "note": "hacéis = hacer 2인칭 복수",
+   "tags": [
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Pues… esperamos a dos chicos que leen mucho.",
+   "rd": "뿌에스… 에스뻬라모스 아 도스 치꼬스 께 레엔 무초.",
+   "ko": "그게… 책 많이 읽는 남자 둘을 기다려.",
+   "note": "esperamos = 1인칭 복수 · leen = 3인칭 복수",
+   "tags": [
+    "expr:pues",
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "tl_f": "Pues… esperamos a dos chicas que leen mucho.",
+   "ko_f": "그게… 책 많이 읽는 여자 둘을 기다려.",
+   "rd_f": "뿌에스… 에스뻬라모스 아 도스 치까스 께 레엔 무초."
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Pues los chicos hoy compran un libro.",
+   "rd": "뿌에스 로스 치꼬스 오이 꼼쁘란 운 리브로.",
+   "ko": "그럼 그 남자들, 오늘은 책 한 권 산다.",
+   "note": "compran = comprar 3인칭 복수",
+   "tags": [
+    "expr:pues",
+    "form:plural"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "tl_f": "Pues las chicas hoy compran un libro.",
+   "ko_f": "그럼 그 여자들, 오늘은 책 한 권 산다.",
+   "rd_f": "뿌에스 라스 치까스 오이 꼼쁘란 운 리브로."
+  }
+ ],
+ "draft": "claude"
+}

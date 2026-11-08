@@ -1,0 +1,280 @@
+{
+ "id": "r5_t04_love",
+ "region": "R5",
+ "stage": 4,
+ "level_name": "어휘 완주",
+ "island": "love",
+ "kind": "long",
+ "title": "질투 아니야",
+ "emoji": "📚",
+ "scene": "헌책방에 들른 날, Marta 가 먼저 말을 건다. 어제 Lucía 랑 있는 걸 봤다고 — 주제 4 「감정」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "emotion",
+ "flags": [
+  "jealousy"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "감정 어휘(contento·enfadado·aburrido·celoso·emoción·vergüenza·sorpresa·romántico)",
+ "expressions": [
+  "ya",
+  "para nada",
+  "vale",
+  "claro",
+  "qué vergüenza"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Ayer te vi en la plaza. Parecías muy contento.",
+   "rd": "아예르 떼 비 엔 라 쁠라싸. 빠레씨아스 무이 꼰뗀또.",
+   "ko": "어제 광장에서 너 봤어. 엄청 즐거워 보이던데.",
+   "note": "contento = 기분 좋은",
+   "tags": [],
+   "new": [
+    "plaza",
+    "contento"
+   ],
+   "tl_f": "Ayer te vi en la plaza. Parecías muy contenta.",
+   "emotion": "stiff",
+   "rd_f": "아예르 떼 비 엔 라 쁠라싸. 빠레씨아스 무이 꼰뗀따."
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¡Sí! Estaba con Lucía. Me contó una broma buenísima.",
+   "rd": "시! 에스따바 꼰 루씨아. 메 꼰또 우나 브로마 부에니시마.",
+   "ko": "응! Lucía 랑 있었어. 엄청 웃긴 농담을 해 줬거든.",
+   "note": "buenísimo = 아주 좋은",
+   "tags": [],
+   "new": [
+    "buenísimo"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Ya. Os reíais tanto que se os oía desde la tienda.",
+   "rd": "야. 오스 레이아이스 딴또 께 세 오스 오이아 데스데 라 띠엔다.",
+   "ko": "그렇겠지. 너희 웃는 소리가 가게까지 들렸어.",
+   "note": "os = 너희(를·에게)",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [
+    "tienda"
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Estás enfadada? Tienes la misma cara que cuando alguien rompe un libro.",
+   "rd": "에스따스 엔파다다? 띠에네스 라 미스마 까라 께 꾸안도 알기엔 롬뻬 운 리브로.",
+   "ko": "너 화났어? 누가 책 찢었을 때랑 똑같은 표정인데.",
+   "note": "enfadado = 화난",
+   "tags": [],
+   "new": [
+    "enfadado"
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Para nada. Estoy perfectamente. Un poco aburrida, nada más.",
+   "rd": "빠라 나다. 에스또이 뻬르페끄따멘떼. 운 뽀꼬 아부리다, 나다 마스.",
+   "ko": "전혀. 완전 괜찮아. 좀 심심할 뿐이야.",
+   "note": "aburrido = 심심한·지루한",
+   "tags": [
+    "expr:para nada"
+   ],
+   "new": [
+    "aburrido"
+   ],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Aburrida? Pero si hoy ha llegado tu novela romántica favorita.",
+   "rd": "아부리다? 뻬로 시 오이 아 예가도 뚜 노벨라 로만띠까 파보리따.",
+   "ko": "심심해? 오늘 네가 제일 좋아하는 로맨스 소설 들어왔잖아.",
+   "note": "pero si… = ~잖아(반박) · novela = 소설",
+   "tags": [],
+   "new": [
+    "novela",
+    "romántico",
+    "favorito"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "No es mi favorita. Es una obra seria. Con mucha emoción.",
+   "rd": "노 에스 미 파보리따. 에스 우나 오브라 세리아. 꼰 무차 에모씨온.",
+   "ko": "제일 좋아하는 거 아니거든. 진지한 작품이야. 감정이 풍부한.",
+   "note": "obra = 작품 · emoción = 감정",
+   "tags": [],
+   "new": [
+    "obra",
+    "emoción"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Ya. Por eso en la portada hay un beso enorme.",
+   "rd": "야. 뽀르 에소 엔 라 뽀르따다 아이 운 베소 에노르메.",
+   "ko": "그렇겠지. 그래서 표지에 엄청 큰 키스신이 있구나.",
+   "note": "portada = 표지 · enorme = 거대한",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [
+    "portada",
+    "enorme"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Vale, sí. ¡Pero no cambies de tema! Lucía y tú… ¿sois…?",
+   "rd": "발레, 시. 뻬로 노 깜비에스 데 떼마! 루씨아 이 뚜… 소이스…?",
+   "ko": "그래, 맞아. 근데 말 돌리지 마! 너랑 Lucía… 혹시…?",
+   "note": "cambiar de tema = 화제를 바꾸다",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Vale, sí."
+    ],
+    [
+     "annoyed",
+     "¡Pero no cambies de tema! Lucía y tú… ¿sois…?"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "¿Amigos? Claro. Me estaba ayudando con una sorpresa.",
+   "rd": "아미고스? 끌라로. 메 에스따바 아유단도 꼰 우나 소르쁘레사.",
+   "ko": "친구? 당연하지. 서프라이즈 준비하는 거 도와주고 있었어.",
+   "note": "sorpresa = 깜짝 선물",
+   "tags": [
+    "expr:claro"
+   ],
+   "new": [
+    "sorpresa"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "¿Una sorpresa? ¿Para quién?",
+   "rd": "우나 소르쁘레사? 빠라 끼엔?",
+   "ko": "서프라이즈? 누구한테?",
+   "note": "para quién = 누구를 위해",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Para alguien que lee novelas románticas y dice que no.",
+   "rd": "빠라 알기엔 께 레에 노벨라스 로만띠까스 이 디쎄 께 노.",
+   "ko": "로맨스 소설 읽으면서 안 읽는다고 하는 누구한테.",
+   "note": "alguien que… = ~하는 누군가",
+   "tags": [],
+   "new": [],
+   "emotion": "shy"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "… Vale. Estaba celosa. Un poquito.",
+   "rd": "… 발레. 에스따바 쎌로사. 운 뽀끼또.",
+   "ko": "…그래. 질투했어. 아주 조금.",
+   "note": "celoso = 질투하는",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [
+    "celoso"
+   ],
+   "segs": [
+    [
+     "shy",
+     "…"
+    ],
+    [
+     "gentle",
+     "Vale. Estaba celosa. Un poquito."
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "¿Un poquito? Te vi esconderte detrás del cartel de la tienda.",
+   "rd": "운 뽀끼또? 떼 비 에스꼰데르떼 데뜨라스 델 까르뗄 데 라 띠엔다.",
+   "ko": "아주 조금? 가게 간판 뒤에 숨는 거 봤는데.",
+   "note": "esconderse = 숨다 · cartel = 간판",
+   "tags": [],
+   "new": [
+    "esconder",
+    "cartel"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Qué vergüenza. Dame la sorpresa antes de que cambie de idea.",
+   "rd": "께 베르구엔싸. 다메 라 소르쁘레사 안떼스 데 께 깜비에 데 이데아.",
+   "ko": "아 창피해. 마음 바뀌기 전에 서프라이즈나 줘.",
+   "note": "vergüenza = 창피함",
+   "tags": [
+    "expr:qué vergüenza"
+   ],
+   "new": [
+    "vergüenza"
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "tl": "Tu novela favorita. Firmada por la autora. Y con mi número dentro.",
+   "rd": "뚜 노벨라 파보리따. 피르마다 뽀르 라 아우또라. 이 꼰 미 누메로 덴뜨로.",
+   "ko": "네가 제일 좋아하는 소설. 작가 사인본. 안에 내 번호도 있어.",
+   "note": "firmado = 서명된",
+   "tags": [],
+   "new": [
+    "firmar"
+   ],
+   "emotion": "gentle"
+  }
+ ],
+ "draft": "claude"
+}

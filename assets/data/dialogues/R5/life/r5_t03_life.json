@@ -1,0 +1,265 @@
+{
+ "id": "r5_t03_life",
+ "region": "R5",
+ "stage": 3,
+ "level_name": "어휘 완주",
+ "island": "life",
+ "kind": "long",
+ "title": "39도의 진실",
+ "emoji": "🤒",
+ "scene": "아침에 열이 난다며 누운 날, 룸메이트 Diego 가 병원에 데려간다 — 주제 3 「건강」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Diego",
+  "C": "Doctora"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "work_spain"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "몸·병원 어휘(doler·fiebre·espalda·estómago·pecho·grave·sano·tratamiento·ambulancia)",
+ "expressions": [
+  "tío",
+  "a ver",
+  "ahora mismo",
+  "vamos",
+  "hombre",
+  "pues",
+  "vale"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¿Sigues en la cama? Tienes cara de enfermo, tío.",
+   "rd": "시게스 엔 라 까마? 띠에네스 까라 데 엔페르모, 띠오.",
+   "ko": "아직 누워 있어? 얼굴이 환자 같아.",
+   "note": "enfermo = 아픈(사람)",
+   "tags": [
+    "expr:tío"
+   ],
+   "new": [
+    "enfermo"
+   ],
+   "tl_f": "¿Sigues en la cama? Tienes cara de enferma, tía.",
+   "emotion": "worried",
+   "rd_f": "시게스 엔 라 까마? 띠에네스 까라 데 엔페르마, 띠아."
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Me duele todo: la cabeza, la espalda, el estómago… Creo que tengo fiebre.",
+   "rd": "메 두엘레 또도: 라 까베싸, 라 에스빨다, 엘 에스또마고… 끄레오 께 뗀고 피에브레.",
+   "ko": "다 아파. 머리, 허리, 배… 열 나는 것 같아.",
+   "note": "doler = 아프다(gustar 처럼 me duele)",
+   "tags": [],
+   "new": [
+    "doler",
+    "espalda",
+    "estómago",
+    "fiebre"
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "A ver, el termómetro… ¡Treinta y nueve! Nos vamos al médico ahora mismo.",
+   "rd": "아 베르, 엘 떼르모메뜨로… 뜨레인따 이 누에베! 노스 바모스 알 메디꼬 아오라 미스모.",
+   "ko": "어디 보자, 체온계가… 39도! 지금 당장 병원 가자.",
+   "note": "termómetro = 체온계",
+   "tags": [
+    "expr:a ver",
+    "expr:ahora mismo",
+    "expr:vamos"
+   ],
+   "new": [
+    "termómetro"
+   ],
+   "segs": [
+    [
+     "neutral",
+     "A ver, el termómetro…"
+    ],
+    [
+     "shout",
+     "¡Treinta y nueve! Nos vamos al médico ahora mismo."
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "No puedo ni caminar. Llama a una ambulancia.",
+   "rd": "노 뿌에도 니 까미나르. 야마 아 우나 암불란씨아.",
+   "ko": "걷지도 못하겠어. 구급차 불러 줘.",
+   "note": "ni = ~조차 · ambulancia = 구급차",
+   "tags": [],
+   "new": [
+    "caminar",
+    "ambulancia"
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Hombre, es fiebre, no un accidente. Te llevo en la moto.",
+   "rd": "옴브레, 에스 피에브레, 노 운 아끄씨덴떼. 떼 예보 엔 라 모또.",
+   "ko": "야, 열이지 사고가 아니잖아. 오토바이로 데려다줄게.",
+   "note": "accidente = 사고",
+   "tags": [
+    "expr:hombre"
+   ],
+   "new": [
+    "accidente",
+    "moto"
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Buenos días. ¿Desde cuándo se encuentra así?",
+   "rd": "부에노스 디아스. 데스데 꾸안도 세 엔꾸엔뜨라 아시?",
+   "ko": "안녕하세요. 언제부터 이러셨어요?",
+   "note": "encontrarse = (몸 상태가) ~하다",
+   "tags": [],
+   "new": [],
+   "emotion": "polite"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Desde anoche. Y justo hoy tengo un examen muy importante.",
+   "rd": "데스데 아노체. 이 후스또 오이 뗀고 운 엑사멘 무이 임뽀르딴떼.",
+   "ko": "어젯밤부터요. 하필 오늘 아주 중요한 시험이 있는데.",
+   "note": "anoche = 어젯밤 · justo = 하필",
+   "tags": [],
+   "new": [
+    "anoche",
+    "examen"
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Vamos a ver… El pecho suena bien y el corazón, normal. Respire despacio.",
+   "rd": "바모스 아 베르… 엘 뻬초 수에나 비엔 이 엘 꼬라쏜, 노르말. 레스삐레 데스빠씨오.",
+   "ko": "어디 볼까요… 가슴 소리 좋고, 심장도 정상이에요. 천천히 숨 쉬세요.",
+   "note": "pecho = 가슴 · despacio = 천천히",
+   "tags": [
+    "expr:a ver"
+   ],
+   "new": [
+    "pecho",
+    "despacio"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "¿Es grave, doctora? Anoche estaba perfectamente.",
+   "rd": "에스 그라베, 도끄또라? 아노체 에스따바 뻬르페끄따멘떼.",
+   "ko": "심각한가요, 선생님? 어젯밤엔 멀쩡했거든요.",
+   "note": "grave = 심각한",
+   "tags": [],
+   "new": [
+    "grave",
+    "doctora"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Una pregunta. ¿Dónde estaba el termómetro antes de usarlo?",
+   "rd": "우나 쁘레군따. 돈데 에스따바 엘 떼르모메뜨로 안떼스 데 우사를로?",
+   "ko": "하나만 여쭐게요. 체온계 쓰기 전에 어디 있었어요?",
+   "note": "antes de + 원형 = ~하기 전에",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Pues… dentro de su té caliente. No me pregunte por qué.",
+   "rd": "뿌에스… 덴뜨로 데 수 떼 깔리엔떼. 노 메 쁘레군떼 뽀르 께.",
+   "ko": "그게… 얘 뜨거운 차 안에요. 왜냐고는 묻지 마세요.",
+   "note": "té = 차 · caliente = 뜨거운",
+   "tags": [
+    "expr:pues"
+   ],
+   "new": [
+    "té",
+    "caliente"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Entonces no hay fiebre. Está usted completamente sano.",
+   "rd": "엔똔쎄스 노 아이 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사노.",
+   "ko": "그럼 열은 없네요. 완전히 건강하세요.",
+   "note": "sano = 건강한",
+   "tags": [],
+   "new": [
+    "completamente",
+    "sano"
+   ],
+   "tl_f": "Entonces no hay fiebre. Está usted completamente sana.",
+   "emotion": "amused",
+   "rd_f": "엔똔쎄스 노 아이 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사나."
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "tl": "¿Y el dolor de estómago? Eso es real, se lo juro.",
+   "rd": "이 엘 돌로르 데 에스또마고? 에소 에스 레알, 세 로 후로.",
+   "ko": "배 아픈 건요? 그건 진짜예요, 맹세해요.",
+   "note": "dolor = 통증 · jurar = 맹세하다",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "tl": "Eso se llama examen. Tratamiento: estudiar y menos té.",
+   "rd": "에소 세 야마 엑사멘. 뜨라따미엔또: 에스뚜디아르 이 메노스 떼.",
+   "ko": "그건 「시험」이라는 병이에요. 처방: 공부하고, 차는 줄이세요.",
+   "note": "tratamiento = 치료·처방",
+   "tags": [],
+   "new": [
+    "tratamiento",
+    "estudiar"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Te espero en la moto. Con el libro abierto, ¿vale?",
+   "rd": "떼 에스뻬로 엔 라 모또. 꼰 엘 리브로 아비에르또, 발레?",
+   "ko": "오토바이에서 기다릴게. 책 펴 들고, 알았지?",
+   "note": "abierto = 펼친·열린",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

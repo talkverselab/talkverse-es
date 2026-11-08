@@ -18,6 +18,12 @@ ISLANDS = {'survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', '
 NEED = ['id', 'region', 'island', 'kind', 'title', 'emoji', 'scene', 'speakers', 'register', 'twist', 'twist_type', 'expressions', 'purpose', 'domain', 'turns']
 EMOTIONS = set('neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle'.split())
 BAD = re.compile(r'[A-Za-z]')
+STAMP = {  # 스탬프·이모지 → 어울리는 감정
+    '😂': {'amused', 'teasing', 'excited', 'cheerful', 'tsukkomi'}, '🤣': {'amused', 'teasing', 'excited', 'cheerful'},
+    '🙈': {'shy', 'flustered', 'amused'}, '😳': {'shy', 'flustered', 'surprised'}, '🙄': {'annoyed', 'tsukkomi', 'teasing'},
+    '😐': {'annoyed', 'tsukkomi', 'neutral'}, '😡': {'annoyed', 'shout'}, '😢': {'sad', 'worried'}, '😭': {'sad', 'excited', 'amused'},
+    '❤️': {'shy', 'gentle', 'cheerful', 'excited'}, '😍': {'excited', 'shy', 'cheerful'}, '🥺': {'shy', 'sad', 'worried', 'gentle'},
+    '😏': {'teasing', 'amused'}, '😅': {'flustered', 'amused', 'stiff'}, '👍': {'cheerful', 'neutral', 'polite'}}
 PLURAL = re.compile(r'(?<![\wáéíóúñ])(nosotros|nosotras|vosotros|vosotras|ellos|ellas|usted|ustedes|os|vuestro|vuestra|vuestros|vuestras|nuestro|nuestra|nuestros|nuestras|somos|sois|son|estamos|estáis|están|tenemos|tenéis|tienen|vamos|vais|van|podemos|podéis|pueden|queremos|queréis|quieren|hacemos|hacéis|hacen|habéis|hemos|han|perdone|oiga|disculpe)(?![\wáéíóúñ])', re.I)
 pool = {r['expr'].lower() for r in csv.DictReader(open(ROOT / 'data/expressions/top_expressions_es.csv', encoding='utf-8'))}
 
@@ -108,6 +114,11 @@ def check(path, fix):
         for x in emos:
             if x not in EMOTIONS:
                 e.append(f'{n}: 감정 {x}')
+        if i and not t.get('segs') and t.get('emotion') == 'neutral' and not ts[i - 1].get('segs') and ts[i - 1].get('emotion') == 'neutral':
+            e.append(f'{n}: neutral 연속(앞 턴도 neutral)')
+        st = t.get('stamp')
+        if st and STAMP.get(st) and not set(emos) & STAMP[st]:
+            e.append(f'{n}: 스탬프 {st} 와 감정 {emos} 이 안 맞음')
         if not t.get('rd'):
             e.append(f'{n}: rd 없음')
         elif BAD.search(re.sub(r'\{[a-z_]+\}', '', t['rd'])):

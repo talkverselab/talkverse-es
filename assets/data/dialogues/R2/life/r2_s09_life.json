@@ -1,0 +1,182 @@
+{
+ "id": "r2_s09_life",
+ "region": "R2",
+ "stage": 9,
+ "level_name": "챗 실전",
+ "island": "life",
+ "kind": "chat",
+ "title": "화해 케이크",
+ "emoji": "🍰",
+ "scene": "설거지로 다툰 다음 날 Diego 와 화해하는 채팅 — 상황 9 「화해」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Diego"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "채팅으로 화해하기·사과 받기",
+ "expressions": [
+  "perdona",
+  "tranqui",
+  "qué mono",
+  "oye",
+  "madre mía",
+  "vale"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Diego, perdona por lo de los platos.",
+   "rd": "디에고, 뻬르도나 뽀르 로 데 로스 쁠라또스.",
+   "ko": "디에고, 설거지 일은 미안.",
+   "note": "lo de ~ = ~ 일",
+   "tags": [
+    "expr:perdona"
+   ],
+   "new": [
+    "plato"
+   ],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "16:00"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Tranqui. Yo tb estuve fatal.",
+   "rd": "뜨란끼. 요 뜨브 에스뚜베 파딸.",
+   "ko": "괜찮아. 나도 진짜 별로였어.",
+   "note": "tb = también(나도)",
+   "tags": [
+    "expr:tranqui",
+    "form:indefinido"
+   ],
+   "new": [
+    "fatal"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "16:02"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Te hago una tarta de paz.",
+   "rd": "떼 아고 우나 따르따 데 빠쓰.",
+   "ko": "화해 케이크 만들어 줄게.",
+   "note": "tarta = 케이크",
+   "tags": [],
+   "new": [
+    "tarta",
+    "paz"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "16:02",
+   "stamp": "🍰"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "¿Tú? ¿Una tarta? Qué mono.",
+   "rd": "뚜? 우나 따르따? 께 모노.",
+   "ko": "네가? 케이크를? 귀엽네.",
+   "note": "qué mono = 귀엽다",
+   "tags": [
+    "expr:qué mono"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "16:03"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Oye, ¿es normal el fuego en la cocina?",
+   "rd": "오예, 에스 노르말 엘 푸에고 엔 라 꼬씨나?",
+   "ko": "근데 부엌에 불 나는 거 정상이야?",
+   "note": "es normal ~ = ~ 정상이야",
+   "tags": [
+    "expr:oye"
+   ],
+   "new": [
+    "cocina"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "16:40"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¡No! ¡Apágalo ya!",
+   "rd": "노! 아빠갈로 야!",
+   "ko": "아니! 당장 꺼!",
+   "note": "apágalo = 그거 꺼(명령+lo)",
+   "tags": [
+    "form:imperativo"
+   ],
+   "new": [
+    "apagar"
+   ],
+   "emotion": "shout",
+   "ui": "bubble",
+   "at": "16:40"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Tarde. Suena la alarma y viene la vecina.",
+   "rd": "따르데. 수에나 라 알라르마 이 비에네 라 베씨나.",
+   "ko": "늦었어. 경보 울리고 옆집 아주머니 와.",
+   "note": "suena = 울리다(sonar)",
+   "tags": [],
+   "new": [
+    "alarma",
+    "vecina"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "16:44",
+   "stamp": "🚨"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Madre mía. Vale, paz… y friego yo.",
+   "rd": "마드레 미아. 발레, 빠쓰… 이 프리에고 요.",
+   "ko": "세상에. 알았어, 화해… 설거지는 내가.",
+   "note": "fregar = 설거지하다",
+   "tags": [
+    "expr:madre mía",
+    "expr:vale"
+   ],
+   "new": [
+    "fregar"
+   ],
+   "segs": [
+    [
+     "tsukkomi",
+     "Madre mía."
+    ],
+    [
+     "gentle",
+     "Vale, paz… y friego yo."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "16:45"
+  }
+ ],
+ "draft": "claude"
+}

@@ -1,0 +1,260 @@
+{
+ "id": "r5_t05_friends",
+ "region": "R5",
+ "stage": 5,
+ "level_name": "어휘 완주",
+ "island": "friends",
+ "kind": "long",
+ "title": "맑음, 한때 우박",
+ "emoji": "🌩️",
+ "scene": "Lucía 가 공원 소풍을 밀어붙이고 Javi 는 일기예보를 믿는다 — 주제 5 「날씨·계절」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía",
+  "C": "Javi"
+ },
+ "register": "casual",
+ "twist": 12,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "날씨 어휘(llover·nube·calor·tormenta·viento·sombra·fresco·verano·hielo)",
+ "expressions": [
+  "mira",
+  "qué va",
+  "vale",
+  "oye",
+  "ya",
+  "bueno",
+  "a lo mejor"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "¡Por fin buen tiempo! Mañana comemos en el parque. Yo llevo la tortilla.",
+   "rd": "뽀르 핀 부엔 띠엠뽀! 마냐나 꼬메모스 엔 엘 빠르께. 요 예보 라 또르띠야.",
+   "ko": "드디어 날씨 좋다! 내일 공원에서 먹자. 토르티야는 내가 가져갈게.",
+   "note": "tortilla = 스페인식 감자 오믈렛",
+   "tags": [],
+   "new": [
+    "tortilla"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "tl": "¿Mañana? En la tele dicen que va a llover toda la tarde.",
+   "rd": "마냐나? 엔 라 뗄레 디쎈 께 바 아 요베르 또다 라 따르데.",
+   "ko": "내일? 티비에서 오후 내내 비 온대.",
+   "note": "tele = 티비 · llover = 비가 오다",
+   "tags": [],
+   "new": [
+    "tele",
+    "llover"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Qué va. Mira el cielo: ni una nube. Hace un calor increíble.",
+   "rd": "께 바. 미라 엘 씨엘로: 니 우나 누베. 아쎄 운 깔로르 인끄레이블레.",
+   "ko": "에이 아니야. 하늘 봐, 구름 한 점 없잖아. 엄청 더워.",
+   "note": "nube = 구름 · hace calor = 덥다",
+   "tags": [
+    "expr:mira",
+    "expr:qué va"
+   ],
+   "new": [
+    "nube",
+    "calor",
+    "increíble"
+   ],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Mi móvil dice tormenta a las cinco. Y viento fuerte.",
+   "rd": "미 모빌 디쎄 또르멘따 아 라스 씬꼬. 이 비엔또 푸에르떼.",
+   "ko": "내 폰엔 다섯 시에 폭풍이래. 바람도 세고.",
+   "note": "tormenta = 폭풍우",
+   "tags": [],
+   "new": [
+    "tormenta",
+    "viento"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Los móviles mienten. Una madrileña nunca se equivoca con el tiempo.",
+   "rd": "로스 모빌레스 미엔뗀. 우나 마드릴레냐 눈까 세 에끼보까 꼰 엘 띠엠뽀.",
+   "ko": "폰은 거짓말해. 마드리드 토박이는 날씨 절대 안 틀려.",
+   "note": "equivocarse = 틀리다",
+   "tags": [],
+   "new": [
+    "equivocar"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Vale, pero yo llevo helado. Con este calor, nos lo comemos en dos minutos.",
+   "rd": "발레, 뻬로 요 예보 엘라도. 꼰 에스떼 깔로르, 노스 로 꼬메모스 엔 도스 미누또스.",
+   "ko": "알았어, 그럼 난 아이스크림. 이 더위면 2분 만에 다 먹겠다.",
+   "note": "helado = 아이스크림",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [
+    "helado"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "¿Y si buscamos sombra? Debajo de los árboles, por ejemplo.",
+   "rd": "이 시 부스까모스 솜브라? 데바호 데 로스 아르볼레스, 뽀르 에헴쁠로.",
+   "ko": "그럼 그늘 찾을까? 예를 들면 나무 밑에.",
+   "note": "sombra = 그늘 · debajo de = ~아래에",
+   "tags": [],
+   "new": [
+    "sombra",
+    "debajo",
+    "árbol",
+    "ejemplo"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "¿Veis? Sol, aire fresco, nada de viento… Esto es el verano perfecto.",
+   "rd": "베이스? 솔, 아이레 프레스꼬, 나다 데 비엔또… 에스또 에스 엘 베라노 뻬르페끄또.",
+   "ko": "봤지? 햇살, 시원한 공기, 바람 하나 없고… 이게 완벽한 여름이지.",
+   "note": "fresco = 시원한·신선한",
+   "tags": [],
+   "new": [
+    "aire",
+    "fresco",
+    "verano"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "Oye, ¿eso de allí es una nube negra o es humo?",
+   "rd": "오예, 에소 데 아이 에스 우나 누베 네그라 오 에스 우모?",
+   "ko": "야, 저기 저거 먹구름이야, 연기야?",
+   "note": "humo = 연기",
+   "tags": [
+    "expr:oye"
+   ],
+   "new": [
+    "humo"
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Es una nube. Y viene directa hacia nosotros.",
+   "rd": "에스 우나 누베. 이 비에네 디레끄따 아씨아 노소뜨로스.",
+   "ko": "구름이야. 그리고 우리 쪽으로 곧장 와.",
+   "note": "directo = 곧장",
+   "tags": [],
+   "new": [
+    "directo"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "¡Recoged todo! ¡La tortilla primero!",
+   "rd": "레꼬헤드 또도! 라 또르띠야 쁘리메로!",
+   "ko": "다 챙겨! 토르티야부터!",
+   "note": "recoger = 챙기다·치우다(vosotros 명령)",
+   "tags": [],
+   "new": [
+    "recoger"
+   ],
+   "emotion": "shout"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "¡Está cayendo hielo! ¡En mayo! ¡Me ha dado en la cabeza!",
+   "rd": "에스따 까옌도 이엘로! 엔 마요! 메 아 다도 엔 라 까베싸!",
+   "ko": "얼음이 떨어져! 5월에! 머리에 맞았어!",
+   "note": "hielo = 얼음(우박)",
+   "tags": [],
+   "new": [
+    "hielo"
+   ],
+   "emotion": "shout"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "tl": "Javi, ¿por qué te pones el helado en la cabeza?",
+   "rd": "하비, 뽀르 께 떼 뽀네스 엘 엘라도 엔 라 까베싸?",
+   "ko": "하비, 아이스크림을 왜 머리에 쓰고 있어?",
+   "note": "ponerse = 쓰다·입다",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "tl": "¡Es lo único que tengo! Además, ya estaba frío.",
+   "rd": "에스 로 우니꼬 께 뗀고! 아데마스, 야 에스따바 프리오.",
+   "ko": "이거밖에 없단 말이야! 게다가 원래 차가웠어.",
+   "note": "además = 게다가",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Bueno… a lo mejor la tele tenía un poco de razón.",
+   "rd": "부에노… 아 로 메호르 라 뗄레 떼니아 운 뽀꼬 데 라쏜.",
+   "ko": "뭐… 어쩌면 티비 말이 조금 맞았을지도.",
+   "note": "tener razón = 맞다",
+   "tags": [
+    "expr:bueno",
+    "expr:a lo mejor"
+   ],
+   "new": [],
+   "emotion": "stiff"
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "tl": "¿Un poco? Lucía, tengo hielo dentro del helado.",
+   "rd": "운 뽀꼬? 루씨아, 뗀고 이엘로 덴뜨로 델 엘라도.",
+   "ko": "조금? 루시아, 아이스크림 속에 우박 들어 있어.",
+   "note": "dentro de = ~안에",
+   "tags": [],
+   "new": [],
+   "emotion": "amused"
+  }
+ ],
+ "draft": "claude"
+}

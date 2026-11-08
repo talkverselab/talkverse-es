@@ -1,0 +1,256 @@
+{
+ "id": "r5_t10_study",
+ "region": "R5",
+ "stage": 10,
+ "level_name": "어휘 완주",
+ "island": "study",
+ "kind": "long",
+ "title": "2년 더",
+ "emoji": "🎸",
+ "scene": "대학 서류를 쓰는 {name} 에게 Diego 가 묻는다, 5년 뒤엔 뭐 하고 있을 거냐고 — 주제 10 「미래」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Diego"
+ },
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "goal": "미래·진로 어휘(universidad·curso·documento·ocasión·mejorar·éxito·soñar·sencillo·contrato)",
+ "expressions": [
+  "oye",
+  "ya",
+  "y tú",
+  "claro"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Oye, ¿qué haces con tantos papeles? ¿Otro curso?",
+   "rd": "오예, 께 아쎄스 꼰 딴또스 빠뻴레스? 오뜨로 꾸르소?",
+   "ko": "야, 웬 서류가 이렇게 많아? 또 무슨 강좌야?",
+   "note": "curso = 강좌·과정",
+   "tags": [
+    "expr:oye"
+   ],
+   "new": [
+    "curso"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Son documentos para la universidad. Si me aceptan, me quedo dos años más.",
+   "rd": "손 도꾸멘또스 빠라 라 우니베르시다드. 시 메 아쎄쁘딴, 메 께도 도스 아뇨스 마스.",
+   "ko": "대학 서류야. 붙으면 2년 더 있을 거야.",
+   "note": "documento = 서류 · universidad = 대학",
+   "tags": [],
+   "new": [
+    "documento",
+    "universidad"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "¿Dos años? ¿Y tu trabajo, tu familia, tu idioma…?",
+   "rd": "도스 아뇨스? 이 뚜 뜨라바호, 뚜 파밀리아, 뚜 이디오마…?",
+   "ko": "2년? 네 일이랑 가족이랑 네 나라 말은…?",
+   "note": "idioma = 언어",
+   "tags": [],
+   "new": [
+    "idioma"
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Mi familia dice que es una buena ocasión. Y el español lo estoy mejorando.",
+   "rd": "미 파밀리아 디쎄 께 에스 우나 부에나 오까시온. 이 엘 에스빠뇰 로 에스또이 메호란도.",
+   "ko": "가족은 좋은 기회래. 그리고 스페인어도 늘고 있고.",
+   "note": "ocasión = 기회 · mejorar = 나아지다·늘리다",
+   "tags": [],
+   "new": [
+    "ocasión",
+    "mejorar"
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Eso es verdad. Ya no dices «estoy embarazado» cuando tienes vergüenza.",
+   "rd": "에소 에스 베르다드. 야 노 디쎄스 «에스또이 엠바라싸도» 꾸안도 띠에네스 베르구엔싸.",
+   "ko": "그건 맞아. 이제 창피할 때 「임신했어요」라고는 안 하더라.",
+   "note": "callback = 할머니 생신 건배사",
+   "tags": [
+    "callback:r5_t08_culture",
+    "expr:ya"
+   ],
+   "new": [],
+   "tl_f": "Eso es verdad. Ya no dices «estoy embarazada» cuando tienes vergüenza.",
+   "emotion": "teasing",
+   "rd_f": "에소 에스 베르다드. 야 노 디쎄스 «에스또이 엠바라싸다» 꾸안도 띠에네스 베르구엔싸."
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¡Fue una vez! ¿Y tú? ¿Dónde te ves dentro de cinco años?",
+   "rd": "푸에 우나 베쓰! 이 뚜? 돈데 떼 베스 덴뜨로 데 씬꼬 아뇨스?",
+   "ko": "딱 한 번이었거든! 너는? 5년 뒤에 뭐 하고 있을 것 같아?",
+   "note": "dentro de = ~후에",
+   "tags": [
+    "expr:y tú"
+   ],
+   "new": [],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Tocando la guitarra en un concierto enorme. Con éxito, dinero y un sofá nuevo.",
+   "rd": "또깐도 라 기따라 엔 운 꼰씨에르또 에노르메. 꼰 엑시또, 디네로 이 운 소파 누에보.",
+   "ko": "큰 콘서트에서 기타 치고 있겠지. 성공하고, 돈 벌고, 새 소파 사고.",
+   "note": "éxito = 성공(×출구) · concierto = 콘서트",
+   "tags": [],
+   "new": [
+    "concierto",
+    "éxito",
+    "sofá"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "¿Un sofá? Sueñas a lo grande, ¿eh?",
+   "rd": "운 소파? 수에냐스 아 로 그란데, 에?",
+   "ko": "소파? 꿈 한번 크다?",
+   "note": "soñar a lo grande = 크게 꿈꾸다",
+   "tags": [],
+   "new": [
+    "soñar"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Es un sueño sencillo. El nuestro tiene un agujero con forma de gato.",
+   "rd": "에스 운 수에뇨 센씨요. 엘 누에스뜨로 띠에네 운 아구헤로 꼰 포르마 데 가또.",
+   "ko": "소박한 꿈이야. 우리 소파엔 고양이 모양 구멍이 있잖아.",
+   "note": "sencillo = 소박한·간단한 · agujero = 구멍",
+   "tags": [],
+   "new": [
+    "sencillo",
+    "agujero"
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Pero si me quedo, tengo que buscar piso. Y los precios aquí son una locura.",
+   "rd": "뻬로 시 메 께도, 뗀고 께 부스까르 삐소. 이 로스 쁘레씨오스 아끼 손 우나 로꾸라.",
+   "ko": "근데 남으면 집 구해야 해. 여기 집값 미쳤잖아.",
+   "note": "locura = 미친 짓·말도 안 되는 것",
+   "tags": [],
+   "new": [
+    "locura",
+    "precio"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "¿Buscar piso? ¿Por qué? ¿No estás cómodo aquí?",
+   "rd": "부스까르 삐소? 뽀르 께? 노 에스따스 꼬모도 아끼?",
+   "ko": "집을 구한다고? 왜? 여기 불편해?",
+   "note": "cómodo = 편한",
+   "tags": [],
+   "new": [
+    "cómodo"
+   ],
+   "tl_f": "¿Buscar piso? ¿Por qué? ¿No estás cómoda aquí?",
+   "emotion": "surprised",
+   "rd_f": "부스까르 삐소? 뽀르 께? 노 에스따스 꼬모다 아끼?"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Claro que sí. Pero pensé que querías vivir solo algún día.",
+   "rd": "끌라로 께 시. 뻬로 뻰세 께 께리아스 비비르 솔로 알군 디아.",
+   "ko": "당연히 편하지. 근데 너 언젠가 혼자 살고 싶어 할 줄 알았어.",
+   "note": "algún día = 언젠가",
+   "tags": [
+    "expr:claro"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "… ¿Y quién me va a decir que mi canción nueva es horrible? Quédate.",
+   "rd": "… 이 끼엔 메 바 아 데씨르 께 미 깐씨온 누에바 에스 오리블레? 께다떼.",
+   "ko": "…그럼 내 신곡 별로라고 누가 말해 줘? 있어.",
+   "note": "horrible = 끔찍한·별로인",
+   "tags": [],
+   "new": [
+    "horrible"
+   ],
+   "segs": [
+    [
+     "shy",
+     "…"
+    ],
+    [
+     "gentle",
+     "¿Y quién me va a decir que mi canción nueva es horrible? Quédate."
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Tu canción nueva es horrible.",
+   "rd": "뚜 깐씨온 누에바 에스 오리블레.",
+   "ko": "네 신곡 별로야.",
+   "note": "es horrible = 별로다",
+   "tags": [],
+   "new": [],
+   "emotion": "amused"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "¿Ves? Eso no viene en ningún anuncio. Dos años más de contrato, compañero.",
+   "rd": "베스? 에소 노 비에네 엔 닌군 아눈씨오. 도스 아뇨스 마스 데 꼰뜨라또, 꼼빠녜로.",
+   "ko": "봤지? 이런 건 어느 매물 광고에도 없어. 계약 2년 연장이다, 친구.",
+   "note": "anuncio = 광고(매물) · contrato = 계약",
+   "tags": [
+    "callback:r5_t01_life"
+   ],
+   "new": [
+    "anuncio",
+    "contrato",
+    "compañero"
+   ],
+   "tl_f": "¿Ves? Eso no viene en ningún anuncio. Dos años más de contrato, compañera.",
+   "emotion": "cheerful",
+   "rd_f": "베스? 에소 노 비에네 엔 닌군 아눈씨오. 도스 아뇨스 마스 데 꼰뜨라또, 꼼빠녜라."
+  }
+ ],
+ "draft": "claude"
+}

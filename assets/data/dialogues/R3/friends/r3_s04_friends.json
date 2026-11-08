@@ -1,0 +1,154 @@
+{
+ "id": "r3_s04_friends",
+ "region": "R3",
+ "stage": 4,
+ "source": "r1_s04_friends",
+ "level_name": "그래머2(복수·존댓말)",
+ "island": "friends",
+ "kind": "short",
+ "title": "다 좋아한다면서요",
+ "emoji": "🍫",
+ "scene": "4단계 「다 좋아한다며」를 존댓말로 — Javi 네 집, Javi 어머니가 저녁을 해 주신다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Madre de Javi"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "같은 이야기를 usted(¿le gusta?)·nos gusta 로 — 새 단어 0",
+ "expressions": [
+  "me encanta",
+  "claro",
+  "de verdad",
+  "vale",
+  "bueno"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hago la cena. ¿Le gusta el ajo?",
+   "rd": "아고 라 쎄나. 레 구스따 엘 아호?",
+   "ko": "저녁 할게요. 마늘 좋아해요?",
+   "note": "¿le gusta? = usted 에게 묻는 gustar",
+   "tags": [
+    "form:usted",
+    "form:gustar"
+   ],
+   "new": [],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Sí, me gusta mucho el ajo.",
+   "rd": "시, 메 구스따 무초 엘 아호.",
+   "ko": "네, 마늘 엄청 좋아해요.",
+   "note": "me gusta = 나는 좋아한다",
+   "tags": [
+    "form:gustar"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "¿Y le gustan las patatas?",
+   "rd": "이 레 구스딴 라스 빠따따스?",
+   "ko": "감자도 좋아해요?",
+   "note": "le gustan = usted 에게 + 복수 명사",
+   "tags": [
+    "form:usted",
+    "form:gustar"
+   ],
+   "new": [],
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Me encantan. Me gusta todo, de verdad.",
+   "rd": "메 엔깐딴. 메 구스따 또도, 데 베르다드.",
+   "ko": "완전 좋아해요. 진짜 다 좋아해요.",
+   "note": "me encantan = 엄청 좋아해요",
+   "tags": [
+    "expr:me encanta",
+    "expr:de verdad"
+   ],
+   "new": [],
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "¿Todo? ¿También el chocolate?",
+   "rd": "또도? 땀비엔 엘 초꼴라떼?",
+   "ko": "다요? 초콜릿도요?",
+   "note": "también = ~도",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Claro. A Javi y a mí nos gusta todo.",
+   "rd": "끌라로. 아 하비 이 아 미 노스 구스따 또도.",
+   "ko": "그럼요. 하비랑 저는 다 좋아해요.",
+   "note": "nos gusta = 우리에게 좋다(1인칭 복수)",
+   "tags": [
+    "expr:claro",
+    "form:nosotros",
+    "form:gustar"
+   ],
+   "new": [],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Vale. Patatas, ajo, chocolate… y pescado.",
+   "rd": "발레. 빠따따스, 아호, 초꼴라떼… 이 뻬스까도.",
+   "ko": "좋아요. 감자, 마늘, 초콜릿… 그리고 생선.",
+   "note": "말한 대로 전부 넣는다",
+   "tags": [
+    "expr:vale"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Vale."
+    ],
+    [
+     "excited",
+     "Patatas, ajo, chocolate… y pescado."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Bueno… no nos gusta todo.",
+   "rd": "부에노… 노 노스 구스따 또도.",
+   "ko": "그게… 다 좋아하는 건 아니에요.",
+   "note": "no nos gusta = 우리는 안 좋아한다",
+   "tags": [
+    "expr:bueno",
+    "form:nosotros"
+   ],
+   "new": [],
+   "emotion": "flustered"
+  }
+ ],
+ "draft": "claude"
+}

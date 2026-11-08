@@ -1,0 +1,178 @@
+{
+ "id": "r2_s05_friends",
+ "region": "R2",
+ "stage": 5,
+ "level_name": "챗 실전",
+ "island": "friends",
+ "kind": "chat",
+ "title": "생일 다음 날",
+ "emoji": "🎂",
+ "scene": "Lucía 의 생일을 놓쳤다고 사과하는 채팅 — 상황 5 「사과」",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lucía"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "채팅으로 사과하기·놀림 받아치기",
+ "expressions": [
+  "lo siento",
+  "qué pasa",
+  "perdona",
+  "de verdad",
+  "ya",
+  "tío"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Lucía, lo siento mucho. Me olvidé.",
+   "rd": "루씨아, 로 시엔또 무초. 메 올비데.",
+   "ko": "루시아, 진짜 미안해. 깜빡했어.",
+   "note": "lo siento = 미안해",
+   "tags": [
+    "expr:lo siento",
+    "form:indefinido"
+   ],
+   "new": [
+    "olvidar"
+   ],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "09:15"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "¿De qué? ¿Qué pasa?",
+   "rd": "데 께? 께 빠사?",
+   "ko": "뭘? 무슨 일인데?",
+   "note": "¿qué pasa? = 무슨 일이야?",
+   "tags": [
+    "expr:qué pasa"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "09:20"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Tu cumple. Ayer. Perdona, de verdad.",
+   "rd": "뚜 꿈쁠레. 아예르. 뻬르도나, 데 베르다드.",
+   "ko": "네 생일. 어제. 정말 미안.",
+   "note": "cumple = cumpleaños 줄임",
+   "tags": [
+    "expr:perdona",
+    "expr:de verdad"
+   ],
+   "new": [
+    "cumple"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "09:20",
+   "stamp": "🙏"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Ya… estuve sola toda la noche.",
+   "rd": "야… 에스뚜베 솔라 또다 라 노체.",
+   "ko": "그래… 밤새 혼자 있었지.",
+   "note": "estuve = 있었어(estar 단순과거)",
+   "tags": [
+    "expr:ya",
+    "form:indefinido"
+   ],
+   "new": [],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "09:22",
+   "stamp": "😢"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Te invito a cenar hoy. Eliges tú.",
+   "rd": "떼 인비또 아 쎄나르 오이. 엘리헤스 뚜.",
+   "ko": "오늘 저녁 내가 살게. 네가 골라.",
+   "note": "te invito = 내가 낼게",
+   "tags": [],
+   "new": [
+    "elegir"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "09:23"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Jajaja. Tío, mi cumple es mañana.",
+   "rd": "하하하. 띠오, 미 꿈쁠레 에스 마냐나.",
+   "ko": "ㅋㅋㅋ 야, 내 생일 내일이야.",
+   "note": "mañana = 내일",
+   "tags": [
+    "expr:tío"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Jajaja."
+    ],
+    [
+     "teasing",
+     "Tío, mi cumple es mañana."
+    ]
+   ],
+   "tl_f": "Jajaja. Tía, mi cumple es mañana.",
+   "ui": "bubble",
+   "at": "09:25",
+   "rd_f": "하하하. 띠아, 미 꿈쁠레 에스 마냐나."
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "¿Mañana? ¿Y lo de «sola toda la noche»?",
+   "rd": "마냐나? 이 로 데 «솔라 또다 라 노체»?",
+   "ko": "내일? 그럼 「밤새 혼자」는 뭔데?",
+   "note": "lo de ~ = ~라는 거",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "09:25"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Quería verte sufrir. La cena sigue, ¿eh?",
+   "rd": "께리아 베르떼 수프리르. 라 쎄나 시게, 에?",
+   "ko": "네가 쩔쩔매는 거 보고 싶었지. 저녁은 그대로다?",
+   "note": "quería = ~하고 싶었어(불완료)",
+   "tags": [
+    "form:imperfecto"
+   ],
+   "new": [
+    "sufrir"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "09:26",
+   "stamp": "😘"
+  }
+ ],
+ "draft": "claude"
+}
