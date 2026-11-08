@@ -51,6 +51,11 @@ A 는 남녀 모두다. A 의 말이나 A 를 부르는 말이 성에 따라 바
 - **감정(사용자 지시 2026-11-07)**: 턴마다 음성을 고려한 `emotion` 을 쓴다. 값 = neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle. 한 턴에서 감정이 바뀌면 `emotion` 대신 `segs`(`[[감정, 본문], …]`, 이어 붙이면 `tl`)로 나눈다. neutral 만 쓰지 말 것 — 심쿵 턴은 gentle·shy, 받아치기는 tsukkomi.
 - `rd` 는 비워 두고 `python3 tools/check_dialogues.py --fix-rd <폴더>` 로 채운다. 틀린 곳만 손으로 고치고 `"rd_manual":true`.
 
+## 굴절 반복(사용자 지시 2026-11-08 — 학습자가 굴절에 익숙해지게)
+- 편마다 핵심 동사·형용사·명사 **3개 이상(레벨 0 은 2개 이상)이 서로 다른 형태로** 나오게 쓴다. 주고받기 속에서 자연스럽게: `¿Tienes hambre? — Tengo mucha. — Javi siempre tiene hambre.` / `¿Estás cansado? — Cansada no, estoy muerta.` / 단수 레벨은 yo·tú·él/ella 와 남성·여성(cansado/cansada, guapo/guapa), 레벨 3 부터 복수(tenemos·tenéis·tienen, cansados/cansadas).
+- 단어는 **많이 쓰이는 말(절벽구간 상위 단어)을 우선** — 레벨 0~3 은 내용어의 80% 이상이 570위 안이면 좋다. 절대 기준은 아니고 **재미와 자연스러움이 먼저**.
+- 점검: `<spaCy 가 든 python> tools/inflection_audit.py` — 편마다 굴절 반복 수와 많이 쓰는 단어 비율.
+
 ## 레벨 = 문법 단계(굴절어 전략 A1, 사용자 결정 2026-11-08) — 폴더 R 숫자 = 회화 레벨
 `docs/DIALOGUE_RULES_es.md` 참고. 단어 메뉴 R1~R5(절벽 tier)와 다른 번호다. 각 편에 `stage`(단계 번호)와 `level_name` 을 적는다. 핵심 문장 = 회화 편의 줄(변형 카드 450 은 동결 대상이라 아직 안 씀).
 
