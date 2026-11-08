@@ -11,6 +11,7 @@ import '../widgets/achievement_desk.dart';
 import '../widgets/episode_play_pane.dart';
 import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';
+import 'alphabet_chart_screen.dart';
 import 'dialogue_card_screen.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
@@ -228,7 +229,7 @@ class _LearnTabState extends State<LearnTab> {
         const SizedBox(height: 14),
         _TodayCard(key: ValueKey(DialogueService.instance.all.length)), // 회화를 다 읽은 뒤 다시 그려지게(const 면 setState 로도 안 바뀜)
         _section(tr('기초')),
-        _NavRow(badge: 'rr', color: AppColors.er, title: tr('발음'), subtitle: tr('준비 중'), onTap: () => openPane(context, (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)')))),
+        _NavRow(badge: 'Ñ', color: AppColors.er, title: tr('알파벳과 발음'), subtitle: tr('글자 27 · 겹글자 · θ·x·rr · 강세'), onTap: () => openPane(context, (_) => const AlphabetChartScreen())),
         _section(tr('문법')),
         _NavRow(
             badge: 'V',

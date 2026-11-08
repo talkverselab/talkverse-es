@@ -1,0 +1,1423 @@
+{
+ "version": 1,
+ "units": [
+  {
+   "id": "a",
+   "group": "vowel",
+   "letter": "A a",
+   "name": "a",
+   "ipa": "a",
+   "rd": "아",
+   "say": "a",
+   "place": [
+    "vowel"
+   ],
+   "korSim": "아",
+   "mouth": "입을 크게 벌리고 혀는 낮게, 입안 한가운데에 둔다.",
+   "compare": "한국어 '아'와 거의 같다. 강세가 없어도 '어'처럼 흐려지지 않고 늘 또렷한 '아'.",
+   "examples": [
+    {
+     "es": "casa",
+     "rd": "까사",
+     "ko": "집",
+     "rank": 69
+    },
+    {
+     "es": "agua",
+     "rd": "아구아",
+     "ko": "물",
+     "rank": 255
+    },
+    {
+     "es": "hablar",
+     "rd": "아블라르",
+     "ko": "말하다",
+     "rank": 50
+    }
+   ]
+  },
+  {
+   "id": "e",
+   "group": "vowel",
+   "letter": "E e",
+   "name": "e",
+   "ipa": "e",
+   "rd": "에",
+   "say": "e",
+   "place": [
+    "vowel"
+   ],
+   "korSim": "에",
+   "mouth": "혀를 앞쪽 중간 높이에 두고 입을 반쯤 벌린다.",
+   "compare": "한국어 '에'와 거의 같다. 영어 say 처럼 '에이'로 미끄러지지 않는다.",
+   "examples": [
+    {
+     "es": "bien",
+     "rd": "비엔",
+     "ko": "잘/좋은",
+     "rank": 38
+    },
+    {
+     "es": "noche",
+     "rd": "노체",
+     "ko": "밤",
+     "rank": 117
+    },
+    {
+     "es": "gente",
+     "rd": "헨떼",
+     "ko": "사람들",
+     "rank": 143
+    }
+   ]
+  },
+  {
+   "id": "i",
+   "group": "vowel",
+   "letter": "I i",
+   "name": "i",
+   "ipa": "i",
+   "rd": "이",
+   "say": "i",
+   "place": [
+    "vowel"
+   ],
+   "korSim": "이",
+   "mouth": "혀를 앞·위로 높이고 입술은 옆으로 살짝 편다.",
+   "compare": "한국어 '이'와 같다. 짧고 또렷하게.",
+   "examples": [
+    {
+     "es": "sí",
+     "rd": "시",
+     "ko": "네/예",
+     "rank": 24
+    },
+    {
+     "es": "vida",
+     "rd": "비다",
+     "ko": "삶/인생",
+     "rank": 93
+    },
+    {
+     "es": "día",
+     "rd": "디아",
+     "ko": "날/하루",
+     "rank": 63
+    }
+   ]
+  },
+  {
+   "id": "o",
+   "group": "vowel",
+   "letter": "O o",
+   "name": "o",
+   "ipa": "o",
+   "rd": "오",
+   "say": "o",
+   "place": [
+    "vowel"
+   ],
+   "korSim": "오",
+   "mouth": "혀를 뒤쪽 중간 높이에 두고 입술을 둥글게 한다.",
+   "compare": "한국어 '오'보다 입을 조금 더 벌린다('오'와 '어' 사이로 살짝 내려감). 영어 go 처럼 '오우'가 되지 않게.",
+   "examples": [
+    {
+     "es": "no",
+     "rd": "노",
+     "ko": "아니/~않다",
+     "rank": 3
+    },
+    {
+     "es": "todo",
+     "rd": "또도",
+     "ko": "모든/전부",
+     "rank": 33
+    },
+    {
+     "es": "ojo",
+     "rd": "오호",
+     "ko": "눈",
+     "rank": 248
+    }
+   ]
+  },
+  {
+   "id": "u",
+   "group": "vowel",
+   "letter": "U u",
+   "name": "u",
+   "ipa": "u",
+   "rd": "우",
+   "say": "u",
+   "place": [
+    "vowel"
+   ],
+   "korSim": "우",
+   "mouth": "혀를 뒤·위로 높이고 입술을 동그랗게 내민다.",
+   "compare": "한국어 '우'와 같다. 입술을 확실히 내민다('으'가 되지 않게).",
+   "examples": [
+    {
+     "es": "uno",
+     "rd": "우노",
+     "ko": "하나",
+     "rank": 9
+    },
+    {
+     "es": "mucho",
+     "rd": "무초",
+     "ko": "많이/많은",
+     "rank": 34
+    },
+    {
+     "es": "mundo",
+     "rd": "문도",
+     "ko": "세계",
+     "rank": 165
+    }
+   ]
+  },
+  {
+   "id": "b",
+   "group": "cons",
+   "letter": "B b",
+   "name": "be",
+   "ipa": "b · β",
+   "rd": "베",
+   "say": "be",
+   "place": [
+    "bilabial"
+   ],
+   "korSim": "ㅂ",
+   "mouth": "두 입술을 붙였다 떼며 성대를 울린다. 모음 사이에서는 입술을 다 닫지 않고 살짝 스치기만 한다[β].",
+   "compare": "b 와 v 는 소리가 같다. 단어 첫머리는 ㅂ보다 성대가 먼저 울리는 [b], 모음 사이는 입술이 덜 닫힌 부드러운 [β].",
+   "examples": [
+    {
+     "es": "bien",
+     "rd": "비엔",
+     "ko": "잘/좋은",
+     "rank": 38
+    },
+    {
+     "es": "beber",
+     "rd": "베베르",
+     "ko": "마시다",
+     "rank": 365
+    },
+    {
+     "es": "hombre",
+     "rd": "옴브레",
+     "ko": "남자",
+     "rank": 74
+    }
+   ]
+  },
+  {
+   "id": "c",
+   "group": "cons",
+   "letter": "C c",
+   "name": "ce",
+   "ipa": "k · θ",
+   "rd": "쎄",
+   "say": "ce",
+   "place": [
+    "velar",
+    "interdental"
+   ],
+   "korSim": "ㄲ / (θ)",
+   "mouth": "a·o·u·자음 앞에서는 혀 뒤를 여린입천장에 붙였다 떼는 [k]. e·i 앞에서는 혀끝을 이 사이에 두고 바람을 내는 [θ].",
+   "compare": "ca·co·cu 는 숨이 거의 없는 ㄲ에 가까운 소리, ce·ci 는 영어 think 의 th(한국어에 없음).",
+   "examples": [
+    {
+     "es": "casa",
+     "rd": "까사",
+     "ko": "집",
+     "rank": 69
+    },
+    {
+     "es": "cinco",
+     "rd": "씬꼬",
+     "ko": "다섯",
+     "rank": 311
+    },
+    {
+     "es": "cosa",
+     "rd": "꼬사",
+     "ko": "것",
+     "rank": 68
+    }
+   ]
+  },
+  {
+   "id": "d",
+   "group": "cons",
+   "letter": "D d",
+   "name": "de",
+   "ipa": "d · ð",
+   "rd": "데",
+   "say": "de",
+   "place": [
+    "dental"
+   ],
+   "korSim": "ㄷ",
+   "mouth": "혀끝을 윗니 뒤에 붙였다 떼며 성대를 울린다. 모음 사이·단어 끝에서는 혀끝을 이에 가볍게 대고 흘리듯[ð].",
+   "compare": "단어 첫머리는 ㄷ보다 성대가 먼저 울리는 [d]. 모음 사이는 영어 this 의 th 처럼 약해지고, 단어 끝(verdad)은 거의 들리지 않을 만큼 약하다.",
+   "examples": [
+    {
+     "es": "día",
+     "rd": "디아",
+     "ko": "날/하루",
+     "rank": 63
+    },
+    {
+     "es": "todo",
+     "rd": "또도",
+     "ko": "모든/전부",
+     "rank": 33
+    },
+    {
+     "es": "verdad",
+     "rd": "베르다드",
+     "ko": "진실",
+     "rank": 80
+    }
+   ]
+  },
+  {
+   "id": "f",
+   "group": "cons",
+   "letter": "F f",
+   "name": "efe",
+   "ipa": "f",
+   "rd": "에페",
+   "say": "efe",
+   "place": [
+    "labiodental"
+   ],
+   "korSim": "ㅍ (정확히 같지 않음)",
+   "mouth": "윗니를 아랫입술에 가볍게 대고 그 틈으로 바람을 낸다.",
+   "compare": "한국어 ㅍ은 두 입술을 터뜨리는 소리라 다르다. 영어 f 처럼 윗니-아랫입술.",
+   "examples": [
+    {
+     "es": "favor",
+     "rd": "파보르",
+     "ko": "부탁",
+     "rank": 72
+    },
+    {
+     "es": "fuego",
+     "rd": "푸에고",
+     "ko": "불",
+     "rank": 546
+    },
+    {
+     "es": "café",
+     "rd": "까페",
+     "ko": "커피",
+     "rank": 410
+    }
+   ]
+  },
+  {
+   "id": "g",
+   "group": "cons",
+   "letter": "G g",
+   "name": "ge",
+   "ipa": "g · x",
+   "rd": "헤",
+   "say": "ge",
+   "place": [
+    "velar"
+   ],
+   "korSim": "ㄱ / (거친 ㅎ)",
+   "mouth": "a·o·u·자음 앞에서는 혀 뒤를 여린입천장에 붙였다 떼며 성대를 울리는 [g]. e·i 앞에서는 j 와 같은 목 깊은 곳 마찰음 [x].",
+   "compare": "ga·go·gu 는 ㄱ보다 성대가 먼저 울리는 소리, ge·gi 는 '헤·히'를 목 깊은 곳에서 거칠게.",
+   "examples": [
+    {
+     "es": "gato",
+     "rd": "가또",
+     "ko": "고양이",
+     "rank": 963
+    },
+    {
+     "es": "amigo",
+     "rd": "아미고",
+     "ko": "친구",
+     "rank": 133
+    },
+    {
+     "es": "gente",
+     "rd": "헨떼",
+     "ko": "사람들",
+     "rank": 143
+    }
+   ]
+  },
+  {
+   "id": "h",
+   "group": "cons",
+   "letter": "H h",
+   "name": "hache",
+   "ipa": "— (묵음)",
+   "rd": "아체",
+   "say": "hache",
+   "place": [
+    "none"
+   ],
+   "korSim": "(소리 없음)",
+   "mouth": "소리를 내지 않는다. ch 로 쓸 때만 소리가 있다.",
+   "compare": "h 는 읽지 않는다. hola = '올라'. 한국어 ㅎ처럼 읽지 않도록.",
+   "examples": [
+    {
+     "es": "hola",
+     "rd": "올라",
+     "ko": "안녕",
+     "rank": 78
+    },
+    {
+     "es": "hombre",
+     "rd": "옴브레",
+     "ko": "남자",
+     "rank": 74
+    },
+    {
+     "es": "hora",
+     "rd": "오라",
+     "ko": "시간",
+     "rank": 148
+    }
+   ]
+  },
+  {
+   "id": "j",
+   "group": "cons",
+   "letter": "J j",
+   "name": "jota",
+   "ipa": "x",
+   "rd": "호따",
+   "say": "jota",
+   "place": [
+    "velar"
+   ],
+   "korSim": "ㅎ (더 거칠게)",
+   "mouth": "혀 뒤를 여린입천장 가까이 올리고 좁은 틈으로 바람을 세게 긁어 낸다.",
+   "compare": "j = 목 깊은 곳 ㅎ, 한국어 ㅎ보다 거칠게(가래 끓는 듯한 마찰). 영어 j 처럼 읽으면 안 된다.",
+   "examples": [
+    {
+     "es": "jefe",
+     "rd": "헤페",
+     "ko": "상사",
+     "rank": 343
+    },
+    {
+     "es": "ojo",
+     "rd": "오호",
+     "ko": "눈",
+     "rank": 248
+    },
+    {
+     "es": "joven",
+     "rd": "호벤",
+     "ko": "젊은",
+     "rank": 346
+    }
+   ]
+  },
+  {
+   "id": "k",
+   "group": "cons",
+   "letter": "K k",
+   "name": "ka",
+   "ipa": "k",
+   "rd": "까",
+   "say": "ka",
+   "place": [
+    "velar"
+   ],
+   "korSim": "ㄲ",
+   "mouth": "혀 뒤를 여린입천장에 붙였다 떼며 터뜨린다. 숨은 거의 내지 않는다.",
+   "compare": "외래어에만 쓰인다. 한국어 ㅋ처럼 숨을 세게 내지 않아 ㄲ에 가깝게 들린다.",
+   "examples": [
+    {
+     "es": "kilo",
+     "rd": "낄로",
+     "ko": "킬로",
+     "rank": 1532
+    },
+    {
+     "es": "kilómetro",
+     "rd": "낄로메뜨로",
+     "ko": "킬로미터",
+     "rank": 1649
+    }
+   ]
+  },
+  {
+   "id": "l",
+   "group": "cons",
+   "letter": "L l",
+   "name": "ele",
+   "ipa": "l",
+   "rd": "엘레",
+   "say": "ele",
+   "place": [
+    "alveolar"
+   ],
+   "korSim": "ㄹ (받침 ㄹ에 가깝게)",
+   "mouth": "혀끝을 윗잇몸에 붙인 채 혀 양옆으로 소리를 흘린다.",
+   "compare": "한국어 '올라'의 ㄹㄹ처럼 혀끝을 붙인다. 튕기는 r 과 구별할 것.",
+   "examples": [
+    {
+     "es": "libro",
+     "rd": "리브로",
+     "ko": "책",
+     "rank": 364
+    },
+    {
+     "es": "luna",
+     "rd": "루나",
+     "ko": "달",
+     "rank": 817
+    },
+    {
+     "es": "sol",
+     "rd": "솔",
+     "ko": "해",
+     "rank": 559
+    }
+   ]
+  },
+  {
+   "id": "m",
+   "group": "cons",
+   "letter": "M m",
+   "name": "eme",
+   "ipa": "m",
+   "rd": "에메",
+   "say": "eme",
+   "place": [
+    "bilabial"
+   ],
+   "korSim": "ㅁ",
+   "mouth": "두 입술을 붙이고 코로 소리를 낸다.",
+   "compare": "한국어 ㅁ과 같다.",
+   "examples": [
+    {
+     "es": "madre",
+     "rd": "마드레",
+     "ko": "어머니",
+     "rank": 108
+    },
+    {
+     "es": "mamá",
+     "rd": "마마",
+     "ko": "엄마",
+     "rank": 140
+    },
+    {
+     "es": "mesa",
+     "rd": "메사",
+     "ko": "탁자",
+     "rank": 620
+    }
+   ]
+  },
+  {
+   "id": "n",
+   "group": "cons",
+   "letter": "N n",
+   "name": "ene",
+   "ipa": "n",
+   "rd": "에네",
+   "say": "ene",
+   "place": [
+    "alveolar"
+   ],
+   "korSim": "ㄴ",
+   "mouth": "혀끝을 윗잇몸에 붙이고 코로 소리를 낸다.",
+   "compare": "한국어 ㄴ과 같다. b·p·m 앞에서는 ㅁ처럼, c·g 앞에서는 ㅇ받침처럼 된다.",
+   "examples": [
+    {
+     "es": "no",
+     "rd": "노",
+     "ko": "아니/~않다",
+     "rank": 3
+    },
+    {
+     "es": "noche",
+     "rd": "노체",
+     "ko": "밤",
+     "rank": 117
+    },
+    {
+     "es": "nunca",
+     "rd": "눈까",
+     "ko": "결코 ~않다",
+     "rank": 106
+    }
+   ]
+  },
+  {
+   "id": "ñ",
+   "group": "cons",
+   "letter": "Ñ ñ",
+   "name": "eñe",
+   "ipa": "ɲ",
+   "rd": "에녜",
+   "say": "eñe",
+   "place": [
+    "palatal"
+   ],
+   "korSim": "냐·녜·니·뇨·뉴의 ㄴ",
+   "mouth": "혀 가운데를 센입천장에 넓게 붙이고 코로 소리를 낸다.",
+   "compare": "한국어 '냐·뇨'의 첫소리와 거의 같다. n 과는 다른 글자라 ñ 을 n 으로 읽으면 다른 낱말이 된다.",
+   "examples": [
+    {
+     "es": "año",
+     "rd": "아뇨",
+     "ko": "해/년",
+     "rank": 103
+    },
+    {
+     "es": "niño",
+     "rd": "니뇨",
+     "ko": "아이",
+     "rank": 139
+    },
+    {
+     "es": "mañana",
+     "rd": "마냐나",
+     "ko": "내일/아침",
+     "rank": 132
+    }
+   ]
+  },
+  {
+   "id": "p",
+   "group": "cons",
+   "letter": "P p",
+   "name": "pe",
+   "ipa": "p",
+   "rd": "뻬",
+   "say": "pe",
+   "place": [
+    "bilabial"
+   ],
+   "korSim": "ㅃ",
+   "mouth": "두 입술을 붙였다 떼며 터뜨린다. 숨은 거의 내지 않는다.",
+   "compare": "한국어 ㅍ처럼 숨을 세게 내지 않는다. 된소리 ㅃ에 가깝게 들린다.",
+   "examples": [
+    {
+     "es": "pan",
+     "rd": "빤",
+     "ko": "빵",
+     "rank": 898
+    },
+    {
+     "es": "padre",
+     "rd": "빠드레",
+     "ko": "아버지",
+     "rank": 85
+    },
+    {
+     "es": "pero",
+     "rd": "뻬로",
+     "ko": "하지만",
+     "rank": 25
+    }
+   ]
+  },
+  {
+   "id": "q",
+   "group": "cons",
+   "letter": "Q q",
+   "name": "cu",
+   "ipa": "k",
+   "rd": "꾸",
+   "say": "cu",
+   "place": [
+    "velar"
+   ],
+   "korSim": "ㄲ",
+   "mouth": "늘 qu 로 쓰고 e·i 앞에서만 나온다. u 는 읽지 않는다.",
+   "compare": "que = '께', qui = '끼'. '꾸에'로 읽지 않는다.",
+   "examples": [
+    {
+     "es": "qué",
+     "rd": "께",
+     "ko": "무엇/어떤",
+     "rank": 15
+    },
+    {
+     "es": "quiero",
+     "rd": "끼에로",
+     "ko": "나는 원한다(querer)"
+    },
+    {
+     "es": "aquí",
+     "rd": "아끼",
+     "ko": "여기",
+     "rank": 40
+    }
+   ]
+  },
+  {
+   "id": "r",
+   "group": "cons",
+   "letter": "R r",
+   "name": "erre",
+   "ipa": "ɾ · r",
+   "rd": "에레",
+   "say": "erre",
+   "place": [
+    "alveolar"
+   ],
+   "korSim": "ㄹ",
+   "mouth": "모음 사이에서는 혀끝으로 윗잇몸을 한 번 튕긴다[ɾ]. 단어 첫머리와 l·n·s 뒤에서는 여러 번 떨린다[r].",
+   "compare": "ㄹ과 비슷하지만 혀끝을 한 번 튕김. 단어 첫 r(rojo)은 rr 처럼 혀를 떨어 준다. 영어 r 처럼 혀를 말지 않는다.",
+   "examples": [
+    {
+     "es": "pero",
+     "rd": "뻬로",
+     "ko": "하지만",
+     "rank": 25
+    },
+    {
+     "es": "cara",
+     "rd": "까라",
+     "ko": "얼굴",
+     "rank": 246
+    },
+    {
+     "es": "rojo",
+     "rd": "로호",
+     "ko": "빨강",
+     "rank": 531
+    }
+   ]
+  },
+  {
+   "id": "s",
+   "group": "cons",
+   "letter": "S s",
+   "name": "ese",
+   "ipa": "s",
+   "rd": "에세",
+   "say": "ese",
+   "place": [
+    "alveolar"
+   ],
+   "korSim": "ㅅ",
+   "mouth": "혀끝을 윗잇몸 쪽으로 올려 좁은 틈으로 바람을 낸다. 스페인(카스티야)에서는 혀끝을 살짝 들어 올려 낸다.",
+   "compare": "한국어 ㅅ과 비슷하지만 '쉬'쪽으로 조금 기운 소리. 시·사 모두 같은 s 로 낸다(한국어처럼 '시'만 바뀌지 않음).",
+   "examples": [
+    {
+     "es": "sí",
+     "rd": "시",
+     "ko": "네/예",
+     "rank": 24
+    },
+    {
+     "es": "casa",
+     "rd": "까사",
+     "ko": "집",
+     "rank": 69
+    },
+    {
+     "es": "seis",
+     "rd": "세이스",
+     "ko": "여섯",
+     "rank": 466
+    }
+   ]
+  },
+  {
+   "id": "t",
+   "group": "cons",
+   "letter": "T t",
+   "name": "te",
+   "ipa": "t",
+   "rd": "떼",
+   "say": "te",
+   "place": [
+    "dental"
+   ],
+   "korSim": "ㄸ",
+   "mouth": "혀끝을 윗니 뒤에 붙였다 떼며 터뜨린다. 숨은 거의 내지 않는다.",
+   "compare": "한국어 ㅌ처럼 숨을 세게 내지 않는다. 된소리 ㄸ에 가깝다.",
+   "examples": [
+    {
+     "es": "tú",
+     "rd": "뚜",
+     "ko": "너",
+     "rank": 12
+    },
+    {
+     "es": "tiempo",
+     "rd": "띠엠뽀",
+     "ko": "시간/날씨",
+     "rank": 102
+    },
+    {
+     "es": "todo",
+     "rd": "또도",
+     "ko": "모든/전부",
+     "rank": 33
+    }
+   ]
+  },
+  {
+   "id": "v",
+   "group": "cons",
+   "letter": "V v",
+   "name": "uve",
+   "ipa": "b · β",
+   "rd": "우베",
+   "say": "uve",
+   "place": [
+    "bilabial"
+   ],
+   "korSim": "ㅂ",
+   "mouth": "b 와 똑같이 낸다. 윗니를 입술에 대지 않는다.",
+   "compare": "b·v 소리가 같다. 영어 v 처럼 윗니를 아랫입술에 대지 않는다.",
+   "examples": [
+    {
+     "es": "vida",
+     "rd": "비다",
+     "ko": "삶/인생",
+     "rank": 93
+    },
+    {
+     "es": "vino",
+     "rd": "비노",
+     "ko": "포도주"
+    },
+    {
+     "es": "verdad",
+     "rd": "베르다드",
+     "ko": "진실",
+     "rank": 80
+    }
+   ]
+  },
+  {
+   "id": "w",
+   "group": "cons",
+   "letter": "W w",
+   "name": "uve doble",
+   "ipa": "w",
+   "rd": "우베 도블레",
+   "say": "uve doble",
+   "place": [
+    "bilabial"
+   ],
+   "korSim": "우(와·위의 첫소리)",
+   "mouth": "입술을 둥글게 모았다가 다음 모음으로 미끄러진다.",
+   "compare": "외래어에만 쓰인다. 한국어 '와·위'의 첫소리와 같다.",
+   "examples": [
+    {
+     "es": "whisky",
+     "rd": "위스끼",
+     "ko": "위스키",
+     "rank": 1602
+    },
+    {
+     "es": "web",
+     "rd": "웹",
+     "ko": "웹"
+    }
+   ]
+  },
+  {
+   "id": "x",
+   "group": "cons",
+   "letter": "X x",
+   "name": "equis",
+   "ipa": "ks",
+   "rd": "에끼스",
+   "say": "equis",
+   "place": [
+    "velar",
+    "alveolar"
+   ],
+   "korSim": "ㄱ받침 + ㅅ",
+   "mouth": "[k]를 짧게 낸 뒤 바로 [s]로 이어 간다.",
+   "compare": "모음 사이에서는 '그스'처럼 이어 읽는다(taxi 딱시). México 같은 몇몇 이름에서는 j 처럼 [x].",
+   "examples": [
+    {
+     "es": "taxi",
+     "rd": "딱시",
+     "ko": "택시",
+     "rank": 1041
+    },
+    {
+     "es": "examen",
+     "rd": "엑사멘",
+     "ko": "시험",
+     "rank": 1126
+    },
+    {
+     "es": "México",
+     "rd": "메히꼬",
+     "ko": "멕시코"
+    }
+   ]
+  },
+  {
+   "id": "y",
+   "group": "cons",
+   "letter": "Y y",
+   "name": "ye",
+   "ipa": "ʝ · i",
+   "rd": "예",
+   "say": "ye",
+   "place": [
+    "palatal"
+   ],
+   "korSim": "야·예·요의 첫소리",
+   "mouth": "혀 가운데를 센입천장 가까이 올려 마찰을 살짝 섞어 낸다. 단어 끝·단독(y = 그리고)은 모음 [i].",
+   "compare": "ll·y = 대부분 '야' 처럼. 힘주면 '쟈'에 가깝게 들리기도 한다. hoy 처럼 끝에 오면 '이'.",
+   "examples": [
+    {
+     "es": "yo",
+     "rd": "요",
+     "ko": "나",
+     "rank": 8
+    },
+    {
+     "es": "ya",
+     "rd": "야",
+     "ko": "이미/벌써",
+     "rank": 36
+    },
+    {
+     "es": "hoy",
+     "rd": "오이",
+     "ko": "오늘",
+     "rank": 166
+    }
+   ]
+  },
+  {
+   "id": "z",
+   "group": "cons",
+   "letter": "Z z",
+   "name": "zeta",
+   "ipa": "θ",
+   "rd": "쎄따",
+   "say": "zeta",
+   "place": [
+    "interdental"
+   ],
+   "korSim": "ㅆ (정확히 같지 않음)",
+   "mouth": "혀끝을 윗니와 아랫니 사이에 살짝 내밀고 그 틈으로 바람을 낸다.",
+   "compare": "θ = 영어 think 의 th, 한국어에 없음. ㅆ으로 읽으면 중남미식으로 들린다.",
+   "examples": [
+    {
+     "es": "zapato",
+     "rd": "싸빠또",
+     "ko": "신발",
+     "rank": 1006
+    },
+    {
+     "es": "vez",
+     "rd": "베쓰",
+     "ko": "번/회",
+     "rank": 59
+    },
+    {
+     "es": "azul",
+     "rd": "아쑬",
+     "ko": "파랑",
+     "rank": 862
+    }
+   ]
+  },
+  {
+   "id": "ch",
+   "group": "digraph",
+   "letter": "ch",
+   "name": "che",
+   "ipa": "tʃ",
+   "rd": "체",
+   "say": "chico",
+   "place": [
+    "postalveolar"
+   ],
+   "korSim": "ㅊ",
+   "mouth": "혀 앞쪽을 잇몸 뒤에 붙였다가 떼면서 마찰을 섞어 낸다.",
+   "compare": "한국어 ㅊ과 거의 같다. 숨을 너무 세게 내지 않는다.",
+   "examples": [
+    {
+     "es": "chico",
+     "rd": "치꼬",
+     "ko": "소년",
+     "rank": 141
+    },
+    {
+     "es": "mucho",
+     "rd": "무초",
+     "ko": "많이/많은",
+     "rank": 34
+    },
+    {
+     "es": "noche",
+     "rd": "노체",
+     "ko": "밤",
+     "rank": 117
+    }
+   ]
+  },
+  {
+   "id": "ll",
+   "group": "digraph",
+   "letter": "ll",
+   "name": "elle (doble ele)",
+   "ipa": "ʝ",
+   "rd": "에예",
+   "say": "calle",
+   "place": [
+    "palatal"
+   ],
+   "korSim": "야·예·요의 첫소리",
+   "mouth": "y 와 같은 소리. 혀 가운데를 센입천장 가까이 올린다.",
+   "compare": "ll·y = 대부분 '야' 처럼. l 두 개로 읽지 않는다(calle = '까예').",
+   "examples": [
+    {
+     "es": "llamar",
+     "rd": "야마르",
+     "ko": "부르다",
+     "rank": 97
+    },
+    {
+     "es": "calle",
+     "rd": "까예",
+     "ko": "거리",
+     "rank": 336
+    },
+    {
+     "es": "ella",
+     "rd": "에야",
+     "ko": "그녀"
+    }
+   ]
+  },
+  {
+   "id": "rr",
+   "group": "digraph",
+   "letter": "rr",
+   "name": "erre doble",
+   "ipa": "r",
+   "rd": "에레 도블레",
+   "say": "perro",
+   "place": [
+    "alveolar"
+   ],
+   "korSim": "(ㄹ을 떨어서)",
+   "mouth": "혀끝을 윗잇몸 가까이 두고 숨으로 여러 번 떨게 한다.",
+   "compare": "한국어에 없는 소리. 혀끝을 2~3번 이상 떨어야 한다. pero(하지만) / perro(개)는 r 하나 차이로 뜻이 바뀐다.",
+   "examples": [
+    {
+     "es": "perro",
+     "rd": "뻬로",
+     "ko": "개",
+     "rank": 381
+    },
+    {
+     "es": "tierra",
+     "rd": "띠에라",
+     "ko": "땅/지구",
+     "rank": 332
+    },
+    {
+     "es": "guerra",
+     "rd": "게라",
+     "ko": "전쟁",
+     "rank": 317
+    }
+   ]
+  },
+  {
+   "id": "qu",
+   "group": "digraph",
+   "letter": "que · qui",
+   "name": "qu",
+   "ipa": "k",
+   "rd": "께 · 끼",
+   "say": "qué, quiero",
+   "place": [
+    "velar"
+   ],
+   "korSim": "ㄲ",
+   "mouth": "q 다음 u 는 읽지 않는다. 혀 뒤로 [k].",
+   "compare": "que = '께', qui = '끼'. ca·co·cu 와 같은 k 소리를 e·i 앞에서 쓰는 철자.",
+   "examples": [
+    {
+     "es": "qué",
+     "rd": "께",
+     "ko": "무엇/어떤",
+     "rank": 15
+    },
+    {
+     "es": "quiero",
+     "rd": "끼에로",
+     "ko": "나는 원한다(querer)"
+    },
+    {
+     "es": "aquí",
+     "rd": "아끼",
+     "ko": "여기",
+     "rank": 40
+    }
+   ]
+  },
+  {
+   "id": "gu",
+   "group": "digraph",
+   "letter": "gue · gui · güe · güi",
+   "name": "gu / gü",
+   "ipa": "g · gw",
+   "rd": "게 · 기 · 궤 · 귀",
+   "say": "guerra, vergüenza",
+   "place": [
+    "velar"
+   ],
+   "korSim": "ㄱ / 궤·귀",
+   "mouth": "gue·gui 의 u 는 읽지 않는다 [g]. 점 두 개(ü)가 있으면 u 를 읽는다 [gw].",
+   "compare": "guerra = '게라'(우 없음), vergüenza = '베르구엔싸'(우 있음). ge·gi(헤·히)와 소리가 다르니 철자로 구별.",
+   "examples": [
+    {
+     "es": "guerra",
+     "rd": "게라",
+     "ko": "전쟁",
+     "rank": 317
+    },
+    {
+     "es": "seguir",
+     "rd": "세기르",
+     "ko": "따르다/계속하다",
+     "rank": 128
+    },
+    {
+     "es": "vergüenza",
+     "rd": "베르구엔싸",
+     "ko": "부끄러움",
+     "rank": 786
+    }
+   ]
+  },
+  {
+   "id": "th",
+   "group": "spain",
+   "letter": "ce · ci · z",
+   "name": "θ",
+   "ipa": "θ",
+   "rd": "(쓰)",
+   "say": "gracias, cinco",
+   "place": [
+    "interdental"
+   ],
+   "korSim": "ㅆ (정확히 같지 않음)",
+   "mouth": "혀끝을 윗니와 아랫니 사이에 살짝 내밀고 바람을 낸다.",
+   "compare": "θ = 영어 think 의 th, 한국어에 없음. 스페인(카스티야) 발음의 대표 소리 — 중남미에서는 s 로 낸다.",
+   "examples": [
+    {
+     "es": "gracias",
+     "rd": "그라씨아스",
+     "ko": "감사합니다",
+     "rank": 62
+    },
+    {
+     "es": "cinco",
+     "rd": "씬꼬",
+     "ko": "다섯",
+     "rank": 311
+    },
+    {
+     "es": "cabeza",
+     "rd": "까베싸",
+     "ko": "머리",
+     "rank": 235
+    }
+   ]
+  },
+  {
+   "id": "jx",
+   "group": "spain",
+   "letter": "j · ge · gi",
+   "name": "x",
+   "ipa": "x",
+   "rd": "(흐)",
+   "say": "jota, gente",
+   "place": [
+    "velar"
+   ],
+   "korSim": "ㅎ (더 거칠게)",
+   "mouth": "혀 뒤를 여린입천장 가까이 올리고 바람을 세게 긁어 낸다.",
+   "compare": "j = 목 깊은 곳 ㅎ, 한국어 ㅎ보다 거칠게. 스페인 발음은 중남미보다 훨씬 거칠다.",
+   "examples": [
+    {
+     "es": "ojo",
+     "rd": "오호",
+     "ko": "눈",
+     "rank": 248
+    },
+    {
+     "es": "gente",
+     "rd": "헨떼",
+     "ko": "사람들",
+     "rank": 143
+    },
+    {
+     "es": "jefe",
+     "rd": "헤페",
+     "ko": "상사",
+     "rank": 343
+    }
+   ]
+  },
+  {
+   "id": "rrr",
+   "group": "spain",
+   "letter": "r ↔ rr",
+   "name": "ɾ / r",
+   "ipa": "ɾ · r",
+   "rd": "ㄹ / ㄹㄹ",
+   "say": "pero, perro",
+   "place": [
+    "alveolar"
+   ],
+   "korSim": "ㄹ",
+   "mouth": "r(모음 사이) = 혀끝 한 번 튕김. rr·단어 첫 r = 여러 번 떨림.",
+   "compare": "ㄹ과 비슷하지만 혀끝을 한 번 튕김(r). rr 은 한국어에 없는 떨림소리. pero 와 perro 를 소리로 구별해야 한다.",
+   "examples": [
+    {
+     "es": "pero",
+     "rd": "뻬로",
+     "ko": "하지만",
+     "rank": 25
+    },
+    {
+     "es": "perro",
+     "rd": "뻬로",
+     "ko": "개",
+     "rank": 381
+    },
+    {
+     "es": "rojo",
+     "rd": "로호",
+     "ko": "빨강",
+     "rank": 531
+    }
+   ]
+  },
+  {
+   "id": "bv",
+   "group": "spain",
+   "letter": "b = v",
+   "name": "b / β",
+   "ipa": "b · β",
+   "rd": "ㅂ",
+   "say": "bien, vida, beber",
+   "place": [
+    "bilabial"
+   ],
+   "korSim": "ㅂ",
+   "mouth": "단어 첫머리·m 뒤에서는 두 입술을 닫았다 떼는 [b], 모음 사이에서는 입술을 살짝만 가까이[β].",
+   "compare": "b·v 소리가 같다. beber 의 첫 b 와 둘째 b 는 다른 소리([b]·[β])지만 철자와는 무관.",
+   "examples": [
+    {
+     "es": "bien",
+     "rd": "비엔",
+     "ko": "잘/좋은",
+     "rank": 38
+    },
+    {
+     "es": "vida",
+     "rd": "비다",
+     "ko": "삶/인생",
+     "rank": 93
+    },
+    {
+     "es": "beber",
+     "rd": "베베르",
+     "ko": "마시다",
+     "rank": 365
+    }
+   ]
+  },
+  {
+   "id": "dth",
+   "group": "spain",
+   "letter": "d (모음 사이)",
+   "name": "ð",
+   "ipa": "ð",
+   "rd": "(드)",
+   "say": "nada, todo",
+   "place": [
+    "dental"
+   ],
+   "korSim": "ㄷ (약하게)",
+   "mouth": "혀끝을 윗니에 가볍게 대고 막지 않은 채 소리를 흘린다.",
+   "compare": "모음 사이 d 는 영어 this 의 th 처럼 부드럽다. nada 는 '나다'보다 '나ð아'에 가깝다. 단어 끝 d 는 더 약해진다.",
+   "examples": [
+    {
+     "es": "nada",
+     "rd": "나다",
+     "ko": "아무것도",
+     "rank": 47
+    },
+    {
+     "es": "todo",
+     "rd": "또도",
+     "ko": "모든/전부",
+     "rank": 33
+    },
+    {
+     "es": "verdad",
+     "rd": "베르다드",
+     "ko": "진실",
+     "rank": 80
+    }
+   ]
+  },
+  {
+   "id": "lly",
+   "group": "spain",
+   "letter": "ll = y",
+   "name": "ʝ",
+   "ipa": "ʝ",
+   "rd": "(이)",
+   "say": "yo, calle",
+   "place": [
+    "palatal"
+   ],
+   "korSim": "야·예·요의 첫소리",
+   "mouth": "혀 가운데를 센입천장 가까이 올려 마찰을 살짝 섞는다.",
+   "compare": "ll·y = 대부분 '야' 처럼. 사람·지역에 따라 '쟈'에 가깝게도 들리지만 둘은 같은 소리로 낸다.",
+   "examples": [
+    {
+     "es": "yo",
+     "rd": "요",
+     "ko": "나",
+     "rank": 8
+    },
+    {
+     "es": "calle",
+     "rd": "까예",
+     "ko": "거리",
+     "rank": 336
+    },
+    {
+     "es": "ya",
+     "rd": "야",
+     "ko": "이미/벌써",
+     "rank": 36
+    }
+   ]
+  },
+  {
+   "id": "ny",
+   "group": "spain",
+   "letter": "ñ",
+   "name": "ɲ",
+   "ipa": "ɲ",
+   "rd": "(니)",
+   "say": "año, España",
+   "place": [
+    "palatal"
+   ],
+   "korSim": "냐·녜·뇨의 ㄴ",
+   "mouth": "혀 가운데를 센입천장에 넓게 붙이고 코로 소리를 낸다.",
+   "compare": "한국어 '냐·뇨'의 첫소리와 거의 같다. ñ 은 스페인어만의 글자.",
+   "examples": [
+    {
+     "es": "año",
+     "rd": "아뇨",
+     "ko": "해/년",
+     "rank": 103
+    },
+    {
+     "es": "niño",
+     "rd": "니뇨",
+     "ko": "아이",
+     "rank": 139
+    },
+    {
+     "es": "España",
+     "rd": "에스빠냐",
+     "ko": "스페인"
+    }
+   ]
+  },
+  {
+   "id": "acc",
+   "group": "stress",
+   "letter": "á é í ó ú",
+   "name": "tilde",
+   "ipa": "ˈ (강세)",
+   "rd": "",
+   "say": "café, aquí, también",
+   "place": [
+    "stress"
+   ],
+   "korSim": "(높고 길고 세게)",
+   "mouth": "강세 표시가 있는 모음을 더 세게, 조금 더 길고 높게 읽는다. 모음 소리 자체는 바뀌지 않는다.",
+   "compare": "한국어에는 단어 강세가 없어 놓치기 쉽다. 강세 자리가 바뀌면 뜻이 바뀐다(papa 감자 / papá 아빠). qué·tú 처럼 같은 철자를 구별하는 데도 쓴다.",
+   "examples": [
+    {
+     "es": "café",
+     "rd": "까페",
+     "ko": "커피",
+     "rank": 410
+    },
+    {
+     "es": "aquí",
+     "rd": "아끼",
+     "ko": "여기",
+     "rank": 40
+    },
+    {
+     "es": "también",
+     "rd": "땀비엔",
+     "ko": "또한",
+     "rank": 90
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "group": "stress",
+   "letter": "casa · verdad · árbol",
+   "name": "강세 자리",
+   "ipa": "ˈ (강세)",
+   "rd": "",
+   "say": "casa, verdad, árbol",
+   "place": [
+    "stress"
+   ],
+   "korSim": "(높고 길고 세게)",
+   "mouth": "모음·n·s 로 끝나면 끝에서 두 번째 음절, 그 밖의 자음으로 끝나면 마지막 음절에 강세. 규칙에서 벗어나면 철자에 표시(á).",
+   "compare": "CA-sa(모음 끝 → 끝에서 둘째) · ver-DAD(d 끝 → 마지막) · ÁR-bol(규칙 밖이라 표시). 한국어처럼 음절을 고르게 읽으면 어색하게 들린다.",
+   "examples": [
+    {
+     "es": "casa",
+     "rd": "까사",
+     "ko": "집",
+     "rank": 69
+    },
+    {
+     "es": "verdad",
+     "rd": "베르다드",
+     "ko": "진실",
+     "rank": 80
+    },
+    {
+     "es": "árbol",
+     "rd": "아르볼",
+     "ko": "나무",
+     "rank": 905
+    }
+   ]
+  }
+ ]
+}

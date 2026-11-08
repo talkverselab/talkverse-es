@@ -44,6 +44,16 @@ void main() {
     await wait(t, 1500);
     await shot(t, '10_home_learn');
 
+    // 기초 첫 줄 「알파벳과 발음」 → 격자 → 글자 Ñ 시트(1초 뒤 자동 재생)
+    await t.tap(find.text('알파벳과 발음'));
+    await wait(t, 2000);
+    await shot(t, '10b_alphabet');
+    await t.tapAt(const Offset(445, 248)); // 격자 첫 타일(A a) — 모음 묶음이 기본
+    await wait(t, 2500);
+    await shot(t, '10c_alphabet_sheet');
+    await t.tapAt(const Offset(600, 160));
+    await wait(t, 1000);
+
     await t.tap(find.text('장면 컷과 함께 읽고 듣기'));
     await wait(t, 2500);
     await shot(t, '11_dialogue_home');
