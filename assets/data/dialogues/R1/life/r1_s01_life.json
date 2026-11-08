@@ -22,7 +22,7 @@
  "domain": [
   "life"
  ],
- "goal": "관사 el/la·un/una 와 형용사 성 일치(bonita·pequeña·roja)",
+ "goal": "관사 el/la·un/una 와 형용사 성 일치(pequeña↔pequeño) + 단수 활용 es/eres·tiene/tienes",
  "expressions": [
   "mira",
   "vale",
@@ -50,10 +50,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¡Qué bonita! ¿Y la habitación?",
-   "rd": "께 보니따! 이 라 아비따씨온?",
+   "tl": "¡Qué bonita! ¿Y mi habitación?",
+   "rd": "께 보니따! 이 미 아비따씨온?",
    "ko": "예쁘다! 내 방은?",
-   "note": "bonita = cocina 에 맞춘 여성형",
+   "note": "bonita = cocina(여)에 맞춘 여성형",
    "tags": [
     "form:concordancia"
    ],
@@ -68,7 +68,7 @@
    "tl": "Es pequeña, pero tiene mucha luz.",
    "rd": "에스 뻬께냐, 뻬로 띠에네 무차 루쓰.",
    "ko": "좀 작은데, 햇빛이 잘 들어.",
-   "note": "pequeña = habitación 에 맞춘 여성형 · mucha luz(여)",
+   "note": "pequeña = habitación(여)에 맞춤 · tiene = tener 3인칭",
    "tags": [
     "form:concordancia"
    ],
@@ -76,7 +76,7 @@
     "luz",
     "pequeño"
    ],
-   "emotion": "neutral"
+   "emotion": "gentle"
   },
   {
    "num": 4,
@@ -97,11 +97,12 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ah, no. Esa caja es de mi gato.",
-   "rd": "아, 노. 에사 까하 에스 데 미 가또.",
-   "ko": "아, 그거. 그 상자는 우리 고양이 거야.",
-   "note": "es de… = ~의 것이다",
+   "tl": "Ah, es de mi gato. Es pequeño.",
+   "rd": "아, 에스 데 미 가또. 에스 뻬께뇨.",
+   "ko": "아, 우리 고양이 거야. 쪼그만 애야.",
+   "note": "pequeño = gato(남) — 3번 턴 pequeña(여)와 비교 · es de… = ~의 것",
    "tags": [
+    "form:concordancia",
     "form:ser"
    ],
    "new": [
@@ -112,10 +113,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Un gato? ¿Y dónde está el gato?",
-   "rd": "운 가또? 이 돈데 에스따 엘 가또?",
-   "ko": "고양이? 고양이는 어디 있는데?",
-   "note": "un gato → el gato(처음 말할 때 un, 다시 말할 때 el)",
+   "tl": "¿Tienes un gato? ¿Y dónde está?",
+   "rd": "띠에네스 운 가또? 이 돈데 에스따?",
+   "ko": "고양이 키워? 근데 어디 있어?",
+   "note": "tienes = tener 2인칭 — 3번 tiene(3인칭)와 비교 · un gato(처음 말할 때 un)",
    "tags": [
     "form:artículo"
    ],
@@ -149,17 +150,28 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Pues… ¡hola, compañero!",
-   "rd": "뿌에스… 올라, 꼼빠녜로!",
-   "ko": "그럼… 안녕, 룸메이트!",
-   "note": "compañero = 같이 사는 사람·짝",
+   "tl": "Pues… ¡hola, compañero! Tú eres el jefe, ¿no?",
+   "rd": "뿌에스… 올라, 꼼빠녜로! 뚜 에레스 엘 헤페, 노?",
+   "ko": "그럼… 안녕, 룸메이트! 네가 대장이지?",
+   "note": "eres = ser 2인칭 — 5번 es(3인칭)와 비교 · jefe = 대장·사장",
    "tags": [
-    "expr:pues"
+    "expr:pues",
+    "form:ser"
    ],
    "new": [
-    "compañero"
+    "compañero",
+    "jefe"
    ],
-   "emotion": "flustered"
+   "segs": [
+    [
+     "flustered",
+     "Pues… ¡hola, compañero!"
+    ],
+    [
+     "amused",
+     "Tú eres el jefe, ¿no?"
+    ]
+   ]
   }
  ],
  "draft": "claude"

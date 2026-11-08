@@ -22,7 +22,7 @@
  "domain": [
   "friends"
  ],
- "goal": "gustar 구문 — me gusta + 단수 / me gustan + 복수 / ¿te gusta…?, me encanta",
+ "goal": "gustar 구문 — me gusta + 단수 / me gustan + 복수, me encanta/encantan + hago/haces",
  "expressions": [
   "oye",
   "me encanta",
@@ -39,7 +39,7 @@
    "tl": "Oye, hago la cena. ¿Te gusta el ajo?",
    "rd": "오예, 아고 라 쎄나. 떼 구스따 엘 아호?",
    "ko": "야, 내가 저녁 할게. 마늘 좋아해?",
-   "note": "¿te gusta + 단수? = ~ 좋아해?",
+   "note": "¿te gusta + 단수? = ~ 좋아해? · hago = hacer 1인칭",
    "tags": [
     "expr:oye",
     "form:gustar"
@@ -52,30 +52,32 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Sí, me gusta mucho el ajo.",
-   "rd": "시, 메 구스따 무초 엘 아호.",
-   "ko": "응, 마늘 엄청 좋아해.",
-   "note": "me gusta = (그게) 나한테 좋다",
+   "tl": "Me encanta el ajo. ¿Qué haces?",
+   "rd": "메 엔깐따 엘 아호. 께 아쎄스?",
+   "ko": "마늘 완전 좋아해. 뭐 만드는데?",
+   "note": "me encanta = 엄청 좋아해 · haces = hacer 2인칭 — 1번 hago 와 비교",
    "tags": [
+    "expr:me encanta",
     "form:gustar"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "¿Y te gustan las patatas?",
-   "rd": "이 떼 구스딴 라스 빠따따스?",
-   "ko": "감자도 좋아해?",
-   "note": "gustan = 복수 명사(las patatas)에 맞춤",
+   "tl": "Una sorpresa. ¿Te gustan las patatas?",
+   "rd": "우나 소르쁘레사. 떼 구스딴 라스 빠따따스?",
+   "ko": "비밀이야. 감자 좋아해?",
+   "note": "gustan = 복수 명사(las patatas)에 맞춤 · sorpresa = 깜짝 선물",
    "tags": [
     "form:gustar"
    ],
    "new": [
-    "patata"
+    "patata",
+    "sorpresa"
    ],
-   "emotion": "neutral"
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -83,7 +85,7 @@
    "tl": "Me encantan. Me gusta todo, tío.",
    "rd": "메 엔깐딴. 메 구스따 또도, 띠오.",
    "ko": "완전 좋아. 난 다 좋아해.",
-   "note": "me encantan = 엄청 좋아해(복수) · me gusta todo = 다 좋아",
+   "note": "me encantan(복수) — 2번 me encanta(단수)와 비교 · me gusta todo",
    "tags": [
     "expr:me encanta",
     "expr:tío",
@@ -123,15 +125,16 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Vale. Patatas, ajo, chocolate… y pescado.",
-   "rd": "발레. 빠따따스, 아호, 초꼴라떼… 이 뻬스까도.",
-   "ko": "오케이. 감자, 마늘, 초콜릿… 그리고 생선.",
-   "note": "pescado = (요리용) 생선",
+   "tl": "Vale. Patatas, ajo, chocolate… y pescado. ¡Todo junto!",
+   "rd": "발레. 빠따따스, 아호, 초꼴라떼… 이 뻬스까도. 또도 훈또!",
+   "ko": "오케이. 감자, 마늘, 초콜릿… 그리고 생선. 전부 한 냄비에!",
+   "note": "todo junto = 전부 한꺼번에 · pescado = (요리용) 생선",
    "tags": [
     "expr:vale"
    ],
    "new": [
-    "pescado"
+    "pescado",
+    "junto"
    ],
    "segs": [
     [
@@ -140,7 +143,7 @@
     ],
     [
      "excited",
-     "Patatas, ajo, chocolate… y pescado."
+     "Patatas, ajo, chocolate… y pescado. ¡Todo junto!"
     ]
    ]
   },

@@ -22,7 +22,7 @@
  "domain": [
   "friends"
  ],
- "goal": "단순과거 씨앗 — llamé / esperé / jugué / comí / fue / pasó(어제 일)",
+ "goal": "단순과거 씨앗 — llamé/llamaste · comí/comiste · jugué/jugaste · fue(어제 일)",
  "expressions": [
   "tío",
   "ya",
@@ -49,10 +49,10 @@
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Ya, perdona. Ayer comí con mi abuela.",
-   "rd": "야, 뻬르도나. 아예르 꼬미 꼰 미 아부엘라.",
-   "ko": "알아, 미안. 어제 할머니랑 밥 먹었어.",
-   "note": "comí = comer 단순과거 1인칭",
+   "tl": "Ya, perdona. ¿Me llamaste? Comí con mi abuela.",
+   "rd": "야, 뻬르도나. 메 야마스떼? 꼬미 꼰 미 아부엘라.",
+   "ko": "알아, 미안. 전화했어? 할머니랑 밥 먹었어.",
+   "note": "llamaste = 2인칭 — 1번 llamé(1인칭)와 비교 · comí = comer 1인칭",
    "tags": [
     "expr:ya",
     "expr:perdona",
@@ -64,10 +64,10 @@
   {
    "num": 3,
    "speaker": "A",
-   "tl": "¿Y el partido? Te esperé una hora.",
-   "rd": "이 엘 빠르띠도? 떼 에스뻬레 우나 오라.",
-   "ko": "경기는? 한 시간 기다렸어.",
-   "note": "esperé = esperar 단순과거 1인칭",
+   "tl": "¿Comiste? ¿Y el partido? Te esperé una hora.",
+   "rd": "꼬미스떼? 이 엘 빠르띠도? 떼 에스뻬레 우나 오라.",
+   "ko": "밥을 먹었다고? 경기는? 한 시간 기다렸어.",
+   "note": "comiste = comer 2인칭 — 2번 comí 와 비교 · esperé = esperar 1인칭",
    "tags": [
     "form:indefinido"
    ],
@@ -93,7 +93,7 @@
    "tl": "No. Fue ayer. Jugué yo en tu lugar.",
    "rd": "노. 푸에 아예르. 후게 요 엔 뚜 루가르.",
    "ko": "아니. 어제였어. 내가 네 자리에서 뛰었어.",
-   "note": "fue = ser 단순과거 · jugué = jugar 1인칭(철자 gu)",
+   "note": "fue = ser 단순과거(4번 es 와 비교) · jugué = jugar 1인칭(철자 gu)",
    "tags": [
     "form:indefinido"
    ],
@@ -101,15 +101,15 @@
     "jugar",
     "lugar"
    ],
-   "emotion": "neutral"
+   "emotion": "teasing"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "¿Tú? ¿Y qué pasó?",
-   "rd": "뚜? 이 께 빠소?",
-   "ko": "네가? 그래서 어떻게 됐어?",
-   "note": "¿qué pasó? = 무슨 일 있었어?",
+   "tl": "¿Jugaste tú? ¿Y qué pasó?",
+   "rd": "후가스떼 뚜? 이 께 빠소?",
+   "ko": "네가 뛰었다고? 그래서 어떻게 됐어?",
+   "note": "jugaste = 2인칭 — 5번 jugué 와 비교 · ¿qué pasó? = 무슨 일 있었어?",
    "tags": [
     "form:indefinido"
    ],

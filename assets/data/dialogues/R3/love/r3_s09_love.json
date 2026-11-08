@@ -8,7 +8,7 @@
  "kind": "chat",
  "title": "세 번째 옷들",
  "emoji": "👗",
- "scene": "9단계 「세 번째 옷」을 복수로 — Marta 가 A·Diego 에게 헌책 장터에 가자고 단톡방에 쓴다",
+ "scene": "9단계 「세 번째 옷」을 복수로 — Marta 가 A 와 룸메이트에게 헌책 장터에 가자고 메시지를 보낸다",
  "speakers": {
   "A": "{name}",
   "B": "Marta"
@@ -23,7 +23,7 @@
  "domain": [
   "love"
  ],
- "goal": "같은 이야기를 복수 재귀동사(os levantáis·nos duchamos·nos vestimos)로 — 새 단어 0",
+ "goal": "같은 이야기를 복수 재귀동사(os levantáis·nos levantamos·nos vestimos)로, 단수 me visto·te vistes 와 대비 — 새 단어 0",
  "expressions": [
   "vale",
   "bueno"
@@ -35,7 +35,7 @@
    "tl": "¿A qué hora os levantáis los sábados?",
    "rd": "아 께 오라 오스 레반따이스 로스 사바도스?",
    "ko": "너희 토요일엔 몇 시에 일어나?",
-   "note": "os levantáis = 2인칭 복수 재귀",
+   "note": "os levantáis = 2인칭 복수 재귀(R1 te levantas)",
    "tags": [
     "form:reflexivo",
     "form:vosotros"
@@ -77,13 +77,14 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Vale. Nos duchamos y nos vestimos. ¿Y vosotras?",
-   "rd": "발레. 노스 두차모스 이 노스 베스띠모스. 이 보소뜨라스?",
-   "ko": "좋아. 씻고 옷 입을게. 너희는?",
-   "note": "nos duchamos · nos vestimos",
+   "tl": "Vale. Nos duchamos y nos vestimos. ¿Y tú?",
+   "rd": "발레. 노스 두차모스 이 노스 베스띠모스. 이 뚜?",
+   "ko": "좋아. 씻고 옷 입을게. 너는?",
+   "note": "nos vestimos(우리) ↔ 5번 me visto(나)",
    "tags": [
     "expr:vale",
-    "form:reflexivo"
+    "form:reflexivo",
+    "form:nosotros"
    ],
    "new": [],
    "emotion": "excited",
@@ -93,10 +94,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Nosotras nos vestimos ahora. Bueno… otra vez.",
-   "rd": "노소뜨라스 노스 베스띠모스 아오라. 부에노… 오뜨라 베쓰.",
-   "ko": "우리 지금 옷 입어. 뭐… 또.",
-   "note": "nosotras = 우리(Lucía 와 Marta)",
+   "tl": "Me visto ahora. Bueno… otra vez.",
+   "rd": "메 비스또 아오라. 부에노… 오뜨라 베쓰.",
+   "ko": "나 지금 옷 입어. 뭐… 또.",
+   "note": "me visto = 1인칭 단수 재귀",
    "tags": [
     "expr:bueno",
     "form:reflexivo"
@@ -109,11 +110,13 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Otra vez?",
-   "rd": "오뜨라 베쓰?",
-   "ko": "또?",
-   "note": "¿otra vez? = 또?",
-   "tags": [],
+   "tl": "¿Otra vez? ¿Cuántas veces te vistes?",
+   "rd": "오뜨라 베쓰? 꾸안따스 베쎄스 떼 비스떼스?",
+   "ko": "또? 몇 번이나 갈아입는 거야?",
+   "note": "te vistes = 2인칭 단수 ↔ 4번 nos vestimos · veces = vez 의 복수",
+   "tags": [
+    "form:reflexivo"
+   ],
    "new": [],
    "emotion": "surprised",
    "ui": "bubble",
@@ -123,10 +126,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Nos hemos cambiado tres veces. Por vosotros.",
-   "rd": "노스 에모스 깜비아도 뜨레스 베쎄스. 뽀르 보소뜨로스.",
-   "ko": "벌써 세 번 갈아입었어. 너희 때문에.",
-   "note": "nos hemos cambiado = 1인칭 복수 재귀 완료",
+   "tl": "Me he cambiado tres veces. Por vosotros… bueno, por ti.",
+   "rd": "메 에 깜비아도 뜨레스 베쎄스. 뽀르 보소뜨로스… 부에노, 뽀르 띠.",
+   "ko": "벌써 세 번 갈아입었어. 너희 때문에… 아니, 너 때문에.",
+   "note": "por vosotros(너희) → por ti(너) — 고쳐 말하다 마음을 들킴",
    "tags": [
     "form:reflexivo",
     "form:vosotros"
@@ -139,18 +142,20 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Vale… ahora nos ponemos nerviosos.",
-   "rd": "발레… 아오라 노스 뽀네모스 네르비오소스.",
-   "ko": "아… 이제 우리 떨린다.",
-   "note": "nos ponemos nerviosos = 복수 일치",
+   "tl": "Vale… ahora me pongo nervioso.",
+   "rd": "발레… 아오라 메 뽄고 네르비오소.",
+   "ko": "아… 이제 나 떨린다.",
+   "note": "me pongo nervioso = 나 혼자(단수) · 여성은 nerviosa",
    "tags": [
     "expr:vale",
     "form:reflexivo"
    ],
    "new": [],
    "emotion": "shy",
+   "tl_f": "Vale… ahora me pongo nerviosa.",
    "ui": "bubble",
-   "at": "10:52"
+   "at": "10:52",
+   "rd_f": "발레… 아오라 메 뽄고 네르비오사."
   }
  ],
  "draft": "claude"

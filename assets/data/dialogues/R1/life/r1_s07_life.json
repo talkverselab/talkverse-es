@@ -22,9 +22,10 @@
  "domain": [
   "life"
  ],
- "goal": "현재완료 he/has/ha + 과거분사로 「오늘 한 일」 — he limpiado / has visto / has hecho",
+ "goal": "현재완료 he/has + 과거분사로 「오늘 한 일」 + 색 형용사 성 일치 roja/rojo·blanca/blanco",
  "expressions": [
   "qué bien",
+  "en serio",
   "bueno",
   "madre mía",
   "pues"
@@ -36,7 +37,7 @@
    "tl": "¡Hola! He limpiado el piso. ¿Has visto?",
    "rd": "올라! 에 림삐아도 엘 삐소. 아스 비스또?",
    "ko": "왔어! 나 집 청소했다. 봤어?",
-   "note": "he limpiado = (오늘) 청소했다 · piso = 집(아파트)",
+   "note": "he limpiado = (오늘) 청소했다 · has visto = ver 의 완료(불규칙 visto)",
    "tags": [
     "form:perfecto"
    ],
@@ -76,58 +77,60 @@
     "lavar",
     "ropa"
    ],
-   "emotion": "cheerful"
+   "emotion": "gentle"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Mi ropa? ¿Toda?",
-   "rd": "미 로빠? 또다?",
-   "ko": "내 옷을? 전부?",
-   "note": "toda = ropa(여성)에 맞춘 todo",
-   "tags": [
-    "form:concordancia"
-   ],
-   "new": [],
-   "emotion": "surprised"
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "tl": "Sí. Y también he lavado mi camiseta roja.",
-   "rd": "시. 이 땀비엔 에 라바도 미 까미세따 로하.",
-   "ko": "응. 그리고 내 빨간 티도 같이 빨았어.",
-   "note": "camiseta roja = 여성 일치",
-   "tags": [
-    "form:perfecto"
-   ],
-   "new": [
-    "camiseta"
-   ],
-   "emotion": "neutral"
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "tl": "¿Con mi ropa blanca?",
-   "rd": "꼰 미 로빠 블란까?",
-   "ko": "내 흰 옷이랑 같이?",
-   "note": "blanca = ropa 에 맞춘 여성형",
+   "tl": "¿Mi ropa? ¿Toda? ¿La blanca también?",
+   "rd": "미 로빠? 또다? 라 블란까 땀비엔?",
+   "ko": "내 옷을? 전부? 흰 옷도?",
+   "note": "toda·blanca = ropa(여)에 맞춘 여성형",
    "tags": [
     "form:concordancia"
    ],
    "new": [
     "blanco"
    ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Sí. Y he lavado mi camiseta roja.",
+   "rd": "시. 이 에 라바도 미 까미세따 로하.",
+   "ko": "응. 그리고 내 빨간 티도 같이 빨았어.",
+   "note": "camiseta roja = 여성 일치",
+   "tags": [
+    "form:perfecto",
+    "form:concordancia"
+   ],
+   "new": [
+    "camiseta"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "¿Rojo con blanco? ¿En serio?",
+   "rd": "로호 꼰 블란꼬? 엔 세리오?",
+   "ko": "빨강이랑 흰색을? 진짜로?",
+   "note": "색 이름은 남성 rojo·blanco — 4·5번 roja·blanca 와 비교",
+   "tags": [
+    "expr:en serio",
+    "form:concordancia"
+   ],
+   "new": [],
    "emotion": "worried"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Bueno… ahora tienes mucha ropa rosa.",
-   "rd": "부에노… 아오라 띠에네스 무차 로빠 로사.",
-   "ko": "뭐… 이제 너 분홍 옷 엄청 많아.",
-   "note": "rosa = 분홍(형용사인데 형태가 안 바뀐다)",
+   "tl": "Bueno… ¿ves? Ahora tienes mucha ropa rosa.",
+   "rd": "부에노… 베스? 아오라 띠에네스 무차 로빠 로사.",
+   "ko": "뭐… 봐봐. 이제 너 분홍 옷 엄청 많아.",
+   "note": "¿ves? = 봤지?(1번 ¿has visto? 와 같은 ver) · rosa 는 형태가 안 바뀐다",
    "tags": [
     "expr:bueno"
    ],

@@ -23,7 +23,7 @@
  "domain": [
   "friends"
  ],
- "goal": "같은 이야기를 usted(¿le gusta?)·nos gusta 로 — 새 단어 0",
+ "goal": "같은 이야기를 usted(¿le gusta?·hace usted)·nos gusta/nos encantan 으로, me encanta·hago 와 대비 — 새 단어 0",
  "expressions": [
   "me encanta",
   "claro",
@@ -38,7 +38,7 @@
    "tl": "Hago la cena. ¿Le gusta el ajo?",
    "rd": "아고 라 쎄나. 레 구스따 엘 아호?",
    "ko": "저녁 할게요. 마늘 좋아해요?",
-   "note": "¿le gusta? = usted 에게 묻는 gustar",
+   "note": "¿le gusta? = usted 에게 묻는 gustar(↔ R1 ¿te gusta?)",
    "tags": [
     "form:usted",
     "form:gustar"
@@ -49,40 +49,42 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Sí, me gusta mucho el ajo.",
-   "rd": "시, 메 구스따 무초 엘 아호.",
-   "ko": "네, 마늘 엄청 좋아해요.",
-   "note": "me gusta = 나는 좋아한다",
+   "tl": "Me encanta el ajo. ¿Qué hace usted?",
+   "rd": "메 엔깐따 엘 아호. 께 아쎄 우스떼드?",
+   "ko": "마늘 완전 좋아해요. 뭐 만드세요?",
+   "note": "hace usted = usted 는 3인칭 활용 ↔ 1번 hago",
    "tags": [
-    "form:gustar"
+    "expr:me encanta",
+    "form:usted"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "¿Y le gustan las patatas?",
-   "rd": "이 레 구스딴 라스 빠따따스?",
-   "ko": "감자도 좋아해요?",
+   "tl": "Una sorpresa. ¿Y le gustan las patatas?",
+   "rd": "우나 소르쁘레사. 이 레 구스딴 라스 빠따따스?",
+   "ko": "비밀이에요. 감자도 좋아해요?",
    "note": "le gustan = usted 에게 + 복수 명사",
    "tags": [
     "form:usted",
     "form:gustar"
    ],
    "new": [],
-   "emotion": "polite"
+   "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Me encantan. Me gusta todo, de verdad.",
-   "rd": "메 엔깐딴. 메 구스따 또도, 데 베르다드.",
-   "ko": "완전 좋아해요. 진짜 다 좋아해요.",
-   "note": "me encantan = 엄청 좋아해요",
+   "tl": "Nos encantan. A Javi y a mí nos gusta todo.",
+   "rd": "노스 엔깐딴. 아 하비 이 아 미 노스 구스따 또도.",
+   "ko": "완전 좋아해요. 하비랑 저는 다 좋아해요.",
+   "note": "nos = 우리에게(↔ me) · nos encantan ↔ 2번 me encanta",
    "tags": [
     "expr:me encanta",
-    "expr:de verdad"
+    "form:nosotros",
+    "form:gustar"
    ],
    "new": [],
    "emotion": "excited"
@@ -101,14 +103,14 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Claro. A Javi y a mí nos gusta todo.",
-   "rd": "끌라로. 아 하비 이 아 미 노스 구스따 또도.",
-   "ko": "그럼요. 하비랑 저는 다 좋아해요.",
-   "note": "nos gusta = 우리에게 좋다(1인칭 복수)",
+   "tl": "Claro. Nos gusta todo, de verdad.",
+   "rd": "끌라로. 노스 구스따 또도, 데 베르다드.",
+   "ko": "그럼요. 진짜 다 좋아해요.",
+   "note": "nos gusta todo = 우리는 다 좋아한다",
    "tags": [
     "expr:claro",
-    "form:nosotros",
-    "form:gustar"
+    "expr:de verdad",
+    "form:nosotros"
    ],
    "new": [],
    "emotion": "cheerful"
@@ -116,10 +118,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Vale. Patatas, ajo, chocolate… y pescado.",
-   "rd": "발레. 빠따따스, 아호, 초꼴라떼… 이 뻬스까도.",
-   "ko": "좋아요. 감자, 마늘, 초콜릿… 그리고 생선.",
-   "note": "말한 대로 전부 넣는다",
+   "tl": "Vale. Patatas, ajo, chocolate… y pescado. ¡Todo junto!",
+   "rd": "발레. 빠따따스, 아호, 초꼴라떼… 이 뻬스까도. 또도 훈또!",
+   "ko": "좋아요. 감자, 마늘, 초콜릿… 그리고 생선. 전부 한 냄비에!",
+   "note": "말한 대로 전부 넣는다 · todo junto = 한꺼번에",
    "tags": [
     "expr:vale"
    ],
@@ -131,7 +133,7 @@
     ],
     [
      "excited",
-     "Patatas, ajo, chocolate… y pescado."
+     "Patatas, ajo, chocolate… y pescado. ¡Todo junto!"
     ]
    ]
   },

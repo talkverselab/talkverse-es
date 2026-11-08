@@ -22,12 +22,12 @@
  "domain": [
   "friends"
  ],
- "goal": "ser(성질·요일·출처) ↔ estar(상태·위치) 구별 — es lunes / está enfermo / está en casa",
+ "goal": "ser(성질·요일·출처) ↔ estar(상태·위치) + 단수 활용 estoy/estás/está · cansado/cansada · dice/dices",
  "expressions": [
   "qué tal",
   "fatal",
   "tío",
-  "qué pena",
+  "qué dices",
   "mira"
  ],
  "turns": [
@@ -37,7 +37,7 @@
    "tl": "¡Hola, Lucía! ¿Qué tal? ¿Estás cansada?",
    "rd": "올라, 루씨아! 께 딸? 에스따스 깐사다?",
    "ko": "안녕, 루시아! 잘 지내? 피곤해?",
-   "note": "estás cansada = 지금 상태 → estar",
+   "note": "estás cansada = 지금 상태 → estar · cansada(여)",
    "tags": [
     "expr:qué tal",
     "form:estar"
@@ -50,9 +50,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Estoy fatal, tío. Es lunes.",
-   "rd": "에스또이 파딸, 띠오. 에스 루네스.",
-   "ko": "완전 최악이야. 월요일이잖아.",
+   "tl": "Estoy fatal, tío. Es lunes. ¿Y tú?",
+   "rd": "에스또이 파딸, 띠오. 에스 루네스. 이 뚜?",
+   "ko": "완전 최악이야. 월요일이잖아. 너는?",
    "note": "es lunes = 요일은 ser · estoy fatal = 상태는 estar",
    "tags": [
     "expr:fatal",
@@ -64,21 +64,24 @@
     "lunes"
    ],
    "emotion": "sad",
-   "tl_f": "Estoy fatal, tía. Es lunes.",
-   "rd_f": "에스또이 파딸, 띠아. 에스 루네스."
+   "tl_f": "Estoy fatal, tía. Es lunes. ¿Y tú?",
+   "rd_f": "에스또이 파딸, 띠아. 에스 루네스. 이 뚜?"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "¿Y Javi? ¿Dónde está?",
-   "rd": "이 하비? 돈데 에스따?",
-   "ko": "하비는? 어디 있어?",
-   "note": "¿dónde está? = 위치는 estar",
+   "tl": "Yo no estoy cansado. ¿Y Javi?",
+   "rd": "요 노 에스또이 깐사도. 이 하비?",
+   "ko": "난 안 피곤해. 하비는?",
+   "note": "cansado(남)/cansada(여) — 말하는 사람 성에 맞춘다 · estoy = 1인칭",
    "tags": [
-    "form:estar"
+    "form:estar",
+    "form:concordancia"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "cheerful",
+   "tl_f": "Yo no estoy cansada. ¿Y Javi?",
+   "rd_f": "요 노 에스또이 깐사다. 이 하비?"
   },
   {
    "num": 4,
@@ -86,7 +89,7 @@
    "tl": "Está en casa. Está enfermo, dice.",
    "rd": "에스따 엔 까사. 에스따 엔페르모, 디쎄.",
    "ko": "집에 있대. 아프다나 봐.",
-   "note": "está enfermo = 지금 아픈 상태",
+   "note": "está = 3인칭 · está enfermo = 지금 아픈 상태",
    "tags": [
     "form:estar"
    ],
@@ -98,16 +101,16 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Qué pena. Javi es muy fuerte, ¿no?",
-   "rd": "께 뻬나. 하비 에스 무이 푸에르떼, 노?",
-   "ko": "안됐다. 하비 원래 엄청 튼튼하잖아?",
-   "note": "es fuerte = 원래 성질 → ser",
+   "tl": "¿Qué dices? Javi es muy fuerte.",
+   "rd": "께 디쎄스? 하비 에스 무이 푸에르떼.",
+   "ko": "무슨 소리야? 하비 엄청 튼튼하잖아.",
+   "note": "dices = decir 2인칭 — 4번 dice(3인칭)와 비교 · es fuerte = 원래 성질 → ser",
    "tags": [
-    "expr:qué pena",
+    "expr:qué dices",
     "form:ser"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "surprised"
   },
   {
    "num": 6,

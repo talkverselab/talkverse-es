@@ -22,11 +22,13 @@
  "domain": [
   "culture"
  ],
- "goal": "ir a + 원형 = ~할 거야(가까운 미래) — voy a bailar / vas a bailar / va a…",
+ "goal": "ir a + 원형 = ~할 거야 — voy/vas a bailar + baila·sé/sabe·abuelo/abuela",
  "expressions": [
+  "claro",
   "qué mono",
-  "tía",
+  "fatal",
   "no sé",
+  "tía",
   "tranqui",
   "vale"
  ],
@@ -52,7 +54,7 @@
    "tl": "¿Qué es? ¿Vas a bailar?",
    "rd": "께 에스? 바스 아 바일라르?",
    "ko": "그게 뭔데? 춤출 거야?",
-   "note": "vas a bailar = 춤출 거야?",
+   "note": "vas a bailar = 춤출 거야?(voy ↔ vas)",
    "tags": [
     "form:ir_a"
    ],
@@ -80,10 +82,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Con tu abuelo? ¡Qué mono!",
-   "rd": "꼰 뚜 아부엘로? 께 모노!",
-   "ko": "할아버지랑? 귀엽다!",
-   "note": "qué mono = 귀엽다",
+   "tl": "¿Con tu abuelo? ¡Qué mono! ¿Baila bien?",
+   "rd": "꼰 뚜 아부엘로? 께 모노! 바일라 비엔?",
+   "ko": "할아버지랑? 귀엽다! 춤 잘 추셔?",
+   "note": "baila = bailar 3인칭 — 3번 원형 bailar 와 비교 · qué mono = 귀엽다",
    "tags": [
     "expr:qué mono"
    ],
@@ -93,11 +95,12 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Y tú vas a bailar con mi abuela.",
-   "rd": "이 뚜 바스 아 바일라르 꼰 미 아부엘라.",
-   "ko": "그리고 넌 우리 할머니랑 출 거야.",
-   "note": "vas a bailar = (너는) 출 거야",
+   "tl": "Fatal. Tú vas a bailar con mi abuela.",
+   "rd": "파딸. 뚜 바스 아 바일라르 꼰 미 아부엘라.",
+   "ko": "완전 못 춰. 넌 우리 할머니랑 출 거야.",
+   "note": "fatal = 엉망 · abuelo(남) ↔ abuela(여)",
    "tags": [
+    "expr:fatal",
     "form:ir_a"
    ],
    "new": [
@@ -122,10 +125,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Tranqui. Mi abuela es la campeona del barrio.",
-   "rd": "뜨란끼. 미 아부엘라 에스 라 깜뻬오나 델 바리오.",
-   "ko": "걱정 마. 우리 할머니 동네 챔피언이야.",
-   "note": "campeona = 챔피언(여) · del barrio = 동네의",
+   "tl": "Tranqui. Ella sabe. Es la campeona del barrio.",
+   "rd": "뜨란끼. 에야 사베. 에스 라 깜뻬오나 델 바리오.",
+   "ko": "걱정 마. 할머니는 잘 추셔. 동네 챔피언이거든.",
+   "note": "sabe = saber 3인칭 — 6번 no sé(1인칭)와 비교 · campeona = 챔피언(여)",
    "tags": [
     "expr:tranqui"
    ],
@@ -140,7 +143,7 @@
     ],
     [
      "teasing",
-     "Mi abuela es la campeona del barrio."
+     "Ella sabe. Es la campeona del barrio."
     ]
    ]
   },

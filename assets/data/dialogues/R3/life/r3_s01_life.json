@@ -13,7 +13,7 @@
   "A": "{name}",
   "B": "Casera"
  },
- "register": "polite",
+ "register": "mixed",
  "twist": 7,
  "twist_type": "reveal",
  "flags": [],
@@ -23,7 +23,7 @@
  "domain": [
   "life"
  ],
- "goal": "같은 이야기를 복수(las·los·son·tienen)·usted(mire·su)·vosotros(tenéis)로 갈아끼우기 — 새 단어 0",
+ "goal": "같은 이야기를 복수(las·son·tienen·pequeñas/pequeños)·usted(mire·tiene usted·su)·vosotros(sois)로 — 새 단어 0",
  "expressions": [
   "vale",
   "bueno",
@@ -33,10 +33,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Mire, estas son las habitaciones. Los baños, ahí.",
-   "rd": "미레, 에스따스 손 라스 아비따씨오네스. 로스 바뇨스, 아이.",
+   "tl": "Mire, estas son las habitaciones. El baño, ahí.",
+   "rd": "미레, 에스따스 손 라스 아비따씨오네스. 엘 바뇨, 아이.",
    "ko": "보세요, 여기가 방들이에요. 화장실은 저기고요.",
-   "note": "mire = mirar 의 usted 명령",
+   "note": "mire = mirar 의 usted 명령(↔ R1 mira) · las habitaciones(복수)",
    "tags": [
     "form:usted",
     "form:plural"
@@ -47,10 +47,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¡Qué bonitas! ¿Son pequeñas?",
-   "rd": "께 보니따스! 손 뻬께냐스?",
-   "ko": "예쁘네요! 작은가요?",
-   "note": "bonitas·pequeñas = habitaciones 에 맞춘 여성 복수",
+   "tl": "¡Qué bonitas! ¿Y mi habitación?",
+   "rd": "께 보니따스! 이 미 아비따씨온?",
+   "ko": "예쁘네요! 제 방은요?",
+   "note": "bonitas = 여성 복수 ↔ 단수 bonita · habitaciones ↔ habitación",
    "tags": [
     "form:plural"
    ],
@@ -60,15 +60,15 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Sí, son pequeñas, pero tienen mucha luz.",
-   "rd": "시, 손 뻬께냐스, 뻬로 띠에넨 무차 루쓰.",
-   "ko": "네, 작긴 한데 햇빛이 잘 들어요.",
-   "note": "tienen = tener 3인칭 복수",
+   "tl": "Son pequeñas, pero tienen mucha luz.",
+   "rd": "손 뻬께냐스, 뻬로 띠에넨 무차 루쓰.",
+   "ko": "작긴 한데 햇빛이 잘 들어요.",
+   "note": "son·tienen = 3인칭 복수 ↔ 단수 es·tiene",
    "tags": [
     "form:plural"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "gentle"
   },
   {
    "num": 4,
@@ -86,10 +86,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ah, no. Esas cajas son de mis gatos.",
-   "rd": "아, 노. 에사스 까하스 손 데 미스 가또스.",
-   "ko": "아, 그건요. 우리 고양이들 상자예요.",
-   "note": "mis gatos = 내 고양이들",
+   "tl": "Ah, son de mis gatos. Son pequeños.",
+   "rd": "아, 손 데 미스 가또스. 손 뻬께뇨스.",
+   "ko": "아, 우리 고양이들 거예요. 쪼그만 애들이에요.",
+   "note": "pequeños = gatos(남성 복수) ↔ 3번 pequeñas(여성 복수)",
    "tags": [
     "form:plural"
    ],
@@ -99,10 +99,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Sus gatos? ¿Y dónde están los gatos?",
-   "rd": "수스 가또스? 이 돈데 에스딴 로스 가또스?",
-   "ko": "고양이들이요? 고양이들은 어디 있어요?",
-   "note": "sus = usted 의(당신의)",
+   "tl": "¿Tiene usted gatos? ¿Y dónde están?",
+   "rd": "띠에네 우스떼드 가또스? 이 돈데 에스딴?",
+   "ko": "고양이를 키우세요? 근데 어디 있어요?",
+   "note": "tiene usted = usted 는 3인칭 단수 활용 ↔ 3번 tienen",
    "tags": [
     "form:usted"
    ],
@@ -112,10 +112,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "En su cama. Bueno… la habitación es de ellos.",
-   "rd": "엔 수 까마. 부에노… 라 아비따씨온 에스 데 에요스.",
-   "ko": "손님 침대에요. 뭐… 그 방이 원래 걔들 거거든요.",
-   "note": "es de ellos = 그들(고양이들) 것이다",
+   "tl": "En su cama. Bueno… es su habitación.",
+   "rd": "엔 수 까마. 부에노… 에스 수 아비따씨온.",
+   "ko": "손님 침대에요. 뭐… 원래 걔들 방이거든요.",
+   "note": "su = 「당신의」도 「그들의」도 된다 — 앞 su = usted 의, 뒤 su = 고양이들의",
    "tags": [
     "expr:bueno",
     "form:usted"
@@ -128,23 +128,32 @@
     ],
     [
      "teasing",
-     "Bueno… la habitación es de ellos."
+     "Bueno… es su habitación."
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Pues… ¡hola, compañeros! Vosotros tenéis la cama, ¿y yo?",
-   "rd": "뿌에스… 올라, 꼼빠녜로스! 보소뜨로스 떼네이스 라 까마, 이 요?",
-   "ko": "그럼… 안녕, 룸메이트들! 너희가 침대 차지면, 나는?",
-   "note": "vosotros tenéis = 너희는 가지고 있다(스페인식 2인칭 복수)",
+   "tl": "Pues… ¡hola, compañeros! Vosotros sois los jefes, ¿no?",
+   "rd": "뿌에스… 올라, 꼼빠녜로스! 보소뜨로스 소이스 로스 헤페스, 노?",
+   "ko": "그럼… 안녕, 룸메이트들! 너희가 대장이지?",
+   "note": "sois = ser 2인칭 복수(vosotros) ↔ 단수 eres",
    "tags": [
     "expr:pues",
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "segs": [
+    [
+     "flustered",
+     "Pues… ¡hola, compañeros!"
+    ],
+    [
+     "amused",
+     "Vosotros sois los jefes, ¿no?"
+    ]
+   ]
   }
  ],
  "draft": "claude"

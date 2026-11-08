@@ -8,7 +8,7 @@
  "kind": "short",
  "title": "아픈 사람들 어디 있게",
  "emoji": "🥨",
- "scene": "2단계 「아픈 사람 어디 있게」를 복수로 — Lucía·Marta 를 만나 Javi·Diego 소식을 듣는다",
+ "scene": "2단계 「아픈 사람 어디 있게」를 복수로 — Lucía 를 만나 Javi·Diego 소식을 듣는다",
  "speakers": {
   "A": "{name}",
   "B": "Lucía"
@@ -23,25 +23,25 @@
  "domain": [
   "friends"
  ],
- "goal": "같은 이야기를 복수 ser/estar(estáis·estamos·están·son)로 — 새 단어 0",
+ "goal": "같은 이야기를 복수 ser/estar(estamos·están·son)·dicen 으로, 단수 estás·estoy·dices 와 대비 — 새 단어 0(이름 Diego 만 추가)",
  "expressions": [
   "qué tal",
   "fatal",
   "tío",
-  "qué pena",
+  "qué dices",
   "mira"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "tl": "¡Hola, Lucía! ¿Qué tal? ¿Estáis cansadas?",
-   "rd": "올라, 루씨아! 께 딸? 에스따이스 깐사다스?",
-   "ko": "안녕, 루시아! 잘 지내? 둘 다 피곤해?",
-   "note": "estáis = estar 2인칭 복수(vosotras)",
+   "tl": "¡Hola, Lucía! ¿Qué tal? ¿Estás cansada?",
+   "rd": "올라, 루씨아! 께 딸? 에스따스 깐사다?",
+   "ko": "안녕, 루시아! 잘 지내? 피곤해?",
+   "note": "estás = 2인칭 단수 — 2번 estamos 와 비교",
    "tags": [
     "expr:qué tal",
-    "form:vosotros"
+    "form:estar"
    ],
    "new": [],
    "emotion": "cheerful"
@@ -49,10 +49,10 @@
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Estamos fatal, tío. Es lunes.",
-   "rd": "에스따모스 파딸, 띠오. 에스 루네스.",
-   "ko": "우리 완전 최악이야. 월요일이잖아.",
-   "note": "estamos = estar 1인칭 복수",
+   "tl": "Estamos fatal, tío. Es lunes. ¿Y tú?",
+   "rd": "에스따모스 파딸, 띠오. 에스 루네스. 이 뚜?",
+   "ko": "다들 완전 최악이야. 월요일이잖아. 너는?",
+   "note": "estamos = estar 1인칭 복수(우리 다)",
    "tags": [
     "expr:fatal",
     "expr:tío",
@@ -60,21 +60,24 @@
    ],
    "new": [],
    "emotion": "sad",
-   "tl_f": "Estamos fatal, tía. Es lunes.",
-   "rd_f": "에스따모스 파딸, 띠아. 에스 루네스."
+   "tl_f": "Estamos fatal, tía. Es lunes. ¿Y tú?",
+   "rd_f": "에스따모스 파딸, 띠아. 에스 루네스. 이 뚜?"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "¿Y Javi y Diego? ¿Dónde están?",
-   "rd": "이 하비 이 디에고? 돈데 에스딴?",
-   "ko": "하비랑 디에고는? 어디 있어?",
-   "note": "están = estar 3인칭 복수",
+   "tl": "Yo no estoy cansado. ¿Y Javi y Diego?",
+   "rd": "요 노 에스또이 깐사도. 이 하비 이 디에고?",
+   "ko": "난 안 피곤해. 하비랑 디에고는?",
+   "note": "estoy cansado(1인칭·남) · 여성은 cansada",
    "tags": [
-    "form:plural"
+    "form:estar",
+    "form:concordancia"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "cheerful",
+   "tl_f": "Yo no estoy cansada. ¿Y Javi y Diego?",
+   "rd_f": "요 노 에스또이 깐사다. 이 하비 이 디에고?"
   },
   {
    "num": 4,
@@ -82,7 +85,7 @@
    "tl": "Están en casa. Están enfermos, dicen.",
    "rd": "에스딴 엔 까사. 에스딴 엔페르모스, 디쎈.",
    "ko": "집에 있대. 둘 다 아프다나 봐.",
-   "note": "enfermos = 남성 복수 · dicen = 그들이 말한다",
+   "note": "están·dicen = 3인칭 복수 ↔ 단수 está·dice · enfermos = 남성 복수",
    "tags": [
     "form:plural"
    ],
@@ -92,16 +95,16 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Qué pena. Son muy fuertes, ¿no?",
-   "rd": "께 뻬나. 손 무이 푸에르떼스, 노?",
-   "ko": "안됐다. 둘 다 원래 엄청 튼튼하잖아?",
-   "note": "son = ser 3인칭 복수(성질)",
+   "tl": "¿Qué dices? Son muy fuertes.",
+   "rd": "께 디쎄스? 손 무이 푸에르떼스.",
+   "ko": "무슨 소리야? 둘 다 엄청 튼튼하잖아.",
+   "note": "dices(너) ↔ 4번 dicen(그들) · son = ser 3인칭 복수",
    "tags": [
-    "expr:qué pena",
+    "expr:qué dices",
     "form:plural"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "surprised"
   },
   {
    "num": 6,
@@ -109,7 +112,7 @@
    "tl": "Sí… Mira esta foto. Es de hoy.",
    "rd": "시… 미라 에스따 포또. 에스 데 오이.",
    "ko": "응… 이 사진 봐. 오늘 거야.",
-   "note": "es de hoy = 오늘 것(ser)",
+   "note": "es de hoy = 오늘 것(단수 es ↔ 5번 son)",
    "tags": [
     "expr:mira"
    ],
@@ -144,7 +147,7 @@
    "tl": "Sí, enfermos… de hambre.",
    "rd": "시, 엔페르모스… 데 암브레.",
    "ko": "응, 아프대… 배고파서.",
-   "note": "enfermos = 복수 일치",
+   "note": "enfermos = 복수 일치(R1 enfermo)",
    "tags": [
     "form:plural"
    ],

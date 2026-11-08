@@ -22,7 +22,7 @@
  "domain": [
   "love"
  ],
- "goal": "재귀동사 me levanto / me ducho / me visto / te levantas — 자기 몸에 하는 일",
+ "goal": "재귀동사 me levanto/te levantas · me visto/te vistes · me ducho — 자기 몸에 하는 일",
  "expressions": [
   "vale",
   "bueno"
@@ -52,7 +52,7 @@
    "tl": "Me levanto tarde. ¿Por qué?",
    "rd": "메 레반또 따르데. 뽀르 께?",
    "ko": "늦게 일어나. 왜?",
-   "note": "me levanto = 나는 일어난다",
+   "note": "me levanto = 나는 일어난다(te levantas ↔ me levanto)",
    "tags": [
     "form:reflexivo"
    ],
@@ -114,11 +114,13 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Otra vez?",
-   "rd": "오뜨라 베쓰?",
-   "ko": "또?",
-   "note": "¿otra vez? = 또?(되묻기)",
-   "tags": [],
+   "tl": "¿Otra vez? ¿Cuántas veces te vistes?",
+   "rd": "오뜨라 베쓰? 꾸안따스 베쎄스 떼 비스떼스?",
+   "ko": "또? 몇 번이나 갈아입는 거야?",
+   "note": "te vistes = vestirse 2인칭 — me visto 와 비교 · veces = vez 의 복수",
+   "tags": [
+    "form:reflexivo"
+   ],
    "new": [],
    "emotion": "surprised",
    "ui": "bubble",
@@ -148,7 +150,7 @@
    "tl": "Vale… ahora me pongo nervioso.",
    "rd": "발레… 아오라 메 뽄고 네르비오소.",
    "ko": "아… 이제 나 떨린다.",
-   "note": "ponerse nervioso = 긴장되다(재귀)",
+   "note": "ponerse nervioso = 긴장되다(재귀) · 여성은 nerviosa",
    "tags": [
     "expr:vale",
     "form:reflexivo"
@@ -157,9 +159,9 @@
     "nervioso"
    ],
    "emotion": "shy",
+   "tl_f": "Vale… ahora me pongo nerviosa.",
    "ui": "bubble",
    "at": "10:52",
-   "tl_f": "Vale… ahora me pongo nerviosa.",
    "rd_f": "발레… 아오라 메 뽄고 네르비오사."
   }
  ],

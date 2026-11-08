@@ -22,7 +22,7 @@
  "domain": [
   "love"
  ],
- "goal": "목적 대명사 lo(남성 사물)·la(여성 사물)·le(~에게) — lo tengo / la tienes / le doy",
+ "goal": "목적 대명사 lo(남성 사물)·la(여성 사물)·le(~에게) + tengo/tienes·leo/lees·rojo/roja",
  "expressions": [
   "oye",
   "vale"
@@ -34,7 +34,7 @@
    "tl": "Oye, ¿tienes mi libro rojo?",
    "rd": "오예, 띠에네스 미 리브로 로호?",
    "ko": "있잖아, 내 빨간 책 너한테 있어?",
-   "note": "libro rojo = 남성 명사 + 남성 형용사",
+   "note": "libro rojo = 남성 명사 + 남성 형용사 · tienes = 2인칭",
    "tags": [
     "expr:oye"
    ],
@@ -49,7 +49,7 @@
    "tl": "Sí, lo tengo. Lo leo en la cama.",
    "rd": "시, 로 뗀고. 로 레오 엔 라 까마.",
    "ko": "응, 나한테 있어. 침대에서 읽는 중.",
-   "note": "lo = el libro(남성) 대신",
+   "note": "lo = el libro(남성) 대신 · tengo/leo = 1인칭",
    "tags": [
     "form:lo"
    ],
@@ -64,7 +64,7 @@
    "tl": "¿Lo lees? ¿Todo?",
    "rd": "로 레에스? 또도?",
    "ko": "그걸 읽어? 전부?",
-   "note": "¿lo lees? = 그걸 읽어?",
+   "note": "¿lo lees? = 그걸 읽어?(2인칭 — 2번 leo 와 비교)",
    "tags": [
     "form:lo"
    ],
@@ -77,16 +77,18 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Sí. Y hay una carta dentro.",
-   "rd": "시. 이 아이 우나 까르따 덴뜨로.",
-   "ko": "응. 그리고 안에 편지가 하나 있어.",
-   "note": "hay = ~가 있다 · dentro = 안에",
-   "tags": [],
+   "tl": "Sí. Y hay una carta roja dentro.",
+   "rd": "시. 이 아이 우나 까르따 로하 덴뜨로.",
+   "ko": "응. 그리고 안에 빨간 편지가 하나 있어.",
+   "note": "carta roja(여) — 1번 libro rojo(남)와 비교 · dentro = 안에",
+   "tags": [
+    "form:concordancia"
+   ],
    "new": [
     "carta",
     "dentro"
    ],
-   "emotion": "neutral",
+   "emotion": "teasing",
    "ui": "bubble",
    "at": "23:12"
   },

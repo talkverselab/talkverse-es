@@ -8,7 +8,7 @@
  "kind": "short",
  "title": "분홍색 하루들",
  "emoji": "🧺",
- "scene": "7단계 「분홍색 하루」를 복수로 — Diego 와 Javi 가 오늘 한 일을 자랑한다",
+ "scene": "7단계 「분홍색 하루」를 복수로 — 셰어하우스 사람들이 오늘 한 일을 Diego 가 자랑한다",
  "speakers": {
   "A": "{name}",
   "B": "Diego"
@@ -23,9 +23,10 @@
  "domain": [
   "life"
  ],
- "goal": "같은 이야기를 복수 현재완료(hemos limpiado·habéis hecho)로 — 새 단어 0",
+ "goal": "같은 이야기를 복수 현재완료(hemos·habéis)로, 단수 has·he 와 대비 + rojas/rojo·blanca/blanco — 새 단어 0",
  "expressions": [
   "qué bien",
+  "en serio",
   "bueno",
   "madre mía",
   "pues"
@@ -34,10 +35,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¡Hola! Javi y yo hemos limpiado el piso.",
-   "rd": "올라! 하비 이 요 에모스 림삐아도 엘 삐소.",
-   "ko": "왔어! 하비랑 나랑 집 청소했다.",
-   "note": "hemos limpiado = 1인칭 복수 완료",
+   "tl": "¡Hola! Hemos limpiado el piso. ¿Has visto?",
+   "rd": "올라! 에모스 림삐아도 엘 삐소. 아스 비스또?",
+   "ko": "왔어! 우리 집 청소했다. 봤어?",
+   "note": "hemos(우리) ↔ has(너) — 같은 haber",
    "tags": [
     "form:perfecto",
     "form:nosotros"
@@ -71,51 +72,56 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "gentle"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Mi ropa? ¿Toda?",
-   "rd": "미 로빠? 또다?",
-   "ko": "내 옷을? 전부?",
-   "note": "toda = ropa 에 맞춘 여성형",
-   "tags": [],
+   "tl": "¿Mi ropa? ¿Toda? ¿La blanca también?",
+   "rd": "미 로빠? 또다? 라 블란까 땀비엔?",
+   "ko": "내 옷을? 전부? 흰 옷도?",
+   "note": "toda·blanca = ropa(여)에 맞춤",
+   "tags": [
+    "form:concordancia"
+   ],
    "new": [],
    "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Sí. Y también hemos lavado nuestras camisetas rojas.",
-   "rd": "시. 이 땀비엔 에모스 라바도 누에스뜨라스 까미세따스 로하스.",
-   "ko": "응. 그리고 우리 빨간 티들도 같이 빨았어.",
-   "note": "nuestras camisetas rojas = 여성 복수 일치",
+   "tl": "Sí. Y he lavado mis camisetas rojas.",
+   "rd": "시. 이 에 라바도 미스 까미세따스 로하스.",
+   "ko": "응. 그리고 내 빨간 티들도 같이 빨았어.",
+   "note": "he(나) ↔ 3번 hemos(우리) · camisetas rojas = 여성 복수",
    "tags": [
-    "form:nosotros",
+    "form:perfecto",
     "form:plural"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Con mi ropa blanca?",
-   "rd": "꼰 미 로빠 블란까?",
-   "ko": "내 흰 옷이랑 같이?",
-   "note": "blanca = 여성 단수",
-   "tags": [],
+   "tl": "¿Rojo con blanco? ¿En serio?",
+   "rd": "로호 꼰 블란꼬? 엔 세리오?",
+   "ko": "빨강이랑 흰색을? 진짜로?",
+   "note": "색 이름은 남성 단수 rojo·blanco ↔ rojas·blanca",
+   "tags": [
+    "expr:en serio",
+    "form:concordancia"
+   ],
    "new": [],
    "emotion": "worried"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Bueno… ahora tenemos mucha ropa rosa.",
-   "rd": "부에노… 아오라 떼네모스 무차 로빠 로사.",
-   "ko": "뭐… 이제 우리 다 분홍 옷 엄청 많아.",
-   "note": "tenemos = 1인칭 복수(셋 다)",
+   "tl": "Bueno… ¿ves? Ahora tenemos mucha ropa rosa.",
+   "rd": "부에노… 베스? 아오라 떼네모스 무차 로빠 로사.",
+   "ko": "뭐… 봐봐. 이제 우리 다 분홍 옷 엄청 많아.",
+   "note": "tenemos = 1인칭 복수(R1 tienes) · ¿ves? = 1번 ¿has visto? 와 같은 ver",
    "tags": [
     "expr:bueno",
     "form:nosotros"
@@ -129,7 +135,7 @@
    "tl": "Madre mía. Pues… el rosa nos queda bien.",
    "rd": "마드레 미아. 뿌에스… 엘 로사 노스 께다 비엔.",
    "ko": "세상에. 뭐… 분홍 우리한테 잘 어울려.",
-   "note": "nos queda bien = 우리한테 잘 어울린다",
+   "note": "nos queda bien = 우리한테 잘 어울린다(R1 me queda)",
    "tags": [
     "expr:madre mía",
     "expr:pues",

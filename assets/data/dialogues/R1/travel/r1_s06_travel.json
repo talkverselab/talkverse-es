@@ -22,7 +22,7 @@
  "domain": [
   "travel"
  ],
- "goal": "전치사 a(시각·방향)·de(소속)·en(장소)·con(동반) + desde",
+ "goal": "전치사 a(시각·방향)·de(소속)·en(장소)·con(동반) + desde · estoy/estás·va/voy·perro/perros",
  "expressions": [
   "pues",
   "tío",
@@ -50,7 +50,7 @@
    "tl": "Estoy en el tren, en la ventana.",
    "rd": "에스또이 엔 엘 뜨렌, 엔 라 벤따나.",
    "ko": "기차 안이야, 창가 자리.",
-   "note": "en = ~에·안에(장소)",
+   "note": "en = ~에·안에(장소) · estoy ↔ 1번 estás",
    "tags": [
     "form:prep_en"
    ],
@@ -91,11 +91,13 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "¿Un perro? Aquí no hay perros.",
-   "rd": "운 뻬로? 아끼 노 아이 뻬로스.",
-   "ko": "개? 여긴 개 없는데.",
-   "note": "aquí no hay = 여긴 없다",
-   "tags": [],
+   "tl": "¿Un perro? En mi tren no hay perros.",
+   "rd": "운 뻬로? 엔 미 뜨렌 노 아이 뻬로스.",
+   "ko": "개? 내 기차엔 개 없는데.",
+   "note": "perros = perro 의 복수 · en mi tren = 내 기차에",
+   "tags": [
+    "form:prep_en"
+   ],
    "new": [],
    "emotion": "surprised"
   },
@@ -116,17 +118,18 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "¡Tío! ¡Mi tren va a Toledo!",
-   "rd": "띠오! 미 뜨렌 바 아 똘레도!",
-   "ko": "야! 내 기차는 톨레도 가거든!",
-   "note": "Toledo = 마드리드 남쪽 도시",
+   "tl": "¡Tío! ¡Yo voy a Toledo!",
+   "rd": "띠오! 요 보이 아 똘레도!",
+   "ko": "야! 난 톨레도 가거든!",
+   "note": "voy = ir 1인칭 — 6번 va(3인칭)와 비교 · Toledo = 마드리드 남쪽 도시",
    "tags": [
-    "expr:tío"
+    "expr:tío",
+    "form:prep_a"
    ],
    "new": [],
    "emotion": "shout",
-   "tl_f": "¡Tía! ¡Mi tren va a Toledo!",
-   "rd_f": "띠아! 미 뜨렌 바 아 똘레도!"
+   "tl_f": "¡Tía! ¡Yo voy a Toledo!",
+   "rd_f": "띠아! 요 보이 아 똘레도!"
   },
   {
    "num": 8,
