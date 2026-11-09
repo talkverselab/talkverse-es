@@ -7,8 +7,8 @@ ROOM=$(cut -c1-8 data/review/grok/room_art.txt)
 for id in "$@"; do
   for req in $(ls data/review/art/$id/cut*_req.md | sort -V); do
     k=$(basename $req _req.md); [ -f data/review/art/$id/$k.jpg ] && continue
-    out=$(GROK_CDP_PORT=9239 /usr/bin/python3 tools/grok/grok_image.py $req data/review/art/$id/$k.jpg --tab $ROOM --wait 900 2>&1 | tail -1)
+    out=$(GROK_CDP_PORT=9239 /usr/bin/python3 tools/grok/grok_image.py $req data/review/art/$id/$k.jpg --tab $ROOM --wait 180 2>&1 | tail -1)
     echo "$(date +%H:%M) $id $k $out"; rm -f data/review/art/$id/$k.jpg.md
-    case "$out" in LIMIT*) exit 3;; esac
+    case "$out" in LIMIT*) exit 3;; OK*) ;; *) GROK_CDP_PORT=9239 /usr/bin/python3 tools/grok/grok_stop.py $ROOM >/dev/null; echo "  3분 초과 — 생성 중지";; esac  # 사용자 지시 2026-11-10 "그록 3분만"
   done
 done
