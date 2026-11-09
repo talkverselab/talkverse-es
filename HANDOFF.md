@@ -38,7 +38,7 @@ _2026-11-03 새벽 전체 다시 씀. 규칙은 `CLAUDE.md`, 인물은 `CHARACTE
 
 ## 4. 다음 할 일(순서) — 2026-11-08 세션 종료 시점
 
-1. **Grok 완전 재작성(11/9 13:30 재개, 사용자 지시)** — 회화 Claude 초안 58편(`stage` 칸 있는 편, R0~R5)을 편마다 새 대화방에서 「전문가」 모델로 모든 줄 새로 쓰기(GROK_PROMPT_GUIDE.md, zh 틀 복사). 받은 뒤 검사기·`tools/inflection_audit.py`(spaCy 는 2인칭 형태를 덜 셈) 통과 → 리뷰 페이지(`tools/review_html.py`, 새 편 먼저·옛 4편 뒤) → uk 「REVIEW_es 갱신」 → 사용자 통과 → `approved`.
+1. **Grok 완전 재작성(11/9 재개, 사용자 지시)** — Grok 은 M4 uk 크롬(9231)에 다시 로그인됨(2026-11-09). 쓸 때 `/usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <내 포트>` 로 쿠키를 옮긴다(M4 에서). — 회화 Claude 초안 58편(`stage` 칸 있는 편, R0~R5)을 편마다 새 대화방에서 「전문가」 모델로 모든 줄 새로 쓰기(GROK_PROMPT_GUIDE.md, zh 틀 복사). 받은 뒤 검사기·`tools/inflection_audit.py`(spaCy 는 2인칭 형태를 덜 셈) 통과 → 리뷰 페이지(`tools/review_html.py`, 새 편 먼저·옛 4편 뒤) → uk 「REVIEW_es 갱신」 → 사용자 통과 → `approved`.
 2. **DB·앱 연결**(`docs/APP_BUILD_STRATEGY_es.md` 순서): `levels.json`·로더(`dialogue_service.dart` 가 R 폴더 읽기)·pubspec 하위 폴더·`DialogueTurn` 에 `tl_f`·`rd_f`·`emotion`·`segs`, 레벨 길 화면, 음성 재생(일본어앱 `dialogue_audio.dart` 이식), `tools/add_lemmas.py` 를 편 JSON 형식에 맞춰 레마·morph 태그, `version.json` db+1. 통과한 편은 음성(`tools/tts/make_plan.py` → uk 「지금 시작」 뒤 PC MOSS) · 장면 컷 4장(한자 세션 경유).
 3. **사용자 결정 대기**: A6(어휘 완주 1,430개 > 1,000), 빌드 전략 7장 11건(레벨 어휘 상한 매핑·이용권 범위=A10·옛 `L1.json` 삭제·변형 카드 코퍼스 풀 위치 등), 평생 이용권 범위, 외계인 캐릭터 시트(A10). 문법 배치는 2026-11-08 결정 4건 반영(`docs/GRAMMAR_PLACEMENT_es.md`).
 4. 동결 해제로 가능해진 회화 밖 콘텐츠(A12): R1 코어 40·골격 매핑표·변형 카드(1:9)·비어 있는 `travel_*.json` — 사용자 지시 때.
