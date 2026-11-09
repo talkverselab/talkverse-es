@@ -84,8 +84,9 @@ if left > 5:
 t0 = time.time(); reloaded = False
 while time.time() - t0 < wait:
     body = c.ev("document.body.innerText")
-    tail = body[-1500:]
-    if LIMIT_RE.search(tail) and ('한도' in tail or 'limit' in tail.lower() or '초기화' in tail):
+    # 한도 판정은 답·질문 본문을 뺀 화면 글자로만(대사 속 「한도는 20킬로」를 한도로 오판, 2026-11-09)
+    tail = c.ev("(()=>{let s=document.body.innerText;for(const e of document.querySelectorAll('.response-content-markdown, .message-bubble, [class*=message]'))s=s.split(e.innerText).join('');return s})()")[-1500:]
+    if LIMIT_RE.search(tail) and ('한도' in tail or 'limit' in tail.lower() or '초기화' in tail) and '생각 중' not in tail and '응답 중지' not in tail:  # 답을 쓰는 중이면 한도가 아니다(2026-11-09 오판)
         m = TIME_RE.search(tail[tail.lower().find('한도') if '한도' in tail else 0:])
         print('LIMIT', m.group(0) if m else '?', '|', re.sub(r'\s+', ' ', tail[-300:]))
         sys.exit(3)

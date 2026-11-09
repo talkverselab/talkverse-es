@@ -28,7 +28,8 @@
   "claro",
   "fatal",
   "tía",
-  "vale"
+  "vale",
+  "qué mono"
  ],
  "turns": [
   {
@@ -43,7 +44,7 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -57,7 +58,7 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -72,7 +73,7 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "excited"
   },
   {
    "num": 4,
@@ -91,10 +92,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Fatal. Vosotros vais a bailar con mi abuela.",
-   "rd": "파딸. 보소뜨로스 바이스 아 바일라르 꼰 미 아부엘라.",
+   "tl": "Mi abuelo, fatal. Vosotros vais a bailar con mi abuela.",
+   "rd": "미 아부엘로, 파딸. 보소뜨로스 바이스 아 바일라르 꼰 미 아부엘라.",
    "ko": "할아버지는 엉망. 너희는 우리 할머니랑 출 거야.",
-   "note": "vosotros vais a = 너희는 ~할 거야 · mi abuela(단수) ↔ mis abuelos",
+   "note": "vosotros vais a = 너희는 ~할 거야 · mi abuelo/mi abuela(단수) ↔ 3번 mis abuelos",
    "tags": [
     "expr:fatal",
     "form:ir_a",
@@ -128,16 +129,7 @@
     "form:plural"
    ],
    "new": [],
-   "segs": [
-    [
-     "gentle",
-     "Tranquilos."
-    ],
-    [
-     "teasing",
-     "Ella sabe. Es la campeona del barrio."
-    ]
-   ]
+   "emotion": "gentle"
   },
   {
    "num": 8,
@@ -151,8 +143,46 @@
     "form:ir_a"
    ],
    "new": [],
-   "emotion": "sad"
+   "emotion": "shy"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Hoy vamos a ir a la verbena. ¿Venís?",
+   "ko": "오늘 밤에 우리 동네 축제 갈 거야. 너희도 올래?"
+  },
+  {
+   "tl": "¿Qué es? ¿Vais a bailar?",
+   "ko": "그게 뭔데? 춤출 거야?"
+  },
+  {
+   "tl": "Claro. Vamos a bailar con mis abuelos.",
+   "ko": "당연하지. 우리 할아버지 할머니랑 출 거야."
+  },
+  {
+   "tl": "¿Con tus abuelos? ¡Qué monos! ¿Bailan bien?",
+   "ko": "할아버지 할머니랑? 귀엽다! 춤 잘 추셔?"
+  },
+  {
+   "tl": "Fatal. Vosotros vais a bailar con mi abuela.",
+   "ko": "할아버지는 엉망. 너희는 우리 할머니랑 출 거야."
+  },
+  {
+   "tl": "¿Nosotros? No sabemos bailar, tía.",
+   "ko": "우리가? 우리 춤 못 춰."
+  },
+  {
+   "tl": "Tranquilos. Ella sabe. Es la campeona del barrio.",
+   "ko": "걱정 마. 할머니는 잘 추셔. 동네 챔피언이거든."
+  },
+  {
+   "tl": "Vale. Vamos a hacer el ridículo.",
+   "ko": "알았어. 우리 망신당하겠다."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r3_s08_culture_rewrite.md",
+  "model": "전문가"
+ }
 }

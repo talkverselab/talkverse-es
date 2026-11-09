@@ -55,7 +55,7 @@
     "form:prep_en"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -96,7 +96,7 @@
     "form:prep_en"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "tsukkomi"
   },
   {
    "num": 6,
@@ -110,7 +110,7 @@
     "form:prep_a"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "flustered"
   },
   {
    "num": 7,
@@ -138,8 +138,46 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "cheerful"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¿Dónde estáis? El tren es a las diez.",
+   "ko": "너희 어디야? 기차 열 시야."
+  },
+  {
+   "tl": "Estamos en el tren, en la ventana.",
+   "ko": "우리 기차 안이야, 창가 자리."
+  },
+  {
+   "tl": "¿En el tren? Nosotras también. ¿Con quién estáis?",
+   "ko": "기차라고? 우리도. 너희 누구랑 있어?"
+  },
+  {
+   "tl": "Con el perro de una señora.",
+   "ko": "어떤 아주머니 개랑."
+  },
+  {
+   "tl": "¿Un perro? En nuestro tren no hay perros.",
+   "ko": "개? 우리 기차엔 개 없는데."
+  },
+  {
+   "tl": "Pues este tren va a… ¿Sevilla?",
+   "ko": "근데 이 기차… 세비야 가는데?"
+  },
+  {
+   "tl": "¡Tíos! ¡Nosotras vamos a Toledo!",
+   "ko": "얘들아! 우리는 톨레도 가거든!"
+  },
+  {
+   "tl": "Bueno… os llamamos desde Sevilla.",
+   "ko": "뭐… 세비야에서 전화할게."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r3_s06_travel_rewrite.md",
+  "model": "전문가"
+ }
 }

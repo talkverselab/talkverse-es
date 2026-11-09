@@ -29,9 +29,9 @@
   "oye",
   "y tú",
   "no me digas",
+  "es que",
   "qué pasa",
-  "perdona",
-  "es que"
+  "perdona"
  ],
  "turns": [
   {
@@ -40,15 +40,18 @@
    "tl": "Oye, ¿qué haces?",
    "rd": "오예, 께 아쎄스?",
    "ko": "저기, 뭐 해?",
-   "note": "¿Qué haces? = 뭐 해?",
+   "note": "¿qué haces? = 뭐 해?(hacer 2인칭) · oye = 저기·있잖아",
    "tags": [
     "expr:oye",
     "form:hacer"
    ],
-   "new": [],
-   "emotion": "cheerful",
+   "new": [
+    "hacer"
+   ],
    "ui": "bubble",
-   "at": "22:10"
+   "at": "22:10",
+   "stamp": "🌙",
+   "emotion": "teasing"
   },
   {
    "num": 2,
@@ -56,49 +59,53 @@
    "tl": "No hago nada. ¿Y tú?",
    "rd": "노 아고 나다. 이 뚜?",
    "ko": "아무것도 안 해. 너는?",
-   "note": "no hago nada = 아무것도 안 해",
+   "note": "no hago nada = 아무것도 안 해(hacer 1인칭 — 1번 haces 와 비교)",
    "tags": [
-    "expr:y tú",
-    "form:hacer"
+    "form:hacer",
+    "expr:y tú"
    ],
-   "new": [],
-   "emotion": "cheerful",
+   "new": [
+    "nada"
+   ],
    "ui": "bubble",
-   "at": "22:11"
+   "at": "22:11",
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Leo. Un libro de amor.",
-   "rd": "레오. 운 리브로 데 아모르.",
-   "ko": "책 읽어. 연애 소설.",
-   "note": "leo = 나 읽어(leer)",
+   "tl": "Leo un libro de amor.",
+   "rd": "레오 운 리브로 데 아모르.",
+   "ko": "연애 소설 읽어.",
+   "note": "leo = leer 1인칭 · libro de amor = 연애 소설",
    "tags": [
-    "form:leer"
+    "form:presente_er"
    ],
    "new": [
-    "libro"
+    "leer",
+    "libro",
+    "amor"
    ],
-   "emotion": "shy",
    "ui": "bubble",
-   "at": "22:11"
+   "at": "22:11",
+   "stamp": "📖",
+   "emotion": "excited"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Lees libros de amor? ¡No me digas!",
-   "rd": "레에스 리브로스 데 아모르? 노 메 디가스!",
-   "ko": "연애 소설 읽어? 설마!",
-   "note": "lees = 너 읽어 · libros = 책들",
+   "tl": "¿Lees eso? ¡No me digas!",
+   "rd": "레에스 에소? 노 메 디가스!",
+   "ko": "그런 걸 읽어? 설마!",
+   "note": "lees = leer 2인칭 — 3번 leo 와 비교 · ¡no me digas! = 설마·진짜?",
    "tags": [
     "expr:no me digas",
-    "form:leer"
+    "form:presente_er"
    ],
    "new": [],
-   "emotion": "teasing",
    "ui": "bubble",
    "at": "22:12",
-   "stamp": "😏"
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -106,15 +113,16 @@
    "tl": "Es que es muy bueno.",
    "rd": "에스 께 에스 무이 부에노.",
    "ko": "아니 그게, 진짜 재밌단 말야.",
-   "note": "es que = 그게 말이야",
+   "note": "es que… = 아니 그게…(변명·이유) · bueno = 좋은·재밌는",
    "tags": [
-    "expr:es que",
-    "form:ser"
+    "expr:es que"
    ],
-   "new": [],
-   "emotion": "flustered",
+   "new": [
+    "bueno"
+   ],
    "ui": "bubble",
-   "at": "22:12"
+   "at": "22:12",
+   "emotion": "amused"
   },
   {
    "num": 6,
@@ -126,45 +134,88 @@
    "tags": [
     "expr:qué pasa"
    ],
-   "new": [],
-   "emotion": "teasing",
+   "new": [
+    "pasar"
+   ],
    "ui": "bubble",
-   "at": "22:13"
+   "at": "22:13",
+   "emotion": "surprised"
   },
   {
    "num": 7,
    "speaker": "A",
    "tl": "¿Hola? ¿Marta?",
    "rd": "올라? 마르따?",
-   "ko": "여보세요? 마르타?",
-   "note": "¿Hola? = 여보세요?(대답 없을 때)",
+   "ko": "저기? 마르타?",
+   "note": "¿hola? = 저기?·있어?(답이 없을 때)",
    "tags": [],
    "new": [],
-   "emotion": "worried",
    "ui": "bubble",
    "at": "22:20",
-   "read": false
+   "read": false,
+   "stamp": "👀",
+   "emotion": "worried"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Perdona. Es que el chico es como tú.",
-   "tl_f": "Perdona. Es que la chica es como tú.",
-   "rd": "뻬르도나. 에스 께 엘 치꼬 에스 꼬모 뚜.",
-   "ko": "미안. 그게… 남자 주인공이 너 같아서.",
-   "ko_f": "미안. 그게… 여자 주인공이 너 같아서.",
-   "note": "como tú = 너 같은",
+   "tl": "Perdona. El chico es como tú.",
+   "rd": "뻬르도나. 엘 치꼬 에스 꼬모 뚜.",
+   "ko": "미안. 남자 주인공이 너 같아서.",
+   "note": "es como tú = 너 같아 · perdona = 미안(tú 에게)",
    "tags": [
-    "expr:perdona",
-    "expr:es que"
+    "expr:perdona"
    ],
-   "new": [],
-   "emotion": "shy",
+   "new": [
+    "chico",
+    "como"
+   ],
    "ui": "bubble",
    "at": "22:31",
-   "stamp": "🙈",
-   "rd_f": "뻬르도나. 에스 께 라 치까 에스 꼬모 뚜."
+   "stamp": "💕",
+   "emotion": "shy",
+   "tl_f": "Perdona. La chica es como tú.",
+   "rd_f": "뻬르도나. 라 치까 에스 꼬모 뚜.",
+   "ko_f": "미안. 여자 주인공이 너 같아서."
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Oye, ¿qué haces?",
+   "ko": "저기, 뭐 해?"
+  },
+  {
+   "tl": "No hago nada. ¿Y tú?",
+   "ko": "아무것도 안 해. 너는?"
+  },
+  {
+   "tl": "Leo. Un libro de amor.",
+   "ko": "책 읽어. 연애 소설."
+  },
+  {
+   "tl": "¿Lees libros de amor? ¡No me digas!",
+   "ko": "연애 소설 읽어? 설마!"
+  },
+  {
+   "tl": "Es que es muy bueno.",
+   "ko": "아니 그게, 진짜 재밌단 말야."
+  },
+  {
+   "tl": "¿Y qué pasa en el libro?",
+   "ko": "그래서 책에서 무슨 일 있는데?"
+  },
+  {
+   "tl": "¿Hola? ¿Marta?",
+   "ko": "여보세요? 마르타?"
+  },
+  {
+   "tl": "Perdona. Es que el chico es como tú.",
+   "ko": "미안. 그게… 남자 주인공이 너 같아서."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_love_a3_rewrite.md",
+  "model": "전문가"
+ }
 }

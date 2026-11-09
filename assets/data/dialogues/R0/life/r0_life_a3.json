@@ -24,151 +24,201 @@
  ],
  "goal": "comer(comes·como) · cocinar(cocino·cocinas) · querer(quieres·quiero) · cómo que",
  "expressions": [
+  "oye",
+  "tío",
   "qué guay",
   "cómo que",
+  "venga",
   "tranqui",
-  "vale"
+  "mola"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¿Comes en casa hoy?",
-   "rd": "꼬메스 엔 까사 오이?",
-   "ko": "오늘 집에서 먹어?",
-   "note": "comes = 너 먹어(comer)",
+   "tl": "Oye, ¿comes en casa hoy?",
+   "rd": "오예, 꼬메스 엔 까사 오이?",
+   "ko": "야, 오늘 집에서 먹어?",
+   "note": "¿comes…? = 먹어?(comer 2인칭) · en casa = 집에서",
    "tags": [
-    "form:comer"
+    "expr:oye",
+    "form:presente_er"
    ],
-   "new": [],
-   "emotion": "cheerful",
+   "new": [
+    "comer",
+    "casa",
+    "hoy"
+   ],
    "ui": "bubble",
-   "at": "19:02"
+   "at": "19:02",
+   "stamp": "🏠",
+   "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Sí, como en casa. ¿Por qué?",
-   "rd": "시, 꼬모 엔 까사. 뽀르 께?",
+   "tl": "Sí, como aquí. ¿Por qué?",
+   "rd": "시, 꼬모 아끼. 뽀르 께?",
    "ko": "응, 집에서 먹어. 왜?",
-   "note": "como = 나 먹어(comer)",
+   "note": "como = comer 1인칭 — 1번 comes 와 비교 · ¿por qué? = 왜?",
    "tags": [
-    "form:comer"
+    "form:presente_er"
    ],
-   "new": [],
-   "emotion": "neutral",
+   "new": [
+    "aquí",
+    "por qué"
+   ],
    "ui": "bubble",
-   "at": "19:03"
+   "at": "19:03",
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Hoy cocino yo. ¿Quieres?",
-   "rd": "오이 꼬씨노 요. 끼에레스?",
-   "ko": "오늘은 내가 요리해. 먹을래?",
-   "note": "cocino = 나 요리해 · ¿Quieres? = 할래?·먹을래?",
+   "tl": "Hoy cocino yo. ¿Quieres, tío?",
+   "rd": "오이 꼬씨노 요. 끼에레스, 띠오?",
+   "ko": "오늘은 내가 요리해. 너도 먹을래?",
+   "note": "cocino yo = 내가 요리해(yo 를 뒤에 두면 「내가」 강조) · ¿quieres? = 할래?",
    "tags": [
-    "form:cocinar",
-    "form:querer"
+    "expr:tío",
+    "form:presente_ar"
    ],
    "new": [
-    "cocinar"
+    "cocinar",
+    "querer"
    ],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "19:03",
-   "stamp": "👨‍🍳"
+   "stamp": "👨‍🍳",
+   "emotion": "excited",
+   "tl_f": "Hoy cocino yo. ¿Quieres, tía?",
+   "rd_f": "오이 꼬씨노 요. 끼에레스, 띠아?"
   },
   {
    "num": 4,
    "speaker": "A",
    "tl": "¿Tú cocinas? ¡Qué guay! ¿Qué es?",
    "rd": "뚜 꼬씨나스? 께 구아이! 께 에스?",
-   "ko": "네가 요리한다고? 오 대박! 뭔데?",
-   "note": "cocinas = 너 요리해",
+   "ko": "네가 요리를? 오 대박! 뭔데?",
+   "note": "cocinas = 2인칭 — 3번 cocino 와 비교 · ¡qué guay! = 멋지다·좋다",
    "tags": [
     "expr:qué guay",
-    "form:cocinar"
+    "form:presente_ar"
    ],
    "new": [],
    "ui": "bubble",
    "at": "19:04",
-   "segs": [
-    [
-     "surprised",
-     "¿Tú cocinas? "
-    ],
-    [
-     "excited",
-     "¡Qué guay! ¿Qué es?"
-    ]
-   ]
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Pasta. Creo.",
-   "rd": "빠스따. 끄레오.",
-   "ko": "파스타. 아마도.",
-   "note": "creo = 아마·내 생각엔",
+   "tl": "Pasta. Creo…",
+   "rd": "빠스따. 끄레오…",
+   "ko": "파스타. 아마도…",
+   "note": "creo = 아마도·그런 것 같아(creer 1인칭)",
    "tags": [],
    "new": [
-    "pasta"
+    "pasta",
+    "creer"
    ],
-   "emotion": "worried",
    "ui": "bubble",
    "at": "19:41",
-   "stamp": "📷"
+   "stamp": "🍝",
+   "emotion": "amused"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Cómo que «creo»?",
-   "rd": "꼬모 께 «끄레오»?",
-   "ko": "«아마도»라니?",
-   "note": "¿Cómo que…? = ~라니?",
+   "tl": "¿Cómo que «creo»? ¡Venga!",
+   "rd": "꼬모 께 «끄레오»? 벤가!",
+   "ko": "«아마도»라니? 야!",
+   "note": "¿cómo que…? = ~라니?(상대 말을 되받아칠 때) · ¡venga! = 야·에이",
    "tags": [
-    "expr:cómo que"
+    "expr:cómo que",
+    "expr:venga"
    ],
    "new": [],
-   "emotion": "tsukkomi",
    "ui": "bubble",
-   "at": "19:41"
+   "at": "19:41",
+   "emotion": "tsukkomi"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Tranqui. Tengo el teléfono de la pizza.",
-   "rd": "뜨란끼. 뗀고 엘 뗄레포노 데 라 삐짜.",
+   "tl": "Tranqui. Tengo el número de la pizza.",
+   "rd": "뜨란끼. 뗀고 엘 누메로 데 라 삐짜.",
    "ko": "진정해. 피자집 번호 있어.",
-   "note": "tranqui = 진정해",
+   "note": "tranqui = 진정해·걱정 마 · tengo = tener 1인칭",
    "tags": [
-    "expr:tranqui"
+    "expr:tranqui",
+    "form:tener"
    ],
    "new": [
+    "número",
     "pizza"
    ],
-   "emotion": "amused",
    "ui": "bubble",
-   "at": "19:42"
+   "at": "19:42",
+   "emotion": "teasing"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Vale. Yo quiero la grande.",
-   "rd": "발레. 요 끼에로 라 그란데.",
-   "ko": "오케이. 난 라지로.",
-   "note": "quiero = 나 ~원해 · la grande = 큰 거",
+   "tl": "¡Mola! Quiero la grande.",
+   "rd": "몰라! 끼에로 라 그란데.",
+   "ko": "오 좋아! 난 라지로.",
+   "note": "quiero = querer 1인칭 — 3번 ¿quieres? 와 비교 · ¡mola! = 좋다·멋지다",
    "tags": [
-    "expr:vale",
+    "expr:mola",
     "form:querer"
    ],
-   "new": [],
-   "emotion": "cheerful",
+   "new": [
+    "grande"
+   ],
    "ui": "bubble",
    "at": "19:42",
-   "stamp": "🍕"
+   "stamp": "🍕",
+   "emotion": "excited"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¿Comes en casa hoy?",
+   "ko": "오늘 집에서 먹어?"
+  },
+  {
+   "tl": "Sí, como en casa. ¿Por qué?",
+   "ko": "응, 집에서 먹어. 왜?"
+  },
+  {
+   "tl": "Hoy cocino yo. ¿Quieres?",
+   "ko": "오늘은 내가 요리해. 먹을래?"
+  },
+  {
+   "tl": "¿Tú cocinas? ¡Qué guay! ¿Qué es?",
+   "ko": "네가 요리한다고? 오 대박! 뭔데?"
+  },
+  {
+   "tl": "Pasta. Creo.",
+   "ko": "파스타. 아마도."
+  },
+  {
+   "tl": "¿Cómo que «creo»?",
+   "ko": "«아마도»라니?"
+  },
+  {
+   "tl": "Tranqui. Tengo el teléfono de la pizza.",
+   "ko": "진정해. 피자집 번호 있어."
+  },
+  {
+   "tl": "Vale. Yo quiero la grande.",
+   "ko": "오케이. 난 라지로."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_life_a3_rewrite.md",
+  "model": "전문가"
+ }
 }

@@ -34,7 +34,7 @@
    "speaker": "B",
    "tl": "¿Otra vez aquí? ¿Compras o solo miras?",
    "rd": "오뜨라 베쓰 아끼? 꼼쁘라스 오 솔로 미라스?",
-   "ko": "또 왔네? 사는 거야, 구경만 하는 거야?",
+   "ko": "또 왔어? 사는 거야, 구경만?",
    "note": "compras / miras = -ar 동사 2인칭(-as)",
    "tags": [
     "form:presente_ar"
@@ -49,7 +49,7 @@
    "speaker": "A",
    "tl": "Miro. Bueno… leo un poco.",
    "rd": "미로. 부에노… 레오 운 뽀꼬.",
-   "ko": "구경. 뭐… 조금 읽기도 하고.",
+   "ko": "구경. 뭐… 조금 읽어.",
    "note": "miro(-ar) · leo(-er) = 1인칭은 -o",
    "tags": [
     "expr:bueno",
@@ -58,7 +58,7 @@
    "new": [
     "leer"
    ],
-   "emotion": "flustered"
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -74,7 +74,7 @@
    "new": [
     "llegar"
    ],
-   "emotion": "teasing"
+   "emotion": "amused"
   },
   {
    "num": 4,
@@ -89,7 +89,7 @@
    "new": [
     "trabajar"
    ],
-   "emotion": "cheerful"
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -137,7 +137,6 @@
    ],
    "emotion": "shy",
    "tl_f": "Pues… espero a una chica que lee mucho.",
-   "ko_f": "그게… 책 많이 읽는 여자를 기다려.",
    "rd_f": "뿌에스… 에스뻬로 아 우나 치까 께 레에 무초."
   },
   {
@@ -145,7 +144,7 @@
    "speaker": "A",
    "tl": "Pues el chico hoy compra un libro.",
    "rd": "뿌에스 엘 치꼬 오이 꼼쁘라 운 리브로.",
-   "ko": "그럼 그 남자, 오늘은 책 한 권 산다.",
+   "ko": "그럼 그 남자, 오늘은 책 산다.",
    "note": "compra = comprar 3인칭(자기 얘기를 3인칭으로)",
    "tags": [
     "expr:pues",
@@ -154,9 +153,46 @@
    "new": [],
    "emotion": "gentle",
    "tl_f": "Pues la chica hoy compra un libro.",
-   "ko_f": "그럼 그 여자, 오늘은 책 한 권 산다.",
    "rd_f": "뿌에스 라 치까 오이 꼼쁘라 운 리브로."
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¿Otra vez aquí? ¿Compras o solo miras?",
+   "ko": "또 왔네? 사는 거야, 구경만 하는 거야?"
+  },
+  {
+   "tl": "Miro. Bueno… leo un poco.",
+   "ko": "구경. 뭐… 조금 읽기도 하고."
+  },
+  {
+   "tl": "Ya. Llegas todos los días a las seis.",
+   "ko": "그렇겠지. 매일 여섯 시에 오더라."
+  },
+  {
+   "tl": "¿Y tú? ¿Trabajas todos los días?",
+   "ko": "너는? 매일 일해?"
+  },
+  {
+   "tl": "No. Trabajo los lunes y los miércoles.",
+   "ko": "아니. 월요일이랑 수요일만 일해."
+  },
+  {
+   "tl": "Pero hoy es viernes… ¿Qué haces aquí?",
+   "ko": "근데 오늘 금요일인데… 여기서 뭐 해?"
+  },
+  {
+   "tl": "Pues… espero a un chico que lee mucho.",
+   "ko": "그게… 책 많이 읽는 남자를 기다려."
+  },
+  {
+   "tl": "Pues el chico hoy compra un libro.",
+   "ko": "그럼 그 남자, 오늘은 책 한 권 산다."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s03_love_rewrite.md",
+  "model": "전문가"
+ }
 }

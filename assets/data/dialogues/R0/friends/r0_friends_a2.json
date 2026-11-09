@@ -22,27 +22,25 @@
  "domain": [
   "friends"
  ],
- "goal": "estar(estás·estoy) · tener hambre(tienes·tengo) · querer(quieres·quiero)",
+ "goal": "tener hambre(tienes·tengo) · querer(quieres·quiero) · 짧은 반응",
  "expressions": [
   "qué tal",
   "y tú",
   "genial",
   "oye",
-  "ahora mismo",
-  "ya",
-  "tía"
+  "tía",
+  "ya"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¡Hola, {name}! ¿Qué tal estás?",
-   "rd": "올라, {name}! 께 딸 에스따스?",
-   "ko": "안녕, {name}! 잘 지내?",
-   "note": "¿Qué tal estás? = 잘 지내?",
+   "tl": "¡Ey, {name}! ¿Qué tal?",
+   "rd": "에이, {name}! 께 딸?",
+   "ko": "야, {name}! 잘 지내?",
+   "note": "¿qué tal? = 잘 지내?·어때?(가장 흔한 인사) · ¡ey! = 야(가볍게 부를 때)",
    "tags": [
-    "expr:qué tal",
-    "form:estar"
+    "expr:qué tal"
    ],
    "new": [],
    "emotion": "cheerful"
@@ -50,15 +48,16 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Estoy bien. ¿Y tú?",
-   "rd": "에스또이 비엔. 이 뚜?",
+   "tl": "Bien. ¿Y tú?",
+   "rd": "비엔. 이 뚜?",
    "ko": "잘 지내. 너는?",
-   "note": "estoy bien = 나 잘 지내",
+   "note": "¿y tú? = 너는?(되묻기)",
    "tags": [
-    "expr:y tú",
-    "form:estar"
+    "expr:y tú"
    ],
-   "new": [],
+   "new": [
+    "bien"
+   ],
    "emotion": "cheerful"
   },
   {
@@ -66,8 +65,8 @@
    "speaker": "B",
    "tl": "¡Genial! Oye, ¿tienes hambre?",
    "rd": "헤니알! 오예, 띠에네스 암브레?",
-   "ko": "완전 좋아! 근데 너 배고파?",
-   "note": "tener hambre = 배고프다",
+   "ko": "최고지! 근데 너 배고파?",
+   "note": "¿tienes hambre? = 배고파?(tener 2인칭) · genial = 최고·좋아 · oye = 근데·저기",
    "tags": [
     "expr:genial",
     "expr:oye",
@@ -83,26 +82,32 @@
    "speaker": "A",
    "tl": "Un poco. ¿Quieres comer algo?",
    "rd": "운 뽀꼬. 끼에레스 꼬메르 알고?",
-   "ko": "조금. 뭐 먹을래?",
-   "note": "¿Quieres…? = ~할래?",
-   "tags": [
-    "form:querer"
-   ],
-   "new": [],
-   "emotion": "amused"
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "tl": "¡Quiero comer todo! Conozco un sitio.",
-   "rd": "끼에로 꼬메르 또도! 꼬노쓰꼬 운 시띠오.",
-   "ko": "다 먹고 싶어! 나 아는 데 있어.",
-   "note": "quiero = 나 ~하고 싶어 · un sitio = 가게",
+   "ko": "조금. 뭐 좀 먹을래?",
+   "note": "¿quieres + 원형? = ~할래?(querer 2인칭) · un poco = 조금",
    "tags": [
     "form:querer"
    ],
    "new": [
-    "sitio"
+    "querer",
+    "comer",
+    "algo"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "¡Quiero todo! Conozco un sitio.",
+   "rd": "끼에로 또도! 꼬노쓰꼬 운 시띠오.",
+   "ko": "다 먹고 싶어! 나 아는 데 있어.",
+   "note": "quiero = querer 1인칭 — 4번 quieres 와 비교 · conozco un sitio = 아는 데 있어",
+   "tags": [
+    "form:querer"
+   ],
+   "new": [
+    "todo",
+    "sitio",
+    "conocer"
    ],
    "emotion": "excited"
   },
@@ -112,39 +117,86 @@
    "tl": "Y luego otro. Y otro. ¡Y churros!",
    "rd": "이 루에고 오뜨로. 이 오뜨로. 이 추로스!",
    "ko": "그다음엔 딴 데. 또 딴 데. 그리고 추로스!",
-   "note": "y luego = 그다음에",
+   "note": "y luego = 그다음엔 · otro = 또 다른 곳(sitio 에 맞춘 남성형)",
    "tags": [],
    "new": [
+    "luego",
+    "otro",
     "churro"
    ],
-   "emotion": "excited"
+   "emotion": "shout"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Tía, tengo un poco de hambre.",
-   "rd": "띠아, 뗀고 운 뽀꼬 데 암브레.",
-   "ko": "야, 나 «조금» 배고프다니까.",
-   "note": "tía = 야(여자 친구에게)",
+   "tl": "¡Tía! Solo tengo un poco de hambre.",
+   "rd": "띠아! 솔로 뗀고 운 뽀꼬 데 암브레.",
+   "ko": "야! 나 «조금» 배고프다니까.",
+   "note": "tengo = tener 1인칭 — 3번 tienes 와 비교 · solo = ~만 · tía = 야(여자 친구를 부를 때)",
    "tags": [
-    "expr:tía"
+    "expr:tía",
+    "form:tener"
    ],
-   "new": [],
+   "new": [
+    "solo"
+   ],
    "emotion": "tsukkomi"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Ya. Pero yo tengo mucha.",
-   "rd": "야. 뻬로 요 뗀고 무차.",
-   "ko": "알아. 근데 난 엄청 고파.",
-   "note": "mucha (hambre) = 많이",
+   "tl": "Ya. Pero yo tengo mucha. ¿Te vienes?",
+   "rd": "야. 뻬로 요 뗀고 무차. 떼 비에네스?",
+   "ko": "알아. 근데 난 엄청 고파. 같이 갈래?",
+   "note": "tengo mucha (hambre) = 난 엄청 배고파 · ¿te vienes? = 같이 갈래? · ya = 알아",
    "tags": [
-    "expr:ya"
+    "expr:ya",
+    "form:tener"
    ],
-   "new": [],
-   "emotion": "amused"
+   "new": [
+    "mucho",
+    "venir"
+   ],
+   "emotion": "teasing"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¡Hola, {name}! ¿Qué tal estás?",
+   "ko": "안녕, {name}! 잘 지내?"
+  },
+  {
+   "tl": "Estoy bien. ¿Y tú?",
+   "ko": "잘 지내. 너는?"
+  },
+  {
+   "tl": "¡Genial! Oye, ¿tienes hambre?",
+   "ko": "완전 좋아! 근데 너 배고파?"
+  },
+  {
+   "tl": "Un poco. ¿Quieres comer algo?",
+   "ko": "조금. 뭐 먹을래?"
+  },
+  {
+   "tl": "¡Quiero comer todo! Conozco un sitio.",
+   "ko": "다 먹고 싶어! 나 아는 데 있어."
+  },
+  {
+   "tl": "Y luego otro. Y otro. ¡Y churros!",
+   "ko": "그다음엔 딴 데. 또 딴 데. 그리고 추로스!"
+  },
+  {
+   "tl": "Tía, tengo un poco de hambre.",
+   "ko": "야, 나 «조금» 배고프다니까."
+  },
+  {
+   "tl": "Ya. Pero yo tengo mucha.",
+   "ko": "알아. 근데 난 엄청 고파."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_friends_a2_rewrite.md",
+  "model": "전문가"
+ }
 }

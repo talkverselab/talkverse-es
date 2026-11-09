@@ -24,7 +24,7 @@
   "friends",
   "life"
  ],
- "goal": "salía… y vi / llevaba… me la quitó / corrí·corriste·corrías / estaba poniendo… y lo vi / hacía calor(배경 = 불완료, 사건 = 단순과거)",
+ "goal": "salía… y vi / llevaba… me la quitó / corrí·corriste·corría / estaba poniendo… y lo vi / hacía calor(배경 = 불완료, 사건 = 단순과거)",
  "expressions": [
   "tío",
   "vale",
@@ -136,7 +136,7 @@
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "shout"
   },
   {
    "num": 7,
@@ -149,7 +149,7 @@
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -165,7 +165,7 @@
    "new": [
     "abrigo"
    ],
-   "emotion": "sad"
+   "emotion": "flustered"
   },
   {
    "num": 9,
@@ -206,7 +206,7 @@
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "surprised"
   },
   {
    "num": 12,
@@ -216,20 +216,20 @@
    "ko": "아니. 근데 여기 직원분이 다 봤어. 물어봐.",
    "note": "lo vio todo = 그걸 다 봤어(ver 단순과거 3인칭) · pregúntale = 그녀한테 물어봐",
    "tags": [
-    "form:imperfecto"
+    "form:indefinido"
    ],
    "new": [
     "camarera"
    ],
-   "emotion": "annoyed"
+   "emotion": "teasing"
   },
   {
    "num": 13,
    "speaker": "C",
-   "tl": "Es verdad. Yo estaba poniendo las mesas y lo vi. Corrías como un loco.",
-   "rd": "에스 베르다드. 요 에스따바 뽀니엔도 라스 메사스 이 로 비. 꼬리아스 꼬모 운 로꼬.",
-   "ko": "진짜예요. 제가 테이블 펴고 있다가 봤어요. 미친 듯이 뛰던데요.",
-   "note": "estaba poniendo = 펴고 있었다(배경, 불완료) ↔ lo vi = 봤다(사건, 단순과거) · corrías = 너 뛰고 있었어",
+   "tl": "Es verdad. Yo estaba poniendo las mesas y lo vi. Corría como un loco.",
+   "rd": "에스 베르다드. 요 에스따바 뽀니엔도 라스 메사스 이 로 비. 꼬리아 꼬모 운 로꼬.",
+   "ko": "진짜예요. 제가 테이블 세팅하다가 봤어요. 미친 듯이 뛰시던데요.",
+   "note": "estaba poniendo = 세팅하고 있었다(배경, 불완료) ↔ lo vi = 봤다(사건, 단순과거) · corría = 뛰고 있었다",
    "tags": [
     "form:imperfecto"
    ],
@@ -250,17 +250,16 @@
     "expr:no me digas"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "shout"
   },
   {
    "num": 15,
    "speaker": "C",
-   "tl": "Verdad. Y el perro se comió los churros en la esquina. Toma, estos son de la casa.",
-   "rd": "베르다드. 이 엘 뻬로 세 꼬미오 로스 추로스 엔 라 에스끼나. 또마, 에스또스 손 데 라 까사.",
-   "ko": "진짜요. 개가 모퉁이에서 추로스 다 먹어 버렸고요. 자, 이건 서비스예요.",
-   "note": "se comió = 다 먹어 버렸다(단순과거) · de la casa = 가게 서비스",
+   "tl": "Verdad. Y el perro se comió los churros en la esquina. Aquí tienen, estos son de la casa.",
+   "rd": "베르다드. 이 엘 뻬로 세 꼬미오 로스 추로스 엔 라 에스끼나. 아끼 띠에넨, 에스또스 손 데 라 까사.",
+   "ko": "진짜예요. 개가 모퉁이에서 추로스를 다 먹어 버렸고요. 자, 이건 서비스예요.",
+   "note": "se comió = 다 먹어 버렸다(단순과거) · aquí tienen = 여기 있습니다(ustedes) · de la casa = 가게 서비스",
    "tags": [
-    "form:imperfecto",
     "form:indefinido"
    ],
    "new": [
@@ -282,5 +281,75 @@
    "emotion": "teasing"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¡Javi! Cuarenta minutos, tío. ¿Qué te pasó esta vez?",
+   "ko": "하비! 40분이야, 야. 이번엔 또 뭔데?"
+  },
+  {
+   "tl": "Vale, vale. Escucha. Yo salía de casa y vi a una señora con un perro enorme.",
+   "ko": "알았어, 알았어. 들어 봐. 내가 집에서 나오는데 어떤 아주머니가 엄청 큰 개를 데리고 있는 걸 봤어."
+  },
+  {
+   "tl": "Ya empezamos. ¿Y tú qué hacías? ¿Mirabas el móvil?",
+   "ko": "또 시작이네. 넌 뭐 하고 있었는데? 폰 보고 있었지?"
+  },
+  {
+   "tl": "…Un poco. Yo llevaba una bolsa de churros. Y el perro, ¡zas!, me la quitó.",
+   "ko": "…조금. 내가 추로스 봉지를 들고 있었거든. 근데 그 개가 휙! 낚아챘어."
+  },
+  {
+   "tl": "¿Llevabas churros? ¿Para mí o para ti?",
+   "ko": "추로스를 들고 있었다고? 나 주려고, 너 먹으려고?"
+  },
+  {
+   "tl": "Para los dos. Por eso corrí detrás del perro tres calles. ¡Tres!",
+   "ko": "둘 다. 그래서 개 쫓아서 세 블록이나 뛰었어. 세 블록!"
+  },
+  {
+   "tl": "¿Tú corriste? Javi, tú no corres ni para coger el autobús.",
+   "ko": "네가 뛰었다고? 하비, 넌 버스 잡을 때도 안 뛰잖아."
+  },
+  {
+   "tl": "Pues corrí. Hacía un calor horrible y yo iba con el abrigo.",
+   "ko": "뛰었다니까. 날은 엄청 덥고 난 외투까지 입고 있었고."
+  },
+  {
+   "tl": "Javi, estamos en enero. Esta mañana hacía dos grados.",
+   "ko": "하비, 지금 1월이야. 오늘 아침 2도였어."
+  },
+  {
+   "tl": "…Bueno, yo tenía calor. Por correr.",
+   "ko": "…뭐, 난 더웠다고. 뛰어서."
+  },
+  {
+   "tl": "Vale. ¿Y viste otra vez al perro? ¿Recuperaste los churros?",
+   "ko": "알았어. 그래서 그 개 다시 봤어? 추로스는 찾았고?"
+  },
+  {
+   "tl": "No. Pero la camarera de aquí lo vio todo. Pregúntale.",
+   "ko": "아니. 근데 여기 직원분이 다 봤어. 물어봐."
+  },
+  {
+   "tl": "Es verdad. Yo estaba poniendo las mesas y lo vi. Corrías como un loco.",
+   "ko": "진짜예요. 제가 테이블 펴고 있다가 봤어요. 미친 듯이 뛰던데요."
+  },
+  {
+   "tl": "¿Era verdad? ¡No me digas!",
+   "ko": "진짜였어? 말도 안 돼!"
+  },
+  {
+   "tl": "Verdad. Y el perro se comió los churros en la esquina. Toma, estos son de la casa.",
+   "ko": "진짜요. 개가 모퉁이에서 추로스 다 먹어 버렸고요. 자, 이건 서비스예요."
+  },
+  {
+   "tl": "Te lo dije. Yo nunca miento. Solo llego tarde.",
+   "ko": "내가 말했잖아. 난 거짓말 안 해. 늦을 뿐이지."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_g04_friends_rewrite.md",
+  "model": "전문가"
+ }
 }

@@ -29,7 +29,8 @@
   "pues",
   "espera",
   "es que",
-  "nada"
+  "nada",
+  "vale"
  ],
  "turns": [
   {
@@ -41,10 +42,10 @@
    "note": "¿qué haces? = 뭐 해?(hacer 2인칭) · ¿estás? = 있어?(estar 2인칭)",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
    "ui": "bubble",
    "at": "22:00",
-   "stamp": "📚"
+   "stamp": "📚",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -59,9 +60,9 @@
    "new": [
     "especial"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "22:03"
+   "at": "22:03",
+   "emotion": "teasing"
   },
   {
    "num": 3,
@@ -74,9 +75,9 @@
     "expr:vale"
    ],
    "new": [],
-   "emotion": "stiff",
    "ui": "bubble",
-   "at": "22:03"
+   "at": "22:03",
+   "emotion": "stiff"
   },
   {
    "num": 4,
@@ -89,9 +90,9 @@
     "expr:pues"
    ],
    "new": [],
-   "emotion": "annoyed",
    "ui": "bubble",
-   "at": "22:04"
+   "at": "22:04",
+   "emotion": "sad"
   },
   {
    "num": 5,
@@ -106,9 +107,9 @@
    "new": [
     "compañero"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
-   "at": "22:04"
+   "at": "22:04",
+   "emotion": "shout"
   },
   {
    "num": 6,
@@ -116,12 +117,12 @@
    "tl": "¿Diego es tu «alguien especial»? Jajaja.",
    "rd": "디에고 에스 뚜 «알기엔 에스뻬씨알»? 하하하.",
    "ko": "디에고가 네 「특별한 사람」이야? ㅋㅋ",
-   "note": "jajaja = ㅋㅋㅋ",
+   "note": "«alguien especial» = 「특별한 사람」(2번 턴 말을 되받아 놀림)",
    "tags": [],
    "new": [],
-   "emotion": "amused",
    "ui": "bubble",
-   "at": "22:06"
+   "at": "22:06",
+   "emotion": "amused"
   },
   {
    "num": 7,
@@ -136,9 +137,9 @@
    "new": [
     "celos"
    ],
-   "emotion": "shy",
    "ui": "bubble",
-   "at": "22:07"
+   "at": "22:07",
+   "emotion": "shy"
   },
   {
    "num": 8,
@@ -153,11 +154,49 @@
    "new": [
     "sitio"
    ],
-   "emotion": "gentle",
    "ui": "bubble",
    "at": "22:08",
-   "stamp": "🛋️"
+   "stamp": "🛋️",
+   "emotion": "gentle"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¿Qué haces? ¿Estás en casa?",
+   "ko": "뭐 해? 집이야?"
+  },
+  {
+   "tl": "No hago nada. Estoy en el sofá con alguien especial.",
+   "ko": "아무것도 안 해. 특별한 사람이랑 소파에 있어."
+  },
+  {
+   "tl": "Ah. Vale.",
+   "ko": "아. 그래."
+  },
+  {
+   "tl": "Pues nada. Buenas noches.",
+   "ko": "그럼 됐어. 잘 자."
+  },
+  {
+   "tl": "¡Espera! Es Diego, mi compañero de piso.",
+   "ko": "잠깐! 디에고야, 룸메이트."
+  },
+  {
+   "tl": "¿Diego es tu «alguien especial»? Jajaja.",
+   "ko": "디에고가 네 「특별한 사람」이야? ㅋㅋ"
+  },
+  {
+   "tl": "Es que… tengo celos. Un poco.",
+   "ko": "그게… 질투 나. 조금."
+  },
+  {
+   "tl": "¿Tienes celos? Pues el sofá tiene sitio.",
+   "ko": "질투 나? 그럼 소파에 자리 있는데."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_s08_love_rewrite.md",
+  "model": "전문가"
+ }
 }

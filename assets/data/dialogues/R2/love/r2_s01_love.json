@@ -41,9 +41,10 @@
    "new": [
     "librería"
    ],
-   "emotion": "stiff",
    "ui": "bubble",
-   "at": "21:40"
+   "at": "21:40",
+   "stamp": "📚",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -58,17 +59,17 @@
    "new": [
     "escribir"
    ],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "21:41",
-   "stamp": "😊"
+   "stamp": "😊",
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Bien. Oye, tu número estaba en un libro.",
-   "rd": "비엔. 오예, 뚜 누메로 에스따바 엔 운 리브로.",
-   "ko": "잘 지내. 근데 네 번호가 어떤 책에 있던데.",
+   "tl": "Sí. Oye, tu número estaba en un libro.",
+   "rd": "시. 오예, 뚜 누메로 에스따바 엔 운 리브로.",
+   "ko": "응. 근데 네 번호가 어떤 책에 있던데.",
    "note": "estaba = 있었어(불완료)",
    "tags": [
     "expr:oye",
@@ -77,9 +78,9 @@
    "new": [
     "número"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "21:43"
+   "at": "21:43",
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -92,9 +93,9 @@
    "new": [
     "raro"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
-   "at": "21:43"
+   "at": "21:43",
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -111,17 +112,17 @@
     "página",
     "beso"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "21:44"
+   "at": "21:44",
+   "emotion": "shy"
   },
   {
    "num": 6,
    "speaker": "A",
    "tl": "Vale, fui yo. ¿Te molesta?",
    "rd": "발레, 푸이 요. 떼 몰레스따?",
-   "ko": "알았어, 나야. 불편했어?",
-   "note": "fui yo = 나였어(단순과거)",
+   "ko": "그래, 나야. 불편해?",
+   "note": "fui yo = 나였어(ser 단순과거) · ¿te molesta? = 불편해?",
    "tags": [
     "expr:vale",
     "form:indefinido"
@@ -129,9 +130,9 @@
    "new": [
     "molestar"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
-   "at": "21:46"
+   "at": "21:46",
+   "emotion": "flustered"
   },
   {
    "num": 7,
@@ -142,18 +143,10 @@
    "note": "te escribo = 너한테 연락해(escribir 1인칭, 2번 턴 escribes 와 짝) · por eso = 그래서",
    "tags": [],
    "new": [],
-   "segs": [
-    [
-     "teasing",
-     "Mucho."
-    ],
-    [
-     "shy",
-     "Por eso te escribo…"
-    ]
-   ],
    "ui": "bubble",
-   "at": "21:49"
+   "at": "21:49",
+   "stamp": "💕",
+   "emotion": "gentle"
   },
   {
    "num": 8,
@@ -168,11 +161,49 @@
    "new": [
     "traer"
    ],
-   "emotion": "gentle",
    "ui": "bubble",
    "at": "21:49",
-   "stamp": "☕"
+   "stamp": "☕",
+   "emotion": "teasing"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Hola. Soy Marta, la de la librería.",
+   "ko": "안녕. 나 마르타, 서점의 그 사람."
+  },
+  {
+   "tl": "¡Hola! ¿Me escribes tú? Qué guay.",
+   "ko": "안녕! 네가 먼저 연락한 거야? 와 좋다."
+  },
+  {
+   "tl": "Bien. Oye, tu número estaba en un libro.",
+   "ko": "잘 지내. 근데 네 번호가 어떤 책에 있던데."
+  },
+  {
+   "tl": "Ah, ¿sí? ¿Qué libro es? Qué raro… jajaja.",
+   "ko": "아, 그래? 무슨 책인데? 이상하네… ㅋㅋㅋ"
+  },
+  {
+   "tl": "Ya. Está en la página del primer beso.",
+   "ko": "그러게. 첫 키스 페이지에 있어."
+  },
+  {
+   "tl": "Vale, fui yo. ¿Te molesta?",
+   "ko": "알았어, 나야. 불편했어?"
+  },
+  {
+   "tl": "Mucho. Por eso te escribo…",
+   "ko": "엄청. 그래서 연락하는 거야…"
+  },
+  {
+   "tl": "Mañana a las cinco. Trae el libro.",
+   "ko": "내일 다섯 시. 그 책 가져와."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_s01_love_rewrite.md",
+  "model": "전문가"
+ }
 }

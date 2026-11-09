@@ -43,7 +43,7 @@
    "new": [
     "curso"
    ],
-   "emotion": "neutral"
+   "emotion": "surprised"
   },
   {
    "num": 2,
@@ -57,7 +57,7 @@
     "documento",
     "universidad"
    ],
-   "emotion": "excited"
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -84,7 +84,7 @@
     "ocasión",
     "mejorar"
    ],
-   "emotion": "gentle"
+   "emotion": "cheerful"
   },
   {
    "num": 5,
@@ -98,8 +98,8 @@
     "expr:ya"
    ],
    "new": [],
-   "tl_f": "Eso es verdad. Ya no dices «estoy embarazada» cuando tienes vergüenza.",
    "emotion": "teasing",
+   "tl_f": "Eso es verdad. Ya no dices «estoy embarazada» cuando tienes vergüenza.",
    "rd_f": "에소 에스 베르다드. 야 노 디쎄스 «에스또이 엠바라싸다» 꾸안도 띠에네스 베르구엔싸."
   },
   {
@@ -113,7 +113,7 @@
     "expr:y tú"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "flustered"
   },
   {
    "num": 7,
@@ -128,7 +128,7 @@
     "éxito",
     "sofá"
    ],
-   "emotion": "cheerful"
+   "emotion": "excited"
   },
   {
    "num": 8,
@@ -155,7 +155,7 @@
     "sencillo",
     "agujero"
    ],
-   "emotion": "gentle"
+   "emotion": "flustered"
   },
   {
    "num": 10,
@@ -182,8 +182,8 @@
    "new": [
     "cómodo"
    ],
-   "tl_f": "¿Buscar piso? ¿Por qué? ¿No estás cómoda aquí?",
    "emotion": "surprised",
+   "tl_f": "¿Buscar piso? ¿Por qué? ¿No estás cómoda aquí?",
    "rd_f": "부스까르 삐소? 뽀르 께? 노 에스따스 꼬모다 아끼?"
   },
   {
@@ -197,7 +197,7 @@
     "expr:claro"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "neutral"
   },
   {
    "num": 13,
@@ -230,7 +230,7 @@
    "note": "es horrible = 별로다",
    "tags": [],
    "new": [],
-   "emotion": "amused"
+   "emotion": "tsukkomi"
   },
   {
    "num": 15,
@@ -247,10 +247,76 @@
     "contrato",
     "compañero"
    ],
-   "tl_f": "¿Ves? Eso no viene en ningún anuncio. Dos años más de contrato, compañera.",
    "emotion": "cheerful",
+   "tl_f": "¿Ves? Eso no viene en ningún anuncio. Dos años más de contrato, compañera.",
    "rd_f": "베스? 에소 노 비에네 엔 닌군 아눈씨오. 도스 아뇨스 마스 데 꼰뜨라또, 꼼빠녜라."
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Oye, ¿qué haces con tantos papeles? ¿Otro curso?",
+   "ko": "야, 웬 서류가 이렇게 많아? 또 무슨 강좌야?"
+  },
+  {
+   "tl": "Son documentos para la universidad. Si me aceptan, me quedo dos años más.",
+   "ko": "대학 서류야. 붙으면 2년 더 있을 거야."
+  },
+  {
+   "tl": "¿Dos años? ¿Y tu trabajo, tu familia, tu idioma…?",
+   "ko": "2년? 네 일이랑 가족이랑 네 나라 말은…?"
+  },
+  {
+   "tl": "Mi familia dice que es una buena ocasión. Y el español lo estoy mejorando.",
+   "ko": "가족은 좋은 기회래. 그리고 스페인어도 늘고 있고."
+  },
+  {
+   "tl": "Eso es verdad. Ya no dices «estoy embarazado» cuando tienes vergüenza.",
+   "ko": "그건 맞아. 이제 창피할 때 「임신했어요」라고는 안 하더라."
+  },
+  {
+   "tl": "¡Fue una vez! ¿Y tú? ¿Dónde te ves dentro de cinco años?",
+   "ko": "딱 한 번이었거든! 너는? 5년 뒤에 뭐 하고 있을 것 같아?"
+  },
+  {
+   "tl": "Tocando la guitarra en un concierto enorme. Con éxito, dinero y un sofá nuevo.",
+   "ko": "큰 콘서트에서 기타 치고 있겠지. 성공하고, 돈 벌고, 새 소파 사고."
+  },
+  {
+   "tl": "¿Un sofá? Sueñas a lo grande, ¿eh?",
+   "ko": "소파? 꿈 한번 크다?"
+  },
+  {
+   "tl": "Es un sueño sencillo. El nuestro tiene un agujero con forma de gato.",
+   "ko": "소박한 꿈이야. 우리 소파엔 고양이 모양 구멍이 있잖아."
+  },
+  {
+   "tl": "Pero si me quedo, tengo que buscar piso. Y los precios aquí son una locura.",
+   "ko": "근데 남으면 집 구해야 해. 여기 집값 미쳤잖아."
+  },
+  {
+   "tl": "¿Buscar piso? ¿Por qué? ¿No estás cómodo aquí?",
+   "ko": "집을 구한다고? 왜? 여기 불편해?"
+  },
+  {
+   "tl": "Claro que sí. Pero pensé que querías vivir solo algún día.",
+   "ko": "당연히 편하지. 근데 너 언젠가 혼자 살고 싶어 할 줄 알았어."
+  },
+  {
+   "tl": "… ¿Y quién me va a decir que mi canción nueva es horrible? Quédate.",
+   "ko": "…그럼 내 신곡 별로라고 누가 말해 줘? 있어."
+  },
+  {
+   "tl": "Tu canción nueva es horrible.",
+   "ko": "네 신곡 별로야."
+  },
+  {
+   "tl": "¿Ves? Eso no viene en ningún anuncio. Dos años más de contrato, compañero.",
+   "ko": "봤지? 이런 건 어느 매물 광고에도 없어. 계약 2년 연장이다, 친구."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r5_t10_study_rewrite.md",
+  "model": "전문가"
+ }
 }

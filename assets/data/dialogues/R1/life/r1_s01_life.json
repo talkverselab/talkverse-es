@@ -76,14 +76,14 @@
     "luz",
     "pequeño"
    ],
-   "emotion": "gentle"
+   "emotion": "neutral"
   },
   {
    "num": 4,
    "speaker": "A",
    "tl": "Perfecto. ¿Y esa caja roja?",
    "rd": "뻬르페끄또. 이 에사 까하 로하?",
-   "ko": "완벽해. 저 빨간 상자는 뭐야?",
+   "ko": "완벽해. 저 빨간 상자는?",
    "note": "caja roja = 여성 명사 + 여성 형용사",
    "tags": [
     "form:concordancia"
@@ -108,14 +108,14 @@
    "new": [
     "gato"
    ],
-   "emotion": "flustered"
+   "emotion": "amused"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Tienes un gato? ¿Y dónde está?",
-   "rd": "띠에네스 운 가또? 이 돈데 에스따?",
-   "ko": "고양이 키워? 근데 어디 있어?",
+   "tl": "¿Tienes un gato? ¿Dónde está?",
+   "rd": "띠에네스 운 가또? 돈데 에스따?",
+   "ko": "고양이 키워? 어디 있어?",
    "note": "tienes = tener 2인칭 — 3번 tiene(3인칭)와 비교 · un gato(처음 말할 때 un)",
    "tags": [
     "form:artículo"
@@ -136,16 +136,7 @@
    "new": [
     "cama"
    ],
-   "segs": [
-    [
-     "amused",
-     "En tu cama."
-    ],
-    [
-     "teasing",
-     "Bueno… es su habitación."
-    ]
-   ]
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -153,7 +144,7 @@
    "tl": "Pues… ¡hola, compañero! Tú eres el jefe, ¿no?",
    "rd": "뿌에스… 올라, 꼼빠녜로! 뚜 에레스 엘 헤페, 노?",
    "ko": "그럼… 안녕, 룸메이트! 네가 대장이지?",
-   "note": "eres = ser 2인칭 — 5번 es(3인칭)와 비교 · jefe = 대장·사장",
+   "note": "eres = ser 2인칭 — 5번 es(3인칭)와 비교 · compañero = 룸메이트·동료 · jefe = 대장·사장",
    "tags": [
     "expr:pues",
     "form:ser"
@@ -162,17 +153,46 @@
     "compañero",
     "jefe"
    ],
-   "segs": [
-    [
-     "flustered",
-     "Pues… ¡hola, compañero!"
-    ],
-    [
-     "amused",
-     "Tú eres el jefe, ¿no?"
-    ]
-   ]
+   "emotion": "cheerful"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Mira, esta es la cocina. El baño, ahí.",
+   "ko": "봐, 여기가 부엌이야. 화장실은 저기."
+  },
+  {
+   "tl": "¡Qué bonita! ¿Y mi habitación?",
+   "ko": "예쁘다! 내 방은?"
+  },
+  {
+   "tl": "Es pequeña, pero tiene mucha luz.",
+   "ko": "좀 작은데, 햇빛이 잘 들어."
+  },
+  {
+   "tl": "Perfecto. ¿Y esa caja roja?",
+   "ko": "완벽해. 저 빨간 상자는 뭐야?"
+  },
+  {
+   "tl": "Ah, es de mi gato. Es pequeño.",
+   "ko": "아, 우리 고양이 거야. 쪼그만 애야."
+  },
+  {
+   "tl": "¿Tienes un gato? ¿Y dónde está?",
+   "ko": "고양이 키워? 근데 어디 있어?"
+  },
+  {
+   "tl": "En tu cama. Bueno… es su habitación.",
+   "ko": "네 침대에. 뭐… 원래 걔 방이거든."
+  },
+  {
+   "tl": "Pues… ¡hola, compañero! Tú eres el jefe, ¿no?",
+   "ko": "그럼… 안녕, 룸메이트! 네가 대장이지?"
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s01_life_rewrite.md",
+  "model": "전문가"
+ }
 }

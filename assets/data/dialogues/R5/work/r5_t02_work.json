@@ -30,7 +30,6 @@
   "vaya",
   "por cierto",
   "tranquilo",
-  "vale",
   "ya está",
   "mira",
   "madre mía",
@@ -51,9 +50,9 @@
     "mesa",
     "ordenador"
    ],
+   "emotion": "polite",
    "tl_f": "Bienvenida a la empresa, {name}. Esta es tu mesa y este, tu ordenador.",
-   "rd_f": "비엔베니다 아 라 엠쁘레사, {name}. 에스따 에스 뚜 메사 이 에스떼, 뚜 오르데나도르.",
-   "emotion": "cheerful"
+   "rd_f": "비엔베니다 아 라 엠쁘레사, {name}. 에스따 에스 뚜 메사 이 에스떼, 뚜 오르데나도르."
   },
   {
    "num": 2,
@@ -69,7 +68,7 @@
     "reunión",
     "cliente"
    ],
-   "emotion": "polite"
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -82,7 +81,7 @@
    "new": [
     "tarea"
    ],
-   "emotion": "polite"
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -121,7 +120,7 @@
    "new": [
     "oficina"
    ],
-   "emotion": "stiff"
+   "emotion": "cheerful"
   },
   {
    "num": 7,
@@ -137,7 +136,7 @@
     "cantidad",
     "experiencia"
    ],
-   "emotion": "amused"
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -155,7 +154,7 @@
     "sueldo",
     "cobrar"
    ],
-   "emotion": "cheerful"
+   "emotion": "surprised"
   },
   {
    "num": 9,
@@ -179,7 +178,7 @@
     "expr:ya está"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "excited"
   },
   {
    "num": 11,
@@ -192,7 +191,7 @@
     "expr:mira"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "shout"
   },
   {
    "num": 12,
@@ -205,7 +204,7 @@
    "new": [
     "compañero"
    ],
-   "emotion": "cheerful"
+   "emotion": "polite"
   },
   {
    "num": 13,
@@ -230,7 +229,7 @@
    "note": "pago = (내가) 낸다",
    "tags": [],
    "new": [],
-   "emotion": "sad"
+   "emotion": "flustered"
   },
   {
    "num": 15,
@@ -269,5 +268,75 @@
    "emotion": "teasing"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Bienvenido a la empresa, {name}. Esta es tu mesa y este, tu ordenador.",
+   "ko": "회사에 온 걸 환영해요, {name}. 여기가 자리고, 이게 컴퓨터예요."
+  },
+  {
+   "tl": "Gracias. ¿A qué hora es la reunión con el cliente?",
+   "ko": "감사합니다. 고객이랑 회의는 몇 시예요?"
+  },
+  {
+   "tl": "A las doce. Y tu primera tarea: pide la comida para la reunión. Somos diez.",
+   "ko": "열두 시요. 그리고 첫 업무: 회의 때 먹을 점심 주문해 줘요. 열 명이에요."
+  },
+  {
+   "tl": "Ah, la tarea del nuevo. Yo pedí pizza el año pasado y llegó fría.",
+   "ko": "아, 신입 업무구나. 나는 작년에 피자 시켰는데 식어서 왔어."
+  },
+  {
+   "tl": "Vaya. ¿Y qué pido? ¿Bocadillos? ¿Y quién paga?",
+   "ko": "이런. 그럼 뭘 시켜요? 바게트 샌드위치? 돈은 누가 내요?"
+  },
+  {
+   "tl": "Bocadillos, perfecto. Paga la empresa. Los pides con la app de la oficina.",
+   "ko": "샌드위치 좋아요. 회사가 내요. 사무실 앱으로 시키면 돼요."
+  },
+  {
+   "tl": "Y mira bien la cantidad antes de pagar. Te lo digo por experiencia.",
+   "ko": "그리고 결제하기 전에 수량 잘 봐. 경험에서 하는 말이야."
+  },
+  {
+   "tl": "Tranquilo, lo controlo. Por cierto, ¿el sueldo se cobra a final de mes?",
+   "ko": "걱정 마요, 잘 알아요. 그나저나 월급은 월말에 나오나요?"
+  },
+  {
+   "tl": "Cobramos el día treinta. Y el treinta y uno ya no nos queda nada.",
+   "ko": "30일에 받아. 그리고 31일엔 벌써 한 푼도 안 남아."
+  },
+  {
+   "tl": "Ya está. He pedido diez bocadillos. Llegan a las doce menos cuarto.",
+   "ko": "됐어요. 샌드위치 열 개 시켰어요. 열한 시 사십오 분에 온대요."
+  },
+  {
+   "tl": "¿Diez? Mira el móvil: «Cantidad: cien». ¿Has pedido cien bocadillos?",
+   "ko": "열 개? 폰 봐 봐: 「수량: 100」. 샌드위치 백 개 시킨 거야?"
+  },
+  {
+   "tl": "Buenos días. ¿La empresa de {name}? Traigo cien bocadillos. Abajo hay tres compañeros más con las cajas.",
+   "ko": "안녕하세요. {name} 씨 회사죠? 샌드위치 백 개 왔습니다. 아래에 동료 셋이 상자 들고 더 있어요."
+  },
+  {
+   "tl": "¡Madre mía! ¿Y quién paga esto? ¡El cliente está subiendo ahora mismo!",
+   "ko": "세상에! 이거 누가 내요? 고객이 지금 올라오고 있다고요!"
+  },
+  {
+   "tl": "Lo pago yo… con mi primer sueldo. Y con el segundo.",
+   "ko": "제가 낼게요… 첫 월급으로요. 두 번째 월급까지."
+  },
+  {
+   "tl": "Espera. El cliente se está comiendo el tercero. Dice que es la mejor reunión de su vida.",
+   "ko": "잠깐. 고객이 벌써 세 개째 먹고 있어요. 인생 최고의 회의래요."
+  },
+  {
+   "tl": "Y ha firmado el contrato. El viernes pides tú otra vez. Cien.",
+   "ko": "그리고 계약서에 사인했어. 금요일에도 네가 시켜. 백 개."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r5_t02_work_rewrite.md",
+  "model": "전문가"
+ }
 }

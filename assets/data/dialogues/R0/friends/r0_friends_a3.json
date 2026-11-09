@@ -26,7 +26,7 @@
  "expressions": [
   "ya voy",
   "en serio",
-  "bueno",
+  "vale",
   "madre mía"
  ],
  "turns": [
@@ -36,14 +36,18 @@
    "tl": "Javi, ¿dónde estás?",
    "rd": "하비, 돈데 에스따스?",
    "ko": "하비, 어디야?",
-   "note": "¿Dónde estás? = 어디야?",
+   "note": "¿dónde estás? = 어디야?(estar 2인칭 — 위치는 estar)",
    "tags": [
     "form:estar"
    ],
-   "new": [],
-   "emotion": "annoyed",
+   "new": [
+    "dónde",
+    "estar"
+   ],
    "ui": "bubble",
-   "at": "18:05"
+   "at": "18:05",
+   "stamp": "👀",
+   "emotion": "worried"
   },
   {
    "num": 2,
@@ -51,49 +55,57 @@
    "tl": "¡Ya voy! Cinco minutos.",
    "rd": "야 보이! 씬꼬 미누또스.",
    "ko": "가는 중! 5분만.",
-   "note": "ya voy = 지금 가",
+   "note": "¡ya voy! = 지금 가!(늦는 사람의 단골 대답)",
    "tags": [
     "expr:ya voy"
    ],
-   "new": [],
-   "emotion": "cheerful",
+   "new": [
+    "cinco",
+    "minuto"
+   ],
    "ui": "bubble",
-   "at": "18:05"
+   "at": "18:05",
+   "stamp": "🏃",
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "¿Cinco? ¿En serio? Siempre llegas tarde.",
-   "rd": "씬꼬? 엔 세리오? 시엠쁘레 예가스 따르데.",
-   "ko": "5분? 진심? 너 맨날 늦잖아.",
-   "note": "llegas tarde = 너 늦게 와",
+   "tl": "¿Cinco? ¿En serio? ¡Siempre llegas tarde!",
+   "rd": "씬꼬? 엔 세리오? 시엠쁘레 예가스 따르데!",
+   "ko": "5분? 진심? 너 맨날 늦잖아!",
+   "note": "llegas tarde = 늦게 와(llegar 2인칭) · ¿en serio? = 진심?",
    "tags": [
     "expr:en serio",
-    "form:llegar"
+    "form:presente_ar"
    ],
    "new": [
-    "llegar"
+    "siempre",
+    "llegar",
+    "tarde"
    ],
-   "emotion": "tsukkomi",
    "ui": "bubble",
-   "at": "18:06"
+   "at": "18:06",
+   "emotion": "tsukkomi"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Bueno… diez. Pero hoy no llego tarde.",
-   "rd": "부에노… 디에쓰. 뻬로 오이 노 예고 따르데.",
-   "ko": "음… 10분. 근데 오늘은 안 늦어.",
-   "note": "llego = 나 도착해",
+   "tl": "Vale… diez. Hoy no llego tarde.",
+   "rd": "발레… 디에쓰. 오이 노 예고 따르데.",
+   "ko": "알았어… 10분. 오늘은 안 늦어.",
+   "note": "llego = llegar 1인칭 — 3번 llegas 와 비교 · vale = 알았어",
    "tags": [
-    "expr:bueno",
-    "form:llegar"
+    "expr:vale",
+    "form:presente_ar"
    ],
-   "new": [],
-   "emotion": "flustered",
+   "new": [
+    "hoy"
+   ],
    "ui": "bubble",
    "at": "18:06",
-   "stamp": "🙏"
+   "stamp": "🙏",
+   "emotion": "teasing"
   },
   {
    "num": 5,
@@ -101,14 +113,17 @@
    "tl": "¡Ya estoy! En tu puerta.",
    "rd": "야 에스또이! 엔 뚜 뿌에르따.",
    "ko": "도착! 너네 집 문 앞이야.",
-   "note": "ya estoy = 다 왔어",
+   "note": "¡ya estoy! = 도착했어(estar 1인칭 — 1번 estás 와 비교)",
    "tags": [
     "form:estar"
    ],
-   "new": [],
-   "emotion": "excited",
+   "new": [
+    "puerta"
+   ],
    "ui": "bubble",
-   "at": "18:24"
+   "at": "18:24",
+   "stamp": "🚪",
+   "emotion": "excited"
   },
   {
    "num": 6,
@@ -116,47 +131,89 @@
    "tl": "¿Mi puerta? No te veo. ¿Me ves?",
    "rd": "미 뿌에르따? 노 떼 베오. 메 베스?",
    "ko": "우리 집 문? 너 안 보이는데. 나 보여?",
-   "note": "veo = 나 보여 · ves = 너 보여",
+   "note": "no te veo = 너 안 보여 · ¿me ves? = 나 보여?(ver 1·2인칭)",
    "tags": [
     "form:ver"
    ],
-   "new": [],
-   "emotion": "surprised",
+   "new": [
+    "ver"
+   ],
    "ui": "bubble",
-   "at": "18:24"
+   "at": "18:24",
+   "emotion": "surprised"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Hola, señora… Vale, no es tu casa.",
-   "rd": "올라, 세뇨라… 발레, 노 에스 뚜 까사.",
-   "ko": "안녕하세요, 아주머니… 아, 너네 집 아니네.",
-   "note": "señora = 아주머니·부인",
-   "tags": [
-    "expr:vale"
+   "tl": "Me abre una señora… ¡No es tu casa!",
+   "rd": "메 아브레 우나 세뇨라… 노 에스 뚜 까사!",
+   "ko": "웬 아주머니가 문을 여는데… 너네 집 아니네!",
+   "note": "me abre = (나한테 문을) 열어 줘(abrir 3인칭) · no es tu casa = 너네 집 아니야",
+   "tags": [],
+   "new": [
+    "abrir",
+    "señora",
+    "casa"
    ],
-   "new": [],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "18:25",
-   "stamp": "😅"
+   "stamp": "😅",
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Madre mía, Javi.",
-   "rd": "마드레 미아, 하비.",
-   "ko": "세상에, 하비.",
-   "note": "madre mía = 세상에",
+   "tl": "¡Madre mía, Javi!",
+   "rd": "마드레 미아, 하비!",
+   "ko": "세상에, 하비!",
+   "note": "¡madre mía! = 세상에·맙소사",
    "tags": [
     "expr:madre mía"
    ],
    "new": [],
-   "emotion": "tsukkomi",
    "ui": "bubble",
    "at": "18:25",
-   "stamp": "😂"
+   "stamp": "😂",
+   "emotion": "amused"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Javi, ¿dónde estás?",
+   "ko": "하비, 어디야?"
+  },
+  {
+   "tl": "¡Ya voy! Cinco minutos.",
+   "ko": "가는 중! 5분만."
+  },
+  {
+   "tl": "¿Cinco? ¿En serio? Siempre llegas tarde.",
+   "ko": "5분? 진심? 너 맨날 늦잖아."
+  },
+  {
+   "tl": "Bueno… diez. Pero hoy no llego tarde.",
+   "ko": "음… 10분. 근데 오늘은 안 늦어."
+  },
+  {
+   "tl": "¡Ya estoy! En tu puerta.",
+   "ko": "도착! 너네 집 문 앞이야."
+  },
+  {
+   "tl": "¿Mi puerta? No te veo. ¿Me ves?",
+   "ko": "우리 집 문? 너 안 보이는데. 나 보여?"
+  },
+  {
+   "tl": "Hola, señora… Vale, no es tu casa.",
+   "ko": "안녕하세요, 아주머니… 아, 너네 집 아니네."
+  },
+  {
+   "tl": "Madre mía, Javi.",
+   "ko": "세상에, 하비."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_friends_a3_rewrite.md",
+  "model": "전문가"
+ }
 }

@@ -45,7 +45,7 @@
     "limpiar",
     "piso"
    ],
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -61,7 +61,7 @@
    "new": [
     "cena"
    ],
-   "emotion": "cheerful"
+   "emotion": "excited"
   },
   {
    "num": 3,
@@ -77,7 +77,7 @@
     "lavar",
     "ropa"
    ],
-   "emotion": "gentle"
+   "emotion": "excited"
   },
   {
    "num": 4,
@@ -108,7 +108,7 @@
    "new": [
     "camiseta"
    ],
-   "emotion": "cheerful"
+   "emotion": "amused"
   },
   {
    "num": 6,
@@ -122,7 +122,7 @@
     "form:concordancia"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "shout"
   },
   {
    "num": 7,
@@ -137,7 +137,7 @@
    "new": [
     "rosa"
    ],
-   "emotion": "flustered"
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -153,17 +153,46 @@
    "new": [
     "quedar"
    ],
-   "segs": [
-    [
-     "shout",
-     "Madre mía."
-    ],
-    [
-     "amused",
-     "Pues… el rosa me queda bien."
-    ]
-   ]
+   "emotion": "cheerful"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¡Hola! He limpiado el piso. ¿Has visto?",
+   "ko": "왔어! 나 집 청소했다. 봤어?"
+  },
+  {
+   "tl": "¡Qué bien! ¿Has hecho la cena también?",
+   "ko": "대박! 저녁도 했어?"
+  },
+  {
+   "tl": "No, pero he lavado tu ropa.",
+   "ko": "아니, 근데 네 빨래 했어."
+  },
+  {
+   "tl": "¿Mi ropa? ¿Toda? ¿La blanca también?",
+   "ko": "내 옷을? 전부? 흰 옷도?"
+  },
+  {
+   "tl": "Sí. Y he lavado mi camiseta roja.",
+   "ko": "응. 그리고 내 빨간 티도 같이 빨았어."
+  },
+  {
+   "tl": "¿Rojo con blanco? ¿En serio?",
+   "ko": "빨강이랑 흰색을? 진짜로?"
+  },
+  {
+   "tl": "Bueno… ¿ves? Ahora tienes mucha ropa rosa.",
+   "ko": "뭐… 봐봐. 이제 너 분홍 옷 엄청 많아."
+  },
+  {
+   "tl": "Madre mía. Pues… el rosa me queda bien.",
+   "ko": "세상에. 뭐… 분홍 나한테 잘 어울려."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s07_life_rewrite.md",
+  "model": "전문가"
+ }
 }

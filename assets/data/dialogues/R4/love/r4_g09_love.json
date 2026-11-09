@@ -39,15 +39,16 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hola 😊 Tu foto con el perro me ha matado. ¿Es tuyo?",
-   "rd": "올라 😊 뚜 포또 꼰 엘 뻬로 메 아 마따도. 에스 뚜요?",
-   "ko": "안녕 😊 강아지랑 찍은 사진 보고 쓰러졌어. 네 강아지야?",
+   "tl": "¡Hola! Tu foto con el perro me ha matado. ¿Es tuyo?",
+   "rd": "올라! 뚜 포또 꼰 엘 뻬로 메 아 마따도. 에스 뚜요?",
+   "ko": "안녕! 강아지랑 찍은 사진 보고 쓰러졌어. 네 강아지야?",
    "note": "me ha matado = 완전 반했어(과장)",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "21:40"
+   "at": "21:40",
+   "stamp": "😊",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -60,40 +61,42 @@
    "new": [
     "pasear"
    ],
-   "emotion": "shy",
    "ui": "bubble",
-   "at": "21:42"
+   "at": "21:42",
+   "emotion": "amused"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "¿Lo paseas por ella o para ella? 😏 No es lo mismo, guapo.",
-   "rd": "로 빠세아스 뽀르 에야 오 빠라 에야? 😏 노 에스 로 미스모, 구아뽀.",
-   "ko": "그분 대신 산책시키는 거야, 그분 좋으라고 하는 거야? 😏 그거 다른 거다, 잘생긴 분.",
+   "tl": "¿Lo paseas por ella o para ella? No es lo mismo, guapo.",
+   "rd": "로 빠세아스 뽀르 에야 오 빠라 에야? 노 에스 로 미스모, 구아뽀.",
+   "ko": "그분 대신 산책시키는 거야, 그분 좋으라고 하는 거야? 그거 다른 거다, 잘생긴 분.",
    "note": "por ella = 그녀 대신 · para ella = 그녀를 위해(받는 사람)",
    "tags": [],
    "new": [],
-   "tl_f": "¿Lo paseas por ella o para ella? 😏 No es lo mismo, guapa.",
-   "ko_f": "그분 대신 산책시키는 거야, 그분 좋으라고 하는 거야? 😏 그거 다른 거다, 예쁜 분.",
-   "rd_f": "로 빠세아스 뽀르 에야 오 빠라 에야? 😏 노 에스 로 미스모, 구아빠.",
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "21:43"
+   "at": "21:43",
+   "stamp": "😏",
+   "emotion": "teasing",
+   "tl_f": "¿Lo paseas por ella o para ella? No es lo mismo, guapa.",
+   "rd_f": "로 빠세아스 뽀르 에야 오 빠라 에야? 노 에스 로 미스모, 구아빠.",
+   "ko_f": "그분 대신 산책시키는 거야, 그분 좋으라고 하는 거야? 그거 다른 거다, 예쁜 분."
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Por ella: trabaja hasta las nueve. Y un poco para mí. Un perro ayuda a ligar 😅",
-   "rd": "뽀르 에야: 뜨라바하 아스따 라스 누에베. 이 운 뽀꼬 빠라 미. 운 뻬로 아유다 아 리가르 😅",
-   "ko": "그분 대신이지. 아홉 시까지 일하거든. 그리고 조금은 나 좋으라고. 개 있으면 썸 타기 쉽잖아 😅",
+   "tl": "Por ella: trabaja hasta las nueve. Y un poco para mí. Un perro ayuda a ligar.",
+   "rd": "뽀르 에야: 뜨라바하 아스따 라스 누에베. 이 운 뽀꼬 빠라 미. 운 뻬로 아유다 아 리가르.",
+   "ko": "그분 대신이지. 아홉 시까지 일하거든. 그리고 조금은 나 좋으라고. 개 있으면 썸 타기 쉽잖아.",
    "note": "ligar = 꼬시다·썸 타다",
    "tags": [],
    "new": [
     "ligar"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
-   "at": "21:45"
+   "at": "21:45",
+   "stamp": "😅",
+   "emotion": "flustered"
   },
   {
    "num": 5,
@@ -106,9 +109,9 @@
     "expr:por cierto"
    ],
    "new": [],
-   "emotion": "amused",
    "ui": "bubble",
-   "at": "21:46"
+   "at": "21:46",
+   "emotion": "surprised"
   },
   {
    "num": 6,
@@ -119,9 +122,9 @@
    "note": "por eso = 그래서(이유)",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "21:47"
+   "at": "21:47",
+   "emotion": "neutral"
   },
   {
    "num": 7,
@@ -136,9 +139,9 @@
    "new": [
     "profe"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "21:48"
+   "at": "21:48",
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -151,9 +154,9 @@
     "expr:trato hecho"
    ],
    "new": [],
-   "emotion": "excited",
    "ui": "bubble",
-   "at": "21:48"
+   "at": "21:48",
+   "emotion": "excited"
   },
   {
    "num": 9,
@@ -166,24 +169,25 @@
     "expr:vale"
    ],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "21:50"
+   "at": "21:50",
+   "emotion": "gentle"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Perfecto. Te escribo un poema para el viernes 😂",
-   "rd": "뻬르페끄또. 떼 에스끄리보 운 뽀에마 빠라 엘 비에르네스 😂",
-   "ko": "완벽해. 금요일까지 시 한 편 써 갈게 😂",
+   "tl": "Perfecto. Te escribo un poema para el viernes.",
+   "rd": "뻬르페끄또. 떼 에스끄리보 운 뽀에마 빠라 엘 비에르네스.",
+   "ko": "완벽해. 금요일까지 시 한 편 써 갈게.",
    "note": "para el viernes = 금요일까지(기한)",
    "tags": [],
    "new": [
     "poema"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "21:51"
+   "at": "21:51",
+   "stamp": "😂",
+   "emotion": "cheerful"
   },
   {
    "num": 11,
@@ -196,50 +200,52 @@
     "expr:ni se te ocurra"
    ],
    "new": [],
-   "emotion": "amused",
    "ui": "bubble",
-   "at": "21:52"
+   "at": "21:52",
+   "emotion": "amused"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Para practicar. Y también por ti. O para ti. Ya no sé cuál va 😩",
-   "rd": "빠라 쁘라끄띠까르. 이 땀비엔 뽀르 띠. 오 빠라 띠. 야 노 세 꾸알 바 😩",
-   "ko": "연습하려고. 그리고 너 때문에도. 아니 너를 위해서. 이제 뭐가 맞는지 모르겠어 😩",
+   "tl": "Para practicar. Y también por ti. O para ti. Ya no sé cuál va.",
+   "rd": "빠라 쁘라끄띠까르. 이 땀비엔 뽀르 띠. 오 빠라 띠. 야 노 세 꾸알 바.",
+   "ko": "연습하려고. 그리고 너 때문에도. 아니 너를 위해서. 이제 뭐가 맞는지 모르겠어.",
    "note": "por ti = 너 때문에 · para ti = 너한테 주려고",
    "tags": [
     "expr:ya"
    ],
    "new": [],
-   "emotion": "flustered",
    "ui": "bubble",
-   "at": "21:54"
+   "at": "21:54",
+   "stamp": "😩",
+   "emotion": "flustered"
   },
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Los dos valen. Pero «por ti» suena más bonito… 😌",
-   "rd": "로스 도스 발렌. 뻬로 «뽀르 띠» 수에나 마스 보니또… 😌",
-   "ko": "둘 다 맞아. 근데 「por ti」가 더 예쁘게 들려… 😌",
+   "tl": "Los dos valen. Pero «por ti» suena más bonito…",
+   "rd": "로스 도스 발렌. 뻬로 «뽀르 띠» 수에나 마스 보니또…",
+   "ko": "둘 다 맞아. 근데 「por ti」가 더 예쁘게 들려…",
    "note": "valer = 맞다·통하다",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
    "ui": "bubble",
-   "at": "21:57"
+   "at": "21:57",
+   "stamp": "😌",
+   "emotion": "shy"
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Mamá, ¡he quedado con alguien guapísimo para el viernes! Por fin 🙈",
-   "rd": "마마, 에 께다도 꼰 알기엔 구아삐시모 빠라 엘 비에르네스! 뽀르 핀 🙈",
-   "ko": "엄마, 나 금요일에 엄청 멋진 사람이랑 약속 잡았어! 드디어 🙈",
+   "tl": "Mamá, ¡he quedado con alguien guapísimo para el viernes! Por fin.",
+   "rd": "마마, 에 께다도 꼰 알기엔 구아삐시모 빠라 엘 비에르네스! 뽀르 핀.",
+   "ko": "엄마, 나 금요일에 엄청 멋진 사람이랑 약속 잡았어! 드디어.",
    "note": "quedar con = ~와 만나기로 하다",
    "tags": [],
    "new": [],
-   "emotion": "excited",
    "ui": "bubble",
-   "at": "22:15"
+   "at": "22:15",
+   "emotion": "shout"
   },
   {
    "num": 15,
@@ -252,26 +258,96 @@
     "expr:perdona"
    ],
    "new": [],
-   "emotion": "flustered",
    "ui": "bubble",
-   "at": "22:15"
+   "at": "22:15",
+   "emotion": "flustered"
   },
   {
    "num": 16,
    "speaker": "B",
-   "tl": "Ya lo veo 😂 Gracias por lo de «guapísimo». Me lo guardo para el viernes.",
-   "rd": "야 로 베오 😂 그라씨아스 뽀르 로 데 «구아삐시모». 메 로 구아르도 빠라 엘 비에르네스.",
-   "ko": "알아 😂 「엄청 멋진」은 고마워. 금요일까지 아껴 둘게.",
+   "tl": "Ya lo veo. Gracias por lo de «guapísimo». Me lo guardo para el viernes.",
+   "rd": "야 로 베오. 그라씨아스 뽀르 로 데 «구아삐시모». 메 로 구아르도 빠라 엘 비에르네스.",
+   "ko": "다 보이거든. 「엄청 멋진」은 고마워. 금요일까지 아껴 둘게.",
    "note": "gracias por… = ~고마워(이유는 por)",
    "tags": [
     "expr:ya"
    ],
    "new": [],
-   "emotion": "teasing",
    "ui": "bubble",
    "at": "22:17",
-   "stamp": "😂"
+   "stamp": "😂",
+   "emotion": "teasing"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Hola 😊 Tu foto con el perro me ha matado. ¿Es tuyo?",
+   "ko": "안녕 😊 강아지랑 찍은 사진 보고 쓰러졌어. 네 강아지야?"
+  },
+  {
+   "tl": "Jajaja gracias. No, es de mi vecina. Lo paseo yo por el barrio.",
+   "ko": "ㅋㅋㅋ 고마워. 아니, 이웃집 강아지야. 내가 동네 산책시켜."
+  },
+  {
+   "tl": "¿Lo paseas por ella o para ella? 😏 No es lo mismo, guapo.",
+   "ko": "그분 대신 산책시키는 거야, 그분 좋으라고 하는 거야? 😏 그거 다른 거다, 잘생긴 분."
+  },
+  {
+   "tl": "Por ella: trabaja hasta las nueve. Y un poco para mí. Un perro ayuda a ligar 😅",
+   "ko": "그분 대신이지. 아홉 시까지 일하거든. 그리고 조금은 나 좋으라고. 개 있으면 썸 타기 쉽잖아 😅"
+  },
+  {
+   "tl": "Jajaja funciona. Por cierto, ¿estudias español para trabajar aquí?",
+   "ko": "ㅋㅋㅋ 효과 있네. 그나저나, 여기서 일하려고 스페인어 공부해?"
+  },
+  {
+   "tl": "Sí, trabajo en una oficina del centro. Llevo seis meses. Por eso cometo errores.",
+   "ko": "응, 시내 사무실에서 일해. 6개월 됐어. 그래서 자꾸 틀려."
+  },
+  {
+   "tl": "Me encanta. Puedo ser tu profe… por un café.",
+   "ko": "좋은데. 내가 선생님 해 줄 수 있어… 커피 한 잔에."
+  },
+  {
+   "tl": "¿Por un café? Trato hecho. ¿Para cuándo?",
+   "ko": "커피 한 잔에? 콜. 언제로 할까?"
+  },
+  {
+   "tl": "Para el viernes. Paso por tu barrio a las siete y paseamos al perro, ¿vale?",
+   "ko": "금요일로. 7시에 너희 동네로 갈게, 강아지 산책도 같이 하자, 괜찮지?"
+  },
+  {
+   "tl": "Perfecto. Te escribo un poema para el viernes 😂",
+   "ko": "완벽해. 금요일까지 시 한 편 써 갈게 😂"
+  },
+  {
+   "tl": "Jajaja ni se te ocurra. ¿Por qué un poema?",
+   "ko": "ㅋㅋㅋ 꿈도 꾸지 마. 시는 왜?"
+  },
+  {
+   "tl": "Para practicar. Y también por ti. O para ti. Ya no sé cuál va 😩",
+   "ko": "연습하려고. 그리고 너 때문에도. 아니 너를 위해서. 이제 뭐가 맞는지 모르겠어 😩"
+  },
+  {
+   "tl": "Los dos valen. Pero «por ti» suena más bonito… 😌",
+   "ko": "둘 다 맞아. 근데 「por ti」가 더 예쁘게 들려… 😌"
+  },
+  {
+   "tl": "Mamá, ¡he quedado con alguien guapísimo para el viernes! Por fin 🙈",
+   "ko": "엄마, 나 금요일에 엄청 멋진 사람이랑 약속 잡았어! 드디어 🙈"
+  },
+  {
+   "tl": "…Perdona. Eso no era para ti.",
+   "ko": "…미안. 그거 너한테 보낸 거 아니야."
+  },
+  {
+   "tl": "Ya lo veo 😂 Gracias por lo de «guapísimo». Me lo guardo para el viernes.",
+   "ko": "알아 😂 「엄청 멋진」은 고마워. 금요일까지 아껴 둘게."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_g09_love_rewrite.md",
+  "model": "전문가"
+ }
 }

@@ -44,7 +44,7 @@
    "new": [
     "vuelo"
    ],
-   "emotion": "annoyed"
+   "emotion": "worried"
   },
   {
    "num": 2,
@@ -66,16 +66,17 @@
   {
    "num": 3,
    "speaker": "A",
-   "tl": "¿Tienes el pasaporte? ¿Y la tarjeta del vuelo?",
-   "rd": "띠에네스 엘 빠사뽀르떼? 이 라 따르헤따 델 부엘로?",
+   "tl": "¿Tienes el pasaporte? ¿Y la tarjeta de embarque?",
+   "rd": "띠에네스 엘 빠사뽀르떼? 이 라 따르헤따 데 엠바르께?",
    "ko": "여권은 있어? 탑승권은?",
-   "note": "pasaporte = 여권",
+   "note": "pasaporte = 여권 · tarjeta de embarque = 탑승권",
    "tags": [],
    "new": [
     "pasaporte",
-    "tarjeta"
+    "tarjeta",
+    "embarque"
    ],
-   "emotion": "worried"
+   "emotion": "surprised"
   },
   {
    "num": 4,
@@ -88,7 +89,7 @@
    "new": [
     "moderno"
    ],
-   "emotion": "amused"
+   "emotion": "teasing"
   },
   {
    "num": 5,
@@ -130,7 +131,7 @@
    "note": "sacar = 꺼내다",
    "tags": [],
    "new": [],
-   "emotion": "stiff"
+   "emotion": "neutral"
   },
   {
    "num": 8,
@@ -143,7 +144,7 @@
     "expr:vale"
    ],
    "new": [],
-   "emotion": "sad"
+   "emotion": "cheerful"
   },
   {
    "num": 9,
@@ -183,7 +184,7 @@
     "viajar",
     "asiento"
    ],
-   "emotion": "polite"
+   "emotion": "neutral"
   },
   {
    "num": 12,
@@ -234,7 +235,7 @@
    "note": "correr = 뛰다",
    "tags": [],
    "new": [],
-   "emotion": "amused"
+   "emotion": "polite"
   },
   {
    "num": 16,
@@ -250,5 +251,75 @@
    "emotion": "cheerful"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¡Javi! El vuelo sale en cuarenta minutos. ¿Dónde estás?",
+   "ko": "하비! 비행기 40분 뒤에 떠. 어디야?"
+  },
+  {
+   "tl": "Tranqui, ya estoy en la puerta del aeropuerto. Traigo churros.",
+   "ko": "진정해, 공항 입구야. 추로스 사 왔어."
+  },
+  {
+   "tl": "¿Tienes el pasaporte? ¿Y la tarjeta del vuelo?",
+   "ko": "여권은 있어? 탑승권은?"
+  },
+  {
+   "tl": "Pasaporte, sí. La tarjeta está en el móvil. Somos modernos.",
+   "ko": "여권 있지. 탑승권은 폰에 있어. 우리 요즘 사람이잖아."
+  },
+  {
+   "tl": "Buenos días. Su maleta pesa veintisiete kilos. El límite son veinte.",
+   "ko": "안녕하세요. 가방이 27킬로네요. 한도는 20킬로예요."
+  },
+  {
+   "tl": "Es que llevo regalos para mi primo. Y un jamón.",
+   "ko": "그게, 사촌 선물이 들어 있어서요. 하몽 하나랑."
+  },
+  {
+   "tl": "Tiene que pagar cincuenta más. O sacar algo de la maleta.",
+   "ko": "50 더 내셔야 해요. 아니면 가방에서 뭘 빼시든가요."
+  },
+  {
+   "tl": "Vale. Me como los churros aquí y así pesa menos.",
+   "ko": "알겠어요. 추로스 여기서 먹을게요. 그럼 가벼워지겠죠."
+  },
+  {
+   "tl": "Los churros no pesan nada, Javi. El jamón pesa siete kilos.",
+   "ko": "추로스는 무게도 안 나가, 하비. 하몽이 7킬로야."
+  },
+  {
+   "tl": "Por cierto, ¿cuál es su destino hoy?",
+   "ko": "그런데 오늘 목적지가 어디세요?"
+  },
+  {
+   "tl": "Sevilla. Viajamos juntos, asientos doce A y doce B.",
+   "ko": "세비야요. 같이 가요. 좌석 12A랑 12B."
+  },
+  {
+   "tl": "Este billete es a Sevilla… pero en tren. Y la estación está a quince kilómetros.",
+   "ko": "이 표는 세비야행 맞는데… 기차표네요. 기차역은 여기서 15킬로 떨어져 있고요."
+  },
+  {
+   "tl": "¿¡En tren!? ¡Javi!",
+   "ko": "기차!? 하비!"
+  },
+  {
+   "tl": "Era mucho más barato. Y en el tren dejan llevar jamón.",
+   "ko": "훨씬 쌌단 말이야. 그리고 기차는 하몽 들고 타도 돼."
+  },
+  {
+   "tl": "El tren sale en treinta minutos. Si corren, llegan.",
+   "ko": "기차 30분 뒤에 출발해요. 뛰면 도착해요."
+  },
+  {
+   "tl": "¡Venga! Por una vez no llego tarde yo solo.",
+   "ko": "가자! 이번엔 나 혼자 늦는 거 아니다."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r5_t06_travel_rewrite.md",
+  "model": "전문가"
+ }
 }

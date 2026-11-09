@@ -32,25 +32,26 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¿Dónde estás? El tren es a las diez.",
-   "rd": "돈데 에스따스? 엘 뜨렌 에스 아 라스 디에쓰.",
-   "ko": "어디야? 기차 열 시야.",
-   "note": "a las diez = 열 시에(시각은 a)",
+   "tl": "¿Dónde estás? El tren sale a las diez.",
+   "rd": "돈데 에스따스? 엘 뜨렌 살레 아 라스 디에쓰.",
+   "ko": "어디야? 기차 열 시에 출발해.",
+   "note": "sale a las diez = 열 시에 출발해(시각은 a)",
    "tags": [
     "form:prep_a"
    ],
    "new": [
-    "tren"
+    "tren",
+    "salir"
    ],
    "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Estoy en el tren, en la ventana.",
-   "rd": "에스또이 엔 엘 뜨렌, 엔 라 벤따나.",
+   "tl": "Estoy en el tren, junto a la ventana.",
+   "rd": "에스또이 엔 엘 뜨렌, 훈또 아 라 벤따나.",
    "ko": "기차 안이야, 창가 자리.",
-   "note": "en = ~에·안에(장소) · estoy ↔ 1번 estás",
+   "note": "en = ~에·안에(장소) · junto a la ventana = 창가에 · estoy ↔ 1번 estás",
    "tags": [
     "form:prep_en"
    ],
@@ -113,7 +114,7 @@
     "form:prep_a"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "flustered"
   },
   {
    "num": 7,
@@ -144,8 +145,46 @@
    "new": [
     "desde"
    ],
-   "emotion": "amused"
+   "emotion": "cheerful"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¿Dónde estás? El tren es a las diez.",
+   "ko": "어디야? 기차 열 시야."
+  },
+  {
+   "tl": "Estoy en el tren, en la ventana.",
+   "ko": "기차 안이야, 창가 자리."
+  },
+  {
+   "tl": "¿En el tren? Yo también. ¿Con quién estás?",
+   "ko": "기차라고? 나도. 누구랑 있어?"
+  },
+  {
+   "tl": "Con el perro de una señora.",
+   "ko": "어떤 아주머니 개랑."
+  },
+  {
+   "tl": "¿Un perro? En mi tren no hay perros.",
+   "ko": "개? 내 기차엔 개 없는데."
+  },
+  {
+   "tl": "Pues este tren va a… ¿Sevilla?",
+   "ko": "근데 이 기차… 세비야 가는데?"
+  },
+  {
+   "tl": "¡Tío! ¡Yo voy a Toledo!",
+   "ko": "야! 난 톨레도 가거든!"
+  },
+  {
+   "tl": "Bueno… te llamo desde Sevilla.",
+   "ko": "뭐… 세비야에서 전화할게."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s06_travel_rewrite.md",
+  "model": "전문가"
+ }
 }

@@ -47,10 +47,10 @@
     "expr:lo siento"
    ],
    "new": [],
-   "emotion": "sad",
-   "tl_f": "Tía, lo siento. Hoy no puedo.",
    "ui": "bubble",
    "at": "17:00",
+   "emotion": "worried",
+   "tl_f": "Tía, lo siento. Hoy no puedo.",
    "rd_f": "띠아, 로 시엔또. 오이 노 뿌에도."
   },
   {
@@ -64,10 +64,10 @@
     "expr:qué pasa"
    ],
    "new": [],
-   "emotion": "annoyed",
    "ui": "bubble",
    "at": "17:02",
-   "stamp": "🙄"
+   "stamp": "🙄",
+   "emotion": "annoyed"
   },
   {
    "num": 3,
@@ -78,9 +78,9 @@
    "note": "me toca + 원형 = ~해야 돼(내 차례)",
    "tags": [],
    "new": [],
-   "emotion": "sad",
    "ui": "bubble",
-   "at": "17:03"
+   "at": "17:03",
+   "emotion": "sad"
   },
   {
    "num": 4,
@@ -94,9 +94,9 @@
     "expr:no pasa nada"
    ],
    "new": [],
-   "emotion": "gentle",
    "ui": "bubble",
-   "at": "17:05"
+   "at": "17:05",
+   "emotion": "sad"
   },
   {
    "num": 5,
@@ -110,10 +110,10 @@
     "expr:qué tal"
    ],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "21:30",
-   "read": false
+   "read": false,
+   "emotion": "gentle"
   },
   {
    "num": 6,
@@ -126,10 +126,10 @@
    "new": [
     "seguir"
    ],
-   "emotion": "worried",
    "ui": "bubble",
    "at": "22:45",
-   "read": false
+   "read": false,
+   "emotion": "worried"
   },
   {
    "num": 7,
@@ -145,10 +145,10 @@
    "new": [
     "almacén"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "00:12",
-   "stamp": "😴"
+   "stamp": "😴",
+   "emotion": "flustered"
   },
   {
    "num": 8,
@@ -163,10 +163,48 @@
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "tsukkomi",
    "ui": "bubble",
-   "at": "00:13"
+   "at": "00:13",
+   "emotion": "tsukkomi"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Tío, lo siento. Hoy no puedo.",
+   "ko": "야, 미안. 오늘 안 되겠어."
+  },
+  {
+   "tl": "¿Otra vez no puedes? ¿Qué pasa ahora?",
+   "ko": "또 안 돼? 이번엔 뭔데?"
+  },
+  {
+   "tl": "Me toca trabajar hasta tarde en el bar.",
+   "ko": "바에서 늦게까지 일해야 돼."
+  },
+  {
+   "tl": "Vaya. Vale, no pasa nada.",
+   "ko": "아이고. 알았어, 괜찮아."
+  },
+  {
+   "tl": "Oye, ¿qué tal? ¿Trabajas mucho?",
+   "ko": "저기, 어때? 일 많아?"
+  },
+  {
+   "tl": "¿Javi? ¿Sigues trabajando?",
+   "ko": "하비? 아직 일해?"
+  },
+  {
+   "tl": "Perdona. Me dormí en el almacén.",
+   "ko": "미안. 창고에서 잠들었어."
+  },
+  {
+   "tl": "¿Te dormiste trabajando? Qué morro, tío.",
+   "ko": "일하다가 잠들었어? 뻔뻔하다, 너."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_s06_work_rewrite.md",
+  "model": "전문가"
+ }
 }

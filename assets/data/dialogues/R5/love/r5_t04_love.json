@@ -45,8 +45,8 @@
     "plaza",
     "contento"
    ],
+   "emotion": "teasing",
    "tl_f": "Ayer te vi en la plaza. Parecías muy contenta.",
-   "emotion": "stiff",
    "rd_f": "아예르 떼 비 엔 라 쁠라싸. 빠레씨아스 무이 꼰뗀따."
   },
   {
@@ -54,7 +54,7 @@
    "speaker": "A",
    "tl": "¡Sí! Estaba con Lucía. Me contó una broma buenísima.",
    "rd": "시! 에스따바 꼰 루씨아. 메 꼰또 우나 브로마 부에니시마.",
-   "ko": "응! Lucía 랑 있었어. 엄청 웃긴 농담을 해 줬거든.",
+   "ko": "응! 루시아랑 있었어. 엄청 웃긴 농담을 해 줬거든.",
    "note": "buenísimo = 아주 좋은",
    "tags": [],
    "new": [
@@ -75,7 +75,7 @@
    "new": [
     "tienda"
    ],
-   "emotion": "stiff"
+   "emotion": "annoyed"
   },
   {
    "num": 4,
@@ -88,7 +88,7 @@
    "new": [
     "enfadado"
    ],
-   "emotion": "surprised"
+   "emotion": "worried"
   },
   {
    "num": 5,
@@ -103,7 +103,7 @@
    "new": [
     "aburrido"
    ],
-   "emotion": "annoyed"
+   "emotion": "stiff"
   },
   {
    "num": 6,
@@ -155,7 +155,7 @@
    "speaker": "B",
    "tl": "Vale, sí. ¡Pero no cambies de tema! Lucía y tú… ¿sois…?",
    "rd": "발레, 시. 뻬로 노 깜비에스 데 떼마! 루씨아 이 뚜… 소이스…?",
-   "ko": "그래, 맞아. 근데 말 돌리지 마! 너랑 Lucía… 혹시…?",
+   "ko": "그래, 맞아. 근데 말 돌리지 마! 너랑 루시아… 혹시…?",
    "note": "cambiar de tema = 화제를 바꾸다",
    "tags": [
     "expr:vale"
@@ -185,7 +185,7 @@
    "new": [
     "sorpresa"
    ],
-   "emotion": "amused"
+   "emotion": "cheerful"
   },
   {
    "num": 11,
@@ -207,7 +207,7 @@
    "note": "alguien que… = ~하는 누군가",
    "tags": [],
    "new": [],
-   "emotion": "shy"
+   "emotion": "teasing"
   },
   {
    "num": 13,
@@ -245,7 +245,7 @@
     "esconder",
     "cartel"
    ],
-   "emotion": "teasing"
+   "emotion": "amused"
   },
   {
    "num": 15,
@@ -260,7 +260,7 @@
    "new": [
     "vergüenza"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "flustered"
   },
   {
    "num": 16,
@@ -276,5 +276,75 @@
    "emotion": "gentle"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Ayer te vi en la plaza. Parecías muy contento.",
+   "ko": "어제 광장에서 너 봤어. 엄청 즐거워 보이던데."
+  },
+  {
+   "tl": "¡Sí! Estaba con Lucía. Me contó una broma buenísima.",
+   "ko": "응! Lucía 랑 있었어. 엄청 웃긴 농담을 해 줬거든."
+  },
+  {
+   "tl": "Ya. Os reíais tanto que se os oía desde la tienda.",
+   "ko": "그렇겠지. 너희 웃는 소리가 가게까지 들렸어."
+  },
+  {
+   "tl": "¿Estás enfadada? Tienes la misma cara que cuando alguien rompe un libro.",
+   "ko": "너 화났어? 누가 책 찢었을 때랑 똑같은 표정인데."
+  },
+  {
+   "tl": "Para nada. Estoy perfectamente. Un poco aburrida, nada más.",
+   "ko": "전혀. 완전 괜찮아. 좀 심심할 뿐이야."
+  },
+  {
+   "tl": "¿Aburrida? Pero si hoy ha llegado tu novela romántica favorita.",
+   "ko": "심심해? 오늘 네가 제일 좋아하는 로맨스 소설 들어왔잖아."
+  },
+  {
+   "tl": "No es mi favorita. Es una obra seria. Con mucha emoción.",
+   "ko": "제일 좋아하는 거 아니거든. 진지한 작품이야. 감정이 풍부한."
+  },
+  {
+   "tl": "Ya. Por eso en la portada hay un beso enorme.",
+   "ko": "그렇겠지. 그래서 표지에 엄청 큰 키스신이 있구나."
+  },
+  {
+   "tl": "Vale, sí. ¡Pero no cambies de tema! Lucía y tú… ¿sois…?",
+   "ko": "그래, 맞아. 근데 말 돌리지 마! 너랑 Lucía… 혹시…?"
+  },
+  {
+   "tl": "¿Amigos? Claro. Me estaba ayudando con una sorpresa.",
+   "ko": "친구? 당연하지. 서프라이즈 준비하는 거 도와주고 있었어."
+  },
+  {
+   "tl": "¿Una sorpresa? ¿Para quién?",
+   "ko": "서프라이즈? 누구한테?"
+  },
+  {
+   "tl": "Para alguien que lee novelas románticas y dice que no.",
+   "ko": "로맨스 소설 읽으면서 안 읽는다고 하는 누구한테."
+  },
+  {
+   "tl": "… Vale. Estaba celosa. Un poquito.",
+   "ko": "…그래. 질투했어. 아주 조금."
+  },
+  {
+   "tl": "¿Un poquito? Te vi esconderte detrás del cartel de la tienda.",
+   "ko": "아주 조금? 가게 간판 뒤에 숨는 거 봤는데."
+  },
+  {
+   "tl": "Qué vergüenza. Dame la sorpresa antes de que cambie de idea.",
+   "ko": "아 창피해. 마음 바뀌기 전에 서프라이즈나 줘."
+  },
+  {
+   "tl": "Tu novela favorita. Firmada por la autora. Y con mi número dentro.",
+   "ko": "네가 제일 좋아하는 소설. 작가 사인본. 안에 내 번호도 있어."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r5_t04_love_rewrite.md",
+  "model": "전문가"
+ }
 }

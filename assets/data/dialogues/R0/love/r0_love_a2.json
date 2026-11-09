@@ -25,7 +25,7 @@
  "domain": [
   "love"
  ],
- "goal": "ser 로 자기소개 · hablar de · 짧은 반응",
+ "goal": "ser(eres·soy) · hablar(habla·hablo) · gracioso/graciosa · 짧은 반응",
  "expressions": [
   "y tú",
   "ya",
@@ -36,17 +36,20 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hola. ¿Eres el amigo de Diego?",
-   "tl_f": "Hola. ¿Eres la amiga de Diego?",
-   "rd": "올라. 에레스 엘 아미고 데 디에고?",
-   "ko": "안녕. 네가 디에고 친구야?",
-   "note": "el amigo de… = ~의 친구",
+   "tl": "¡Ey! ¿Eres el amigo de Diego?",
+   "rd": "에이! 에레스 엘 아미고 데 디에고?",
+   "ko": "안녕! 네가 디에고 친구야?",
+   "note": "¿eres…? = 너 ~야?(ser 2인칭) · el amigo/la amiga = 성에 맞춰 바뀜",
    "tags": [
-    "form:ser"
+    "form:ser",
+    "form:concordancia"
    ],
-   "new": [],
-   "emotion": "neutral",
-   "rd_f": "올라. 에레스 라 아미가 데 디에고?"
+   "new": [
+    "amigo"
+   ],
+   "emotion": "teasing",
+   "tl_f": "¡Ey! ¿Eres la amiga de Diego?",
+   "rd_f": "에이! 에레스 라 아미가 데 디에고?"
   },
   {
    "num": 2,
@@ -54,7 +57,7 @@
    "tl": "Sí, soy {name}. ¿Y tú?",
    "rd": "시, 소이 {name}. 이 뚜?",
    "ko": "응, 나 {name}. 너는?",
-   "note": "soy… = 나는 ~야",
+   "note": "soy = ser 1인칭 — 1번 eres 와 비교 · ¿y tú? = 너는?",
    "tags": [
     "form:ser",
     "expr:y tú"
@@ -68,49 +71,61 @@
    "tl": "Marta. Diego habla mucho de ti.",
    "rd": "마르따. 디에고 아블라 무초 데 띠.",
    "ko": "마르타. 디에고가 네 얘기 많이 해.",
-   "note": "hablar de ti = 네 얘기를 하다",
-   "tags": [],
-   "new": [],
-   "emotion": "teasing"
+   "note": "habla de ti = 네 얘기를 해(hablar 3인칭) · mucho = 많이",
+   "tags": [
+    "form:presente_ar"
+   ],
+   "new": [
+    "hablar",
+    "mucho"
+   ],
+   "emotion": "excited"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Ah, sí? ¿Y qué dice?",
-   "rd": "아, 시? 이 께 디쎄?",
+   "tl": "¿Ah, sí? ¿Qué dice?",
+   "rd": "아, 시? 께 디쎄?",
    "ko": "아, 그래? 뭐라는데?",
-   "note": "¿qué dice? = 뭐래?",
+   "note": "¿qué dice? = 뭐라고 해?(decir 3인칭, 통문장)",
    "tags": [],
-   "new": [],
-   "emotion": "worried"
+   "new": [
+    "decir"
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
    "tl": "Que eres muy gracioso.",
-   "tl_f": "Que eres muy graciosa.",
    "rd": "께 에레스 무이 그라씨오소.",
    "ko": "너 엄청 웃기대.",
-   "note": "gracioso = 웃긴",
+   "note": "que eres… = 네가 ~래(남의 말 전하기) · gracioso/graciosa = 웃긴(성에 맞춤)",
    "tags": [
-    "form:ser"
+    "form:ser",
+    "form:concordancia"
    ],
    "new": [
     "gracioso"
    ],
-   "emotion": "teasing",
+   "emotion": "amused",
+   "tl_f": "Que eres muy graciosa.",
    "rd_f": "께 에레스 무이 그라씨오사."
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Yo? Pero hablo muy poco.",
-   "rd": "요? 뻬로 아블로 무이 뽀꼬.",
-   "ko": "내가? 나 말 진짜 없는데.",
-   "note": "muy poco = 아주 조금",
-   "tags": [],
-   "new": [],
-   "emotion": "surprised"
+   "tl": "¿Yo? Pero hablo poco.",
+   "rd": "요? 뻬로 아블로 뽀꼬.",
+   "ko": "내가? 나 말 별로 없는데.",
+   "note": "hablo = hablar 1인칭 — 3번 habla 와 비교 · poco = 조금·별로",
+   "tags": [
+    "form:presente_ar"
+   ],
+   "new": [
+    "poco"
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 7,
@@ -118,21 +133,14 @@
    "tl": "Ya… por eso estoy aquí.",
    "rd": "야… 뽀르 에소 에스또이 아끼.",
    "ko": "알아… 그래서 온 거야.",
-   "note": "por eso = 그래서",
+   "note": "por eso = 그래서 · estoy aquí = 나 여기 있어(estar) · ya = 알아",
    "tags": [
     "expr:ya"
    ],
-   "new": [],
-   "segs": [
-    [
-     "shy",
-     "Ya…"
-    ],
-    [
-     "gentle",
-     "por eso estoy aquí."
-    ]
-   ]
+   "new": [
+    "aquí"
+   ],
+   "emotion": "shy"
   },
   {
    "num": 8,
@@ -140,14 +148,54 @@
    "tl": "Vale. Entonces… ¿qué tal?",
    "rd": "발레. 엔똔쎄스… 께 딸?",
    "ko": "그래. 그럼… 안녕?",
-   "note": "entonces = 그럼",
+   "note": "¿qué tal? = 안녕·어때?(처음부터 다시 인사하듯) · entonces = 그럼",
    "tags": [
     "expr:vale",
     "expr:qué tal"
    ],
-   "new": [],
-   "emotion": "shy"
+   "new": [
+    "entonces"
+   ],
+   "emotion": "gentle"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Hola. ¿Eres el amigo de Diego?",
+   "ko": "안녕. 네가 디에고 친구야?"
+  },
+  {
+   "tl": "Sí, soy {name}. ¿Y tú?",
+   "ko": "응, 나 {name}. 너는?"
+  },
+  {
+   "tl": "Marta. Diego habla mucho de ti.",
+   "ko": "마르타. 디에고가 네 얘기 많이 해."
+  },
+  {
+   "tl": "¿Ah, sí? ¿Y qué dice?",
+   "ko": "아, 그래? 뭐라는데?"
+  },
+  {
+   "tl": "Que eres muy gracioso.",
+   "ko": "너 엄청 웃기대."
+  },
+  {
+   "tl": "¿Yo? Pero hablo muy poco.",
+   "ko": "내가? 나 말 진짜 없는데."
+  },
+  {
+   "tl": "Ya… por eso estoy aquí.",
+   "ko": "알아… 그래서 온 거야."
+  },
+  {
+   "tl": "Vale. Entonces… ¿qué tal?",
+   "ko": "그래. 그럼… 안녕?"
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_love_a2_rewrite.md",
+  "model": "전문가"
+ }
 }

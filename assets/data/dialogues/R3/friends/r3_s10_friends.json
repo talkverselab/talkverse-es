@@ -27,7 +27,8 @@
  "expressions": [
   "ya",
   "perdona",
-  "menos mal"
+  "menos mal",
+  "tío"
  ],
  "turns": [
   {
@@ -73,7 +74,7 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "annoyed"
+   "emotion": "tsukkomi"
   },
   {
    "num": 4,
@@ -110,7 +111,7 @@
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -124,16 +125,7 @@
     "form:nosotros"
    ],
    "new": [],
-   "segs": [
-    [
-     "cheerful",
-     "Marqué dos goles."
-    ],
-    [
-     "sad",
-     "Los dos en nuestra portería."
-    ]
-   ]
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -146,8 +138,46 @@
     "expr:menos mal"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "cheerful"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Ayer te llamamos tres veces, tío.",
+   "ko": "어제 우리가 너한테 전화 세 번 했어."
+  },
+  {
+   "tl": "Ya, perdona. ¿Me llamasteis? Comimos con mi abuela.",
+   "ko": "알아, 미안. 전화했어? 할머니랑 다 같이 밥 먹었어."
+  },
+  {
+   "tl": "¿Comisteis? ¿Y el partido? Te esperamos una hora.",
+   "ko": "밥을 먹었다고? 경기는? 우리 한 시간 기다렸어."
+  },
+  {
+   "tl": "¿Ayer? ¿El partido no es hoy?",
+   "ko": "어제? 경기 오늘 아니야?"
+  },
+  {
+   "tl": "No. Fue ayer. Jugué yo en tu lugar.",
+   "ko": "아니. 어제였어. 내가 네 자리에서 뛰었어."
+  },
+  {
+   "tl": "¿Jugaste tú? ¿Y qué pasó?",
+   "ko": "네가 뛰었다고? 그래서 어떻게 됐어?"
+  },
+  {
+   "tl": "Marqué dos goles. Los dos en nuestra portería.",
+   "ko": "두 골 넣었지. 둘 다 우리 골대에."
+  },
+  {
+   "tl": "Menos mal que comimos con mi abuela.",
+   "ko": "할머니랑 밥 먹길 다행이다."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r3_s10_friends_rewrite.md",
+  "model": "전문가"
+ }
 }

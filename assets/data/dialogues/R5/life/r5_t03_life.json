@@ -48,9 +48,9 @@
    "new": [
     "enfermo"
    ],
+   "emotion": "worried",
    "tl_f": "¿Sigues en la cama? Tienes cara de enferma, tía.",
-   "rd_f": "시게스 엔 라 까마? 띠에네스 까라 데 엔페르마, 띠아.",
-   "emotion": "worried"
+   "rd_f": "시게스 엔 라 까마? 띠에네스 까라 데 엔페르마, 띠아."
   },
   {
    "num": 2,
@@ -106,7 +106,7 @@
     "caminar",
     "ambulancia"
    ],
-   "emotion": "sad"
+   "emotion": "flustered"
   },
   {
    "num": 5,
@@ -122,7 +122,7 @@
     "accidente",
     "moto"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -147,7 +147,7 @@
     "anoche",
     "examen"
    ],
-   "emotion": "sad"
+   "emotion": "worried"
   },
   {
    "num": 8,
@@ -191,7 +191,7 @@
     "beber",
     "caliente"
    ],
-   "emotion": "stiff"
+   "emotion": "surprised"
   },
   {
    "num": 11,
@@ -221,9 +221,9 @@
     "completamente",
     "sano"
    ],
+   "emotion": "polite",
    "tl_f": "Entonces no tiene fiebre. Está usted completamente sana.",
-   "rd_f": "엔똔쎄스 노 띠에네 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사나.",
-   "emotion": "amused"
+   "rd_f": "엔똔쎄스 노 띠에네 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사나."
   },
   {
    "num": 13,
@@ -261,8 +261,74 @@
     "expr:vale"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "cheerful"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¿Sigues en la cama? Tienes cara de enfermo, tío.",
+   "ko": "아직 누워 있어? 얼굴이 환자 같아."
+  },
+  {
+   "tl": "Estoy fatal. Me duele la cabeza, me duelen la espalda y el estómago… Tengo fiebre, seguro.",
+   "ko": "완전 죽겠어. 머리 아프고, 허리랑 배도 아파… 열 나는 게 분명해."
+  },
+  {
+   "tl": "A ver, el termómetro… ¡Treinta y nueve! Tienes fiebre de verdad. Nos vamos al médico ahora mismo.",
+   "ko": "어디 보자, 체온계가… 39도! 진짜 열 나네. 지금 당장 병원 가자."
+  },
+  {
+   "tl": "No puedo ni caminar. Llama a una ambulancia.",
+   "ko": "걷지도 못하겠어. 구급차 불러 줘."
+  },
+  {
+   "tl": "Hombre, es fiebre, no un accidente. Te llevo en la moto.",
+   "ko": "야, 열이지 사고가 아니잖아. 오토바이로 데려다줄게."
+  },
+  {
+   "tl": "Buenos días. ¿Desde cuándo está así? ¿Qué le duele?",
+   "ko": "안녕하세요. 언제부터 이러셨어요? 어디가 아프세요?"
+  },
+  {
+   "tl": "Desde anoche. Me duele todo. Y justo hoy tengo un examen muy importante.",
+   "ko": "어젯밤부터요. 다 아파요. 하필 오늘 아주 중요한 시험이 있는데."
+  },
+  {
+   "tl": "Vamos a ver… El pecho suena bien y el corazón, normal. Respire despacio.",
+   "ko": "어디 볼까요… 가슴 소리 좋고, 심장도 정상이에요. 천천히 숨 쉬세요."
+  },
+  {
+   "tl": "¿Es grave, doctora? Anoche estaba perfectamente. Estábamos viendo una película.",
+   "ko": "심각한가요, 선생님? 어젯밤엔 멀쩡했어요. 같이 영화 보고 있었거든요."
+  },
+  {
+   "tl": "Una pregunta. ¿Ha bebido algo caliente antes de usar el termómetro?",
+   "ko": "하나만 여쭐게요. 체온계 쓰기 전에 뜨거운 걸 마셨나요?"
+  },
+  {
+   "tl": "Pues… sí. Un té muy caliente. Se lo hice yo.",
+   "ko": "그게… 네. 아주 뜨거운 차요. 제가 끓여 줬어요."
+  },
+  {
+   "tl": "Entonces no tiene fiebre. Está usted completamente sano.",
+   "ko": "그럼 열은 없네요. 완전히 건강하세요."
+  },
+  {
+   "tl": "¿Y el dolor de estómago? Eso es real, se lo juro. Todavía me duele.",
+   "ko": "배 아픈 건요? 그건 진짜예요, 맹세해요. 아직도 아파요."
+  },
+  {
+   "tl": "Eso se llama examen. En junio les duele a todos. Tratamiento: estudiar y menos té.",
+   "ko": "그건 「시험」이라는 병이에요. 6월엔 다들 아파요. 처방: 공부하고, 차는 줄이세요."
+  },
+  {
+   "tl": "Te espero en la moto. Con el libro abierto, ¿vale?",
+   "ko": "오토바이에서 기다릴게. 책 펴 들고, 알았지?"
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r5_t03_life_rewrite.md",
+  "model": "전문가"
+ }
 }

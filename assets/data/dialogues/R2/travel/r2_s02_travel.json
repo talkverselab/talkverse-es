@@ -27,7 +27,8 @@
   "tío",
   "mira",
   "madre mía",
-  "qué fuerte"
+  "qué fuerte",
+  "qué tal"
  ],
  "turns": [
   {
@@ -44,11 +45,11 @@
    "new": [
     "mar"
    ],
-   "emotion": "excited",
-   "tl_f": "¡Tía, estoy en Cádiz! Mira qué mar.",
    "ui": "bubble",
    "at": "12:10",
    "stamp": "🌊",
+   "emotion": "excited",
+   "tl_f": "¡Tía, estoy en Cádiz! Mira qué mar.",
    "rd_f": "띠아, 에스또이 엔 까디쓰! 미라 께 마르."
   },
   {
@@ -62,9 +63,9 @@
    "new": [
     "envidia"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "12:12"
+   "at": "12:12",
+   "emotion": "teasing"
   },
   {
    "num": 3,
@@ -77,9 +78,9 @@
     "expr:qué tal"
    ],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "12:13"
+   "at": "12:13",
+   "emotion": "cheerful"
   },
   {
    "num": 4,
@@ -94,9 +95,9 @@
    "new": [
     "detrás"
    ],
-   "emotion": "amused",
    "ui": "bubble",
-   "at": "12:14"
+   "at": "12:14",
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -112,16 +113,7 @@
    "new": [],
    "ui": "bubble",
    "at": "12:14",
-   "segs": [
-    [
-     "surprised",
-     "¿Qué señor? Ay, madre mía."
-    ],
-    [
-     "tsukkomi",
-     "Sale más guapo que yo."
-    ]
-   ]
+   "emotion": "shout"
   },
   {
    "num": 6,
@@ -134,17 +126,17 @@
    "new": [
     "cámara"
    ],
-   "emotion": "amused",
    "ui": "bubble",
    "at": "12:15",
-   "stamp": "😂"
+   "stamp": "😂",
+   "emotion": "amused"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Y ya está en mi historia. Cien vistas.",
-   "rd": "이 야 에스따 엔 미 이스또리아. 씨엔 비스따스.",
-   "ko": "근데 벌써 내 스토리에 올렸어. 조회수 백.",
+   "tl": "Ya está en mi historia. Cien vistas.",
+   "rd": "야 에스따 엔 미 이스또리아. 씨엔 비스따스.",
+   "ko": "벌써 내 스토리에 올렸어. 조회수 백.",
    "note": "historia = SNS 스토리 · vistas = 조회수",
    "tags": [
     "callback:r2_s04_friends"
@@ -152,9 +144,9 @@
    "new": [
     "vista"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
-   "at": "12:20"
+   "at": "12:20",
+   "emotion": "flustered"
   },
   {
    "num": 8,
@@ -169,11 +161,49 @@
    "new": [
     "preguntar"
    ],
-   "emotion": "tsukkomi",
    "ui": "bubble",
    "at": "12:31",
-   "stamp": "🙄"
+   "stamp": "🙄",
+   "emotion": "tsukkomi"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¡Tío, estoy en Cádiz! Mira qué mar.",
+   "ko": "야, 나 카디스야! 바다 좀 봐."
+  },
+  {
+   "tl": "Qué envidia. ¿Y la foto, guapa?",
+   "ko": "부럽다. 사진은, 예쁜이?"
+  },
+  {
+   "tl": "Ahí va. ¿Qué tal salgo?",
+   "ko": "보낸다. 나 어떻게 나왔어?"
+  },
+  {
+   "tl": "Sales guapa… pero ¿quién es el señor de detrás?",
+   "ko": "예쁘게 나왔어… 근데 뒤에 아저씨는 누구야?"
+  },
+  {
+   "tl": "¿Qué señor? Ay, madre mía. Sale más guapo que yo.",
+   "ko": "무슨 아저씨? 헐, 세상에. 나보다 잘 나왔네."
+  },
+  {
+   "tl": "Y tiene un perro. ¡El perro mira a la cámara!",
+   "ko": "개도 데리고 있어. 개가 카메라 보고 있어!"
+  },
+  {
+   "tl": "Y ya está en mi historia. Cien vistas.",
+   "ko": "근데 벌써 내 스토리에 올렸어. 조회수 백."
+  },
+  {
+   "tl": "Y todos preguntan por el perro. Qué fuerte.",
+   "ko": "근데 다들 개 얘기만 물어봐. 어이없어."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_s02_travel_rewrite.md",
+  "model": "전문가"
+ }
 }

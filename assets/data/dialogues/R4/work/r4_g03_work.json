@@ -29,8 +29,7 @@
   "claro",
   "vale",
   "hombre",
-  "perdón",
-  "ya"
+  "perdón"
  ],
  "turns": [
   {
@@ -59,7 +58,7 @@
     "expr:claro"
    ],
    "new": [],
-   "emotion": "gentle"
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -72,7 +71,7 @@
     "form:reflexivo"
    ],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "ko_f": "금요일 휴가. 우리 오빠가 세비야에서 결혼하거든."
   },
   {
@@ -87,7 +86,7 @@
     "form:condicional"
    ],
    "new": [],
-   "emotion": "gentle"
+   "emotion": "teasing"
   },
   {
    "num": 5,
@@ -100,7 +99,7 @@
     "form:condicional"
    ],
    "new": [],
-   "emotion": "shy"
+   "emotion": "flustered"
   },
   {
    "num": 6,
@@ -128,7 +127,7 @@
     "form:condicional"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -141,7 +140,7 @@
     "expr:hombre"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "teasing"
   },
   {
    "num": 9,
@@ -167,7 +166,7 @@
     "form:condicional"
    ],
    "new": [],
-   "emotion": "gentle"
+   "emotion": "cheerful"
   },
   {
    "num": 11,
@@ -255,5 +254,75 @@
    "emotion": "amused"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Oye, ¿tienes un minuto? Tengo que pedirle algo al jefe y estoy nervioso.",
+   "ko": "저기, 잠깐 시간 돼? 부장님한테 부탁할 게 있는데 떨려."
+  },
+  {
+   "tl": "Claro. ¿Qué le quieres pedir?",
+   "ko": "그럼. 뭘 부탁하려고?"
+  },
+  {
+   "tl": "El viernes libre. Mi hermano se casa en Sevilla.",
+   "ko": "금요일 휴가. 우리 형이 세비야에서 결혼하거든."
+  },
+  {
+   "tl": "Vale. Yo que tú, no diría «quiero». Diría «me gustaría».",
+   "ko": "알았어. 나 같으면 「원해요」라고는 안 해. 「~하고 싶습니다」라고 하지."
+  },
+  {
+   "tl": "«Me gustaría tener el viernes libre». ¿Así?",
+   "ko": "「금요일에 쉬고 싶습니다.」 이렇게?"
+  },
+  {
+   "tl": "Mejor. Y al final añadiría: «¿Sería posible?». Suena más educado.",
+   "ko": "훨씬 낫다. 끝에 「가능할까요?」도 붙이고. 그게 더 예의 바르게 들려."
+  },
+  {
+   "tl": "¿No sería demasiado? Parece una carta a la reina.",
+   "ko": "너무 오버 아냐? 여왕님한테 쓰는 편지 같은데."
+  },
+  {
+   "tl": "Hombre, aquí todo el mundo le habla así. Le encanta.",
+   "ko": "아이고, 여기선 다들 부장님한테 그렇게 말해. 엄청 좋아하셔."
+  },
+  {
+   "tl": "Vale… ¿Y si me dice que no?",
+   "ko": "알았어… 근데 안 된다고 하시면?"
+  },
+  {
+   "tl": "Entonces le dirías que trabajarías el sábado. Funciona siempre.",
+   "ko": "그럼 토요일에 일하겠다고 하면 돼. 이거 백발백중이야."
+  },
+  {
+   "tl": "{name}, ¿me buscabas?",
+   "ko": "{name} 씨, 나 찾았어요?"
+  },
+  {
+   "tl": "¡Sí! Eh… Me gustaría pedirle… …la mano.",
+   "ko": "네! 어… 저기… 부장님께… 청혼을 드리고 싶습니다."
+  },
+  {
+   "tl": "¿Perdón?",
+   "ko": "네?"
+  },
+  {
+   "tl": "¡El viernes! ¡Me gustaría pedirle el viernes libre! Lo de la mano, no.",
+   "ko": "금요일이요! 금요일에 쉬고 싶습니다! 청혼은 아니고요."
+  },
+  {
+   "tl": "Yo que tú, ahora diría «¿sería posible?».",
+   "ko": "나 같으면 지금 「가능할까요?」 하겠다."
+  },
+  {
+   "tl": "Sería posible. Pero lo de la mano lo hablamos otro día.",
+   "ko": "가능합니다. 근데 청혼 건은 다음에 얘기하죠."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_g03_work_rewrite.md",
+  "model": "전문가"
+ }
 }

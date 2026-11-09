@@ -24,6 +24,6 @@ for p in [x for x in sys.argv[1:] if x.endswith('.json')]:
            .replace('{grammar}', gr.replace('{goal}', e.get('goal', ''))).replace('{twist}', str(e.get('twist')))
            .replace('{n}', str(len(e['turns']))).replace('{words}', str(w)).replace('{lines}', lines))
     if SHORT:  # 사용자 지시 2026-11-09: 규칙은 방에 한 번(rules_es.md), 편마다 최소 요청
-        txt = (f"[ES-{e['id']}] 앞의 규칙 그대로(형식·감정 열·F: 여성판 포함). {lv} · 문법: {gr.replace('{goal}', e.get('goal', ''))}\n"
+        txt = (f"[ES-{e['id']}] 앞의 규칙 그대로(형식·감정 열·F: 여성판 포함). **모든 줄을 새 문장으로 다시 쓸 것 — 초안 문장을 그대로 옮기면 안 됨**(뜻·반전·인물만 살림), 일상 장면 안에서 재미·심쿵. {lv} · 문법: {gr.replace('{goal}', e.get('goal', ''))}\n"
                f"등장 {roles} · 장면 {e['scene']} · 말투 {REG.get(e.get('register'), '')} · 반전 턴 {e.get('twist')} · {len(e['turns'])}턴 · 한 턴 {w}단어 이하\n초안:\n{lines}")
     out = ROOT / f"data/review/grok/{e['id']}_prompt.md"; out.write_text(txt, encoding='utf-8'); print(out)

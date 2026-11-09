@@ -64,7 +64,7 @@
     "alquiler",
     "anuncio"
    ],
-   "emotion": "neutral"
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -77,7 +77,7 @@
    "new": [
     "fianza"
    ],
-   "emotion": "polite"
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -120,7 +120,7 @@
     "ruido",
     "tranquilo"
    ],
-   "emotion": "neutral"
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -136,7 +136,7 @@
     "bar",
     "cerrar"
    ],
-   "emotion": "polite"
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -152,15 +152,15 @@
     "firmar",
     "problema"
    ],
-   "emotion": "cheerful"
+   "emotion": "excited"
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Es que hoy hay más visitas. Mire, ya están subiendo.",
-   "rd": "에스 께 오이 아이 마스 비시따스. 미레, 야 에스딴 수비엔도.",
+   "tl": "Es que hoy hay más visitas. Miren, ya están subiendo.",
+   "rd": "에스 께 오이 아이 마스 비시따스. 미렌, 야 에스딴 수비엔도.",
    "ko": "그게, 오늘 보러 오는 분들이 더 있어요. 보세요, 벌써 올라오고 있네요.",
-   "note": "visita = (집) 보러 오는 사람 · están subiendo = 올라오는 중",
+   "note": "visita = (집) 보러 오는 사람 · miren = 보세요(ustedes) · están subiendo = 올라오는 중",
    "tags": [
     "expr:es que"
    ],
@@ -168,7 +168,7 @@
     "visita",
     "subir"
    ],
-   "emotion": "stiff"
+   "emotion": "neutral"
   },
   {
    "num": 10,
@@ -193,21 +193,21 @@
     "pareja",
     "ofrecer"
    ],
-   "emotion": "polite"
+   "emotion": "amused"
   },
   {
    "num": 12,
    "speaker": "A",
    "tl": "¿Cien más? Y si firmamos hoy, ¿nos baja el precio?",
    "rd": "씨엔 마스? 이 시 피르마모스 오이, 노스 바하 엘 쁘레씨오?",
-   "ko": "100유로 더요? 그럼 오늘 계약하면 좀 깎아 주세요?",
+   "ko": "100유로 더요? 그럼 오늘 계약하면 좀 깎아 주시나요?",
    "note": "bajar el precio = 값을 깎다",
    "tags": [],
    "new": [
     "precio",
     "bajar"
    ],
-   "emotion": "surprised"
+   "emotion": "worried"
   },
   {
    "num": 13,
@@ -218,7 +218,7 @@
    "note": "no se lo subo = (값을) 안 올려 드릴게요 · subir = 올리다",
    "tags": [],
    "new": [],
-   "emotion": "stiff"
+   "emotion": "teasing"
   },
   {
    "num": 14,
@@ -258,5 +258,71 @@
    ]
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Bienvenidos. El piso tiene ochenta metros, terraza y mucha luz.",
+   "ko": "어서 오세요. 이 집은 80제곱미터에 테라스, 채광도 좋아요."
+  },
+  {
+   "tl": "¿Y el alquiler? Porque en el anuncio no ponía nada.",
+   "ko": "월세는요? 광고엔 아무것도 안 적혀 있던데요."
+  },
+  {
+   "tl": "Mil cuatrocientos al mes, más dos meses de fianza.",
+   "ko": "한 달에 1,400유로고, 보증금은 두 달 치 따로예요."
+  },
+  {
+   "tl": "¿Mil cuatrocientos? ¿Están incluidas la calefacción y el agua?",
+   "ko": "1,400이요? 난방이랑 수도는 포함인가요?"
+  },
+  {
+   "tl": "La calefacción, no. Pero el edificio tiene ascensor y portero.",
+   "ko": "난방은 아니에요. 대신 엘리베이터랑 경비원이 있어요."
+  },
+  {
+   "tl": "¿Y el ruido? La calle parece bastante tranquila.",
+   "ko": "소음은요? 길은 꽤 조용해 보이는데."
+  },
+  {
+   "tl": "Muy tranquila. Bueno, abajo hay un bar, pero cierra a la una.",
+   "ko": "아주 조용해요. 뭐, 아래층에 바가 있긴 한데 새벽 한 시에 닫아요."
+  },
+  {
+   "tl": "Vale, eso no es problema. ¿Cuándo podemos firmar?",
+   "ko": "그 정도는 괜찮아요. 언제 계약할 수 있어요?"
+  },
+  {
+   "tl": "Es que hoy hay más visitas. Mire, ya están subiendo.",
+   "ko": "그게, 오늘 보러 오는 분들이 더 있어요. 보세요, 벌써 올라오고 있네요."
+  },
+  {
+   "tl": "¿Más visitas? ¿Cuántas hay hoy?",
+   "ko": "또 보러 와요? 오늘 몇 팀이나요?"
+  },
+  {
+   "tl": "Doce esta tarde. Y una pareja ya ha ofrecido cien euros más al mes.",
+   "ko": "오늘 오후에만 열두 팀이요. 그리고 한 커플은 벌써 월세 100유로 더 내겠다고 했어요."
+  },
+  {
+   "tl": "¿Cien más? Y si firmamos hoy, ¿nos baja el precio?",
+   "ko": "100유로 더요? 그럼 오늘 계약하면 좀 깎아 주세요?"
+  },
+  {
+   "tl": "Bajarlo, no. Pero si firman hoy, no se lo subo.",
+   "ko": "깎는 건 안 돼요. 대신 오늘 계약하시면 안 올릴게요."
+  },
+  {
+   "tl": "Madre mía. Madrid está loco, {name}. Vámonos.",
+   "ko": "세상에. 마드리드 미쳤어, {name}. 가자."
+  },
+  {
+   "tl": "Espera. ¿Dónde se firma?",
+   "ko": "잠깐. 어디에 서명하면 돼요?"
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r5_t01_life_rewrite.md",
+  "model": "전문가"
+ }
 }

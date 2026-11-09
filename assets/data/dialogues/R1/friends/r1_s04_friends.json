@@ -92,7 +92,7 @@
     "form:gustar"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 5,
@@ -105,7 +105,7 @@
    "new": [
     "caracol"
    ],
-   "emotion": "surprised"
+   "emotion": "amused"
   },
   {
    "num": 6,
@@ -136,16 +136,7 @@
     "callos",
     "abuela"
    ],
-   "segs": [
-    [
-     "cheerful",
-     "Vale."
-    ],
-    [
-     "excited",
-     "Caracoles… ¡y callos de mi abuela!"
-    ]
-   ]
+   "emotion": "excited"
   },
   {
    "num": 8,
@@ -162,5 +153,43 @@
    "emotion": "flustered"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Oye, hago la cena. ¿Te gusta el ajo?",
+   "ko": "야, 내가 저녁 할게. 마늘 좋아해?"
+  },
+  {
+   "tl": "Me encanta el ajo. ¿Qué haces?",
+   "ko": "마늘 완전 좋아해. 뭐 만드는데?"
+  },
+  {
+   "tl": "Una sorpresa. ¿Te gustan las patatas?",
+   "ko": "비밀이야. 감자 좋아해?"
+  },
+  {
+   "tl": "Me encantan. Me gusta todo, tío.",
+   "ko": "완전 좋아. 난 다 좋아해."
+  },
+  {
+   "tl": "¿Todo? ¿También los caracoles?",
+   "ko": "다? 달팽이 요리도?"
+  },
+  {
+   "tl": "Claro. Me gusta todo, de verdad.",
+   "ko": "당연하지. 진짜 다 좋아해."
+  },
+  {
+   "tl": "Vale. Caracoles… ¡y callos de mi abuela!",
+   "ko": "오케이. 달팽이… 그리고 우리 할머니표 곱창 스튜!"
+  },
+  {
+   "tl": "Bueno… no me gusta todo.",
+   "ko": "그게… 다 좋아하는 건 아니야."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s04_friends_rewrite.md",
+  "model": "전문가"
+ }
 }

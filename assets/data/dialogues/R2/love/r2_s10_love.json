@@ -32,18 +32,18 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Hoy me gustó mucho. ¿Y a ti?",
-   "rd": "오이 메 구스또 무초. 이 아 띠?",
+   "tl": "Hoy me ha gustado mucho. ¿Y a ti?",
+   "rd": "오이 메 아 구스따도 무초. 이 아 띠?",
    "ko": "오늘 정말 좋았어. 너는?",
-   "note": "me gustó = 좋았어(단순과거)",
+   "note": "me ha gustado = 좋았어(오늘 일은 현재완료 — 스페인식)",
    "tags": [
-    "form:indefinido",
+    "form:perfecto",
     "form:gustar"
    ],
    "new": [],
-   "emotion": "gentle",
    "ui": "bubble",
-   "at": "23:10"
+   "at": "23:10",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -58,9 +58,9 @@
    "new": [
     "horrible"
    ],
-   "emotion": "amused",
    "ui": "bubble",
-   "at": "23:14"
+   "at": "23:14",
+   "emotion": "amused"
   },
   {
    "num": 3,
@@ -76,9 +76,9 @@
     "próximo",
     "libre"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "23:14"
+   "at": "23:14",
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -93,9 +93,9 @@
    "new": [
     "ocupado"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "23:16"
+   "at": "23:16",
+   "emotion": "stiff"
   },
   {
    "num": 5,
@@ -110,9 +110,9 @@
    "new": [
     "sábado"
    ],
-   "emotion": "worried",
    "ui": "bubble",
-   "at": "23:16"
+   "at": "23:16",
+   "emotion": "worried"
   },
   {
    "num": 6,
@@ -125,9 +125,9 @@
     "callback:r2_s01_love"
    ],
    "new": [],
-   "emotion": "stiff",
    "ui": "bubble",
-   "at": "23:18"
+   "at": "23:18",
+   "emotion": "neutral"
   },
   {
    "num": 7,
@@ -140,18 +140,9 @@
    "new": [
     "cerrar"
    ],
-   "segs": [
-    [
-     "shy",
-     "Pero cierro a las ocho…"
-    ],
-    [
-     "gentle",
-     "y no tengo planes."
-    ]
-   ],
    "ui": "bubble",
-   "at": "23:19"
+   "at": "23:19",
+   "emotion": "shy"
   },
   {
    "num": 8,
@@ -164,11 +155,49 @@
     "callback:r2_s01_love"
    ],
    "new": [],
-   "emotion": "gentle",
    "ui": "bubble",
    "at": "23:19",
-   "stamp": "📕"
+   "stamp": "📕",
+   "emotion": "gentle"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Hoy me gustó mucho. ¿Y a ti?",
+   "ko": "오늘 정말 좋았어. 너는?"
+  },
+  {
+   "tl": "A mí tb. El café estaba horrible.",
+   "ko": "나도. 커피는 끔찍했지만."
+  },
+  {
+   "tl": "Jajaja, ya. ¿Y la próxima? ¿Estás libre?",
+   "ko": "ㅋㅋ 그러게. 다음엔? 시간 돼?"
+  },
+  {
+   "tl": "Mmm… no sé. Estoy muy ocupada.",
+   "ko": "음… 글쎄. 나 엄청 바빠."
+  },
+  {
+   "tl": "Vaya. ¿Y el sábado? ¿Trabajas?",
+   "ko": "아쉽네. 토요일은? 일해?"
+  },
+  {
+   "tl": "El sábado trabajo en la librería.",
+   "ko": "토요일엔 서점 알바야."
+  },
+  {
+   "tl": "Pero cierro a las ocho… y no tengo planes.",
+   "ko": "근데 여덟 시에 닫아… 그리고 약속 없어."
+  },
+  {
+   "tl": "Entonces ya tienes planes. Llevo el libro.",
+   "ko": "그럼 이제 약속 있네. 그 책 가져갈게."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_s10_love_rewrite.md",
+  "model": "전문가"
+ }
 }

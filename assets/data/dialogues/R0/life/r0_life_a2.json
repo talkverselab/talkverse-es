@@ -22,39 +22,40 @@
  "domain": [
   "life"
  ],
- "goal": "tener frío/calor(tengo·tienes) · estar(estás·estoy·está) · 단수·복수 명사(manta·mantas)",
+ "goal": "tener frío/calor(tengo·tienes) · estar(estás·estoy) · 관사 un/una",
  "expressions": [
-  "qué tal",
-  "un momento",
-  "espera",
-  "ya está"
+  "venga",
+  "vale"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Buenos días, {name}. ¿Qué tal estás?",
-   "rd": "부에노스 디아스, {name}. 께 딸 에스따스?",
-   "ko": "좋은 아침, {name}. 잘 잤어?",
-   "note": "buenos días = 좋은 아침 · estás = 너 ~해(상태)",
+   "tl": "¡Buenos días, {name}! ¿Estás bien?",
+   "rd": "부에노스 디아스, {name}! 에스따스 비엔?",
+   "ko": "좋은 아침, {name}! 너 괜찮아?",
+   "note": "¿estás bien? = 괜찮아?(estar 2인칭 — 상태는 estar) · buenos días = 좋은 아침",
    "tags": [
-    "expr:qué tal",
     "form:estar"
    ],
-   "new": [],
-   "emotion": "gentle"
+   "new": [
+    "día",
+    "bien"
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Mal. Tengo un poco de frío.",
-   "rd": "말. 뗀고 운 뽀꼬 데 프리오.",
-   "ko": "별로. 좀 추워.",
-   "note": "tener frío = 춥다",
+   "tl": "Mal. Tengo frío.",
+   "rd": "말. 뗀고 프리오.",
+   "ko": "별로. 추워.",
+   "note": "tengo frío = 추워(tener 1인칭 + 명사 — 「추위를 갖다」) · mal = 별로·안 좋아",
    "tags": [
     "form:tener"
    ],
    "new": [
+    "mal",
     "frío"
    ],
    "emotion": "sad"
@@ -62,70 +63,76 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "¿Tienes frío? ¡Un momento!",
-   "rd": "띠에네스 프리오? 운 모멘또!",
-   "ko": "추워? 잠깐만!",
-   "note": "¿Tienes frío? = 추워?",
+   "tl": "¿Tienes frío? ¡Venga!",
+   "rd": "띠에네스 프리오? 벤가!",
+   "ko": "추워? 좋아, 맡겨!",
+   "note": "tienes = tener 2인칭 — 2번 tengo 와 비교 · ¡venga! = 자·좋아(바로 움직일 때)",
    "tags": [
-    "expr:un momento",
+    "expr:venga",
     "form:tener"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "excited"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Toma, una manta. Y dos mantas más.",
-   "rd": "또마, 우나 만따. 이 도스 만따스 마스.",
-   "ko": "자, 담요. 그리고 두 장 더.",
-   "note": "mantas = 담요들(복수) · toma = 자, 받아",
-   "tags": [],
-   "new": [
-    "manta"
+   "tl": "Toma, una manta. ¡Y otra!",
+   "rd": "또마, 우나 만따. 이 오뜨라!",
+   "ko": "자, 담요. 하나 더!",
+   "note": "toma = 자, 받아(통문장) · una manta(여) → otra = 하나 더",
+   "tags": [
+    "form:artículo"
    ],
-   "emotion": "gentle"
+   "new": [
+    "manta",
+    "otro"
+   ],
+   "emotion": "amused"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Diego, espera. Ya estoy bien.",
-   "rd": "디에고, 에스뻬라. 야 에스또이 비엔.",
-   "ko": "디에고, 잠깐. 나 이제 괜찮아.",
-   "note": "ya estoy bien = 이제 괜찮아",
+   "tl": "Diego, para. Ya estoy bien.",
+   "rd": "디에고, 빠라. 야 에스또이 비엔.",
+   "ko": "디에고, 그만. 나 이제 괜찮아.",
+   "note": "estoy bien = 괜찮아(estar 1인칭 — 1번 estás 와 비교) · para = 그만해(통문장)",
    "tags": [
-    "expr:espera",
     "form:estar"
    ],
-   "new": [],
-   "emotion": "flustered"
+   "new": [
+    "parar"
+   ],
+   "emotion": "tsukkomi"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Y un café caliente. ¡Y la calefacción!",
-   "rd": "이 운 까페 깔리엔떼. 이 라 깔레파끄씨온!",
-   "ko": "그리고 뜨거운 커피. 난방까지!",
-   "note": "caliente = 뜨거운 · calefacción = 난방",
-   "tags": [],
+   "tl": "Y un café. ¡Y la calefacción!",
+   "rd": "이 운 까페. 이 라 깔레파끄씨온!",
+   "ko": "그리고 커피. 난방까지!",
+   "note": "un café(남) ↔ una manta(여) — 관사 비교 · calefacción = 난방",
+   "tags": [
+    "form:artículo"
+   ],
    "new": [
-    "caliente",
+    "café",
     "calefacción"
    ],
-   "emotion": "excited"
+   "emotion": "teasing"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Ya está, ya está.",
-   "rd": "야 에스따, 야 에스따.",
-   "ko": "됐어, 됐어.",
-   "note": "ya está = 됐어",
+   "tl": "¡Ya vale! Para ya.",
+   "rd": "야 발레! 빠라 야.",
+   "ko": "됐어! 이제 그만.",
+   "note": "¡ya vale! = 이제 됐어·그만해 · para ya = 이제 그만",
    "tags": [
-    "expr:ya está"
+    "expr:vale"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "annoyed"
   },
   {
    "num": 8,
@@ -133,15 +140,54 @@
    "tl": "Ahora tengo calor.",
    "rd": "아오라 뗀고 깔로르.",
    "ko": "이제 더워.",
-   "note": "tener calor = 덥다",
+   "note": "tengo calor = 더워 — 2번 tengo frío 와 짝",
    "tags": [
     "form:tener"
    ],
    "new": [
+    "ahora",
     "calor"
    ],
-   "emotion": "amused"
+   "emotion": "flustered"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Buenos días, {name}. ¿Qué tal estás?",
+   "ko": "좋은 아침, {name}. 잘 잤어?"
+  },
+  {
+   "tl": "Mal. Tengo un poco de frío.",
+   "ko": "별로. 좀 추워."
+  },
+  {
+   "tl": "¿Tienes frío? ¡Un momento!",
+   "ko": "추워? 잠깐만!"
+  },
+  {
+   "tl": "Toma, una manta. Y dos mantas más.",
+   "ko": "자, 담요. 그리고 두 장 더."
+  },
+  {
+   "tl": "Diego, espera. Ya estoy bien.",
+   "ko": "디에고, 잠깐. 나 이제 괜찮아."
+  },
+  {
+   "tl": "Y un café caliente. ¡Y la calefacción!",
+   "ko": "그리고 뜨거운 커피. 난방까지!"
+  },
+  {
+   "tl": "Ya está, ya está.",
+   "ko": "됐어, 됐어."
+  },
+  {
+   "tl": "Ahora tengo calor.",
+   "ko": "이제 더워."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_life_a2_rewrite.md",
+  "model": "전문가"
+ }
 }

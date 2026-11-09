@@ -25,7 +25,7 @@
   "culture",
   "friends"
  ],
- "goal": "¿no habías venido nunca?·ya me habían dicho·ya había cerrado·ya le habíamos guardado(그때보다 더 앞선 일)",
+ "goal": "¿no habías venido nunca?·ya me habían dicho·ya había cerrado·me había comido·ya habíamos cerrado(그때보다 더 앞선 일)",
  "expressions": [
   "tío",
   "tía",
@@ -36,7 +36,6 @@
   "bueno",
   "casi",
   "qué va",
-  "madre mía",
   "qué fuerte",
   "vale"
  ],
@@ -53,7 +52,7 @@
     "form:pluscuamperfecto"
    ],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "teasing",
    "tl_f": "Tía, ¿no habías venido nunca a este museo? ¡Llevas un año en Madrid!",
    "rd_f": "띠아, 노 아비아스 베니도 눈까 아 에스떼 무세오? 예바스 운 아뇨 엔 마드리드!"
   },
@@ -70,7 +69,7 @@
    "new": [
     "cola"
    ],
-   "emotion": "neutral"
+   "emotion": "flustered"
   },
   {
    "num": 3,
@@ -97,7 +96,7 @@
     "expr:claro"
    ],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "amused"
   },
   {
    "num": 5,
@@ -126,7 +125,7 @@
     "expr:qué guay"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -175,7 +174,7 @@
    "note": "la vez anterior = 그 전번",
    "tags": [],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "surprised"
   },
   {
    "num": 11,
@@ -190,7 +189,7 @@
    "new": [
     "bocadillo"
    ],
-   "emotion": "shy"
+   "emotion": "amused"
   },
   {
    "num": 12,
@@ -214,22 +213,22 @@
     "expr:qué va"
    ],
    "new": [],
-   "emotion": "stiff"
+   "emotion": "flustered"
   },
   {
    "num": 14,
    "speaker": "C",
-   "tl": "Ya la habíamos despertado dos veces este año. Siempre a la hora de cerrar.",
-   "rd": "야 라 아비아모스 데스뻬르따도 도스 베쎄스 에스떼 아뇨. 시엠쁘레 아 라 오라 데 쎄라르.",
-   "ko": "올해만 벌써 두 번 깨워 드렸잖아요. 늘 문 닫을 시간에요.",
-   "note": "la habíamos despertado = 그분을 깨워 드렸었다(과거완료) · a la hora de cerrar = 문 닫을 시간에",
+   "tl": "Ya la hemos despertado dos veces este año. La última vez, ya habíamos cerrado.",
+   "rd": "야 라 에모스 데스뻬르따도 도스 베쎄스 에스떼 아뇨. 라 울띠마 베쓰, 야 아비아모스 쎄라도.",
+   "ko": "올해만 벌써 두 번 깨워 드렸죠. 지난번엔 이미 문 닫은 뒤였고요.",
+   "note": "la hemos despertado = 깨워 드렸다(현재완료) · ya habíamos cerrado = (그때) 이미 문을 닫은 뒤였다(과거완료)",
    "tags": [
     "form:pluscuamperfecto"
    ],
    "new": [
     "despertar"
    ],
-   "emotion": "gentle"
+   "emotion": "teasing"
   },
   {
    "num": 15,
@@ -242,7 +241,7 @@
     "expr:qué fuerte"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "shout"
   },
   {
    "num": 16,
@@ -255,8 +254,78 @@
     "expr:vale"
    ],
    "new": [],
-   "emotion": "annoyed"
+   "emotion": "teasing"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Tío, ¿no habías venido nunca a este museo? ¡Llevas un año en Madrid!",
+   "ko": "야, 이 미술관 한 번도 안 와 봤다고? 마드리드 산 지 1년이나 됐는데!"
+  },
+  {
+   "tl": "No. Cuando llegué, ya me habían dicho que siempre hay cola.",
+   "ko": "응. 처음 왔을 때 이미 사람들이 줄이 늘 길다고 하더라고."
+  },
+  {
+   "tl": "Pues desde las seis es gratis. Y yo ya lo había mirado todo antes.",
+   "ko": "근데 6시부터는 공짜야. 나 그것도 미리 다 알아봤지."
+  },
+  {
+   "tl": "Claro, tú lo sabes todo. ¿Cuántas veces has venido?",
+   "ko": "그렇지, 넌 모르는 게 없지. 몇 번이나 와 봤어?"
+  },
+  {
+   "tl": "Muchas. Mira este cuadro. Nadie había pintado la luz así antes.",
+   "ko": "많이. 이 그림 봐. 그 전엔 아무도 빛을 이렇게 못 그렸어."
+  },
+  {
+   "tl": "Qué guay. ¿Y la sala de arriba?",
+   "ko": "멋지다. 위층 전시실은?"
+  },
+  {
+   "tl": "Eh… arriba. Sí. Es… muy bonita.",
+   "ko": "어… 위층. 응. 거기… 아주 예뻐."
+  },
+  {
+   "tl": "Lucía. ¿Has subido alguna vez?",
+   "ko": "루시아. 올라가 본 적은 있어?"
+  },
+  {
+   "tl": "¡Claro! Bueno… casi. La última vez el museo ya había cerrado.",
+   "ko": "당연하지! 음… 거의. 지난번엔 미술관이 벌써 문을 닫았더라고."
+  },
+  {
+   "tl": "¿Y la vez anterior?",
+   "ko": "그럼 그 전번엔?"
+  },
+  {
+   "tl": "Me había comido un bocadillo enorme y me dormí en ese banco.",
+   "ko": "엄청 큰 샌드위치를 먹은 뒤라서, 저 벤치에서 잠들었어."
+  },
+  {
+   "tl": "Perdone, señorita… ¿Usted no es la chica del banco?",
+   "ko": "실례지만, 아가씨… 혹시 그 벤치 아가씨 아니세요?"
+  },
+  {
+   "tl": "¿Yo? Qué va. No sé de qué me habla.",
+   "ko": "저요? 에이, 아니에요. 무슨 말씀이신지 모르겠네요."
+  },
+  {
+   "tl": "Ya la habíamos despertado dos veces este año. Siempre a la hora de cerrar.",
+   "ko": "올해만 벌써 두 번 깨워 드렸잖아요. 늘 문 닫을 시간에요."
+  },
+  {
+   "tl": "¿Dos siestas en el museo? Qué fuerte, Lucía.",
+   "ko": "미술관에서 낮잠을 두 번? 대박이다, 루시아."
+  },
+  {
+   "tl": "El banco es muy cómodo, ¿vale? Eso también es arte.",
+   "ko": "저 벤치 엄청 편하거든? 그것도 예술이야."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_g05_culture_rewrite.md",
+  "model": "전문가"
+ }
 }

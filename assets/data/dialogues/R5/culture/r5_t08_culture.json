@@ -47,7 +47,7 @@
     "sobrino",
     "nieto"
    ],
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -76,7 +76,7 @@
     "invitado",
     "brindis"
    ],
-   "emotion": "gentle"
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -89,7 +89,7 @@
    "new": [
     "discurso"
    ],
-   "emotion": "surprised"
+   "emotion": "flustered"
   },
   {
    "num": 5,
@@ -102,10 +102,10 @@
    "new": [
     "extranjero"
    ],
-   "tl_f": "¡Qué guapa! ¿Tú eres la amiga extranjera de mi nieta?",
-   "ko_f": "어머 예쁘네! 네가 우리 손녀 외국인 친구구나?",
    "emotion": "cheerful",
-   "rd_f": "께 구아빠! 뚜 에레스 라 아미가 엑스뜨란헤라 데 미 니에따?"
+   "tl_f": "¡Qué guapa! ¿Tú eres la amiga extranjera de mi nieta?",
+   "rd_f": "께 구아빠! 뚜 에레스 라 아미가 엑스뜨란헤라 데 미 니에따?",
+   "ko_f": "어머 예쁘네! 네가 우리 손녀 외국인 친구구나?"
   },
   {
    "num": 6,
@@ -118,7 +118,7 @@
    "new": [
     "felicidad"
    ],
-   "emotion": "shy"
+   "emotion": "polite"
   },
   {
    "num": 7,
@@ -131,8 +131,8 @@
    "new": [
     "chaval"
    ],
-   "tl_f": "Abuela, deja a la chica. Primero va mi brindis.",
    "emotion": "teasing",
+   "tl_f": "Abuela, deja a la chica. Primero va mi brindis.",
    "rd_f": "아부엘라, 데하 아 라 치까. 쁘리메로 바 미 브린디스."
   },
   {
@@ -178,6 +178,7 @@
     "embarazado"
    ],
    "tl_f": "Eh… Perdón, estoy muy embarazada. Es mi primer brindis.",
+   "rd_f": "에… 뻬르돈, 에스또이 무이 엠바라싸다. 에스 미 쁘리메르 브린디스.",
    "segs": [
     [
      "flustered",
@@ -187,8 +188,7 @@
      "polite",
      "Es mi primer brindis."
     ]
-   ],
-   "rd_f": "에… 뻬르돈, 에스또이 무이 엠바라싸다. 에스 미 쁘리메르 브린디스."
+   ]
   },
   {
    "num": 11,
@@ -203,8 +203,8 @@
    "new": [
     "bisnieto"
    ],
+   "emotion": "shout",
    "tl_f": "¿Embarazada? ¡Madre mía, otro bisnieto en la familia!",
-   "emotion": "surprised",
    "rd_f": "엠바라싸다? 마드레 미아, 오뜨로 비스니에또 엔 라 파밀리아!"
   },
   {
@@ -218,7 +218,7 @@
    "new": [
     "champán"
    ],
-   "emotion": "shout"
+   "emotion": "excited"
   },
   {
    "num": 13,
@@ -254,8 +254,8 @@
    "note": "a los ochenta = 여든 살에",
    "tags": [],
    "new": [],
-   "tl_f": "Hija, a los ochenta lo he oído todo. Pero esto, nunca.",
    "emotion": "amused",
+   "tl_f": "Hija, a los ochenta lo he oído todo. Pero esto, nunca.",
    "rd_f": "이하, 아 로스 오첸따 로 에 오이도 또도. 뻬로 에스또, 눈까."
   },
   {
@@ -263,14 +263,84 @@
    "speaker": "C",
    "tl": "Eso sí: el mejor brindis en sesenta años. Repítelo el año que viene.",
    "rd": "에소 시: 엘 메호르 브린디스 엔 세센따 아뇨스. 레삐뗄로 엘 아뇨 께 비에네.",
-   "ko": "그건 인정: 60년 동안 제일 좋은 건배사야. 내년에도 해 줘.",
+   "ko": "그래도 이건 인정이다. 60년 동안 들은 건배사 중에 최고야. 내년에 또 해 주렴.",
    "note": "repetir = 다시 하다",
    "tags": [],
    "new": [
     "repetir"
    ],
-   "emotion": "teasing"
+   "emotion": "cheerful"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Hoy mi abuela cumple ochenta. Vienen primos, sobrinos, nietos… unos cuarenta.",
+   "ko": "오늘 우리 할머니 여든 생신이야. 사촌, 조카, 손주… 한 마흔 명 와."
+  },
+  {
+   "tl": "¿Cuarenta? ¿Y qué le regalo? Solo he traído flores.",
+   "ko": "마흔 명? 뭘 선물해야 돼? 꽃밖에 안 가져왔는데."
+  },
+  {
+   "tl": "Flores, perfecto. Pero después de la tarta, cada invitado hace un brindis.",
+   "ko": "꽃이면 완벽해. 근데 케이크 먹고 나면 손님마다 건배사 해야 돼."
+  },
+  {
+   "tl": "¿Un discurso? ¿Yo también lo hago? ¿En español? ¿Delante de cuarenta personas?",
+   "ko": "연설? 나도 해? 스페인어로? 마흔 명 앞에서?"
+  },
+  {
+   "tl": "¡Qué guapo! ¿Tú eres el amigo extranjero de mi nieta?",
+   "ko": "어머 잘생겼네! 네가 우리 손녀 외국인 친구구나?"
+  },
+  {
+   "tl": "Sí, señora. ¡Muchas felicidades! Le traigo estas flores.",
+   "ko": "네, 할머니. 생신 축하드려요! 꽃 가져왔어요."
+  },
+  {
+   "tl": "Abuela, deja al chaval. Primero va mi brindis.",
+   "ko": "할머니, 얘 좀 놔줘요. 내 건배사가 먼저야."
+  },
+  {
+   "tl": "¡Por la abuela! Ochenta años, sesenta de matrimonio y ni un divorcio.",
+   "ko": "할머니를 위하여! 여든 살, 결혼 60년, 이혼 한 번 없이!"
+  },
+  {
+   "tl": "Porque el abuelo nunca ganó una pelea. ¡Venga, {name}, te toca!",
+   "ko": "할아버지가 싸움에서 한 번도 못 이겼으니까. 자, {name}, 네 차례야!"
+  },
+  {
+   "tl": "Eh… Perdón, estoy muy embarazado. Es mi primer brindis.",
+   "ko": "어… 죄송해요, 제가 너무 임신해서요. 첫 건배사라서."
+  },
+  {
+   "tl": "¿Embarazado? ¡Madre mía, otro bisnieto en la familia!",
+   "ko": "임신? 세상에, 증손주가 또 생기는구나!"
+  },
+  {
+   "tl": "¡Champán para todos! ¡La abuela va a ser bisabuela otra vez!",
+   "ko": "샴페인 돌려! 할머니가 또 증조할머니 되신대!"
+  },
+  {
+   "tl": "¡Que no! «Embarazado» no es tener vergüenza. Es… con bebé.",
+   "ko": "아니라니까! 「embarazado」는 창피하다는 게 아니야. 그건… 아기 있는 거야."
+  },
+  {
+   "tl": "Madre mía. Señora, perdón. Quería decir que tengo vergüenza.",
+   "ko": "세상에. 할머니, 죄송해요. 창피하다고 말하려던 거예요."
+  },
+  {
+   "tl": "Hijo, a los ochenta lo he oído todo. Pero esto, nunca.",
+   "ko": "얘야, 여든이면 별소리 다 들어 봤는데. 이건 처음이다."
+  },
+  {
+   "tl": "Eso sí: el mejor brindis en sesenta años. Repítelo el año que viene.",
+   "ko": "그건 인정: 60년 동안 제일 좋은 건배사야. 내년에도 해 줘."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r5_t08_culture_rewrite.md",
+  "model": "전문가"
+ }
 }

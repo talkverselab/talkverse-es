@@ -36,7 +36,7 @@
    "tl": "Ayer te llamé tres veces, tío.",
    "rd": "아예르 떼 야메 뜨레스 베쎄스, 띠오.",
    "ko": "어제 너한테 전화 세 번 했어.",
-   "note": "llamé = llamar 단순과거 1인칭 · ayer = 어제",
+   "note": "llamé = llamar 단순과거 1인칭 · ayer = 어제 · tío = 야(남자 친구 Javi 를 부를 때)",
    "tags": [
     "expr:tío",
     "form:indefinido"
@@ -74,7 +74,7 @@
    "new": [
     "partido"
    ],
-   "emotion": "annoyed"
+   "emotion": "shout"
   },
   {
    "num": 4,
@@ -116,7 +116,7 @@
    "new": [
     "pasar"
    ],
-   "emotion": "excited"
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -133,16 +133,7 @@
     "gol",
     "portería"
    ],
-   "segs": [
-    [
-     "cheerful",
-     "Marqué dos goles."
-    ],
-    [
-     "sad",
-     "Los dos en mi portería."
-    ]
-   ]
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -155,8 +146,46 @@
     "expr:menos mal"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "cheerful"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Ayer te llamé tres veces, tío.",
+   "ko": "어제 너한테 전화 세 번 했어."
+  },
+  {
+   "tl": "Ya, perdona. ¿Me llamaste? Comí con mi abuela.",
+   "ko": "알아, 미안. 전화했어? 할머니랑 밥 먹었어."
+  },
+  {
+   "tl": "¿Comiste? ¿Y el partido? Te esperé una hora.",
+   "ko": "밥을 먹었다고? 경기는? 한 시간 기다렸어."
+  },
+  {
+   "tl": "¿Ayer? ¿El partido no es hoy?",
+   "ko": "어제? 경기 오늘 아니야?"
+  },
+  {
+   "tl": "No. Fue ayer. Jugué yo en tu lugar.",
+   "ko": "아니. 어제였어. 내가 네 자리에서 뛰었어."
+  },
+  {
+   "tl": "¿Jugaste tú? ¿Y qué pasó?",
+   "ko": "네가 뛰었다고? 그래서 어떻게 됐어?"
+  },
+  {
+   "tl": "Marqué dos goles. Los dos en mi portería.",
+   "ko": "두 골 넣었지. 둘 다 우리 골대에."
+  },
+  {
+   "tl": "Menos mal que comí con mi abuela.",
+   "ko": "할머니랑 밥 먹길 다행이다."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s10_friends_rewrite.md",
+  "model": "전문가"
+ }
 }

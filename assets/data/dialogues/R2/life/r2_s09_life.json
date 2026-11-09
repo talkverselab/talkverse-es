@@ -29,7 +29,8 @@
   "qué mono",
   "oye",
   "madre mía",
-  "vale"
+  "vale",
+  "ya está"
  ],
  "turns": [
   {
@@ -45,9 +46,9 @@
    "new": [
     "plato"
    ],
-   "emotion": "sad",
    "ui": "bubble",
-   "at": "16:00"
+   "at": "16:00",
+   "emotion": "worried"
   },
   {
    "num": 2,
@@ -63,9 +64,9 @@
    "new": [
     "fatal"
    ],
-   "emotion": "gentle",
    "ui": "bubble",
-   "at": "16:02"
+   "at": "16:02",
+   "emotion": "gentle"
   },
   {
    "num": 3,
@@ -79,10 +80,10 @@
     "tarta",
     "paz"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "16:02",
-   "stamp": "🍰"
+   "stamp": "🍰",
+   "emotion": "cheerful"
   },
   {
    "num": 4,
@@ -95,9 +96,9 @@
     "expr:qué mono"
    ],
    "new": [],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "16:03"
+   "at": "16:03",
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -113,10 +114,10 @@
    "new": [
     "cocina"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "16:40",
-   "stamp": "😅"
+   "stamp": "😅",
+   "emotion": "flustered"
   },
   {
    "num": 6,
@@ -132,9 +133,9 @@
    "new": [
     "usar"
    ],
-   "emotion": "shout",
    "ui": "bubble",
-   "at": "16:40"
+   "at": "16:40",
+   "emotion": "shout"
   },
   {
    "num": 7,
@@ -149,9 +150,9 @@
     "sartén",
     "favorito"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
-   "at": "16:44"
+   "at": "16:44",
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -166,19 +167,48 @@
    "new": [
     "fregar"
    ],
-   "segs": [
-    [
-     "gentle",
-     "Vale, paz…"
-    ],
-    [
-     "teasing",
-     "pero hoy friegas tú."
-    ]
-   ],
    "ui": "bubble",
-   "at": "16:45"
+   "at": "16:45",
+   "emotion": "tsukkomi"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Diego, perdona por lo de los platos.",
+   "ko": "디에고, 설거지 일은 미안."
+  },
+  {
+   "tl": "Tranqui. Yo tb estuve fatal.",
+   "ko": "괜찮아. 나도 진짜 별로였어."
+  },
+  {
+   "tl": "Te hago una tarta de paz.",
+   "ko": "화해 케이크 만들어 줄게."
+  },
+  {
+   "tl": "¿Tú haces tartas? Qué mono.",
+   "ko": "네가 케이크를 만들어? 귀엽네."
+  },
+  {
+   "tl": "Oye, la tarta ya está. Pero mira la cocina.",
+   "ko": "있잖아, 케이크 다 됐어. 근데 부엌 좀 봐."
+  },
+  {
+   "tl": "¡Madre mía! ¿Usaste todos los platos?",
+   "ko": "세상에! 접시 다 쓴 거야?"
+  },
+  {
+   "tl": "Y las tazas. Y la sartén. Y tu taza favorita.",
+   "ko": "컵도. 프라이팬도. 네가 제일 아끼는 컵까지."
+  },
+  {
+   "tl": "Vale, paz… pero hoy friegas tú.",
+   "ko": "알았어, 화해… 근데 오늘 설거지는 네가 해."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_s09_life_rewrite.md",
+  "model": "전문가"
+ }
 }

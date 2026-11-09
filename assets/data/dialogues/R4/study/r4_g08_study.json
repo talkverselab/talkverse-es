@@ -58,7 +58,7 @@
     "form:se_impersonal"
    ],
    "new": [],
-   "emotion": "stiff"
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -85,7 +85,7 @@
     "form:se_pasiva"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "polite"
   },
   {
    "num": 5,
@@ -99,7 +99,7 @@
     "form:se_pasiva"
    ],
    "new": [],
-   "emotion": "annoyed"
+   "emotion": "flustered"
   },
   {
    "num": 6,
@@ -112,7 +112,7 @@
     "form:se_impersonal"
    ],
    "new": [],
-   "emotion": "polite"
+   "emotion": "cheerful"
   },
   {
    "num": 7,
@@ -128,7 +128,7 @@
    "new": [
     "firmar"
    ],
-   "emotion": "neutral"
+   "emotion": "surprised"
   },
   {
    "num": 8,
@@ -143,7 +143,7 @@
    "new": [
     "ventanilla"
    ],
-   "emotion": "stiff"
+   "emotion": "neutral"
   },
   {
    "num": 9,
@@ -167,7 +167,7 @@
     "form:se_pasiva"
    ],
    "new": [],
-   "emotion": "polite"
+   "emotion": "teasing"
   },
   {
    "num": 11,
@@ -196,7 +196,7 @@
    "new": [
     "cita"
    ],
-   "emotion": "polite"
+   "emotion": "amused"
   },
   {
    "num": 13,
@@ -226,7 +226,7 @@
    "new": [
     "paciencia"
    ],
-   "emotion": "amused",
+   "emotion": "teasing",
    "tl_f": "Bienvenida a la universidad. Aquí se aprende mucho. Sobre todo, paciencia.",
    "rd_f": "비엔베니다 아 라 우니베르시다드. 아끼 세 아쁘렌데 무초. 소브레 또도, 빠씨엔씨아."
   },
@@ -242,7 +242,7 @@
     "form:se_pasiva"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "sad"
   },
   {
    "num": 16,
@@ -252,7 +252,7 @@
    "ko": "아뇨. 1층 자판기에서 팔아요. 고장 안 났으면요.",
    "note": "se vende = 팔다(수동 se) · planta baja = 1층 · máquina = 자판기",
    "tags": [
-    "form:se_impersonal"
+    "form:se_pasiva"
    ],
    "new": [
     "planta baja",
@@ -261,5 +261,75 @@
    "emotion": "amused"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Buenos días. ¿Aquí se pide el carné de estudiante?",
+   "ko": "안녕하세요. 학생증 여기서 신청하나요?"
+  },
+  {
+   "tl": "Sí, pero aquí no se pide en papel. Se hace por internet.",
+   "ko": "네, 근데 여기선 종이로 안 받아요. 인터넷으로 해요."
+  },
+  {
+   "tl": "Ya lo he intentado. La página dice que se necesita una foto.",
+   "ko": "이미 해 봤어요. 사이트에서 사진이 필요하다고 나와요."
+  },
+  {
+   "tl": "Claro. Y la foto se sube en la segunda página.",
+   "ko": "그렇죠. 사진은 두 번째 페이지에서 올려요."
+  },
+  {
+   "tl": "Es que no hay segunda página. Solo se ve un error.",
+   "ko": "그게, 두 번째 페이지가 없어요. 오류만 떠요."
+  },
+  {
+   "tl": "Ah, ese error. Entonces se hace con este papel.",
+   "ko": "아, 그 오류요. 그럼 이 종이로 하시면 돼요."
+  },
+  {
+   "tl": "Vale. ¿Y dónde se firma?",
+   "ko": "네. 서명은 어디에 하나요?"
+  },
+  {
+   "tl": "Aquí. Y aquí. Y se entrega en la ventanilla tres.",
+   "ko": "여기요. 그리고 여기. 그리고 3번 창구에 내세요."
+  },
+  {
+   "tl": "¿La tres? Pero la tres está cerrada.",
+   "ko": "3번이요? 3번 닫혀 있던데요."
+  },
+  {
+   "tl": "Sí, la tres solo se abre los martes. Hoy es lunes.",
+   "ko": "네, 3번은 화요일에만 열려요. 오늘은 월요일이고요."
+  },
+  {
+   "tl": "¿Y no se puede hacer nada hoy?",
+   "ko": "오늘은 아무것도 못 하나요?"
+  },
+  {
+   "tl": "Sí, claro. Se pide cita para el martes. Por internet.",
+   "ko": "할 수 있죠. 화요일 예약을 잡으시면 돼요. 인터넷으로요."
+  },
+  {
+   "tl": "¿Por internet? ¡Pero si la página no funciona! ¡Madre mía!",
+   "ko": "인터넷으로요? 사이트가 안 된다니까요! 세상에!"
+  },
+  {
+   "tl": "Bienvenido a la universidad. Aquí se aprende mucho. Sobre todo, paciencia.",
+   "ko": "대학에 오신 걸 환영해요. 여기선 많이 배워요. 특히 인내심을."
+  },
+  {
+   "tl": "Ya veo. ¿Y aquí se vende café?",
+   "ko": "그렇군요. 여기 커피는 파나요?"
+  },
+  {
+   "tl": "No. Pero en la planta baja se vende en una máquina. Si funciona.",
+   "ko": "아뇨. 1층 자판기에서 팔아요. 고장 안 났으면요."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_g08_study_rewrite.md",
+  "model": "전문가"
+ }
 }

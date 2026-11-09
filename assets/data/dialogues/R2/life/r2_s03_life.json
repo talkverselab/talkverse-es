@@ -46,9 +46,9 @@
    "new": [
     "cenar"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "18:02"
+   "at": "18:02",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -62,26 +62,26 @@
     "expr:qué pasa"
    ],
    "new": [],
-   "emotion": "surprised",
    "ui": "bubble",
-   "at": "18:05"
+   "at": "18:05",
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Nada. Hago paella. ¿Te apetece?",
-   "rd": "나다. 아고 빠에야. 떼 아뻬떼쎄?",
-   "ko": "별거 없어. 파에야 하려고. 먹을래?",
-   "note": "hago paella = 파에야 해(hacer 1인칭) · ¿te apetece? = ~할래?",
+   "tl": "Nada. Hago paella para dos. ¿Te apetece?",
+   "rd": "나다. 아고 빠에야 빠라 도스. 떼 아뻬떼쎄?",
+   "ko": "별거 없어. 파에야 2인분 하려고. 먹을래?",
+   "note": "hago = 해(hacer 1인칭) · para dos = 2인분 · ¿te apetece? = 먹을래·할래?",
    "tags": [
     "expr:te apetece"
    ],
    "new": [
     "paella"
    ],
-   "emotion": "gentle",
    "ui": "bubble",
-   "at": "18:05"
+   "at": "18:05",
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -98,10 +98,9 @@
    "new": [
     "invitar"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "18:06",
-   "stamp": "👍"
+   "emotion": "excited"
   },
   {
    "num": 5,
@@ -114,9 +113,9 @@
     "expr:vale"
    ],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "18:07"
+   "at": "18:07",
+   "emotion": "cheerful"
   },
   {
    "num": 6,
@@ -129,9 +128,9 @@
    "new": [
     "prima"
    ],
-   "emotion": "excited",
    "ui": "bubble",
-   "at": "19:30"
+   "at": "19:30",
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -145,10 +144,10 @@
     "amiga",
     "grupo"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "19:31",
-   "stamp": "😅"
+   "stamp": "😅",
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -156,13 +155,51 @@
    "tl": "¿Seis? ¡Haces paella para dos!",
    "rd": "세이스? 아쎄스 빠에야 빠라 도스!",
    "ko": "여섯? 너 파에야 2인분 하잖아!",
-   "note": "haces = 너 ~ 하잖아(hacer 2인칭, 3번 턴 hago 와 짝) · para dos = 2인분",
+   "note": "haces = 너 ~ 하잖아(hacer 2인칭, 3번 턴 hago 와 짝) · para dos = 2인분(3번 턴 되받기)",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
    "ui": "bubble",
-   "at": "19:33"
+   "at": "19:33",
+   "emotion": "shout"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Oye, ¿cenas en casa el viernes?",
+   "ko": "있잖아, 금요일에 집에서 저녁 먹어?"
+  },
+  {
+   "tl": "Claro, ceno en casa. ¿Qué pasa?",
+   "ko": "당연하지, 집에서 먹어. 왜?"
+  },
+  {
+   "tl": "Nada. Hago paella. ¿Te apetece?",
+   "ko": "별거 없어. 파에야 하려고. 먹을래?"
+  },
+  {
+   "tl": "Genial. Invita a quien sea, me da igual.",
+   "ko": "좋지. 아무나 불러, 난 상관없어."
+  },
+  {
+   "tl": "Vale. Escribo a Lucía.",
+   "ko": "오케이. 루시아한테 연락할게."
+  },
+  {
+   "tl": "Viene Lucía. Con su prima y su novio.",
+   "ko": "루시아 온대. 사촌이랑 남친도 같이."
+  },
+  {
+   "tl": "Su prima trae a una amiga. Seis en el grupo.",
+   "ko": "사촌이 친구를 또 데려온대. 단톡방에 여섯 명."
+  },
+  {
+   "tl": "¿Seis? ¡Haces paella para dos!",
+   "ko": "여섯? 너 파에야 2인분 하잖아!"
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_s03_life_rewrite.md",
+  "model": "전문가"
+ }
 }

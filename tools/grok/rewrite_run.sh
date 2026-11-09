@@ -12,5 +12,11 @@ for f in "$@"; do
   res=$(GROK_CDP_PORT=9239 /usr/bin/python3 tools/grok/grok_send.py data/review/grok/${id}_prompt.md $out --tab $ROOM --wait 120 2>&1 | tail -1)
   case "$res" in LIMIT*) echo "$id 한도: $res"; rm -f $out; exit 3;; NOINPUT*) echo "$id 입력창 없음"; exit 2;; esac
   w=$(GROK_CDP_PORT=9239 /usr/bin/python3 tools/grok/wait_answer.py $ROOM $out $n 900)
-  echo "$(date +%H:%M) $id $w $(grep -cE '^[0-9]+ [A-D]:' $out)/$n"
+  same=$(python3 tools/grok/copy_ratio.py $f $out)
+  if [ "$same" -gt $((n / 2)) ]; then  # 초안을 거의 그대로 돌려줌 → 한 번 더(2026-11-09 R1~R5 50편 복사 사고)
+    printf '[%s] 초안과 같은 줄이 %s/%s 입니다. 모든 줄을 새 문장으로 다시 써 주세요(같은 형식).' $id $same $n > /tmp/es_again.md
+    GROK_CDP_PORT=9239 /usr/bin/python3 tools/grok/grok_send.py /tmp/es_again.md $out --tab $ROOM --wait 120 >/dev/null 2>&1
+    w=$(GROK_CDP_PORT=9239 /usr/bin/python3 tools/grok/wait_answer.py $ROOM $out $n 900); same=$(python3 tools/grok/copy_ratio.py $f $out)
+  fi
+  echo "$(date +%H:%M) $id $w $(grep -cE '^[0-9]+ [A-D]:' $out)/$n 초안과 같은 줄 $same"
 done

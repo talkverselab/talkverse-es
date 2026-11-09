@@ -23,12 +23,12 @@
  "domain": [
   "culture"
  ],
- "goal": "cenar 로 인칭 활용(ceno·cenas·cena) · tener hambre(tengo·tienes) · 짧은 반응",
+ "goal": "cenar 인칭 활용(cenas·ceno·cena) · tener hambre(tengo·tienes) · 짧은 반응",
  "expressions": [
-  "madre mía",
+  "qué fuerte",
   "hombre",
   "tranqui",
-  "genial"
+  "vale"
  ],
  "turns": [
   {
@@ -37,14 +37,15 @@
    "tl": "Lucía, ¿a qué hora cenas?",
    "rd": "루씨아, 아 께 오라 쎄나스?",
    "ko": "루시아, 너 저녁 몇 시에 먹어?",
-   "note": "cenas = 너 저녁 먹어(cenar)",
+   "note": "¿a qué hora…? = 몇 시에 ~해? · cenas = cenar(저녁 먹다) 2인칭",
    "tags": [
-    "form:cenar"
+    "form:presente_ar"
    ],
    "new": [
-    "cenar"
+    "cenar",
+    "hora"
    ],
-   "emotion": "worried"
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -52,22 +53,24 @@
    "tl": "¿Yo? Ceno a las diez.",
    "rd": "요? 쎄노 아 라스 디에쓰.",
    "ko": "나? 열 시에 먹지.",
-   "note": "ceno = 나 저녁 먹어 · a las diez = 열 시에",
+   "note": "ceno = 1인칭(-o) — 1번 cenas(2인칭)와 비교 · a las diez = 열 시에",
    "tags": [
-    "form:cenar"
+    "form:presente_ar"
    ],
-   "new": [],
-   "emotion": "cheerful"
+   "new": [
+    "diez"
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "¿A las diez? ¡Madre mía!",
-   "rd": "아 라스 디에쓰? 마드레 미아!",
-   "ko": "열 시? 세상에!",
-   "note": "¡Madre mía! = 세상에!",
+   "tl": "¿A las diez? ¡Qué fuerte!",
+   "rd": "아 라스 디에쓰? 께 푸에르떼!",
+   "ko": "열 시? 헐!",
+   "note": "¡qué fuerte! = 헐·대박(놀랄 때)",
    "tags": [
-    "expr:madre mía"
+    "expr:qué fuerte"
    ],
    "new": [],
    "emotion": "surprised"
@@ -77,14 +80,15 @@
    "speaker": "B",
    "tl": "Hombre, mi abuela cena a las once.",
    "rd": "옴브레, 미 아부엘라 쎄나 아 라스 온쎄.",
-   "ko": "아이, 우리 할머니는 열한 시에 드셔.",
-   "note": "cena = (그녀가) 저녁 먹어",
+   "ko": "에이, 우리 할머니는 열한 시에 드셔.",
+   "note": "hombre = 에이·아이 참(상대가 여자여도 씀) · cena = 3인칭",
    "tags": [
     "expr:hombre",
-    "form:cenar"
+    "form:presente_ar"
    ],
    "new": [
-    "abuela"
+    "abuela",
+    "once"
    ],
    "emotion": "amused"
   },
@@ -93,22 +97,24 @@
    "speaker": "A",
    "tl": "Pero yo ya tengo hambre.",
    "rd": "뻬로 요 야 뗀고 암브레.",
-   "ko": "근데 난 벌써 배고파.",
-   "note": "tengo hambre = 나 배고파",
+   "ko": "근데 난 벌써 배고픈데.",
+   "note": "tengo hambre = 배고파(tener 1인칭) · ya = 벌써",
    "tags": [
-    "expr:tengo hambre",
     "form:tener"
    ],
-   "new": [],
-   "emotion": "tsukkomi"
+   "new": [
+    "hambre",
+    "ya"
+   ],
+   "emotion": "worried"
   },
   {
    "num": 6,
    "speaker": "B",
    "tl": "¿Ya tienes hambre? Tranqui, hay merienda.",
    "rd": "야 띠에네스 암브레? 뜨란끼, 아이 메리엔다.",
-   "ko": "벌써 배고파? 진정해, 간식 시간 있어.",
-   "note": "merienda = 오후 간식 · tienes = 너 ~있어",
+   "ko": "벌써 배고파? 걱정 마, 간식 시간 있어.",
+   "note": "tienes = tener 2인칭 — 5번 tengo 와 비교 · merienda = 오후 간식(스페인은 저녁 전에 한 번 더 먹는다) · tranqui = 걱정 마",
    "tags": [
     "expr:tranqui",
     "form:tener"
@@ -121,31 +127,82 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "¡Genial! ¿Y después?",
-   "rd": "헤니알! 이 데스뿌에스?",
-   "ko": "좋아! 그다음엔?",
-   "note": "después = 그다음에",
+   "tl": "¡Vale! ¿Y después?",
+   "rd": "발레! 이 데스뿌에스?",
+   "ko": "오케이! 그다음엔?",
+   "note": "¿y después? = 그다음엔? · vale = 오케이·알았어",
    "tags": [
-    "expr:genial"
+    "expr:vale"
    ],
-   "new": [],
+   "new": [
+    "después"
+   ],
    "emotion": "excited"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Aperitivo. Y después, por fin, cenas.",
-   "rd": "아뻬리띠보. 이 데스뿌에스, 뽀르 핀, 쎄나스.",
-   "ko": "안주 타임. 그다음에 드디어 저녁.",
-   "note": "por fin = 드디어 · aperitivo = 식전 한 입",
+   "tl": "Aperitivo, tapas… y a las diez, ¿cenas conmigo?",
+   "rd": "아뻬리띠보, 따빠스… 이 아 라스 디에쓰, 쎄나스 꼰미고?",
+   "ko": "아페리티보, 타파스… 그리고 열 시엔, 나랑 저녁 먹을래?",
+   "note": "¿cenas conmigo? = 나랑 저녁 먹을래?(cenar 2인칭) · aperitivo = 저녁 전 가볍게 한잔·안주",
    "tags": [
-    "form:cenar"
+    "form:presente_ar"
    ],
    "new": [
-    "aperitivo"
+    "aperitivo",
+    "tapa",
+    "conmigo"
    ],
-   "emotion": "teasing"
+   "segs": [
+    [
+     "amused",
+     "Aperitivo, tapas… "
+    ],
+    [
+     "shy",
+     "y a las diez, ¿cenas conmigo?"
+    ]
+   ]
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Lucía, ¿a qué hora cenas?",
+   "ko": "루시아, 너 저녁 몇 시에 먹어?"
+  },
+  {
+   "tl": "¿Yo? Ceno a las diez.",
+   "ko": "나? 열 시에 먹지."
+  },
+  {
+   "tl": "¿A las diez? ¡Madre mía!",
+   "ko": "열 시? 세상에!"
+  },
+  {
+   "tl": "Hombre, mi abuela cena a las once.",
+   "ko": "아이, 우리 할머니는 열한 시에 드셔."
+  },
+  {
+   "tl": "Pero yo ya tengo hambre.",
+   "ko": "근데 난 벌써 배고파."
+  },
+  {
+   "tl": "¿Ya tienes hambre? Tranqui, hay merienda.",
+   "ko": "벌써 배고파? 진정해, 간식 시간 있어."
+  },
+  {
+   "tl": "¡Genial! ¿Y después?",
+   "ko": "좋아! 그다음엔?"
+  },
+  {
+   "tl": "Aperitivo. Y después, por fin, cenas.",
+   "ko": "안주 타임. 그다음에 드디어 저녁."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_culture_a1_rewrite.md",
+  "model": "전문가"
+ }
 }

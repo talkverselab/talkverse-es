@@ -4,6 +4,7 @@
 그림은 tools/grok/cuts_run.sh 가 한 장씩(인물 기준 그림 data/review/art/chars_es_v1.jpg + 화면 톤 sian_es_01.jpg 첨부) 받는다."""
 import json, os, re, sys
 FEMALE = '--female' in sys.argv
+SHORT = '--short' in sys.argv
 CHAR = {
  'Lucía': '루시아(Lucía, 20대 초 여성 — 진갈색 긴 웨이브 머리를 느슨하게 묶음, 테라코타 니트 + 연청 데님 미디 스커트 + 흰 스니커즈, 작은 갈색 크로스백, 쾌활)',
  'Marta': '마르타(Marta, 20대 중반 여성 — 검은 단발 + 동그란 금테 안경, 올리브 셔츠 원피스 + 짙은 갈색 앵클부츠, 책 든 캔버스 토트백, 차분)',
@@ -44,5 +45,8 @@ for path in [a for a in sys.argv[1:] if a.endswith('.json')]:
 반드시: **말풍선·글자·간판 글씨·자막·숫자·로고 없음**(대사는 앱이 얹는다 — 인물 머리 위 여백). 두 인물이 모두 보이게, 말하는 사람이 조금 앞에. 조연은 앞 컷과 같은 얼굴·머리·옷. 실존 인물·브랜드 금지.
 출력: 그림 1장만. 설명 없이.
 """
+        if SHORT:  # 그림 규칙은 방에 한 번(data/review/grok/art_rules_es.md), 컷마다 한 줄(사용자 지시 2026-11-09)
+            names = ', '.join(('학습자 ' + ('여' if FEMALE else '남')) if v == '{name}' else v for v in e['speakers'].values())
+            txt = f"[ES-{e['id']}{'_f' if FEMALE else ''}-{k}] 컷 {k}/{len(cuts)} · {'채팅 · ' if e.get('kind') == 'chat' else ''}장면: {e['scene']} · 등장: {names} · 순간: {desc}"
         open(f'{out}/cut{k}_req.md', 'w', encoding='utf-8').write(txt)
     print(e['id'], len(cuts))

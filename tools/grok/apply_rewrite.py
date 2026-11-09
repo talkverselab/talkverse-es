@@ -6,8 +6,19 @@
 - 끝나면 tools/check_dialogues.py --fix-rd 로 독음을 채운다."""
 import glob, json, re, subprocess, sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 ROOT = Path(__file__).resolve().parents[2]
+import importlib.util as _iu
+_s = _iu.spec_from_file_location('chk', str(Path(__file__).resolve().parents[1] / 'check_dialogues.py'))
+STAMP = {}
+for _ln in open(_s.origin, encoding='utf-8').read().split('STAMP = {', 1)[1].split('}\n', 1)[0].splitlines():
+    for _k, _v in re.findall(r"'(.+?)': \{([^}]*)\}", _ln):
+        STAMP[_k] = set(re.findall(r"'(\w+)'", _v))
 EMOS = set('neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle'.split())
+# Grok 이 16개 밖 감정을 쓸 때 가까운 값으로(2026-11-09)
+MAP = {'curious': 'surprised', 'confident': 'cheerful', 'proud': 'excited', 'sleepy': 'sad', 'tired': 'sad', 'defensive': 'flustered',
+       'smug': 'teasing', 'confused': 'worried', 'resigned': 'sad', 'happy': 'cheerful', 'nervous': 'stiff', 'embarrassed': 'flustered',
+       'angry': 'annoyed', 'playful': 'teasing', 'relieved': 'gentle', 'hopeful': 'gentle', 'disappointed': 'sad', 'shocked': 'surprised'}
 EMOJI = re.compile('[\U0001F000-\U0001FAFF☀-➿️‍]+')
 
 
@@ -42,6 +53,7 @@ for id_ in sys.argv[1:]:
             tl = ' '.join(x.split(':', 1)[1].strip() for x in tl.split('|') if ':' in x)
         else:
             emo_in_tl = ''
+        parts = parts[:3] + [re.sub(r'[a-z]+', lambda m: MAP.get(m.group(0), m.group(0)), x) for x in parts[3:]]
         emo = parts[3] if len(parts) > 3 else (parts[-1] if parts[-1].split(':')[0] in EMOS else '')
         if emo_in_tl and emo.split(':')[0] not in EMOS: emo = emo_in_tl
         em = EMOJI.findall(tl)
@@ -59,6 +71,9 @@ for id_ in sys.argv[1:]:
         else:
             t['emotion'] = emo if emo in EMOS else 'neutral'
             if emo not in EMOS: bad.append(f"{t['num']} 감정 {emo!r}")
+        st = t.get('stamp'); ems = [s[0] for s in t['segs']] if t.get('segs') else [t.get('emotion')]
+        if st and STAMP.get(st) and not set(ems) & STAMP[st]:
+            t.pop('stamp')  # 감정 열(음성)과 안 맞는 스탬프는 뺀다
         if fem and clean(fem) != t['tl']:
             t['tl_f'] = clean(fem)
         t['note_stale'] = True

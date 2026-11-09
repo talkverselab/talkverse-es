@@ -63,7 +63,7 @@
    "new": [
     "lunes"
    ],
-   "emotion": "sad",
+   "emotion": "annoyed",
    "tl_f": "Estoy fatal, tía. Es lunes. ¿Y tú?",
    "rd_f": "에스또이 파딸, 띠아. 에스 루네스. 이 뚜?"
   },
@@ -79,7 +79,7 @@
     "form:concordancia"
    ],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "tl_f": "Yo no estoy cansada. ¿Y Javi?",
    "rd_f": "요 노 에스또이 깐사다. 이 하비?"
   },
@@ -126,16 +126,7 @@
    "new": [
     "foto"
    ],
-   "segs": [
-    [
-     "neutral",
-     "Sí…"
-    ],
-    [
-     "teasing",
-     "Mira esta foto. Es de hoy."
-    ]
-   ]
+   "emotion": "teasing"
   },
   {
    "num": 7,
@@ -150,7 +141,7 @@
    "new": [
     "churrería"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "shout"
   },
   {
    "num": 8,
@@ -166,5 +157,43 @@
    "emotion": "amused"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¡Hola, Lucía! ¿Qué tal? ¿Estás cansada?",
+   "ko": "안녕, 루시아! 잘 지내? 피곤해?"
+  },
+  {
+   "tl": "Estoy fatal, tío. Es lunes. ¿Y tú?",
+   "ko": "완전 최악이야. 월요일이잖아. 너는?"
+  },
+  {
+   "tl": "Yo no estoy cansado. ¿Y Javi?",
+   "ko": "난 안 피곤해. 하비는?"
+  },
+  {
+   "tl": "Está en casa. Está enfermo, dice.",
+   "ko": "집에 있대. 아프다나 봐."
+  },
+  {
+   "tl": "¿Qué dices? Javi es muy fuerte.",
+   "ko": "무슨 소리야? 하비 엄청 튼튼하잖아."
+  },
+  {
+   "tl": "Sí… Mira esta foto. Es de hoy.",
+   "ko": "응… 이 사진 봐. 오늘 거야."
+  },
+  {
+   "tl": "¡Está en la churrería! ¿Enfermo?",
+   "ko": "추로스 가게에 있잖아! 아프다며?"
+  },
+  {
+   "tl": "Sí, enfermo… de hambre.",
+   "ko": "응, 아프대… 배고파서."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s02_friends_rewrite.md",
+  "model": "전문가"
+ }
 }

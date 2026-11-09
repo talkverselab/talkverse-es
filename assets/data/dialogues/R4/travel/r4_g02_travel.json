@@ -34,7 +34,10 @@
   "pues",
   "ya",
   "madre mía",
-  "te lo juro"
+  "te lo juro",
+  "casi",
+  "qué bien",
+  "ahora mismo"
  ],
  "turns": [
   {
@@ -62,7 +65,7 @@
     "expr:vale"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "excited"
   },
   {
    "num": 3,
@@ -103,7 +106,7 @@
     "form:subjuntivo"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -116,7 +119,7 @@
     "expr:qué bien"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -166,7 +169,7 @@
    "note": "solo = 그냥·~만",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "flustered"
   },
   {
    "num": 11,
@@ -179,7 +182,7 @@
     "expr:ya"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "cheerful"
   },
   {
    "num": 12,
@@ -207,7 +210,7 @@
    "new": [
     "paellera"
    ],
-   "emotion": "excited"
+   "emotion": "amused"
   },
   {
    "num": 14,
@@ -237,5 +240,71 @@
    "emotion": "teasing"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Oye, ¿te vienes el sábado? Mi tía tiene una casa en un pueblo cerca de Valencia.",
+   "ko": "있잖아, 토요일에 같이 갈래? 이모가 발렌시아 근처 시골에 집이 있거든."
+  },
+  {
+   "tl": "¿En serio? Vale. Pero ¿cómo llego desde la estación?",
+   "ko": "진짜? 좋아. 근데 역에서 어떻게 가?"
+  },
+  {
+   "tl": "Tranqui. Cuando llegues, mándame un mensaje y bajo a buscarte.",
+   "ko": "걱정 마. 도착하면 문자해, 내가 데리러 내려갈게."
+  },
+  {
+   "tl": "¿Y si llego tarde? El tren llega casi a las once.",
+   "ko": "늦게 도착하면? 기차가 거의 11시에 들어가는데."
+  },
+  {
+   "tl": "Da igual. Cuando estés allí, te espero con algo de cenar.",
+   "ko": "상관없어. 네가 오면 저녁거리 차려 놓고 기다릴게."
+  },
+  {
+   "tl": "Qué bien. ¿Y quién más va a estar?",
+   "ko": "좋다. 또 누가 와?"
+  },
+  {
+   "tl": "Pues… mi tía, mi prima y su novio. Ah, y mi abuela.",
+   "ko": "그게… 이모, 사촌 언니, 언니 남자친구. 아, 우리 할머니도."
+  },
+  {
+   "tl": "¿Tu abuela también?",
+   "ko": "할머니도?"
+  },
+  {
+   "tl": "Sí. Y cuando se entere de que vienes, va a invitar a los vecinos.",
+   "ko": "응. 근데 할머니가 너 온다는 거 알면, 동네 사람들 다 부를 거야."
+  },
+  {
+   "tl": "¿A los vecinos? Lucía, yo solo quiero ver el mar.",
+   "ko": "동네 사람들을? 루시아, 나 그냥 바다 보고 싶은 건데."
+  },
+  {
+   "tl": "Ya, ya. Pero en mi familia, cuando hay invitado, hay fiesta. Es así.",
+   "ko": "알지, 알지. 근데 우리 집은 손님 오면 무조건 잔치야. 원래 그래."
+  },
+  {
+   "tl": "Vale… ¿Y cuántas personas son al final?",
+   "ko": "알았어… 그래서 결국 몇 명인데?"
+  },
+  {
+   "tl": "Ahora mismo, doce. Mi tía ya ha sacado la paellera grande.",
+   "ko": "지금으로선 열두 명. 이모가 벌써 큰 빠에야 팬을 꺼냈어."
+  },
+  {
+   "tl": "¿Doce? ¡Madre mía!",
+   "ko": "열두 명? 세상에!"
+  },
+  {
+   "tl": "Cuando veas esa paella, me das las gracias. Te lo juro.",
+   "ko": "그 빠에야 보면 나한테 고맙다고 할걸. 장담해."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_g02_travel_rewrite.md",
+  "model": "전문가"
+ }
 }

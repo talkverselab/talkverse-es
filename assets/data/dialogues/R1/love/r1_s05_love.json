@@ -33,30 +33,31 @@
    "speaker": "B",
    "tl": "Oye, ¿tienes mi libro rojo?",
    "rd": "오예, 띠에네스 미 리브로 로호?",
-   "ko": "있잖아, 내 빨간 책 너한테 있어?",
+   "ko": "야, 내 빨간 책 너한테 있어?",
    "note": "libro rojo = 남성 명사 + 남성 형용사 · tienes = 2인칭",
    "tags": [
     "expr:oye"
    ],
    "new": [],
-   "emotion": "neutral",
    "ui": "bubble",
-   "at": "23:10"
+   "at": "23:10",
+   "stamp": "📕",
+   "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "A",
    "tl": "Sí, lo tengo. Lo leo en la cama.",
    "rd": "시, 로 뗀고. 로 레오 엔 라 까마.",
-   "ko": "응, 나한테 있어. 침대에서 읽는 중.",
+   "ko": "응, 나한테 있어. 침대에서 읽어.",
    "note": "lo = el libro(남성) 대신 · tengo/leo = 1인칭",
    "tags": [
     "form:lo"
    ],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "23:11"
+   "at": "23:11",
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -69,17 +70,17 @@
     "form:lo"
    ],
    "new": [],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "23:11",
-   "stamp": "😳"
+   "stamp": "😳",
+   "emotion": "surprised"
   },
   {
    "num": 4,
    "speaker": "A",
    "tl": "Sí. Y hay una carta roja dentro.",
    "rd": "시. 이 아이 우나 까르따 로하 덴뜨로.",
-   "ko": "응. 그리고 안에 빨간 편지가 하나 있어.",
+   "ko": "응. 그리고 안에 빨간 편지가 있어.",
    "note": "carta roja(여) — 1번 libro rojo(남)와 비교 · dentro = 안에",
    "tags": [
     "form:concordancia"
@@ -88,9 +89,9 @@
     "carta",
     "dentro"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "23:12"
+   "at": "23:12",
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -103,9 +104,9 @@
     "form:la"
    ],
    "new": [],
-   "emotion": "worried",
    "ui": "bubble",
-   "at": "23:12"
+   "at": "23:12",
+   "emotion": "excited"
   },
   {
    "num": 6,
@@ -120,10 +121,10 @@
    "new": [
     "dar"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "23:13",
-   "stamp": "👍"
+   "stamp": "👍",
+   "emotion": "neutral"
   },
   {
    "num": 7,
@@ -134,18 +135,10 @@
    "note": "para ti = 너를 위한·너한테",
    "tags": [],
    "new": [],
-   "segs": [
-    [
-     "shout",
-     "¡No!"
-    ],
-    [
-     "shy",
-     "No es para Javi… Es para ti."
-    ]
-   ],
    "ui": "bubble",
-   "at": "23:13"
+   "at": "23:13",
+   "stamp": "💕",
+   "emotion": "shy"
   },
   {
    "num": 8,
@@ -159,10 +152,48 @@
     "form:la"
    ],
    "new": [],
-   "emotion": "gentle",
    "ui": "bubble",
-   "at": "23:20"
+   "at": "23:20",
+   "emotion": "gentle"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Oye, ¿tienes mi libro rojo?",
+   "ko": "있잖아, 내 빨간 책 너한테 있어?"
+  },
+  {
+   "tl": "Sí, lo tengo. Lo leo en la cama.",
+   "ko": "응, 나한테 있어. 침대에서 읽는 중."
+  },
+  {
+   "tl": "¿Lo lees? ¿Todo?",
+   "ko": "그걸 읽어? 전부?"
+  },
+  {
+   "tl": "Sí. Y hay una carta roja dentro.",
+   "ko": "응. 그리고 안에 빨간 편지가 하나 있어."
+  },
+  {
+   "tl": "¿La carta? ¿La tienes?",
+   "ko": "그 편지? 네가 갖고 있어?"
+  },
+  {
+   "tl": "Es para Javi, ¿no? Le doy la carta.",
+   "ko": "하비한테 주는 거지? 내가 전해 줄게."
+  },
+  {
+   "tl": "¡No! No es para Javi… Es para ti.",
+   "ko": "안 돼! 하비 거 아니야… 너 거야."
+  },
+  {
+   "tl": "Vale… la leo otra vez.",
+   "ko": "알았어… 그럼 다시 읽을게."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s05_love_rewrite.md",
+  "model": "전문가"
+ }
 }

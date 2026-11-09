@@ -55,7 +55,7 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -69,7 +69,7 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "amused"
   },
   {
    "num": 4,
@@ -82,7 +82,7 @@
     "form:presente_ar"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -113,19 +113,18 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Pues… no os espero a vosotros. Espero a un chico.",
-   "rd": "뿌에스… 노 오스 에스뻬로 아 보소뜨로스. 에스뻬로 아 운 치꼬.",
-   "ko": "그게… 너희를 기다리는 건 아니고. 한 남자를 기다려.",
-   "note": "os·vosotros = 너희를(복수) → un chico(단수) · espero a + 사람",
+   "tl": "Pues… no os espero. Espero a un chico que lee.",
+   "rd": "뿌에스… 노 오스 에스뻬로. 에스뻬로 아 운 치꼬 께 레에.",
+   "ko": "그게… 너희를 기다리는 건 아니고. 책 읽는 남자를 기다려.",
+   "note": "no os espero = 너희를 기다리는 게 아니야(os = 복수 목적어) → un chico que lee(2번 턴 yo leo 를 받음) · esperar a + 사람",
    "tags": [
     "expr:pues",
     "form:vosotros"
    ],
    "new": [],
    "emotion": "shy",
-   "tl_f": "Pues… no os espero a vosotros. Espero a una chica.",
-   "ko_f": "그게… 너희를 기다리는 건 아니고. 한 여자를 기다려.",
-   "rd_f": "뿌에스… 노 오스 에스뻬로 아 보소뜨로스. 에스뻬로 아 우나 치까."
+   "tl_f": "Pues… no os espero. Espero a una chica que lee.",
+   "rd_f": "뿌에스… 노 오스 에스뻬로. 에스뻬로 아 우나 치까 께 레에."
   },
   {
    "num": 8,
@@ -139,11 +138,48 @@
     "form:presente_ar"
    ],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "cheerful",
    "tl_f": "Pues la chica hoy compra un libro.",
-   "ko_f": "그럼 그 여자, 오늘은 책 한 권 산다.",
    "rd_f": "뿌에스 라 치까 오이 꼼쁘라 운 리브로."
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¿Otra vez aquí? ¿Compráis o solo miráis?",
+   "ko": "또 왔네? 사는 거야, 구경만 하는 거야?"
+  },
+  {
+   "tl": "Miramos. Bueno… él mira, yo leo.",
+   "ko": "구경. 아니… 얘는 구경하고, 난 좀 읽고."
+  },
+  {
+   "tl": "Ya. Llegáis todos los días a las seis.",
+   "ko": "그렇겠지. 둘이 매일 여섯 시에 오더라."
+  },
+  {
+   "tl": "¿Y tú? ¿Trabajas todos los días?",
+   "ko": "너는? 매일 일해?"
+  },
+  {
+   "tl": "No. Trabajo los lunes y los miércoles.",
+   "ko": "아니. 월요일이랑 수요일만 일해."
+  },
+  {
+   "tl": "Pero hoy es viernes… ¿Qué haces aquí?",
+   "ko": "근데 오늘 금요일인데… 여기서 뭐 해?"
+  },
+  {
+   "tl": "Pues… no os espero a vosotros. Espero a un chico.",
+   "ko": "그게… 너희를 기다리는 건 아니고. 한 남자를 기다려."
+  },
+  {
+   "tl": "Pues el chico hoy compra un libro.",
+   "ko": "그럼 그 남자, 오늘은 책 한 권 산다."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r3_s03_love_rewrite.md",
+  "model": "전문가"
+ }
 }

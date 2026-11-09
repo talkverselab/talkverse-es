@@ -46,9 +46,9 @@
    "new": [
     "olvidar"
    ],
-   "emotion": "sad",
    "ui": "bubble",
-   "at": "09:15"
+   "at": "09:15",
+   "emotion": "worried"
   },
   {
    "num": 2,
@@ -62,9 +62,9 @@
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "surprised",
    "ui": "bubble",
-   "at": "09:20"
+   "at": "09:20",
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -80,10 +80,10 @@
    "new": [
     "cumple"
    ],
-   "emotion": "worried",
    "ui": "bubble",
    "at": "09:20",
-   "stamp": "🙏"
+   "stamp": "🙏",
+   "emotion": "sad"
   },
   {
    "num": 4,
@@ -91,16 +91,15 @@
    "tl": "Ya… estuve sola toda la noche.",
    "rd": "야… 에스뚜베 솔라 또다 라 노체.",
    "ko": "그래… 밤새 혼자 있었지.",
-   "note": "estuve = 있었어(estar 단순과거)",
+   "note": "estuve = 있었어(estar 단순과거) · 슬픈 척하는 연기 — 6번 턴에서 뒤집힘",
    "tags": [
     "expr:ya",
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "sad",
    "ui": "bubble",
    "at": "09:22",
-   "stamp": "😢"
+   "emotion": "sad"
   },
   {
    "num": 5,
@@ -113,9 +112,9 @@
    "new": [
     "elegir"
    ],
-   "emotion": "worried",
    "ui": "bubble",
-   "at": "09:23"
+   "at": "09:23",
+   "emotion": "cheerful"
   },
   {
    "num": 6,
@@ -128,19 +127,10 @@
     "expr:tío"
    ],
    "new": [],
-   "segs": [
-    [
-     "amused",
-     "Jajaja."
-    ],
-    [
-     "teasing",
-     "Tío, mi cumple es mañana."
-    ]
-   ],
-   "tl_f": "Jajaja. Tía, mi cumple es mañana.",
    "ui": "bubble",
    "at": "09:25",
+   "emotion": "amused",
+   "tl_f": "Jajaja. Tía, mi cumple es mañana.",
    "rd_f": "하하하. 띠아, 미 꿈쁠레 에스 마냐나."
   },
   {
@@ -154,9 +144,9 @@
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "tsukkomi",
    "ui": "bubble",
-   "at": "09:25"
+   "at": "09:25",
+   "emotion": "shout"
   },
   {
    "num": 8,
@@ -171,11 +161,49 @@
    "new": [
     "sufrir"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
    "at": "09:26",
-   "stamp": "😘"
+   "stamp": "😘",
+   "emotion": "teasing"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Lucía, lo siento mucho. Me olvidé.",
+   "ko": "루시아, 진짜 미안해. 깜빡했어."
+  },
+  {
+   "tl": "¿Te olvidaste de qué? ¿Qué pasa?",
+   "ko": "뭘 깜빡했는데? 무슨 일이야?"
+  },
+  {
+   "tl": "Tu cumple. Ayer. Perdona, de verdad.",
+   "ko": "네 생일. 어제. 정말 미안."
+  },
+  {
+   "tl": "Ya… estuve sola toda la noche.",
+   "ko": "그래… 밤새 혼자 있었지."
+  },
+  {
+   "tl": "Te invito a cenar hoy. Eliges tú.",
+   "ko": "오늘 저녁 내가 살게. 네가 골라."
+  },
+  {
+   "tl": "Jajaja. Tío, mi cumple es mañana.",
+   "ko": "ㅋㅋㅋ 야, 내 생일 내일이야."
+  },
+  {
+   "tl": "¿Mañana? ¿Y estuviste «sola toda la noche»?",
+   "ko": "내일? 그럼 「밤새 혼자」 있었다는 건 뭔데?"
+  },
+  {
+   "tl": "Quería verte sufrir. ¿Me invitas igual?",
+   "ko": "네가 쩔쩔매는 거 보고 싶었지. 그래도 사 줄 거지?"
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_s05_friends_rewrite.md",
+  "model": "전문가"
+ }
 }

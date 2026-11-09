@@ -46,7 +46,7 @@
    "new": [
     "verbena"
    ],
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -61,7 +61,7 @@
    "new": [
     "bailar"
    ],
-   "emotion": "neutral"
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -77,7 +77,7 @@
    "new": [
     "abuelo"
    ],
-   "emotion": "cheerful"
+   "emotion": "excited"
   },
   {
    "num": 4,
@@ -114,7 +114,7 @@
    "tl": "¿Yo? No sé bailar, tía.",
    "rd": "요? 노 세 바일라르, 띠아.",
    "ko": "내가? 나 춤 못 춰.",
-   "note": "no sé + 원형 = ~할 줄 몰라",
+   "note": "no sé + 원형 = ~할 줄 몰라 · tía = 야(여자 친구 Lucía 를 부를 때)",
    "tags": [
     "expr:no sé",
     "expr:tía"
@@ -136,16 +136,7 @@
     "campeón",
     "barrio"
    ],
-   "segs": [
-    [
-     "gentle",
-     "Tranqui."
-    ],
-    [
-     "teasing",
-     "Ella sabe. Es la campeona del barrio."
-    ]
-   ]
+   "emotion": "cheerful"
   },
   {
    "num": 8,
@@ -161,8 +152,46 @@
    "new": [
     "ridículo"
    ],
-   "emotion": "sad"
+   "emotion": "shy"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Hoy voy a ir a la verbena. ¿Vienes?",
+   "ko": "오늘 밤에 동네 축제 갈 거야. 올래?"
+  },
+  {
+   "tl": "¿Qué es? ¿Vas a bailar?",
+   "ko": "그게 뭔데? 춤출 거야?"
+  },
+  {
+   "tl": "Claro. Voy a bailar con mi abuelo.",
+   "ko": "당연하지. 우리 할아버지랑 출 거야."
+  },
+  {
+   "tl": "¿Con tu abuelo? ¡Qué mono! ¿Baila bien?",
+   "ko": "할아버지랑? 귀엽다! 춤 잘 추셔?"
+  },
+  {
+   "tl": "Fatal. Tú vas a bailar con mi abuela.",
+   "ko": "완전 못 춰. 넌 우리 할머니랑 출 거야."
+  },
+  {
+   "tl": "¿Yo? No sé bailar, tía.",
+   "ko": "내가? 나 춤 못 춰."
+  },
+  {
+   "tl": "Tranqui. Ella sabe. Es la campeona del barrio.",
+   "ko": "걱정 마. 할머니는 잘 추셔. 동네 챔피언이거든."
+  },
+  {
+   "tl": "Vale. Voy a hacer el ridículo.",
+   "ko": "알았어. 나 망신당하겠다."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s08_culture_rewrite.md",
+  "model": "전문가"
+ }
 }

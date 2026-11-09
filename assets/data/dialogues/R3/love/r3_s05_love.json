@@ -41,9 +41,9 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "neutral",
    "ui": "bubble",
-   "at": "23:10"
+   "at": "23:10",
+   "emotion": "worried"
   },
   {
    "num": 2,
@@ -57,26 +57,26 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "23:11"
+   "at": "23:11",
+   "emotion": "neutral"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "¿Los leéis? ¿Todos? ¿Y Javi?",
-   "rd": "로스 레에이스? 또도스? 이 하비?",
+   "tl": "¿Los leéis? ¿Todos? ¿Javi también?",
+   "rd": "로스 레에이스? 또도스? 하비 땀비엔?",
    "ko": "그걸 둘이 읽어? 전부? 하비도?",
-   "note": "leéis = leer 2인칭 복수 ↔ 2번 leemos",
+   "note": "leéis = leer 2인칭 복수 ↔ 2번 leemos · ¿Javi también? = 하비도?",
    "tags": [
     "form:los",
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "23:11",
-   "stamp": "😳"
+   "stamp": "😳",
+   "emotion": "surprised"
   },
   {
    "num": 4,
@@ -89,9 +89,9 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "23:12"
+   "at": "23:12",
+   "emotion": "teasing"
   },
   {
    "num": 5,
@@ -105,9 +105,9 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "worried",
    "ui": "bubble",
-   "at": "23:12"
+   "at": "23:12",
+   "emotion": "worried"
   },
   {
    "num": 6,
@@ -121,10 +121,10 @@
     "form:le"
    ],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "23:13",
-   "stamp": "👍"
+   "stamp": "👍",
+   "emotion": "cheerful"
   },
   {
    "num": 7,
@@ -137,18 +137,9 @@
     "form:plural"
    ],
    "new": [],
-   "segs": [
-    [
-     "shout",
-     "¡No!"
-    ],
-    [
-     "shy",
-     "No son para Javi… Son para ti."
-    ]
-   ],
    "ui": "bubble",
-   "at": "23:13"
+   "at": "23:13",
+   "emotion": "shout"
   },
   {
    "num": 8,
@@ -162,10 +153,48 @@
     "form:las"
    ],
    "new": [],
-   "emotion": "gentle",
    "ui": "bubble",
-   "at": "23:20"
+   "at": "23:20",
+   "emotion": "shy"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Oye, ¿tienes mis libros rojos?",
+   "ko": "있잖아, 내 빨간 책들 너한테 있어?"
+  },
+  {
+   "tl": "Sí, los tengo. Javi y yo los leemos.",
+   "ko": "응, 나한테 있어. 하비랑 나랑 읽는 중."
+  },
+  {
+   "tl": "¿Los leéis? ¿Todos? ¿Y Javi?",
+   "ko": "그걸 둘이 읽어? 전부? 하비도?"
+  },
+  {
+   "tl": "Sí. Y hay unas cartas rojas dentro.",
+   "ko": "응. 그리고 안에 빨간 편지가 몇 장 있어."
+  },
+  {
+   "tl": "¿Las cartas? ¿Las tenéis vosotros?",
+   "ko": "그 편지들? 너희가 갖고 있어?"
+  },
+  {
+   "tl": "Son para Javi, ¿no? Le doy las cartas.",
+   "ko": "하비한테 주는 거지? 내가 전해 줄게."
+  },
+  {
+   "tl": "¡No! No son para Javi… Son para ti.",
+   "ko": "안 돼! 하비 거 아니야… 너 거야."
+  },
+  {
+   "tl": "Vale… las leo otra vez.",
+   "ko": "알았어… 그럼 나 혼자 다시 읽을게."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r3_s05_love_rewrite.md",
+  "model": "전문가"
+ }
 }

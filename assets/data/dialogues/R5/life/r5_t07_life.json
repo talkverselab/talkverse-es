@@ -61,7 +61,7 @@
    "new": [
     "encender"
    ],
-   "emotion": "surprised"
+   "emotion": "shout"
   },
   {
    "num": 3,
@@ -108,7 +108,7 @@
     "aplicación",
     "gastar"
    ],
-   "emotion": "gentle"
+   "emotion": "cheerful"
   },
   {
    "num": 6,
@@ -124,7 +124,7 @@
     "tarjeta",
     "banco"
    ],
-   "emotion": "neutral"
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -135,7 +135,7 @@
    "note": "deber = 빚지다·~해야 하다",
    "tags": [],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -148,7 +148,7 @@
     "expr:ya"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "cheerful"
   },
   {
    "num": 9,
@@ -201,7 +201,7 @@
    "note": "la luz = 전기(요금)",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "shout"
   },
   {
    "num": 13,
@@ -255,5 +255,75 @@
    "emotion": "teasing"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Oye, ha llegado lo de la luz. Ciento veinte euros.",
+   "ko": "야, 전기 요금 나왔어. 120유로."
+  },
+  {
+   "tl": "¿Ciento veinte? ¡Si casi no encendemos nada!",
+   "ko": "120? 우리 거의 아무것도 안 켜잖아!"
+  },
+  {
+   "tl": "Bueno… yo me ducho media hora. En la ducha suena mejor la guitarra.",
+   "ko": "뭐… 내가 샤워를 30분 하긴 해. 샤워실에서 기타 소리가 더 좋거든."
+  },
+  {
+   "tl": "Pues tu guitarra paga el doble.",
+   "ko": "그럼 네 기타가 두 배 내."
+  },
+  {
+   "tl": "Justo. Mira, tengo una aplicación para pagar a medias lo que gastamos.",
+   "ko": "바로 그거야. 봐, 우리가 쓴 돈 반반 내는 앱이 있어."
+  },
+  {
+   "tl": "Vale. ¿Y cómo funciona? ¿Pongo la tarjeta del banco?",
+   "ko": "오케이. 어떻게 쓰는 거야? 은행 카드 등록해?"
+  },
+  {
+   "tl": "Eso. Tú aceptas todo y la aplicación decide quién debe qué.",
+   "ko": "그렇지. 넌 전부 수락만 하면 앱이 누가 얼마 내야 하는지 정해 줘."
+  },
+  {
+   "tl": "Aceptar, aceptar, aceptar… Listo. ¿Ya estamos en paz?",
+   "ko": "수락, 수락, 수락… 끝. 이제 우리 퉁 친 거지?"
+  },
+  {
+   "tl": "Espera. ¿Lo has aceptado todo? ¿Sin leer?",
+   "ko": "잠깐. 그걸 다 수락했어? 안 읽고?"
+  },
+  {
+   "tl": "Sí. ¿Por qué? «Has pagado: cuerdas de guitarra»… ¿Cuerdas?",
+   "ko": "응. 왜? 「결제 완료: 기타 줄」… 기타 줄?"
+  },
+  {
+   "tl": "Y la cena de mi cumpleaños. Y el dinero que me prestó Javi. Era mi lista de deudas.",
+   "ko": "내 생일 저녁값도. 하비가 빌려준 돈도. 그거 내 빚 목록이었어."
+  },
+  {
+   "tl": "¿Tu lista de deudas? ¿En la aplicación de la luz?",
+   "ko": "네 빚 목록을? 전기 요금 앱에?"
+  },
+  {
+   "tl": "Es la misma aplicación. Lo puse todo para no olvidarme… y lo compartí sin querer.",
+   "ko": "같은 앱이야. 안 잊으려고 다 적어 뒀는데… 실수로 공유해 버렸어."
+  },
+  {
+   "tl": "Diego, me has costado trescientos euros. Y yo no fui a tu cena.",
+   "ko": "디에고, 너 때문에 300유로 나갔어. 난 네 생일 저녁에 가지도 않았는데."
+  },
+  {
+   "tl": "Mira el lado bueno: Javi ya no me pregunta por su dinero.",
+   "ko": "좋게 생각해. 이제 하비가 돈 언제 갚냐고 안 물어."
+  },
+  {
+   "tl": "Porque ahora te lo voy a preguntar yo. Todos los días.",
+   "ko": "이제 내가 물어볼 거니까. 매일."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r5_t07_life_rewrite.md",
+  "model": "전문가"
+ }
 }

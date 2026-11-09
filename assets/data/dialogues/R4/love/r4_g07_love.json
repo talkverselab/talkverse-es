@@ -25,8 +25,9 @@
  "domain": [
   "love"
  ],
- "goal": "se lo prestaste·te lo ha dado·dártela·se lo dije·te la doy(간접 + 직접 대명사, le → se)",
+ "goal": "se lo prestaste·te lo ha dado·se la escribiste·dártela·se lo voy a decir·se lo he dicho·te la doy(간접 + 직접 대명사, le → se)",
  "expressions": [
+  "ni idea",
   "o sea",
   "madre mía",
   "tranquilo",
@@ -54,7 +55,7 @@
    "note": "qué raro = 이상하네",
    "tags": [],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -95,7 +96,7 @@
     "expr:ni idea"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -121,7 +122,7 @@
    "new": [
     "gafas"
    ],
-   "emotion": "teasing"
+   "emotion": "surprised"
   },
   {
    "num": 8,
@@ -157,7 +158,7 @@
    "new": [
     "mancha"
    ],
-   "emotion": "teasing"
+   "emotion": "amused"
   },
   {
    "num": 10,
@@ -185,18 +186,18 @@
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Tranquilo. Ya se lo dije yo. Le di las gracias.",
-   "rd": "뜨란낄로. 야 세 로 디헤 요. 레 디 라스 그라씨아스.",
-   "ko": "진정해. 내가 벌써 말했어. 고맙다고.",
-   "note": "ya se lo dije = 내가 이미 그녀에게 말했다",
+   "tl": "Tranquilo. Ya se lo he dicho yo. Le he dado las gracias.",
+   "rd": "뜨란낄로. 야 세 로 에 디초 요. 레 에 다도 라스 그라씨아스.",
+   "ko": "진정해. 내가 벌써 말했어. 고맙다고도 했고.",
+   "note": "ya se lo he dicho = 내가 이미 그녀에게 말했다(오늘 일 = 현재완료)",
    "tags": [
     "expr:tranquilo",
     "form:pronombres_dobles"
    ],
    "new": [],
    "emotion": "gentle",
-   "tl_f": "Tranquila. Ya se lo dije yo. Le di las gracias.",
-   "rd_f": "뜨란낄라. 야 세 로 디헤 요. 레 디 라스 그라씨아스."
+   "tl_f": "Tranquila. Ya se lo he dicho yo. Le he dado las gracias.",
+   "rd_f": "뜨란낄라. 야 세 로 에 디초 요. 레 에 다도 라스 그라씨아스."
   },
   {
    "num": 12,
@@ -207,7 +208,7 @@
    "note": "dar las gracias = 고맙다고 하다",
    "tags": [],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "worried"
   },
   {
    "num": 13,
@@ -231,7 +232,7 @@
    "note": "¿qué pone? = 뭐라고 쓰여 있어?",
    "tags": [],
    "new": [],
-   "emotion": "shy"
+   "emotion": "surprised"
   },
   {
    "num": 15,
@@ -248,5 +249,71 @@
    "emotion": "shy"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Hola. Lucía ha pasado por aquí esta mañana. Muy contenta. Demasiado.",
+   "ko": "안녕. 루시아가 아침에 여기 들렀어. 엄청 신나서. 지나치게."
+  },
+  {
+   "tl": "¿Ah, sí? Qué raro. ¿Te ha dicho algo?",
+   "ko": "아, 그래? 이상하네. 뭐라고 했어?"
+  },
+  {
+   "tl": "Me ha dado un libro. Dice que es tuyo, que se lo prestaste.",
+   "ko": "책 한 권 주더라. 네 거래, 네가 빌려줬다고."
+  },
+  {
+   "tl": "Sí, se lo presté la semana pasada. ¿Y por qué te lo ha dado a ti?",
+   "ko": "응, 지난주에 빌려줬지. 근데 그걸 왜 너한테 줬대?"
+  },
+  {
+   "tl": "Ni idea. Pero dentro había una nota.",
+   "ko": "몰라. 근데 안에 쪽지가 있었어."
+  },
+  {
+   "tl": "…¿Una nota?",
+   "ko": "…쪽지?"
+  },
+  {
+   "tl": "Con tu letra. «Para la chica de las gafas redondas». ¿Se la escribiste a alguien?",
+   "ko": "네 글씨로. 「동그란 안경 낀 그 사람에게」. 누구한테 쓴 거야?"
+  },
+  {
+   "tl": "Eh… No. O sea, sí. Pero no era para dártela así.",
+   "ko": "어… 아니. 그러니까, 맞아. 근데 이렇게 전해질 줄은 몰랐어."
+  },
+  {
+   "tl": "¿Así cómo? ¿Con una mancha de chocolate encima?",
+   "ko": "이렇게가 어떻게? 위에 초콜릿 얼룩 묻은 채로?"
+  },
+  {
+   "tl": "¡Madre mía! Se lo voy a decir a Lucía. Bueno, se lo voy a gritar.",
+   "ko": "세상에! 루시아한테 따질 거야. 아니, 소리 지를 거야."
+  },
+  {
+   "tl": "Tranquilo. Ya se lo dije yo. Le di las gracias.",
+   "ko": "진정해. 내가 벌써 말했어. 고맙다고."
+  },
+  {
+   "tl": "¿Las gracias? ¿Por qué?",
+   "ko": "고맙다고? 왜?"
+  },
+  {
+   "tl": "Toma. Esta la he escrito yo. Y te la doy yo, sin nadie en medio.",
+   "ko": "자. 이건 내가 쓴 거야. 그리고 내가 직접 줄게, 중간에 아무도 없이."
+  },
+  {
+   "tl": "¿Qué pone?",
+   "ko": "뭐라고 썼어?"
+  },
+  {
+   "tl": "…Léela en casa. Delante de ti, me da vergüenza.",
+   "ko": "…집에 가서 읽어. 네 앞에선 부끄러우니까."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_g07_love_rewrite.md",
+  "model": "전문가"
+ }
 }

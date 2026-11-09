@@ -33,7 +33,8 @@
   "qué fuerte",
   "vaya",
   "ojalá",
-  "me da vergüenza"
+  "me da vergüenza",
+  "qué pasa"
  ],
  "turns": [
   {
@@ -77,7 +78,7 @@
    "new": [
     "presentar"
    ],
-   "emotion": "gentle"
+   "emotion": "excited"
   },
   {
    "num": 4,
@@ -88,7 +89,7 @@
    "note": "¿De quién es? = 누구 거야?",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -103,7 +104,7 @@
    "new": [
     "autor"
    ],
-   "emotion": "flustered"
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -117,7 +118,7 @@
     "expr:espera"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "shout"
   },
   {
    "num": 7,
@@ -130,7 +131,7 @@
     "form:subjuntivo"
    ],
    "new": [],
-   "emotion": "shy"
+   "emotion": "flustered"
   },
   {
    "num": 8,
@@ -143,7 +144,7 @@
     "expr:qué fuerte"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "amused"
   },
   {
    "num": 9,
@@ -179,8 +180,8 @@
    ],
    "emotion": "teasing",
    "tl_f": "Vaya. Espero que la clienta sea guapa, por lo menos.",
-   "ko_f": "오. 그 손님 예뻤으면 좋겠다, 적어도.",
-   "rd_f": "바야. 에스뻬로 께 라 끌리엔따 세아 구아빠, 뽀르 로 메노스."
+   "rd_f": "바야. 에스뻬로 께 라 끌리엔따 세아 구아빠, 뽀르 로 메노스.",
+   "ko_f": "오. 그 손님 예뻤으면 좋겠다, 적어도."
   },
   {
    "num": 11,
@@ -195,7 +196,7 @@
    "new": [
     "pronunciar"
    ],
-   "emotion": "teasing",
+   "emotion": "amused",
    "ko_f": "꽤 예뻐. 근데 「te quiero」 발음이 엉망이야."
   },
   {
@@ -257,5 +258,71 @@
    "emotion": "shy"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Toma. Quiero que leas este libro antes del sábado.",
+   "ko": "자. 토요일 전에 이 책 꼭 읽어 줘."
+  },
+  {
+   "tl": "¿Antes del sábado? ¿Por qué tanta prisa?",
+   "ko": "토요일 전에? 왜 그렇게 급해?"
+  },
+  {
+   "tl": "Porque el sábado lo presento y quiero que vengas.",
+   "ko": "토요일에 이 책 소개하는 자리가 있는데, 너도 왔으면 해서."
+  },
+  {
+   "tl": "¿Lo presentas tú? ¿Y de quién es?",
+   "ko": "네가 소개한다고? 누구 책인데?"
+  },
+  {
+   "tl": "De una autora nueva. No creo que la conozcas.",
+   "ko": "신인 작가야. 넌 모를 거야."
+  },
+  {
+   "tl": "A ver… Espera, ¿esta foto no eres tú?",
+   "ko": "어디 보자… 잠깐, 이 사진 너 아니야?"
+  },
+  {
+   "tl": "…Puede ser. Pero no quiero que se lo digas a nadie.",
+   "ko": "…그럴 수도. 근데 아무한테도 말하지 마."
+  },
+  {
+   "tl": "¡Qué fuerte! ¿Y de qué va?",
+   "ko": "대박! 무슨 내용인데?"
+  },
+  {
+   "tl": "De una chica que trabaja con libros y se enamora de un cliente.",
+   "ko": "책 다루는 일을 하는 여자가 손님한테 반하는 이야기야."
+  },
+  {
+   "tl": "Vaya. Espero que el cliente sea guapo, por lo menos.",
+   "ko": "오. 그 손님 잘생겼으면 좋겠다, 적어도."
+  },
+  {
+   "tl": "Bastante. Aunque no sabe pronunciar «te quiero».",
+   "ko": "꽤 잘생겼어. 근데 「te quiero」 발음이 엉망이야."
+  },
+  {
+   "tl": "…Espera. ¿Ese soy yo?",
+   "ko": "…잠깐. 그거 나야?"
+  },
+  {
+   "tl": "Ojalá que llegues al final antes del sábado.",
+   "ko": "토요일 전에 끝까지 읽었으면 좋겠다."
+  },
+  {
+   "tl": "¿Por qué? ¿Qué pasa al final?",
+   "ko": "왜? 끝에 무슨 일이 있는데?"
+  },
+  {
+   "tl": "Léelo. Me da vergüenza que me lo preguntes.",
+   "ko": "읽어 봐. 그걸 나한테 물어보면 부끄럽잖아."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_g01_love_rewrite.md",
+  "model": "전문가"
+ }
 }

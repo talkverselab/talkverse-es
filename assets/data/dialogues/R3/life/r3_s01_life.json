@@ -8,7 +8,7 @@
  "kind": "short",
  "title": "그 방들의 주인",
  "emoji": "📦",
- "scene": "1단계 「그 방의 주인」을 복수·존댓말로 — 집주인이 방을 보여 준다",
+ "scene": "1단계 「그 방의 주인」을 복수·존댓말로 — 집주인이 A 일행(둘)에게 방을 보여 준다",
  "speakers": {
   "A": "{name}",
   "B": "Casera"
@@ -23,9 +23,8 @@
  "domain": [
   "life"
  ],
- "goal": "같은 이야기를 복수(las·son·tienen·pequeñas/pequeños)·usted(mire·tiene usted·su)·vosotros(sois)로 — 새 단어 0",
+ "goal": "같은 이야기를 복수(son·tienen·pequeñas/pequeños·nuestras)·ustedes(miren·sus camas)·usted(tiene usted)·vosotros(sois)로 — 새 단어 0",
  "expressions": [
-  "vale",
   "bueno",
   "pues"
  ],
@@ -33,12 +32,12 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Mire, estas son las habitaciones. El baño, ahí.",
-   "rd": "미레, 에스따스 손 라스 아비따씨오네스. 엘 바뇨, 아이.",
-   "ko": "보세요, 여기가 방들이에요. 화장실은 저기고요.",
-   "note": "mire = mirar 의 usted 명령(↔ R1 mira) · las habitaciones(복수)",
+   "tl": "Miren, esta es la cocina. Hay dos baños, ahí.",
+   "rd": "미렌, 에스따 에스 라 꼬씨나. 아이 도스 바뇨스, 아이.",
+   "ko": "보세요, 여기가 부엌이에요. 화장실은 저기 두 개 있고요.",
+   "note": "miren = mirar 의 ustedes 명령(↔ R1 mira, usted 는 mire) · dos baños(복수)",
    "tags": [
-    "form:usted",
+    "form:ustedes",
     "form:plural"
    ],
    "new": [],
@@ -47,15 +46,16 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¡Qué bonitas! ¿Y mi habitación?",
-   "rd": "께 보니따스! 이 미 아비따씨온?",
-   "ko": "예쁘네요! 제 방은요?",
-   "note": "bonitas = 여성 복수 ↔ 단수 bonita · habitaciones ↔ habitación",
+   "tl": "¡Qué bonita! ¿Y nuestras habitaciones?",
+   "rd": "께 보니따! 이 누에스뜨라스 아비따씨오네스?",
+   "ko": "예쁘네요! 저희 방은요?",
+   "note": "nuestras habitaciones = 우리 방들(여성 복수) ↔ R1 mi habitación",
    "tags": [
+    "form:nosotros",
     "form:plural"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -63,12 +63,12 @@
    "tl": "Son pequeñas, pero tienen mucha luz.",
    "rd": "손 뻬께냐스, 뻬로 띠에넨 무차 루쓰.",
    "ko": "작긴 한데 햇빛이 잘 들어요.",
-   "note": "son·tienen = 3인칭 복수 ↔ 단수 es·tiene",
+   "note": "son·tienen = 3인칭 복수 ↔ R1 es·tiene · pequeñas = habitaciones(여성 복수)",
    "tags": [
     "form:plural"
    ],
    "new": [],
-   "emotion": "gentle"
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -94,7 +94,7 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "amused"
   },
   {
    "num": 6,
@@ -112,25 +112,17 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "En su cama. Bueno… es su habitación.",
-   "rd": "엔 수 까마. 부에노… 에스 수 아비따씨온.",
-   "ko": "손님 침대에요. 뭐… 원래 걔들 방이거든요.",
-   "note": "su = 「당신의」도 「그들의」도 된다 — 앞 su = usted 의, 뒤 su = 고양이들의",
+   "tl": "En sus camas. Bueno… son sus habitaciones.",
+   "rd": "엔 수스 까마스. 부에노… 손 수스 아비따씨오네스.",
+   "ko": "두 분 침대에요. 뭐… 원래 걔들 방이거든요.",
+   "note": "su(s) = 「당신들의」도 「그들의」도 된다 — 앞 sus = ustedes 의, 뒤 sus = 고양이들의",
    "tags": [
     "expr:bueno",
-    "form:usted"
+    "form:ustedes",
+    "form:plural"
    ],
    "new": [],
-   "segs": [
-    [
-     "amused",
-     "En su cama."
-    ],
-    [
-     "teasing",
-     "Bueno… es su habitación."
-    ]
-   ]
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -144,17 +136,46 @@
     "form:vosotros"
    ],
    "new": [],
-   "segs": [
-    [
-     "flustered",
-     "Pues… ¡hola, compañeros!"
-    ],
-    [
-     "amused",
-     "Vosotros sois los jefes, ¿no?"
-    ]
-   ]
+   "emotion": "cheerful"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Mire, estas son las habitaciones. El baño, ahí.",
+   "ko": "보세요, 여기가 방들이에요. 화장실은 저기고요."
+  },
+  {
+   "tl": "¡Qué bonitas! ¿Y mi habitación?",
+   "ko": "예쁘네요! 제 방은요?"
+  },
+  {
+   "tl": "Son pequeñas, pero tienen mucha luz.",
+   "ko": "작긴 한데 햇빛이 잘 들어요."
+  },
+  {
+   "tl": "Perfecto. ¿Y esas cajas rojas?",
+   "ko": "좋네요. 저 빨간 상자들은요?"
+  },
+  {
+   "tl": "Ah, son de mis gatos. Son pequeños.",
+   "ko": "아, 우리 고양이들 거예요. 쪼그만 애들이에요."
+  },
+  {
+   "tl": "¿Tiene usted gatos? ¿Y dónde están?",
+   "ko": "고양이를 키우세요? 근데 어디 있어요?"
+  },
+  {
+   "tl": "En su cama. Bueno… es su habitación.",
+   "ko": "손님 침대에요. 뭐… 원래 걔들 방이거든요."
+  },
+  {
+   "tl": "Pues… ¡hola, compañeros! Vosotros sois los jefes, ¿no?",
+   "ko": "그럼… 안녕, 룸메이트들! 너희가 대장이지?"
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r3_s01_life_rewrite.md",
+  "model": "전문가"
+ }
 }

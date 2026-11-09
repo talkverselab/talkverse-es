@@ -41,9 +41,9 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "neutral",
    "ui": "bubble",
-   "at": "10:12"
+   "at": "10:12",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -57,9 +57,9 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "surprised",
    "ui": "bubble",
-   "at": "10:40"
+   "at": "10:40",
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -70,9 +70,9 @@
    "note": "hay = ~가 있다",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "10:41"
+   "at": "10:41",
+   "emotion": "cheerful"
   },
   {
    "num": 4,
@@ -87,9 +87,9 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "excited",
    "ui": "bubble",
-   "at": "10:41"
+   "at": "10:41",
+   "emotion": "excited"
   },
   {
    "num": 5,
@@ -103,9 +103,9 @@
     "form:reflexivo"
    ],
    "new": [],
-   "emotion": "flustered",
    "ui": "bubble",
-   "at": "10:43"
+   "at": "10:43",
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -118,10 +118,10 @@
     "form:reflexivo"
    ],
    "new": [],
-   "emotion": "surprised",
    "ui": "bubble",
    "at": "10:43",
-   "stamp": "🤔"
+   "stamp": "🤔",
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -135,9 +135,9 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "shy",
    "ui": "bubble",
-   "at": "10:47"
+   "at": "10:47",
+   "emotion": "shy"
   },
   {
    "num": 8,
@@ -151,12 +151,50 @@
     "form:reflexivo"
    ],
    "new": [],
-   "emotion": "shy",
-   "tl_f": "Vale… ahora me pongo nerviosa.",
    "ui": "bubble",
    "at": "10:52",
+   "emotion": "flustered",
+   "tl_f": "Vale… ahora me pongo nerviosa.",
    "rd_f": "발레… 아오라 메 뽄고 네르비오사."
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¿A qué hora os levantáis los sábados?",
+   "ko": "너희 토요일엔 몇 시에 일어나?"
+  },
+  {
+   "tl": "Nos levantamos tarde. ¿Por qué?",
+   "ko": "우리 늦게 일어나. 왜?"
+  },
+  {
+   "tl": "Hay un mercado de libros a las doce.",
+   "ko": "열두 시에 헌책 장터가 있어."
+  },
+  {
+   "tl": "Vale. Nos duchamos y nos vestimos. ¿Y tú?",
+   "ko": "좋아. 씻고 옷 입을게. 너는?"
+  },
+  {
+   "tl": "Me visto ahora. Bueno… otra vez.",
+   "ko": "나 지금 옷 입어. 뭐… 또."
+  },
+  {
+   "tl": "¿Otra vez? ¿Cuántas veces te vistes?",
+   "ko": "또? 몇 번이나 갈아입는 거야?"
+  },
+  {
+   "tl": "Me he cambiado tres veces. Por vosotros… bueno, por ti.",
+   "ko": "벌써 세 번 갈아입었어. 너희 때문에… 아니, 너 때문에."
+  },
+  {
+   "tl": "Vale… ahora me pongo nervioso.",
+   "ko": "아… 이제 나 떨린다."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r3_s09_love_rewrite.md",
+  "model": "전문가"
+ }
 }

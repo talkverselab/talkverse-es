@@ -27,8 +27,8 @@
  ],
  "goal": "ser(eres·soy·es) · gustar(gusta·gusto·gustas) · 짧은 반응",
  "expressions": [
-  "vale",
-  "qué pasa",
+  "mola",
+  "tío",
   "qué fuerte",
   "venga",
   "bueno"
@@ -37,14 +37,16 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¡Vale! ¿Eres {name}?",
-   "rd": "발레! 에레스 {name}?",
-   "ko": "그래! 너 {name} 맞아?",
-   "note": "¿eres…? = 너 ~야?(ser 2인칭) · vale = 그래·좋아",
+   "tl": "¡Ey! ¿Eres {name}?",
+   "rd": "에이! 에레스 {name}?",
+   "ko": "안녕! 너 {name} 맞지?",
+   "note": "¿eres…? = 너 ~야?(ser 2인칭) · ¡ey! = 야·안녕(가볍게)",
    "tags": [
     "form:ser"
    ],
-   "new": [],
+   "new": [
+    "ser"
+   ],
    "ui": "bubble",
    "at": "21:03",
    "stamp": "👀",
@@ -53,15 +55,16 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Sí, soy yo. ¡Qué pasa!",
-   "rd": "시, 소이 요. 께 빠사!",
+   "tl": "Sí, soy yo. ¡Hola!",
+   "rd": "시, 소이 요. 올라!",
    "ko": "응, 나야. 안녕!",
-   "note": "soy yo = 나야(ser 1인칭) · ¡qué pasa! = 안녕·잘 지내(가벼운 인사)",
+   "note": "soy yo = 나야(ser 1인칭 — 1번 eres 와 비교)",
    "tags": [
-    "form:ser",
-    "expr:qué pasa"
+    "form:ser"
    ],
-   "new": [],
+   "new": [
+    "hola"
+   ],
    "ui": "bubble",
    "at": "21:04",
    "stamp": "😊",
@@ -72,13 +75,15 @@
    "speaker": "B",
    "tl": "Tu foto mola, tío.",
    "rd": "뚜 포또 몰라, 띠오.",
-   "ko": "네 사진 멋져, 이봐.",
-   "note": "mola = 멋져(molar) · tío/tía = 친구끼리 부르는 말",
+   "ko": "프사 멋지다.",
+   "note": "mola = 멋져(molar) · tío/tía = 친구끼리 부르는 말(듣는 사람 성에 맞춤)",
    "tags": [
+    "expr:mola",
     "expr:tío"
    ],
    "new": [
-    "foto"
+    "foto",
+    "molar"
    ],
    "ui": "bubble",
    "at": "21:04",
@@ -93,8 +98,10 @@
    "tl": "¡No! Es mi perro.",
    "rd": "노! 에스 미 뻬로.",
    "ko": "아니! 그거 우리 개야.",
-   "note": "es mi perro = 그거 우리 개야(ser 3인칭) · perro = 개",
-   "tags": [],
+   "note": "es mi perro = 그건 우리 개야(ser 3인칭)",
+   "tags": [
+    "form:ser"
+   ],
    "new": [
     "perro"
    ],
@@ -108,13 +115,16 @@
    "speaker": "B",
    "tl": "¡Qué fuerte! El perro me gusta más.",
    "rd": "께 푸에르떼! 엘 뻬로 메 구스따 마스.",
-   "ko": "대박! 개가 더 맘에 들어.",
-   "note": "me gusta más = 더 맘에 들어 · qué fuerte = 대박",
+   "ko": "헐! 개가 더 맘에 드는데.",
+   "note": "me gusta más = 더 맘에 들어(gustar — 좋아하는 대상이 주어) · ¡qué fuerte! = 헐·대박",
    "tags": [
     "expr:qué fuerte",
     "form:gustar"
    ],
-   "new": [],
+   "new": [
+    "gustar",
+    "más"
+   ],
    "ui": "bubble",
    "at": "21:05",
    "stamp": "😂",
@@ -125,15 +135,13 @@
    "speaker": "A",
    "tl": "¡Venga! ¿Y yo no te gusto?",
    "rd": "벤가! 이 요 노 떼 구스또?",
-   "ko": "야! 그럼 나는 안 맘에 들어?",
-   "note": "¿no te gusto? = 내가 맘에 안 들어?(gustar 1인칭 주어) · venga = 야·에이",
+   "ko": "야! 그럼 난 별로야?",
+   "note": "¿no te gusto? = 내가 맘에 안 들어?(gustar 1인칭 주어 — 5번 gusta 와 비교) · ¡venga! = 야·에이",
    "tags": [
     "expr:venga",
     "form:gustar"
    ],
-   "new": [
-    "gustar"
-   ],
+   "new": [],
    "ui": "bubble",
    "at": "21:06",
    "emotion": "tsukkomi"
@@ -143,31 +151,54 @@
    "speaker": "B",
    "tl": "Bueno… tú me gustas más. Un poco.",
    "rd": "부에노… 뚜 메 구스따스 마스. 운 뽀꼬.",
-   "ko": "글쎄… 너 더 맘에 들어. 조금.",
-   "note": "me gustas = 네가 좋아·맘에 들어(gustar 2인칭 주어) — 5번 gusta, 6번 gusto 와 비교",
+   "ko": "음… 네가 더 좋아. 아주 조금.",
+   "note": "me gustas = 네가 좋아(gustar 2인칭 주어) — 5번 gusta, 6번 gusto 와 비교 · bueno = 음·글쎄",
    "tags": [
     "expr:bueno",
     "form:gustar"
    ],
-   "new": [],
+   "new": [
+    "poco"
+   ],
    "ui": "bubble",
    "at": "21:08",
    "stamp": "💕",
-   "segs": [
-    [
-     "shy",
-     "Bueno…"
-    ],
-    [
-     "gentle",
-     "tú me gustas más. Un poco."
-    ]
-   ]
+   "emotion": "shy"
   }
  ],
  "draft": "grok",
  "review": {
   "grok_rewrite": "data/review/grok/r0_love_a1_rewrite.md",
   "model": "전문가"
- }
+ },
+ "draft_claude": [
+  {
+   "tl": "¡Vale! ¿Eres {name}?",
+   "ko": "그래! 너 {name} 맞아?"
+  },
+  {
+   "tl": "Sí, soy yo. ¡Qué pasa!",
+   "ko": "응, 나야. 안녕!"
+  },
+  {
+   "tl": "Tu foto mola, tío.",
+   "ko": "네 사진 멋져, 이봐."
+  },
+  {
+   "tl": "¡No! Es mi perro.",
+   "ko": "아니! 그거 우리 개야."
+  },
+  {
+   "tl": "¡Qué fuerte! El perro me gusta más.",
+   "ko": "대박! 개가 더 맘에 들어."
+  },
+  {
+   "tl": "¡Venga! ¿Y yo no te gusto?",
+   "ko": "야! 그럼 나는 안 맘에 들어?"
+  },
+  {
+   "tl": "Bueno… tú me gustas más. Un poco.",
+   "ko": "글쎄… 너 더 맘에 들어. 조금."
+  }
+ ]
 }
