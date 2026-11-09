@@ -26,7 +26,7 @@
  "domain": [
   "life"
  ],
- "goal": "집 구하기 어휘(alquiler·fianza·calefacción·ascensor·portero·ruido·firmar)",
+ "goal": "집 구하기 어휘(alquiler·fianza·calefacción·ascensor·portero·ruido·contrato·firmar·precio) + firmar/firmamos/firman, incluye/incluida, subir/subo 굴절",
  "expressions": [
   "bueno",
   "vale",
@@ -38,41 +38,43 @@
   {
    "num": 1,
    "speaker": "C",
-   "tl": "Bienvenidos. El piso tiene ochenta metros, terraza y mucha luz.",
-   "rd": "비엔베니도스. 엘 삐소 띠에네 오첸따 메뜨로스, 떼라싸 이 무차 루쓰.",
-   "ko": "어서 오세요. 이 집은 80제곱미터에 테라스, 채광도 좋아요.",
-   "note": "metros = 제곱미터(집 넓이)",
+   "tl": "Bienvenidos al piso. Tiene ochenta metros, terraza y mucha luz natural.",
+   "rd": "비엔베니도스 알 삐소. 띠에네 오첸따 메뜨로스, 떼라싸 이 무차 루쓰 나뚜랄.",
+   "ko": "어서 오세요. 80제곱미터에 테라스도 있고, 햇빛이 아주 잘 들어요.",
+   "note": "metros = 제곱미터(집 넓이) · luz natural = 햇빛(채광)",
    "tags": [],
    "new": [
+    "piso",
     "terraza",
     "luz",
     "metro"
    ],
    "emotion": "polite",
-   "tl_f": "Bienvenidas. El piso tiene ochenta metros, terraza y mucha luz.",
-   "rd_f": "비엔베니다스. 엘 삐소 띠에네 오첸따 메뜨로스, 떼라싸 이 무차 루쓰."
+   "tl_f": "Bienvenidas al piso. Tiene ochenta metros, terraza y mucha luz natural.",
+   "rd_f": "비엔베니다스 알 삐소. 띠에네 오첸따 메뜨로스, 떼라싸 이 무차 루쓰 나뚜랄."
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "¿Y el alquiler? Porque en el anuncio no ponía nada.",
-   "rd": "이 엘 알낄레르? 뽀르께 엔 엘 아눈씨오 노 뽀니아 나다.",
-   "ko": "월세는요? 광고엔 아무것도 안 적혀 있던데요.",
-   "note": "alquiler = 월세 · anuncio = 광고",
+   "tl": "¿Cuánto es el alquiler exactamente? En el anuncio no salía nada.",
+   "rd": "꾸안또 에스 엘 알낄레르 엑사끄따멘떼? 엔 엘 아눈씨오 노 살리아 나다.",
+   "ko": "월세가 정확히 얼마예요? 광고엔 아무것도 안 나왔는데요.",
+   "note": "alquiler = 월세 · anuncio = (부동산) 광고",
    "tags": [],
    "new": [
     "alquiler",
-    "anuncio"
+    "anuncio",
+    "exactamente"
    ],
    "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Mil cuatrocientos al mes, más dos meses de fianza.",
-   "rd": "밀 꾸아뜨로씨엔또스 알 메스, 마스 도스 메세스 데 피안싸.",
+   "tl": "Son mil cuatrocientos al mes, más dos meses de fianza.",
+   "rd": "손 밀 꾸아뜨로씨엔또스 알 메스, 마스 도스 메세스 데 피안싸.",
    "ko": "한 달에 1,400유로고, 보증금은 두 달 치 따로예요.",
-   "note": "fianza = 보증금",
+   "note": "fianza = 보증금 · al mes = 한 달에",
    "tags": [],
    "new": [
     "fianza"
@@ -82,24 +84,24 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Mil cuatrocientos? ¿Están incluidas la calefacción y el agua?",
-   "rd": "밀 꾸아뜨로씨엔또스? 에스딴 인끌루이다스 라 깔레파끄씨온 이 엘 아구아?",
-   "ko": "1,400이요? 난방이랑 수도는 포함인가요?",
-   "note": "incluido = 포함된",
+   "tl": "¿Mil cuatrocientos? ¿Incluye la calefacción y el agua o no?",
+   "rd": "밀 꾸아뜨로씨엔또스? 인끌루예 라 깔레파끄씨온 이 엘 아구아 오 노?",
+   "ko": "1,400이요? 난방이랑 수도는 포함이에요, 아니에요?",
+   "note": "incluye = 포함하다(incluir) · calefacción = 난방",
    "tags": [],
    "new": [
-    "calefacción",
-    "incluir"
+    "incluir",
+    "calefacción"
    ],
    "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "La calefacción, no. Pero el edificio tiene ascensor y portero.",
-   "rd": "라 깔레파끄씨온, 노. 뻬로 엘 에디피씨오 띠에네 아스쎈소르 이 뽀르떼로.",
-   "ko": "난방은 아니에요. 대신 엘리베이터랑 경비원이 있어요.",
-   "note": "portero = 건물 관리인·경비",
+   "tl": "La calefacción no está incluida. Pero hay ascensor y portero en el edificio.",
+   "rd": "라 깔레파끄씨온 노 에스따 인끌루이다. 뻬로 아이 아스쎈소르 이 뽀르떼로 엔 엘 에디피씨오.",
+   "ko": "난방은 포함 안 돼요. 대신 건물에 엘리베이터랑 관리인이 있어요.",
+   "note": "no está incluida = 포함 안 돼 있어요 · portero = 건물 관리인",
    "tags": [],
    "new": [
     "edificio",
@@ -111,16 +113,16 @@
   {
    "num": 6,
    "speaker": "B",
-   "tl": "¿Y el ruido? La calle parece bastante tranquila.",
-   "rd": "이 엘 루이도? 라 까예 빠레쎄 바스딴떼 뜨란낄라.",
-   "ko": "소음은요? 길은 꽤 조용해 보이는데.",
-   "note": "ruido = 소음",
+   "tl": "¿Y qué tal el ruido? La calle parece bastante tranquila.",
+   "rd": "이 께 딸 엘 루이도? 라 까예 빠레쎄 바스딴떼 뜨란낄라.",
+   "ko": "소음은 어때요? 길은 꽤 조용해 보이는데.",
+   "note": "ruido = 소음 · tranquilo = 조용한",
    "tags": [],
    "new": [
     "ruido",
     "tranquilo"
    ],
-   "emotion": "surprised"
+   "emotion": "neutral"
   },
   {
    "num": 7,
@@ -133,26 +135,27 @@
     "expr:bueno"
    ],
    "new": [
+    "abajo",
     "bar",
     "cerrar"
    ],
-   "emotion": "teasing"
+   "emotion": "cheerful"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Vale, eso no es problema. ¿Cuándo podemos firmar?",
-   "rd": "발레, 에소 노 에스 쁘로블레마. 꾸안도 뽀데모스 피르마르?",
-   "ko": "그 정도는 괜찮아요. 언제 계약할 수 있어요?",
-   "note": "firmar = 서명하다·계약하다",
+   "tl": "Vale, eso me parece bien. ¿Cuándo podríamos firmar el contrato?",
+   "rd": "발레, 에소 메 빠레쎄 비엔. 꾸안도 뽀드리아모스 피르마르 엘 꼰뜨라또?",
+   "ko": "그 정도면 괜찮네요. 계약은 언제 할 수 있을까요?",
+   "note": "firmar el contrato = 계약서에 서명하다 · podríamos = ~할 수 있을까요(정중)",
    "tags": [
     "expr:vale"
    ],
    "new": [
     "firmar",
-    "problema"
+    "contrato"
    ],
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 9,
@@ -160,7 +163,7 @@
    "tl": "Es que hoy hay más visitas. Miren, ya están subiendo.",
    "rd": "에스 께 오이 아이 마스 비시따스. 미렌, 야 에스딴 수비엔도.",
    "ko": "그게, 오늘 보러 오는 분들이 더 있어요. 보세요, 벌써 올라오고 있네요.",
-   "note": "visita = (집) 보러 오는 사람 · miren = 보세요(ustedes) · están subiendo = 올라오는 중",
+   "note": "es que = 그게요(사정 설명) · miren = 보세요(ustedes) · están subiendo = 올라오는 중",
    "tags": [
     "expr:es que"
    ],
@@ -168,17 +171,19 @@
     "visita",
     "subir"
    ],
-   "emotion": "neutral"
+   "emotion": "polite"
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "¿Más visitas? ¿Cuántas hay hoy?",
-   "rd": "마스 비시따스? 꾸안따스 아이 오이?",
-   "ko": "또 보러 와요? 오늘 몇 팀이나요?",
-   "note": "¿cuántas? = 몇 (팀)?",
+   "tl": "¿Más visitas? ¿Cuántas hay previstas para hoy?",
+   "rd": "마스 비시따스? 꾸안따스 아이 쁘레비스따스 빠라 오이?",
+   "ko": "또 와요? 오늘 몇 팀이나 잡혀 있는데요?",
+   "note": "previsto = 예정된 · ¿cuántas? = 몇 팀?",
    "tags": [],
-   "new": [],
+   "new": [
+    "previsto"
+   ],
    "emotion": "surprised"
   },
   {
@@ -187,20 +192,20 @@
    "tl": "Doce esta tarde. Y una pareja ya ha ofrecido cien euros más al mes.",
    "rd": "도쎄 에스따 따르데. 이 우나 빠레하 야 아 오프레씨도 씨엔 에우로스 마스 알 메스.",
    "ko": "오늘 오후에만 열두 팀이요. 그리고 한 커플은 벌써 월세 100유로 더 내겠다고 했어요.",
-   "note": "ofrecer = 제안하다 · al mes = 한 달에",
+   "note": "ofrecer = 제안하다 · pareja = 커플",
    "tags": [],
    "new": [
     "pareja",
     "ofrecer"
    ],
-   "emotion": "amused"
+   "emotion": "polite"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "¿Cien más? Y si firmamos hoy, ¿nos baja el precio?",
-   "rd": "씨엔 마스? 이 시 피르마모스 오이, 노스 바하 엘 쁘레씨오?",
-   "ko": "100유로 더요? 그럼 오늘 계약하면 좀 깎아 주시나요?",
+   "tl": "¿Cien euros más? Si firmamos hoy, ¿nos puede bajar algo el precio?",
+   "rd": "씨엔 에우로스 마스? 시 피르마모스 오이, 노스 뿌에데 바하르 알고 엘 쁘레씨오?",
+   "ko": "100유로 더요? 오늘 계약하면 가격 좀 깎아 주실 수 있나요?",
    "note": "bajar el precio = 값을 깎다",
    "tags": [],
    "new": [
@@ -212,21 +217,21 @@
   {
    "num": 13,
    "speaker": "C",
-   "tl": "Bajarlo, no. Pero si firman hoy, no se lo subo.",
-   "rd": "바하를로, 노. 뻬로 시 피르만 오이, 노 세 로 수보.",
-   "ko": "깎는 건 안 돼요. 대신 오늘 계약하시면 안 올릴게요.",
-   "note": "no se lo subo = (값을) 안 올려 드릴게요 · subir = 올리다",
+   "tl": "Bajarlo no puedo. Pero si firman hoy, no se lo subo.",
+   "rd": "바하를로 노 뿌에도. 뻬로 시 피르만 오이, 노 세 로 수보.",
+   "ko": "깎는 건 못 해요. 대신 오늘 계약하시면 안 올릴게요.",
+   "note": "no se lo subo = (값을) 안 올릴게요 · subir = 올리다",
    "tags": [],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "polite"
   },
   {
    "num": 14,
    "speaker": "B",
-   "tl": "Madre mía. Madrid está loco, {name}. Vámonos.",
-   "rd": "마드레 미아. 마드리드 에스따 로꼬, {name}. 바모노스.",
-   "ko": "세상에. 마드리드 미쳤어, {name}. 가자.",
-   "note": "vámonos = 가자 · loco = 미친",
+   "tl": "Madre mía. Madrid está completamente loco, {name}. Vámonos ya.",
+   "rd": "마드레 미아. 마드리드 에스따 꼼쁠레따멘떼 로꼬, {name}. 바모노스 야.",
+   "ko": "세상에. 마드리드 진짜 미쳤어, {name}. 그냥 가자.",
+   "note": "madre mía = 세상에 · vámonos = 가자 · loco = 미친",
    "tags": [
     "expr:madre mía"
    ],
@@ -238,24 +243,15 @@
   {
    "num": 15,
    "speaker": "A",
-   "tl": "Espera. ¿Dónde se firma?",
-   "rd": "에스뻬라. 돈데 세 피르마?",
-   "ko": "잠깐. 어디에 서명하면 돼요?",
-   "note": "¿dónde se firma? = 어디에 서명해요?",
+   "tl": "Espera, espera. ¿Dónde hay que firmar entonces?",
+   "rd": "에스뻬라, 에스뻬라. 돈데 아이 께 피르마르 엔똔쎄스?",
+   "ko": "잠깐, 잠깐. …저기요, 어디에 서명하면 돼요?",
+   "note": "espera = 잠깐(tú) · ¿dónde hay que firmar? = 어디에 서명하면 돼요?",
    "tags": [
     "expr:espera"
    ],
    "new": [],
-   "segs": [
-    [
-     "tsukkomi",
-     "Espera."
-    ],
-    [
-     "excited",
-     "¿Dónde se firma?"
-    ]
-   ]
+   "emotion": "flustered"
   }
  ],
  "draft": "grok",

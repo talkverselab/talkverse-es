@@ -23,16 +23,19 @@
  "domain": [
   "friends"
  ],
- "goal": "갈등 어휘(mentira·excusa·harto·queja·discutir·pelear·disculpa·confianza·grupo)",
+ "goal": "갈등 어휘(mentira·excusa·harto·queja·discutir·pelearse·disculpa·confianza·grupo·retraso) + 미래형 será",
  "expressions": [
-  "tía",
   "lo siento",
+  "tía",
+  "en plan",
   "vale",
-  "qué rollo",
+  "tranquilo",
   "y tú",
-  "en serio",
-  "perdón",
+  "qué rollo",
+  "ya",
   "espera",
+  "en serio",
+  "tío",
   "no te preocupes",
   "por cierto"
  ],
@@ -40,13 +43,14 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Javi, ¿otra vez? Te esperamos una hora en la puerta del cine.",
-   "rd": "하비, 오뜨라 베쓰? 떼 에스뻬라모스 우나 오라 엔 라 뿌에르따 델 씨네.",
-   "ko": "하비, 또야? 영화관 앞에서 한 시간 기다렸어.",
-   "note": "cine = 영화관",
+   "tl": "Javi, ¿otra vez tarde? Te esperamos una hora en la puerta del cine.",
+   "rd": "하비, 오뜨라 베쓰 따르데? 떼 에스뻬라모스 우나 오라 엔 라 뿌에르따 델 씨네.",
+   "ko": "하비, 또 늦었어? 영화관 앞에서 한 시간 기다렸어.",
+   "note": "otra vez = 또 · cine = 영화관",
    "tags": [],
    "new": [
-    "cine"
+    "cine",
+    "esperar"
    ],
    "ui": "bubble",
    "at": "21:02",
@@ -55,49 +59,54 @@
   {
    "num": 2,
    "speaker": "C",
-   "tl": "Lo siento, tía. Hubo un problema con el metro.",
-   "rd": "로 시엔또, 띠아. 우보 운 쁘로블레마 꼰 엘 메뜨로.",
-   "ko": "미안, 지하철에 문제가 있었어.",
-   "note": "metro = 지하철",
+   "tl": "Lo siento, tía. Hubo lío con el metro, en plan retraso gordo.",
+   "rd": "로 시엔또, 띠아. 우보 리오 꼰 엘 메뜨로, 엔 쁠란 레뜨라소 고르도.",
+   "ko": "미안해. 지하철이 난리였어, 완전 크게 지연돼서.",
+   "note": "retraso = 지연 · lío = 난리 · en plan = 말하자면",
    "tags": [
+    "expr:lo siento",
     "expr:tía",
-    "expr:lo siento"
+    "expr:en plan"
    ],
    "new": [
-    "metro"
+    "metro",
+    "lío",
+    "retraso"
    ],
    "ui": "bubble",
    "at": "21:03",
-   "emotion": "flustered"
+   "emotion": "worried"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Mentira. Te vi en la foto de tu primo, en el bar. A las ocho.",
-   "rd": "멘띠라. 떼 비 엔 라 포또 데 뚜 쁘리모, 엔 엘 바르. 아 라스 오초.",
-   "ko": "거짓말. 네 사촌 사진에 너 있던데, 바에서. 여덟 시에.",
-   "note": "mentira = 거짓말",
+   "tl": "Mentira. Te vi en la foto de tu primo, en el bar a las ocho.",
+   "rd": "멘띠라. 떼 비 엔 라 포또 데 뚜 쁘리모, 엔 엘 바르 아 라스 오초.",
+   "ko": "거짓말. 네 사촌 사진에 너 있던데. 여덟 시에 바에서.",
+   "note": "mentira = 거짓말 · te vi = 너를 봤다(단순과거)",
    "tags": [],
    "new": [
-    "mentira"
+    "mentira",
+    "foto"
    ],
    "ui": "bubble",
    "at": "21:03",
-   "emotion": "shout"
+   "emotion": "tsukkomi"
   },
   {
    "num": 4,
    "speaker": "C",
-   "tl": "Vale, sí. Pero era una emergencia: había partido.",
-   "rd": "발레, 시. 뻬로 에라 우나 에메르헨씨아: 아비아 빠르띠도.",
-   "ko": "그래, 맞아. 근데 긴급 상황이었어. 경기가 있었다고.",
-   "note": "emergencia = 긴급 상황 · partido = 경기",
+   "tl": "Vale, sí. Pero era una emergencia: había partido y no podía faltar.",
+   "rd": "발레, 시. 뻬로 에라 우나 에메르헨씨아: 아비아 빠르띠도 이 노 뽀디아 팔따르.",
+   "ko": "그래, 맞아. 근데 긴급 상황이었어. 경기가 있어서 빠질 수가 없었다고.",
+   "note": "emergencia = 긴급 상황 · partido = 경기 · faltar = 빠지다",
    "tags": [
     "expr:vale"
    ],
    "new": [
     "emergencia",
-    "partido"
+    "partido",
+    "faltar"
    ],
    "ui": "bubble",
    "at": "21:05",
@@ -107,11 +116,13 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Chicos, tranquilos. No hace falta discutir en el grupo.",
-   "rd": "치꼬스, 뜨란낄로스. 노 아쎄 팔따 디스꾸띠르 엔 엘 그루뽀.",
-   "ko": "얘들아, 진정해. 단톡방에서 싸울 필요는 없잖아.",
-   "note": "discutir = 말다툼하다 · grupo = 단톡방",
-   "tags": [],
+   "tl": "Chicos, tranquilos. No hace falta discutir así en el grupo.",
+   "rd": "치꼬스, 뜨란낄로스. 노 아쎄 팔따 디스꾸띠르 아시 엔 엘 그루뽀.",
+   "ko": "얘들아, 진정해. 단톡방에서 이렇게 싸울 필요는 없잖아.",
+   "note": "discutir = 말다툼하다 · grupo = 단톡방 · no hace falta = ~할 필요 없다",
+   "tags": [
+    "expr:tranquilo"
+   ],
    "new": [
     "discutir",
     "grupo"
@@ -123,11 +134,13 @@
   {
    "num": 6,
    "speaker": "B",
-   "tl": "No es solo hoy. Estoy harta de sus excusas. Siempre lo mismo.",
-   "rd": "노 에스 솔로 오이. 에스또이 아르따 데 수스 엑스꾸사스. 시엠쁘레 로 미스모.",
-   "ko": "오늘만이 아니야. 걔 핑계 지겨워. 맨날 똑같아.",
-   "note": "harto de = ~에 질린 · excusa = 핑계",
-   "tags": [],
+   "tl": "No es solo hoy. Estoy harta de sus excusas. Y mañana será igual.",
+   "rd": "노 에스 솔로 오이. 에스또이 아르따 데 수스 엑스꾸사스. 이 마냐나 세라 이구알.",
+   "ko": "오늘만 그런 게 아니야. 걔 핑계 지긋지긋해. 내일도 똑같을 거야.",
+   "note": "harta de = ~에 질린 · excusa = 핑계 · será igual = 똑같을 거야(미래형)",
+   "tags": [
+    "form:futuro"
+   ],
    "new": [
     "harto",
     "excusa"
@@ -139,14 +152,14 @@
   {
    "num": 7,
    "speaker": "C",
-   "tl": "¿Y tú? Siempre tienes alguna queja. Qué rollo, tía.",
-   "rd": "이 뚜? 시엠쁘레 띠에네스 알구나 께하. 께 로요, 띠아.",
-   "ko": "너는? 맨날 불만이잖아. 피곤하다, 진짜.",
-   "note": "queja = 불만 · qué rollo = 지겹다",
+   "tl": "¿Y tú? Siempre con alguna queja. Qué rollo, tía.",
+   "rd": "이 뚜? 시엠쁘레 꼰 알구나 께하. 께 로요, 띠아.",
+   "ko": "너는? 맨날 불만이잖아. 진짜 피곤하다.",
+   "note": "queja = 불만 · qué rollo = 지겹다·피곤하다",
    "tags": [
-    "expr:tía",
+    "expr:y tú",
     "expr:qué rollo",
-    "expr:y tú"
+    "expr:tía"
    ],
    "new": [
     "queja"
@@ -158,30 +171,36 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Perfecto. Me salgo del grupo.",
-   "rd": "뻬르페끄또. 메 살고 델 그루뽀.",
-   "ko": "좋아. 나 단톡방 나간다.",
+   "tl": "Perfecto. Me salgo del grupo ya.",
+   "rd": "뻬르페끄또. 메 살고 델 그루뽀 야.",
+   "ko": "좋아. 나 지금 단톡방 나간다.",
    "note": "salirse de = ~에서 나가다",
-   "tags": [],
-   "new": [],
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [
+    "salirse"
+   ],
    "ui": "bubble",
    "at": "21:08",
    "stamp": "😤",
-   "emotion": "stiff"
+   "emotion": "shout"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Lucía, espera. Javi, pídele perdón. En serio.",
-   "rd": "루씨아, 에스뻬라. 하비, 삐델레 뻬르돈. 엔 세리오.",
-   "ko": "루시아, 잠깐. 하비, 사과해. 진심으로.",
-   "note": "pedir perdón = 사과하다",
+   "tl": "Lucía, espera. Javi, pídele disculpas. En serio, tío.",
+   "rd": "루씨아, 에스뻬라. 하비, 삐델레 디스꿀빠스. 엔 세리오, 띠오.",
+   "ko": "루시아, 잠깐만. 하비, 사과해. 진짜로.",
+   "note": "pedir disculpas = 사과하다 · pídele = 그녀에게 부탁해(명령+대명사)",
    "tags": [
+    "expr:espera",
     "expr:en serio",
-    "expr:perdón",
-    "expr:espera"
+    "expr:tío"
    ],
-   "new": [],
+   "new": [
+    "disculpa"
+   ],
    "ui": "bubble",
    "at": "21:09",
    "emotion": "worried"
@@ -189,71 +208,76 @@
   {
    "num": 10,
    "speaker": "A",
-   "tl": "¿Javi? ¿Lucía? Sé que lo estáis leyendo.",
-   "rd": "하비? 루씨아? 세 께 로 에스따이스 레옌도.",
-   "ko": "하비? 루시아? 너희 읽고 있는 거 다 알아.",
-   "note": "estáis leyendo = 너희가 읽고 있다",
+   "tl": "¿Javi? ¿Lucía? Sé que lo estáis leyendo los dos.",
+   "rd": "하비? 루씨아? 세 께 로 에스따이스 레옌도 로스 도스.",
+   "ko": "하비? 루시아? 너희 둘 다 읽고 있는 거 다 알아.",
+   "note": "estáis leyendo = 너희가 읽고 있다(vosotros)",
    "tags": [],
-   "new": [],
+   "new": [
+    "leer"
+   ],
    "ui": "bubble",
    "at": "21:20",
    "read": false,
-   "emotion": "flustered"
+   "emotion": "surprised"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "{name}, no te preocupes. Javi está aquí.",
-   "rd": "{name}, 노 떼 쁘레오꾸뻬스. 하비 에스따 아끼.",
-   "ko": "{name}, 걱정 마. 하비 여기 있어.",
-   "note": "no te preocupes = 걱정 마",
+   "tl": "{name}, no te preocupes. Javi está aquí conmigo.",
+   "rd": "{name}, 노 떼 쁘레오꾸뻬스. 하비 에스따 아끼 꼰미고.",
+   "ko": "{name}, 걱정 마. 하비 지금 나랑 같이 있어.",
+   "note": "no te preocupes = 걱정 마 · conmigo = 나랑",
    "tags": [
     "expr:no te preocupes"
    ],
-   "new": [],
+   "new": [
+    "conmigo"
+   ],
    "ui": "bubble",
    "at": "21:31",
-   "emotion": "cheerful"
+   "emotion": "gentle"
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Estoy en su puerta. Con churros y chocolate. Disculpa aceptada.",
-   "rd": "에스또이 엔 수 뿌에르따. 꼰 추로스 이 초꼴라떼. 디스꿀빠 아쎄쁘따다.",
-   "ko": "루시아 집 앞이야. 추로스랑 초콜릿 들고. 사과 받아 줬어.",
-   "note": "disculpa = 사과 · chocolate = 핫초코",
+   "tl": "Estoy en la puerta de su casa. Con churros y chocolate. Disculpas aceptadas.",
+   "rd": "에스또이 엔 라 뿌에르따 데 수 까사. 꼰 추로스 이 초꼴라떼. 디스꿀빠스 아쎄쁘따다스.",
+   "ko": "루시아네 집 앞이야. 추로스랑 핫초코 들고. 사과 받아 줬어.",
+   "note": "disculpas aceptadas = 사과 받아 줬어 · chocolate = 핫초코",
    "tags": [],
    "new": [
     "chocolate",
-    "disculpa"
+    "aceptar"
    ],
    "ui": "bubble",
    "at": "21:31",
    "stamp": "🍫",
-   "emotion": "teasing"
+   "emotion": "cheerful"
   },
   {
    "num": 13,
    "speaker": "A",
    "tl": "¿Os habéis peleado una hora y ahora estáis juntos?",
    "rd": "오스 아베이스 뻴레아도 우나 오라 이 아오라 에스따이스 훈또스?",
-   "ko": "한 시간 동안 싸워 놓고 지금 같이 있다고?",
+   "ko": "한 시간 싸워 놓고 지금 같이 있다고?",
    "note": "os habéis peleado = 너희 싸웠다(pelearse 현재완료)",
    "tags": [],
    "new": [
-    "pelear"
+    "pelearse",
+    "junto"
    ],
    "ui": "bubble",
    "at": "21:32",
-   "emotion": "surprised"
+   "emotion": "shout"
   },
   {
    "num": 14,
    "speaker": "B",
    "tl": "Así funciona la confianza, {name}. Por cierto, ¿tú dónde estás?",
    "rd": "아시 푼씨오나 라 꼰피안싸, {name}. 뽀르 씨에르또, 뚜 돈데 에스따스?",
-   "ko": "신뢰란 그런 거야, {name}. 그나저나 넌 어디야?",
-   "note": "confianza = 신뢰·편한 사이",
+   "ko": "원래 친한 사이는 그런 거야, {name}. 그나저나 넌 어디야?",
+   "note": "confianza = 신뢰·편한 사이 · por cierto = 그나저나",
    "tags": [
     "expr:por cierto"
    ],
@@ -262,21 +286,21 @@
    ],
    "ui": "bubble",
    "at": "21:33",
-   "emotion": "teasing"
+   "emotion": "amused"
   },
   {
    "num": 15,
    "speaker": "A",
-   "tl": "En la puerta del cine. Esperándoos. Desde las ocho.",
-   "rd": "엔 라 뿌에르따 델 씨네. 에스뻬란도오스. 데스데 라스 오초.",
-   "ko": "영화관 앞. 너희 기다리면서. 여덟 시부터.",
-   "note": "esperándoos = 너희를 기다리면서",
+   "tl": "En la puerta del cine. Esperándoos desde las ocho.",
+   "rd": "엔 라 뿌에르따 델 씨네. 에스뻬란도오스 데스데 라스 오초.",
+   "ko": "영화관 앞. 여덟 시부터 너희 기다리는 중.",
+   "note": "esperándoos = 너희를 기다리면서(현재분사+대명사)",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "21:33",
    "stamp": "🥲",
-   "emotion": "tsukkomi"
+   "emotion": "sad"
   }
  ],
  "draft": "grok",

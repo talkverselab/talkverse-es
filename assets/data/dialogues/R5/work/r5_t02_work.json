@@ -24,14 +24,14 @@
  "domain": [
   "work"
  ],
- "goal": "직장 어휘(empresa·oficina·reunión·cliente·sueldo·cobrar·contrato·firmar·cantidad) + pedir·pagar·cobrar 인칭 바꿔 쓰기",
+ "goal": "직장 어휘(empresa·oficina·reunión·cliente·encargo·cantidad·sueldo·cobrar·contrato·firmar) + pedir·pagar·cobrar 인칭 바꿔 쓰기, 미래형 quedará·pagaré",
  "expressions": [
   "gracias",
   "vaya",
-  "por cierto",
-  "tranquilo",
-  "ya está",
   "mira",
+  "tranquilo",
+  "por cierto",
+  "ya está",
   "madre mía",
   "ahora mismo",
   "espera"
@@ -40,10 +40,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Bienvenido a la empresa, {name}. Esta es tu mesa y este, tu ordenador.",
-   "rd": "비엔베니도 아 라 엠쁘레사, {name}. 에스따 에스 뚜 메사 이 에스떼, 뚜 오르데나도르.",
-   "ko": "회사에 온 걸 환영해요, {name}. 여기가 자리고, 이게 컴퓨터예요.",
-   "note": "empresa = 회사 · ordenador = 컴퓨터(스페인)",
+   "tl": "Bienvenido a la empresa, {name}. Aquí tienes tu mesa y tu ordenador.",
+   "rd": "비엔베니도 아 라 엠쁘레사, {name}. 아끼 띠에네스 뚜 메사 이 뚜 오르데나도르.",
+   "ko": "회사에 온 걸 환영해요, {name}. 여기가 자리고 이게 컴퓨터예요.",
+   "note": "bienvenido a la empresa = 회사에 온 걸 환영해요 · ordenador = 컴퓨터",
    "tags": [],
    "new": [
     "empresa",
@@ -51,88 +51,98 @@
     "ordenador"
    ],
    "emotion": "polite",
-   "tl_f": "Bienvenida a la empresa, {name}. Esta es tu mesa y este, tu ordenador.",
-   "rd_f": "비엔베니다 아 라 엠쁘레사, {name}. 에스따 에스 뚜 메사 이 에스떼, 뚜 오르데나도르."
+   "tl_f": "Bienvenida a la empresa, {name}. Aquí tienes tu mesa y tu ordenador.",
+   "rd_f": "비엔베니다 아 라 엠쁘레사, {name}. 아끼 띠에네스 뚜 메사 이 뚜 오르데나도르."
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Gracias. ¿A qué hora es la reunión con el cliente?",
-   "rd": "그라씨아스. 아 께 오라 에스 라 레우니온 꼰 엘 끌리엔떼?",
-   "ko": "감사합니다. 고객이랑 회의는 몇 시예요?",
+   "tl": "Gracias. ¿A qué hora empieza la reunión con el cliente?",
+   "rd": "그라씨아스. 아 께 오라 엠삐에싸 라 레우니온 꼰 엘 끌리엔떼?",
+   "ko": "감사합니다. 고객이랑 하는 회의는 몇 시에 시작해요?",
    "note": "reunión = 회의 · cliente = 고객",
    "tags": [
     "expr:gracias"
    ],
    "new": [
     "reunión",
-    "cliente"
+    "cliente",
+    "empezar"
    ],
-   "emotion": "surprised"
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "A las doce. Y tu primera tarea: pide la comida para la reunión. Somos diez.",
-   "rd": "아 라스 도쎄. 이 뚜 쁘리메라 따레아: 삐데 라 꼬미다 빠라 라 레우니온. 소모스 디에쓰.",
+   "tl": "A las doce. Y tu primer encargo: pide la comida para la reunión. Somos diez.",
+   "rd": "아 라스 도쎄. 이 뚜 쁘리메르 엔까르고: 삐데 라 꼬미다 빠라 라 레우니온. 소모스 디에쓰.",
    "ko": "열두 시요. 그리고 첫 업무: 회의 때 먹을 점심 주문해 줘요. 열 명이에요.",
-   "note": "pide = 주문해(pedir 명령)",
+   "note": "encargo = 맡긴 일 · pide = 주문해(pedir 명령)",
    "tags": [],
    "new": [
-    "tarea"
+    "encargo",
+    "comida"
    ],
-   "emotion": "neutral"
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "C",
-   "tl": "Ah, la tarea del nuevo. Yo pedí pizza el año pasado y llegó fría.",
-   "rd": "아, 라 따레아 델 누에보. 요 뻬디 삐짜 엘 아뇨 빠사도 이 예고 프리아.",
-   "ko": "아, 신입 업무구나. 나는 작년에 피자 시켰는데 식어서 왔어.",
-   "note": "pedí = (나) 시켰다 · llegó = 도착했다",
+   "tl": "Ah, la misión del novato. Yo pedí pizza el año pasado y llegó helada.",
+   "rd": "아, 라 미시온 델 노바또. 요 뻬디 삐짜 엘 아뇨 빠사도 이 예고 엘라다.",
+   "ko": "아, 신입 임무구나. 나는 작년에 피자 시켰는데 꽁꽁 식어서 왔어.",
+   "note": "novato = 신입 · llegó helada = 꽁꽁 식어서 왔다",
    "tags": [],
-   "new": [],
-   "emotion": "teasing"
+   "new": [
+    "misión",
+    "novato",
+    "helado"
+   ],
+   "emotion": "amused",
+   "tl_f": "Ah, la misión de la novata. Yo pedí pizza el año pasado y llegó helada.",
+   "rd_f": "아, 라 미시온 데 라 노바따. 요 뻬디 삐짜 엘 아뇨 빠사도 이 예고 엘라다."
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Vaya. ¿Y qué pido? ¿Bocadillos? ¿Y quién paga?",
-   "rd": "바야. 이 께 삐도? 보까디요스? 이 끼엔 빠가?",
-   "ko": "이런. 그럼 뭘 시켜요? 바게트 샌드위치? 돈은 누가 내요?",
-   "note": "pido = (내가) 시키다 · bocadillo = 바게트 샌드위치",
+   "tl": "Vaya. ¿Qué pido entonces? ¿Bocadillos? ¿Y quién paga todo?",
+   "rd": "바야. 께 삐도 엔똔쎄스? 보까디요스? 이 끼엔 빠가 또도?",
+   "ko": "이런. 그럼 뭘 시켜요? 샌드위치? 돈은 누가 다 내요?",
+   "note": "vaya = 이런 · ¿quién paga? = 누가 내요?",
    "tags": [
     "expr:vaya"
    ],
    "new": [
-    "bocadillo"
+    "bocadillo",
+    "pagar"
    ],
    "emotion": "worried"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Bocadillos, perfecto. Paga la empresa. Los pides con la app de la oficina.",
-   "rd": "보까디요스, 뻬르페끄또. 빠가 라 엠쁘레사. 로스 삐데스 꼰 라 아쁘쁘 데 라 오피씨나.",
+   "tl": "Bocadillos, perfecto. Paga la empresa. Los pides desde la app de la oficina.",
+   "rd": "보까디요스, 뻬르페끄또. 빠가 라 엠쁘레사. 로스 삐데스 데스데 라 아쁘쁘 데 라 오피씨나.",
    "ko": "샌드위치 좋아요. 회사가 내요. 사무실 앱으로 시키면 돼요.",
-   "note": "paga = (회사가) 낸다 · oficina = 사무실",
+   "note": "paga la empresa = 회사가 내요 · oficina = 사무실",
    "tags": [],
    "new": [
     "oficina"
    ],
-   "emotion": "cheerful"
+   "emotion": "gentle"
   },
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Y mira bien la cantidad antes de pagar. Te lo digo por experiencia.",
-   "rd": "이 미라 비엔 라 깐띠다드 안떼스 데 빠가르. 떼 로 디고 뽀르 엑스뻬리엔씨아.",
-   "ko": "그리고 결제하기 전에 수량 잘 봐. 경험에서 하는 말이야.",
-   "note": "cantidad = 수량 · por experiencia = 경험상",
+   "tl": "Y mira: revisa bien la cantidad antes de pagar. Te lo digo por experiencia.",
+   "rd": "이 미라: 레비사 비엔 라 깐띠다드 안떼스 데 빠가르. 떼 로 디고 뽀르 엑스뻬리엔씨아.",
+   "ko": "그리고 있잖아, 결제하기 전에 수량 잘 확인해. 겪어 봐서 하는 말이야.",
+   "note": "cantidad = 수량 · por experiencia = 겪어 봐서",
    "tags": [
     "expr:mira"
    ],
    "new": [
+    "revisar",
     "cantidad",
     "experiencia"
    ],
@@ -141,10 +151,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Tranquilo, lo controlo. Por cierto, ¿el sueldo se cobra a final de mes?",
-   "rd": "뜨란낄로, 로 꼰뜨롤로. 뽀르 씨에르또, 엘 수엘도 세 꼬브라 아 피날 데 메스?",
-   "ko": "걱정 마요, 잘 알아요. 그나저나 월급은 월말에 나오나요?",
-   "note": "sueldo = 월급 · cobrar = (돈을) 받다",
+   "tl": "Tranquilo, lo tengo controlado. Por cierto, ¿el sueldo se cobra a final de mes?",
+   "rd": "뜨란낄로, 로 뗀고 꼰뜨롤라도. 뽀르 씨에르또, 엘 수엘도 세 꼬브라 아 피날 데 메스?",
+   "ko": "걱정 마요, 다 알아서 해요. 그나저나 월급은 월말에 나와요?",
+   "note": "sueldo = 월급 · cobrar = (월급을) 받다",
    "tags": [
     "expr:tranquilo",
     "expr:por cierto"
@@ -159,12 +169,14 @@
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Cobramos el día treinta. Y el treinta y uno ya no nos queda nada.",
-   "rd": "꼬브라모스 엘 디아 뜨레인따. 이 엘 뜨레인따 이 우노 야 노 노스 께다 나다.",
-   "ko": "30일에 받아. 그리고 31일엔 벌써 한 푼도 안 남아.",
-   "note": "cobramos = (우리) 받는다 · quedar = 남다",
+   "tl": "Cobramos el día treinta. Y el treinta y uno ya no te quedará nada.",
+   "rd": "꼬브라모스 엘 디아 뜨레인따. 이 엘 뜨레인따 이 우노 야 노 떼 께다라 나다.",
+   "ko": "30일에 받아. 근데 31일이면 벌써 한 푼도 안 남아 있을걸.",
+   "note": "cobramos = 우리 (월급) 받아 · quedará = 남을 거야(미래형)",
    "tags": [],
-   "new": [],
+   "new": [
+    "quedar"
+   ],
    "emotion": "amused"
   },
   {
@@ -173,35 +185,37 @@
    "tl": "Ya está. He pedido diez bocadillos. Llegan a las doce menos cuarto.",
    "rd": "야 에스따. 에 뻬디도 디에쓰 보까디요스. 예간 아 라스 도쎄 메노스 꾸아르또.",
    "ko": "됐어요. 샌드위치 열 개 시켰어요. 열한 시 사십오 분에 온대요.",
-   "note": "he pedido = 시켰다(오늘 일) · llegan = 도착한다",
+   "note": "ya está = 됐다 · he pedido = 주문했어요(오늘 일)",
    "tags": [
     "expr:ya está"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 11,
    "speaker": "C",
-   "tl": "¿Diez? Mira el móvil: «Cantidad: cien». ¿Has pedido cien bocadillos?",
-   "rd": "디에쓰? 미라 엘 모빌: «깐띠다드: 씨엔». 아스 뻬디도 씨엔 보까디요스?",
-   "ko": "열 개? 폰 봐 봐: 「수량: 100」. 샌드위치 백 개 시킨 거야?",
-   "note": "has pedido = (너) 시켰어?",
+   "tl": "¿Diez? Mira el móvil: «Cantidad: cien». ¿Has pedido cien de verdad?",
+   "rd": "디에쓰? 미라 엘 모빌: «깐띠다드: 씨엔». 아스 뻬디도 씨엔 데 베르다드?",
+   "ko": "열 개? 폰 봐 봐: 「수량: 100」. 진짜 백 개 시킨 거야?",
+   "note": "¿has pedido? = 주문한 거야?(현재완료)",
    "tags": [
     "expr:mira"
    ],
    "new": [],
-   "emotion": "shout"
+   "emotion": "surprised"
   },
   {
    "num": 12,
    "speaker": "D",
-   "tl": "Buenos días. ¿La empresa de {name}? Traigo cien bocadillos. Abajo hay tres compañeros más con las cajas.",
-   "rd": "부에노스 디아스. 라 엠쁘레사 데 {name}? 뜨라이고 씨엔 보까디요스. 아바호 아이 뜨레스 꼼빠녜로스 마스 꼰 라스 까하스.",
-   "ko": "안녕하세요. {name} 씨 회사죠? 샌드위치 백 개 왔습니다. 아래에 동료 셋이 상자 들고 더 있어요.",
-   "note": "caja = 상자 · compañero = 동료",
+   "tl": "Buenos días. ¿Es la empresa de {name}? Traigo cien bocadillos. Abajo hay tres compañeros más con cajas.",
+   "rd": "부에노스 디아스. 에스 라 엠쁘레사 데 {name}? 뜨라이고 씨엔 보까디요스. 아바호 아이 뜨레스 꼼빠녜로스 마스 꼰 까하스.",
+   "ko": "안녕하세요. {name} 씨 회사 맞죠? 샌드위치 백 개 왔습니다. 아래에 동료 셋이 상자 들고 더 있어요.",
+   "note": "traigo = 가져왔습니다(traer) · compañero = 동료",
    "tags": [],
    "new": [
+    "traer",
+    "caja",
     "compañero"
    ],
    "emotion": "polite"
@@ -209,10 +223,10 @@
   {
    "num": 13,
    "speaker": "B",
-   "tl": "¡Madre mía! ¿Y quién paga esto? ¡El cliente está subiendo ahora mismo!",
-   "rd": "마드레 미아! 이 끼엔 빠가 에스또? 엘 끌리엔떼 에스따 수비엔도 아오라 미스모!",
-   "ko": "세상에! 이거 누가 내요? 고객이 지금 올라오고 있다고요!",
-   "note": "¿quién paga? = 누가 내?",
+   "tl": "¡Madre mía! ¿Y quién paga todo esto? ¡El cliente está subiendo ahora mismo!",
+   "rd": "마드레 미아! 이 끼엔 빠가 또도 에스또? 엘 끌리엔떼 에스따 수비엔도 아오라 미스모!",
+   "ko": "세상에! 이거 다 누가 내요? 고객이 지금 올라오고 있다고요!",
+   "note": "¿quién paga? = 누가 내요? · ahora mismo = 지금 당장",
    "tags": [
     "expr:madre mía",
     "expr:ahora mismo"
@@ -223,43 +237,40 @@
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Lo pago yo… con mi primer sueldo. Y con el segundo.",
-   "rd": "로 빠고 요… 꼰 미 쁘리메르 수엘도. 이 꼰 엘 세군도.",
-   "ko": "제가 낼게요… 첫 월급으로요. 두 번째 월급까지.",
-   "note": "pago = (내가) 낸다",
+   "tl": "Lo pagaré yo… con mi primer sueldo. Y con el segundo también.",
+   "rd": "로 빠가레 요… 꼰 미 쁘리메르 수엘도. 이 꼰 엘 세군도 땀비엔.",
+   "ko": "제가 낼게요… 첫 월급으로요. 두 번째 월급까지요.",
+   "note": "lo pagaré yo = 제가 낼게요(미래형 = 약속)",
    "tags": [],
-   "new": [],
+   "new": [
+    "segundo"
+   ],
    "emotion": "flustered"
   },
   {
    "num": 15,
    "speaker": "B",
-   "tl": "Espera. El cliente se está comiendo el tercero. Dice que es la mejor reunión de su vida.",
-   "rd": "에스뻬라. 엘 끌리엔떼 세 에스따 꼬미엔도 엘 떼르쎄로. 디쎄 께 에스 라 메호르 레우니온 데 수 비다.",
-   "ko": "잠깐. 고객이 벌써 세 개째 먹고 있어요. 인생 최고의 회의래요.",
-   "note": "comerse = 먹어 치우다",
+   "tl": "Espera un momento. El cliente se está comiendo el tercero. Dice que es la mejor reunión de su vida.",
+   "rd": "에스뻬라 운 모멘또. 엘 끌리엔떼 세 에스따 꼬미엔도 엘 떼르쎄로. 디쎄 께 에스 라 메호르 레우니온 데 수 비다.",
+   "ko": "잠깐만요. 고객이 벌써 세 개째 먹고 있어요. 인생 최고의 회의래요.",
+   "note": "espera un momento = 잠깐만 · se está comiendo = 먹고 있다",
    "tags": [
     "expr:espera"
    ],
-   "new": [],
-   "segs": [
-    [
-     "stiff",
-     "Espera."
-    ],
-    [
-     "surprised",
-     "El cliente se está comiendo el tercero. Dice que es la mejor reunión de su vida."
-    ]
-   ]
+   "new": [
+    "momento",
+    "tercero",
+    "vida"
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 16,
    "speaker": "C",
-   "tl": "Y ha firmado el contrato. El viernes pides tú otra vez. Cien.",
-   "rd": "이 아 피르마도 엘 꼰뜨라또. 엘 비에르네스 삐데스 뚜 오뜨라 베쓰. 씨엔.",
-   "ko": "그리고 계약서에 사인했어. 금요일에도 네가 시켜. 백 개.",
-   "note": "firmar = 서명하다 · contrato = 계약",
+   "tl": "Y ha firmado el contrato. El viernes pides tú otra vez. Cien bocadillos.",
+   "rd": "이 아 피르마도 엘 꼰뜨라또. 엘 비에르네스 삐데스 뚜 오뜨라 베쓰. 씨엔 보까디요스.",
+   "ko": "게다가 계약서에 사인했어. 금요일에도 네가 시켜. 백 개로.",
+   "note": "ha firmado el contrato = 계약서에 사인했어",
    "tags": [],
    "new": [
     "firmar",

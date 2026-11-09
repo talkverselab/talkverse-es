@@ -23,38 +23,48 @@
  "domain": [
   "life"
  ],
- "goal": "돈 어휘(gastar·pago·deuda·banco·tarjeta·costar·prestar·compartir·doble)",
+ "goal": "돈 어휘(factura·gastar·tarjeta·banco·deber·pagar·prestar·deuda·compartir·costar·el doble) + 미래형 pagará·dirá·preguntaré",
  "expressions": [
   "oye",
+  "tío",
   "casi",
   "bueno",
+  "es que",
   "pues",
   "mira",
   "vale",
+  "ya está",
   "ya",
-  "espera"
+  "espera",
+  "qué fuerte"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Oye, ha llegado lo de la luz. Ciento veinte euros.",
-   "rd": "오예, 아 예가도 로 데 라 루쓰. 씨엔또 베인떼 에우로스.",
-   "ko": "야, 전기 요금 나왔어. 120유로.",
-   "note": "lo de la luz = 전기 요금(건)",
+   "tl": "Oye, tío, acaba de llegar la factura de la luz. Ciento veinte euros.",
+   "rd": "오예, 띠오, 아까바 데 예가르 라 파끄뚜라 데 라 루쓰. 씨엔또 베인떼 에우로스.",
+   "ko": "야, 전기 요금 방금 나왔어. 120유로.",
+   "note": "factura de la luz = 전기 요금 고지서 · acaba de llegar = 방금 왔다",
    "tags": [
-    "expr:oye"
+    "expr:oye",
+    "expr:tío"
    ],
-   "new": [],
-   "emotion": "neutral"
+   "new": [
+    "factura",
+    "luz"
+   ],
+   "emotion": "surprised",
+   "tl_f": "Oye, tía, acaba de llegar la factura de la luz. Ciento veinte euros.",
+   "rd_f": "오예, 띠아, 아까바 데 예가르 라 파끄뚜라 데 라 루쓰. 씨엔또 베인떼 에우로스."
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¿Ciento veinte? ¡Si casi no encendemos nada!",
-   "rd": "씨엔또 베인떼? 시 까시 노 엔쎈데모스 나다!",
-   "ko": "120? 우리 거의 아무것도 안 켜잖아!",
-   "note": "encender = 켜다 · si… = ~잖아(놀람)",
+   "tl": "¿Ciento veinte? ¡Si casi no encendemos la luz en casa!",
+   "rd": "씨엔또 베인떼? 시 까시 노 엔쎈데모스 라 루쓰 엔 까사!",
+   "ko": "120? 우리 집에서 불도 거의 안 켜잖아!",
+   "note": "¡Si…! = ~잖아!(놀람·항의) · encender = 켜다",
    "tags": [
     "expr:casi"
    ],
@@ -66,28 +76,31 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Bueno… yo me ducho media hora. En la ducha suena mejor la guitarra.",
-   "rd": "부에노… 요 메 두초 메디아 오라. 엔 라 두차 수에나 메호르 라 기따라.",
-   "ko": "뭐… 내가 샤워를 30분 하긴 해. 샤워실에서 기타 소리가 더 좋거든.",
-   "note": "ducharse = 샤워하다",
+   "tl": "Bueno… es que me ducho media hora. En la ducha la guitarra suena de lujo.",
+   "rd": "부에노… 에스 께 메 두초 메디아 오라. 엔 라 두차 라 기따라 수에나 데 루호.",
+   "ko": "뭐… 내가 샤워를 30분 하거든. 샤워실에서 기타 치면 소리 끝내줘.",
+   "note": "ducharse = 샤워하다 · de lujo = 끝내주게",
    "tags": [
-    "expr:bueno"
+    "expr:bueno",
+    "expr:es que"
    ],
    "new": [
+    "ducharse",
     "ducha",
     "guitarra"
    ],
-   "emotion": "flustered"
+   "emotion": "amused"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Pues tu guitarra paga el doble.",
-   "rd": "뿌에스 뚜 기따라 빠가 엘 도블레.",
-   "ko": "그럼 네 기타가 두 배 내.",
-   "note": "el doble = 두 배",
+   "tl": "Pues tu guitarra pagará el doble.",
+   "rd": "뿌에스 뚜 기따라 빠가라 엘 도블레.",
+   "ko": "그럼 네 기타가 두 배 내겠네.",
+   "note": "pagará = 낼 것이다(미래형) · el doble = 두 배",
    "tags": [
-    "expr:pues"
+    "expr:pues",
+    "form:futuro"
    ],
    "new": [
     "doble"
@@ -97,15 +110,15 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Justo. Mira, tengo una aplicación para pagar a medias lo que gastamos.",
-   "rd": "후스또. 미라, 뗀고 우나 아쁠리까씨온 빠라 빠가르 아 메디아스 로 께 가스따모스.",
-   "ko": "바로 그거야. 봐, 우리가 쓴 돈 반반 내는 앱이 있어.",
-   "note": "gastar = (돈을) 쓰다 · a medias = 반반",
+   "tl": "Justo. Mira, me he bajado una app para pagar a medias lo que gastamos.",
+   "rd": "후스또. 미라, 메 에 바하도 우나 아쁘쁘 빠라 빠가르 아 메디아스 로 께 가스따모스.",
+   "ko": "바로 그거야. 봐, 우리가 쓴 돈 반반 나눠 내는 앱 깔았어.",
+   "note": "gastar = (돈을) 쓰다 · a medias = 반반 · bajarse una app = 앱을 깔다",
    "tags": [
     "expr:mira"
    ],
    "new": [
-    "aplicación",
+    "app",
     "gastar"
    ],
    "emotion": "cheerful"
@@ -115,64 +128,73 @@
    "speaker": "A",
    "tl": "Vale. ¿Y cómo funciona? ¿Pongo la tarjeta del banco?",
    "rd": "발레. 이 꼬모 푼씨오나? 뽄고 라 따르헤따 델 반꼬?",
-   "ko": "오케이. 어떻게 쓰는 거야? 은행 카드 등록해?",
-   "note": "funcionar = 작동하다 · banco = 은행",
+   "ko": "오케이. 어떻게 쓰는 건데? 은행 카드 등록해?",
+   "note": "funcionar = 작동하다 · tarjeta del banco = 은행 카드",
    "tags": [
     "expr:vale"
    ],
    "new": [
+    "funcionar",
     "tarjeta",
     "banco"
    ],
-   "emotion": "surprised"
+   "emotion": "neutral"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Eso. Tú aceptas todo y la aplicación decide quién debe qué.",
-   "rd": "에소. 뚜 아쎄쁘따스 또도 이 라 아쁠리까씨온 데씨데 끼엔 데베 께.",
-   "ko": "그렇지. 넌 전부 수락만 하면 앱이 누가 얼마 내야 하는지 정해 줘.",
-   "note": "deber = 빚지다·~해야 하다",
-   "tags": [],
-   "new": [],
-   "emotion": "teasing"
+   "tl": "Eso. Tú le das a «aceptar» y la app te dirá quién debe qué.",
+   "rd": "에소. 뚜 레 다스 아 «아쎄쁘따르» 이 라 아쁘쁘 떼 디라 끼엔 데베 께.",
+   "ko": "그렇지. 너는 「수락」만 누르면 앱이 누가 얼마 내야 하는지 알려 줄 거야.",
+   "note": "te dirá = 너한테 말해 줄 것이다(미래형) · deber = 빚지다",
+   "tags": [
+    "form:futuro"
+   ],
+   "new": [
+    "aceptar",
+    "deber"
+   ],
+   "emotion": "amused"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Aceptar, aceptar, aceptar… Listo. ¿Ya estamos en paz?",
-   "rd": "아쎄쁘따르, 아쎄쁘따르, 아쎄쁘따르… 리스또. 야 에스따모스 엔 빠쓰?",
+   "tl": "Aceptar, aceptar, aceptar… Ya está. ¿Ya estamos en paz?",
+   "rd": "아쎄쁘따르, 아쎄쁘따르, 아쎄쁘따르… 야 에스따. 야 에스따모스 엔 빠쓰?",
    "ko": "수락, 수락, 수락… 끝. 이제 우리 퉁 친 거지?",
    "note": "estar en paz = 빚이 없다·퉁치다",
    "tags": [
+    "expr:ya está",
     "expr:ya"
    ],
-   "new": [],
+   "new": [
+    "paz"
+   ],
    "emotion": "cheerful"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Espera. ¿Lo has aceptado todo? ¿Sin leer?",
-   "rd": "에스뻬라. 로 아스 아쎄쁘따도 또도? 신 레에르?",
-   "ko": "잠깐. 그걸 다 수락했어? 안 읽고?",
-   "note": "lo has aceptado todo = 그걸 다 수락했어",
+   "tl": "Espera, espera. ¿Lo has aceptado todo? ¿Sin leer ni una palabra?",
+   "rd": "에스뻬라, 에스뻬라. 로 아스 아쎄쁘따도 또도? 신 레에르 니 우나 빨라브라?",
+   "ko": "잠깐, 잠깐. 그걸 다 수락했어? 한 글자도 안 읽고?",
+   "note": "lo has aceptado todo = 그걸 다 수락했어(현재완료)",
    "tags": [
     "expr:espera"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "surprised"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Sí. ¿Por qué? «Has pagado: cuerdas de guitarra»… ¿Cuerdas?",
-   "rd": "시. 뽀르 께? «아스 빠가도: 꾸에르다스 데 기따라»… 꾸에르다스?",
-   "ko": "응. 왜? 「결제 완료: 기타 줄」… 기타 줄?",
-   "note": "pago/pagar = 결제(하다) · cuerda = (악기) 줄",
+   "tl": "Sí. ¿Por qué? Sale «Has pagado: cuerdas de guitarra»… ¿Cuerdas de qué?",
+   "rd": "시. 뽀르 께? 살레 «아스 빠가도: 꾸에르다스 데 기따라»… 꾸에르다스 데 께?",
+   "ko": "응. 왜? 「결제 완료: 기타 줄」이라고 뜨는데… 무슨 줄?",
+   "note": "has pagado = 결제했다 · cuerda = (악기) 줄",
    "tags": [],
    "new": [
-    "pago",
+    "pagar",
     "cuerda"
    ],
    "emotion": "surprised"
@@ -180,50 +202,54 @@
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Y la cena de mi cumpleaños. Y el dinero que me prestó Javi. Era mi lista de deudas.",
-   "rd": "이 라 쎄나 데 미 꿈쁠레아뇨스. 이 엘 디네로 께 메 쁘레스또 하비. 에라 미 리스따 데 데우다스.",
-   "ko": "내 생일 저녁값도. 하비가 빌려준 돈도. 그거 내 빚 목록이었어.",
-   "note": "prestar = 빌려주다 · deuda = 빚",
+   "tl": "Y la cena de mi cumple. Y lo que me prestó Javi. Era toda mi lista de deudas.",
+   "rd": "이 라 쎄나 데 미 꿈쁠레. 이 로 께 메 쁘레스또 하비. 에라 또다 미 리스따 데 데우다스.",
+   "ko": "내 생일 저녁값도. 하비가 빌려준 돈도. 그거 내 빚 목록 전부였어.",
+   "note": "prestar = 빌려주다 · deuda = 빚 · cumple = 생일(줄임)",
    "tags": [],
    "new": [
+    "cumple",
     "prestar",
-    "deuda",
-    "lista"
+    "lista",
+    "deuda"
    ],
    "emotion": "flustered"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "¿Tu lista de deudas? ¿En la aplicación de la luz?",
-   "rd": "뚜 리스따 데 데우다스? 엔 라 아쁠리까씨온 데 라 루쓰?",
-   "ko": "네 빚 목록을? 전기 요금 앱에?",
-   "note": "la luz = 전기(요금)",
-   "tags": [],
+   "tl": "¿Tu lista de deudas? ¿En la app de la luz? ¡Qué fuerte!",
+   "rd": "뚜 리스따 데 데우다스? 엔 라 아쁘쁘 데 라 루쓰? 께 푸에르떼!",
+   "ko": "네 빚 목록을? 전기 요금 앱에? 대박!",
+   "note": "qué fuerte = 대박·말도 안 돼",
+   "tags": [
+    "expr:qué fuerte"
+   ],
    "new": [],
    "emotion": "shout"
   },
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Es la misma aplicación. Lo puse todo para no olvidarme… y lo compartí sin querer.",
-   "rd": "에스 라 미스마 아쁠리까씨온. 로 뿌세 또도 빠라 노 올비다르메… 이 로 꼼빠르띠 신 께레르.",
+   "tl": "Es la misma app. Lo apunté todo para acordarme… y lo compartí sin querer.",
+   "rd": "에스 라 미스마 아쁘쁘. 로 아뿐떼 또도 빠라 아꼬르다르메… 이 로 꼼빠르띠 신 께레르.",
    "ko": "같은 앱이야. 안 잊으려고 다 적어 뒀는데… 실수로 공유해 버렸어.",
-   "note": "compartir = 공유하다 · sin querer = 실수로",
+   "note": "compartir = 공유하다 · sin querer = 실수로 · apuntar = 적어 두다",
    "tags": [],
    "new": [
-    "compartir",
-    "sin querer"
+    "apuntar",
+    "acordarse",
+    "compartir"
    ],
-   "emotion": "flustered"
+   "emotion": "worried"
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Diego, me has costado trescientos euros. Y yo no fui a tu cena.",
-   "rd": "디에고, 메 아스 꼬스따도 뜨레스씨엔또스 에우로스. 이 요 노 푸이 아 뚜 쎄나.",
-   "ko": "디에고, 너 때문에 300유로 나갔어. 난 네 생일 저녁에 가지도 않았는데.",
-   "note": "costar = (비용이) 들다 · me has costado = 너 때문에 나 ~ 썼어",
+   "tl": "Diego, me has costado trescientos euros. Y yo no fui a esa cena.",
+   "rd": "디에고, 메 아스 꼬스따도 뜨레스씨엔또스 에우로스. 이 요 노 푸이 아 에사 쎄나.",
+   "ko": "디에고, 너 때문에 300유로 나갔어. 난 그 저녁에 가지도 않았는데.",
+   "note": "costar = (돈이) 들다 · me has costado = 너 때문에 나 ~ 썼어",
    "tags": [],
    "new": [
     "costar"
@@ -233,24 +259,29 @@
   {
    "num": 15,
    "speaker": "B",
-   "tl": "Mira el lado bueno: Javi ya no me pregunta por su dinero.",
-   "rd": "미라 엘 라도 부에노: 하비 야 노 메 쁘레군따 뽀르 수 디네로.",
-   "ko": "좋게 생각해. 이제 하비가 돈 언제 갚냐고 안 물어.",
-   "note": "el lado bueno = 좋은 쪽 · preguntar por ~ = ~에 대해 묻다",
+   "tl": "Mira el lado bueno: Javi ya no me pregunta por el dinero prestado.",
+   "rd": "미라 엘 라도 부에노: 하비 야 노 메 쁘레군따 뽀르 엘 디네로 쁘레스따도.",
+   "ko": "좋게 생각해. 이제 하비가 빌려준 돈 언제 갚냐고 안 물어.",
+   "note": "preguntar por ~ = ~에 대해 묻다 · prestado = 빌린",
    "tags": [
     "expr:mira"
    ],
-   "new": [],
+   "new": [
+    "lado",
+    "prestado"
+   ],
    "emotion": "amused"
   },
   {
    "num": 16,
    "speaker": "A",
-   "tl": "Porque ahora te lo voy a preguntar yo. Todos los días.",
-   "rd": "뽀르께 아오라 떼 로 보이 아 쁘레군따르 요. 또도스 로스 디아스.",
+   "tl": "Porque ahora te lo preguntaré yo. Todos los días.",
+   "rd": "뽀르께 아오라 떼 로 쁘레군따레 요. 또도스 로스 디아스.",
    "ko": "이제 내가 물어볼 거니까. 매일.",
-   "note": "te lo voy a preguntar = 너한테 그걸 물을 거야",
-   "tags": [],
+   "note": "te lo preguntaré = 너한테 그걸 물어볼 거야(미래형)",
+   "tags": [
+    "form:futuro"
+   ],
    "new": [],
    "emotion": "teasing"
   }

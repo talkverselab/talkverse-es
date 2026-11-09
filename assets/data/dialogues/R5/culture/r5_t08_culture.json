@@ -27,38 +27,44 @@
  "domain": [
   "culture"
  ],
- "goal": "가족·행사 어휘(primo·sobrino·nieto·tarta·invitado·discurso·matrimonio·divorcio·champán)",
+ "goal": "가족·행사 어휘(abuela·nieto·primo·sobrino·invitado·tarta·discurso·brindis·matrimonio·divorcio·bisabuela·champán) + 미래형 será·repetirás",
  "expressions": [
+  "mola",
   "venga",
   "perdón",
-  "madre mía"
+  "madre mía",
+  "me da vergüenza"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hoy mi abuela cumple ochenta. Vienen primos, sobrinos, nietos… unos cuarenta.",
-   "rd": "오이 미 아부엘라 꿈쁠레 오첸따. 비에넨 쁘리모스, 소브리노스, 니에또스… 우노스 꾸아렌따.",
-   "ko": "오늘 우리 할머니 여든 생신이야. 사촌, 조카, 손주… 한 마흔 명 와.",
-   "note": "sobrino = 조카 · nieto = 손주",
+   "tl": "Hoy mi abuela cumple ochenta. Vienen primos, sobrinos, nietos… unos cuarenta invitados.",
+   "rd": "오이 미 아부엘라 꿈쁠레 오첸따. 비에넨 쁘리모스, 소브리노스, 니에또스… 우노스 꾸아렌따 인비따도스.",
+   "ko": "오늘 우리 할머니 여든 생신이야. 사촌, 조카, 손주… 손님만 한 마흔 명 와.",
+   "note": "sobrino = 조카 · nieto = 손주 · invitado = 손님",
    "tags": [],
    "new": [
+    "abuela",
+    "cumplir",
     "primo",
     "sobrino",
-    "nieto"
+    "nieto",
+    "invitado"
    ],
    "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¿Cuarenta? ¿Y qué le regalo? Solo he traído flores.",
-   "rd": "꾸아렌따? 이 께 레 레갈로? 솔로 에 뜨라이도 플로레스.",
-   "ko": "마흔 명? 뭘 선물해야 돼? 꽃밖에 안 가져왔는데.",
-   "note": "regalar = 선물하다",
+   "tl": "¿Cuarenta? ¿Y qué le regalo yo? Solo he traído estas flores.",
+   "rd": "꾸아렌따? 이 께 레 레갈로 요? 솔로 에 뜨라이도 에스따스 플로레스.",
+   "ko": "마흔 명? 그럼 난 뭘 선물해? 꽃밖에 안 가져왔는데.",
+   "note": "regalar = 선물하다 · he traído = 가져왔다(현재완료)",
    "tags": [],
    "new": [
     "regalar",
+    "traer",
     "flor"
    ],
    "emotion": "worried"
@@ -66,136 +72,133 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Flores, perfecto. Pero después de la tarta, cada invitado hace un brindis.",
-   "rd": "플로레스, 뻬르페끄또. 뻬로 데스뿌에스 데 라 따르따, 까다 인비따도 아쎄 운 브린디스.",
-   "ko": "꽃이면 완벽해. 근데 케이크 먹고 나면 손님마다 건배사 해야 돼.",
-   "note": "tarta = 케이크 · brindis = 건배사",
-   "tags": [],
+   "tl": "Las flores molan. Pero después de la tarta, cada invitado suelta un discurso.",
+   "rd": "라스 플로레스 몰란. 뻬로 데스뿌에스 데 라 따르따, 까다 인비따도 수엘따 운 디스꾸르소.",
+   "ko": "꽃이면 좋지. 근데 케이크 먹고 나면 손님마다 한마디씩 해야 돼.",
+   "note": "tarta = 케이크 · soltar un discurso = 한마디(연설) 하다",
+   "tags": [
+    "expr:mola"
+   ],
    "new": [
     "tarta",
-    "invitado",
-    "brindis"
+    "soltar",
+    "discurso"
    ],
-   "emotion": "teasing"
+   "emotion": "amused"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Un discurso? ¿Yo también lo hago? ¿En español? ¿Delante de cuarenta personas?",
-   "rd": "운 디스꾸르소? 요 땀비엔 로 아고? 엔 에스빠뇰? 델란떼 데 꾸아렌따 뻬르소나스?",
-   "ko": "연설? 나도 해? 스페인어로? 마흔 명 앞에서?",
-   "note": "discurso = 연설 · hace(그가) ↔ hago(내가)",
+   "tl": "¿Un discurso? ¿Yo también? ¿En español y delante de todos?",
+   "rd": "운 디스꾸르소? 요 땀비엔? 엔 에스빠뇰 이 델란떼 데 또도스?",
+   "ko": "연설? 나도 해? 스페인어로, 다들 보는 앞에서?",
+   "note": "delante de ~ = ~ 앞에서",
    "tags": [],
    "new": [
-    "discurso"
+    "delante"
    ],
    "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "¡Qué guapo! ¿Tú eres el amigo extranjero de mi nieta?",
-   "rd": "께 구아뽀! 뚜 에레스 엘 아미고 엑스뜨란헤로 데 미 니에따?",
-   "ko": "어머 잘생겼네! 네가 우리 손녀 외국인 친구구나?",
-   "note": "extranjero = 외국인",
+   "tl": "¡Ay, qué guapo! ¿Tú eres el amigo extranjero de mi nieta?",
+   "rd": "아이, 께 구아뽀! 뚜 에레스 엘 아미고 엑스뜨란헤로 데 미 니에따?",
+   "ko": "어머, 잘생겼네! 네가 우리 손녀 외국인 친구구나?",
+   "note": "extranjero = 외국인 · nieta = 손녀(nieto 의 여성형)",
    "tags": [],
    "new": [
+    "guapo",
     "extranjero"
    ],
-   "emotion": "cheerful",
-   "tl_f": "¡Qué guapa! ¿Tú eres la amiga extranjera de mi nieta?",
-   "rd_f": "께 구아빠! 뚜 에레스 라 아미가 엑스뜨란헤라 데 미 니에따?",
-   "ko_f": "어머 예쁘네! 네가 우리 손녀 외국인 친구구나?"
+   "emotion": "gentle",
+   "tl_f": "¡Ay, qué guapa! ¿Tú eres la amiga extranjera de mi nieta?",
+   "ko_f": "어머, 예쁘기도 해라! 네가 우리 손녀 외국인 친구구나?",
+   "rd_f": "아이, 께 구아빠! 뚜 에레스 라 아미가 엑스뜨란헤라 데 미 니에따?"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Sí, señora. ¡Muchas felicidades! Le traigo estas flores.",
-   "rd": "시, 세뇨라. 무차스 펠리씨다데스! 레 뜨라이고 에스따스 플로레스.",
-   "ko": "네, 할머니. 생신 축하드려요! 꽃 가져왔어요.",
-   "note": "felicidades = 축하해요(생일) · traigo = 가져오다(he traído ↔ traigo)",
+   "tl": "Sí, señora. ¡Muchas felicidades! Estas flores son para usted.",
+   "rd": "시, 세뇨라. 무차스 펠리씨다데스! 에스따스 플로레스 손 빠라 우스떼드.",
+   "ko": "네, 할머니. 생신 축하드려요! 이 꽃 드리려고 가져왔어요.",
+   "note": "felicidades = 축하해요(생일) · para usted = 당신께(존댓말)",
    "tags": [],
    "new": [
-    "felicidad"
+    "felicidades",
+    "señora"
    ],
    "emotion": "polite"
   },
   {
    "num": 7,
    "speaker": "D",
-   "tl": "Abuela, deja al chaval. Primero va mi brindis.",
-   "rd": "아부엘라, 데하 알 차발. 쁘리메로 바 미 브린디스.",
-   "ko": "할머니, 얘 좀 놔줘요. 내 건배사가 먼저야.",
-   "note": "chaval = 젊은 애·녀석",
+   "tl": "Abuela, suéltalo un poco. Mi brindis va primero.",
+   "rd": "아부엘라, 수엘딸로 운 뽀꼬. 미 브린디스 바 쁘리메로.",
+   "ko": "할머니, 얘 좀 놔주세요. 건배는 제가 먼저예요.",
+   "note": "suéltalo = 그를 놔줘(명령+대명사) · brindis = 건배(사)",
    "tags": [],
    "new": [
-    "chaval"
+    "brindis"
    ],
-   "emotion": "teasing",
-   "tl_f": "Abuela, deja a la chica. Primero va mi brindis.",
-   "rd_f": "아부엘라, 데하 아 라 치까. 쁘리메로 바 미 브린디스."
+   "emotion": "tsukkomi",
+   "tl_f": "Abuela, suéltala un poco. Mi brindis va primero.",
+   "rd_f": "아부엘라, 수엘딸라 운 뽀꼬. 미 브린디스 바 쁘리메로."
   },
   {
    "num": 8,
    "speaker": "D",
-   "tl": "¡Por la abuela! Ochenta años, sesenta de matrimonio y ni un divorcio.",
-   "rd": "뽀르 라 아부엘라! 오첸따 아뇨스, 세센따 데 마뜨리모니오 이 니 운 디보르씨오.",
-   "ko": "할머니를 위하여! 여든 살, 결혼 60년, 이혼 한 번 없이!",
+   "tl": "¡Por la abuela! Ochenta años, sesenta de matrimonio y cero divorcios.",
+   "rd": "뽀르 라 아부엘라! 오첸따 아뇨스, 세센따 데 마뜨리모니오 이 쎄로 디보르씨오스.",
+   "ko": "할머니를 위하여! 여든 살, 결혼 60년, 이혼은 0번!",
    "note": "matrimonio = 결혼(생활) · divorcio = 이혼",
    "tags": [],
    "new": [
     "matrimonio",
     "divorcio"
    ],
-   "emotion": "cheerful"
+   "emotion": "excited"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Porque el abuelo nunca ganó una pelea. ¡Venga, {name}, te toca!",
-   "rd": "뽀르께 엘 아부엘로 눈까 가노 우나 뻴레아. 벤가, {name}, 떼 또까!",
-   "ko": "할아버지가 싸움에서 한 번도 못 이겼으니까. 자, {name}, 네 차례야!",
-   "note": "tocar a alguien = ~의 차례다",
+   "tl": "Porque el abuelo no ganaba ni una. ¡Venga, {name}, ahora te toca a ti!",
+   "rd": "뽀르께 엘 아부엘로 노 가나바 니 우나. 벤가, {name}, 아오라 떼 또까 아 띠!",
+   "ko": "할아버지가 한 번도 못 이겼으니까. 자, {name}, 이제 네 차례야!",
+   "note": "no ganaba ni una = 한 번도 못 이겼다 · te toca = 네 차례야",
    "tags": [
     "expr:venga"
    ],
    "new": [
-    "pelea"
+    "abuelo",
+    "ganar",
+    "tocar"
    ],
    "emotion": "amused"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Eh… Perdón, estoy muy embarazado. Es mi primer brindis.",
-   "rd": "에… 뻬르돈, 에스또이 무이 엠바라싸도. 에스 미 쁘리메르 브린디스.",
-   "ko": "어… 죄송해요, 제가 너무 임신해서요. 첫 건배사라서.",
-   "note": "embarazado = 임신한(창피한 X → avergonzado)",
+   "tl": "Eh… Perdón, estoy muy embarazado. Es mi primer discurso.",
+   "rd": "에… 뻬르돈, 에스또이 무이 엠바라싸도. 에스 미 쁘리메르 디스꾸르소.",
+   "ko": "어… 죄송해요, 제가 너무 임신해서요. 첫 연설이라서요.",
+   "note": "embarazado = 임신한(×창피한 → me da vergüenza)",
    "tags": [
     "expr:perdón"
    ],
    "new": [
     "embarazado"
    ],
-   "tl_f": "Eh… Perdón, estoy muy embarazada. Es mi primer brindis.",
-   "rd_f": "에… 뻬르돈, 에스또이 무이 엠바라싸다. 에스 미 쁘리메르 브린디스.",
-   "segs": [
-    [
-     "flustered",
-     "Eh… Perdón, estoy muy embarazado."
-    ],
-    [
-     "polite",
-     "Es mi primer brindis."
-    ]
-   ]
+   "emotion": "flustered",
+   "tl_f": "Eh… Perdón, estoy muy embarazada. Es mi primer discurso.",
+   "rd_f": "에… 뻬르돈, 에스또이 무이 엠바라싸다. 에스 미 쁘리메르 디스꾸르소."
   },
   {
    "num": 11,
    "speaker": "C",
-   "tl": "¿Embarazado? ¡Madre mía, otro bisnieto en la familia!",
-   "rd": "엠바라싸도? 마드레 미아, 오뜨로 비스니에또 엔 라 파밀리아!",
-   "ko": "임신? 세상에, 증손주가 또 생기는구나!",
+   "tl": "¿Embarazado? ¡Madre mía, otro bisnieto más en la familia!",
+   "rd": "엠바라싸도? 마드레 미아, 오뜨로 비스니에또 마스 엔 라 파밀리아!",
+   "ko": "임신이라고? 세상에, 증손주가 또 생기는구나!",
    "note": "bisnieto = 증손주",
    "tags": [
     "expr:madre mía"
@@ -203,44 +206,52 @@
    "new": [
     "bisnieto"
    ],
-   "emotion": "shout",
-   "tl_f": "¿Embarazada? ¡Madre mía, otro bisnieto en la familia!",
-   "rd_f": "엠바라싸다? 마드레 미아, 오뜨로 비스니에또 엔 라 파밀리아!"
+   "emotion": "surprised",
+   "tl_f": "¿Embarazada? ¡Madre mía, otro bisnieto más en la familia!",
+   "rd_f": "엠바라싸다? 마드레 미아, 오뜨로 비스니에또 마스 엔 라 파밀리아!"
   },
   {
    "num": 12,
    "speaker": "D",
-   "tl": "¡Champán para todos! ¡La abuela va a ser bisabuela otra vez!",
-   "rd": "참빤 빠라 또도스! 라 아부엘라 바 아 세르 비사부엘라 오뜨라 베쓰!",
+   "tl": "¡Champán para todos! ¡La abuela será bisabuela otra vez!",
+   "rd": "참빤 빠라 또도스! 라 아부엘라 세라 비사부엘라 오뜨라 베쓰!",
    "ko": "샴페인 돌려! 할머니가 또 증조할머니 되신대!",
-   "note": "champán = 샴페인",
-   "tags": [],
-   "new": [
-    "champán"
+   "note": "será = ~이 될 것이다(미래형) · bisabuela = 증조할머니",
+   "tags": [
+    "form:futuro"
    ],
-   "emotion": "excited"
+   "new": [
+    "champán",
+    "bisabuela"
+   ],
+   "emotion": "shout"
   },
   {
    "num": 13,
    "speaker": "B",
-   "tl": "¡Que no! «Embarazado» no es tener vergüenza. Es… con bebé.",
-   "rd": "께 노! «엠바라싸도» 노 에스 떼네르 베르구엔싸. 에스… 꼰 베베.",
-   "ko": "아니라니까! 「embarazado」는 창피하다는 게 아니야. 그건… 아기 있는 거야.",
-   "note": "tener vergüenza = 창피하다",
+   "tl": "¡Que no! «Embarazado» no significa vergüenza. Es esperar un bebé.",
+   "rd": "께 노! «엠바라싸도» 노 시그니피까 베르구엔싸. 에스 에스뻬라르 운 베베.",
+   "ko": "아니라니까! 「embarazado」는 창피하다는 뜻이 아니야. 아기 가졌다는 거야.",
+   "note": "esperar un bebé = 아기를 가지다 · significar = 뜻하다",
    "tags": [],
-   "new": [],
+   "new": [
+    "significar",
+    "vergüenza",
+    "bebé"
+   ],
    "emotion": "tsukkomi"
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Madre mía. Señora, perdón. Quería decir que tengo vergüenza.",
-   "rd": "마드레 미아. 세뇨라, 뻬르돈. 께리아 데씨르 께 뗀고 베르구엔싸.",
+   "tl": "Madre mía. Señora, perdón. Quería decir que me da vergüenza.",
+   "rd": "마드레 미아. 세뇨라, 뻬르돈. 께리아 데씨르 께 메 다 베르구엔싸.",
    "ko": "세상에. 할머니, 죄송해요. 창피하다고 말하려던 거예요.",
-   "note": "quería decir = ~라고 말하려 했다",
+   "note": "me da vergüenza = 창피해요 · quería decir = ~라고 말하려 했다",
    "tags": [
     "expr:madre mía",
-    "expr:perdón"
+    "expr:perdón",
+    "expr:me da vergüenza"
    ],
    "new": [],
    "emotion": "flustered"
@@ -248,28 +259,33 @@
   {
    "num": 15,
    "speaker": "C",
-   "tl": "Hijo, a los ochenta lo he oído todo. Pero esto, nunca.",
-   "rd": "이호, 아 로스 오첸따 로 에 오이도 또도. 뻬로 에스또, 눈까.",
-   "ko": "얘야, 여든이면 별소리 다 들어 봤는데. 이건 처음이다.",
-   "note": "a los ochenta = 여든 살에",
+   "tl": "Hijo, a los ochenta he oído de todo. Pero esto, jamás.",
+   "rd": "이호, 아 로스 오첸따 에 오이도 데 또도. 뻬로 에스또, 하마스.",
+   "ko": "얘야, 여든 살이면 별소리 다 들어 봤다. 근데 이건 처음이구나.",
+   "note": "he oído de todo = 별소리 다 들어 봤다 · jamás = 결코(한 번도)",
    "tags": [],
-   "new": [],
+   "new": [
+    "oír",
+    "jamás"
+   ],
    "emotion": "amused",
-   "tl_f": "Hija, a los ochenta lo he oído todo. Pero esto, nunca.",
-   "rd_f": "이하, 아 로스 오첸따 로 에 오이도 또도. 뻬로 에스또, 눈까."
+   "tl_f": "Hija, a los ochenta he oído de todo. Pero esto, jamás.",
+   "rd_f": "이하, 아 로스 오첸따 에 오이도 데 또도. 뻬로 에스또, 하마스."
   },
   {
    "num": 16,
    "speaker": "C",
-   "tl": "Eso sí: el mejor brindis en sesenta años. Repítelo el año que viene.",
-   "rd": "에소 시: 엘 메호르 브린디스 엔 세센따 아뇨스. 레삐뗄로 엘 아뇨 께 비에네.",
-   "ko": "그래도 이건 인정이다. 60년 동안 들은 건배사 중에 최고야. 내년에 또 해 주렴.",
-   "note": "repetir = 다시 하다",
-   "tags": [],
+   "tl": "Eso sí: el mejor discurso en sesenta años. El año que viene lo repetirás, ¿eh?",
+   "rd": "에소 시: 엘 메호르 디스꾸르소 엔 세센따 아뇨스. 엘 아뇨 께 비에네 로 레뻬띠라스, 에?",
+   "ko": "그래도 60년 동안 들은 것 중에 최고였어. 내년에도 또 해 줄 거지?",
+   "note": "lo repetirás = 또 할 거지(미래형) · el año que viene = 내년",
+   "tags": [
+    "form:futuro"
+   ],
    "new": [
     "repetir"
    ],
-   "emotion": "cheerful"
+   "emotion": "gentle"
   }
  ],
  "draft": "grok",
