@@ -12,6 +12,9 @@
   "A": "{name}",
   "B": "Marta"
  },
+ "speakers_f": {
+  "B": "Mateo"
+ },
  "register": "casual",
  "twist": 12,
  "twist_type": "emotion",
@@ -103,7 +106,7 @@
    "tl": "De una autora nueva. No creo que la conozcas todavía.",
    "rd": "데 우나 아우또라 누에바. 노 끄레오 께 라 꼬노쓰까스 또다비아.",
    "ko": "신인 작가야. 넌 아직 모를 거야.",
-   "note": "no creo que + 접속법(conozcas) = ~할 것 같지 않아",
+   "note": "no creo que + 접속법(conozcas) = ~할 것 같지 않아 · 여성판: un autor nuevo·lo = 작가가 남자(마테오)",
    "tags": [
     "form:subjuntivo"
    ],
@@ -111,7 +114,9 @@
     "autor",
     "conocer"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "tl_f": "De un autor nuevo. No creo que lo conozcas todavía.",
+   "rd_f": "데 운 아우또르 누에보. 노 끄레오 께 로 꼬노쓰까스 또다비아."
   },
   {
    "num": 6,
@@ -175,8 +180,9 @@
     "cliente"
    ],
    "emotion": "shy",
-   "tl_f": "De una chica que trabaja con libros y se enamora de una clienta.",
-   "rd_f": "데 우나 치까 께 뜨라바하 꼰 리브로스 이 세 에나모라 데 우나 끌리엔따."
+   "tl_f": "De un chico que trabaja con libros y se enamora de una clienta.",
+   "rd_f": "데 운 치꼬 께 뜨라바하 꼰 리브로스 이 세 에나모라 데 우나 끌리엔따.",
+   "ko_f": "책 다루는 일을 하는 남자가 손님한테 반하는 이야기야."
   },
   {
    "num": 10,
@@ -196,7 +202,8 @@
    ],
    "emotion": "teasing",
    "tl_f": "Vaya. Espero que la clienta sea guapa, al menos.",
-   "rd_f": "바야. 에스뻬로 께 라 끌리엔따 세아 구아빠, 알 메노스."
+   "rd_f": "바야. 에스뻬로 께 라 끌리엔따 세아 구아빠, 알 메노스.",
+   "ko_f": "오. 그 손님 예뻤으면 좋겠다, 적어도."
   },
   {
    "num": 11,

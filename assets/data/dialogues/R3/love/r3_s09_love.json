@@ -13,6 +13,9 @@
   "A": "{name}",
   "B": "Marta"
  },
+ "speakers_f": {
+  "B": "Mateo"
+ },
  "register": "chat",
  "twist": 7,
  "twist_type": "emotion",

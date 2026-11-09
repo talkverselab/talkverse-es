@@ -9,6 +9,7 @@ CHAR = {
  'Lucía': '루시아(Lucía, 20대 초 여성 — 진갈색 긴 웨이브 머리를 느슨하게 묶음, 테라코타 니트 + 연청 데님 미디 스커트 + 흰 스니커즈, 작은 갈색 크로스백, 쾌활)',
  'Marta': '마르타(Marta, 20대 중반 여성 — 검은 단발 + 동그란 금테 안경, 올리브 셔츠 원피스 + 짙은 갈색 앵클부츠, 책 든 캔버스 토트백, 차분)',
  'Javi': '하비(Javi, 20대 초 남성 — 짧은 곱슬 흑발, 로고 없는 진초록 축구 저지 + 회색 조거 + 흰 운동화, 느긋)',
+ 'Mateo': '마테오(Mateo, 20대 중반 남성 — 짧고 약간 헝클어진 검은 머리 + 동그란 금테 안경, 크림 티 위 올리브 오버셔츠 + 짙은 갈색 치노 + 갈색 부츠, 책 든 캔버스 토트백, 차분 — 여성 학습자판 연애 상대, 기준 그림 data/review/art/char_mateo_v1.jpg)',
  'Diego': '디에고(Diego, 20대 중반 남성 — 짙은 갈색 웨이브 중간 길이·짧은 수염, 소매 걷은 흰 린넨 셔츠 + 네이비 치노, 가장 키 큼, 다정)',
 }
 MINOR = {  # 조연 고정 묘사 — 컷마다 같은 사람
@@ -27,6 +28,10 @@ LD = {'남성': '황토색(#C8901E) 후드티 + 베이지 팬츠 + 갈색 백팩
 for path in [a for a in sys.argv[1:] if a.endswith('.json')]:
     e = json.load(open(path, encoding='utf-8'))
     g = '여성' if FEMALE else '남성'
+    if FEMALE and e.get('speakers_f'):  # 여성 학습자판 상대 바꾸기(사용자 2026-11-09 "반이상은 남자상대로") — Marta → Mateo
+        for k_, v_ in e['speakers_f'].items():
+            e['scene'] = e['scene'].replace(e['speakers'][k_], v_)
+        e['speakers'] = {**e['speakers'], **e['speakers_f']}
     out = f"data/review/art/{e['id']}{'_f' if FEMALE else ''}"; os.makedirs(out, exist_ok=True)
     def who(n):
         if n == '{name}': return LEARNER.format(g=g, d=LD[g])

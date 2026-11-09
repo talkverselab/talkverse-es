@@ -12,6 +12,9 @@
   "A": "{name}",
   "B": "Marta"
  },
+ "speakers_f": {
+  "B": "Mateo"
+ },
  "register": "casual",
  "twist": 7,
  "twist_type": "emotion",
@@ -79,7 +82,10 @@
     "hablar",
     "mucho"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "tl_f": "Mateo. Diego habla mucho de ti.",
+   "rd_f": "마떼오. 디에고 아블라 무초 데 띠.",
+   "ko_f": "마테오. 디에고가 네 얘기 많이 해."
   },
   {
    "num": 4,

@@ -12,6 +12,9 @@
   "A": "{name}",
   "B": "Marta"
  },
+ "speakers_f": {
+  "B": "Mateo"
+ },
  "register": "chat",
  "twist": 7,
  "twist_type": "ignore",
@@ -154,7 +157,10 @@
    "at": "22:20",
    "read": false,
    "stamp": "👀",
-   "emotion": "worried"
+   "emotion": "worried",
+   "tl_f": "¿Hola? ¿Mateo?",
+   "rd_f": "올라? 마떼오?",
+   "ko_f": "저기? 마테오?"
   },
   {
    "num": 8,
