@@ -2,7 +2,7 @@
 # 생성된 장면 컷(data/review/art/<편id>/cutN.jpg)을 공용 그림 저장소 talkverselab/talkversehanja 의
 # talkverse_art/scene/es/<편id>/cutN.jpg 로 푸시한다(uk 세션이 R2 로 올려 /art/es/scene/manifest 로 제공, 2026-11-02 약속).
 # 사용: tools/push_scenes.sh   — 새로 생긴 jpg 만 복사해 한 커밋. 작업용 얕은 클론은 세션 스크래치(없으면 다시 만든다).
-# 푸시 뒤 R2·D1 업로드도 이 세션이 직접(2026-11-09 사용자 지시): ssh macmini4 "cd ~/talkverse-uk && /usr/bin/python3 tools/grok_art.py scene es"
+# 푸시 뒤 R2·D1 업로드도 이 세션이 직접(2026-11-09 사용자 지시): ssh macmini4 'zsh -lc "cd ~/talkverse-uk && /usr/bin/python3 tools/grok_art.py scene es"'
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 S="${SCRATCH:-/private/tmp/claude-501/-Users-talkverse-talkverse-es/ac578eb1-6bd3-4d19-93e0-ebd885966d5d/scratchpad}"
