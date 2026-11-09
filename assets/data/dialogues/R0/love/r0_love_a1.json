@@ -35,69 +35,79 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¡Hola! ¿Eres {name}?",
-   "rd": "올라! 에레스 {name}?",
-   "ko": "안녕! 너 {name} 맞지?",
+   "tl": "¡Vale! ¿Eres {name}?",
+   "rd": "발레! 에레스 {name}?",
+   "ko": "그래! 너 {name} 맞아?",
    "note": "¿Eres…? = 너 ~야?",
    "tags": [
     "form:ser"
    ],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "21:03"
+   "at": "21:03",
+   "stamp": "👀",
+   "emotion": "teasing",
+   "note_stale": true
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Sí, soy yo. ¡Hola, Marta!",
-   "rd": "시, 소이 요. 올라, 마르따!",
-   "ko": "응, 나야. 안녕, 마르타!",
+   "tl": "Sí, soy yo. ¡Qué pasa!",
+   "rd": "시, 소이 요. 께 빠사!",
+   "ko": "응, 나야. 뭐 해?",
    "note": "soy yo = 나야",
    "tags": [
     "form:ser"
    ],
    "new": [],
-   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "21:04"
+   "at": "21:04",
+   "stamp": "😊",
+   "emotion": "cheerful",
+   "note_stale": true
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Tu foto es muy bonita.",
-   "rd": "뚜 포또 에스 무이 보니따.",
-   "ko": "네 사진 진짜 예쁘다.",
+   "tl": "Tu foto mola, tío.",
+   "rd": "뚜 포또 몰라, 띠오.",
+   "ko": "네 사진 멋져, 이봐.",
    "note": "tu foto = 네 사진",
    "tags": [],
    "new": [
     "foto"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
-   "at": "21:04"
+   "at": "21:04",
+   "stamp": "🔥",
+   "emotion": "excited",
+   "tl_f": "Tu foto mola, tía.",
+   "note_stale": true,
+   "rd_f": "뚜 포또 몰라, 띠아."
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Mi foto? Es mi perro.",
-   "rd": "미 포또? 에스 미 뻬로.",
-   "ko": "내 사진? 그거 우리 개인데.",
+   "tl": "¡No! Es mi perro.",
+   "rd": "노! 에스 미 뻬로.",
+   "ko": "아니! 그거 우리 개야.",
    "note": "mi perro = 우리 개(내 개)",
    "tags": [],
    "new": [
     "perro"
    ],
-   "emotion": "surprised",
    "ui": "bubble",
-   "at": "21:05"
+   "at": "21:05",
+   "stamp": "🐶",
+   "emotion": "surprised",
+   "note_stale": true
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ya… Es que tu perro es muy bonito.",
-   "rd": "야… 에스 께 뚜 뻬로 에스 무이 보니또.",
-   "ko": "아… 그게, 네 개가 너무 예뻐서.",
+   "tl": "¡Qué fuerte! El perro me gusta más.",
+   "rd": "께 푸에르떼! 엘 뻬로 메 구스따 마스.",
+   "ko": "대박! 개가 더 맘에 들어.",
    "note": "bonita(사진) / bonito(개) = 예쁜 — 명사 성에 맞춤",
    "tags": [
     "expr:ya",
@@ -105,26 +115,18 @@
     "form:ser"
    ],
    "new": [],
-   "segs": [
-    [
-     "flustered",
-     "Ya… "
-    ],
-    [
-     "amused",
-     "Es que tu perro es muy bonito."
-    ]
-   ],
    "ui": "bubble",
    "at": "21:05",
-   "stamp": "🙈"
+   "stamp": "😂",
+   "emotion": "amused",
+   "note_stale": true
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Vale. ¿Y yo no te gusto?",
-   "rd": "발레. 이 요 노 떼 구스또?",
-   "ko": "그래. 그럼 나는 별로야?",
+   "tl": "¡Venga! ¿Y yo no te gusto?",
+   "rd": "벤가! 이 요 노 떼 구스또?",
+   "ko": "야! 그럼 나는 안 맘에 들어?",
    "note": "¿no te gusto? = 내가 맘에 안 들어?",
    "tags": [
     "expr:vale",
@@ -133,26 +135,71 @@
    "new": [
     "gustar"
    ],
-   "emotion": "tsukkomi",
    "ui": "bubble",
-   "at": "21:06"
+   "at": "21:06",
+   "emotion": "tsukkomi",
+   "note_stale": true
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Tú también me gustas. Un poco.",
-   "rd": "뚜 땀비엔 메 구스따스. 운 뽀꼬.",
-   "ko": "너도 맘에 들어. 조금.",
+   "tl": "Bueno… tú me gustas más. Un poco.",
+   "rd": "부에노… 뚜 메 구스따스 마스. 운 뽀꼬.",
+   "ko": "글쎄… 너 더 맘에 들어. 조금.",
    "note": "me gustas = 네가 좋아·맘에 들어",
    "tags": [
     "form:gustar"
    ],
    "new": [],
-   "emotion": "shy",
    "ui": "bubble",
    "at": "21:08",
-   "stamp": "🙈"
+   "stamp": "💕",
+   "segs": [
+    [
+     "shy",
+     "Bueno…"
+    ],
+    [
+     "gentle",
+     "tú me gustas más. Un poco."
+    ]
+   ],
+   "note_stale": true
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "¡Hola! ¿Eres {name}?",
+   "ko": "안녕! 너 {name} 맞지?"
+  },
+  {
+   "tl": "Sí, soy yo. ¡Hola, Marta!",
+   "ko": "응, 나야. 안녕, 마르타!"
+  },
+  {
+   "tl": "Tu foto es muy bonita.",
+   "ko": "네 사진 진짜 예쁘다."
+  },
+  {
+   "tl": "¿Mi foto? Es mi perro.",
+   "ko": "내 사진? 그거 우리 개인데."
+  },
+  {
+   "tl": "Ya… Es que tu perro es muy bonito.",
+   "ko": "아… 그게, 네 개가 너무 예뻐서."
+  },
+  {
+   "tl": "Vale. ¿Y yo no te gusto?",
+   "ko": "그래. 그럼 나는 별로야?"
+  },
+  {
+   "tl": "Tú también me gustas. Un poco.",
+   "ko": "너도 맘에 들어. 조금."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_love_a1_rewrite.md",
+  "model": "전문가"
+ }
 }
