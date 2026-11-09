@@ -6,8 +6,8 @@
  "island": "friends",
  "kind": "short",
  "title": "다 좋아한다며",
- "emoji": "🍫",
- "scene": "Javi 의 자취방, Javi 가 저녁을 해 주겠다며 취향을 묻는다",
+ "emoji": "🐌",
+ "scene": "Javi 의 자취방, Javi 가 저녁을 해 주겠다며 취향을 묻는다 — 「다 좋아해」의 대가는 스페인 전통 요리",
  "speakers": {
   "A": "{name}",
   "B": "Javi"
@@ -97,13 +97,13 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "¿Todo? ¿También el chocolate?",
-   "rd": "또도? 땀비엔 엘 초꼴라떼?",
-   "ko": "다? 초콜릿도?",
-   "note": "también = ~도",
+   "tl": "¿Todo? ¿También los caracoles?",
+   "rd": "또도? 땀비엔 로스 까라꼴레스?",
+   "ko": "다? 달팽이 요리도?",
+   "note": "también = ~도 · caracoles = 달팽이 요리(스페인 바·집에서 흔한 요리)",
    "tags": [],
    "new": [
-    "chocolate"
+    "caracol"
    ],
    "emotion": "surprised"
   },
@@ -125,16 +125,16 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Vale. Patatas, ajo, chocolate… y pescado. ¡Todo junto!",
-   "rd": "발레. 빠따따스, 아호, 초꼴라떼… 이 뻬스까도. 또도 훈또!",
-   "ko": "오케이. 감자, 마늘, 초콜릿… 그리고 생선. 전부 한 냄비에!",
-   "note": "todo junto = 전부 한꺼번에 · pescado = (요리용) 생선",
+   "tl": "Vale. Caracoles… ¡y callos de mi abuela!",
+   "rd": "발레. 까라꼴레스… 이 까요스 데 미 아부엘라!",
+   "ko": "오케이. 달팽이… 그리고 우리 할머니표 곱창 스튜!",
+   "note": "callos = 곱창 스튜(마드리드 전통 요리) · de mi abuela = 우리 할머니가 만든",
    "tags": [
     "expr:vale"
    ],
    "new": [
-    "pescado",
-    "junto"
+    "callos",
+    "abuela"
    ],
    "segs": [
     [
@@ -143,7 +143,7 @@
     ],
     [
      "excited",
-     "Patatas, ajo, chocolate… y pescado. ¡Todo junto!"
+     "Caracoles… ¡y callos de mi abuela!"
     ]
    ]
   },

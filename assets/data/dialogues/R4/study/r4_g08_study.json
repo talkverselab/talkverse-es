@@ -5,9 +5,9 @@
  "level_name": "어려운 문법",
  "island": "study",
  "kind": "long",
- "title": "서류를 신청하는 서류",
+ "title": "예약은 인터넷으로",
  "emoji": "🗂️",
- "scene": "대학 행정실 창구. 학생증 하나 만들려다 끝없는 서류 미로에 빠진다 — 문법 8 「무인칭·수동 se」",
+ "scene": "대학 행정실 창구. 학생증 하나 만들려다 서류와 예약 미로에 빠진다 — 문법 8 「무인칭·수동 se」",
  "speakers": {
   "A": "{name}",
   "B": "Secretaria"
@@ -23,7 +23,7 @@
   "study",
   "life"
  ],
- "goal": "¿aquí se pide…?·se hace por internet·se necesita una foto·se entrega·se abre·se aprende(누가 하는지 말하지 않기)",
+ "goal": "¿aquí se pide…?·se hace por internet·se necesita una foto·se entrega·se abre·se pide cita·se vende(누가 하는지 말하지 않기)",
  "expressions": [
   "claro",
   "es que",
@@ -185,30 +185,32 @@
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Sí, claro. Se rellena el papel para pedir el papel. Son cuatro hojas. Tome.",
-   "rd": "시, 끌라로. 세 레예나 엘 빠뻴 빠라 뻬디르 엘 빠뻴. 손 꾸아뜨로 오하스. 또메.",
-   "ko": "아뇨, 할 수 있죠. 서류를 신청하는 서류를 쓰시면 돼요. 네 장이에요. 여기요.",
-   "note": "se rellena = 작성한다 · tome = 받으세요(usted 명령)",
+   "tl": "Sí, claro. Se pide cita para el martes. Por internet.",
+   "rd": "시, 끌라로. 세 삐데 씨따 빠라 엘 마르떼스. 뽀르 인떼르네뜨.",
+   "ko": "할 수 있죠. 화요일 예약을 잡으시면 돼요. 인터넷으로요.",
+   "note": "se pide cita = 예약을 잡다(무인칭 se) · cita = (관공서) 예약",
    "tags": [
     "expr:claro",
     "form:se_pasiva"
    ],
    "new": [
-    "rellenar"
+    "cita"
    ],
    "emotion": "polite"
   },
   {
    "num": 13,
    "speaker": "A",
-   "tl": "¿Cuatro hojas? ¿Para un carné? ¡Madre mía!",
-   "rd": "꾸아뜨로 오하스? 빠라 운 까르네? 마드레 미아!",
-   "ko": "네 장이요? 학생증 하나에? 세상에!",
-   "note": "madre mía = 세상에",
+   "tl": "¿Por internet? ¡Pero si la página no funciona! ¡Madre mía!",
+   "rd": "뽀르 인떼르네뜨? 뻬로 시 라 빠히나 노 푼씨오나! 마드레 미아!",
+   "ko": "인터넷으로요? 사이트가 안 된다니까요! 세상에!",
+   "note": "pero si ~ = 아니 ~인데(항의) · funcionar = 작동하다",
    "tags": [
     "expr:madre mía"
    ],
-   "new": [],
+   "new": [
+    "funcionar"
+   ],
    "emotion": "shout"
   },
   {
@@ -245,14 +247,17 @@
   {
    "num": 16,
    "speaker": "B",
-   "tl": "No. Pero se pide por internet.",
-   "rd": "노. 뻬로 세 삐데 뽀르 인떼르네뜨.",
-   "ko": "아뇨. 근데 인터넷으로 주문돼요.",
-   "note": "se pide = 주문한다",
+   "tl": "No. Pero en la planta baja se vende en una máquina. Si funciona.",
+   "rd": "노. 뻬로 엔 라 쁠란따 바하 세 벤데 엔 우나 마끼나. 시 푼씨오나.",
+   "ko": "아뇨. 1층 자판기에서 팔아요. 고장 안 났으면요.",
+   "note": "se vende = 팔다(수동 se) · planta baja = 1층 · máquina = 자판기",
    "tags": [
     "form:se_impersonal"
    ],
-   "new": [],
+   "new": [
+    "planta baja",
+    "máquina"
+   ],
    "emotion": "amused"
   }
  ],

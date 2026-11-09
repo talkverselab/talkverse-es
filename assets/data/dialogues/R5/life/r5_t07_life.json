@@ -7,7 +7,7 @@
  "kind": "long",
  "title": "정산 앱",
  "emoji": "💸",
- "scene": "셰어하우스 전기 요금이 나온 날, Diego 가 정산 앱을 깔았다 — 주제 7 「돈」",
+ "scene": "셰어하우스 전기 요금이 나온 날, Diego 가 정산 앱을 깔았다 — 주제 7 「돈」. 「전부 수락」을 눌렀더니",
  "speakers": {
   "A": "{name}",
   "B": "Diego"
@@ -32,8 +32,7 @@
   "mira",
   "vale",
   "ya",
-  "espera",
-  "ni idea"
+  "espera"
  ],
  "turns": [
   {
@@ -154,79 +153,77 @@
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Espera. ¿Por qué tienes cuarenta pagos en el móvil?",
-   "rd": "에스뻬라. 뽀르 께 띠에네스 꾸아렌따 빠고스 엔 엘 모빌?",
-   "ko": "잠깐. 왜 폰에 결제가 40건이나 있어?",
-   "note": "pago = 결제·지불",
+   "tl": "Espera. ¿Lo has aceptado todo? ¿Sin leer?",
+   "rd": "에스뻬라. 로 아스 아쎄쁘따도 또도? 신 레에르?",
+   "ko": "잠깐. 그걸 다 수락했어? 안 읽고?",
+   "note": "lo has aceptado todo = 그걸 다 수락했어",
    "tags": [
     "expr:espera"
    ],
-   "new": [
-    "pago"
-   ],
+   "new": [],
    "emotion": "worried"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Ni idea. «Has pagado: cumpleaños del vecino del tercero».",
-   "rd": "니 이데아. «아스 빠가도: 꿈쁠레아뇨스 델 베씨노 델 떼르쎄로».",
-   "ko": "몰라. 「결제 완료: 3층 이웃 생일 파티」.",
-   "note": "tercero = 3층(세 번째)",
-   "tags": [
-    "expr:ni idea"
-   ],
+   "tl": "Sí. ¿Por qué? «Has pagado: cuerdas de guitarra»… ¿Cuerdas?",
+   "rd": "시. 뽀르 께? «아스 빠가도: 꾸에르다스 데 기따라»… 꾸에르다스?",
+   "ko": "응. 왜? 「결제 완료: 기타 줄」… 기타 줄?",
+   "note": "pago/pagar = 결제(하다) · cuerda = (악기) 줄",
+   "tags": [],
    "new": [
-    "tercero"
+    "pago",
+    "cuerda"
    ],
    "emotion": "surprised"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "¡Y la cena del portero! ¡Y la deuda del bar de abajo!",
-   "rd": "이 라 쎄나 델 뽀르떼로! 이 라 데우다 델 바르 데 아바호!",
-   "ko": "관리인 저녁값도! 아래층 바 외상까지!",
-   "note": "deuda = 빚·외상",
+   "tl": "Y la cena de mi cumpleaños. Y el dinero que me prestó Javi. Era mi lista de deudas.",
+   "rd": "이 라 쎄나 데 미 꿈쁠레아뇨스. 이 엘 디네로 께 메 쁘레스또 하비. 에라 미 리스따 데 데우다스.",
+   "ko": "내 생일 저녁값도. 하비가 빌려준 돈도. 그거 내 빚 목록이었어.",
+   "note": "prestar = 빌려주다 · deuda = 빚",
    "tags": [],
    "new": [
-    "deuda"
+    "prestar",
+    "deuda",
+    "lista"
    ],
-   "emotion": "shout"
+   "emotion": "flustered"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "¿Por qué está toda la comunidad en tu aplicación?",
-   "rd": "뽀르 께 에스따 또다 라 꼬무니다드 엔 뚜 아쁠리까씨온?",
-   "ko": "왜 건물 사람 전부가 네 앱에 있는 건데?",
-   "note": "comunidad = (아파트) 입주민 전체",
+   "tl": "¿Tu lista de deudas? ¿En la aplicación de la luz?",
+   "rd": "뚜 리스따 데 데우다스? 엔 라 아쁠리까씨온 데 라 루쓰?",
+   "ko": "네 빚 목록을? 전기 요금 앱에?",
+   "note": "la luz = 전기(요금)",
    "tags": [],
-   "new": [
-    "comunidad"
-   ],
-   "emotion": "sad"
+   "new": [],
+   "emotion": "tsukkomi"
   },
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Les metí en el grupo para compartir internet… y se quedaron.",
-   "rd": "레스 메띠 엔 엘 그루뽀 빠라 꼼빠르띠르 인떼르네뜨… 이 세 께다론.",
-   "ko": "인터넷 같이 쓰자고 단톡에 넣었는데… 다들 안 나갔어.",
-   "note": "compartir = 같이 쓰다",
+   "tl": "Es la misma aplicación. Lo puse todo para no olvidarme… y lo compartí sin querer.",
+   "rd": "에스 라 미스마 아쁠리까씨온. 로 뿌세 또도 빠라 노 올비다르메… 이 로 꼼빠르띠 신 께레르.",
+   "ko": "같은 앱이야. 안 잊으려고 다 적어 뒀는데… 실수로 공유해 버렸어.",
+   "note": "compartir = 공유하다 · sin querer = 실수로",
    "tags": [],
    "new": [
-    "compartir"
+    "compartir",
+    "sin querer"
    ],
    "emotion": "flustered"
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Diego, me has costado trescientos euros. Y no conozco a esta gente.",
-   "rd": "디에고, 메 아스 꼬스따도 뜨레스씨엔또스 에우로스. 이 노 꼬노쓰꼬 아 에스따 헨떼.",
-   "ko": "디에고, 너 때문에 300유로 나갔어. 이 사람들 알지도 못하는데.",
-   "note": "costar = (비용이) 들다",
+   "tl": "Diego, me has costado trescientos euros. Y yo no fui a tu cena.",
+   "rd": "디에고, 메 아스 꼬스따도 뜨레스씨엔또스 에우로스. 이 요 노 푸이 아 뚜 쎄나.",
+   "ko": "디에고, 너 때문에 300유로 나갔어. 난 네 생일 저녁에 가지도 않았는데.",
+   "note": "costar = (비용이) 들다 · me has costado = 너 때문에 나 ~ 썼어",
    "tags": [],
    "new": [
     "costar"
@@ -236,32 +233,26 @@
   {
    "num": 15,
    "speaker": "B",
-   "tl": "Mira el lado bueno: en el bar de abajo ya te invitan a la primera.",
-   "rd": "미라 엘 라도 부에노: 엔 엘 바르 데 아바호 야 떼 인비딴 아 라 쁘리메라.",
-   "ko": "좋게 생각해. 아래층 바에서 첫 잔은 이제 너한테 쏜대.",
-   "note": "invitar = 한턱내다",
+   "tl": "Mira el lado bueno: Javi ya no me pregunta por su dinero.",
+   "rd": "미라 엘 라도 부에노: 하비 야 노 메 쁘레군따 뽀르 수 디네로.",
+   "ko": "좋게 생각해. 이제 하비가 돈 언제 갚냐고 안 물어.",
+   "note": "el lado bueno = 좋은 쪽 · preguntar por ~ = ~에 대해 묻다",
    "tags": [
-    "expr:mira",
-    "expr:bueno",
-    "expr:ya"
+    "expr:mira"
    ],
-   "new": [
-    "invitar"
-   ],
-   "emotion": "gentle"
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 16,
    "speaker": "A",
-   "tl": "Pues que me inviten a doscientas noventa y nueve más.",
-   "rd": "뿌에스 께 메 인비뗀 아 도스씨엔따스 노벤따 이 누에베 마스.",
-   "ko": "그럼 299잔 더 쏘라 그래.",
-   "note": "que + 접속법 = ~하라 그래",
-   "tags": [
-    "expr:pues"
-   ],
+   "tl": "Porque ahora te lo voy a preguntar yo. Todos los días.",
+   "rd": "뽀르께 아오라 떼 로 보이 아 쁘레군따르 요. 또도스 로스 디아스.",
+   "ko": "이제 내가 물어볼 거니까. 매일.",
+   "note": "te lo voy a preguntar = 너한테 그걸 물을 거야",
+   "tags": [],
    "new": [],
-   "emotion": "amused"
+   "emotion": "teasing"
   }
  ],
  "draft": "claude"

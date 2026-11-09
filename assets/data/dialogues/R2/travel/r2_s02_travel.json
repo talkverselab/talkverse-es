@@ -7,7 +7,7 @@
  "kind": "chat",
  "title": "사진 한 장만",
  "emoji": "📸",
- "scene": "카디스 바닷가에 간 Lucía 에게 사진을 조르는 채팅 — 상황 2 「사진」",
+ "scene": "카디스 바닷가에 간 Lucía 에게 사진을 조르는 채팅 — 상황 2 「사진」. 뒤에 지나가던 아저씨와 개가 찍혔다",
  "speakers": {
   "A": "{name}",
   "B": "Lucía"
@@ -126,13 +126,13 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Y está con un perro. Y una boda entera.",
-   "rd": "이 에스따 꼰 운 뻬로. 이 우나 보다 엔떼라.",
-   "ko": "개도 같이 있어. 결혼식 하객 전원도.",
-   "note": "está con ~ = ~랑 같이 있어(estar 3인칭, 1번 턴 estoy 와 짝) · entera = 통째로",
+   "tl": "Y tiene un perro. ¡El perro mira a la cámara!",
+   "rd": "이 띠에네 운 뻬로. 엘 뻬로 미라 아 라 까마라!",
+   "ko": "개도 데리고 있어. 개가 카메라 보고 있어!",
+   "note": "tiene = 갖고 있다(tener 3인칭) · mira a la cámara = 카메라를 봐",
    "tags": [],
    "new": [
-    "boda"
+    "cámara"
    ],
    "emotion": "amused",
    "ui": "bubble",
@@ -142,10 +142,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Y ya está en mi historia. Mil vistas.",
-   "rd": "이 야 에스따 엔 미 이스또리아. 밀 비스따스.",
-   "ko": "근데 벌써 내 스토리에 올렸어. 조회수 천.",
-   "note": "historia = SNS 스토리",
+   "tl": "Y ya está en mi historia. Cien vistas.",
+   "rd": "이 야 에스따 엔 미 이스또리아. 씨엔 비스따스.",
+   "ko": "근데 벌써 내 스토리에 올렸어. 조회수 백.",
+   "note": "historia = SNS 스토리 · vistas = 조회수",
    "tags": [
     "callback:r2_s04_friends"
    ],
@@ -159,20 +159,20 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Ahora la novia me pide la foto. Qué fuerte.",
-   "rd": "아오라 라 노비아 메 삐데 라 포또. 께 푸에르떼.",
-   "ko": "이제 신부가 그 사진 달래. 대박.",
-   "note": "qué fuerte = 대박·헐",
+   "tl": "Y todos preguntan por el perro. Qué fuerte.",
+   "rd": "이 또도스 쁘레군딴 뽀르 엘 뻬로. 께 푸에르떼.",
+   "ko": "근데 다들 개 얘기만 물어봐. 어이없어.",
+   "note": "preguntar por ~ = ~에 대해 묻다 · qué fuerte = 대박·헐",
    "tags": [
     "expr:qué fuerte"
    ],
    "new": [
-    "novia"
+    "preguntar"
    ],
-   "emotion": "excited",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "at": "12:31",
-   "stamp": "👰"
+   "stamp": "🙄"
   }
  ],
  "draft": "claude"

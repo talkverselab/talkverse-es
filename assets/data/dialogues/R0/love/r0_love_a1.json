@@ -25,11 +25,13 @@
  "domain": [
   "love"
  ],
- "goal": "ser(eres·soy·es) · bonito/bonita 성 일치 · gustar(gusto·gustas)",
+ "goal": "ser(eres·soy·es) · gustar(gusta·gusto·gustas) · 짧은 반응",
  "expressions": [
   "vale",
-  "ya",
-  "es que"
+  "qué pasa",
+  "qué fuerte",
+  "venga",
+  "bueno"
  ],
  "turns": [
   {
@@ -38,7 +40,7 @@
    "tl": "¡Vale! ¿Eres {name}?",
    "rd": "발레! 에레스 {name}?",
    "ko": "그래! 너 {name} 맞아?",
-   "note": "¿Eres…? = 너 ~야?",
+   "note": "¿eres…? = 너 ~야?(ser 2인칭) · vale = 그래·좋아",
    "tags": [
     "form:ser"
    ],
@@ -46,25 +48,24 @@
    "ui": "bubble",
    "at": "21:03",
    "stamp": "👀",
-   "emotion": "teasing",
-   "note_stale": true
+   "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "A",
    "tl": "Sí, soy yo. ¡Qué pasa!",
    "rd": "시, 소이 요. 께 빠사!",
-   "ko": "응, 나야. 뭐 해?",
-   "note": "soy yo = 나야",
+   "ko": "응, 나야. 안녕!",
+   "note": "soy yo = 나야(ser 1인칭) · ¡qué pasa! = 안녕·잘 지내(가벼운 인사)",
    "tags": [
-    "form:ser"
+    "form:ser",
+    "expr:qué pasa"
    ],
    "new": [],
    "ui": "bubble",
    "at": "21:04",
    "stamp": "😊",
-   "emotion": "cheerful",
-   "note_stale": true
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -72,8 +73,10 @@
    "tl": "Tu foto mola, tío.",
    "rd": "뚜 포또 몰라, 띠오.",
    "ko": "네 사진 멋져, 이봐.",
-   "note": "tu foto = 네 사진",
-   "tags": [],
+   "note": "mola = 멋져(molar) · tío/tía = 친구끼리 부르는 말",
+   "tags": [
+    "expr:tío"
+   ],
    "new": [
     "foto"
    ],
@@ -82,7 +85,6 @@
    "stamp": "🔥",
    "emotion": "excited",
    "tl_f": "Tu foto mola, tía.",
-   "note_stale": true,
    "rd_f": "뚜 포또 몰라, 띠아."
   },
   {
@@ -91,7 +93,7 @@
    "tl": "¡No! Es mi perro.",
    "rd": "노! 에스 미 뻬로.",
    "ko": "아니! 그거 우리 개야.",
-   "note": "mi perro = 우리 개(내 개)",
+   "note": "es mi perro = 그거 우리 개야(ser 3인칭) · perro = 개",
    "tags": [],
    "new": [
     "perro"
@@ -99,8 +101,7 @@
    "ui": "bubble",
    "at": "21:05",
    "stamp": "🐶",
-   "emotion": "surprised",
-   "note_stale": true
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -108,18 +109,16 @@
    "tl": "¡Qué fuerte! El perro me gusta más.",
    "rd": "께 푸에르떼! 엘 뻬로 메 구스따 마스.",
    "ko": "대박! 개가 더 맘에 들어.",
-   "note": "bonita(사진) / bonito(개) = 예쁜 — 명사 성에 맞춤",
+   "note": "me gusta más = 더 맘에 들어 · qué fuerte = 대박",
    "tags": [
-    "expr:ya",
-    "expr:es que",
-    "form:ser"
+    "expr:qué fuerte",
+    "form:gustar"
    ],
    "new": [],
    "ui": "bubble",
    "at": "21:05",
    "stamp": "😂",
-   "emotion": "amused",
-   "note_stale": true
+   "emotion": "amused"
   },
   {
    "num": 6,
@@ -127,9 +126,9 @@
    "tl": "¡Venga! ¿Y yo no te gusto?",
    "rd": "벤가! 이 요 노 떼 구스또?",
    "ko": "야! 그럼 나는 안 맘에 들어?",
-   "note": "¿no te gusto? = 내가 맘에 안 들어?",
+   "note": "¿no te gusto? = 내가 맘에 안 들어?(gustar 1인칭 주어) · venga = 야·에이",
    "tags": [
-    "expr:vale",
+    "expr:venga",
     "form:gustar"
    ],
    "new": [
@@ -137,8 +136,7 @@
    ],
    "ui": "bubble",
    "at": "21:06",
-   "emotion": "tsukkomi",
-   "note_stale": true
+   "emotion": "tsukkomi"
   },
   {
    "num": 7,
@@ -146,8 +144,9 @@
    "tl": "Bueno… tú me gustas más. Un poco.",
    "rd": "부에노… 뚜 메 구스따스 마스. 운 뽀꼬.",
    "ko": "글쎄… 너 더 맘에 들어. 조금.",
-   "note": "me gustas = 네가 좋아·맘에 들어",
+   "note": "me gustas = 네가 좋아·맘에 들어(gustar 2인칭 주어) — 5번 gusta, 6번 gusto 와 비교",
    "tags": [
+    "expr:bueno",
     "form:gustar"
    ],
    "new": [],
@@ -163,41 +162,10 @@
      "gentle",
      "tú me gustas más. Un poco."
     ]
-   ],
-   "note_stale": true
+   ]
   }
  ],
  "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "¡Hola! ¿Eres {name}?",
-   "ko": "안녕! 너 {name} 맞지?"
-  },
-  {
-   "tl": "Sí, soy yo. ¡Hola, Marta!",
-   "ko": "응, 나야. 안녕, 마르타!"
-  },
-  {
-   "tl": "Tu foto es muy bonita.",
-   "ko": "네 사진 진짜 예쁘다."
-  },
-  {
-   "tl": "¿Mi foto? Es mi perro.",
-   "ko": "내 사진? 그거 우리 개인데."
-  },
-  {
-   "tl": "Ya… Es que tu perro es muy bonito.",
-   "ko": "아… 그게, 네 개가 너무 예뻐서."
-  },
-  {
-   "tl": "Vale. ¿Y yo no te gusto?",
-   "ko": "그래. 그럼 나는 별로야?"
-  },
-  {
-   "tl": "Tú también me gustas. Un poco.",
-   "ko": "너도 맘에 들어. 조금."
-  }
- ],
  "review": {
   "grok_rewrite": "data/review/grok/r0_love_a1_rewrite.md",
   "model": "전문가"

@@ -7,7 +7,7 @@
  "kind": "chat",
  "title": "공짜 추로스",
  "emoji": "🥨",
- "scene": "Javi 에게 던진 농담이 동네를 뒤집는 채팅 — 상황 7 「농담」",
+ "scene": "Javi 에게 던진 「공짜 추로스」 농담이 축구팀 단톡방까지 번지는 채팅 — 상황 7 「농담」",
  "speakers": {
   "A": "{name}",
   "B": "Javi"
@@ -114,13 +114,14 @@
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Hay mil tíos corriendo. Y el churrero, feliz.",
-   "rd": "아이 밀 띠오스 꼬리엔도. 이 엘 추레로, 펠리쓰.",
-   "ko": "천 명이 뛰고 있어. 추로스 아저씨는 신났어.",
-   "note": "corriendo = 뛰는 중(correr, 1번 턴 corre 와 짝) · tíos = 사람들(구어)",
+   "tl": "Estoy en la plaza con el equipo. ¡El churrero, feliz!",
+   "rd": "에스또이 엔 라 쁠라싸 꼰 엘 에끼뽀. 엘 추레로, 펠리쓰!",
+   "ko": "팀이랑 광장에 와 있어. 추로스 아저씨 신났어!",
+   "note": "estoy en ~ con ~ = ~에 ~랑 있어 · churrero = 추로스 장수",
    "tags": [],
    "new": [
-    "churrero"
+    "churrero",
+    "equipo"
    ],
    "emotion": "excited",
    "ui": "bubble",

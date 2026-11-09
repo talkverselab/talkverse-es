@@ -7,7 +7,7 @@
  "kind": "long",
  "title": "추로스 도둑",
  "emoji": "🐕",
- "scene": "또 40분 늦은 Javi 가 말도 안 되는 변명을 늘어놓는다 — 문법 4 「단순과거(사건) ↔ 불완료(배경)」",
+ "scene": "동네 카페 테라스. 또 40분 늦은 Javi 가 말도 안 되는 변명을 늘어놓는데 — 문법 4 「단순과거(사건) ↔ 불완료(배경)」",
  "speakers": {
   "A": "{name}",
   "B": "Javi",
@@ -24,7 +24,7 @@
   "friends",
   "life"
  ],
- "goal": "salía… y vi / llevaba… me la quitó / corrí·corriste·corría / hacía calor(배경 = 불완료, 사건 = 단순과거)",
+ "goal": "salía… y vi / llevaba… me la quitó / corrí·corriste·corrías / estaba poniendo… y lo vi / hacía calor(배경 = 불완료, 사건 = 단순과거)",
  "expressions": [
   "tío",
   "vale",
@@ -211,27 +211,32 @@
   {
    "num": 12,
    "speaker": "B",
-   "tl": "No. Pero la señora era muy simpática. Llevaba un abrigo rojo y…",
-   "rd": "노. 뻬로 라 세뇨라 에라 무이 심빠띠까. 예바바 운 아브리고 로호 이…",
-   "ko": "아니. 근데 그 아주머니 엄청 친절했어. 빨간 외투를 입고 있었는데…",
-   "note": "era·llevaba = 묘사는 불완료",
+   "tl": "No. Pero la camarera de aquí lo vio todo. Pregúntale.",
+   "rd": "노. 뻬로 라 까마레라 데 아끼 로 비오 또도. 쁘레군딸레.",
+   "ko": "아니. 근데 여기 직원분이 다 봤어. 물어봐.",
+   "note": "lo vio todo = 그걸 다 봤어(ver 단순과거 3인칭) · pregúntale = 그녀한테 물어봐",
    "tags": [
     "form:imperfecto"
    ],
-   "new": [],
-   "emotion": "shy"
+   "new": [
+    "camarera"
+   ],
+   "emotion": "annoyed"
   },
   {
    "num": 13,
    "speaker": "C",
-   "tl": "…Y un perro que se llama Rufo. La señora era yo. Toma, tus churros.",
-   "rd": "…이 운 뻬로 께 세 야마 루포. 라 세뇨라 에라 요. 또마, 뚜스 추로스.",
-   "ko": "…그리고 루포라는 개도 있었죠. 그 아주머니가 저예요. 자, 추로스 여기요.",
-   "note": "la señora era yo = 그 아주머니가 저예요",
+   "tl": "Es verdad. Yo estaba poniendo las mesas y lo vi. Corrías como un loco.",
+   "rd": "에스 베르다드. 요 에스따바 뽀니엔도 라스 메사스 이 로 비. 꼬리아스 꼬모 운 로꼬.",
+   "ko": "진짜예요. 제가 테이블 펴고 있다가 봤어요. 미친 듯이 뛰던데요.",
+   "note": "estaba poniendo = 펴고 있었다(배경, 불완료) ↔ lo vi = 봤다(사건, 단순과거) · corrías = 너 뛰고 있었어",
    "tags": [
     "form:imperfecto"
    ],
-   "new": [],
+   "new": [
+    "poner",
+    "mesa"
+   ],
    "emotion": "amused"
   },
   {
@@ -250,16 +255,18 @@
   {
    "num": 15,
    "speaker": "C",
-   "tl": "Verdad. Su amigo corría como un loco. Rufo y yo nunca vimos nada igual.",
-   "rd": "베르다드. 수 아미고 꼬리아 꼬모 운 로꼬. 루포 이 요 눈까 비모스 나다 이구알.",
-   "ko": "진짜예요. 친구분이 미친 듯이 뛰더라고요. 루포도 저도 그런 건 처음 봤어요.",
-   "note": "corría(장면 묘사) · vimos = (우리) 봤다",
+   "tl": "Verdad. Y el perro se comió los churros en la esquina. Toma, estos son de la casa.",
+   "rd": "베르다드. 이 엘 뻬로 세 꼬미오 로스 추로스 엔 라 에스끼나. 또마, 에스또스 손 데 라 까사.",
+   "ko": "진짜요. 개가 모퉁이에서 추로스 다 먹어 버렸고요. 자, 이건 서비스예요.",
+   "note": "se comió = 다 먹어 버렸다(단순과거) · de la casa = 가게 서비스",
    "tags": [
     "form:imperfecto",
     "form:indefinido"
    ],
-   "new": [],
-   "emotion": "teasing"
+   "new": [
+    "esquina"
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 16,

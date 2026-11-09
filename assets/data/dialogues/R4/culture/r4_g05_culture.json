@@ -219,24 +219,24 @@
   {
    "num": 14,
    "speaker": "C",
-   "tl": "Tres veces este año. Ya le habíamos guardado una manta.",
-   "rd": "뜨레스 베쎄스 에스떼 아뇨. 야 레 아비아모스 구아르다도 우나 만따.",
-   "ko": "올해만 세 번이에요. 저희가 담요까지 따로 챙겨 뒀었는데요.",
-   "note": "ya le habíamos guardado = 이미 챙겨 뒀었다",
+   "tl": "Ya la habíamos despertado dos veces este año. Siempre a la hora de cerrar.",
+   "rd": "야 라 아비아모스 데스뻬르따도 도스 베쎄스 에스떼 아뇨. 시엠쁘레 아 라 오라 데 쎄라르.",
+   "ko": "올해만 벌써 두 번 깨워 드렸잖아요. 늘 문 닫을 시간에요.",
+   "note": "la habíamos despertado = 그분을 깨워 드렸었다(과거완료) · a la hora de cerrar = 문 닫을 시간에",
    "tags": [
     "form:pluscuamperfecto"
    ],
    "new": [
-    "manta"
+    "despertar"
    ],
    "emotion": "gentle"
   },
   {
    "num": 15,
    "speaker": "A",
-   "tl": "¿Tres siestas en el museo? Qué fuerte, Lucía.",
-   "rd": "뜨레스 시에스따스 엔 엘 무세오? 께 푸에르떼, 루씨아.",
-   "ko": "미술관에서 낮잠을 세 번? 대박이다, 루시아.",
+   "tl": "¿Dos siestas en el museo? Qué fuerte, Lucía.",
+   "rd": "도스 시에스따스 엔 엘 무세오? 께 푸에르떼, 루씨아.",
+   "ko": "미술관에서 낮잠을 두 번? 대박이다, 루시아.",
    "note": "qué fuerte = 대박",
    "tags": [
     "expr:qué fuerte"

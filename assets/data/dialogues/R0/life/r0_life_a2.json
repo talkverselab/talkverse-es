@@ -7,7 +7,7 @@
  "kind": "short",
  "title": "조금 추워",
  "emoji": "🧣",
- "scene": "아침 거실, 룸메이트 Diego 에게 춥다고 했더니",
+ "scene": "아침 거실, 룸메이트 Diego 에게 춥다고 했더니 담요·커피·난방까지 몰려온다",
  "speakers": {
   "A": "{name}",
   "B": "Diego"
@@ -103,12 +103,15 @@
   {
    "num": 6,
    "speaker": "B",
-   "tl": "¡Y mi guitarra! Para ti.",
-   "rd": "이 미 기따라! 빠라 띠.",
-   "ko": "그리고 내 기타! 너를 위해.",
-   "note": "para ti = 너를 위해",
+   "tl": "Y un café caliente. ¡Y la calefacción!",
+   "rd": "이 운 까페 깔리엔떼. 이 라 깔레파끄씨온!",
+   "ko": "그리고 뜨거운 커피. 난방까지!",
+   "note": "caliente = 뜨거운 · calefacción = 난방",
    "tags": [],
-   "new": [],
+   "new": [
+    "caliente",
+    "calefacción"
+   ],
    "emotion": "excited"
   },
   {

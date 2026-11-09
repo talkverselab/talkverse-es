@@ -121,10 +121,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Lucía trae a su prima, su novio y un perro.",
-   "rd": "루씨아 뜨라에 아 수 쁘리마, 수 노비오 이 운 뻬로.",
-   "ko": "루시아가 사촌이랑 남친이랑 개를 데려온대.",
-   "note": "traer a ~ = ~를 데려오다",
+   "tl": "Viene Lucía. Con su prima y su novio.",
+   "rd": "비에네 루씨아. 꼰 수 쁘리마 이 수 노비오.",
+   "ko": "루시아 온대. 사촌이랑 남친도 같이.",
+   "note": "viene = 와(venir 3인칭) · con ~ = ~랑 같이",
    "tags": [],
    "new": [
     "prima"
@@ -136,25 +136,26 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Ya hay diez en el grupo. Y dos perros.",
-   "rd": "야 아이 디에쓰 엔 엘 그루뽀. 이 도스 뻬로스.",
-   "ko": "단톡방에 벌써 열 명. 개도 두 마리.",
-   "note": "perros = perro 의 복수 · ya hay ~ = 벌써 ~ 있다",
+   "tl": "Su prima trae a una amiga. Seis en el grupo.",
+   "rd": "수 쁘리마 뜨라에 아 우나 아미가. 세이스 엔 엘 그루뽀.",
+   "ko": "사촌이 친구를 또 데려온대. 단톡방에 여섯 명.",
+   "note": "trae a ~ = ~를 데려와(traer 3인칭) · grupo = 단톡방",
    "tags": [],
    "new": [
+    "amiga",
     "grupo"
    ],
-   "emotion": "excited",
+   "emotion": "flustered",
    "ui": "bubble",
    "at": "19:31",
-   "stamp": "🎉"
+   "stamp": "😅"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "¿Diez? ¡Haces paella para dos!",
-   "rd": "디에쓰? 아쎄스 빠에야 빠라 도스!",
-   "ko": "열 명? 너 파에야 2인분 하잖아!",
+   "tl": "¿Seis? ¡Haces paella para dos!",
+   "rd": "세이스? 아쎄스 빠에야 빠라 도스!",
+   "ko": "여섯? 너 파에야 2인분 하잖아!",
    "note": "haces = 너 ~ 하잖아(hacer 2인칭, 3번 턴 hago 와 짝) · para dos = 2인분",
    "tags": [],
    "new": [],

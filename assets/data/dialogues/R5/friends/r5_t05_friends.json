@@ -209,12 +209,14 @@
   {
    "num": 13,
    "speaker": "A",
-   "tl": "Javi, ¿por qué te pones el helado en la cabeza?",
-   "rd": "하비, 뽀르 께 떼 뽀네스 엘 엘라도 엔 라 까베싸?",
-   "ko": "하비, 아이스크림을 왜 머리에 쓰고 있어?",
-   "note": "ponerse = 쓰다·입다",
+   "tl": "Javi, ¿por qué te pones la bolsa del helado en la cabeza?",
+   "rd": "하비, 뽀르 께 떼 뽀네스 라 볼사 델 엘라도 엔 라 까베싸?",
+   "ko": "하비, 아이스크림 봉지를 왜 머리에 쓰고 있어?",
+   "note": "ponerse ~ en la cabeza = 머리에 쓰다 · bolsa = 봉지",
    "tags": [],
-   "new": [],
+   "new": [
+    "bolsa"
+   ],
    "emotion": "tsukkomi"
   },
   {

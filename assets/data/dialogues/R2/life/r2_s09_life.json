@@ -7,7 +7,7 @@
  "kind": "chat",
  "title": "화해 케이크",
  "emoji": "🍰",
- "scene": "설거지로 다툰 다음 날 Diego 와 화해하는 채팅 — 상황 9 「화해」",
+ "scene": "설거지로 다툰 다음 날 Diego 와 화해하는 채팅 — 상황 9 「화해」. 화해 케이크가 설거지 산을 만든다",
  "speakers": {
   "A": "{name}",
   "B": "Diego"
@@ -102,32 +102,35 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Oye, ¿es normal el fuego en la cocina?",
-   "rd": "오예, 에스 노르말 엘 푸에고 엔 라 꼬씨나?",
-   "ko": "근데 부엌에 불 나는 거 정상이야?",
-   "note": "es normal ~ = ~ 정상이야",
+   "tl": "Oye, la tarta ya está. Pero mira la cocina.",
+   "rd": "오예, 라 따르따 야 에스따. 뻬로 미라 라 꼬씨나.",
+   "ko": "있잖아, 케이크 다 됐어. 근데 부엌 좀 봐.",
+   "note": "ya está = 다 됐어 · mira = 봐(mirar 명령, 통문장)",
    "tags": [
-    "expr:oye"
+    "expr:oye",
+    "expr:ya está"
    ],
    "new": [
     "cocina"
    ],
-   "emotion": "worried",
+   "emotion": "flustered",
    "ui": "bubble",
-   "at": "16:40"
+   "at": "16:40",
+   "stamp": "😅"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¡No! ¡Apágalo ya!",
-   "rd": "노! 아빠갈로 야!",
-   "ko": "아니! 당장 꺼!",
-   "note": "apágalo = 그거 꺼(apagar 명령+lo)",
+   "tl": "¡Madre mía! ¿Usaste todos los platos?",
+   "rd": "마드레 미아! 우사스떼 또도스 로스 쁠라또스?",
+   "ko": "세상에! 접시 다 쓴 거야?",
+   "note": "usaste = 너 썼어(usar 단순과거 2인칭) · todos los platos = 접시 전부",
    "tags": [
-    "form:imperativo"
+    "expr:madre mía",
+    "form:indefinido"
    ],
    "new": [
-    "apagar"
+    "usar"
    ],
    "emotion": "shout",
    "ui": "bubble",
@@ -136,29 +139,28 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "No se apaga. Suena la alarma y viene la vecina.",
-   "rd": "노 세 아빠가. 수에나 라 알라르마 이 비에네 라 베씨나.",
-   "ko": "안 꺼져. 경보 울리고 옆집 아주머니 와.",
-   "note": "no se apaga = 안 꺼져(apagarse 3인칭) · suena = 울리다(sonar)",
+   "tl": "Y las tazas. Y la sartén. Y tu taza favorita.",
+   "rd": "이 라스 따싸스. 이 라 사르뗀. 이 뚜 따싸 파보리따.",
+   "ko": "컵도. 프라이팬도. 네가 제일 아끼는 컵까지.",
+   "note": "taza/tazas = 컵(단수·복수) · sartén = 프라이팬",
    "tags": [],
    "new": [
-    "alarma",
-    "vecina"
+    "taza",
+    "sartén",
+    "favorito"
    ],
    "emotion": "flustered",
    "ui": "bubble",
-   "at": "16:44",
-   "stamp": "🚨"
+   "at": "16:44"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Madre mía. Vale, paz… y friego yo.",
-   "rd": "마드레 미아. 발레, 빠쓰… 이 프리에고 요.",
-   "ko": "세상에. 알았어, 화해… 설거지는 내가.",
-   "note": "fregar = 설거지하다",
+   "tl": "Vale, paz… pero hoy friegas tú.",
+   "rd": "발레, 빠쓰… 뻬로 오이 프리에가스 뚜.",
+   "ko": "알았어, 화해… 근데 오늘 설거지는 네가 해.",
+   "note": "friegas = 너 설거지해(fregar 2인칭)",
    "tags": [
-    "expr:madre mía",
     "expr:vale"
    ],
    "new": [
@@ -166,12 +168,12 @@
    ],
    "segs": [
     [
-     "tsukkomi",
-     "Madre mía."
+     "gentle",
+     "Vale, paz…"
     ],
     [
-     "gentle",
-     "Vale, paz… y friego yo."
+     "teasing",
+     "pero hoy friegas tú."
     ]
    ],
    "ui": "bubble",

@@ -197,10 +197,10 @@
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Ahora mismo, treinta y dos. Mi tía ya ha comprado la paellera más grande del pueblo.",
-   "rd": "아오라 미스모, 뜨레인따 이 도스. 미 띠아 야 아 꼼쁘라도 라 빠에예라 마스 그란데 델 뿌에블로.",
-   "ko": "지금으로선 서른두 명. 이모가 벌써 동네에서 제일 큰 빠에야 팬을 샀어.",
-   "note": "paellera = 빠에야 팬",
+   "tl": "Ahora mismo, doce. Mi tía ya ha sacado la paellera grande.",
+   "rd": "아오라 미스모, 도쎄. 미 띠아 야 아 사까도 라 빠에예라 그란데.",
+   "ko": "지금으로선 열두 명. 이모가 벌써 큰 빠에야 팬을 꺼냈어.",
+   "note": "ha sacado = 꺼냈어(현재완료) · paellera = 빠에야 팬",
    "tags": [
     "expr:ahora mismo"
    ],
@@ -212,9 +212,9 @@
   {
    "num": 14,
    "speaker": "A",
-   "tl": "¿Treinta y dos? ¡Madre mía!",
-   "rd": "뜨레인따 이 도스? 마드레 미아!",
-   "ko": "서른두 명? 세상에!",
+   "tl": "¿Doce? ¡Madre mía!",
+   "rd": "도쎄? 마드레 미아!",
+   "ko": "열두 명? 세상에!",
    "note": "madre mía = 세상에",
    "tags": [
     "expr:madre mía"

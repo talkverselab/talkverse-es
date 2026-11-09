@@ -182,21 +182,24 @@
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Una pregunta. ¿Dónde estaba el termómetro antes de usarlo?",
-   "rd": "우나 쁘레군따. 돈데 에스따바 엘 떼르모메뜨로 안떼스 데 우사를로?",
-   "ko": "하나만 여쭐게요. 체온계 쓰기 전에 어디 있었어요?",
-   "note": "antes de + 원형 = ~하기 전에",
+   "tl": "Una pregunta. ¿Ha bebido algo caliente antes de usar el termómetro?",
+   "rd": "우나 쁘레군따. 아 베비도 알고 깔리엔떼 안떼스 데 우사르 엘 떼르모메뜨로?",
+   "ko": "하나만 여쭐게요. 체온계 쓰기 전에 뜨거운 걸 마셨나요?",
+   "note": "¿ha bebido? = 마셨어요?(현재완료 usted) · antes de + 원형 = ~하기 전에",
    "tags": [],
-   "new": [],
+   "new": [
+    "beber",
+    "caliente"
+   ],
    "emotion": "stiff"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Pues… dentro de su té caliente. No me pregunte por qué.",
-   "rd": "뿌에스… 덴뜨로 데 수 떼 깔리엔떼. 노 메 쁘레군떼 뽀르 께.",
-   "ko": "그게… 얘 뜨거운 차 안에요. 왜냐고는 묻지 마세요.",
-   "note": "té = 차 · caliente = 뜨거운",
+   "tl": "Pues… sí. Un té muy caliente. Se lo hice yo.",
+   "rd": "뿌에스… 시. 운 떼 무이 깔리엔떼. 세 로 이쎄 요.",
+   "ko": "그게… 네. 아주 뜨거운 차요. 제가 끓여 줬어요.",
+   "note": "se lo hice = 제가 (얘한테) 만들어 줬어요 · té = 차",
    "tags": [
     "expr:pues"
    ],
