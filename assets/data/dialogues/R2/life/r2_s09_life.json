@@ -24,45 +24,45 @@
  ],
  "goal": "채팅으로 화해하기·사과 받기",
  "expressions": [
-  "perdona",
+  "no pasa nada",
   "tranqui",
-  "qué mono",
+  "ya está",
   "oye",
   "madre mía",
-  "vale",
-  "ya está"
+  "vale"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Diego, perdona por lo de los platos.",
-   "rd": "디에고, 뻬르도나 뽀르 로 데 로스 쁠라또스.",
-   "ko": "디에고, 설거지 일은 미안.",
-   "note": "lo de ~ = ~ 일",
-   "tags": [
-    "expr:perdona"
-   ],
+   "tl": "Diego, siento lo de ayer con los platos.",
+   "rd": "디에고, 시엔또 로 데 아예르 꼰 로스 쁠라또스.",
+   "ko": "디에고, 어제 설거지 일은 미안해.",
+   "note": "siento lo de ~ = ~ 일은 미안해(sentir 1인칭)",
+   "tags": [],
    "new": [
+    "sentir",
     "plato"
    ],
    "ui": "bubble",
    "at": "16:00",
-   "emotion": "worried"
+   "stamp": "😔",
+   "emotion": "flustered"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Tranqui. Yo tb estuve fatal.",
-   "rd": "뜨란끼. 요 뜨브 에스뚜베 파딸.",
-   "ko": "괜찮아. 나도 진짜 별로였어.",
-   "note": "tb = también(나도)",
+   "tl": "Tranqui, no pasa nada. Yo también estuve de mal humor.",
+   "rd": "뜨란끼, 노 빠사 나다. 요 땀비엔 에스뚜베 데 말 우모르.",
+   "ko": "괜찮아, 별일 아냐. 나도 기분 안 좋았어.",
+   "note": "estuve de mal humor = 기분이 안 좋았어(estar 단순과거 1인칭)",
    "tags": [
+    "expr:no pasa nada",
     "expr:tranqui",
     "form:indefinido"
    ],
    "new": [
-    "fatal"
+    "humor"
    ],
    "ui": "bubble",
    "at": "16:02",
@@ -71,47 +71,51 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Te hago una tarta de paz.",
-   "rd": "떼 아고 우나 따르따 데 빠쓰.",
+   "tl": "Te preparo una tarta de reconciliación.",
+   "rd": "떼 쁘레빠로 우나 따르따 데 레꼰씰리아씨온.",
    "ko": "화해 케이크 만들어 줄게.",
-   "note": "te hago = 만들어 줄게(hacer 1인칭) · tarta = 케이크",
+   "note": "te preparo = 만들어 줄게(preparar 1인칭) · tarta = 케이크",
    "tags": [],
    "new": [
+    "preparar",
     "tarta",
-    "paz"
+    "reconciliación"
    ],
    "ui": "bubble",
    "at": "16:02",
-   "stamp": "🍰",
+   "stamp": "🎂",
    "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿Tú haces tartas? Qué mono.",
-   "rd": "뚜 아쎄스 따르따스? 께 모노.",
-   "ko": "네가 케이크를 만들어? 귀엽네.",
-   "note": "¿tú haces? = 네가 만들어?(hacer 2인칭, 3번 턴 hago 와 짝) · tartas = tarta 복수",
-   "tags": [
-    "expr:qué mono"
+   "tl": "¿Tú preparas tartas? Qué detalle.",
+   "rd": "뚜 쁘레빠라스 따르따스? 께 데따예.",
+   "ko": "네가 케이크를 만들어? 감동인데.",
+   "note": "¿preparas? = 너 만들어?(preparar 2인칭, 3번 턴과 짝) · qué detalle = 센스 있네·감동이야",
+   "tags": [],
+   "new": [
+    "detalle"
    ],
-   "new": [],
    "ui": "bubble",
    "at": "16:03",
-   "emotion": "surprised"
+   "emotion": "amused"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Oye, la tarta ya está. Pero mira la cocina.",
-   "rd": "오예, 라 따르따 야 에스따. 뻬로 미라 라 꼬씨나.",
-   "ko": "있잖아, 케이크 다 됐어. 근데 부엌 좀 봐.",
-   "note": "ya está = 다 됐어 · mira = 봐(mirar 명령, 통문장)",
+   "tl": "Oye, ya está. Pero echa un ojo a la cocina.",
+   "rd": "오예, 야 에스따. 뻬로 에차 운 오호 아 라 꼬씨나.",
+   "ko": "있잖아, 다 됐어. 근데 부엌 좀 봐 봐.",
+   "note": "ya está = 다 됐어(estar 3인칭, 2번 턴 estuve 와 짝) · echar un ojo = 한번 보다(구어)",
    "tags": [
+    "expr:ya está",
     "expr:oye",
-    "expr:ya está"
+    "form:imperativo"
    ],
    "new": [
+    "echar",
+    "ojo",
     "cocina"
    ],
    "ui": "bubble",
@@ -122,54 +126,55 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¡Madre mía! ¿Usaste todos los platos?",
-   "rd": "마드레 미아! 우사스떼 또도스 로스 쁠라또스?",
-   "ko": "세상에! 접시 다 쓴 거야?",
-   "note": "usaste = 너 썼어(usar 단순과거 2인칭) · todos los platos = 접시 전부",
+   "tl": "¡Madre mía! ¿Has usado todos los platos?",
+   "rd": "마드레 미아! 아스 우사도 또도스 로스 쁠라또스?",
+   "ko": "세상에! 접시를 전부 쓴 거야?",
+   "note": "has usado = 너 썼어(usar 현재완료 — 오늘 일) · todos los platos = 접시 전부",
    "tags": [
     "expr:madre mía",
-    "form:indefinido"
+    "form:perfecto"
    ],
    "new": [
     "usar"
    ],
    "ui": "bubble",
    "at": "16:40",
-   "emotion": "shout"
+   "emotion": "surprised"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Y las tazas. Y la sartén. Y tu taza favorita.",
-   "rd": "이 라스 따싸스. 이 라 사르뗀. 이 뚜 따싸 파보리따.",
-   "ko": "컵도. 프라이팬도. 네가 제일 아끼는 컵까지.",
-   "note": "taza/tazas = 컵(단수·복수) · sartén = 프라이팬",
+   "tl": "Las tazas también. La sartén. Y tu taza preferida.",
+   "rd": "라스 따싸스 땀비엔. 라 사르뗀. 이 뚜 따싸 쁘레페리다.",
+   "ko": "컵들도. 프라이팬도. 그리고 네가 제일 아끼는 컵까지.",
+   "note": "tazas/taza = 컵(복수·단수) · preferido/a = 제일 좋아하는",
    "tags": [],
    "new": [
     "taza",
     "sartén",
-    "favorito"
+    "preferido"
    ],
    "ui": "bubble",
    "at": "16:44",
-   "emotion": "amused"
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Vale, paz… pero hoy friegas tú.",
-   "rd": "발레, 빠쓰… 뻬로 오이 프리에가스 뚜.",
-   "ko": "알았어, 화해… 근데 오늘 설거지는 네가 해.",
-   "note": "friegas = 너 설거지해(fregar 2인칭)",
+   "tl": "Vale, perdonado… pero hoy friegas tú todo.",
+   "rd": "발레, 뻬르도나도… 뻬로 오이 프리에가스 뚜 또도.",
+   "ko": "알았어, 용서해 줄게… 근데 오늘 설거지는 전부 네가 해.",
+   "note": "friegas = 너 설거지해(fregar 2인칭) · perdonado = 용서했어(직역: 용서받은)",
    "tags": [
     "expr:vale"
    ],
    "new": [
-    "fregar"
+    "fregar",
+    "perdonar"
    ],
    "ui": "bubble",
    "at": "16:45",
-   "emotion": "tsukkomi"
+   "emotion": "teasing"
   }
  ],
  "draft": "grok",

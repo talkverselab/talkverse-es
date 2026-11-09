@@ -25,72 +25,88 @@
  "goal": "채팅에서 농담하기·「농담이야」 말하기",
  "expressions": [
   "en serio",
+  "ya",
   "tío",
   "cómo que",
+  "un momento",
+  "de verdad",
   "espera"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Javi, churros gratis en la plaza. ¡Corre!",
-   "rd": "하비, 추로스 그라띠스 엔 라 쁠라싸. 꼬레!",
+   "tl": "Javi, hay churros gratis en la plaza. ¡Corre!",
+   "rd": "하비, 아이 추로스 그라띠스 엔 라 쁠라싸. 꼬레!",
    "ko": "하비, 광장에서 추로스 공짜래. 뛰어!",
-   "note": "¡corre! = 뛰어!(correr 명령)",
+   "note": "hay ~ = ~가 있어 · ¡corre! = 뛰어!(correr 명령)",
    "tags": [
     "form:imperativo"
    ],
    "new": [
     "churro",
-    "gratis"
+    "gratis",
+    "correr",
+    "plaza"
    ],
    "ui": "bubble",
    "at": "10:00",
+   "stamp": "🍩",
    "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "¿En serio? ¿Dónde? ¡Voy ya! ¿Vas tú?",
-   "rd": "엔 세리오? 돈데? 보이 야! 바스 뚜?",
-   "ko": "진짜? 어디? 지금 간다! 너도 가?",
-   "note": "voy = 가(ir 1인칭) · ¿vas? = 너 가?(2인칭)",
+   "tl": "¿En serio? ¿Dónde? ¡Corro ya! ¿Vienes?",
+   "rd": "엔 세리오? 돈데? 꼬로 야! 비에네스?",
+   "ko": "진짜? 어디? 지금 뛰어간다! 너도 와?",
+   "note": "corro = 뛰어가(correr 1인칭, 1번 턴 corre 와 짝) · ¿en serio? = 진짜?",
    "tags": [
-    "expr:en serio"
+    "expr:en serio",
+    "expr:ya"
    ],
    "new": [],
    "ui": "bubble",
    "at": "10:00",
    "stamp": "🏃",
-   "emotion": "shout"
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Jajaja, no voy. Es broma, tío.",
-   "rd": "하하하, 노 보이. 에스 브로마, 띠오.",
-   "ko": "ㅋㅋㅋ 안 가. 농담이야.",
-   "note": "es broma = 농담이야 · no voy = 안 가",
+   "tl": "Jajaja, para, para. Era broma, tío.",
+   "rd": "하하하, 빠라, 빠라. 에라 브로마, 띠오.",
+   "ko": "ㅋㅋㅋ 멈춰, 멈춰. 농담이었어.",
+   "note": "era broma = 농담이었어(era 덩어리) · para = 멈춰(parar 명령, 통문장)",
    "tags": [
-    "expr:tío"
+    "expr:tío",
+    "form:imperfecto"
    ],
    "new": [
-    "broma"
+    "broma",
+    "parar"
    ],
    "ui": "bubble",
    "at": "10:02",
+   "stamp": "😂",
    "emotion": "amused"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Demasiado tarde. Ya lo sabe mi equipo.",
-   "rd": "데마시아도 따르데. 야 로 사베 미 에끼뽀.",
-   "ko": "너무 늦었어. 우리 팀이 벌써 알아.",
-   "note": "demasiado tarde = 너무 늦었어",
-   "tags": [],
+   "tl": "Demasiado tarde. Ya lo he puesto en el grupo.",
+   "rd": "데마시아도 따르데. 야 로 에 뿌에스또 엔 엘 그루뽀.",
+   "ko": "너무 늦었어. 벌써 팀 단톡방에 올렸어.",
+   "note": "lo he puesto = 올렸어(poner 현재완료 1인칭 — 방금 일) · grupo = 단톡방",
+   "tags": [
+    "expr:ya",
+    "form:perfecto"
+   ],
    "new": [
-    "equipo"
+    "equipo",
+    "grupo",
+    "poner",
+    "tarde"
    ],
    "ui": "bubble",
    "at": "10:20",
@@ -99,12 +115,13 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "¿Cómo que lo sabe tu equipo?",
-   "rd": "꼬모 께 로 사베 뚜 에끼뽀?",
-   "ko": "팀이 안다니 무슨 소리야?",
-   "note": "cómo que ~ = ~라니?",
+   "tl": "¿Cómo que lo has puesto en el grupo?",
+   "rd": "꼬모 께 로 아스 뿌에스또 엔 엘 그루뽀?",
+   "ko": "단톡방에 올렸다니 무슨 소리야?",
+   "note": "cómo que ~ = ~라니? · has puesto = 네가 올렸어(poner 현재완료 2인칭, 4번 턴과 짝)",
    "tags": [
-    "expr:cómo que"
+    "expr:cómo que",
+    "form:perfecto"
    ],
    "new": [],
    "ui": "bubble",
@@ -114,52 +131,61 @@
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Estoy en la plaza con el equipo. ¡El churrero, feliz!",
-   "rd": "에스또이 엔 라 쁠라싸 꼰 엘 에끼뽀. 엘 추레로, 펠리쓰!",
-   "ko": "팀이랑 광장에 와 있어. 추로스 아저씨 신났어!",
-   "note": "estoy en ~ con ~ = ~에 ~랑 있어 · churrero = 추로스 장수",
-   "tags": [],
+   "tl": "Estoy en la plaza con todos. El churrero está contentísimo.",
+   "rd": "에스또이 엔 라 쁠라싸 꼰 또도스. 엘 추레로 에스따 꼰뗀띠시모.",
+   "ko": "나 광장에 다 같이 와 있어. 추로스 아저씨 완전 신났어.",
+   "note": "contentísimo = 엄청 기뻐(contento + -ísimo) · churrero = 추로스 장수",
+   "tags": [
+    "form:estar"
+   ],
    "new": [
-    "churrero"
+    "churrero",
+    "contento"
    ],
    "ui": "bubble",
    "at": "10:40",
-   "stamp": "🎉",
-   "emotion": "cheerful"
+   "stamp": "🍩",
+   "emotion": "amused"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Espera… ¿estás en la plaza? ¿Me guardas uno?",
-   "rd": "에스뻬라… 에스따스 엔 라 쁠라싸? 메 구아르다스 우노?",
-   "ko": "잠깐… 너 광장이야? 나 하나 남겨 줄래?",
-   "note": "¿estás? = 너 있어?(estar 2인칭, 6번 턴 estoy 와 짝) · espera = 잠깐",
+   "tl": "Espera un momento… ¿estás ahí de verdad? ¿Me apartas uno?",
+   "rd": "에스뻬라 운 모멘또… 에스따스 아이 데 베르다드? 메 아빠르따스 우노?",
+   "ko": "잠깐만… 진짜 거기 있어? 나 하나 빼 놔 줄래?",
+   "note": "¿estás? = 너 있어?(estar 2인칭, 6번 턴 estoy 와 짝) · apartar = 따로 빼 두다",
    "tags": [
+    "expr:un momento",
+    "expr:de verdad",
     "expr:espera",
     "form:estar",
     "callback:r2_s04_friends"
    ],
-   "new": [],
+   "new": [
+    "apartar"
+   ],
    "ui": "bubble",
    "at": "10:41",
-   "emotion": "teasing"
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Jajaja. Es broma, tío.",
-   "rd": "하하하. 에스 브로마, 띠오.",
-   "ko": "ㅋㅋㅋ 농담이야.",
-   "note": "es broma = 농담이야(3번 턴 A 의 말을 그대로 돌려줌)",
+   "tl": "Jajaja. Todo era broma, tío.",
+   "rd": "하하하. 또도 에라 브로마, 띠오.",
+   "ko": "ㅋㅋㅋ 전부 농담이었어, 너.",
+   "note": "todo era broma = 전부 농담이었어(3번 턴 A 의 말을 그대로 돌려줌)",
    "tags": [
-    "expr:tío"
+    "expr:tío",
+    "form:imperfecto"
    ],
    "new": [],
    "ui": "bubble",
    "at": "10:41",
-   "emotion": "amused",
-   "tl_f": "Jajaja. Es broma, tía.",
-   "rd_f": "하하하. 에스 브로마, 띠아."
+   "stamp": "😂",
+   "emotion": "teasing",
+   "tl_f": "Jajaja. Todo era broma, tía.",
+   "rd_f": "하하하. 또도 에라 브로마, 띠아."
   }
  ],
  "draft": "grok",

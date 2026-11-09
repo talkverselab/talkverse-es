@@ -24,31 +24,35 @@
  ],
  "goal": "채팅으로 약속 잡기·「상관없어」의 대가",
  "expressions": [
-  "oye",
-  "claro",
+  "tío",
   "qué pasa",
+  "claro",
   "te apetece",
-  "genial",
   "me da igual",
+  "genial",
   "vale"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Oye, ¿cenas en casa el viernes?",
-   "rd": "오예, 쎄나스 엔 까사 엘 비에르네스?",
-   "ko": "있잖아, 금요일에 집에서 저녁 먹어?",
-   "note": "¿cenas? = 저녁 먹어?(cenar 2인칭)",
+   "tl": "Ey tío, ¿cenas en casa el viernes?",
+   "rd": "에이 띠오, 쎄나스 엔 까사 엘 비에르네스?",
+   "ko": "야, 금요일에 집에서 저녁 먹어?",
+   "note": "¿cenas? = 저녁 먹어?(cenar 2인칭) · ey = 야·어이",
    "tags": [
-    "expr:oye"
+    "expr:tío"
    ],
    "new": [
-    "cenar"
+    "cenar",
+    "viernes"
    ],
    "ui": "bubble",
    "at": "18:02",
-   "emotion": "cheerful"
+   "stamp": "🍽",
+   "emotion": "cheerful",
+   "tl_f": "Ey tía, ¿cenas en casa el viernes?",
+   "rd_f": "에이 띠아, 쎄나스 엔 까사 엘 비에르네스?"
   },
   {
    "num": 2,
@@ -56,15 +60,15 @@
    "tl": "Claro, ceno en casa. ¿Qué pasa?",
    "rd": "끌라로, 쎄노 엔 까사. 께 빠사?",
    "ko": "당연하지, 집에서 먹어. 왜?",
-   "note": "ceno = 저녁 먹어(cenar 1인칭) · ¿qué pasa? = 왜·무슨 일이야?",
+   "note": "ceno = 저녁 먹어(cenar 1인칭, 1번 턴 cenas 와 짝) · ¿qué pasa? = 왜·무슨 일이야?",
    "tags": [
-    "expr:claro",
-    "expr:qué pasa"
+    "expr:qué pasa",
+    "expr:claro"
    ],
    "new": [],
    "ui": "bubble",
    "at": "18:05",
-   "emotion": "surprised"
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -81,34 +85,36 @@
    ],
    "ui": "bubble",
    "at": "18:05",
-   "emotion": "teasing"
+   "stamp": "🥘",
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Genial. Invita a quien sea, me da igual.",
-   "rd": "헤니알. 인비따 아 끼엔 세아, 메 다 이구알.",
-   "ko": "좋지. 아무나 불러, 난 상관없어.",
-   "note": "me da igual = 난 상관없어",
+   "tl": "Genial. Invita a más gente si quieres, me da igual.",
+   "rd": "헤니알. 인비따 아 마스 헨떼 시 끼에레스, 메 다 이구알.",
+   "ko": "좋지. 더 부르고 싶으면 불러, 난 상관없어.",
+   "note": "me da igual = 난 상관없어 · invita = 불러(invitar 명령) · si quieres = 원하면",
    "tags": [
-    "expr:genial",
     "expr:me da igual",
+    "expr:genial",
     "form:imperativo"
    ],
    "new": [
-    "invitar"
+    "invitar",
+    "gente"
    ],
    "ui": "bubble",
    "at": "18:06",
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Vale. Escribo a Lucía.",
-   "rd": "발레. 에스끄리보 아 루씨아.",
-   "ko": "오케이. 루시아한테 연락할게.",
-   "note": "escribir a ~ = ~에게 메시지 보내다",
+   "tl": "Vale. Invito a Lucía, entonces.",
+   "rd": "발레. 인비또 아 루씨아, 엔똔쎄스.",
+   "ko": "오케이. 그럼 루시아 부를게.",
+   "note": "invito = 부를게(invitar 1인칭, 4번 턴 invita 와 짝)",
    "tags": [
     "expr:vale"
    ],
@@ -122,44 +128,47 @@
    "speaker": "B",
    "tl": "Viene Lucía. Con su prima y su novio.",
    "rd": "비에네 루씨아. 꼰 수 쁘리마 이 수 노비오.",
-   "ko": "루시아 온대. 사촌이랑 남친도 같이.",
-   "note": "viene = 와(venir 3인칭) · con ~ = ~랑 같이",
+   "ko": "루시아 온대. 사촌 동생이랑 남친까지.",
+   "note": "viene = 와(venir 3인칭) · su prima = 걔 사촌(여)",
    "tags": [],
    "new": [
-    "prima"
+    "primo",
+    "novio"
    ],
    "ui": "bubble",
    "at": "19:30",
-   "emotion": "surprised"
+   "emotion": "neutral"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Su prima trae a una amiga. Seis en el grupo.",
-   "rd": "수 쁘리마 뜨라에 아 우나 아미가. 세이스 엔 엘 그루뽀.",
-   "ko": "사촌이 친구를 또 데려온대. 단톡방에 여섯 명.",
-   "note": "trae a ~ = ~를 데려와(traer 3인칭) · grupo = 단톡방",
+   "tl": "Y su prima trae a una amiga. Seis en total.",
+   "rd": "이 수 쁘리마 뜨라에 아 우나 아미가. 세이스 엔 또딸.",
+   "ko": "사촌 동생은 친구를 또 데려온대. 총 여섯 명.",
+   "note": "traer a + 사람 = ~를 데려오다(traer 3인칭) · en total = 다 합쳐서",
    "tags": [],
    "new": [
-    "amiga",
-    "grupo"
+    "traer",
+    "amigo",
+    "total"
    ],
    "ui": "bubble",
    "at": "19:31",
    "stamp": "😅",
-   "emotion": "amused"
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "¿Seis? ¡Haces paella para dos!",
-   "rd": "세이스? 아쎄스 빠에야 빠라 도스!",
-   "ko": "여섯? 너 파에야 2인분 하잖아!",
+   "tl": "¿Seis? ¡Pero haces paella para dos!",
+   "rd": "세이스? 뻬로 아쎄스 빠에야 빠라 도스!",
+   "ko": "여섯? 너 파에야 2인분 한다며!",
    "note": "haces = 너 ~ 하잖아(hacer 2인칭, 3번 턴 hago 와 짝) · para dos = 2인분(3번 턴 되받기)",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "19:33",
+   "stamp": "😱",
    "emotion": "shout"
   }
  ],

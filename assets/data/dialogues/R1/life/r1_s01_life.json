@@ -22,10 +22,12 @@
  "domain": [
   "life"
  ],
- "goal": "관사 el/la·un/una 와 형용사 성 일치(pequeña↔pequeño) + 단수 활용 es/eres·tiene/tienes",
+ "goal": "관사 el/la·un/una 와 형용사 성 일치(bonita·pequeña↔pequeño·roja) + 단수 활용 es/eres·tiene/tienes",
  "expressions": [
   "mira",
+  "tío",
   "vale",
+  "mola",
   "bueno",
   "pues"
  ],
@@ -33,31 +35,36 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Mira, esta es la cocina. El baño, ahí.",
-   "rd": "미라, 에스따 에스 라 꼬씨나. 엘 바뇨, 아이.",
-   "ko": "봐, 여기가 부엌이야. 화장실은 저기.",
-   "note": "la cocina(여) · el baño(남)",
+   "tl": "Mira, tío. La cocina, aquí. El baño, allí.",
+   "rd": "미라, 띠오. 라 꼬씨나, 아끼. 엘 바뇨, 아이.",
+   "ko": "봐 봐. 부엌은 여기, 화장실은 저기.",
+   "note": "la cocina(여) · el baño(남) — 관사가 명사의 성을 알려 준다",
    "tags": [
     "expr:mira",
+    "expr:tío",
     "form:artículo"
    ],
    "new": [
     "cocina",
-    "baño"
+    "baño",
+    "allí"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "tl_f": "Mira, tía. La cocina, aquí. El baño, allí.",
+   "rd_f": "미라, 띠아. 라 꼬씨나, 아끼. 엘 바뇨, 아이."
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¡Qué bonita! ¿Y mi habitación?",
-   "rd": "께 보니따! 이 미 아비따씨온?",
-   "ko": "예쁘다! 내 방은?",
-   "note": "bonita = cocina(여)에 맞춘 여성형",
+   "tl": "¡Qué bonita! ¿Dónde está mi habitación?",
+   "rd": "께 보니따! 돈데 에스따 미 아비따씨온?",
+   "ko": "예쁘다! 내 방은 어디야?",
+   "note": "bonita = cocina(여)에 맞춘 여성형 · habitación = 방",
    "tags": [
     "form:concordancia"
    ],
    "new": [
+    "bonito",
     "habitación"
    ],
    "emotion": "excited"
@@ -67,40 +74,42 @@
    "speaker": "B",
    "tl": "Es pequeña, pero tiene mucha luz.",
    "rd": "에스 뻬께냐, 뻬로 띠에네 무차 루쓰.",
-   "ko": "좀 작은데, 햇빛이 잘 들어.",
+   "ko": "좀 작은데, 햇빛은 잘 들어.",
    "note": "pequeña = habitación(여)에 맞춤 · tiene = tener 3인칭",
    "tags": [
     "form:concordancia"
    ],
    "new": [
-    "luz",
-    "pequeño"
+    "pequeño",
+    "luz"
    ],
-   "emotion": "neutral"
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Perfecto. ¿Y esa caja roja?",
-   "rd": "뻬르페끄또. 이 에사 까하 로하?",
-   "ko": "완벽해. 저 빨간 상자는?",
-   "note": "caja roja = 여성 명사 + 여성 형용사",
+   "tl": "Vale, mola. ¿Y esa caja roja?",
+   "rd": "발레, 몰라. 이 에사 까하 로하?",
+   "ko": "오케이, 좋네. 근데 저 빨간 상자는?",
+   "note": "mola = 좋다·멋지다(구어) · esa caja roja = 여성 명사엔 esa·roja",
    "tags": [
+    "expr:vale",
+    "expr:mola",
     "form:concordancia"
    ],
    "new": [
     "caja",
     "rojo"
    ],
-   "emotion": "surprised"
+   "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ah, es de mi gato. Es pequeño.",
-   "rd": "아, 에스 데 미 가또. 에스 뻬께뇨.",
-   "ko": "아, 우리 고양이 거야. 쪼그만 애야.",
-   "note": "pequeño = gato(남) — 3번 턴 pequeña(여)와 비교 · es de… = ~의 것",
+   "tl": "Es la caja de mi gato. Es pequeño.",
+   "rd": "에스 라 까하 데 미 가또. 에스 뻬께뇨.",
+   "ko": "우리 고양이 상자야. 쪼그만 애야.",
+   "note": "pequeño = gato(남) — 3번 pequeña(여)와 비교",
    "tags": [
     "form:concordancia",
     "form:ser"
@@ -113,10 +122,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Tienes un gato? ¿Dónde está?",
-   "rd": "띠에네스 운 가또? 돈데 에스따?",
-   "ko": "고양이 키워? 어디 있어?",
-   "note": "tienes = tener 2인칭 — 3번 tiene(3인칭)와 비교 · un gato(처음 말할 때 un)",
+   "tl": "¿Tienes un gato? ¿Y dónde está?",
+   "rd": "띠에네스 운 가또? 이 돈데 에스따?",
+   "ko": "고양이 키워? 근데 어디 있어?",
+   "note": "tienes = tener 2인칭 — 3번 tiene(3인칭)와 비교 · un gato = 처음 말할 땐 un",
    "tags": [
     "form:artículo"
    ],
@@ -128,15 +137,15 @@
    "speaker": "B",
    "tl": "En tu cama. Bueno… es su habitación.",
    "rd": "엔 뚜 까마. 부에노… 에스 수 아비따씨온.",
-   "ko": "네 침대에. 뭐… 원래 걔 방이거든.",
-   "note": "su = 그(고양이)의",
+   "ko": "네 침대에. 그게… 원래 걔 방이거든.",
+   "note": "su habitación = 그(고양이)의 방 · bueno… = 그게…(말 고를 때)",
    "tags": [
     "expr:bueno"
    ],
    "new": [
     "cama"
    ],
-   "emotion": "teasing"
+   "emotion": "flustered"
   },
   {
    "num": 8,
@@ -144,7 +153,7 @@
    "tl": "Pues… ¡hola, compañero! Tú eres el jefe, ¿no?",
    "rd": "뿌에스… 올라, 꼼빠녜로! 뚜 에레스 엘 헤페, 노?",
    "ko": "그럼… 안녕, 룸메이트! 네가 대장이지?",
-   "note": "eres = ser 2인칭 — 5번 es(3인칭)와 비교 · compañero = 룸메이트·동료 · jefe = 대장·사장",
+   "note": "eres = ser 2인칭 — 5번 es(3인칭)와 비교 · compañero = 룸메이트",
    "tags": [
     "expr:pues",
     "form:ser"
@@ -153,7 +162,7 @@
     "compañero",
     "jefe"
    ],
-   "emotion": "cheerful"
+   "emotion": "amused"
   }
  ],
  "draft": "grok",

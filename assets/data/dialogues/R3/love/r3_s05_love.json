@@ -23,7 +23,7 @@
  "domain": [
   "love"
  ],
- "goal": "같은 이야기를 복수 목적 대명사 los·las 와 leemos/leéis/leo·tienes/tenéis 대비로 — 새 단어 0",
+ "goal": "같은 이야기를 복수 목적 대명사 los·las 와 leemos/leéis/lee/leo·tienes/tenéis 대비로 — 새 단어 0",
  "expressions": [
   "oye",
   "vale"
@@ -43,14 +43,15 @@
    "new": [],
    "ui": "bubble",
    "at": "23:10",
-   "emotion": "worried"
+   "stamp": "📚",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
    "tl": "Sí, los tengo. Javi y yo los leemos.",
    "rd": "시, 로스 뗀고. 하비 이 요 로스 레에모스.",
-   "ko": "응, 나한테 있어. 하비랑 나랑 읽는 중.",
+   "ko": "응, 나한테 있어. 하비랑 같이 읽는 중이야.",
    "note": "los = los libros 대신 · tengo(나) ↔ leemos(우리)",
    "tags": [
     "form:los",
@@ -59,15 +60,15 @@
    "new": [],
    "ui": "bubble",
    "at": "23:11",
-   "emotion": "neutral"
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "¿Los leéis? ¿Todos? ¿Javi también?",
-   "rd": "로스 레에이스? 또도스? 하비 땀비엔?",
-   "ko": "그걸 둘이 읽어? 전부? 하비도?",
-   "note": "leéis = leer 2인칭 복수 ↔ 2번 leemos · ¿Javi también? = 하비도?",
+   "tl": "¿Los leéis? ¿Javi también los lee?",
+   "rd": "로스 레에이스? 하비 땀비엔 로스 레에?",
+   "ko": "둘이 읽는다고? 하비도 읽어?",
+   "note": "leéis = leer 2인칭 복수 ↔ 2번 leemos ↔ lee(3인칭 단수)",
    "tags": [
     "form:los",
     "form:vosotros"
@@ -81,9 +82,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Sí. Y hay unas cartas rojas dentro.",
-   "rd": "시. 이 아이 우나스 까르따스 로하스 덴뜨로.",
-   "ko": "응. 그리고 안에 빨간 편지가 몇 장 있어.",
+   "tl": "Sí. Hay unas cartas rojas dentro.",
+   "rd": "시. 아이 우나스 까르따스 로하스 덴뜨로.",
+   "ko": "응. 안에 빨간 편지가 몇 장 있던데.",
    "note": "cartas rojas(여성 복수) ↔ 1번 libros rojos(남성 복수)",
    "tags": [
     "form:plural"
@@ -91,14 +92,14 @@
    "new": [],
    "ui": "bubble",
    "at": "23:12",
-   "emotion": "teasing"
+   "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "B",
    "tl": "¿Las cartas? ¿Las tenéis vosotros?",
    "rd": "라스 까르따스? 라스 떼네이스 보소뜨로스?",
-   "ko": "그 편지들? 너희가 갖고 있어?",
+   "ko": "그 편지? 너희가 갖고 있어?",
    "note": "las = las cartas 대신 · tenéis(너희) ↔ 1번 tienes(너)",
    "tags": [
     "form:las",
@@ -114,8 +115,8 @@
    "speaker": "A",
    "tl": "Son para Javi, ¿no? Le doy las cartas.",
    "rd": "손 빠라 하비, 노? 레 도이 라스 까르따스.",
-   "ko": "하비한테 주는 거지? 내가 전해 줄게.",
-   "note": "son = ser 3인칭 복수(편지들) · le doy = 그에게 준다",
+   "ko": "하비한테 쓴 거지? 내가 전해 줄게.",
+   "note": "son para = ~에게 주는 것이다 · le doy = 그에게 준다",
    "tags": [
     "form:plural",
     "form:le"
@@ -131,22 +132,32 @@
    "speaker": "B",
    "tl": "¡No! No son para Javi… Son para ti.",
    "rd": "노! 노 손 빠라 하비… 손 빠라 띠.",
-   "ko": "안 돼! 하비 거 아니야… 너 거야.",
-   "note": "no son = (그것들은) ~가 아니다",
+   "ko": "안 돼! 하비한테 쓴 거 아니야… 너한테 쓴 거야.",
+   "note": "para ti = 너에게(전치사 뒤 ti)",
    "tags": [
     "form:plural"
    ],
    "new": [],
    "ui": "bubble",
    "at": "23:13",
-   "emotion": "shout"
+   "stamp": "❤",
+   "segs": [
+    [
+     "surprised",
+     "¡No!"
+    ],
+    [
+     "shy",
+     "No son para Javi… Son para ti."
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
    "tl": "Vale… las leo otra vez.",
    "rd": "발레… 라스 레오 오뜨라 베쓰.",
-   "ko": "알았어… 그럼 나 혼자 다시 읽을게.",
+   "ko": "알았어… 다시 읽어 볼게.",
    "note": "las leo = 그것들을 (나 혼자) 읽는다 ↔ 2번 leemos",
    "tags": [
     "expr:vale",
@@ -155,6 +166,7 @@
    "new": [],
    "ui": "bubble",
    "at": "23:20",
+   "stamp": "😳",
    "emotion": "shy"
   }
  ],

@@ -23,7 +23,7 @@
  "domain": [
   "love"
  ],
- "goal": "같은 이야기를 복수 재귀동사(os levantáis·nos levantamos·nos vestimos)로, 단수 me visto·te vistes 와 대비 — 새 단어 0",
+ "goal": "같은 이야기를 복수 재귀동사(os levantáis·nos levantamos·nos duchamos·nos vestimos)로, 단수 me visto·te vistes·me pongo 와 대비 — 새 단어 0",
  "expressions": [
   "vale",
   "bueno"
@@ -43,44 +43,48 @@
    "new": [],
    "ui": "bubble",
    "at": "10:12",
+   "stamp": "😴",
    "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Nos levantamos tarde. ¿Por qué?",
-   "rd": "노스 레반따모스 따르데. 뽀르 께?",
-   "ko": "우리 늦게 일어나. 왜?",
+   "tl": "Nos levantamos tarde. ¿Por qué lo preguntas?",
+   "rd": "노스 레반따모스 따르데. 뽀르 께 로 쁘레군따스?",
+   "ko": "우리 늦게 일어나. 그건 왜 물어?",
    "note": "nos levantamos = 1인칭 복수 재귀",
    "tags": [
     "form:reflexivo",
     "form:nosotros"
    ],
-   "new": [],
+   "new": [
+    "preguntar"
+   ],
    "ui": "bubble",
    "at": "10:40",
-   "emotion": "neutral"
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
    "tl": "Hay un mercado de libros a las doce.",
    "rd": "아이 운 메르까도 데 리브로스 아 라스 도쎄.",
-   "ko": "열두 시에 헌책 장터가 있어.",
+   "ko": "열두 시에 헌책 장터 열려.",
    "note": "hay = ~가 있다",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "10:41",
-   "emotion": "cheerful"
+   "stamp": "📚",
+   "emotion": "excited"
   },
   {
    "num": 4,
    "speaker": "A",
    "tl": "Vale. Nos duchamos y nos vestimos. ¿Y tú?",
    "rd": "발레. 노스 두차모스 이 노스 베스띠모스. 이 뚜?",
-   "ko": "좋아. 씻고 옷 입을게. 너는?",
-   "note": "nos vestimos(우리) ↔ 5번 me visto(나)",
+   "ko": "오케이. 우리 샤워하고 옷 입을게. 너는?",
+   "note": "nos duchamos·nos vestimos = 우리(재귀 복수) ↔ 5번 me visto",
    "tags": [
     "expr:vale",
     "form:reflexivo",
@@ -89,23 +93,23 @@
    "new": [],
    "ui": "bubble",
    "at": "10:41",
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Me visto ahora. Bueno… otra vez.",
-   "rd": "메 비스또 아오라. 부에노… 오뜨라 베쓰.",
-   "ko": "나 지금 옷 입어. 뭐… 또.",
-   "note": "me visto = 1인칭 단수 재귀",
+   "tl": "Ahora me visto… otra vez.",
+   "rd": "아오라 메 비스또… 오뜨라 베쓰.",
+   "ko": "나 지금 옷 입는 중… 또.",
+   "note": "me visto = 1인칭 단수 재귀 · otra vez = 또",
    "tags": [
-    "expr:bueno",
     "form:reflexivo"
    ],
    "new": [],
    "ui": "bubble",
    "at": "10:43",
-   "emotion": "teasing"
+   "stamp": "😅",
+   "emotion": "flustered"
   },
   {
    "num": 6,
@@ -131,12 +135,14 @@
    "ko": "벌써 세 번 갈아입었어. 너희 때문에… 아니, 너 때문에.",
    "note": "por vosotros(너희) → por ti(너) — 고쳐 말하다 마음을 들킴",
    "tags": [
+    "expr:bueno",
     "form:reflexivo",
     "form:vosotros"
    ],
    "new": [],
    "ui": "bubble",
    "at": "10:47",
+   "stamp": "❤",
    "emotion": "shy"
   },
   {
@@ -144,8 +150,8 @@
    "speaker": "A",
    "tl": "Vale… ahora me pongo nervioso.",
    "rd": "발레… 아오라 메 뽄고 네르비오소.",
-   "ko": "아… 이제 나 떨린다.",
-   "note": "me pongo nervioso = 나 혼자(단수) · 여성은 nerviosa",
+   "ko": "알았어… 이제 내가 떨리잖아.",
+   "note": "me pongo nervioso = (나) 긴장된다 · 여성은 nerviosa",
    "tags": [
     "expr:vale",
     "form:reflexivo"
@@ -153,7 +159,8 @@
    "new": [],
    "ui": "bubble",
    "at": "10:52",
-   "emotion": "flustered",
+   "stamp": "😳",
+   "emotion": "shy",
    "tl_f": "Vale… ahora me pongo nerviosa.",
    "rd_f": "발레… 아오라 메 뽄고 네르비오사."
   }

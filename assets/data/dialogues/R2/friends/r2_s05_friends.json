@@ -24,44 +24,44 @@
  ],
  "goal": "채팅으로 사과하기·놀림 받아치기",
  "expressions": [
-  "lo siento",
-  "qué pasa",
-  "perdona",
   "de verdad",
-  "ya",
+  "lo siento",
+  "bueno",
   "tío"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Lucía, lo siento mucho. Me olvidé.",
-   "rd": "루씨아, 로 시엔또 무초. 메 올비데.",
-   "ko": "루시아, 진짜 미안해. 깜빡했어.",
-   "note": "me olvidé = 깜빡했어(olvidarse 1인칭 과거) · lo siento = 미안해",
+   "tl": "Lucía, perdóname. Se me fue la olla.",
+   "rd": "루씨아, 뻬르도나메. 세 메 푸에 라 오야.",
+   "ko": "루시아, 미안해. 나 완전 정신 나갔었어.",
+   "note": "se me fue la olla = 정신이 나갔어·깜빡했어(구어) · perdóname = 용서해 줘",
    "tags": [
-    "expr:lo siento",
+    "form:indefinido"
+   ],
+   "new": [
+    "perdonar",
+    "olla"
+   ],
+   "ui": "bubble",
+   "at": "09:15",
+   "stamp": "😔",
+   "emotion": "flustered"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "¿De qué hablas? ¿Qué se te olvidó?",
+   "rd": "데 께 아블라스? 께 세 떼 올비도?",
+   "ko": "무슨 소리야? 뭘 깜빡했는데?",
+   "note": "¿qué se te olvidó? = 뭘 깜빡했어?(olvidarse 단순과거)",
+   "tags": [
     "form:indefinido"
    ],
    "new": [
     "olvidar"
    ],
-   "ui": "bubble",
-   "at": "09:15",
-   "emotion": "worried"
-  },
-  {
-   "num": 2,
-   "speaker": "B",
-   "tl": "¿Te olvidaste de qué? ¿Qué pasa?",
-   "rd": "떼 올비다스떼 데 께? 께 빠사?",
-   "ko": "뭘 깜빡했는데? 무슨 일이야?",
-   "note": "te olvidaste = 너 깜빡했어(2인칭 과거, 1번 턴 me olvidé 와 짝)",
-   "tags": [
-    "expr:qué pasa",
-    "form:indefinido"
-   ],
-   "new": [],
    "ui": "bubble",
    "at": "09:20",
    "emotion": "surprised"
@@ -69,34 +69,38 @@
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Tu cumple. Ayer. Perdona, de verdad.",
-   "rd": "뚜 꿈쁠레. 아예르. 뻬르도나, 데 베르다드.",
-   "ko": "네 생일. 어제. 정말 미안.",
-   "note": "cumple = cumpleaños 줄임",
+   "tl": "Tu cumple de ayer. Lo siento de verdad.",
+   "rd": "뚜 꿈쁠레 데 아예르. 로 시엔또 데 베르다드.",
+   "ko": "어제 네 생일. 진짜 미안해.",
+   "note": "cumple = cumpleaños 줄임 · lo siento = 미안해",
    "tags": [
-    "expr:perdona",
-    "expr:de verdad"
+    "expr:de verdad",
+    "expr:lo siento"
    ],
    "new": [
-    "cumple"
+    "cumple",
+    "sentir"
    ],
    "ui": "bubble",
    "at": "09:20",
    "stamp": "🙏",
-   "emotion": "sad"
+   "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Ya… estuve sola toda la noche.",
-   "rd": "야… 에스뚜베 솔라 또다 라 노체.",
-   "ko": "그래… 밤새 혼자 있었지.",
-   "note": "estuve = 있었어(estar 단순과거) · 슬픈 척하는 연기 — 6번 턴에서 뒤집힘",
+   "tl": "Bueno… pasé la noche sola, sin nadie.",
+   "rd": "부에노… 빠세 라 노체 솔라, 신 나디에.",
+   "ko": "뭐… 밤새 혼자 있었지. 아무도 없이.",
+   "note": "pasé la noche = 밤을 보냈어(pasar 단순과거 1인칭) · sola = 혼자(여성형)",
    "tags": [
-    "expr:ya",
+    "expr:bueno",
     "form:indefinido"
    ],
-   "new": [],
+   "new": [
+    "pasar",
+    "solo"
+   ],
    "ui": "bubble",
    "at": "09:22",
    "emotion": "sad"
@@ -104,66 +108,70 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Te invito a cenar hoy. Eliges tú.",
-   "rd": "떼 인비또 아 쎄나르 오이. 엘리헤스 뚜.",
-   "ko": "오늘 저녁 내가 살게. 네가 골라.",
-   "note": "te invito = 내가 살게(invitar 1인칭) · eliges tú = 네가 골라",
+   "tl": "Hoy te invito a cenar. Tú eliges el sitio.",
+   "rd": "오이 떼 인비또 아 쎄나르. 뚜 엘리헤스 엘 시띠오.",
+   "ko": "오늘 저녁 내가 살게. 장소는 네가 골라.",
+   "note": "te invito = 내가 살게(invitar 1인칭) · tú eliges = 네가 골라(elegir 2인칭)",
    "tags": [],
    "new": [
-    "elegir"
+    "invitar",
+    "elegir",
+    "sitio"
    ],
    "ui": "bubble",
    "at": "09:23",
-   "emotion": "cheerful"
+   "emotion": "gentle"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Jajaja. Tío, mi cumple es mañana.",
-   "rd": "하하하. 띠오, 미 꿈쁠레 에스 마냐나.",
+   "tl": "Jajaja tío, mi cumple es mañana.",
+   "rd": "하하하 띠오, 미 꿈쁠레 에스 마냐나.",
    "ko": "ㅋㅋㅋ 야, 내 생일 내일이야.",
-   "note": "mañana = 내일",
+   "note": "mañana = 내일 · tío/tía = 야(친구 부를 때, 상대 성별 따라)",
    "tags": [
     "expr:tío"
    ],
    "new": [],
    "ui": "bubble",
    "at": "09:25",
+   "stamp": "😂",
    "emotion": "amused",
-   "tl_f": "Jajaja. Tía, mi cumple es mañana.",
-   "rd_f": "하하하. 띠아, 미 꿈쁠레 에스 마냐나."
+   "tl_f": "Jajaja tía, mi cumple es mañana.",
+   "rd_f": "하하하 띠아, 미 꿈쁠레 에스 마냐나."
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "¿Mañana? ¿Y estuviste «sola toda la noche»?",
-   "rd": "마냐나? 이 에스뚜비스떼 «솔라 또다 라 노체»?",
-   "ko": "내일? 그럼 「밤새 혼자」 있었다는 건 뭔데?",
-   "note": "estuviste = 너 있었어(estar 2인칭 과거, 4번 턴 estuve 와 짝)",
+   "tl": "¿Mañana? ¿Y la noche que pasaste sola?",
+   "rd": "마냐나? 이 라 노체 께 빠사스떼 솔라?",
+   "ko": "내일? 그럼 혼자 보냈다는 그 밤은 뭔데?",
+   "note": "pasaste = 너 보냈어(pasar 단순과거 2인칭, 4번 턴 pasé 와 짝)",
    "tags": [
     "form:indefinido"
    ],
    "new": [],
    "ui": "bubble",
    "at": "09:25",
-   "emotion": "shout"
+   "emotion": "tsukkomi"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Quería verte sufrir. ¿Me invitas igual?",
-   "rd": "께리아 베르떼 수프리르. 메 인비따스 이구알?",
-   "ko": "네가 쩔쩔매는 거 보고 싶었지. 그래도 사 줄 거지?",
-   "note": "¿me invitas? = 나 사 줄 거지?(invitar 2인칭) · quería = ~하고 싶었어(불완료)",
+   "tl": "Quería verte sufrir. ¿Me invitas igual? Elijo yo.",
+   "rd": "께리아 베르떼 수프리르. 메 인비따스 이구알? 엘리호 요.",
+   "ko": "네가 쩔쩔매는 거 보고 싶었지. 그래도 사 줄 거지? 장소는 내가 고를게.",
+   "note": "quería = ~하고 싶었어(불완료 덩어리) · elijo = 내가 골라(elegir 1인칭, 5번 턴 eliges 와 짝)",
    "tags": [
     "form:imperfecto"
    ],
    "new": [
-    "sufrir"
+    "sufrir",
+    "igual"
    ],
    "ui": "bubble",
    "at": "09:26",
-   "stamp": "😘",
+   "stamp": "😏",
    "emotion": "teasing"
   }
  ],

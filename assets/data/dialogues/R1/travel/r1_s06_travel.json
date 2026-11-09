@@ -22,9 +22,10 @@
  "domain": [
   "travel"
  ],
- "goal": "전치사 a(시각·방향)·de(소속)·en(장소)·con(동반) + desde · estoy/estás·va/voy·perro/perros",
+ "goal": "전치사 a(시각·방향)·de(소속)·en(장소)·con(동반) + desde · estás/estoy·va/voy·perro/perros",
  "expressions": [
   "pues",
+  "qué fuerte",
   "tío",
   "bueno"
  ],
@@ -35,7 +36,7 @@
    "tl": "¿Dónde estás? El tren sale a las diez.",
    "rd": "돈데 에스따스? 엘 뜨렌 살레 아 라스 디에쓰.",
    "ko": "어디야? 기차 열 시에 출발해.",
-   "note": "sale a las diez = 열 시에 출발해(시각은 a)",
+   "note": "sale a las diez = 열 시에 출발해(시각은 a) · estás = estar 2인칭",
    "tags": [
     "form:prep_a"
    ],
@@ -50,8 +51,8 @@
    "speaker": "A",
    "tl": "Estoy en el tren, junto a la ventana.",
    "rd": "에스또이 엔 엘 뜨렌, 훈또 아 라 벤따나.",
-   "ko": "기차 안이야, 창가 자리.",
-   "note": "en = ~에·안에(장소) · junto a la ventana = 창가에 · estoy ↔ 1번 estás",
+   "ko": "기차 탔어, 창가 자리야.",
+   "note": "en el tren = 장소는 en · junto a la ventana = 창가에 · estoy ↔ 1번 estás",
    "tags": [
     "form:prep_en"
    ],
@@ -66,11 +67,13 @@
    "tl": "¿En el tren? Yo también. ¿Con quién estás?",
    "rd": "엔 엘 뜨렌? 요 땀비엔. 꼰 끼엔 에스따스?",
    "ko": "기차라고? 나도. 누구랑 있어?",
-   "note": "con = ~와 함께",
+   "note": "con = ~와 함께 · ¿con quién? = 누구랑?",
    "tags": [
     "form:prep_con"
    ],
-   "new": [],
+   "new": [
+    "quién"
+   ],
    "emotion": "surprised"
   },
   {
@@ -95,12 +98,12 @@
    "tl": "¿Un perro? En mi tren no hay perros.",
    "rd": "운 뻬로? 엔 미 뜨렌 노 아이 뻬로스.",
    "ko": "개? 내 기차엔 개 없는데.",
-   "note": "perros = perro 의 복수 · en mi tren = 내 기차에",
+   "note": "perros = perro 의 복수 · no hay = 없다",
    "tags": [
     "form:prep_en"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "tsukkomi"
   },
   {
    "num": 6,
@@ -114,23 +117,24 @@
     "form:prep_a"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "worried"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "¡Tío! ¡Yo voy a Toledo!",
-   "rd": "띠오! 요 보이 아 똘레도!",
-   "ko": "야! 난 톨레도 가거든!",
-   "note": "voy = ir 1인칭 — 6번 va(3인칭)와 비교 · Toledo = 마드리드 남쪽 도시",
+   "tl": "¡Qué fuerte, tío! ¡Yo voy a Toledo!",
+   "rd": "께 푸에르떼, 띠오! 요 보이 아 똘레도!",
+   "ko": "말도 안 돼! 난 톨레도 가는데!",
+   "note": "voy = ir 1인칭 — 6번 va(3인칭)와 비교 · ¡qué fuerte! = 대박·말도 안 돼",
    "tags": [
+    "expr:qué fuerte",
     "expr:tío",
     "form:prep_a"
    ],
    "new": [],
    "emotion": "shout",
-   "tl_f": "¡Tía! ¡Yo voy a Toledo!",
-   "rd_f": "띠아! 요 보이 아 똘레도!"
+   "tl_f": "¡Qué fuerte, tía! ¡Yo voy a Toledo!",
+   "rd_f": "께 푸에르떼, 띠아! 요 보이 아 똘레도!"
   },
   {
    "num": 8,
@@ -138,14 +142,15 @@
    "tl": "Bueno… te llamo desde Sevilla.",
    "rd": "부에노… 떼 야모 데스데 세비야.",
    "ko": "뭐… 세비야에서 전화할게.",
-   "note": "desde = ~에서(출발점)",
+   "note": "desde = ~에서(출발점) · te llamo = 너한테 전화할게",
    "tags": [
     "expr:bueno"
    ],
    "new": [
-    "desde"
+    "desde",
+    "llamar"
    ],
-   "emotion": "cheerful"
+   "emotion": "amused"
   }
  ],
  "draft": "grok",

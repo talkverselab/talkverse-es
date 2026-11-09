@@ -23,11 +23,12 @@
   "study",
   "life"
  ],
- "goal": "¿aquí se pide…?·se hace por internet·se necesita una foto·se entrega·se abre·se pide cita·se vende(누가 하는지 말하지 않기)",
+ "goal": "¿aquí se pide…?·se hace por internet·se necesita una foto·se sube·se ve·se firma·se entrega·se abre·se puede·se aprende·se vende(누가 하는지 말하지 않기)",
  "expressions": [
-  "claro",
-  "es que",
   "vale",
+  "es que",
+  "ahora mismo",
+  "claro",
   "madre mía",
   "ya"
  ],
@@ -38,12 +39,13 @@
    "tl": "Buenos días. ¿Aquí se pide el carné de estudiante?",
    "rd": "부에노스 디아스. 아끼 세 삐데 엘 까르네 데 에스뚜디안떼?",
    "ko": "안녕하세요. 학생증 여기서 신청하나요?",
-   "note": "se pide = 신청한다(무인칭)",
+   "note": "¿Aquí se pide…? = 여기서 ~ 신청하나요?(무인칭 se)",
    "tags": [
-    "form:se_impersonal"
+    "form:se impersonal"
    ],
    "new": [
-    "carné"
+    "carné",
+    "estudiante"
    ],
    "emotion": "polite"
   },
@@ -53,12 +55,15 @@
    "tl": "Sí, pero aquí no se pide en papel. Se hace por internet.",
    "rd": "시, 뻬로 아끼 노 세 삐데 엔 빠뻴. 세 아쎄 뽀르 인떼르네뜨.",
    "ko": "네, 근데 여기선 종이로 안 받아요. 인터넷으로 해요.",
-   "note": "se hace por internet = 인터넷으로 한다",
+   "note": "se hace por internet = 인터넷으로 해요",
    "tags": [
-    "form:se_impersonal"
+    "form:se impersonal"
    ],
-   "new": [],
-   "emotion": "neutral"
+   "new": [
+    "papel",
+    "internet"
+   ],
+   "emotion": "polite"
   },
   {
    "num": 3,
@@ -66,50 +71,57 @@
    "tl": "Ya lo he intentado. La página dice que se necesita una foto.",
    "rd": "야 로 에 인뗀따도. 라 빠히나 디쎄 께 세 네쎄시따 우나 포또.",
    "ko": "이미 해 봤어요. 사이트에서 사진이 필요하다고 나와요.",
-   "note": "se necesita = 필요하다(수동 se)",
+   "note": "se necesita = ~가 필요해요",
    "tags": [
-    "form:se_pasiva"
+    "form:se impersonal"
    ],
-   "new": [],
+   "new": [
+    "intentar",
+    "página",
+    "necesitar"
+   ],
    "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Claro. Y la foto se sube en la segunda página.",
-   "rd": "끌라로. 이 라 포또 세 수베 엔 라 세군다 빠히나.",
-   "ko": "그렇죠. 사진은 두 번째 페이지에서 올려요.",
-   "note": "se sube = 올린다",
+   "tl": "Exacto. Y la foto se sube en la segunda página.",
+   "rd": "엑사끄또. 이 라 포또 세 수베 엔 라 세군다 빠히나.",
+   "ko": "맞아요. 사진은 두 번째 페이지에서 올려요.",
+   "note": "se sube = 올려요(수동 se)",
    "tags": [
-    "expr:claro",
-    "form:se_pasiva"
+    "form:se impersonal"
    ],
-   "new": [],
+   "new": [
+    "subir"
+   ],
    "emotion": "polite"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Es que no hay segunda página. Solo se ve un error.",
-   "rd": "에스 께 노 아이 세군다 빠히나. 솔로 세 베 운 에로르.",
-   "ko": "그게, 두 번째 페이지가 없어요. 오류만 떠요.",
-   "note": "es que = 그게 말이죠",
+   "tl": "Es que no sale ninguna segunda página. Solo se ve un error.",
+   "rd": "에스 께 노 살레 닌구나 세군다 빠히나. 솔로 세 베 운 에로르.",
+   "ko": "그게, 두 번째 페이지가 안 나와요. 오류만 떠요.",
+   "note": "es que = 그게요(사정 설명) · se ve = 보여요",
    "tags": [
     "expr:es que",
-    "form:se_pasiva"
+    "form:se impersonal"
    ],
-   "new": [],
-   "emotion": "flustered"
+   "new": [
+    "error"
+   ],
+   "emotion": "annoyed"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Ah, ese error. Entonces se hace con este papel.",
-   "rd": "아, 에세 에로르. 엔똔쎄스 세 아쎄 꼰 에스떼 빠뻴.",
-   "ko": "아, 그 오류요. 그럼 이 종이로 하시면 돼요.",
-   "note": "entonces = 그럼",
+   "tl": "Ah, el error de siempre. Entonces se hace con este papel.",
+   "rd": "아, 엘 에로르 데 시엠쁘레. 엔똔쎄스 세 아쎄 꼰 에스떼 빠뻴.",
+   "ko": "아, 늘 나는 그 오류요. 그럼 이 종이로 하시면 돼요.",
+   "note": "de siempre = 늘 있는",
    "tags": [
-    "form:se_impersonal"
+    "form:se impersonal"
    ],
    "new": [],
    "emotion": "cheerful"
@@ -120,10 +132,10 @@
    "tl": "Vale. ¿Y dónde se firma?",
    "rd": "발레. 이 돈데 세 피르마?",
    "ko": "네. 서명은 어디에 하나요?",
-   "note": "se firma = 서명한다",
+   "note": "¿dónde se firma? = 어디에 서명하나요?",
    "tags": [
     "expr:vale",
-    "form:se_impersonal"
+    "form:se impersonal"
    ],
    "new": [
     "firmar"
@@ -133,78 +145,90 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Aquí. Y aquí. Y se entrega en la ventanilla tres.",
-   "rd": "아끼. 이 아끼. 이 세 엔뜨레가 엔 라 벤따니야 뜨레스.",
-   "ko": "여기요. 그리고 여기. 그리고 3번 창구에 내세요.",
-   "note": "se entrega = 제출한다",
+   "tl": "Aquí abajo. Y aquí también. Luego se entrega en la ventanilla tres.",
+   "rd": "아끼 아바호. 이 아끼 땀비엔. 루에고 세 엔뜨레가 엔 라 벤따니야 뜨레스.",
+   "ko": "여기 아래요. 그리고 여기도. 그다음 3번 창구에 내세요.",
+   "note": "se entrega = 내요·제출해요 · ventanilla = 창구",
    "tags": [
-    "form:se_pasiva"
+    "form:se impersonal"
    ],
    "new": [
+    "entregar",
     "ventanilla"
    ],
-   "emotion": "neutral"
+   "emotion": "polite"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "¿La tres? Pero la tres está cerrada.",
-   "rd": "라 뜨레스? 뻬로 라 뜨레스 에스따 쎄라다.",
-   "ko": "3번이요? 3번 닫혀 있던데요.",
-   "note": "estar cerrado = 닫혀 있다",
-   "tags": [],
-   "new": [],
+   "tl": "¿La ventanilla tres? Pero ahora mismo está cerrada.",
+   "rd": "라 벤따니야 뜨레스? 뻬로 아오라 미스모 에스따 쎄라다.",
+   "ko": "3번 창구요? 지금 닫혀 있던데요.",
+   "note": "ahora mismo = 지금",
+   "tags": [
+    "expr:ahora mismo"
+   ],
+   "new": [
+    "cerrado"
+   ],
    "emotion": "surprised"
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Sí, la tres solo se abre los martes. Hoy es lunes.",
-   "rd": "시, 라 뜨레스 솔로 세 아브레 로스 마르떼스. 오이 에스 루네스.",
-   "ko": "네, 3번은 화요일에만 열려요. 오늘은 월요일이고요.",
-   "note": "se abre = 열린다",
+   "tl": "Correcto, la tres solo se abre los martes. Y hoy es lunes.",
+   "rd": "꼬레끄또, 라 뜨레스 솔로 세 아브레 로스 마르떼스. 이 오이 에스 루네스.",
+   "ko": "맞아요, 3번은 화요일에만 열려요. 오늘은 월요일이고요.",
+   "note": "se abre = 열려요 · los martes = 화요일마다",
    "tags": [
-    "form:se_pasiva"
+    "form:se impersonal"
    ],
-   "new": [],
-   "emotion": "teasing"
+   "new": [
+    "abrir",
+    "martes",
+    "lunes"
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "¿Y no se puede hacer nada hoy?",
-   "rd": "이 노 세 뿌에데 아쎄르 나다 오이?",
-   "ko": "오늘은 아무것도 못 하나요?",
-   "note": "no se puede = 할 수 없다(무인칭)",
+   "tl": "¿Entonces hoy no se puede hacer absolutamente nada?",
+   "rd": "엔똔쎄스 오이 노 세 뿌에데 아쎄르 아브솔루따멘떼 나다?",
+   "ko": "그럼 오늘은 아무것도 못 하나요?",
+   "note": "no se puede = 할 수 없어요",
    "tags": [
-    "form:se_impersonal"
+    "form:se impersonal"
    ],
-   "new": [],
+   "new": [
+    "absolutamente"
+   ],
    "emotion": "worried"
   },
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Sí, claro. Se pide cita para el martes. Por internet.",
-   "rd": "시, 끌라로. 세 삐데 씨따 빠라 엘 마르떼스. 뽀르 인떼르네뜨.",
-   "ko": "할 수 있죠. 화요일 예약을 잡으시면 돼요. 인터넷으로요.",
-   "note": "se pide cita = 예약을 잡다(무인칭 se) · cita = (관공서) 예약",
+   "tl": "Sí se puede. Pida cita para el martes. Por internet, claro.",
+   "rd": "시 세 뿌에데. 삐다 씨따 빠라 엘 마르떼스. 뽀르 인떼르네뜨, 끌라로.",
+   "ko": "할 수 있죠. 화요일 예약을 잡으세요. 인터넷으로요, 당연하죠.",
+   "note": "pida cita = 예약을 잡으세요(usted 명령) · se pide(무인칭) ↔ pida",
    "tags": [
     "expr:claro",
-    "form:se_pasiva"
+    "form:se impersonal",
+    "form:imperativo"
    ],
    "new": [
     "cita"
    ],
-   "emotion": "amused"
+   "emotion": "cheerful"
   },
   {
    "num": 13,
    "speaker": "A",
-   "tl": "¿Por internet? ¡Pero si la página no funciona! ¡Madre mía!",
-   "rd": "뽀르 인떼르네뜨? 뻬로 시 라 빠히나 노 푼씨오나! 마드레 미아!",
-   "ko": "인터넷으로요? 사이트가 안 된다니까요! 세상에!",
-   "note": "pero si ~ = 아니 ~인데(항의) · funcionar = 작동하다",
+   "tl": "¿Por internet otra vez? ¡Pero si la página no funciona! ¡Madre mía!",
+   "rd": "뽀르 인떼르네뜨 오뜨라 베쓰? 뻬로 시 라 빠히나 노 푼씨오나! 마드레 미아!",
+   "ko": "또 인터넷으로요? 사이트가 안 된다니까요! 세상에!",
+   "note": "¡Pero si…! = ~라니까요!(항의) · madre mía = 세상에",
    "tags": [
     "expr:madre mía"
    ],
@@ -216,49 +240,55 @@
   {
    "num": 14,
    "speaker": "B",
-   "tl": "Bienvenido a la universidad. Aquí se aprende mucho. Sobre todo, paciencia.",
-   "rd": "비엔베니도 아 라 우니베르시다드. 아끼 세 아쁘렌데 무초. 소브레 또도, 빠씨엔씨아.",
+   "tl": "Bienvenido a la universidad. Aquí se aprende mucho. Especialmente la paciencia.",
+   "rd": "비엔베니도 아 라 우니베르시다드. 아끼 세 아쁘렌데 무초. 에스뻬씨알멘떼 라 빠씨엔씨아.",
    "ko": "대학에 오신 걸 환영해요. 여기선 많이 배워요. 특히 인내심을.",
-   "note": "se aprende = 배운다",
+   "note": "se aprende = 배워요 · bienvenido/bienvenida",
    "tags": [
-    "form:se_impersonal"
+    "form:se impersonal"
    ],
    "new": [
+    "bienvenido",
+    "aprender",
     "paciencia"
    ],
-   "emotion": "teasing",
-   "tl_f": "Bienvenida a la universidad. Aquí se aprende mucho. Sobre todo, paciencia.",
-   "rd_f": "비엔베니다 아 라 우니베르시다드. 아끼 세 아쁘렌데 무초. 소브레 또도, 빠씨엔씨아."
+   "emotion": "amused",
+   "tl_f": "Bienvenida a la universidad. Aquí se aprende mucho. Especialmente la paciencia.",
+   "rd_f": "비엔베니다 아 라 우니베르시다드. 아끼 세 아쁘렌데 무초. 에스뻬씨알멘떼 라 빠씨엔씨아."
   },
   {
    "num": 15,
    "speaker": "A",
-   "tl": "Ya veo. ¿Y aquí se vende café?",
-   "rd": "야 베오. 이 아끼 세 벤데 까페?",
-   "ko": "그렇군요. 여기 커피는 파나요?",
-   "note": "se vende = 판다(수동 se)",
+   "tl": "Ya lo veo. ¿Y por casualidad se vende café por aquí?",
+   "rd": "야 로 베오. 이 뽀르 까수알리다드 세 벤데 까페 뽀르 아끼?",
+   "ko": "그렇군요. 여기 커피는 파나요 혹시?",
+   "note": "por casualidad = 혹시 · se vende = 팔아요",
    "tags": [
     "expr:ya",
-    "form:se_pasiva"
+    "form:se impersonal"
    ],
-   "new": [],
-   "emotion": "sad"
+   "new": [
+    "casualidad",
+    "vender",
+    "café"
+   ],
+   "emotion": "tsukkomi"
   },
   {
    "num": 16,
    "speaker": "B",
-   "tl": "No. Pero en la planta baja se vende en una máquina. Si funciona.",
-   "rd": "노. 뻬로 엔 라 쁠란따 바하 세 벤데 엔 우나 마끼나. 시 푼씨오나.",
-   "ko": "아뇨. 1층 자판기에서 팔아요. 고장 안 났으면요.",
-   "note": "se vende = 팔다(수동 se) · planta baja = 1층 · máquina = 자판기",
+   "tl": "No se vende aquí. Pero en la planta baja se vende en una máquina. Si funciona.",
+   "rd": "노 세 벤데 아끼. 뻬로 엔 라 쁠란따 바하 세 벤데 엔 우나 마끼나. 시 푼씨오나.",
+   "ko": "여기서는 안 팔아요. 1층 자판기에서 팔아요. 고장 안 났으면요.",
+   "note": "en la planta baja = 1층에서 · si funciona = 고장 안 났으면",
    "tags": [
-    "form:se_pasiva"
+    "form:se impersonal"
    ],
    "new": [
     "planta baja",
     "máquina"
    ],
-   "emotion": "amused"
+   "emotion": "teasing"
   }
  ],
  "draft": "grok",

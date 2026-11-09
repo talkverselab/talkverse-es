@@ -24,39 +24,46 @@
  ],
  "goal": "다음 약속 잡기·돌려 말하는 마음 알아채기",
  "expressions": [
-  "ya",
+  "qué tal",
+  "genial",
   "no sé",
-  "vaya"
+  "vaya",
+  "ya"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Hoy me ha gustado mucho. ¿Y a ti?",
-   "rd": "오이 메 아 구스따도 무초. 이 아 띠?",
-   "ko": "오늘 정말 좋았어. 너는?",
-   "note": "me ha gustado = 좋았어(오늘 일은 현재완료 — 스페인식)",
+   "tl": "Hoy lo he pasado genial. ¿Tú qué tal?",
+   "rd": "오이 로 에 빠사도 헤니알. 뚜 께 딸?",
+   "ko": "오늘 진짜 즐거웠어. 너는 어땠어?",
+   "note": "lo he pasado genial = 진짜 즐거웠어(현재완료 — 오늘 일은 스페인식으로) · ¿tú qué tal? = 너는 어땠어?",
    "tags": [
-    "form:perfecto",
-    "form:gustar"
+    "expr:qué tal",
+    "expr:genial",
+    "form:perfecto"
    ],
-   "new": [],
+   "new": [
+    "pasar"
+   ],
    "ui": "bubble",
    "at": "23:10",
-   "emotion": "cheerful"
+   "stamp": "😊",
+   "emotion": "gentle"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "A mí tb. El café estaba horrible.",
-   "rd": "아 미 뜨브. 엘 까페 에스따바 오리블레.",
-   "ko": "나도. 커피는 끔찍했지만.",
-   "note": "estaba = ~였어(불완료 묘사)",
+   "tl": "Yo también. Aunque el café era un asco.",
+   "rd": "요 땀비엔. 아운께 엘 까페 에라 운 아스꼬.",
+   "ko": "나도. 커피는 최악이었지만.",
+   "note": "era un asco = 최악이었어(ser 불완료 덩어리) · aunque = ~지만",
    "tags": [
     "form:imperfecto"
    ],
    "new": [
-    "horrible"
+    "asco",
+    "aunque"
    ],
    "ui": "bubble",
    "at": "23:14",
@@ -65,50 +72,50 @@
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Jajaja, ya. ¿Y la próxima? ¿Estás libre?",
-   "rd": "하하하, 야. 이 라 쁘록시마? 에스따스 리브레?",
-   "ko": "ㅋㅋ 그러게. 다음엔? 시간 돼?",
-   "note": "¿estás libre? = 시간 돼?(estar 2인칭) · la próxima = 다음번",
-   "tags": [
-    "expr:ya"
-   ],
+   "tl": "Jajaja, cierto. ¿Tienes hueco otro día?",
+   "rd": "하하하, 씨에르또. 띠에네스 우에꼬 오뜨로 디아?",
+   "ko": "ㅋㅋ 맞아. 다른 날 시간 돼?",
+   "note": "¿tienes hueco? = 시간 돼?(tener 2인칭, 구어) · cierto = 맞아",
+   "tags": [],
    "new": [
-    "próximo",
-    "libre"
+    "hueco",
+    "cierto"
    ],
    "ui": "bubble",
    "at": "23:14",
-   "emotion": "teasing"
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Mmm… no sé. Estoy muy ocupada.",
-   "rd": "믐므… 노 세. 에스또이 무이 오꾸빠다.",
-   "ko": "음… 글쎄. 나 엄청 바빠.",
-   "note": "estoy ocupada = 나 바빠(estar 1인칭·여성형)",
+   "tl": "Mmm, no sé. Ando bastante liada estos días.",
+   "rd": "믐므, 노 세. 안도 바스딴떼 리아다 에스또스 디아스.",
+   "ko": "음, 글쎄. 요즘 좀 바빠.",
+   "note": "ando liada = 요즘 바빠(andar = 지내다, liado 여성형)",
    "tags": [
     "expr:no sé"
    ],
    "new": [
-    "ocupado"
+    "liado",
+    "andar"
    ],
    "ui": "bubble",
    "at": "23:16",
-   "emotion": "stiff"
+   "emotion": "shy"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Vaya. ¿Y el sábado? ¿Trabajas?",
-   "rd": "바야. 이 엘 사바도? 뜨라바하스?",
-   "ko": "아쉽네. 토요일은? 일해?",
-   "note": "¿trabajas? = 일해?(trabajar 2인칭) · vaya = 이런·아쉽네",
+   "tl": "Vaya. ¿El sábado cómo lo tienes? ¿Curras?",
+   "rd": "바야. 엘 사바도 꼬모 로 띠에네스? 꾸라스?",
+   "ko": "아쉽다. 토요일은 어때? 일해?",
+   "note": "¿cómo lo tienes? = 일정 어때? · ¿curras? = 일해?(currar 2인칭, 구어)",
    "tags": [
     "expr:vaya"
    ],
    "new": [
-    "sábado"
+    "sábado",
+    "currar"
    ],
    "ui": "bubble",
    "at": "23:16",
@@ -117,10 +124,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "tl": "El sábado trabajo en la librería.",
-   "rd": "엘 사바도 뜨라바호 엔 라 리브레리아.",
+   "tl": "El sábado curro en la librería.",
+   "rd": "엘 사바도 꾸로 엔 라 리브레리아.",
    "ko": "토요일엔 서점 알바야.",
-   "note": "trabajo = 일해(trabajar 1인칭, 5번 턴 trabajas 와 짝)",
+   "note": "curro = 일해(currar 1인칭, 5번 턴 curras 와 짝)",
    "tags": [
     "callback:r2_s01_love"
    ],
@@ -132,32 +139,37 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Pero cierro a las ocho… y no tengo planes.",
-   "rd": "뻬로 씨에로 아 라스 오초… 이 노 뗀고 쁠라네스.",
-   "ko": "근데 여덟 시에 닫아… 그리고 약속 없어.",
-   "note": "no tengo planes = 약속 없어(tener 1인칭) · cerrar = 닫다",
+   "tl": "Pero a las ocho cierro… y no tengo plan.",
+   "rd": "뻬로 아 라스 오초 씨에로… 이 노 뗀고 쁠란.",
+   "ko": "근데 여덟 시에 닫아… 그 뒤엔 약속 없어.",
+   "note": "cierro = 닫아(cerrar 1인칭) · no tengo plan = 약속 없어(tener 1인칭)",
    "tags": [],
    "new": [
-    "cerrar"
+    "cerrar",
+    "plan"
    ],
    "ui": "bubble",
    "at": "23:19",
-   "emotion": "shy"
+   "stamp": "😏",
+   "emotion": "teasing"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Entonces ya tienes planes. Llevo el libro.",
-   "rd": "엔똔쎄스 야 띠에네스 쁠라네스. 예보 엘 리브로.",
+   "tl": "Entonces ya tienes plan. Llevo el libro.",
+   "rd": "엔똔쎄스 야 띠에네스 쁠란. 예보 엘 리브로.",
    "ko": "그럼 이제 약속 있네. 그 책 가져갈게.",
-   "note": "ya tienes planes = 이제 약속 있네(tener 2인칭, 7번 턴 tengo 와 짝)",
+   "note": "ya tienes plan = 이제 약속 있네(tener 2인칭, 7번 턴 tengo 와 짝) · llevo = 가져갈게(llevar 1인칭)",
    "tags": [
+    "expr:ya",
     "callback:r2_s01_love"
    ],
-   "new": [],
+   "new": [
+    "llevar"
+   ],
    "ui": "bubble",
    "at": "23:19",
-   "stamp": "📕",
+   "stamp": "📚",
    "emotion": "gentle"
   }
  ],

@@ -22,21 +22,23 @@
  "domain": [
   "friends"
  ],
- "goal": "ser(성질·요일·출처) ↔ estar(상태·위치) + 단수 활용 estoy/estás/está · cansado/cansada · dice/dices",
+ "goal": "ser(성질·요일·출처) ↔ estar(상태·위치) + 단수 활용 estás/estoy/está · cansado/cansada · dice/dices",
  "expressions": [
   "qué tal",
   "fatal",
   "tío",
+  "y tú",
   "qué dices",
-  "mira"
+  "mira",
+  "qué fuerte"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "tl": "¡Hola, Lucía! ¿Qué tal? ¿Estás cansada?",
-   "rd": "올라, 루씨아! 께 딸? 에스따스 깐사다?",
-   "ko": "안녕, 루시아! 잘 지내? 피곤해?",
+   "tl": "¡Ey, Lucía! ¿Qué tal? ¿Estás cansada?",
+   "rd": "에이, 루씨아! 께 딸? 에스따스 깐사다?",
+   "ko": "야, 루시아! 잘 지내? 피곤해?",
    "note": "estás cansada = 지금 상태 → estar · cansada(여)",
    "tags": [
     "expr:qué tal",
@@ -53,10 +55,11 @@
    "tl": "Estoy fatal, tío. Es lunes. ¿Y tú?",
    "rd": "에스또이 파딸, 띠오. 에스 루네스. 이 뚜?",
    "ko": "완전 최악이야. 월요일이잖아. 너는?",
-   "note": "es lunes = 요일은 ser · estoy fatal = 상태는 estar",
+   "note": "estoy fatal = 상태는 estar · es lunes = 요일은 ser",
    "tags": [
     "expr:fatal",
     "expr:tío",
+    "expr:y tú",
     "form:ser",
     "form:estar"
    ],
@@ -73,13 +76,13 @@
    "tl": "Yo no estoy cansado. ¿Y Javi?",
    "rd": "요 노 에스또이 깐사도. 이 하비?",
    "ko": "난 안 피곤해. 하비는?",
-   "note": "cansado(남)/cansada(여) — 말하는 사람 성에 맞춘다 · estoy = 1인칭",
+   "note": "cansado(남)/cansada(여) — 말하는 사람 성에 맞춘다 · estoy = 1인칭(1번 estás 와 비교)",
    "tags": [
     "form:estar",
     "form:concordancia"
    ],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "tl_f": "Yo no estoy cansada. ¿Y Javi?",
    "rd_f": "요 노 에스또이 깐사다. 이 하비?"
   },
@@ -89,12 +92,14 @@
    "tl": "Está en casa. Está enfermo, dice.",
    "rd": "에스따 엔 까사. 에스따 엔페르모, 디쎄.",
    "ko": "집에 있대. 아프다나 봐.",
-   "note": "está = 3인칭 · está enfermo = 지금 아픈 상태",
+   "note": "está en casa = 위치 · está enfermo = 지금 상태 → 둘 다 estar · dice = decir 3인칭",
    "tags": [
     "form:estar"
    ],
    "new": [
-    "enfermo"
+    "casa",
+    "enfermo",
+    "decir"
    ],
    "emotion": "worried"
   },
@@ -104,20 +109,22 @@
    "tl": "¿Qué dices? Javi es muy fuerte.",
    "rd": "께 디쎄스? 하비 에스 무이 푸에르떼.",
    "ko": "무슨 소리야? 하비 엄청 튼튼하잖아.",
-   "note": "dices = decir 2인칭 — 4번 dice(3인칭)와 비교 · es fuerte = 원래 성질 → ser",
+   "note": "es fuerte = 원래 성질 → ser · dices = decir 2인칭(4번 dice 와 비교)",
    "tags": [
     "expr:qué dices",
     "form:ser"
    ],
-   "new": [],
-   "emotion": "surprised"
+   "new": [
+    "fuerte"
+   ],
+   "emotion": "tsukkomi"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Sí… Mira esta foto. Es de hoy.",
-   "rd": "시… 미라 에스따 포또. 에스 데 오이.",
-   "ko": "응… 이 사진 봐. 오늘 거야.",
+   "tl": "Mira esta foto. Es de hoy.",
+   "rd": "미라 에스따 포또. 에스 데 오이.",
+   "ko": "이 사진 봐. 오늘 거야.",
    "note": "es de hoy = 「오늘 것」(출처) → ser",
    "tags": [
     "expr:mira",
@@ -134,23 +141,25 @@
    "tl": "¡Está en la churrería! ¿Enfermo?",
    "rd": "에스따 엔 라 추레리아! 엔페르모?",
    "ko": "추로스 가게에 있잖아! 아프다며?",
-   "note": "churrería = 추로스 가게 · está en = 위치",
+   "note": "está en = 위치 → estar · churrería = 추로스 가게",
    "tags": [
     "form:estar"
    ],
    "new": [
     "churrería"
    ],
-   "emotion": "shout"
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Sí, enfermo… de hambre.",
-   "rd": "시, 엔페르모… 데 암브레.",
-   "ko": "응, 아프대… 배고파서.",
-   "note": "de hambre = 배가 고파서",
-   "tags": [],
+   "tl": "Sí, enfermo… de hambre. ¡Qué fuerte!",
+   "rd": "시, 엔페르모… 데 암브레. 께 푸에르떼!",
+   "ko": "응, 아프대… 배고파서. 어이없지!",
+   "note": "de hambre = 배가 고파서 · ¡qué fuerte! = 대박·어이없어(5번 fuerte 와 다른 뜻)",
+   "tags": [
+    "expr:qué fuerte"
+   ],
    "new": [
     "hambre"
    ],

@@ -22,9 +22,10 @@
  "domain": [
   "love"
  ],
- "goal": "재귀동사 me levanto/te levantas · me visto/te vistes · me ducho — 자기 몸에 하는 일",
+ "goal": "재귀동사 te levantas/me levanto · me visto/te vistes · me ducho · me pongo nervioso/nerviosa — 자기 몸에 하는 일",
  "expressions": [
   "vale",
+  "y tú",
   "bueno"
  ],
  "turns": [
@@ -39,28 +40,31 @@
     "form:reflexivo"
    ],
    "new": [
-    "levantar",
-    "sábado"
+    "levantarse",
+    "sábado",
+    "hora"
    ],
    "ui": "bubble",
    "at": "10:12",
-   "stamp": "☀",
-   "emotion": "teasing"
+   "stamp": "😴",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Me levanto tarde. ¿Por qué?",
-   "rd": "메 레반또 따르데. 뽀르 께?",
+   "tl": "Me levanto tarde. ¿Por?",
+   "rd": "메 레반또 따르데. 뽀르?",
    "ko": "늦게 일어나. 왜?",
-   "note": "me levanto = 나는 일어난다(te levantas ↔ me levanto)",
+   "note": "me levanto = 나는 일어난다(1번 te levantas 와 비교) · ¿por? = 왜?(¿por qué? 줄인 말)",
    "tags": [
     "form:reflexivo"
    ],
-   "new": [],
+   "new": [
+    "tarde"
+   ],
    "ui": "bubble",
    "at": "10:40",
-   "emotion": "sad"
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -68,14 +72,15 @@
    "tl": "Hay un mercado de libros a las doce.",
    "rd": "아이 운 메르까도 데 리브로스 아 라스 도쎄.",
    "ko": "열두 시에 헌책 장터가 있어.",
-   "note": "mercado de libros = 책 장터",
+   "note": "mercado de libros = 책 장터 · hay = 있다",
    "tags": [],
    "new": [
     "mercado"
    ],
    "ui": "bubble",
    "at": "10:41",
-   "emotion": "cheerful"
+   "stamp": "📚",
+   "emotion": "excited"
   },
   {
    "num": 4,
@@ -86,15 +91,16 @@
    "note": "me ducho = 샤워하다 · me visto = 옷을 입다",
    "tags": [
     "expr:vale",
+    "expr:y tú",
     "form:reflexivo"
    ],
    "new": [
-    "duchar",
-    "vestir"
+    "ducharse",
+    "vestirse"
    ],
    "ui": "bubble",
    "at": "10:41",
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 5,
@@ -110,7 +116,8 @@
    "new": [],
    "ui": "bubble",
    "at": "10:43",
-   "emotion": "amused"
+   "stamp": "😅",
+   "emotion": "flustered"
   },
   {
    "num": 6,
@@ -118,11 +125,13 @@
    "tl": "¿Otra vez? ¿Cuántas veces te vistes?",
    "rd": "오뜨라 베쓰? 꾸안따스 베쎄스 떼 비스떼스?",
    "ko": "또? 몇 번이나 갈아입는 거야?",
-   "note": "te vistes = vestirse 2인칭 — me visto 와 비교 · veces = vez 의 복수",
+   "note": "te vistes = vestirse 2인칭 — 5번 me visto 와 비교 · veces = vez 의 복수",
    "tags": [
     "form:reflexivo"
    ],
-   "new": [],
+   "new": [
+    "vez"
+   ],
    "ui": "bubble",
    "at": "10:43",
    "stamp": "🤔",
@@ -134,16 +143,17 @@
    "tl": "Me he cambiado tres veces. Por ti.",
    "rd": "메 에 깜비아도 뜨레스 베쎄스. 뽀르 띠.",
    "ko": "벌써 세 번 갈아입었어. 너 때문에.",
-   "note": "cambiarse = 갈아입다 · por ti = 너 때문에",
+   "note": "me he cambiado = (오늘) 갈아입었다(cambiarse) · por ti = 너 때문에",
    "tags": [
-    "form:reflexivo"
+    "form:reflexivo",
+    "form:perfecto"
    ],
    "new": [
-    "cambiar"
+    "cambiarse"
    ],
    "ui": "bubble",
    "at": "10:47",
-   "stamp": "💕",
+   "stamp": "❤",
    "emotion": "shy"
   },
   {
@@ -158,11 +168,13 @@
     "form:reflexivo"
    ],
    "new": [
+    "ponerse",
     "nervioso"
    ],
    "ui": "bubble",
    "at": "10:52",
-   "emotion": "flustered",
+   "stamp": "😳",
+   "emotion": "shy",
    "tl_f": "Vale… ahora me pongo nerviosa.",
    "rd_f": "발레… 아오라 메 뽄고 네르비오사."
   }

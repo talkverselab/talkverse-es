@@ -26,25 +26,26 @@
  ],
  "goal": "오해 풀기·질투를 들킨 말 받기",
  "expressions": [
+  "ya",
   "pues",
-  "espera",
-  "es que",
-  "nada",
-  "vale"
+  "qué fuerte",
+  "es que"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¿Qué haces? ¿Estás en casa?",
-   "rd": "께 아쎄스? 에스따스 엔 까사?",
+   "tl": "¿Qué haces? ¿Estás por casa?",
+   "rd": "께 아쎄스? 에스따스 뽀르 까사?",
    "ko": "뭐 해? 집이야?",
-   "note": "¿qué haces? = 뭐 해?(hacer 2인칭) · ¿estás? = 있어?(estar 2인칭)",
-   "tags": [],
+   "note": "¿qué haces? = 뭐 해?(hacer 2인칭) · ¿estás por casa? = 집이야?(estar 2인칭)",
+   "tags": [
+    "form:estar"
+   ],
    "new": [],
    "ui": "bubble",
    "at": "22:00",
-   "stamp": "📚",
+   "stamp": "🏠",
    "emotion": "cheerful"
   },
   {
@@ -55,10 +56,11 @@
    "ko": "아무것도 안 해. 특별한 사람이랑 소파에 있어.",
    "note": "no hago nada = 아무것도 안 해(hacer 1인칭) · estoy = 있어(estar 1인칭)",
    "tags": [
-    "expr:nada"
+    "form:estar"
    ],
    "new": [
-    "especial"
+    "especial",
+    "sofá"
    ],
    "ui": "bubble",
    "at": "22:03",
@@ -67,12 +69,12 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Ah. Vale.",
-   "rd": "아. 발레.",
-   "ko": "아. 그래.",
-   "note": "vale = 알았어(짧으면 서늘함)",
+   "tl": "Ah. Ya veo.",
+   "rd": "아. 야 베오.",
+   "ko": "아. 그렇구나.",
+   "note": "ya veo = 그렇구나(짧으면 서늘함)",
    "tags": [
-    "expr:vale"
+    "expr:ya"
    ],
    "new": [],
    "ui": "bubble",
@@ -82,57 +84,61 @@
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Pues nada. Buenas noches.",
-   "rd": "뿌에스 나다. 부에나스 노체스.",
+   "tl": "Pues nada entonces. Buenas noches.",
+   "rd": "뿌에스 나다 엔똔쎄스. 부에나스 노체스.",
    "ko": "그럼 됐어. 잘 자.",
-   "note": "pues nada = 그럼 됐고",
+   "note": "pues nada = 그럼 됐고(대화 끊을 때)",
    "tags": [
     "expr:pues"
    ],
    "new": [],
    "ui": "bubble",
    "at": "22:04",
+   "stamp": "🌙",
    "emotion": "sad"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "¡Espera! Es Diego, mi compañero de piso.",
-   "rd": "에스뻬라! 에스 디에고, 미 꼼빠녜로 데 삐소.",
-   "ko": "잠깐! 디에고야, 룸메이트.",
-   "note": "compañero de piso = 룸메이트",
-   "tags": [
-    "expr:espera"
-   ],
+   "tl": "¡Para, para! Es Diego, mi compañero de piso.",
+   "rd": "빠라, 빠라! 에스 디에고, 미 꼼빠녜로 데 삐소.",
+   "ko": "잠깐, 잠깐! 디에고야, 룸메이트.",
+   "note": "compañero de piso = 룸메이트 · ¡para! = 잠깐·멈춰(parar 명령, 통문장)",
+   "tags": [],
    "new": [
-    "compañero"
+    "compañero",
+    "piso"
    ],
    "ui": "bubble",
    "at": "22:04",
-   "emotion": "shout"
+   "emotion": "flustered"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "¿Diego es tu «alguien especial»? Jajaja.",
-   "rd": "디에고 에스 뚜 «알기엔 에스뻬씨알»? 하하하.",
-   "ko": "디에고가 네 「특별한 사람」이야? ㅋㅋ",
-   "note": "«alguien especial» = 「특별한 사람」(2번 턴 말을 되받아 놀림)",
-   "tags": [],
+   "tl": "¿Diego es tu «alguien especial»? Jajaja, qué fuerte.",
+   "rd": "디에고 에스 뚜 «알기엔 에스뻬씨알»? 하하하, 께 푸에르떼.",
+   "ko": "디에고가 네 「특별한 사람」이야? ㅋㅋ 대박.",
+   "note": "«alguien especial» = 「특별한 사람」(2번 턴 말을 되받아 놀림) · qué fuerte = 대박·헐",
+   "tags": [
+    "expr:qué fuerte"
+   ],
    "new": [],
    "ui": "bubble",
    "at": "22:06",
+   "stamp": "😂",
    "emotion": "amused"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Es que… tengo celos. Un poco.",
-   "rd": "에스 께… 뗀고 쎌로스. 운 뽀꼬.",
-   "ko": "그게… 질투 나. 조금.",
-   "note": "tengo celos = 질투 나(tener 1인칭)",
+   "tl": "Es que tengo un poco de celos.",
+   "rd": "에스 께 뗀고 운 뽀꼬 데 쎌로스.",
+   "ko": "그게… 좀 질투 나.",
+   "note": "tengo celos = 질투 나(tener 1인칭) · es que = 그게(변명할 때)",
    "tags": [
-    "expr:es que"
+    "expr:es que",
+    "form:tener"
    ],
    "new": [
     "celos"
@@ -144,19 +150,18 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "¿Tienes celos? Pues el sofá tiene sitio.",
-   "rd": "띠에네스 쎌로스? 뿌에스 엘 소파 띠에네 시띠오.",
-   "ko": "질투 나? 그럼 소파에 자리 있는데.",
-   "note": "¿tienes celos? · tiene sitio = tener 2·3인칭(7번 턴 tengo 와 짝)",
+   "tl": "¿Tienes celos? El sofá tiene hueco para ti.",
+   "rd": "띠에네스 쎌로스? 엘 소파 띠에네 우에꼬 빠라 띠.",
+   "ko": "질투 나? 소파에 네 자리도 있는데.",
+   "note": "¿tienes celos? = 질투 나?(tener 2인칭, 7번 턴 tengo 와 짝) · tiene hueco = 자리가 있어(tener 3인칭)",
    "tags": [
-    "expr:pues"
+    "form:tener"
    ],
    "new": [
-    "sitio"
+    "hueco"
    ],
    "ui": "bubble",
    "at": "22:08",
-   "stamp": "🛋️",
    "emotion": "gentle"
   }
  ],

@@ -26,16 +26,17 @@
  "goal": "같은 이야기를 복수(son·tienen·pequeñas/pequeños·nuestras)·ustedes(miren·sus camas)·usted(tiene usted)·vosotros(sois)로 — 새 단어 0",
  "expressions": [
   "bueno",
-  "pues"
+  "pues",
+  "perfecto"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Miren, esta es la cocina. Hay dos baños, ahí.",
-   "rd": "미렌, 에스따 에스 라 꼬씨나. 아이 도스 바뇨스, 아이.",
-   "ko": "보세요, 여기가 부엌이에요. 화장실은 저기 두 개 있고요.",
-   "note": "miren = mirar 의 ustedes 명령(↔ R1 mira, usted 는 mire) · dos baños(복수)",
+   "tl": "Miren, esta es la cocina. Los baños están ahí.",
+   "rd": "미렌, 에스따 에스 라 꼬씨나. 로스 바뇨스 에스딴 아이.",
+   "ko": "보세요, 여기가 부엌이에요. 화장실은 저쪽에 있고요.",
+   "note": "miren = mirar 의 ustedes 명령(usted 는 mire, ↔ R1 mira) · los baños = 화장실 둘(복수)",
    "tags": [
     "form:ustedes",
     "form:plural"
@@ -46,15 +47,17 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¡Qué bonita! ¿Y nuestras habitaciones?",
-   "rd": "께 보니따! 이 누에스뜨라스 아비따씨오네스?",
-   "ko": "예쁘네요! 저희 방은요?",
-   "note": "nuestras habitaciones = 우리 방들(여성 복수) ↔ R1 mi habitación",
+   "tl": "¡Qué bonito todo! ¿Y dónde están nuestras habitaciones?",
+   "rd": "께 보니또 또도! 이 돈데 에스딴 누에스뜨라스 아비따씨오네스?",
+   "ko": "다 예쁘네요! 저희 방은 어디예요?",
+   "note": "nuestras habitaciones = 우리 방들(여성 복수) ↔ R1 mi cuarto",
    "tags": [
     "form:nosotros",
     "form:plural"
    ],
-   "new": [],
+   "new": [
+    "habitación"
+   ],
    "emotion": "cheerful"
   },
   {
@@ -62,22 +65,23 @@
    "speaker": "B",
    "tl": "Son pequeñas, pero tienen mucha luz.",
    "rd": "손 뻬께냐스, 뻬로 띠에넨 무차 루쓰.",
-   "ko": "작긴 한데 햇빛이 잘 들어요.",
+   "ko": "좀 작긴 한데, 볕이 잘 들어요.",
    "note": "son·tienen = 3인칭 복수 ↔ R1 es·tiene · pequeñas = habitaciones(여성 복수)",
    "tags": [
     "form:plural"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "polite"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Perfecto. ¿Y esas cajas rojas?",
-   "rd": "뻬르페끄또. 이 에사스 까하스 로하스?",
-   "ko": "좋네요. 저 빨간 상자들은요?",
-   "note": "cajas rojas = 여성 복수 일치",
+   "tl": "Perfecto. ¿Y de quién son esas cajas rojas?",
+   "rd": "뻬르페끄또. 이 데 끼엔 손 에사스 까하스 로하스?",
+   "ko": "좋네요. 저 빨간 상자들은 누구 거예요?",
+   "note": "¿de quién son? = 누구 거예요? · cajas rojas = 여성 복수 일치",
    "tags": [
+    "expr:perfecto",
     "form:plural"
    ],
    "new": [],
@@ -86,22 +90,22 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ah, son de mis gatos. Son pequeños.",
-   "rd": "아, 손 데 미스 가또스. 손 뻬께뇨스.",
-   "ko": "아, 우리 고양이들 거예요. 쪼그만 애들이에요.",
+   "tl": "Son de mis gatos. Son pequeños.",
+   "rd": "손 데 미스 가또스. 손 뻬께뇨스.",
+   "ko": "우리 고양이들 거예요. 애들이 작거든요.",
    "note": "pequeños = gatos(남성 복수) ↔ 3번 pequeñas(여성 복수)",
    "tags": [
     "form:plural"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
    "tl": "¿Tiene usted gatos? ¿Y dónde están?",
    "rd": "띠에네 우스떼드 가또스? 이 돈데 에스딴?",
-   "ko": "고양이를 키우세요? 근데 어디 있어요?",
+   "ko": "고양이 키우세요? 어디 있어요?",
    "note": "tiene usted = usted 는 3인칭 단수 활용 ↔ 3번 tienen",
    "tags": [
     "form:usted"
@@ -115,7 +119,7 @@
    "tl": "En sus camas. Bueno… son sus habitaciones.",
    "rd": "엔 수스 까마스. 부에노… 손 수스 아비따씨오네스.",
    "ko": "두 분 침대에요. 뭐… 원래 걔들 방이거든요.",
-   "note": "su(s) = 「당신들의」도 「그들의」도 된다 — 앞 sus = ustedes 의, 뒤 sus = 고양이들의",
+   "note": "su(s) = 「당신들의」도 「그들의」도 — 앞 sus = ustedes 의, 뒤 sus = 고양이들의",
    "tags": [
     "expr:bueno",
     "form:ustedes",
@@ -129,14 +133,14 @@
    "speaker": "A",
    "tl": "Pues… ¡hola, compañeros! Vosotros sois los jefes, ¿no?",
    "rd": "뿌에스… 올라, 꼼빠녜로스! 보소뜨로스 소이스 로스 헤페스, 노?",
-   "ko": "그럼… 안녕, 룸메이트들! 너희가 대장이지?",
-   "note": "sois = ser 2인칭 복수(vosotros) ↔ 단수 eres",
+   "ko": "그럼… 안녕, 룸메이트들! 대장은 너희구나?",
+   "note": "sois = ser 2인칭 복수(vosotros) ↔ 단수 eres · 고양이에겐 반말",
    "tags": [
     "expr:pues",
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "amused"
   }
  ],
  "draft": "grok",

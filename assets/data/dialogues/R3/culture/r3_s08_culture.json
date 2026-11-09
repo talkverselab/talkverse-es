@@ -23,13 +23,14 @@
  "domain": [
   "culture"
  ],
- "goal": "같은 이야기를 복수 ir a(vamos a·vais a)·bailan·sabemos 로, 단수 sabe·abuela 와 대비 — 새 단어 0",
+ "goal": "같은 이야기를 복수 ir a(vamos a·vais a)·bailan·sabemos 로, 단수 sabe·mi abuela 와 대비 — 새 단어 0",
  "expressions": [
   "claro",
   "fatal",
   "tía",
   "vale",
-  "qué mono"
+  "qué mono",
+  "tranquilo"
  ],
  "turns": [
   {
@@ -37,8 +38,22 @@
    "speaker": "B",
    "tl": "Hoy vamos a ir a la verbena. ¿Venís?",
    "rd": "오이 바모스 아 이르 아 라 베르베나. 베니스?",
-   "ko": "오늘 밤에 우리 동네 축제 갈 거야. 너희도 올래?",
-   "note": "vamos a ir = 갈 거야(우리) · venís = 2인칭 복수(R1 vienes)",
+   "ko": "우리 오늘 동네 축제 가. 너희도 올래?",
+   "note": "vamos a ir = (우리) 갈 거야 · venís = venir 2인칭 복수(↔ R1 vienes)",
+   "tags": [
+    "form:ir_a",
+    "form:vosotros"
+   ],
+   "new": [],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "¿Qué es eso? ¿Vais a bailar?",
+   "rd": "께 에스 에소? 바이스 아 바일라르?",
+   "ko": "그게 뭔데? 너희 춤추는 거야?",
+   "note": "vais a bailar = 너희 춤출 거야(↔ R1 vas a)",
    "tags": [
     "form:ir_a",
     "form:vosotros"
@@ -47,41 +62,27 @@
    "emotion": "cheerful"
   },
   {
-   "num": 2,
-   "speaker": "A",
-   "tl": "¿Qué es? ¿Vais a bailar?",
-   "rd": "께 에스? 바이스 아 바일라르?",
-   "ko": "그게 뭔데? 춤출 거야?",
-   "note": "vais a bailar = 2인칭 복수(R1 vas a)",
-   "tags": [
-    "form:ir_a",
-    "form:vosotros"
-   ],
-   "new": [],
-   "emotion": "surprised"
-  },
-  {
    "num": 3,
    "speaker": "B",
    "tl": "Claro. Vamos a bailar con mis abuelos.",
    "rd": "끌라로. 바모스 아 바일라르 꼰 미스 아부엘로스.",
-   "ko": "당연하지. 우리 할아버지 할머니랑 출 거야.",
-   "note": "mis abuelos = 조부모(남성 복수 = 둘 다)",
+   "ko": "당연하지. 우리 할머니 할아버지랑 출 거야.",
+   "note": "mis abuelos = 조부모(남성 복수 = 할머니+할아버지)",
    "tags": [
     "expr:claro",
     "form:ir_a",
     "form:plural"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
    "tl": "¿Con tus abuelos? ¡Qué monos! ¿Bailan bien?",
    "rd": "꼰 뚜스 아부엘로스? 께 모노스! 바일란 비엔?",
-   "ko": "할아버지 할머니랑? 귀엽다! 춤 잘 추셔?",
-   "note": "monos·bailan = 복수 일치(R1 mono·baila)",
+   "ko": "할머니 할아버지랑? 귀여우시다! 잘 추셔?",
+   "note": "qué monos = 귀엽다(복수 일치, ↔ qué mono) · bailan = 3인칭 복수",
    "tags": [
     "expr:qué mono",
     "form:plural"
@@ -94,8 +95,8 @@
    "speaker": "B",
    "tl": "Mi abuelo, fatal. Vosotros vais a bailar con mi abuela.",
    "rd": "미 아부엘로, 파딸. 보소뜨로스 바이스 아 바일라르 꼰 미 아부엘라.",
-   "ko": "할아버지는 엉망. 너희는 우리 할머니랑 출 거야.",
-   "note": "vosotros vais a = 너희는 ~할 거야 · mi abuelo/mi abuela(단수) ↔ 3번 mis abuelos",
+   "ko": "할아버지는 완전 꽝. 너희는 우리 할머니랑 추는 거야.",
+   "note": "vosotros vais a = 너희는 ~할 거야 · mi abuelo / mi abuela ↔ 3번 mis abuelos",
    "tags": [
     "expr:fatal",
     "form:ir_a",
@@ -109,41 +110,42 @@
    "speaker": "A",
    "tl": "¿Nosotros? No sabemos bailar, tía.",
    "rd": "노소뜨로스? 노 사베모스 바일라르, 띠아.",
-   "ko": "우리가? 우리 춤 못 춰.",
-   "note": "no sabemos + 원형 = ~할 줄 몰라(우리)",
+   "ko": "우리가? 우리 춤 못 춰, 진짜.",
+   "note": "no sabemos + 원형 = (우리) ~할 줄 몰라",
    "tags": [
     "expr:tía",
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "worried"
   },
   {
    "num": 7,
    "speaker": "B",
    "tl": "Tranquilos. Ella sabe. Es la campeona del barrio.",
    "rd": "뜨란낄로스. 에야 사베. 에스 라 깜뻬오나 델 바리오.",
-   "ko": "걱정 마. 할머니는 잘 추셔. 동네 챔피언이거든.",
-   "note": "tranquilos = 복수에게 「진정해」 · sabe(3인칭 단수) ↔ 6번 sabemos",
+   "ko": "걱정 마. 할머니가 잘 추셔. 동네 챔피언이거든.",
+   "note": "tranquilos = 여럿에게 「걱정 마」(↔ tranquilo) · sabe ↔ 6번 sabemos",
    "tags": [
+    "expr:tranquilo",
     "form:plural"
    ],
    "new": [],
-   "emotion": "gentle"
+   "emotion": "cheerful"
   },
   {
    "num": 8,
    "speaker": "A",
    "tl": "Vale. Vamos a hacer el ridículo.",
    "rd": "발레. 바모스 아 아쎄르 엘 리디꿀로.",
-   "ko": "알았어. 우리 망신당하겠다.",
-   "note": "vamos a hacer = 우리가 ~할 거야(R1 voy a)",
+   "ko": "알았어. 우리 망신 제대로 당하겠다.",
+   "note": "hacer el ridículo = 망신당하다 · vamos a ↔ R1 voy a",
    "tags": [
     "expr:vale",
     "form:ir_a"
    ],
    "new": [],
-   "emotion": "shy"
+   "emotion": "flustered"
   }
  ],
  "draft": "grok",

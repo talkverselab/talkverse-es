@@ -23,7 +23,7 @@
  "domain": [
   "friends"
  ],
- "goal": "같은 이야기를 vosotros(¿os gusta?·os gustan)·nosotros(nos gusta·nos encantan)·usted(¿qué hace usted?·señora)로, me encanta·hago 와 대비 — 새 단어 0",
+ "goal": "같은 이야기를 vosotros(os hago·¿os gusta?·os gustan)·nosotros(nos encantan·nos gusta)·usted(¿qué hace usted?·señora)로, me encanta·hago 와 대비 — 새 단어 0",
  "expressions": [
   "me encanta",
   "claro",
@@ -35,16 +35,16 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hago la cena, chicos. ¿Os gusta el ajo?",
-   "rd": "아고 라 쎄나, 치꼬스. 오스 구스따 엘 아호?",
-   "ko": "얘들아, 저녁 할게. 마늘 좋아하니?",
-   "note": "¿os gusta? = 너희 ~ 좋아해?(vosotros, ↔ R1 ¿te gusta?)",
+   "tl": "Os hago la cena, chicos. ¿Os gusta el ajo?",
+   "rd": "오스 아고 라 쎄나, 치꼬스. 오스 구스따 엘 아호?",
+   "ko": "저녁 해 줄게, 얘들아. 마늘 좋아하니?",
+   "note": "¿os gusta? = 너희 ~ 좋아해?(vosotros, ↔ R1 ¿te gusta?) · os hago = 너희에게 해 준다",
    "tags": [
     "form:vosotros",
     "form:gustar"
    ],
    "new": [],
-   "emotion": "gentle"
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -58,14 +58,14 @@
     "form:usted"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Una sorpresa. ¿Y os gustan las patatas?",
-   "rd": "우나 소르쁘레사. 이 오스 구스딴 라스 빠따따스?",
-   "ko": "비밀이야. 감자도 좋아하니?",
+   "tl": "Es una sorpresa. ¿Os gustan las patatas?",
+   "rd": "에스 우나 소르쁘레사. 오스 구스딴 라스 빠따따스?",
+   "ko": "그건 비밀. 감자는 좋아하니?",
    "note": "os gustan = 너희에게 + 복수 명사(gustan)",
    "tags": [
     "form:vosotros",
@@ -79,7 +79,7 @@
    "speaker": "A",
    "tl": "Nos encantan. A Javi y a mí nos gusta todo.",
    "rd": "노스 엔깐딴. 아 하비 이 아 미 노스 구스따 또도.",
-   "ko": "완전 좋아해요. 하비랑 저는 다 좋아해요.",
+   "ko": "완전 좋아해요. 하비랑 저는 뭐든 다 좋아해요.",
    "note": "nos = 우리에게 · nos encantan ↔ 2번 me encanta ↔ 3번 os gustan",
    "tags": [
     "expr:me encanta",
@@ -87,14 +87,14 @@
     "form:gustar"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "B",
    "tl": "¿Todo? ¿También los caracoles?",
    "rd": "또도? 땀비엔 로스 까라꼴레스?",
-   "ko": "다? 달팽이 요리도?",
+   "ko": "다? 달팽이도?",
    "note": "también = ~도 · caracoles = 달팽이 요리",
    "tags": [],
    "new": [
@@ -115,14 +115,14 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "polite"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Vale. Caracoles… ¡y callos de la abuela!",
-   "rd": "발레. 까라꼴레스… 이 까요스 데 라 아부엘라!",
-   "ko": "좋아. 달팽이… 그리고 할머니표 곱창 스튜!",
+   "tl": "Vale. Caracoles… ¡y los callos de la abuela!",
+   "rd": "발레. 까라꼴레스… 이 로스 까요스 데 라 아부엘라!",
+   "ko": "좋아. 달팽이에… 할머니표 곱창 스튜까지!",
    "note": "callos = 곱창 스튜(마드리드 전통 요리) · de la abuela = 할머니가 만든",
    "tags": [
     "expr:vale"
@@ -138,7 +138,7 @@
    "tl": "Bueno… no nos gusta todo.",
    "rd": "부에노… 노 노스 구스따 또도.",
    "ko": "그게… 다 좋아하는 건 아니에요.",
-   "note": "no nos gusta = 우리는 안 좋아한다",
+   "note": "no nos gusta = 우리는 안 좋아한다(↔ 6번 nos gusta todo)",
    "tags": [
     "expr:bueno",
     "form:nosotros"

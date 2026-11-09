@@ -22,24 +22,28 @@
  "domain": [
   "friends"
  ],
- "goal": "채팅에서 재촉하기·변명 받아치기",
+ "goal": "채팅에서 재촉하기·변명 받아치기(스토리로 들킨 거짓말)",
  "expressions": [
-  "te lo juro",
-  "vale",
-  "ya"
+  "tío",
+  "claro",
+  "ya",
+  "tranqui",
+  "ahora mismo",
+  "vale"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Javi, ¿dónde estás? ¿Llegas ya?",
-   "rd": "하비, 돈데 에스따스? 예가스 야?",
-   "ko": "하비, 어디야? 곧 와?",
-   "note": "¿llegas? = 도착해?(llegar 2인칭) · ¿dónde estás? = 어디야?",
-   "tags": [
-    "form:estar"
+   "tl": "Javi, ¿por dónde andas? ¿Vienes o qué?",
+   "rd": "하비, 뽀르 돈데 안다스? 비에네스 오 께?",
+   "ko": "하비, 어디쯤이야? 오는 거야 마는 거야?",
+   "note": "¿por dónde andas? = 어디쯤이야?(구어) · ¿… o qué? = ~야 뭐야?(재촉)",
+   "tags": [],
+   "new": [
+    "andar",
+    "venir"
    ],
-   "new": [],
    "ui": "bubble",
    "at": "20:05",
    "stamp": "🙄",
@@ -48,114 +52,131 @@
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Llego en cinco minutos, te lo juro.",
-   "rd": "예고 엔 씬꼬 미누또스, 떼 로 후로.",
-   "ko": "오 분 안에 도착해, 진짜로.",
-   "note": "llego = 도착해(llegar 1인칭) · te lo juro = 맹세해, 진짜야",
+   "tl": "Cinco minutitos y llego, tío. Palabra.",
+   "rd": "씬꼬 미누띠또스 이 예고, 띠오. 빨라브라.",
+   "ko": "오 분이면 도착해. 진짜야.",
+   "note": "llego = 도착해(llegar 1인칭) · palabra = 진짜야·약속해",
    "tags": [
-    "expr:te lo juro"
+    "expr:tío"
    ],
    "new": [
-    "jurar"
+    "llegar",
+    "minuto",
+    "palabra"
    ],
    "ui": "bubble",
    "at": "20:09",
-   "emotion": "flustered"
+   "emotion": "stiff",
+   "tl_f": "Cinco minutitos y llego, tía. Palabra.",
+   "rd_f": "씬꼬 미누띠또스 이 예고, 띠아. 빨라브라."
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "¿Cinco minutos, eh?",
-   "rd": "씬꼬 미누또스, 에?",
-   "ko": "오 분이라며?",
-   "note": "…, eh? = ~라며?(확인·의심)",
-   "tags": [],
+   "tl": "¿Llegas en cinco? Ya, claro.",
+   "rd": "예가스 엔 씬꼬? 야, 끌라로.",
+   "ko": "오 분 만에 온다고? 아 네, 퍽이나.",
+   "note": "¿llegas? = 너 도착해?(llegar 2인칭, 2번 턴 llego 와 짝) · ya, claro = 퍽이나(비꼬는 맞장구)",
+   "tags": [
+    "expr:claro",
+    "expr:ya"
+   ],
    "new": [],
    "ui": "bubble",
    "at": "20:31",
-   "emotion": "teasing"
+   "stamp": "😒",
+   "emotion": "tsukkomi"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Vale, vale. Ya estoy en el metro.",
-   "rd": "발레, 발레. 야 에스또이 엔 엘 메뜨로.",
-   "ko": "알았어, 알았어. 지금 지하철이야.",
-   "note": "ya estoy = 이미 ~에 있어(estar 1인칭)",
+   "tl": "Tranqui, que ya bajo al metro.",
+   "rd": "뜨란끼, 께 야 바호 알 메뜨로.",
+   "ko": "진정해, 지금 지하철 타러 내려가.",
+   "note": "bajo = 내려가(bajar 1인칭) · tranqui = 진정해(tranquilo 줄임)",
    "tags": [
-    "expr:vale",
+    "expr:tranqui",
     "expr:ya"
    ],
    "new": [
+    "bajar",
     "metro"
    ],
    "ui": "bubble",
    "at": "20:32",
-   "emotion": "cheerful"
+   "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "¿Metro? En tu historia estás en el sofá con pizza.",
-   "rd": "메뜨로? 엔 뚜 이스또리아 에스따스 엔 엘 소파 꼰 삐짜.",
-   "ko": "지하철? 네 스토리엔 소파에서 피자 먹고 있던데.",
-   "note": "estás en ~ = ~에 있어(estar 2인칭) · historia = SNS 스토리",
+   "tl": "¿Bajas? Tu story te pilla en el sofá con pizza.",
+   "rd": "바하스? 뚜 스또르이 떼 삐야 엔 엘 소파 꼰 삐짜.",
+   "ko": "내려간다고? 네 스토리에 소파에서 피자 먹는 거 딱 걸렸거든.",
+   "note": "¿bajas? = 내려가?(bajar 2인칭, 4번 턴 bajo 와 짝) · pillar = 딱 걸리다·잡다(구어) · story = SNS 스토리",
    "tags": [],
    "new": [
-    "historia",
-    "sofá"
+    "pillar",
+    "sofá",
+    "pizza"
    ],
    "ui": "bubble",
    "at": "20:33",
-   "emotion": "shout"
+   "stamp": "🍕",
+   "emotion": "tsukkomi"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Jajaja. Es una foto vieja.",
-   "rd": "하하하. 에스 우나 포또 비에하.",
-   "ko": "ㅋㅋㅋ 옛날 사진이야.",
-   "note": "vieja = foto 에 맞춘 여성형",
-   "tags": [
-    "form:concordancia"
-   ],
+   "tl": "Jaja, esa foto es de hace siglos.",
+   "rd": "하하, 에사 포또 에스 데 아쎄 시글로스.",
+   "ko": "ㅋㅋ 그거 완전 옛날 사진이야.",
+   "note": "de hace siglos = 엄청 옛날 거(직역: 몇 세기 전의)",
+   "tags": [],
    "new": [
-    "viejo"
+    "siglo"
    ],
    "ui": "bubble",
    "at": "20:35",
+   "stamp": "😂",
    "emotion": "amused"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "¿Vieja? Es de hace diez minutos. ¿Sales o no?",
-   "rd": "비에하? 에스 데 아쎄 디에쓰 미누또스. 살레스 오 노?",
-   "ko": "옛날? 10분 전에 올린 거거든. 나와, 안 나와?",
-   "note": "¿sales? = 나와?(salir 2인칭) · de hace diez minutos = 10분 전의",
-   "tags": [],
-   "new": [],
+   "tl": "¿Siglos? La subiste hace diez minutos. ¿Sales o qué?",
+   "rd": "시글로스? 라 수비스떼 아쎄 디에쓰 미누또스. 살레스 오 께?",
+   "ko": "몇 세기? 너 그거 십 분 전에 올렸거든. 나올 거야 말 거야?",
+   "note": "la subiste = 그거 올렸잖아(subir 단순과거 2인칭, la = la foto) · ¿sales? = 나와?(salir 2인칭)",
+   "tags": [
+    "form:indefinido"
+   ],
+   "new": [
+    "subir",
+    "salir"
+   ],
    "ui": "bubble",
    "at": "20:35",
-   "stamp": "😂",
-   "emotion": "tsukkomi"
+   "emotion": "annoyed"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Vale. Salgo ya. ¿Te guardo un trozo?",
-   "rd": "발레. 살고 야. 떼 구아르도 운 뜨로쏘?",
-   "ko": "그래. 지금 나가. 한 조각 남겨 줄까?",
-   "note": "salgo ya = 지금 나가(salir 1인칭, 7번 턴 sales 와 짝)",
+   "tl": "Vale, vale. Salgo ahora mismo. ¿Te dejo un trozo?",
+   "rd": "발레, 발레. 살고 아오라 미스모. 떼 데호 운 뜨로쏘?",
+   "ko": "알았어, 알았어. 지금 바로 나가. 한 조각 남겨 줄까?",
+   "note": "salgo = 나가(salir 1인칭, 7번 턴 sales 와 짝) · ¿te dejo ~? = ~ 남겨 줄까?",
    "tags": [
+    "expr:ahora mismo",
     "expr:vale"
    ],
    "new": [
-    "trozo"
+    "trozo",
+    "dejar"
    ],
    "ui": "bubble",
    "at": "20:36",
-   "emotion": "teasing"
+   "stamp": "🍕",
+   "emotion": "flustered"
   }
  ],
  "draft": "grok",

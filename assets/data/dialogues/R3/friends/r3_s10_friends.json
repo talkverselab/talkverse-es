@@ -23,7 +23,7 @@
  "domain": [
   "friends"
  ],
- "goal": "같은 이야기를 복수 단순과거(llamamos·llamasteis·comimos·comisteis·esperamos)로, 단수 jugué/jugaste 와 대비 — 새 단어 0",
+ "goal": "같은 이야기를 복수 단순과거(llamamos·llamasteis·comimos·comisteis·esperamos)로, 단수 jugué/jugaste·marqué 와 대비 — 새 단어 0",
  "expressions": [
   "ya",
   "perdona",
@@ -36,8 +36,8 @@
    "speaker": "A",
    "tl": "Ayer te llamamos tres veces, tío.",
    "rd": "아예르 떼 야마모스 뜨레스 베쎄스, 띠오.",
-   "ko": "어제 우리가 너한테 전화 세 번 했어.",
-   "note": "llamamos = llamar 1인칭 복수(우리 팀) — R1 llamé",
+   "ko": "어제 우리가 세 번이나 전화했잖아.",
+   "note": "llamamos = llamar 1인칭 복수 단순과거(우리 팀) — R1 llamé",
    "tags": [
     "expr:tío",
     "form:indefinido",
@@ -51,7 +51,7 @@
    "speaker": "B",
    "tl": "Ya, perdona. ¿Me llamasteis? Comimos con mi abuela.",
    "rd": "야, 뻬르도나. 메 야마스떼이스? 꼬미모스 꼰 미 아부엘라.",
-   "ko": "알아, 미안. 전화했어? 할머니랑 다 같이 밥 먹었어.",
+   "ko": "알아, 미안. 전화했었어? 할머니랑 밥 먹었거든.",
    "note": "llamasteis = 2인칭 복수 ↔ 1번 llamamos · comimos = 1인칭 복수",
    "tags": [
     "expr:ya",
@@ -74,16 +74,18 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "annoyed"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "¿Ayer? ¿El partido no es hoy?",
-   "rd": "아예르? 엘 빠르띠도 노 에스 오이?",
-   "ko": "어제? 경기 오늘 아니야?",
-   "note": "es hoy = 현재로 되묻기",
-   "tags": [],
+   "tl": "¿Fue ayer? ¿El partido no es hoy?",
+   "rd": "푸에 아예르? 엘 빠르띠도 노 에스 오이?",
+   "ko": "어제였어? 경기 오늘 아니야?",
+   "note": "fue = ser 단순과거 ↔ es(현재)",
+   "tags": [
+    "form:indefinido"
+   ],
    "new": [],
    "emotion": "surprised"
   },
@@ -92,13 +94,13 @@
    "speaker": "A",
    "tl": "No. Fue ayer. Jugué yo en tu lugar.",
    "rd": "노. 푸에 아예르. 후게 요 엔 뚜 루가르.",
-   "ko": "아니. 어제였어. 내가 네 자리에서 뛰었어.",
-   "note": "jugué = 1인칭 단수 · fue ↔ 4번 es",
+   "ko": "아니. 어제였어. 네 대신 내가 뛰었어.",
+   "note": "jugué = 1인칭 단수 · en tu lugar = 네 대신",
    "tags": [
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "tsukkomi"
   },
   {
    "num": 6,
@@ -106,7 +108,7 @@
    "tl": "¿Jugaste tú? ¿Y qué pasó?",
    "rd": "후가스떼 뚜? 이 께 빠소?",
    "ko": "네가 뛰었다고? 그래서 어떻게 됐어?",
-   "note": "jugaste = 2인칭 단수 ↔ 5번 jugué",
+   "note": "jugaste = 2인칭 단수 ↔ 5번 jugué · pasó = pasar 3인칭 단수",
    "tags": [
     "form:indefinido"
    ],
@@ -116,8 +118,8 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Marqué dos goles. Los dos en nuestra portería.",
-   "rd": "마르께 도스 골레스. 로스 도스 엔 누에스뜨라 뽀르떼리아.",
+   "tl": "Dos goles marqué. Los dos en nuestra portería.",
+   "rd": "도스 골레스 마르께. 로스 도스 엔 누에스뜨라 뽀르떼리아.",
    "ko": "두 골 넣었지. 둘 다 우리 골대에.",
    "note": "marqué(나 혼자) + nuestra portería(우리 골대) — 단수 동사·복수 소유",
    "tags": [
@@ -132,13 +134,14 @@
    "speaker": "B",
    "tl": "Menos mal que comimos con mi abuela.",
    "rd": "메노스 말 께 꼬미모스 꼰 미 아부엘라.",
-   "ko": "할머니랑 밥 먹길 다행이다.",
-   "note": "menos mal = 다행이다 · comimos = 우리(가족)",
+   "ko": "할머니랑 밥 먹길 천만다행이다.",
+   "note": "menos mal que = ~해서 다행이다 · comimos(우리 가족) — 2번 콜백",
    "tags": [
-    "expr:menos mal"
+    "expr:menos mal",
+    "form:indefinido"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "amused"
   }
  ],
  "draft": "grok",

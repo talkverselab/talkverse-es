@@ -23,7 +23,7 @@
  "domain": [
   "love"
  ],
- "goal": "같은 이야기를 복수 규칙 활용(compráis·miráis·llegáis·miramos)으로, 단수 mira·leo·trabajas·compra 와 대비 — 새 단어 0",
+ "goal": "같은 이야기를 복수 규칙 활용(compráis·miráis·llegáis·miramos)과 os 로, 단수 mira·leo·trabajas·compra 와 대비 — 새 단어 0",
  "expressions": [
   "ya",
   "bueno",
@@ -33,8 +33,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¿Otra vez aquí? ¿Compráis o solo miráis?",
-   "rd": "오뜨라 베쓰 아끼? 꼼쁘라이스 오 솔로 미라이스?",
+   "tl": "¿Otra vez por aquí? ¿Compráis o solo miráis?",
+   "rd": "오뜨라 베쓰 뽀르 아끼? 꼼쁘라이스 오 솔로 미라이스?",
    "ko": "또 왔네? 사는 거야, 구경만 하는 거야?",
    "note": "compráis / miráis = -ar 2인칭 복수(-áis) ↔ 단수 compras·miras",
    "tags": [
@@ -46,30 +46,30 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Miramos. Bueno… él mira, yo leo.",
-   "rd": "미라모스. 부에노… 엘 미라, 요 레오.",
-   "ko": "구경. 아니… 얘는 구경하고, 난 좀 읽고.",
-   "note": "miramos(우리) ↔ mira(그) ↔ leo(나) — 같은 동사 세 모양",
+   "tl": "Miramos. Bueno… yo leo, él mira.",
+   "rd": "미라모스. 부에노… 요 레오, 엘 미라.",
+   "ko": "구경해. 아니… 난 읽고, 얘는 구경하고.",
+   "note": "miramos(우리) ↔ mira(그) ↔ leo(나) — 같은 현재형 세 모양",
    "tags": [
     "expr:bueno",
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "shy"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Ya. Llegáis todos los días a las seis.",
-   "rd": "야. 예가이스 또도스 로스 디아스 아 라스 세이스.",
-   "ko": "그렇겠지. 둘이 매일 여섯 시에 오더라.",
-   "note": "llegáis = llegar 2인칭 복수",
+   "tl": "Ya veo. Llegáis todos los días a las seis.",
+   "rd": "야 베오. 예가이스 또도스 로스 디아스 아 라스 세이스.",
+   "ko": "그렇구나. 둘이 매일 여섯 시에 오더라.",
+   "note": "ya veo = 그렇구나 · llegáis = llegar 2인칭 복수",
    "tags": [
     "expr:ya",
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "cheerful"
   },
   {
    "num": 4,
@@ -90,12 +90,12 @@
    "tl": "No. Trabajo los lunes y los miércoles.",
    "rd": "노. 뜨라바호 로스 루네스 이 로스 미에르꼴레스.",
    "ko": "아니. 월요일이랑 수요일만 일해.",
-   "note": "trabajo = 1인칭 단수",
+   "note": "los lunes = 월요일마다(정관사 복수)",
    "tags": [
     "form:presente_ar"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "cheerful"
   },
   {
    "num": 6,
@@ -115,8 +115,8 @@
    "speaker": "B",
    "tl": "Pues… no os espero. Espero a un chico que lee.",
    "rd": "뿌에스… 노 오스 에스뻬로. 에스뻬로 아 운 치꼬 께 레에.",
-   "ko": "그게… 너희를 기다리는 건 아니고. 책 읽는 남자를 기다려.",
-   "note": "no os espero = 너희를 기다리는 게 아니야(os = 복수 목적어) → un chico que lee(2번 턴 yo leo 를 받음) · esperar a + 사람",
+   "ko": "그게… 너희 기다리는 거 아니야. 책 읽는 남자 기다려.",
+   "note": "no os espero = 너희를 기다리는 게 아니야(os = 복수 목적어) · un chico que lee = 2번 「yo leo」를 받음",
    "tags": [
     "expr:pues",
     "form:vosotros"
@@ -124,13 +124,14 @@
    "new": [],
    "emotion": "shy",
    "tl_f": "Pues… no os espero. Espero a una chica que lee.",
+   "ko_f": "그게… 너희 기다리는 거 아니야. 책 읽는 여자 기다려.",
    "rd_f": "뿌에스… 노 오스 에스뻬로. 에스뻬로 아 우나 치까 께 레에."
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Pues el chico hoy compra un libro.",
-   "rd": "뿌에스 엘 치꼬 오이 꼼쁘라 운 리브로.",
+   "tl": "Pues hoy el chico compra un libro.",
+   "rd": "뿌에스 오이 엘 치꼬 꼼쁘라 운 리브로.",
    "ko": "그럼 그 남자, 오늘은 책 한 권 산다.",
    "note": "compra = 3인칭 단수 ↔ 1번 compráis(복수)",
    "tags": [
@@ -138,9 +139,10 @@
     "form:presente_ar"
    ],
    "new": [],
-   "emotion": "cheerful",
-   "tl_f": "Pues la chica hoy compra un libro.",
-   "rd_f": "뿌에스 라 치까 오이 꼼쁘라 운 리브로."
+   "emotion": "flustered",
+   "tl_f": "Pues hoy la chica compra un libro.",
+   "ko_f": "그럼 그 여자, 오늘은 책 한 권 산다.",
+   "rd_f": "뿌에스 오이 라 치까 꼼쁘라 운 리브로."
   }
  ],
  "draft": "grok",

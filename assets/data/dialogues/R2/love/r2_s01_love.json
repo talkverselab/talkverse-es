@@ -24,9 +24,7 @@
  ],
  "goal": "채팅 첫 인사 주고받기·먼저 다가오는 말 받기",
  "expressions": [
-  "oye",
   "qué guay",
-  "ya",
   "vale"
  ],
  "turns": [
@@ -35,15 +33,15 @@
    "speaker": "B",
    "tl": "Hola. Soy Marta, la de la librería.",
    "rd": "올라. 소이 마르따, 라 데 라 리브레리아.",
-   "ko": "안녕. 나 마르타, 서점의 그 사람.",
-   "note": "la de la librería = 서점의 그 사람",
+   "ko": "안녕. 나 마르타야, 서점에 있는.",
+   "note": "soy = 나는 ~야(ser 1인칭) · la de ~ = ~의 그 사람(여)",
    "tags": [],
    "new": [
     "librería"
    ],
    "ui": "bubble",
    "at": "21:40",
-   "stamp": "📚",
+   "stamp": "👋",
    "emotion": "cheerful"
   },
   {
@@ -51,8 +49,8 @@
    "speaker": "A",
    "tl": "¡Hola! ¿Me escribes tú? Qué guay.",
    "rd": "올라! 메 에스끄리베스 뚜? 께 구아이.",
-   "ko": "안녕! 네가 먼저 연락한 거야? 와 좋다.",
-   "note": "¿me escribes? = 나한테 연락하는 거야?(escribir 2인칭)",
+   "ko": "안녕! 네가 먼저 연락한 거야? 와, 좋다.",
+   "note": "¿me escribes? = 나한테 연락하는 거야?(escribir 2인칭) · qué guay = 와 좋다",
    "tags": [
     "expr:qué guay"
    ],
@@ -67,16 +65,16 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Sí. Oye, tu número estaba en un libro.",
-   "rd": "시. 오예, 뚜 누메로 에스따바 엔 운 리브로.",
-   "ko": "응. 근데 네 번호가 어떤 책에 있던데.",
-   "note": "estaba = 있었어(불완료)",
+   "tl": "Sí. Tu número estaba en un libro.",
+   "rd": "시. 뚜 누메로 에스따바 엔 운 리브로.",
+   "ko": "응. 네 번호가 어떤 책에 있던데.",
+   "note": "estaba = 있었어(estar 불완료 덩어리)",
    "tags": [
-    "expr:oye",
     "form:imperfecto"
    ],
    "new": [
-    "número"
+    "número",
+    "libro"
    ],
    "ui": "bubble",
    "at": "21:43",
@@ -85,9 +83,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Ah, ¿sí? ¿Qué libro es? Qué raro… jajaja.",
-   "rd": "아, 시? 께 리브로 에스? 께 라로… 하하하.",
-   "ko": "아, 그래? 무슨 책인데? 이상하네… ㅋㅋㅋ",
+   "tl": "¿Ah, sí? ¿Qué libro? Qué raro, jajaja.",
+   "rd": "아, 시? 께 리브로? 께 라로, 하하하.",
+   "ko": "아, 그래? 무슨 책? 이상하네 ㅋㅋ",
    "note": "qué raro = 이상하네",
    "tags": [],
    "new": [
@@ -100,12 +98,11 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ya. Está en la página del primer beso.",
-   "rd": "야. 에스따 엔 라 빠히나 델 쁘리메르 베소.",
-   "ko": "그러게. 첫 키스 페이지에 있어.",
+   "tl": "Está en la página del primer beso.",
+   "rd": "에스따 엔 라 빠히나 델 쁘리메르 베소.",
+   "ko": "첫 키스 페이지에 있어.",
    "note": "está = 있어(estar 3인칭, 3번 턴 estaba 와 짝) · primer beso = 첫 키스",
    "tags": [
-    "expr:ya",
     "form:estar"
    ],
    "new": [
@@ -119,10 +116,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Vale, fui yo. ¿Te molesta?",
-   "rd": "발레, 푸이 요. 떼 몰레스따?",
-   "ko": "그래, 나야. 불편해?",
-   "note": "fui yo = 나였어(ser 단순과거) · ¿te molesta? = 불편해?",
+   "tl": "Vale, fui yo. ¿Te molesta eso?",
+   "rd": "발레, 푸이 요. 떼 몰레스따 에소?",
+   "ko": "그래, 나야. 싫어?",
+   "note": "fui yo = 나였어(ser 단순과거, 1번 턴 soy 와 짝) · ¿te molesta? = 거슬려?",
    "tags": [
     "expr:vale",
     "form:indefinido"
@@ -137,9 +134,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Mucho. Por eso te escribo…",
-   "rd": "무초. 뽀르 에소 떼 에스끄리보…",
-   "ko": "엄청. 그래서 연락하는 거야…",
+   "tl": "Mucho. Por eso te escribo ahora…",
+   "rd": "무초. 뽀르 에소 떼 에스끄리보 아오라…",
+   "ko": "엄청. 그래서 지금 연락하는 거야…",
    "note": "te escribo = 너한테 연락해(escribir 1인칭, 2번 턴 escribes 와 짝) · por eso = 그래서",
    "tags": [],
    "new": [],
@@ -154,7 +151,7 @@
    "tl": "Mañana a las cinco. Trae el libro.",
    "rd": "마냐나 아 라스 씬꼬. 뜨라에 엘 리브로.",
    "ko": "내일 다섯 시. 그 책 가져와.",
-   "note": "trae = 가져와(명령)",
+   "note": "trae = 가져와(traer 명령)",
    "tags": [
     "form:imperativo"
    ],
@@ -163,8 +160,8 @@
    ],
    "ui": "bubble",
    "at": "21:49",
-   "stamp": "☕",
-   "emotion": "teasing"
+   "stamp": "📚",
+   "emotion": "cheerful"
   }
  ],
  "draft": "grok",

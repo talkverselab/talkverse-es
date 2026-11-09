@@ -22,10 +22,12 @@
  "domain": [
   "love"
  ],
- "goal": "목적 대명사 lo(남성 사물)·la(여성 사물)·le(~에게) + tengo/tienes·leo/lees·rojo/roja",
+ "goal": "목적 대명사 lo(남성 사물)·la(여성 사물)·le(~에게) + tienes/tengo·leo/lees·rojo/roja",
  "expressions": [
   "oye",
-  "vale"
+  "madre mía",
+  "vale",
+  "pues"
  ],
  "turns": [
   {
@@ -33,28 +35,35 @@
    "speaker": "B",
    "tl": "Oye, ¿tienes mi libro rojo?",
    "rd": "오예, 띠에네스 미 리브로 로호?",
-   "ko": "야, 내 빨간 책 너한테 있어?",
-   "note": "libro rojo = 남성 명사 + 남성 형용사 · tienes = 2인칭",
+   "ko": "있잖아, 내 빨간 책 너한테 있어?",
+   "note": "libro rojo = 남성 명사 + 남성 형용사 · tienes = tener 2인칭",
    "tags": [
-    "expr:oye"
+    "expr:oye",
+    "form:concordancia"
    ],
-   "new": [],
+   "new": [
+    "libro",
+    "rojo"
+   ],
    "ui": "bubble",
    "at": "23:10",
-   "stamp": "📕",
-   "emotion": "teasing"
+   "stamp": "📚",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
    "tl": "Sí, lo tengo. Lo leo en la cama.",
    "rd": "시, 로 뗀고. 로 레오 엔 라 까마.",
-   "ko": "응, 나한테 있어. 침대에서 읽어.",
+   "ko": "응, 나한테 있어. 침대에서 읽는 중.",
    "note": "lo = el libro(남성) 대신 · tengo/leo = 1인칭",
    "tags": [
     "form:lo"
    ],
-   "new": [],
+   "new": [
+    "leer",
+    "cama"
+   ],
    "ui": "bubble",
    "at": "23:11",
    "emotion": "cheerful"
@@ -80,8 +89,8 @@
    "speaker": "A",
    "tl": "Sí. Y hay una carta roja dentro.",
    "rd": "시. 이 아이 우나 까르따 로하 덴뜨로.",
-   "ko": "응. 그리고 안에 빨간 편지가 있어.",
-   "note": "carta roja(여) — 1번 libro rojo(남)와 비교 · dentro = 안에",
+   "ko": "응. 그리고 안에 빨간 편지가 하나 있던데.",
+   "note": "carta roja(여) — 1번 libro rojo(남)와 비교 · hay = 있다 · dentro = 안에",
    "tags": [
     "form:concordancia"
    ],
@@ -91,22 +100,23 @@
    ],
    "ui": "bubble",
    "at": "23:12",
-   "emotion": "surprised"
+   "emotion": "teasing"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "¿La carta? ¿La tienes?",
-   "rd": "라 까르따? 라 띠에네스?",
-   "ko": "그 편지? 네가 갖고 있어?",
-   "note": "la = la carta(여성) 대신",
+   "tl": "¿La carta? ¿La tienes? Madre mía.",
+   "rd": "라 까르따? 라 띠에네스? 마드레 미아.",
+   "ko": "그 편지? 네가 갖고 있어? 어떡해.",
+   "note": "la = la carta(여성) 대신 · madre mía = 세상에·어떡해",
    "tags": [
-    "form:la"
+    "form:la",
+    "expr:madre mía"
    ],
    "new": [],
    "ui": "bubble",
    "at": "23:12",
-   "emotion": "excited"
+   "emotion": "worried"
   },
   {
    "num": 6,
@@ -114,7 +124,7 @@
    "tl": "Es para Javi, ¿no? Le doy la carta.",
    "rd": "에스 빠라 하비, 노? 레 도이 라 까르따.",
    "ko": "하비한테 주는 거지? 내가 전해 줄게.",
-   "note": "le doy = 그에게 준다(le = a Javi)",
+   "note": "le doy = 그에게 준다(le = a Javi) · doy = dar 1인칭",
    "tags": [
     "form:le"
    ],
@@ -124,7 +134,7 @@
    "ui": "bubble",
    "at": "23:13",
    "stamp": "👍",
-   "emotion": "neutral"
+   "emotion": "cheerful"
   },
   {
    "num": 7,
@@ -132,29 +142,40 @@
    "tl": "¡No! No es para Javi… Es para ti.",
    "rd": "노! 노 에스 빠라 하비… 에스 빠라 띠.",
    "ko": "안 돼! 하비 거 아니야… 너 거야.",
-   "note": "para ti = 너를 위한·너한테",
+   "note": "para ti = 너한테 주는 것",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "23:13",
-   "stamp": "💕",
-   "emotion": "shy"
+   "stamp": "❤",
+   "segs": [
+    [
+     "flustered",
+     "¡No! No es para Javi…"
+    ],
+    [
+     "shy",
+     " Es para ti."
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Vale… la leo otra vez.",
-   "rd": "발레… 라 레오 오뜨라 베쓰.",
-   "ko": "알았어… 그럼 다시 읽을게.",
+   "tl": "Vale… pues la leo otra vez.",
+   "rd": "발레… 뿌에스 라 레오 오뜨라 베쓰.",
+   "ko": "알았어… 그럼 다시 읽어 볼게.",
    "note": "la leo = 그걸(편지) 읽다 · otra vez = 다시",
    "tags": [
     "expr:vale",
+    "expr:pues",
     "form:la"
    ],
    "new": [],
    "ui": "bubble",
    "at": "23:20",
-   "emotion": "gentle"
+   "stamp": "😳",
+   "emotion": "shy"
   }
  ],
  "draft": "grok",

@@ -30,7 +30,7 @@
   "claro",
   "de verdad",
   "vale",
-  "bueno"
+  "espera"
  ],
  "turns": [
   {
@@ -45,6 +45,7 @@
     "form:gustar"
    ],
    "new": [
+    "cena",
     "ajo"
    ],
    "emotion": "cheerful"
@@ -52,15 +53,17 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Me encanta el ajo. ¿Qué haces?",
-   "rd": "메 엔깐따 엘 아호. 께 아쎄스?",
-   "ko": "마늘 완전 좋아해. 뭐 만드는데?",
-   "note": "me encanta = 엄청 좋아해 · haces = hacer 2인칭 — 1번 hago 와 비교",
+   "tl": "¡Me encanta el ajo! ¿Qué haces?",
+   "rd": "메 엔깐따 엘 아호! 께 아쎄스?",
+   "ko": "마늘 완전 좋아해! 뭐 만드는데?",
+   "note": "me encanta = 완전 좋아해 · haces = hacer 2인칭(1번 hago 와 비교)",
    "tags": [
     "expr:me encanta",
     "form:gustar"
    ],
-   "new": [],
+   "new": [
+    "encantar"
+   ],
    "emotion": "excited"
   },
   {
@@ -74,8 +77,8 @@
     "form:gustar"
    ],
    "new": [
-    "patata",
-    "sorpresa"
+    "sorpresa",
+    "patata"
    ],
    "emotion": "teasing"
   },
@@ -85,27 +88,32 @@
    "tl": "Me encantan. Me gusta todo, tío.",
    "rd": "메 엔깐딴. 메 구스따 또도, 띠오.",
    "ko": "완전 좋아. 난 다 좋아해.",
-   "note": "me encantan(복수) — 2번 me encanta(단수)와 비교 · me gusta todo",
+   "note": "me encantan(복수) — 2번 me encanta(단수)와 비교 · me gusta todo = 다 좋아",
    "tags": [
     "expr:me encanta",
     "expr:tío",
     "form:gustar"
    ],
-   "new": [],
-   "emotion": "cheerful"
+   "new": [
+    "todo"
+   ],
+   "emotion": "excited"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "¿Todo? ¿También los caracoles?",
-   "rd": "또도? 땀비엔 로스 까라꼴레스?",
-   "ko": "다? 달팽이 요리도?",
-   "note": "también = ~도 · caracoles = 달팽이 요리(스페인 바·집에서 흔한 요리)",
-   "tags": [],
-   "new": [
-    "caracol"
+   "tl": "¿Todo te gusta? ¿Los caracoles también?",
+   "rd": "또도 떼 구스따? 로스 까라꼴레스 땀비엔?",
+   "ko": "다 좋다고? 달팽이 요리도?",
+   "note": "caracoles = 달팽이 요리(스페인 바·집에서 흔한 요리) · también = ~도",
+   "tags": [
+    "form:gustar"
    ],
-   "emotion": "amused"
+   "new": [
+    "caracol",
+    "también"
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -141,12 +149,12 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Bueno… no me gusta todo.",
-   "rd": "부에노… 노 메 구스따 또도.",
-   "ko": "그게… 다 좋아하는 건 아니야.",
-   "note": "no me gusta = 안 좋아해",
+   "tl": "Espera, espera… no me gusta todo.",
+   "rd": "에스뻬라, 에스뻬라… 노 메 구스따 또도.",
+   "ko": "잠깐, 잠깐… 다 좋아하는 건 아니야.",
+   "note": "no me gusta = 안 좋아해 · espera = 잠깐(esperar 명령형, 통문장)",
    "tags": [
-    "expr:bueno",
+    "expr:espera",
     "form:gustar"
    ],
    "new": [],

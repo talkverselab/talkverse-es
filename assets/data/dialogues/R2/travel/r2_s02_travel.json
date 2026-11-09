@@ -24,23 +24,23 @@
  ],
  "goal": "채팅에서 사진 조르기·사진에 대해 반응하기",
  "expressions": [
-  "tío",
   "mira",
+  "tío",
+  "qué tal",
   "madre mía",
-  "qué fuerte",
-  "qué tal"
+  "qué fuerte"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¡Tío, estoy en Cádiz! Mira qué mar.",
-   "rd": "띠오, 에스또이 엔 까디쓰! 미라 께 마르.",
-   "ko": "야, 나 카디스야! 바다 좀 봐.",
-   "note": "mira qué ~ = ~ 좀 봐",
+   "tl": "¡Ey, tío! Estoy en Cádiz. Mira qué mar.",
+   "rd": "에이, 띠오! 에스또이 엔 까디쓰. 미라 께 마르.",
+   "ko": "야! 나 카디스야. 바다 좀 봐.",
+   "note": "estoy en ~ = ~에 있어(estar 1인칭) · mira qué ~ = ~ 좀 봐(감탄)",
    "tags": [
-    "expr:tío",
-    "expr:mira"
+    "expr:mira",
+    "expr:tío"
    ],
    "new": [
     "mar"
@@ -49,8 +49,8 @@
    "at": "12:10",
    "stamp": "🌊",
    "emotion": "excited",
-   "tl_f": "¡Tía, estoy en Cádiz! Mira qué mar.",
-   "rd_f": "띠아, 에스또이 엔 까디쓰! 미라 께 마르."
+   "tl_f": "¡Ey, tía! Estoy en Cádiz. Mira qué mar.",
+   "rd_f": "에이, 띠아! 에스또이 엔 까디쓰. 미라 께 마르."
   },
   {
    "num": 2,
@@ -58,10 +58,11 @@
    "tl": "Qué envidia. ¿Y la foto, guapa?",
    "rd": "께 엔비디아. 이 라 포또, 구아빠?",
    "ko": "부럽다. 사진은, 예쁜이?",
-   "note": "qué envidia = 부럽다",
+   "note": "qué envidia = 부럽다 · guapa = 예쁜이(여성형)",
    "tags": [],
    "new": [
-    "envidia"
+    "envidia",
+    "guapo"
    ],
    "ui": "bubble",
    "at": "12:12",
@@ -72,14 +73,17 @@
    "speaker": "B",
    "tl": "Ahí va. ¿Qué tal salgo?",
    "rd": "아이 바. 께 딸 살고?",
-   "ko": "보낸다. 나 어떻게 나왔어?",
-   "note": "¿qué tal salgo? = 나 어떻게 나왔어?(salir 1인칭)",
+   "ko": "자, 간다. 나 어떻게 나왔어?",
+   "note": "ahí va = 자, 보낸다 · ¿qué tal salgo? = 나 어떻게 나왔어?(salir 1인칭)",
    "tags": [
     "expr:qué tal"
    ],
-   "new": [],
+   "new": [
+    "salir"
+   ],
    "ui": "bubble",
    "at": "12:13",
+   "stamp": "📸",
    "emotion": "cheerful"
   },
   {
@@ -93,7 +97,8 @@
     "form:concordancia"
    ],
    "new": [
-    "detrás"
+    "detrás",
+    "señor"
    ],
    "ui": "bubble",
    "at": "12:14",
@@ -102,10 +107,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "¿Qué señor? Ay, madre mía. Sale más guapo que yo.",
-   "rd": "께 세뇨르? 아이, 마드레 미아. 살레 마스 구아뽀 께 요.",
-   "ko": "무슨 아저씨? 헐, 세상에. 나보다 잘 나왔네.",
-   "note": "sale más guapo = 더 잘생기게 나와(salir 3인칭·guapo 남성형)",
+   "tl": "¿Qué señor? ¡Madre mía! Sale más guapo que yo.",
+   "rd": "께 세뇨르? 마드레 미아! 살레 마스 구아뽀 께 요.",
+   "ko": "무슨 아저씨? 세상에! 나보다 잘 나왔네.",
+   "note": "sale más guapo que yo = 나보다 잘 나와(salir 3인칭·guapo 남성형) · más ~ que = ~보다 더",
    "tags": [
     "expr:madre mía",
     "form:concordancia"
@@ -113,22 +118,25 @@
    "new": [],
    "ui": "bubble",
    "at": "12:14",
-   "emotion": "shout"
+   "emotion": "tsukkomi"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Y tiene un perro. ¡El perro mira a la cámara!",
-   "rd": "이 띠에네 운 뻬로. 엘 뻬로 미라 아 라 까마라!",
-   "ko": "개도 데리고 있어. 개가 카메라 보고 있어!",
-   "note": "tiene = 갖고 있다(tener 3인칭) · mira a la cámara = 카메라를 봐",
-   "tags": [],
+   "tl": "Y tiene un perro… ¡que mira a la cámara!",
+   "rd": "이 띠에네 운 뻬로… 께 미라 아 라 까마라!",
+   "ko": "개도 있어… 카메라 보고 있어!",
+   "note": "tiene = 갖고 있어(tener 3인칭) · mira a ~ = ~를 봐(mirar 3인칭)",
+   "tags": [
+    "expr:mira"
+   ],
    "new": [
+    "perro",
     "cámara"
    ],
    "ui": "bubble",
    "at": "12:15",
-   "stamp": "😂",
+   "stamp": "🐶",
    "emotion": "amused"
   },
   {
@@ -137,16 +145,17 @@
    "tl": "Ya está en mi historia. Cien vistas.",
    "rd": "야 에스따 엔 미 이스또리아. 씨엔 비스따스.",
    "ko": "벌써 내 스토리에 올렸어. 조회수 백.",
-   "note": "historia = SNS 스토리 · vistas = 조회수",
+   "note": "ya está en ~ = 벌써 ~에 있어(estar 3인칭, 1번 턴 estoy 와 짝) · historia = SNS 스토리",
    "tags": [
     "callback:r2_s04_friends"
    ],
    "new": [
+    "historia",
     "vista"
    ],
    "ui": "bubble",
    "at": "12:20",
-   "emotion": "flustered"
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -164,7 +173,7 @@
    "ui": "bubble",
    "at": "12:31",
    "stamp": "🙄",
-   "emotion": "tsukkomi"
+   "emotion": "annoyed"
   }
  ],
  "draft": "grok",

@@ -24,46 +24,46 @@
  ],
  "goal": "취소 받아들이기·읽씹 뒤 받아치기",
  "expressions": [
-  "tío",
-  "lo siento",
-  "qué pasa",
-  "vaya",
-  "no pasa nada",
-  "oye",
-  "qué tal",
   "perdona",
-  "qué morro"
+  "tío",
+  "no te preocupes",
+  "da igual",
+  "bueno",
+  "vaya",
+  "oye",
+  "perdón"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Tío, lo siento. Hoy no puedo.",
-   "rd": "띠오, 로 시엔또. 오이 노 뿌에도.",
+   "tl": "Ey tío, perdona. Hoy no puedo.",
+   "rd": "에이 띠오, 뻬르도나. 오이 노 뿌에도.",
    "ko": "야, 미안. 오늘 안 되겠어.",
-   "note": "no puedo = 안 돼(poder 1인칭)",
+   "note": "no puedo = 안 돼(poder 1인칭) · perdona = 미안",
    "tags": [
-    "expr:tío",
-    "expr:lo siento"
+    "expr:perdona",
+    "expr:tío"
    ],
    "new": [],
    "ui": "bubble",
    "at": "17:00",
-   "emotion": "worried",
-   "tl_f": "Tía, lo siento. Hoy no puedo.",
-   "rd_f": "띠아, 로 시엔또. 오이 노 뿌에도."
+   "stamp": "😔",
+   "emotion": "flustered",
+   "tl_f": "Ey tía, perdona. Hoy no puedo.",
+   "rd_f": "에이 띠아, 뻬르도나. 오이 노 뿌에도."
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¿Otra vez no puedes? ¿Qué pasa ahora?",
-   "rd": "오뜨라 베쓰 노 뿌에데스? 께 빠사 아오라?",
-   "ko": "또 안 돼? 이번엔 뭔데?",
-   "note": "no puedes = 너 안 돼(poder 2인칭) · otra vez = 또",
-   "tags": [
-    "expr:qué pasa"
+   "tl": "¿Otra vez no puedes? ¿Qué excusa tienes ahora?",
+   "rd": "오뜨라 베쓰 노 뿌에데스? 께 엑스꾸사 띠에네스 아오라?",
+   "ko": "또 안 돼? 이번엔 무슨 핑계야?",
+   "note": "no puedes = 너 안 돼(poder 2인칭, 1번 턴과 짝) · excusa = 핑계",
+   "tags": [],
+   "new": [
+    "excusa"
    ],
-   "new": [],
    "ui": "bubble",
    "at": "17:02",
    "stamp": "🙄",
@@ -72,59 +72,68 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Me toca trabajar hasta tarde en el bar.",
-   "rd": "메 또까 뜨라바하르 아스따 따르데 엔 엘 바르.",
-   "ko": "바에서 늦게까지 일해야 돼.",
-   "note": "me toca + 원형 = ~해야 돼(내 차례)",
+   "tl": "Me toca el turno largo en el bar. Estoy liado.",
+   "rd": "메 또까 엘 뚜르노 라르고 엔 엘 바르. 에스또이 리아도.",
+   "ko": "바에서 긴 근무 걸렸어. 정신없어.",
+   "note": "me toca ~ = ~가 내 차례야·걸렸어 · liado = 바쁜(구어)",
    "tags": [],
-   "new": [],
+   "new": [
+    "turno",
+    "tocar",
+    "liado"
+   ],
    "ui": "bubble",
    "at": "17:03",
-   "emotion": "sad"
+   "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Vaya. Vale, no pasa nada.",
-   "rd": "바야. 발레, 노 빠사 나다.",
-   "ko": "아이고. 알았어, 괜찮아.",
-   "note": "no pasa nada = 괜찮아",
+   "tl": "Vaya. Bueno, da igual, no te preocupes.",
+   "rd": "바야. 부에노, 다 이구알, 노 떼 쁘레오꾸뻬스.",
+   "ko": "아이고. 뭐, 됐어, 신경 쓰지 마.",
+   "note": "no te preocupes = 신경 쓰지 마(굳은 표현) · da igual = 상관없어",
    "tags": [
-    "expr:vaya",
-    "expr:no pasa nada"
+    "expr:no te preocupes",
+    "expr:da igual",
+    "expr:bueno",
+    "expr:vaya"
    ],
    "new": [],
    "ui": "bubble",
    "at": "17:05",
-   "emotion": "sad"
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Oye, ¿qué tal? ¿Trabajas mucho?",
-   "rd": "오예, 께 딸? 뜨라바하스 무초?",
-   "ko": "저기, 어때? 일 많아?",
-   "note": "¿trabajas? = 일해?(trabajar 2인칭)",
+   "tl": "Oye, ¿cómo va eso? ¿Mucho curro?",
+   "rd": "오예, 꼬모 바 에소? 무초 꾸로?",
+   "ko": "저기, 어떻게 돼 가? 일 많아?",
+   "note": "¿cómo va eso? = 그거 어떻게 돼 가? · curro = 일(구어)",
    "tags": [
-    "expr:oye",
-    "expr:qué tal"
+    "expr:oye"
    ],
-   "new": [],
+   "new": [
+    "curro"
+   ],
    "ui": "bubble",
    "at": "21:30",
    "read": false,
-   "emotion": "gentle"
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "¿Javi? ¿Sigues trabajando?",
-   "rd": "하비? 시게스 뜨라바한도?",
-   "ko": "하비? 아직 일해?",
-   "note": "seguir + -ando = 계속 ~하다",
-   "tags": [],
+   "tl": "¿Javi? ¿Todavía estás liado?",
+   "rd": "하비? 또다비아 에스따스 리아도?",
+   "ko": "하비? 아직 바빠?",
+   "note": "¿estás liado? = 바빠?(estar 2인칭, 3번 턴 estoy liado 와 짝) · todavía = 아직",
+   "tags": [
+    "form:estar"
+   ],
    "new": [
-    "seguir"
+    "todavía"
    ],
    "ui": "bubble",
    "at": "22:45",
@@ -134,16 +143,18 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Perdona. Me dormí en el almacén.",
-   "rd": "뻬르도나. 메 도르미 엔 엘 알마쎈.",
-   "ko": "미안. 창고에서 잠들었어.",
-   "note": "me dormí = 잠들었어(dormirse 1인칭 과거)",
+   "tl": "Perdón. Me quedé dormido en el almacén.",
+   "rd": "뻬르돈. 메 께데 도르미도 엔 엘 알마쎈.",
+   "ko": "미안. 창고에서 잠들어 버렸어.",
+   "note": "me quedé dormido = 잠들어 버렸어(quedarse 단순과거 1인칭)",
    "tags": [
-    "expr:perdona",
+    "expr:perdón",
     "form:indefinido"
    ],
    "new": [
-    "almacén"
+    "almacén",
+    "dormido",
+    "quedar"
    ],
    "ui": "bubble",
    "at": "00:12",
@@ -153,12 +164,11 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "¿Te dormiste trabajando? Qué morro, tío.",
-   "rd": "떼 도르미스떼 뜨라바한도? 께 모로, 띠오.",
-   "ko": "일하다가 잠들었어? 뻔뻔하다, 너.",
-   "note": "te dormiste = 너 잠들었어(2인칭 과거, 7번 턴 me dormí 와 짝) · qué morro = 뻔뻔하네",
+   "tl": "¿Te quedaste dormido en el curro? Qué cara tienes, tío.",
+   "rd": "떼 께다스떼 도르미도 엔 엘 꾸로? 께 까라 띠에네스, 띠오.",
+   "ko": "일하다 잠들었다고? 진짜 뻔뻔하다, 너.",
+   "note": "te quedaste = 너 ~해 버렸어(quedarse 단순과거 2인칭, 7번 턴과 짝) · qué cara tienes = 뻔뻔하네",
    "tags": [
-    "expr:qué morro",
     "expr:tío",
     "form:indefinido"
    ],

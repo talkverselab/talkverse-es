@@ -23,19 +23,20 @@
  "domain": [
   "travel"
  ],
- "goal": "같은 이야기를 복수(estáis·estamos·vamos·nuestro·os)와 전치사로, 단수 va·perro 와 대비 — 새 단어 0",
+ "goal": "같은 이야기를 복수(estáis·estamos·vamos·nuestro·os)와 전치사 a·en·con·de 로, 단수 va·perro 와 대비 — 새 단어 0",
  "expressions": [
   "pues",
-  "bueno"
+  "bueno",
+  "tío"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "tl": "¿Dónde estáis? El tren es a las diez.",
-   "rd": "돈데 에스따이스? 엘 뜨렌 에스 아 라스 디에쓰.",
-   "ko": "너희 어디야? 기차 열 시야.",
-   "note": "estáis = 2인칭 복수 ↔ R1 estás",
+   "tl": "¿Dónde estáis? El tren sale a las diez.",
+   "rd": "돈데 에스따이스? 엘 뜨렌 살레 아 라스 디에쓰.",
+   "ko": "너희 어디야? 기차 열 시에 출발해.",
+   "note": "estáis = 2인칭 복수 ↔ R1 estás · a las diez = 열 시에",
    "tags": [
     "form:vosotros",
     "form:prep_a"
@@ -46,24 +47,24 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Estamos en el tren, en la ventana.",
-   "rd": "에스따모스 엔 엘 뜨렌, 엔 라 벤따나.",
+   "tl": "Estamos en el tren, junto a la ventana.",
+   "rd": "에스따모스 엔 엘 뜨렌, 훈또 아 라 벤따나.",
    "ko": "우리 기차 안이야, 창가 자리.",
-   "note": "estamos = 1인칭 복수",
+   "note": "estamos = 1인칭 복수 · junto a = ~ 옆에",
    "tags": [
     "form:nosotros",
     "form:prep_en"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
    "tl": "¿En el tren? Nosotras también. ¿Con quién estáis?",
    "rd": "엔 엘 뜨렌? 노소뜨라스 땀비엔. 꼰 끼엔 에스따이스?",
-   "ko": "기차라고? 우리도. 너희 누구랑 있어?",
-   "note": "nosotras = 우리(여성들)",
+   "ko": "기차라고? 우리도야. 누구랑 있어?",
+   "note": "nosotras = 우리(여성들) · ¿con quién? = 누구랑?",
    "tags": [
     "form:nosotros",
     "form:prep_con"
@@ -76,13 +77,13 @@
    "speaker": "A",
    "tl": "Con el perro de una señora.",
    "rd": "꼰 엘 뻬로 데 우나 세뇨라.",
-   "ko": "어떤 아주머니 개랑.",
+   "ko": "어떤 아주머니네 개랑.",
    "note": "el perro de una señora = 소속은 de",
    "tags": [
     "form:prep_de"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "cheerful"
   },
   {
    "num": 5,
@@ -101,25 +102,26 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Pues este tren va a… ¿Sevilla?",
-   "rd": "뿌에스 에스떼 뜨렌 바 아… 세비야?",
-   "ko": "근데 이 기차… 세비야 가는데?",
-   "note": "va = ir 3인칭 단수",
+   "tl": "Pues… este tren va a Sevilla, ¿no?",
+   "rd": "뿌에스… 에스떼 뜨렌 바 아 세비야, 노?",
+   "ko": "근데… 이 기차 세비야 가는 거 맞지?",
+   "note": "va a = ~로 간다(ir 3인칭 단수)",
    "tags": [
     "expr:pues",
     "form:prep_a"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "surprised"
   },
   {
    "num": 7,
    "speaker": "B",
    "tl": "¡Tíos! ¡Nosotras vamos a Toledo!",
    "rd": "띠오스! 노소뜨라스 바모스 아 똘레도!",
-   "ko": "얘들아! 우리는 톨레도 가거든!",
+   "ko": "얘들아! 우리는 톨레도 가는 거잖아!",
    "note": "vamos = ir 1인칭 복수 ↔ 6번 va · tíos = 얘들아(섞인 무리도 남성형)",
    "tags": [
+    "expr:tío",
     "form:nosotros",
     "form:prep_a"
    ],
@@ -132,13 +134,13 @@
    "tl": "Bueno… os llamamos desde Sevilla.",
    "rd": "부에노… 오스 야마모스 데스데 세비야.",
    "ko": "뭐… 세비야에서 전화할게.",
-   "note": "os = 너희에게 · llamamos = 1인칭 복수(R1 te llamo)",
+   "note": "os = 너희에게 · llamamos = 1인칭 복수(R1 te llamo) · desde = ~에서",
    "tags": [
     "expr:bueno",
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "amused"
   }
  ],
  "draft": "grok",

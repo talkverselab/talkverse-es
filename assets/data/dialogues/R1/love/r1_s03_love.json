@@ -22,10 +22,11 @@
  "domain": [
   "love"
  ],
- "goal": "현재 규칙 활용 -ar(compras·llegas·trabajo) / -er(leo·lee) / -ir 맛보기 — 1·2·3인칭 단수",
+ "goal": "현재 규칙 활용 -ar(compras/compra·miras/miro·trabajas/trabajo) / -er(leo/lee) — 1·2·3인칭 단수",
  "expressions": [
-  "ya",
   "bueno",
+  "ya",
+  "y tú",
   "pues"
  ],
  "turns": [
@@ -34,13 +35,16 @@
    "speaker": "B",
    "tl": "¿Otra vez aquí? ¿Compras o solo miras?",
    "rd": "오뜨라 베쓰 아끼? 꼼쁘라스 오 솔로 미라스?",
-   "ko": "또 왔어? 사는 거야, 구경만?",
+   "ko": "또 왔네? 살 거야, 구경만 할 거야?",
    "note": "compras / miras = -ar 동사 2인칭(-as)",
    "tags": [
     "form:presente_ar"
    ],
    "new": [
-    "comprar"
+    "comprar",
+    "mirar",
+    "otro",
+    "vez"
    ],
    "emotion": "teasing"
   },
@@ -49,8 +53,8 @@
    "speaker": "A",
    "tl": "Miro. Bueno… leo un poco.",
    "rd": "미로. 부에노… 레오 운 뽀꼬.",
-   "ko": "구경. 뭐… 조금 읽어.",
-   "note": "miro(-ar) · leo(-er) = 1인칭은 -o",
+   "ko": "구경. 뭐… 조금 읽기도 하고.",
+   "note": "miro(-ar)·leo(-er) = 1인칭은 -o",
    "tags": [
     "expr:bueno",
     "form:presente_er"
@@ -58,23 +62,24 @@
    "new": [
     "leer"
    ],
-   "emotion": "cheerful"
+   "emotion": "shy"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Ya. Llegas todos los días a las seis.",
-   "rd": "야. 예가스 또도스 로스 디아스 아 라스 세이스.",
-   "ko": "그렇겠지. 매일 여섯 시에 오더라.",
-   "note": "llegas = llegar 2인칭 · todos los días = 매일",
+   "tl": "Ya. Llegas siempre a las seis, ¿no?",
+   "rd": "야. 예가스 시엠쁘레 아 라스 세이스, 노?",
+   "ko": "그렇겠지. 너 맨날 여섯 시에 오잖아.",
+   "note": "llegas = llegar 2인칭 · siempre = 항상 · ¿no? = 그렇지?",
    "tags": [
     "expr:ya",
     "form:presente_ar"
    ],
    "new": [
-    "llegar"
+    "llegar",
+    "siempre"
    ],
-   "emotion": "amused"
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -82,14 +87,16 @@
    "tl": "¿Y tú? ¿Trabajas todos los días?",
    "rd": "이 뚜? 뜨라바하스 또도스 로스 디아스?",
    "ko": "너는? 매일 일해?",
-   "note": "trabajas = trabajar 2인칭",
+   "note": "trabajas = trabajar 2인칭 · todos los días = 매일",
    "tags": [
+    "expr:y tú",
     "form:presente_ar"
    ],
    "new": [
-    "trabajar"
+    "trabajar",
+    "día"
    ],
-   "emotion": "surprised"
+   "emotion": "cheerful"
   },
   {
    "num": 5,
@@ -97,11 +104,12 @@
    "tl": "No. Trabajo los lunes y los miércoles.",
    "rd": "노. 뜨라바호 로스 루네스 이 로스 미에르꼴레스.",
    "ko": "아니. 월요일이랑 수요일만 일해.",
-   "note": "trabajo = 1인칭 · los lunes = 월요일마다",
+   "note": "trabajo = 1인칭(4번 trabajas 와 비교) · los lunes = 월요일마다",
    "tags": [
     "form:presente_ar"
    ],
    "new": [
+    "lunes",
     "miércoles"
    ],
    "emotion": "neutral"
@@ -112,7 +120,7 @@
    "tl": "Pero hoy es viernes… ¿Qué haces aquí?",
    "rd": "뻬로 오이 에스 비에르네스… 께 아쎄스 아끼?",
    "ko": "근데 오늘 금요일인데… 여기서 뭐 해?",
-   "note": "haces = hacer 2인칭(불규칙, 통문장)",
+   "note": "haces = hacer 2인칭(불규칙, 통문장) · viernes = 금요일",
    "tags": [
     "form:hacer"
    ],
@@ -127,16 +135,18 @@
    "tl": "Pues… espero a un chico que lee mucho.",
    "rd": "뿌에스… 에스뻬로 아 운 치꼬 께 레에 무초.",
    "ko": "그게… 책 많이 읽는 남자를 기다려.",
-   "note": "espero a + 사람 = ~를 기다리다 · lee = 3인칭",
+   "note": "espero a + 사람 = ~를 기다리다 · lee = leer 3인칭(2번 leo 와 비교)",
    "tags": [
     "expr:pues",
     "form:presente_er"
    ],
    "new": [
-    "esperar"
+    "esperar",
+    "chico"
    ],
    "emotion": "shy",
    "tl_f": "Pues… espero a una chica que lee mucho.",
+   "ko_f": "그게… 책 많이 읽는 여자를 기다려.",
    "rd_f": "뿌에스… 에스뻬로 아 우나 치까 께 레에 무초."
   },
   {
@@ -144,15 +154,18 @@
    "speaker": "A",
    "tl": "Pues el chico hoy compra un libro.",
    "rd": "뿌에스 엘 치꼬 오이 꼼쁘라 운 리브로.",
-   "ko": "그럼 그 남자, 오늘은 책 산다.",
-   "note": "compra = comprar 3인칭(자기 얘기를 3인칭으로)",
+   "ko": "그럼 그 남자, 오늘은 책 한 권 산다.",
+   "note": "compra = comprar 3인칭(1번 compras 와 비교, 자기 얘기를 3인칭으로)",
    "tags": [
     "expr:pues",
     "form:presente_ar"
    ],
-   "new": [],
-   "emotion": "gentle",
+   "new": [
+    "libro"
+   ],
+   "emotion": "flustered",
    "tl_f": "Pues la chica hoy compra un libro.",
+   "ko_f": "그럼 그 여자, 오늘은 책 한 권 산다.",
    "rd_f": "뿌에스 라 치까 오이 꼼쁘라 운 리브로."
   }
  ],
