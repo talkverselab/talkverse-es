@@ -1,11 +1,15 @@
 # 심사 메모(App Review Notes) 초안 · 개인정보처리방침 추가 문안 — 2026-11-02
 
 > 기준: 한자 앱 `docs/store/review_notes.md`(talkverse-hanja) 를 스페인어유니버스에 맞춘 것. 공통 가이드 M6 `~/talkverse/TALKVERSE_ID_APP_GUIDE.md`.
-> **아직 정할 것**: 지금 앱에는 잠긴 기능이 없다(모든 기능 무료). 평생 이용권이 무엇을 여는지 정해야 심사를 낼 수 있다 — 아무것도 열지 않는 비소모성 상품은 App Store 지침 3.1.1 에 걸릴 수 있다. 정해지면 아래 [인앱 구입] 문장을 고친다.
+> **2026-11-09**: 출시는 Talkverse 통합 앱 하나(언어앱 개별 출시 없음). 상품은 6개로 바뀜(`docs/STORE_PRODUCTS.md`) — 아래 [인앱 구입] 문장은 옛 평생 이용권 기준이라 통합 앱 심사 메모를 쓸 때 6개 기준으로 다시 쓴다. 4.3 문단은 위 첫 블록.
 
 ## App Store Connect "심사 정보 → 메모"
 
 ```
+[Language-specific app — Guideline 4.3]
+This app is one of a family of language-specific apps by Universal Talking Lab (Talkverse). Each app is built from scratch for one target language for Korean speakers and is NOT a re-skin: the Spanish app has its own script & pronunciation module (27 letters incl. ñ, digraphs ch/ll/rr/qu/gu, Castilian sounds θ (ce/ci/z), x (j/ge/gi), tap r vs trilled rr and stress marks — 41 units with IPA, articulation and a Korean-vowel comparison), its own grammar tools (verb chips that turn any conjugated form in a dialogue line into infinitive · person · tense with a conjugation table for 30 core verbs; a grammar-stage path from article/gender agreement and ser/estar to the subjunctive; male/female learner versions of lines where Spanish agreement changes), [N] original conversation episodes with [M] recorded audio lines written for this language, and a vocabulary list measured from a Spanish conversation corpus (45 lemmas = 55% and 570 lemmas = 80% of dialogue). Content, curriculum and UI flows differ between apps; we keep them separate because learners search for and buy one language at a time.
+([N]·[M] = 출시 때 실측으로 채움 — docs/store/listing.md §3)
+
 [로그인] 로그인은 선택입니다. 모든 학습 기능은 로그인 없이 사용할 수 있고, 로그인은 구매 복원과 기기 간 이용권 공유에만 쓰입니다.
 - 로그인 화면: 오른쪽 위 프로필 → 계정 → 로그인. Apple로 로그인 + 이메일 로그인(심사·테스트용).
 - 데모 계정(이메일 로그인): review@talkverse.uk / 비밀번호: <Doppler keys/prd TALKVERSE_REVIEW_ACCOUNT 에서 복사해 여기 입력>
