@@ -9,6 +9,7 @@ import '../services/memorized_store.dart';
 import '../services/tts_service.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
+import '../core/embed_env.dart';
 
 /// 주제별 단어·표현 (chinese-universe 포팅).
 class VocabWord {
@@ -45,7 +46,7 @@ class VocabCatalog {
 
   Future<void> ensureLoaded(String asset) async {
     if (_byAsset.containsKey(asset)) return;
-    final raw = await rootBundle.loadString(asset);
+    final raw = await rootBundle.loadString(assetPath(asset));
     final data = json.decode(raw) as Map<String, dynamic>;
     _byAsset[asset] = [
       for (final t in (data['themes'] as List).whereType<Map>())

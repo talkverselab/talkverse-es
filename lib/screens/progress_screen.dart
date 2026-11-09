@@ -2,7 +2,7 @@ import 'package:drift/drift.dart' hide Column;
 import 'package:flutter/material.dart';
 
 import '../core/theme.dart';
-import '../main.dart';
+import '../embed.dart' show appDb;
 import '../widgets/spanish_decor.dart';
 import '../core/l10n.dart';
 

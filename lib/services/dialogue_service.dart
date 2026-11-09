@@ -4,6 +4,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'learner_prefs.dart';
+import '../core/embed_env.dart';
 
 /// 회화 로더 — 일본어앱 모델(`Dialogue`·`DialogueTurn`)로 읽어 새 리더에 넘긴다(2026-11-02, 공통 프롬프터 §4).
 ///
@@ -111,7 +112,7 @@ class DialogueService {
   static const islandEmoji = {'love': '💘'};
   static const levels = ['L1'];
   static const levelKo = {'L1': '이야기'};
-  static const _prefLast = 'dialogue_last';
+  static final _prefLast = pk('dialogue_last');
   static const _files = ['assets/data/dialogues/L1.json'];
 
   final Map<String, Dialogue> _byId = {};
@@ -132,7 +133,7 @@ class DialogueService {
     _lastOpened = (await SharedPreferences.getInstance()).getString(_prefLast);
     for (final path in _files) {
       try {
-        final j = json.decode(await rootBundle.loadString(path)) as Map<String, dynamic>;
+        final j = json.decode(await rootBundle.loadString(assetPath(path))) as Map<String, dynamic>;
         final level = j['level'] as String? ?? 'L1';
         final chars = (j['characters'] as Map?) ?? const {};
         final speakers = <String, String>{}, genders = <String, String>{};

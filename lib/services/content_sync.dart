@@ -4,8 +4,8 @@ import 'dart:io';
 
 import 'package:crypto/crypto.dart';
 import 'package:flutter/widgets.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import '../core/embed_env.dart';
 
 /// 그림(장면 컷·단어 그림) 기기 내려받기 + 버전 관리 — 사용자 지시 2026-11-04
 /// "앱 시작할 때 로딩하면서 다운로드 받고, 업데이트 번호가 다르면 갱신".
@@ -14,7 +14,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 ///   기기에 맞는 크기(폰 584·512, 태블릿 1168·512)의 파일 목록을 만들고, 그 목록의 `?v=` 해시로 **그림 버전**을 계산한다.
 /// - 저장된 버전과 다르면(처음 설치 포함) 로딩 화면(`SyncScreen`)에서 바뀐 파일만 내려받는다(같은 `?v=` 는 건너뜀).
 ///   「나중에」를 누르면 앱을 먼저 열고 뒤에서 계속 받는다 — 아직 없는 그림은 네트워크로 바로 보인다.
-/// - 파일은 앱 지원 폴더 `art/<키>` 에 두고, 색인 `art/index.json`(키 → v) 으로 관리한다.
+/// - 파일은 앱 지원 폴더 `es/art/<키>` 에 두고, 색인 `es/art/index.json`(키 → v) 으로 관리한다(2026-11-09 통합 앱 대비 언어 폴더).
 /// - 그림을 그리는 쪽은 `artProvider(url)` 로 — 기기에 있으면 파일, 없으면 네트워크.
 /// - 회화·단어 DB 버전은 번들 `assets/data/version.json` 의 `db` 번호(SeedLoader 가 비교).
 class SyncProgress {
@@ -31,8 +31,8 @@ class ContentSync {
 
   static const wordsManifestUrl = 'https://auth.talkverse.uk/art/es/manifest';
   static const sceneManifestUrl = 'https://auth.talkverse.uk/art/es/scene/manifest';
-  static const _prefVersion = 'art_version_v1';
-  static const _prefScene = 'art_scene_manifest_v1';
+  static final _prefVersion = pk('art_version_v1');
+  static final _prefScene = pk('art_scene_manifest_v1');
   static const _concurrency = 6;
 
   final ValueNotifier<SyncProgress> progress = ValueNotifier(const SyncProgress('idle', 0, 0, false));
@@ -50,7 +50,7 @@ class ContentSync {
   Future<bool> init({bool large = false}) async {
     _large = large;
     try {
-      _dir = Directory('${(await getApplicationSupportDirectory()).path}/art');
+      _dir = Directory('${await esDataDir()}/art'); // 이 언어 전용 기기 폴더 ApplicationSupport/es/
       if (!await _dir!.exists()) await _dir!.create(recursive: true);
       final f = File('${_dir!.path}/index.json');
       if (await f.exists()) _index.addAll((json.decode(await f.readAsString()) as Map).cast<String, String>());

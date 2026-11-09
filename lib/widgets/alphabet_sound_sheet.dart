@@ -8,6 +8,7 @@ import '../core/theme.dart';
 import '../services/alphabet_es.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
+import '../core/embed_env.dart';
 
 /// 글자 탭 → 발음 상세 시트(일본어앱 kana_sound_sheet 구조).
 /// 열리면 1초 뒤 자동 재생 · 다시 듣기 · IPA · 조음 위치 그림 · 모음 위치 · 예시 낱말 · 한국어와 비교.
@@ -244,7 +245,7 @@ class _ArticulationPicture extends StatelessWidget {
             child: AspectRatio(
               aspectRatio: 960 / 1200,
               child: Stack(fit: StackFit.expand, children: [
-                Image.asset('assets/images/ipa/places_of_articulation.png', fit: BoxFit.fill),
+                Image.asset(assetPath('assets/images/ipa/places_of_articulation.png'), fit: BoxFit.fill),
                 CustomPaint(painter: _DotsPainter(filled: pts, color: color)),
               ]),
             ),
@@ -272,7 +273,7 @@ class _VowelPicture extends StatelessWidget {
           child: AspectRatio(
             aspectRatio: 960 / 778,
             child: Stack(fit: StackFit.expand, children: [
-              Image.asset('assets/images/ipa/ipa_vowel_chart.png', fit: BoxFit.fill),
+              Image.asset(assetPath('assets/images/ipa/ipa_vowel_chart.png'), fit: BoxFit.fill),
               CustomPaint(
                 painter: _DotsPainter(
                   faint: [for (final e in _esVowel.entries) if (e.key != vowel) e.value],

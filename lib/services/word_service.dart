@@ -1,7 +1,7 @@
 import 'package:drift/drift.dart';
 
 import '../data/db/app_database.dart';
-import '../main.dart';
+import '../embed.dart' show appDb;
 
 /// 단어장 항목 — 빈도 단어표(`Words`) 한 행을 감싼다. 문장 레마 칩·단어 시트가 쓴다(2026-11-04).
 class WordEntry {

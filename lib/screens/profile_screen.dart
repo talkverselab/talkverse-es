@@ -8,6 +8,7 @@ import 'login_screen.dart';
 import '../core/theme.dart';
 import '../widgets/spanish_decor.dart';
 import '../core/l10n.dart';
+import '../core/embed_env.dart';
 import '../data/account.dart';
 import '../data/entitlement.dart';
 import '../data/purchase.dart';
@@ -72,6 +73,16 @@ class ProfileScreen extends StatelessWidget {
           const SizedBox(height: 18),
           _SectionTitle(tr('설정')),
           const SizedBox(height: 8),
+          if (Embed.onSwitchLanguage != null) ...[
+            _SettingsGroup(items: [
+              _SettingItem(
+                  icon: Icons.public,
+                  title: tr('다른 언어 배우기'),
+                  subtitle: tr('Talkverse 의 다른 언어 과정으로'),
+                  onTap: Embed.onSwitchLanguage),
+            ]),
+            const SizedBox(height: 8),
+          ],
           _SettingsGroup(items: [
             _SettingItem(
                 icon: Icons.language,

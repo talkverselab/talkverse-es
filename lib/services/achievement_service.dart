@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'dialogue_service.dart';
+import '../core/embed_env.dart';
 
 /// 성과 기록·집계 — 일본어앱 achievement_service.dart 를 옮긴 것(2026-11-02, 공통 프롬프터 §3).
 ///
@@ -13,7 +14,7 @@ import 'dialogue_service.dart';
 class AchievementService {
   AchievementService._();
   static final AchievementService instance = AchievementService._();
-  static const _key = 'achievements_v1';
+  static final _key = pk('achievements_v1');
 
   final Map<String, String> _episodes = {}; // 편 id → 완주 날짜(yyyy-mm-dd, 처음)
   final Map<String, List<int>> _cards = {}; // 편 id → [맞음, 전체] (마지막 세션)

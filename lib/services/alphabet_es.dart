@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
+import '../core/embed_env.dart';
 
 /// 알파벳과 발음 — `assets/data/grammar/alphabet_es.json` (글자 27 + 겹글자 + 스페인 소리 + 강세).
 /// 콘텐츠(설명·비교·뜻)는 번역 대상이 아니다(CLAUDE.md §5) — 화면 문구만 tr().
@@ -74,7 +75,7 @@ class AlphabetData {
 
   static Future<List<AlphabetUnit>> load() async {
     if (_cache != null) return _cache!;
-    final raw = await rootBundle.loadString('assets/data/grammar/alphabet_es.json');
+    final raw = await rootBundle.loadString(assetPath('assets/data/grammar/alphabet_es.json'));
     final j = jsonDecode(raw) as Map<String, dynamic>;
     _cache = (j['units'] as List).map((e) => AlphabetUnit.fromJson(e as Map<String, dynamic>)).toList();
     return _cache!;

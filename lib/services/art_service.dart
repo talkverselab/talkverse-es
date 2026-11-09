@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'content_sync.dart';
 import 'learner_prefs.dart';
+import '../core/embed_env.dart';
 
 /// 단어 그림(talkverse.uk 공용 그림 저장소) — 2026-11-03.
 ///
@@ -25,8 +26,8 @@ class ArtService {
   static const sceneManifestUrl = 'https://auth.talkverse.uk/art/es/scene/manifest';
   final Map<String, Map<int, String>> _scene = {}; // 편id → {컷번호 → URL(584폭)}
   final Map<String, Future<void>> _sceneLoading = {};
-  static const _prefKey = 'art_manifest_es_v1';
-  static const _prefAt = 'art_manifest_es_at';
+  static final _prefKey = pk('art_manifest_es_v1');
+  static final _prefAt = pk('art_manifest_es_at');
   static const _ttl = Duration(hours: 24);
 
   String _base = '';

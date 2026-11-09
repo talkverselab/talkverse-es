@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../services/update_service.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
+import '../core/embed_env.dart';
 
 /// 앱 업데이트 — GitHub 릴리스(master 푸시마다 갱신)에서 최신 빌드를 받아 설치.
 /// 앱마다 테마가 달라 색은 Theme.of(context)에서 가져온다.
@@ -335,6 +336,8 @@ class UpdateEntryTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // 통합 앱 안에서는 이 언어 앱 APK 로 덮어쓰면 안 되므로 숨긴다.
+    if (Embed.embedded) return const SizedBox.shrink();
     final cs = Theme.of(context).colorScheme;
     return Container(
       margin: const EdgeInsets.only(bottom: 14),

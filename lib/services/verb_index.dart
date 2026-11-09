@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
+import '../core/embed_env.dart';
 
 /// 핵심 동사 30개(`assets/data/grammar/verbs_core.json`)의 활용형 역색인 — 시안 ES-01 「동사 칩」(2026-11-03).
 /// 회화 문장을 낱말로 나눠 활용형(`soy`·`tengo`·`hablas`)을 찾고 원형·인칭·시제를 돌려준다. 새 콘텐츠는 만들지 않는다.
@@ -33,7 +34,7 @@ class VerbIndex {
 
   Future<void> _load() async {
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/grammar/verbs_core.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/grammar/verbs_core.json'))) as Map<String, dynamic>;
       persons = (j['persons'] as List?)?.cast<String>() ?? persons;
       for (final v in (j['verbs'] as List? ?? const [])) {
         final m = v as Map<String, dynamic>;
