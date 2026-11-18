@@ -37,9 +37,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Son las ocho y media y Javi sin aparecer. Menos mal que le dije que quedábamos a las ocho.",
-   "rd": "손 라스 오초 이 메디아 이 하비 신 아빠레쎄르. 메노스 말 께 레 디헤 께 께다바모스 아 라스 오초.",
-   "ko": "여덟 시 반인데 하비는 코빼기도 안 보여. 여덟 시에 보자고 해 두길 잘했지.",
+   "tl": "Vale, {name}, mira al bar de enfrente. ¿Ves a esa chica? ¡Qué fuerte!",
+   "rd": "발레, {name}, 미라 알 바르 데 엔프렌떼. 베스 아 에사 치까? 께 푸에르떼!",
+   "ko": "발레, {name}, 건너편 바 좀 봐. 저 여자애 보여? 대박!",
    "note": "quedar = (친구와) 만나기로 하다",
    "tags": [
     "expr:menos mal",
@@ -49,23 +49,15 @@
     "quedar",
     "aparecer"
    ],
-   "segs": [
-    [
-     "annoyed",
-     "Son las ocho y media y Javi sin aparecer."
-    ],
-    [
-     "amused",
-     "Menos mal que le dije que quedábamos a las ocho."
-    ]
-   ]
+   "emotion": "surprised",
+   "note_stale": true
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "¿Le mentiste? ¿Y si se entera?",
-   "rd": "레 멘띠스떼? 이 시 세 엔떼라?",
-   "ko": "거짓말한 거야? 걔가 알면 어쩌려고?",
+   "tl": "¿Quién es? No la veo bien desde aquí.",
+   "rd": "끼엔 에스? 노 라 베오 비엔 데스데 아끼.",
+   "ko": "누구야? 여기서는 잘 안 보여.",
    "note": "enterarse = 알게 되다",
    "tags": [
     "form:si"
@@ -74,14 +66,15 @@
     "mentir",
     "enterarse"
    ],
-   "emotion": "surprised"
+   "emotion": "neutral",
+   "note_stale": true
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Tío, lo hago desde hace tres años. Si le digo la hora real, llega a medianoche.",
-   "rd": "띠오, 로 아고 데스데 아쎄 뜨레스 아뇨스. 시 레 디고 라 오라 레알, 예가 아 메디아노체.",
-   "ko": "야, 나 그거 삼 년째 하고 있어. 진짜 시간 말하면 자정에 온다니까.",
+   "tl": "Es una amiga de Javi. En plan, ¡le gusta mucho!",
+   "rd": "에스 우나 아미가 데 하비. 엔 쁠란, 레 구스따 무초!",
+   "ko": "자비 친구야. 엔 플란, 걔가 엄청 좋아해!",
    "note": "desde hace = ~전부터 쭉",
    "tags": [
     "expr:tío"
@@ -89,25 +82,15 @@
    "new": [
     "medianoche"
    ],
-   "tl_f": "Tía, lo hago desde hace tres años. Si le digo la hora real, llega a medianoche.",
-   "rd_f": "띠아, 로 아고 데스데 아쎄 뜨레스 아뇨스. 시 레 디고 라 오라 레알, 예가 아 메디아노체.",
-   "segs": [
-    [
-     "teasing",
-     "Tío, lo hago desde hace tres años."
-    ],
-    [
-     "amused",
-     "Si le digo la hora real, llega a medianoche."
-    ]
-   ]
+   "emotion": "teasing",
+   "note_stale": true
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Pues a mí me parece un poco cruel. Yo en tu lugar se lo diría.",
-   "rd": "뿌에스 아 미 메 빠레쎄 운 뽀꼬 끄루엘. 요 엔 뚜 루가르 세 로 디리아.",
-   "ko": "난 좀 너무한 것 같은데. 나라면 말해 줄 거야.",
+   "tl": "¿En serio? Vale, ¡qué fuerte!",
+   "rd": "엔 세리오? 발레, 께 푸에르떼!",
+   "ko": "진짜? 발레, 대박!",
    "note": "en tu lugar = 네 입장이라면 + 조건법",
    "tags": [
     "form:condicional"
@@ -116,14 +99,15 @@
     "lugar",
     "cruel"
    ],
-   "emotion": "worried"
+   "emotion": "surprised",
+   "note_stale": true
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ya verás cuando llegue. Traerá churros y una excusa nueva.",
-   "rd": "야 베라스 꾸안도 예게. 뜨라에라 추로스 이 우나 엑스꾸사 누에바.",
-   "ko": "오면 봐. 추로스랑 새 핑계를 들고 올걸.",
+   "tl": "Sí. Cuando llegue, le digo que la mire.",
+   "rd": "시. 꾸안도 예게, 레 디고 께 라 미레.",
+   "ko": "응. 도착하면 걔 보라고 말할 거야.",
    "note": "cuando + 접속법 = 앞으로 ~하면",
    "tags": [
     "expr:ya verás",
@@ -132,14 +116,15 @@
    "new": [
     "excusa"
    ],
-   "emotion": "teasing"
+   "emotion": "cheerful",
+   "note_stale": true
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Por cierto, ¿quién es ese que lleva media hora en el bar de enfrente?",
-   "rd": "뽀르 씨에르또, 끼엔 에스 에세 께 예바 메디아 오라 엔 엘 바르 데 엔프렌떼?",
-   "ko": "그나저나, 건너편 바에 삼십 분째 앉아 있는 저 사람 누구야?",
+   "tl": "¿A qué hora quedamos hoy?",
+   "rd": "아 께 오라 께다모스 오이?",
+   "ko": "우리 오늘 몇 시에 만나기로 했지?",
    "note": "llevar + 시간 = ~째 그러고 있다",
    "tags": [
     "expr:por cierto"
@@ -147,37 +132,30 @@
    "new": [
     "enfrente"
    ],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "note_stale": true
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "¿Dónde? Espera… No puede ser. ¡Ese es Javi!",
-   "rd": "돈데? 에스뻬라… 노 뿌에데 세르. 에세 에스 하비!",
-   "ko": "어디? 잠깐만… 말도 안 돼. 저거 하비잖아!",
+   "tl": "Nosotros quedamos a las ocho. ¡Él queda a las siete!",
+   "rd": "노소뜨로스 께다모스 아 라스 오초. 엘 께다 아 라스 시에떼!",
+   "ko": "우리는 여덟 시에 만나기로 했어. 걔는 일곱 시에!",
    "note": "no puede ser = 말도 안 돼",
    "tags": [
     "expr:no puede ser",
     "expr:espera"
    ],
    "new": [],
-   "segs": [
-    [
-     "neutral",
-     "¿Dónde? Espera…"
-    ],
-    [
-     "shout",
-     "No puede ser. ¡Ese es Javi!"
-    ]
-   ]
+   "emotion": "amused",
+   "note_stale": true
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Vaya, me habéis pillado. ¿Ya son las nueve?",
-   "rd": "바야, 메 아베이스 삐야도. 야 손 라스 누에베?",
-   "ko": "이런, 들켰네. 벌써 아홉 시야?",
+   "tl": "¡Hola, tíos! Llego puntual por fin. ¡Venga!",
+   "rd": "올라, 띠오스! 예고 뿐뚜알 뽀르 핀. 벤가!",
+   "ko": "안녕, 티오스! 드디어 제시간에 왔어. 벤가!",
    "note": "pillar = 잡다·들키다(구어)",
    "tags": [
     "expr:vaya"
@@ -185,82 +163,71 @@
    "new": [
     "pillar"
    ],
-   "emotion": "amused"
+   "emotion": "cheerful",
+   "tl_f": "¡Hola, tías! Llego puntual por fin. ¡Venga!",
+   "note_stale": true,
+   "rd_f": "올라, 띠아스! 예고 뿐뚜알 뽀르 핀. 벤가!"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "¿Las nueve? ¡Pero si yo te dije a las ocho!",
-   "rd": "라스 누에베? 뻬로 시 요 떼 디헤 아 라스 오초!",
-   "ko": "아홉 시? 나 여덟 시라고 했잖아!",
+   "tl": "¡Qué fuerte! ¿Has visto a la chica de enfrente?",
+   "rd": "께 푸에르떼! 아스 비스또 아 라 치까 데 엔프렌떼?",
+   "ko": "대박! 건너편 여자애 봤어?",
    "note": "pero si… = 아니 ~잖아(반박)",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "excited",
+   "note_stale": true
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Ya, y tú siempre dices una hora menos. Lo sé desde hace tres años.",
-   "rd": "야, 이 뚜 시엠쁘레 디쎄스 우나 오라 메노스. 로 세 데스데 아쎄 뜨레스 아뇨스.",
-   "ko": "응, 넌 항상 한 시간 빼고 말하잖아. 나 삼 년 전부터 알았어.",
+   "tl": "La he visto. Lucía, ¿me dices una hora antes desde hace tres años?",
+   "rd": "라 에 비스또. 루씨아, 메 디쎄스 우나 오라 안떼스 데스데 아쎄 뜨레스 아뇨스?",
+   "ko": "봤어. 루시아, 나 삼 년째 한 시간 일찍 말하고 있었어?",
    "note": "lo sé = 알고 있어",
    "tags": [
     "expr:ya"
    ],
    "new": [],
-   "segs": [
-    [
-     "teasing",
-     "Ya, y tú siempre dices una hora menos."
-    ],
-    [
-     "gentle",
-     "Lo sé desde hace tres años."
-    ]
-   ]
+   "emotion": "surprised",
+   "note_stale": true
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "¿Cómo que lo sabes? ¿Y entonces por qué llegas siempre tarde?",
-   "rd": "꼬모 께 로 사베스? 이 엔똔쎄스 뽀르 께 예가스 시엠쁘레 따르데?",
-   "ko": "안다니 그게 무슨 소리야? 그럼 왜 맨날 늦는 건데?",
+   "tl": "Porque llegas tarde siempre, tío. ¡Yo diría que está bien!",
+   "rd": "뽀르께 예가스 따르데 시엠쁘레, 띠오. 요 디리아 께 에스따 비엔!",
+   "ko": "항상 늦으니까, 티오. 난 괜찮다고 할 거야!",
    "note": "¿Cómo que…? = ~라니?",
    "tags": [
     "expr:cómo que"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "teasing",
+   "note_stale": true
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Llego a las ocho. Pero me gusta verte esperándome.",
-   "rd": "예고 아 라스 오초. 뻬로 메 구스따 베르떼 에스뻬란도메.",
-   "ko": "여덟 시에 와. 근데 네가 나 기다리는 거 보는 게 좋아서.",
+   "tl": "No, tía, ¡no está bien! Me engañas siempre.",
+   "rd": "노, 띠아, 노 에스따 비엔! 메 엔가냐스 시엠쁘레.",
+   "ko": "아니, 티아, 안 괜찮아! 매번 속이고 있잖아.",
    "note": "esperándome = 나를 기다리면서",
    "tags": [
     "form:gerundio"
    ],
    "new": [],
-   "segs": [
-    [
-     "neutral",
-     "Llego a las ocho."
-    ],
-    [
-     "gentle",
-     "Pero me gusta verte esperándome."
-    ]
-   ]
+   "emotion": "annoyed",
+   "note_stale": true
   },
   {
    "num": 13,
    "speaker": "A",
-   "tl": "Madre mía. Creo que sobro. ¿Os dejo solos?",
-   "rd": "마드레 미아. 끄레오 께 소브로. 오스 데호 솔로스?",
-   "ko": "세상에. 나 눈치 없이 낀 것 같은데. 둘이 있을래?",
+   "tl": "En plan, ¿tres años así? ¡Qué fuerte!",
+   "rd": "엔 쁠란, 뜨레스 아뇨스 아시? 께 푸에르떼!",
+   "ko": "엔 플란, 삼 년이나? 대박!",
    "note": "sobrar = 남아돌다, 「내가 낄 자리가 아니다」",
    "tags": [
     "expr:madre mía"
@@ -268,14 +235,15 @@
    "new": [
     "sobrar"
    ],
-   "emotion": "amused"
+   "emotion": "surprised",
+   "note_stale": true
   },
   {
    "num": 14,
    "speaker": "B",
-   "tl": "…No digas tonterías. ¿Has traído churros, al menos?",
-   "rd": "…노 디가스 똔떼리아스. 아스 뜨라이도 추로스, 알 메노스?",
-   "ko": "…헛소리하지 마. 추로스는 가져왔어?",
+   "tl": "Vale. Cuando llegue a tiempo, me callo. ¡Ja ja!",
+   "rd": "발레. 꾸안도 예게 아 띠엠뽀, 메 까요. 하 하!",
+   "ko": "발레. 제시간에 오면 입 다물게. 하하!",
    "note": "no digas = 부정 명령(접속법)",
    "tags": [
     "form:imperativo"
@@ -283,23 +251,15 @@
    "new": [
     "tontería"
    ],
-   "segs": [
-    [
-     "flustered",
-     "…No digas tonterías."
-    ],
-    [
-     "tsukkomi",
-     "¿Has traído churros, al menos?"
-    ]
-   ]
+   "emotion": "amused",
+   "note_stale": true
   },
   {
    "num": 15,
    "speaker": "C",
-   "tl": "Claro. Pero están fríos. Llevo aquí desde las ocho.",
-   "rd": "끌라로. 뻬로 에스딴 프리오스. 예보 아끼 데스데 라스 오초.",
-   "ko": "당연하지. 근데 식었어. 여덟 시부터 여기 있었거든.",
+   "tl": "Yo diría que quedamos a la hora de verdad. ¡Venga!",
+   "rd": "요 디리아 께 께다모스 아 라 오라 데 베르다드. 벤가!",
+   "ko": "난 진짜 시간에 만나자고 할 거야. 벤가!",
    "note": "llevo aquí = 여기 쭉 있다",
    "tags": [
     "expr:claro"
@@ -307,30 +267,97 @@
    "new": [
     "frío"
    ],
-   "segs": [
-    [
-     "cheerful",
-     "Claro."
-    ],
-    [
-     "gentle",
-     "Pero están fríos. Llevo aquí desde las ocho."
-    ]
-   ]
+   "emotion": "tsukkomi",
+   "note_stale": true
   },
   {
    "num": 16,
    "speaker": "B",
-   "tl": "Anda, dámelos. Y la próxima vez, espera conmigo.",
-   "rd": "안다, 다멜로스. 이 라 쁘록시마 베쓰, 에스뻬라 꼰미고.",
-   "ko": "됐고, 줘. 그리고 다음엔 나랑 같이 기다려.",
+   "tl": "¡Venga, tíos! No pasa nada. ¿Entramos al bar?",
+   "rd": "벤가, 띠오스! 노 빠사 나다. 엔뜨라모스 알 바르?",
+   "ko": "벤가, 티오스! 별일 아니야. 바에 들어갈까?",
    "note": "anda = 「에이, 됐고」",
    "tags": [
     "expr:anda"
    ],
    "new": [],
-   "emotion": "shy"
+   "emotion": "gentle",
+   "tl_f": "¡Venga, tías! No pasa nada. ¿Entramos al bar?",
+   "note_stale": true,
+   "rd_f": "벤가, 띠아스! 노 빠사 나다. 엔뜨라모스 알 바르?"
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Son las ocho y media y Javi sin aparecer. Menos mal que le dije que quedábamos a las ocho.",
+   "ko": "여덟 시 반인데 하비는 코빼기도 안 보여. 여덟 시에 보자고 해 두길 잘했지."
+  },
+  {
+   "tl": "¿Le mentiste? ¿Y si se entera?",
+   "ko": "거짓말한 거야? 걔가 알면 어쩌려고?"
+  },
+  {
+   "tl": "Tío, lo hago desde hace tres años. Si le digo la hora real, llega a medianoche.",
+   "ko": "야, 나 그거 삼 년째 하고 있어. 진짜 시간 말하면 자정에 온다니까."
+  },
+  {
+   "tl": "Pues a mí me parece un poco cruel. Yo en tu lugar se lo diría.",
+   "ko": "난 좀 너무한 것 같은데. 나라면 말해 줄 거야."
+  },
+  {
+   "tl": "Ya verás cuando llegue. Traerá churros y una excusa nueva.",
+   "ko": "오면 봐. 추로스랑 새 핑계를 들고 올걸."
+  },
+  {
+   "tl": "Por cierto, ¿quién es ese que lleva media hora en el bar de enfrente?",
+   "ko": "그나저나, 건너편 바에 삼십 분째 앉아 있는 저 사람 누구야?"
+  },
+  {
+   "tl": "¿Dónde? Espera… No puede ser. ¡Ese es Javi!",
+   "ko": "어디? 잠깐만… 말도 안 돼. 저거 하비잖아!"
+  },
+  {
+   "tl": "Vaya, me habéis pillado. ¿Ya son las nueve?",
+   "ko": "이런, 들켰네. 벌써 아홉 시야?"
+  },
+  {
+   "tl": "¿Las nueve? ¡Pero si yo te dije a las ocho!",
+   "ko": "아홉 시? 나 여덟 시라고 했잖아!"
+  },
+  {
+   "tl": "Ya, y tú siempre dices una hora menos. Lo sé desde hace tres años.",
+   "ko": "응, 넌 항상 한 시간 빼고 말하잖아. 나 삼 년 전부터 알았어."
+  },
+  {
+   "tl": "¿Cómo que lo sabes? ¿Y entonces por qué llegas siempre tarde?",
+   "ko": "안다니 그게 무슨 소리야? 그럼 왜 맨날 늦는 건데?"
+  },
+  {
+   "tl": "Llego a las ocho. Pero me gusta verte esperándome.",
+   "ko": "여덟 시에 와. 근데 네가 나 기다리는 거 보는 게 좋아서."
+  },
+  {
+   "tl": "Madre mía. Creo que sobro. ¿Os dejo solos?",
+   "ko": "세상에. 나 눈치 없이 낀 것 같은데. 둘이 있을래?"
+  },
+  {
+   "tl": "…No digas tonterías. ¿Has traído churros, al menos?",
+   "ko": "…헛소리하지 마. 추로스는 가져왔어?"
+  },
+  {
+   "tl": "Claro. Pero están fríos. Llevo aquí desde las ocho.",
+   "ko": "당연하지. 근데 식었어. 여덟 시부터 여기 있었거든."
+  },
+  {
+   "tl": "Anda, dámelos. Y la próxima vez, espera conmigo.",
+   "ko": "됐고, 줘. 그리고 다음엔 나랑 같이 기다려."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r3_friends_b1_rewrite.md",
+  "model": "빠른",
+  "room_log": "data/review/grok/rooms_20261118.txt",
+  "how": "뼈대만 첨부(대사 비움), 형식만 손봄"
+ }
 }

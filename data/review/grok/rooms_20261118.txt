@@ -1,0 +1,4 @@
+r1_love_a1_rewrite.md	https://grok.com/c/18a83588-9875-4d1e-8d42-0f0f0e695ad4?rid=4a55069a-ceb4-46c7-a9ba-9e9b1a3aa88c
+r2_life_b1_rewrite.md	https://grok.com/c/ea52797b-b813-4f1b-8e4f-700c8ac1616b?rid=b6c1ca95-59a8-4bce-bd96-47a9e381db8d
+r3_friends_b1_rewrite.md	https://grok.com/c/60c2a325-6fd0-422b-aee9-dc7b1504e342?rid=3927f2b1-08e7-45ef-80f5-6cfb3dba71d7
+r4_work_b1_rewrite.md	https://grok.com/c/627e4d85-b696-4c17-bd3e-307029170a37?rid=0e74584e-251c-43c5-ae46-d8b60628b242

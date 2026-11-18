@@ -32,22 +32,23 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Buenos días, {name}. ¿Tendrías un momento antes de la reunión?",
-   "rd": "부에노스 디아스, {name}. 뗀드리아스 운 모멘또 안떼스 데 라 레우니온?",
-   "ko": "좋은 아침이에요, {name} 씨. 회의 전에 잠깐 시간 괜찮아요?",
+   "tl": "{name}, ¿puede pasar un momento, por favor?",
+   "rd": "{name}, 뿌에데 빠사르 운 모멘또, 뽀르 파보르?",
+   "ko": "{name} 씨, 잠깐 들어오실래요?",
    "note": "¿Tendrías…? = 조건법으로 부드럽게 묻기",
    "tags": [
     "form:condicional"
    ],
    "new": [],
-   "emotion": "polite"
+   "emotion": "polite",
+   "note_stale": true
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Por supuesto. Si es por el informe, lo habría enviado ayer, pero me faltaban datos.",
-   "rd": "뽀르 수뿌에스또. 시 에스 뽀르 엘 인포르메, 로 아브리아 엔비아도 아예르, 뻬로 메 팔따반 다또스.",
-   "ko": "물론이죠. 보고서 때문이시면, 어제 보내려 했는데 자료가 모자랐습니다.",
+   "tl": "Vale. ¿Qué ocurre, Directora?",
+   "rd": "발레. 께 오꾸레, 디레끄또라?",
+   "ko": "네. 무슨 일이에요, 이사님?",
    "note": "habría enviado = 보냈을 텐데(변명의 정석)",
    "tags": [
     "form:condicional_perfecto"
@@ -55,27 +56,29 @@
    "new": [
     "informe"
    ],
-   "emotion": "stiff"
+   "emotion": "neutral",
+   "note_stale": true
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "No, no es por el informe. Es por el correo que mandaste anoche a las once.",
-   "rd": "노, 노 에스 뽀르 엘 인포르메. 에스 뽀르 엘 꼬레오 께 만다스떼 아노체 아 라스 온쎄.",
-   "ko": "아뇨, 보고서 때문이 아니에요. 어젯밤 열한 시에 보낸 메일 때문이에요.",
+   "tl": "El correo de anoche se envió a toda la empresa.",
+   "rd": "엘 꼬레오 데 아노체 세 엔비오 아 또다 라 엠쁘레사.",
+   "ko": "어젯밤 메일이 회사 전체에 갔어요.",
    "note": "correo = 메일",
    "tags": [],
    "new": [
     "correo"
    ],
-   "emotion": "neutral"
+   "emotion": "stiff",
+   "note_stale": true
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "¿El correo? Se lo mandé solo a Lucía, para que me echara una mano con la presentación.",
-   "rd": "엘 꼬레오? 세 로 만데 솔로 아 루씨아, 빠라 께 메 에차라 우나 마노 꼰 라 쁘레센따씨온.",
-   "ko": "메일요? 그건 루시아한테만 보낸 건데요, 발표 좀 도와 달라고요.",
+   "tl": "¡Ay, no! Lo siento. Era para un compañero.",
+   "rd": "아이, 노! 로 시엔또. 에라 빠라 운 꼼빠녜로.",
+   "ko": "아, 안 돼! 죄송해요. 동료한테만 보낼 거였는데.",
    "note": "para que + 접속법 과거 = ~하도록",
    "tags": [
     "form:subjuntivo_imperfecto"
@@ -83,23 +86,15 @@
    "new": [
     "echar una mano"
    ],
-   "segs": [
-    [
-     "surprised",
-     "¿El correo?"
-    ],
-    [
-     "flustered",
-     "Se lo mandé solo a Lucía, para que me echara una mano con la presentación."
-    ]
-   ]
+   "emotion": "flustered",
+   "note_stale": true
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ya. Digamos que le diste a «responder a todos». Somos cuatrocientos.",
-   "rd": "야. 디가모스 께 레 디스떼 아 «레스뽄데르 아 또도스». 소모스 꾸아뜨로씨엔또스.",
-   "ko": "그렇군요. 말하자면 「전체 답장」을 누른 거죠. 우리 직원이 사백 명이에요.",
+   "tl": "¿Por qué lo mandó así?",
+   "rd": "뽀르 께 로 만도 아시?",
+   "ko": "왜 그렇게 보내셨어요?",
    "note": "digamos que = 말하자면(완곡)",
    "tags": [
     "expr:ya"
@@ -107,45 +102,29 @@
    "new": [
     "responder"
    ],
-   "segs": [
-    [
-     "neutral",
-     "Ya. Digamos que le diste a responder a todos."
-    ],
-    [
-     "amused",
-     "Somos cuatrocientos."
-    ]
-   ]
+   "emotion": "neutral",
+   "note_stale": true
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Madre mía. ¿También la frase sobre las reuniones que podrían haber sido un correo?",
-   "rd": "마드레 미아. 땀비엔 라 프라세 소브레 라스 레우니오네스 께 뽀드리안 아베르 시도 운 꼬레오?",
-   "ko": "세상에. 메일로 끝날 회의들이라고 쓴 그 문장도요?",
+   "tl": "Lo mandé para que me echara una mano.",
+   "rd": "로 만데 빠라 께 메 에차라 우나 마노.",
+   "ko": "손 좀 빌려달라고 보내려고 한 거예요.",
    "note": "podrían haber sido = ~일 수도 있었다",
    "tags": [
     "expr:madre mía"
    ],
    "new": [],
-   "segs": [
-    [
-     "shout",
-     "Madre mía."
-    ],
-    [
-     "worried",
-     "¿También la frase sobre las reuniones que podrían haber sido un correo?"
-    ]
-   ]
+   "emotion": "worried",
+   "note_stale": true
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "También. Y la parte en la que me comparas con una impresora que falla cuando más hace falta.",
-   "rd": "땀비엔. 이 라 빠르떼 엔 라 께 메 꼼빠라스 꼰 우나 임쁘레소라 께 파야 꾸안도 마스 아쎄 팔따.",
-   "ko": "그것도요. 제일 필요할 때 고장 나는 프린터에 저를 비유한 부분도요.",
+   "tl": "Yo le habría echado una mano sin problema.",
+   "rd": "요 레 아브리아 에차도 우나 마노 신 쁘로블레마.",
+   "ko": "난 문제없이 도와줬을 텐데요.",
    "note": "hacer falta = 필요하다",
    "tags": [
     "form:relativo"
@@ -154,23 +133,15 @@
     "impresora",
     "comparar"
    ],
-   "segs": [
-    [
-     "neutral",
-     "También."
-    ],
-    [
-     "teasing",
-     "Y la parte en la que me comparas con una impresora que falla cuando más hace falta."
-    ]
-   ]
+   "emotion": "gentle",
+   "note_stale": true
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "No sé cómo disculparme. Si me permite explicárselo, no era mi intención que…",
-   "rd": "노 세 꼬모 디스꿀빠르메. 시 메 뻬르미떼 엑스쁠리까르셀로, 노 에라 미 인뗀씨온 께…",
-   "ko": "뭐라고 사과드려야 할지 모르겠습니다. 설명드려도 된다면, 제 뜻은…",
+   "tl": "Ya. Habría enviado solo a él.",
+   "rd": "야. 아브리아 엔비아도 솔로 아 엘.",
+   "ko": "그래요. 그에게만 보냈을 거예요.",
    "note": "si me permite = 괜찮으시다면(격식)",
    "tags": [
     "form:usted"
@@ -178,36 +149,29 @@
    "new": [
     "disculparse"
    ],
-   "segs": [
-    [
-     "stiff",
-     "No sé cómo disculparme."
-    ],
-    [
-     "worried",
-     "Si me permite explicárselo, no era mi intención que…"
-    ]
-   ]
+   "emotion": "flustered",
+   "note_stale": true
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Déjame terminar. Esta mañana el director general lo ha leído en voz alta.",
-   "rd": "데하메 떼르미나르. 에스따 마냐나 엘 디레끄또르 헤네랄 로 아 레이도 엔 보쓰 알따.",
-   "ko": "끝까지 들어요. 오늘 아침에 대표님이 그걸 소리 내어 읽으셨어요.",
+   "tl": "Pero ahora todo el mundo lo ha visto.",
+   "rd": "뻬로 아오라 또도 엘 문도 로 아 비스또.",
+   "ko": "근데 이제 모두가 봤어요.",
    "note": "en voz alta = 소리 내어",
    "tags": [
     "form:perfecto"
    ],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "worried",
+   "note_stale": true
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Entonces supongo que debería ir recogiendo mis cosas.",
-   "rd": "엔똔쎄스 수뽄고 께 데베리아 이르 레꼬히엔도 미스 꼬사스.",
-   "ko": "그럼 짐을 싸기 시작해야겠네요.",
+   "tl": "¡Qué fuerte! No me lo esperaba.",
+   "rd": "께 푸에르떼! 노 메 로 에스뻬라바.",
+   "ko": "진짜 대박! 예상 못 했어요.",
    "note": "ir + 현재분사 = 슬슬 ~하다",
    "tags": [
     "form:perifrasis"
@@ -215,14 +179,15 @@
    "new": [
     "recoger"
    ],
-   "emotion": "sad"
+   "emotion": "surprised",
+   "note_stale": true
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Al contrario. Ha cancelado las reuniones de los viernes y quiere que dirijas un comité nuevo.",
-   "rd": "알 꼰뜨라리오. 아 깐쎌라도 라스 레우니오네스 데 로스 비에르네스 이 끼에레 께 디리하스 운 꼬미떼 누에보.",
-   "ko": "오히려 반대예요. 금요일 회의를 다 없애고, {name} 씨가 새 위원회를 맡으면 좋겠대요.",
+   "tl": "Y no para. Más y más respuestas. Es un caos.",
+   "rd": "이 노 빠라. 마스 이 마스 레스뿌에스따스. 에스 운 까오스.",
+   "ko": "멈추질 않아요. 답장이 점점 더 많아져요. 완전 난리예요.",
    "note": "querer que + 접속법",
    "tags": [
     "expr:al contrario",
@@ -231,92 +196,140 @@
    "new": [
     "comité"
    ],
-   "segs": [
-    [
-     "amused",
-     "Al contrario."
-    ],
-    [
-     "neutral",
-     "Ha cancelado las reuniones de los viernes y quiere que dirijas un comité nuevo."
-    ]
-   ]
+   "emotion": "annoyed",
+   "note_stale": true
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "¿Cómo dice? ¿Un comité? ¿Para qué, si puede saberse?",
-   "rd": "꼬모 디쎄? 운 꼬미떼? 빠라 께, 시 뿌에데 사베르세?",
-   "ko": "네? 위원회요? 여쭤봐도 된다면, 뭘 위한 거죠?",
+   "tl": "¡Ja ja! ¿En serio? Esto es una locura.",
+   "rd": "하 하! 엔 세리오? 에스또 에스 우나 로꾸라.",
+   "ko": "하하! 진짜요? 이거 완전 미친 거 같아요.",
    "note": "si puede saberse = 실례지만(살짝 비꼼)",
    "tags": [],
    "new": [],
    "segs": [
     [
-     "surprised",
-     "¿Cómo dice? ¿Un comité?"
+     "amused",
+     "¡Ja ja!"
     ],
     [
-     "stiff",
-     "¿Para qué, si puede saberse?"
+     "flustered",
+     "¿En serio? Esto es una locura."
     ]
-   ]
+   ],
+   "note_stale": true
   },
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Para reducir el número de reuniones. Se reunirá todos los lunes a las ocho.",
-   "rd": "빠라 레두씨르 엘 누메로 데 레우니오네스. 세 레우니라 또도스 로스 루네스 아 라스 오초.",
-   "ko": "회의 수를 줄이기 위해서요. 매주 월요일 여덟 시에 모인대요.",
+   "tl": "Hasta el jefe ha preguntado por ello.",
+   "rd": "아스따 엘 헤페 아 쁘레군따도 뽀르 에요.",
+   "ko": "상사까지 물어봤어요.",
    "note": "reducir = 줄이다",
    "tags": [],
    "new": [
     "reducir"
    ],
-   "segs": [
-    [
-     "neutral",
-     "Para reducir el número de reuniones."
-    ],
-    [
-     "amused",
-     "Se reunirá todos los lunes a las ocho."
-    ]
-   ]
+   "emotion": "surprised",
+   "note_stale": true
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "…¿Y si mando otro correo?",
-   "rd": "…이 시 만도 오뜨로 꼬레오?",
-   "ko": "…메일 한 통 더 보내면 어떨까요?",
+   "tl": "¡Qué nervios! Estoy hecho polvo.",
+   "rd": "께 네르비오스! 에스또이 에초 뽈보.",
+   "ko": "헐! 완전 망했어요.",
    "note": "¿Y si…? = ~하면 어떨까?",
    "tags": [],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "tl_f": "¡Qué nervios! Estoy hecha polvo.",
+   "note_stale": true,
+   "rd_f": "께 네르비오스! 에스또이 에차 뽈보."
   },
   {
    "num": 15,
    "speaker": "B",
-   "tl": "Ni se te ocurra. Aunque, entre tú y yo, lo de la impresora me hizo gracia.",
-   "rd": "니 세 떼 오꾸라. 아운께, 엔뜨레 뚜 이 요, 로 데 라 임쁘레소라 메 이쏘 그라씨아.",
-   "ko": "꿈도 꾸지 마요. 그래도 우리끼리 얘기지만, 프린터는 좀 웃겼어요.",
+   "tl": "Venga, lo solucionamos. No se preocupe, ¿vale?",
+   "rd": "벤가, 로 솔루씨오나모스. 노 세 쁘레오꾸뻬, 발레?",
+   "ko": "자, 해결해요. 걱정 마세요, 알겠죠?",
    "note": "ni se te ocurra = 절대 그러지 마",
    "tags": [
     "expr:ni se te ocurra"
    ],
    "new": [],
-   "segs": [
-    [
-     "tsukkomi",
-     "Ni se te ocurra."
-    ],
-    [
-     "gentle",
-     "Aunque, entre tú y yo, lo de la impresora me hizo gracia."
-    ]
-   ]
+   "emotion": "gentle",
+   "note_stale": true
   }
  ],
- "draft": "claude"
+ "draft": "grok",
+ "draft_claude": [
+  {
+   "tl": "Buenos días, {name}. ¿Tendrías un momento antes de la reunión?",
+   "ko": "좋은 아침이에요, {name} 씨. 회의 전에 잠깐 시간 괜찮아요?"
+  },
+  {
+   "tl": "Por supuesto. Si es por el informe, lo habría enviado ayer, pero me faltaban datos.",
+   "ko": "물론이죠. 보고서 때문이시면, 어제 보내려 했는데 자료가 모자랐습니다."
+  },
+  {
+   "tl": "No, no es por el informe. Es por el correo que mandaste anoche a las once.",
+   "ko": "아뇨, 보고서 때문이 아니에요. 어젯밤 열한 시에 보낸 메일 때문이에요."
+  },
+  {
+   "tl": "¿El correo? Se lo mandé solo a Lucía, para que me echara una mano con la presentación.",
+   "ko": "메일요? 그건 루시아한테만 보낸 건데요, 발표 좀 도와 달라고요."
+  },
+  {
+   "tl": "Ya. Digamos que le diste a «responder a todos». Somos cuatrocientos.",
+   "ko": "그렇군요. 말하자면 「전체 답장」을 누른 거죠. 우리 직원이 사백 명이에요."
+  },
+  {
+   "tl": "Madre mía. ¿También la frase sobre las reuniones que podrían haber sido un correo?",
+   "ko": "세상에. 메일로 끝날 회의들이라고 쓴 그 문장도요?"
+  },
+  {
+   "tl": "También. Y la parte en la que me comparas con una impresora que falla cuando más hace falta.",
+   "ko": "그것도요. 제일 필요할 때 고장 나는 프린터에 저를 비유한 부분도요."
+  },
+  {
+   "tl": "No sé cómo disculparme. Si me permite explicárselo, no era mi intención que…",
+   "ko": "뭐라고 사과드려야 할지 모르겠습니다. 설명드려도 된다면, 제 뜻은…"
+  },
+  {
+   "tl": "Déjame terminar. Esta mañana el director general lo ha leído en voz alta.",
+   "ko": "끝까지 들어요. 오늘 아침에 대표님이 그걸 소리 내어 읽으셨어요."
+  },
+  {
+   "tl": "Entonces supongo que debería ir recogiendo mis cosas.",
+   "ko": "그럼 짐을 싸기 시작해야겠네요."
+  },
+  {
+   "tl": "Al contrario. Ha cancelado las reuniones de los viernes y quiere que dirijas un comité nuevo.",
+   "ko": "오히려 반대예요. 금요일 회의를 다 없애고, {name} 씨가 새 위원회를 맡으면 좋겠대요."
+  },
+  {
+   "tl": "¿Cómo dice? ¿Un comité? ¿Para qué, si puede saberse?",
+   "ko": "네? 위원회요? 여쭤봐도 된다면, 뭘 위한 거죠?"
+  },
+  {
+   "tl": "Para reducir el número de reuniones. Se reunirá todos los lunes a las ocho.",
+   "ko": "회의 수를 줄이기 위해서요. 매주 월요일 여덟 시에 모인대요."
+  },
+  {
+   "tl": "…¿Y si mando otro correo?",
+   "ko": "…메일 한 통 더 보내면 어떨까요?"
+  },
+  {
+   "tl": "Ni se te ocurra. Aunque, entre tú y yo, lo de la impresora me hizo gracia.",
+   "ko": "꿈도 꾸지 마요. 그래도 우리끼리 얘기지만, 프린터는 좀 웃겼어요."
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_work_b1_rewrite.md",
+  "model": "빠른",
+  "room_log": "data/review/grok/rooms_20261118.txt",
+  "how": "뼈대만 첨부(대사 비움), 형식만 손봄"
+ }
 }
