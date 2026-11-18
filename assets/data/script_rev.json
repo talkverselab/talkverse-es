@@ -31,7 +31,7 @@
 "dialogues/R2/travel/r2_s02_travel.json": "32201922b4f4",
 "dialogues/R2/work/r2_s06_work.json": "b2130f1a384c",
 "dialogues/R3/culture/r3_s08_culture.json": "1dcb511ab254",
-"dialogues/R3/friends/r3_friends_b1.json": "0016c2905120",
+"dialogues/R3/friends/r3_friends_b1.json": "958582403a4c",
 "dialogues/R3/friends/r3_s02_friends.json": "e773b71a47c1",
 "dialogues/R3/friends/r3_s04_friends.json": "4ade7b7ae3f4",
 "dialogues/R3/friends/r3_s10_friends.json": "eb59f55a6f05",
@@ -64,5 +64,5 @@
 "dialogues/R5/work/r5_t02_work.json": "698744997437",
 "grammar/sense_course.json": "0cbf65a93e75"
 },
-"rev": 5
+"rev": 6
 }
