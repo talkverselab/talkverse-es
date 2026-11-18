@@ -30,4 +30,19 @@ void main() {
     expect(f.turns.firstWhere((t) => t.num == n).tl, isNot(m.turns.firstWhere((t) => t.num == n).tl));
     expect(f.scene, contains('Mateo'));
   });
+
+  test('언어감각 과정: 급마다 외울 대화 + 참고, 문장마다 tl·rd·ko', () {
+    final j = json.decode(File('assets/data/grammar/sense_course.json').readAsStringSync()) as Map<String, dynamic>;
+    final levels = (j['levels'] as List).cast<Map<String, dynamic>>();
+    expect(levels.length, 10);
+    for (final lv in levels) {
+      final kinds = [for (final l in (lv['lessons'] as List)) (l as Map)['kind']];
+      expect(kinds, ['memorize', 'ref'], reason: '${lv['id']}');
+      for (final s in ((lv['lessons'] as List).first['sentences'] as List).cast<Map>()) {
+        for (final k in ['tl', 'rd', 'ko']) {
+          expect('${s[k] ?? ''}', isNotEmpty, reason: '${lv['id']} $k');
+        }
+      }
+    }
+  });
 }

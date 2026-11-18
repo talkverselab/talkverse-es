@@ -155,7 +155,7 @@ class DialogueService {
   static const islands = ['survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', 'study'];
   static const islandKo = {
     'survival': '서바이벌', 'friends': '친구', 'love': '사랑', 'life': '생활',
-    'travel': '여행', 'culture': '문화', 'work': '일', 'study': '학업',
+    'travel': '여행', 'culture': '문화', 'work': '직장', 'study': '학업',
   };
   static const islandEmoji = {
     'survival': '🆘', 'friends': '🤝', 'love': '💘', 'life': '🏠',

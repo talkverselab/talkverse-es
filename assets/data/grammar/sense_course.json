@@ -1,0 +1,1372 @@
+{
+ "title": "언어감각 익히기",
+ "subtitle": "정규과정 · 영상 → 대화 통째로 외우기 → 참고",
+ "levels": [
+  {
+   "id": "L1",
+   "title": "ser·estar 익히기",
+   "lessons": [
+    {
+     "id": "L1-talk",
+     "title": "ser·estar 익히기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 ser·estar 를 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "나",
+       "tl": "Hola, {soy|1} de Corea. {Estoy|2} en Madrid de vacaciones.",
+       "ko": "안녕, 난 한국 사람{이야|1}. 휴가로 마드리드에 {와 있어|2}.",
+       "rd": "올라, 소이 데 꼬레아. 에스또이 엔 마드리드 데 바까씨오네스."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Qué bien! Yo {soy|1} de aquí. ¿Dónde {estás|2} ahora?",
+       "ko": "좋다! 난 여기 사람{이야|1}. 지금 어디 {있어|2}?",
+       "rd": "께 비엔! 요 소이 데 아끼. 돈데 에스따스 아오라?"
+      },
+      {
+       "who": "나",
+       "tl": "{Estoy|2} en un café. {Es|1} un sitio muy bonito.",
+       "ko": "카페에 {있어|2}. 아주 예쁜 곳{이야|1}.",
+       "rd": "에스또이 엔 운 까페. 에스 운 시띠오 무이 보니또."
+      },
+      {
+       "who": "루시아",
+       "tl": "¿Y cómo {estás|2}?",
+       "ko": "그래서 기분은 {어때|2}?",
+       "rd": "이 꼬모 에스따스?"
+      },
+      {
+       "who": "나",
+       "tl": "{Estoy|2} bien, pero el café {está|2} frío.",
+       "ko": "난 {괜찮아|2}, 근데 커피가 {식었어|2}.",
+       "rd": "에스또이 비엔, 뻬로 엘 까페 에스따 프리오."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Ja, ja! El café de ese sitio {es|1} malo.",
+       "ko": "하하! 거기 커피는 원래 별로{야|1}.",
+       "rd": "하, 하! 엘 까페 데 에세 시띠오 에스 말로."
+      },
+      {
+       "who": "나",
+       "tl": "¿Sí? Pero el camarero {es|1} muy simpático.",
+       "ko": "그래? 근데 종업원이 아주 친절{해|1}.",
+       "rd": "시? 뻬로 엘 까마레로 에스 무이 심빠띠꼬."
+      },
+      {
+       "who": "루시아",
+       "tl": "Vale. Mi casa {está|2} cerca. ¿Vienes?",
+       "ko": "알았어. 우리 집 가까이 {있어|2}. 올래?",
+       "rd": "발레. 미 까사 에스따 쎄르까. 비에네스?"
+      },
+      {
+       "who": "나",
+       "tl": "¿Ahora? {Es|1} tarde, ¿no?",
+       "ko": "지금? 늦은 시간{이잖아|1}?",
+       "rd": "아오라? 에스 따르데, 노?"
+      },
+      {
+       "who": "루시아",
+       "tl": "No, {son|1} las siete. Y mi madre {está|2} en casa. ¡Hace paella!",
+       "ko": "아니, 7시{야|1}. 그리고 엄마가 집에 {계셔|2}. 파에야 만드셔!",
+       "rd": "노, 손 라스 시에떼. 이 미 마드레 에스따 엔 까사. 아쎄 빠에야!"
+      }
+     ],
+     "footnotes": [
+      "한국어 「이다」 자리가 스페인어에서는 둘이에요 — ser 는 원래 그런 것(출신·성격·시각), estar 는 지금 상태·있는 곳.",
+      "같은 말도 갈려요: el café es malo(원래 맛없는 커피) · el café está frío(지금 식은 커피).",
+      "시각은 늘 ser — son las siete(7시야), es la una(1시야)."
+     ]
+    },
+    {
+     "id": "L1-ref",
+     "kind": "ref",
+     "title": "ser·estar 한눈에",
+     "points": [
+      {
+       "head": "ser  ~이다(원래 그런 것)",
+       "tip": "출신·직업·성격·재료·시각. 쉽게 바뀌지 않는 것.",
+       "sentences": [
+        {
+         "tl": "Soy de Seúl.",
+         "ko": "난 서울 출신이야.",
+         "rd": "소이 데 세울."
+        },
+        {
+         "tl": "Mi hermana es profesora.",
+         "ko": "우리 언니는 선생님이야.",
+         "rd": "미 에르마나 에스 쁘로페소라."
+        },
+        {
+         "tl": "Son las diez.",
+         "ko": "10시야.",
+         "rd": "손 라스 디에쓰."
+        }
+       ]
+      },
+      {
+       "head": "estar  ~에 있다 · ~한 상태다",
+       "tip": "있는 곳과 지금 기분·상태. 한국어 「있다」와 「~해 있다」.",
+       "sentences": [
+        {
+         "tl": "El metro está allí.",
+         "ko": "지하철역은 저기 있어.",
+         "rd": "엘 메뜨로 에스따 아이."
+        },
+        {
+         "tl": "Estoy un poco cansado.",
+         "ko": "나 좀 피곤해.",
+         "rd": "에스또이 운 뽀꼬 깐사도."
+        },
+        {
+         "tl": "La sopa está caliente.",
+         "ko": "수프가 뜨거워.",
+         "rd": "라 소빠 에스따 깔리엔떼."
+        }
+       ]
+      },
+      {
+       "head": "꼴 바꾸기",
+       "tip": "ser: soy · eres · es · somos · sois · son / estar: estoy · estás · está · estamos · estáis · están",
+       "sentences": [
+        {
+         "tl": "¿Eres de aquí?",
+         "ko": "너 여기 사람이야?",
+         "rd": "에레스 데 아끼?"
+        },
+        {
+         "tl": "¿Dónde estáis?",
+         "ko": "너희 어디 있어?",
+         "rd": "돈데 에스따이스?"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "관사·성수 익히기",
+   "lessons": [
+    {
+     "id": "L2-talk",
+     "title": "관사·성수 익히기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 관사와 성·수를 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "루시아",
+       "tl": "Mira, ahí hay {una|2} tienda {nueva|3}.",
+       "ko": "봐, 저기 {새|3} 가게가 {하나|2} 생겼어.",
+       "rd": "미라, 아이 아이 우나 띠엔다 누에바."
+      },
+      {
+       "who": "나",
+       "tl": "¿Qué venden?",
+       "ko": "뭐 팔아?",
+       "rd": "께 벤덴?"
+      },
+      {
+       "who": "루시아",
+       "tl": "Ropa. {El|1} vestido {blanco|3} es precioso.",
+       "ko": "옷. {저|1} {하얀|3} 원피스 진짜 예쁘다.",
+       "rd": "로빠. 엘 베스띠도 블란꼬 에스 쁘레씨오소."
+      },
+      {
+       "who": "나",
+       "tl": "Y {la|1} chaqueta {negra|3} también.",
+       "ko": "{저|1} {까만|3} 재킷도.",
+       "rd": "이 라 차께따 네그라 땀비엔."
+      },
+      {
+       "who": "루시아",
+       "tl": "¿Te gusta? {Los zapatos|4} {negros|3} van bien con ella.",
+       "ko": "마음에 들어? {까만|3} {구두|4}랑 잘 어울려.",
+       "rd": "떼 구스따? 로스 싸빠또스 네그로스 반 비엔 꼰 에야."
+      },
+      {
+       "who": "나",
+       "tl": "Pero mira {el|1} precio. ¡Qué caro!",
+       "ko": "근데 {저|1} 가격 좀 봐. 엄청 비싸!",
+       "rd": "뻬로 미라 엘 쁘레씨오. 께 까로!"
+      },
+      {
+       "who": "루시아",
+       "tl": "No pasa nada. Hoy hay {un|2} descuento {pequeño|3}.",
+       "ko": "괜찮아. 오늘 {조그만|3} 할인이 {하나|2} 있대.",
+       "rd": "노 빠사 나다. 오이 아이 운 데스꾸엔또 뻬께뇨."
+      },
+      {
+       "who": "나",
+       "tl": "Entonces compro {la|1} chaqueta y {una|2} camiseta.",
+       "ko": "그럼 {그|1} 재킷이랑 티셔츠 {한|2} 장 살래.",
+       "rd": "엔똔쎄스 꼼쁘로 라 차께따 이 우나 까미세따."
+      },
+      {
+       "who": "루시아",
+       "tl": "¿{Una|2} camiseta {blanca|3} o {roja|3}?",
+       "ko": "{하얀|3} 거 {한|2} 장, 아니면 {빨간|3} 거?",
+       "rd": "우나 까미세따 블란까 오 로하?"
+      },
+      {
+       "who": "나",
+       "tl": "{Las dos|4}. {Las camisetas|4} {blancas|3} son para mi hermana.",
+       "ko": "{둘 다|4}. {하얀|3} {티셔츠|4}는 여동생 거야.",
+       "rd": "라스 도스. 라스 까미세따스 블란까스 손 빠라 미 에르마나."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Qué suerte tiene tu hermana!",
+       "ko": "여동생 좋겠다!",
+       "rd": "께 수에르떼 띠에네 뚜 에르마나!"
+      }
+     ],
+     "footnotes": [
+      "모든 이름씨에 성(남·여)이 있어요 — el vestido(남) · la chaqueta(여). 관사·꾸밈말이 그 성을 따라가요(blanco → blanca).",
+      "여럿이면 관사·이름씨·꾸밈말 모두 -s — las camisetas blancas.",
+      "el/la = 「그·저」, un/una = 「하나·한」에 가깝지만 한국어는 대개 빼고 말해요."
+     ]
+    },
+    {
+     "id": "L2-ref",
+     "kind": "ref",
+     "title": "관사·성수 한눈에",
+     "points": [
+      {
+       "head": "el · la · los · las  (그·저)",
+       "tip": "이미 아는 것을 가리킬 때. 남성 el, 여성 la, 여럿 los·las.",
+       "sentences": [
+        {
+         "tl": "El libro está en la mesa.",
+         "ko": "그 책은 탁자 위에 있어.",
+         "rd": "엘 리브로 에스따 엔 라 메사."
+        },
+        {
+         "tl": "Las llaves son mías.",
+         "ko": "그 열쇠들은 내 거야.",
+         "rd": "라스 야베스 손 미아스."
+        }
+       ]
+      },
+      {
+       "head": "un · una · unos · unas  (하나·몇)",
+       "tip": "처음 꺼내는 것. 여럿이면 「몇 개의」.",
+       "sentences": [
+        {
+         "tl": "Quiero un café.",
+         "ko": "커피 한 잔 주세요.",
+         "rd": "끼에로 운 까페."
+        },
+        {
+         "tl": "Tengo unas preguntas.",
+         "ko": "질문이 몇 개 있어.",
+         "rd": "뗀고 우나스 쁘레군따스."
+        }
+       ]
+      },
+      {
+       "head": "꾸밈말 맞추기  -o / -a / -os / -as",
+       "tip": "꾸밈말은 대개 이름씨 뒤에. -e 로 끝나면 남녀 같음(grande, verde).",
+       "sentences": [
+        {
+         "tl": "un coche rojo · una casa roja",
+         "ko": "빨간 차 · 빨간 집",
+         "rd": "운 꼬체 로호 · 우나 까사 로하"
+        },
+        {
+         "tl": "unos árboles verdes",
+         "ko": "푸른 나무들",
+         "rd": "우노스 아르볼레스 베르데스"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "현재형 익히기",
+   "lessons": [
+    {
+     "id": "L3-talk",
+     "title": "현재형 익히기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 동사 끝을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "루시아",
+       "tl": "¿{Trabajas|2} los sábados?",
+       "ko": "토요일에 일{해|2}?",
+       "rd": "뜨라바하스 로스 사바도스?"
+      },
+      {
+       "who": "나",
+       "tl": "No, los sábados {estudio|1} español.",
+       "ko": "아니, 토요일엔 스페인어 공부{해|1}.",
+       "rd": "노, 로스 사바도스 에스뚜디오 에스빠뇰."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Qué bien! ¿Y dónde {comes|2} después?",
+       "ko": "좋다! 그럼 끝나고 어디서 {먹어|2}?",
+       "rd": "께 비엔! 이 돈데 꼬메스 데스뿌에스?"
+      },
+      {
+       "who": "나",
+       "tl": "{Como|1} en casa. Mi compañero de piso {cocina|3} muy bien.",
+       "ko": "집에서 {먹어|1}. 룸메이트가 요리를 아주 잘{해|3}.",
+       "rd": "꼬모 엔 까사. 미 꼼빠녜로 데 삐소 꼬씨나 무이 비엔."
+      },
+      {
+       "who": "루시아",
+       "tl": "Nosotros {comemos|4} fuera. Mi hermano y yo {vivimos|4} cerca de la Plaza Mayor.",
+       "ko": "우린 밖에서 {먹어|4}. 오빠랑 난 마요르 광장 근처에 {살아|4}.",
+       "rd": "노소뜨로스 꼬메모스 푸에라. 미 에르마노 이 요 비비모스 쎄르까 데 라 쁠라싸 마요르."
+      },
+      {
+       "who": "나",
+       "tl": "¿{Habláis|5} inglés en casa?",
+       "ko": "너희 집에서는 영어로 {말해|5}?",
+       "rd": "아블라이스 인글레스 엔 까사?"
+      },
+      {
+       "who": "루시아",
+       "tl": "No, mis padres {hablan|6} solo español.",
+       "ko": "아니, 우리 부모님은 스페인어만 {하셔|6}.",
+       "rd": "노, 미스 빠드레스 아블란 솔로 에스빠뇰."
+      },
+      {
+       "who": "나",
+       "tl": "Entonces {practico|1} con vosotros.",
+       "ko": "그럼 너희랑 연습{할래|1}.",
+       "rd": "엔똔쎄스 쁘라끄띠꼬 꼰 보소뜨로스."
+      },
+      {
+       "who": "루시아",
+       "tl": "Vale. ¿{Bailas|2}? Los sábados mis amigos {bailan|6} salsa.",
+       "ko": "좋아. 춤 {춰|2}? 토요일마다 내 친구들이 살사를 {춰|6}.",
+       "rd": "발레. 바일라스? 로스 사바도스 미스 아미고스 바일란 살사."
+      },
+      {
+       "who": "나",
+       "tl": "Yo no {bailo|1} nada... pero {aprendo|1} rápido.",
+       "ko": "난 춤 하나도 못 {춰|1}… 근데 빨리 {배워|1}.",
+       "rd": "요 노 바일로 나다... 뻬로 아쁘렌도 라삐도."
+      }
+     ],
+     "footnotes": [
+      "한국어 「해」는 누가 하든 같지만, 스페인어는 동사 끝이 사람마다 달라요 — estudio(나) · trabajas(너) · cocina(그 사람).",
+      "그래서 yo·tú 같은 주어를 자주 빼요. 끝만 들어도 누구인지 알아요.",
+      "vosotros(너희)는 스페인 본토 말 — habláis, coméis, vivís."
+     ]
+    },
+    {
+     "id": "L3-ref",
+     "kind": "ref",
+     "title": "현재형 한눈에",
+     "points": [
+      {
+       "head": "-ar  hablar (말하다)",
+       "tip": "hablo · hablas · habla · hablamos · habláis · hablan",
+       "sentences": [
+        {
+         "tl": "Hablo un poco de español.",
+         "ko": "스페인어 조금 해.",
+         "rd": "아블로 운 뽀꼬 데 에스빠뇰."
+        },
+        {
+         "tl": "¿Trabajáis mañana?",
+         "ko": "너희 내일 일해?",
+         "rd": "뜨라바하이스 마냐나?"
+        }
+       ]
+      },
+      {
+       "head": "-er  comer (먹다)",
+       "tip": "como · comes · come · comemos · coméis · comen",
+       "sentences": [
+        {
+         "tl": "Mi padre come mucho pan.",
+         "ko": "우리 아빠는 빵을 많이 드셔.",
+         "rd": "미 빠드레 꼬메 무초 빤."
+        },
+        {
+         "tl": "¿Bebes café?",
+         "ko": "커피 마셔?",
+         "rd": "베베스 까페?"
+        }
+       ]
+      },
+      {
+       "head": "-ir  vivir (살다)",
+       "tip": "vivo · vives · vive · vivimos · vivís · viven — -er 와 nosotros·vosotros 만 달라요.",
+       "sentences": [
+        {
+         "tl": "Vivimos en un piso pequeño.",
+         "ko": "우린 작은 아파트에 살아.",
+         "rd": "비비모스 엔 운 삐소 뻬께뇨."
+        },
+        {
+         "tl": "Escribo a mi madre cada día.",
+         "ko": "매일 엄마한테 글을 써.",
+         "rd": "에스끄리보 아 미 마드레 까다 디아."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "자주 쓰는 불규칙 동사 익히기",
+   "lessons": [
+    {
+     "id": "L4-talk",
+     "title": "자주 쓰는 불규칙 동사 익히기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 불규칙 동사를 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "루시아",
+       "tl": "¿Qué {haces|3} esta noche?",
+       "ko": "오늘 밤에 뭐 {해|3}?",
+       "rd": "께 아쎄스 에스따 노체?"
+      },
+      {
+       "who": "나",
+       "tl": "Nada. {Tengo|1} hambre y {quiero|4} cenar.",
+       "ko": "아무것도. 배{고프고|1} 저녁 먹{고 싶어|4}.",
+       "rd": "나다. 뗀고 암브레 이 끼에로 쎄나르."
+      },
+      {
+       "who": "루시아",
+       "tl": "{Voy|2} a un bar de tapas con Javi. ¿{Vienes|6}?",
+       "ko": "하비랑 타파스 바에 {가|2}. {올래|6}?",
+       "rd": "보이 아 운 바르 데 따빠스 꼰 하비. 비에네스?"
+      },
+      {
+       "who": "나",
+       "tl": "Sí, pero no {tengo|1} mucho dinero.",
+       "ko": "응, 근데 돈이 별로 {없어|1}.",
+       "rd": "시, 뻬로 노 뗀고 무초 디네로."
+      },
+      {
+       "who": "루시아",
+       "tl": "No pasa nada. Allí todo es barato. {Puedes|5} pedir tres o cuatro.",
+       "ko": "괜찮아. 거긴 다 싸. 서너 개 시킬 수 {있어|5}.",
+       "rd": "노 빠사 나다. 아이 또도 에스 바라또. 뿌에데스 뻬디르 뜨레스 오 꾸아뜨로."
+      },
+      {
+       "who": "나",
+       "tl": "¿A qué hora {vais|2}?",
+       "ko": "너희 몇 시에 {가|2}?",
+       "rd": "아 께 오라 바이스?"
+      },
+      {
+       "who": "루시아",
+       "tl": "{Vamos|2} a las nueve. Javi {viene|6} en moto.",
+       "ko": "9시에 {가|2}. 하비는 오토바이 타고 {와|6}.",
+       "rd": "바모스 아 라스 누에베. 하비 비에네 엔 모또."
+      },
+      {
+       "who": "나",
+       "tl": "¿A las nueve? Yo a esa hora ya {tengo|1} sueño.",
+       "ko": "9시? 난 그 시간이면 벌써 졸{려|1}.",
+       "rd": "아 라스 누에베? 요 아 에사 오라 야 뗀고 수에뇨."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Esto es España! Aquí la gente lo {hace|3} todo tarde.",
+       "ko": "여기 스페인이야! 여기 사람들은 뭐든 늦게 {해|3}.",
+       "rd": "에스또 에스 에스빠냐! 아끼 라 헨떼 로 아쎄 또도 따르데."
+      },
+      {
+       "who": "나",
+       "tl": "Vale, {puedo|5} intentarlo. ¿{Quieres|4} quedar en el metro?",
+       "ko": "알았어, 해 볼 수 {있어|5}. 지하철역에서 만날{래|4}?",
+       "rd": "발레, 뿌에도 인뗀따를로. 끼에레스 께다르 엔 엘 메뜨로?"
+      }
+     ],
+     "footnotes": [
+      "tener(가지다)는 한국어 「배고프다·졸리다」 자리에도 써요 — tengo hambre(배고파) · tengo sueño(졸려).",
+      "ir(가다)는 모양이 완전히 달라요 — voy · vas · va · vamos · vais · van.",
+      "querer·poder 뒤에는 동사 원형 — quiero cenar(먹고 싶어) · puedo intentar(해 볼 수 있어)."
+     ]
+    },
+    {
+     "id": "L4-ref",
+     "kind": "ref",
+     "title": "자주 쓰는 불규칙 동사 한눈에",
+     "points": [
+      {
+       "head": "tener  가지다 · ~하다",
+       "tip": "tengo · tienes · tiene · tenemos · tenéis · tienen",
+       "sentences": [
+        {
+         "tl": "Tengo dos hermanos.",
+         "ko": "형제가 둘 있어.",
+         "rd": "뗀고 도스 에르마노스."
+        },
+        {
+         "tl": "¿Tienes frío?",
+         "ko": "추워?",
+         "rd": "띠에네스 프리오?"
+        }
+       ]
+      },
+      {
+       "head": "ir · venir  가다 · 오다",
+       "tip": "voy · vas · va · vamos · vais · van / vengo · vienes · viene · venimos · venís · vienen",
+       "sentences": [
+        {
+         "tl": "Vamos al cine.",
+         "ko": "영화 보러 가자.",
+         "rd": "바모스 알 씨네."
+        },
+        {
+         "tl": "¿Vienes conmigo?",
+         "ko": "나랑 같이 갈래?",
+         "rd": "비에네스 꼰미고?"
+        }
+       ]
+      },
+      {
+       "head": "hacer · querer · poder",
+       "tip": "hago · haces · hace / quiero · quieres · quiere / puedo · puedes · puede",
+       "sentences": [
+        {
+         "tl": "¿Qué hacéis hoy?",
+         "ko": "너희 오늘 뭐 해?",
+         "rd": "께 아쎄이스 오이?"
+        },
+        {
+         "tl": "No puedo ir mañana.",
+         "ko": "내일은 못 가.",
+         "rd": "노 뿌에도 이르 마냐나."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "gustar 익히기",
+   "lessons": [
+    {
+     "id": "L5-talk",
+     "title": "gustar 익히기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 gustar 를 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "루시아",
+       "tl": "¿{Te|1} {gusta|2} la comida española?",
+       "ko": "{넌|1} 스페인 음식 {좋아해|2}?",
+       "rd": "떼 구스따 라 꼬미다 에스빠뇰라?"
+      },
+      {
+       "who": "나",
+       "tl": "Sí, {me|1} {encanta|3} la tortilla.",
+       "ko": "응, {난|1} 또르띠야가 {너무 좋아|3}.",
+       "rd": "시, 메 엔깐따 라 또르띠야."
+      },
+      {
+       "who": "루시아",
+       "tl": "¿Y {te|1} {gustan|2} las aceitunas?",
+       "ko": "그럼 올리브도 {좋아해|2}?",
+       "rd": "이 떼 구스딴 라스 아쎄이뚜나스?"
+      },
+      {
+       "who": "나",
+       "tl": "No mucho. {A mí|5} no {me|1} {gustan|2} las cosas saladas.",
+       "ko": "별로. {난|5} 짠 건 안 {좋아해|2}.",
+       "rd": "노 무초. 아 미 노 메 구스딴 라스 꼬사스 살라다스."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Qué raro! {A mí|5} {me|1} {encantan|3}.",
+       "ko": "신기하다! {난|5} {엄청 좋아하는데|3}.",
+       "rd": "께 라로! 아 미 메 엔깐딴."
+      },
+      {
+       "who": "나",
+       "tl": "Ay... {me|1} {duele|4} la barriga.",
+       "ko": "아… 배가 {아파|4}.",
+       "rd": "아이... 메 두엘레 라 바리가."
+      },
+      {
+       "who": "루시아",
+       "tl": "¿Otra vez? ¿{Te|1} {duele|4} mucho?",
+       "ko": "또? 많이 {아파|4}?",
+       "rd": "오뜨라 베쓰? 떼 두엘레 무초?"
+      },
+      {
+       "who": "나",
+       "tl": "Un poco. Creo que {me|1} {gustan|2} demasiado los churros.",
+       "ko": "조금. 내가 추로스를 너무 {좋아하나|2} 봐.",
+       "rd": "운 뽀꼬. 끄레오 께 메 구스딴 데마시아도 로스 추로스."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Ja! {A mi madre|5} también {le|1} {gustan|2}. Se come diez cada domingo.",
+       "ko": "하! {우리 엄마도|5} {좋아하셔|2}. 일요일마다 열 개 드셔.",
+       "rd": "하! 아 미 마드레 땀비엔 레 구스딴. 세 꼬메 디에쓰 까다 도민고."
+      },
+      {
+       "who": "나",
+       "tl": "Entonces {a tu madre|5} {le|1} va a {encantar|3} Corea.",
+       "ko": "그럼 {너희 엄마는|5} 한국을 {엄청 좋아하시겠다|3}.",
+       "rd": "엔똔쎄스 아 뚜 마드레 레 바 아 엔깐따르 꼬레아."
+      }
+     ],
+     "footnotes": [
+      "gustar 는 「좋아하다」보다 「(나에게) 마음에 들다」 — 좋은 물건이 주어라서, 물건이 여럿이면 gustan.",
+      "me·te·le = 나에게·너에게·그 사람에게. 한국어 「난·넌」 자리에 와요.",
+      "a mí·a ti 는 「나는 말이야」처럼 힘줄 때. encantar(너무 좋다)·doler(아프다)도 같은 꼴."
+     ]
+    },
+    {
+     "id": "L5-ref",
+     "kind": "ref",
+     "title": "gustar 한눈에",
+     "points": [
+      {
+       "head": "me gusta · me gustan",
+       "tip": "하나·동사면 gusta, 여럿이면 gustan.",
+       "sentences": [
+        {
+         "tl": "Me gusta leer.",
+         "ko": "난 책 읽는 게 좋아.",
+         "rd": "메 구스따 레에르."
+        },
+        {
+         "tl": "Me gustan los perros.",
+         "ko": "난 개가 좋아.",
+         "rd": "메 구스딴 로스 뻬로스."
+        }
+       ]
+      },
+      {
+       "head": "누구에게: me · te · le · nos · os · les",
+       "tip": "le·les 는 누구인지 헷갈리면 a + 사람을 붙여요(a Javi le…).",
+       "sentences": [
+        {
+         "tl": "¿Os gusta Madrid?",
+         "ko": "너희 마드리드 좋아?",
+         "rd": "오스 구스따 마드리드?"
+        },
+        {
+         "tl": "A Javi le gusta el fútbol.",
+         "ko": "하비는 축구를 좋아해.",
+         "rd": "아 하비 레 구스따 엘 푸뜨볼."
+        }
+       ]
+      },
+      {
+       "head": "같은 꼴: encantar · doler · interesar",
+       "tip": "me encanta(너무 좋아) · me duele(아파) · me interesa(관심 있어)",
+       "sentences": [
+        {
+         "tl": "Me duelen los pies.",
+         "ko": "발이 아파.",
+         "rd": "메 두엘렌 로스 삐에스."
+        },
+        {
+         "tl": "Nos interesa la historia.",
+         "ko": "우린 역사에 관심 있어.",
+         "rd": "노스 인떼레사 라 이스또리아."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "title": "높임말 익히기 (tú·usted)",
+   "lessons": [
+    {
+     "id": "L6-talk",
+     "title": "높임말 익히기 (tú·usted)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 높임말을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "루시아",
+       "tl": "Mamá, ya estamos aquí.",
+       "ko": "엄마, 우리 왔어.",
+       "rd": "마마, 야 에스따모스 아끼."
+      },
+      {
+       "who": "나",
+       "tl": "Buenas tardes, señora. ¿Cómo {está|2}?",
+       "ko": "안녕하세요, 어머님. 잘 {지내세요|2}?",
+       "rd": "부에나스 따르데스, 세뇨라. 꼬모 에스따?"
+      },
+      {
+       "who": "카르멘",
+       "tl": "Muy bien, gracias. Pero llámame Carmen, y {háblame|1} de tú.",
+       "ko": "잘 지내요, 고마워요. 근데 카르멘이라고 불러, 그리고 말 {편하게 해|1}.",
+       "rd": "무이 비엔, 그라씨아스. 뻬로 야마메 까르멘, 이 아블라메 데 뚜."
+      },
+      {
+       "who": "나",
+       "tl": "Vale, Carmen. ¿{Cocinas|1} todos los días?",
+       "ko": "알겠어요, 카르멘. 매일 요리{해|1}?",
+       "rd": "발레, 까르멘. 꼬씨나스 또도스 로스 디아스?"
+      },
+      {
+       "who": "카르멘",
+       "tl": "Sí. ¿Y {vosotros|3} qué {queréis|3} beber?",
+       "ko": "응. {너희는|3} 뭐 {마실래|3}?",
+       "rd": "시. 이 보소뜨로스 께 께레이스 베베르?"
+      },
+      {
+       "who": "나",
+       "tl": "Agua, gracias. ¿{Ustedes|4} {viven|4} aquí desde hace mucho?",
+       "ko": "물이요, 고마워요. {두 분은|4} 여기서 오래 {사셨어요|4}?",
+       "rd": "아구아, 그라씨아스. 우스떼데스 비벤 아끼 데스데 아쎄 무초?"
+      },
+      {
+       "who": "안토니오",
+       "tl": "Treinta años. Y nada de «ustedes», ¿eh? {Tutéanos|1}.",
+       "ko": "30년. 그리고 「두 분」 같은 말은 빼, 응? {편하게 말해|1}.",
+       "rd": "뜨레인따 아뇨스. 이 나다 데 «우스떼데스», 에? 뚜떼아노스."
+      },
+      {
+       "who": "나",
+       "tl": "Perdón. En Corea, a los padres de un amigo siempre les hablamos con respeto.",
+       "ko": "죄송해요. 한국에서는 친구 부모님께는 늘 높임말을 써요.",
+       "rd": "뻬르돈. 엔 꼬레아, 아 로스 빠드레스 데 운 아미고 시엠쁘레 레스 아블라모스 꼰 레스뻬또."
+      },
+      {
+       "who": "카르멘",
+       "tl": "Aquí también, a veces. Pero en esta casa {eres|1} de la familia.",
+       "ko": "여기도 가끔은 그래. 근데 이 집에서 {넌|1} 가족이야.",
+       "rd": "아끼 땀비엔, 아 베쎄스. 뻬로 엔 에스따 까사 에레스 데 라 파밀리아."
+      },
+      {
+       "who": "나",
+       "tl": "Gracias, Carmen. {Eres|1} muy amable.",
+       "ko": "고마워요, 카르멘. 정말 친절{하네|1}.",
+       "rd": "그라씨아스, 까르멘. 에레스 무이 아마블레."
+      }
+     ],
+     "footnotes": [
+      "usted 는 「~님」 — 동사는 그 사람 꼴(está, vive). 여럿이면 ustedes(viven).",
+      "스페인에서는 처음 보는 어른·가게·관공서에서 usted, 조금만 친해지면 금방 tú 로 바꿔요(tutear).",
+      "한국어처럼 어미가 높아지는 게 아니라, 누구에게 말하는지(tú/usted)가 바뀌어요."
+     ]
+    },
+    {
+     "id": "L6-ref",
+     "kind": "ref",
+     "title": "높임말 (tú·usted) 한눈에",
+     "points": [
+      {
+       "head": "tú  ↔  usted",
+       "tip": "tú 는 2인칭 꼴, usted 는 3인칭 꼴. ¿Cómo estás? ↔ ¿Cómo está?",
+       "sentences": [
+        {
+         "tl": "¿Tienes tiempo?",
+         "ko": "시간 있어?",
+         "rd": "띠에네스 띠엠뽀?"
+        },
+        {
+         "tl": "¿Tiene usted tiempo?",
+         "ko": "시간 있으세요?",
+         "rd": "띠에네 우스떼드 띠엠뽀?"
+        }
+       ]
+      },
+      {
+       "head": "vosotros  ↔  ustedes",
+       "tip": "여럿에게: 편하면 vosotros(queréis), 높이면 ustedes(quieren).",
+       "sentences": [
+        {
+         "tl": "¿Queréis algo de beber?",
+         "ko": "너희 뭐 마실래?",
+         "rd": "께레이스 알고 데 베베르?"
+        },
+        {
+         "tl": "¿Quieren algo de beber?",
+         "ko": "뭐 드시겠어요?",
+         "rd": "끼에렌 알고 데 베베르?"
+        }
+       ]
+      },
+      {
+       "head": "부탁할 때",
+       "tip": "높일수록 길게: ¿Puedes…? → ¿Puede…? → ¿Podría…?",
+       "sentences": [
+        {
+         "tl": "¿Me puede ayudar, por favor?",
+         "ko": "좀 도와주시겠어요?",
+         "rd": "메 뿌에데 아유다르, 뽀르 파보르?"
+        },
+        {
+         "tl": "¿Podría repetirlo?",
+         "ko": "다시 한번 말씀해 주시겠어요?",
+         "rd": "뽀드리아 레뻬띠를로?"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "title": "대명사 익히기 (lo·le·se lo)",
+   "lessons": [
+    {
+     "id": "L7-talk",
+     "title": "대명사 익히기 (lo·le·se lo)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 대명사를 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "루시아",
+       "tl": "Mañana es el cumpleaños de Javi. ¿{Le|2} compramos algo?",
+       "ko": "내일 하비 생일이야. {걔한테|2} 뭐 사 줄까?",
+       "rd": "마냐나 에스 엘 꿈쁠레아뇨스 데 하비. 레 꼼쁘라모스 알고?"
+      },
+      {
+       "who": "나",
+       "tl": "Sí. Javi quiere el libro de cocina nuevo. {Lo|1} vi ayer en una librería.",
+       "ko": "응. 하비가 새로 나온 요리책 갖고 싶어 해. 어제 서점에서 {그거|1} 봤어.",
+       "rd": "시. 하비 끼에레 엘 리브로 데 꼬씨나 누에보. 로 비 아예르 엔 우나 리브레리아."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Genial! ¿{Lo|1} compras tú?",
+       "ko": "좋다! 네가 {그거|1} 살래?",
+       "rd": "헤니알! 로 꼼쁘라스 뚜?"
+      },
+      {
+       "who": "나",
+       "tl": "Vale, {lo|1} compro yo. Y tú {le|2} haces la tarta.",
+       "ko": "알았어, 내가 {그거|1} 살게. 그리고 넌 {걔한테|2} 케이크 만들어 줘.",
+       "rd": "발레, 로 꼼쁘로 요. 이 뚜 레 아쎄스 라 따르따."
+      },
+      {
+       "who": "루시아",
+       "tl": "Mmm, la tarta... {La|1} hago fatal.",
+       "ko": "음, 케이크는… 나 {그거|1} 진짜 못 만들어.",
+       "rd": "믐므, 라 따르따... 라 아고 파딸."
+      },
+      {
+       "who": "나",
+       "tl": "No pasa nada. {Te|3} ayudo yo.",
+       "ko": "괜찮아. 내가 {너|3} 도와줄게.",
+       "rd": "노 빠사 나다. 떼 아유도 요."
+      },
+      {
+       "who": "루시아",
+       "tl": "¿Y quién {se lo|4} da? ¿Tú o yo?",
+       "ko": "그럼 누가 {걔한테 그걸|4} 줘? 너야, 나야?",
+       "rd": "이 끼엔 세 로 다? 뚜 오 요?"
+      },
+      {
+       "who": "나",
+       "tl": "{Se lo|4} damos juntos.",
+       "ko": "같이 {걔한테 그거|4} 주자.",
+       "rd": "세 로 다모스 훈또스."
+      },
+      {
+       "who": "루시아",
+       "tl": "Perfecto. Oye, ¿{me|3} llamas mañana a las ocho?",
+       "ko": "완벽해. 근데 내일 8시에 {나한테|3} 전화해 줄래?",
+       "rd": "뻬르페끄또. 오예, 메 야마스 마냐나 아 라스 오초?"
+      },
+      {
+       "who": "나",
+       "tl": "Sí, {te|3} llamo. Y no {se lo|4} digas a Javi, ¿eh? Es una sorpresa.",
+       "ko": "응, {너한테|3} 전화할게. 그리고 하비한테 {그거|4} 말하지 마, 알았지? 깜짝 선물이니까.",
+       "rd": "시, 떼 야모. 이 노 세 로 디가스 아 하비, 에? 에스 우나 소르쁘레사."
+      }
+     ],
+     "footnotes": [
+      "한국어는 「그거」「걔한테」를 자주 빼지만, 스페인어는 대명사를 꼭 넣어요 — lo compro(그걸 살게).",
+      "대명사는 동사 앞에 와요. le 와 lo 가 만나면 se lo(「le lo」는 없어요).",
+      "lo·la = 그것을·그 사람을, le = 그 사람에게, me·te = 나를/나에게·너를/너에게."
+     ]
+    },
+    {
+     "id": "L7-ref",
+     "kind": "ref",
+     "title": "대명사 (lo·le·se lo) 한눈에",
+     "points": [
+      {
+       "head": "lo · la · los · las  (~을/를)",
+       "tip": "받는 것의 성·수를 따라가요. la tarta → la hago.",
+       "sentences": [
+        {
+         "tl": "¿El pan? Lo compro yo.",
+         "ko": "빵? 내가 살게.",
+         "rd": "엘 빤? 로 꼼쁘로 요."
+        },
+        {
+         "tl": "¿Las llaves? No las tengo.",
+         "ko": "열쇠? 나 없어.",
+         "rd": "라스 야베스? 노 라스 뗀고."
+        }
+       ]
+      },
+      {
+       "head": "le · les  (~에게)",
+       "tip": "받는 사람. 누군지 밝히려면 a + 사람을 함께 써요.",
+       "sentences": [
+        {
+         "tl": "Le escribo a mi abuela.",
+         "ko": "할머니께 편지 써.",
+         "rd": "레 에스끄리보 아 미 아부엘라."
+        },
+        {
+         "tl": "Les doy las gracias.",
+         "ko": "그분들께 고맙다고 해.",
+         "rd": "레스 도이 라스 그라씨아스."
+        }
+       ]
+      },
+      {
+       "head": "se lo · se la  (그 사람에게 그것을)",
+       "tip": "「~에게」가 앞, 「~을」이 뒤. le lo → se lo.",
+       "sentences": [
+        {
+         "tl": "¿El regalo? Se lo doy mañana.",
+         "ko": "선물? 내일 그 사람한테 줄게.",
+         "rd": "엘 레갈로? 세 로 도이 마냐나."
+        },
+        {
+         "tl": "¿La foto? Te la mando ahora.",
+         "ko": "사진? 지금 너한테 보낼게.",
+         "rd": "라 포또? 떼 라 만도 아오라."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "title": "과거 두 가지 익히기",
+   "lessons": [
+    {
+     "id": "L8-talk",
+     "title": "과거 두 가지 익히기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 두 과거를 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "루시아",
+       "tl": "¿Qué {hiciste|1} el fin de semana?",
+       "ko": "주말에 뭐 {했어|1}?",
+       "rd": "께 이씨스떼 엘 핀 데 세마나?"
+      },
+      {
+       "who": "나",
+       "tl": "{Fui|1} a Toledo. {Hacía|2} mucho sol.",
+       "ko": "톨레도에 {갔어|1}. 햇볕이 엄청 {좋았어|2}.",
+       "rd": "푸이 아 똘레도. 아씨아 무초 솔."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Qué bonito! De pequeña yo {iba|2} allí con mis abuelos.",
+       "ko": "좋다! 난 어렸을 때 할머니 할아버지랑 거기 {가곤 했어|2}.",
+       "rd": "께 보니또! 데 뻬께냐 요 이바 아이 꼰 미스 아부엘로스."
+      },
+      {
+       "who": "나",
+       "tl": "¿Sí? ¿Y qué {hacíais|2}?",
+       "ko": "그래? 거기서 뭐 {하곤 했어|2}?",
+       "rd": "시? 이 께 아씨아이스?"
+      },
+      {
+       "who": "루시아",
+       "tl": "{Comíamos|2} mazapán y {paseábamos|2} junto al río.",
+       "ko": "마사판 {먹고|2} 강가를 {산책하곤 했어|2}.",
+       "rd": "꼬미아모스 마싸빤 이 빠세아바모스 훈또 알 리오."
+      },
+      {
+       "who": "나",
+       "tl": "Yo también {comí|1} mazapán. Pero {compré|1} demasiado.",
+       "ko": "나도 마사판 {먹었어|1}. 근데 너무 많이 {샀어|1}.",
+       "rd": "요 땀비엔 꼬미 마싸빤. 뻬로 꼼쁘레 데마시아도."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Ja! ¿Y te {gustó|1}?",
+       "ko": "하! 그래서 {맛있었어|1}?",
+       "rd": "하! 이 떼 구스또?"
+      },
+      {
+       "who": "나",
+       "tl": "Sí, pero mientras {comía|2}, {perdí|1} el autobús.",
+       "ko": "응, 근데 {먹는 동안|2} 버스를 {놓쳤어|1}.",
+       "rd": "시, 뻬로 미엔뜨라스 꼬미아, 뻬르디 엘 아우또부스."
+      },
+      {
+       "who": "루시아",
+       "tl": "¿Y cómo {volviste|1}?",
+       "ko": "그럼 어떻게 {돌아왔어|1}?",
+       "rd": "이 꼬모 볼비스떼?"
+      },
+      {
+       "who": "나",
+       "tl": "{Esperé|1} dos horas en la estación. {Hacía|2} un frío horrible.",
+       "ko": "역에서 두 시간 {기다렸어|1}. 엄청 {추웠어|2}.",
+       "rd": "에스뻬레 도스 오라스 엔 라 에스따씨온. 아씨아 운 프리오 오리블레."
+      }
+     ],
+     "footnotes": [
+      "한국어는 둘 다 「~했어」지만 스페인어는 두 가지예요 — 한 번 끝난 일(fui, comí) · 그때의 배경·버릇(hacía, iba).",
+      "「~곤 했어」「~하는 동안」처럼 풀리는 자리가 imperfecto 예요.",
+      "배경(mientras comía) 위에 사건(perdí el autobús)이 끼어드는 꼴이 가장 흔해요."
+     ]
+    },
+    {
+     "id": "L8-ref",
+     "kind": "ref",
+     "title": "과거 두 가지 한눈에",
+     "points": [
+      {
+       "head": "indefinido  (한 번 끝난 일)",
+       "tip": "-ar: -é · -aste · -ó / -er·-ir: -í · -iste · -ió. ir·ser 는 fui · fuiste · fue.",
+       "sentences": [
+        {
+         "tl": "Ayer hablé con mi madre.",
+         "ko": "어제 엄마랑 통화했어.",
+         "rd": "아예르 아블레 꼰 미 마드레."
+        },
+        {
+         "tl": "¿Fuiste a la fiesta?",
+         "ko": "파티 갔었어?",
+         "rd": "푸이스떼 아 라 피에스따?"
+        }
+       ]
+      },
+      {
+       "head": "imperfecto  (배경·버릇)",
+       "tip": "-ar: -aba · -abas · -aba / -er·-ir: -ía · -ías · -ía. ir 는 iba, ser 는 era.",
+       "sentences": [
+        {
+         "tl": "De niño vivía en Busan.",
+         "ko": "어릴 때 부산에 살았어.",
+         "rd": "데 니뇨 비비아 엔 부산."
+        },
+        {
+         "tl": "Era tarde y llovía.",
+         "ko": "늦은 시간이었고 비가 오고 있었어.",
+         "rd": "에라 따르데 이 요비아."
+        }
+       ]
+      },
+      {
+       "head": "둘을 같이",
+       "tip": "배경은 imperfecto, 끼어든 일은 indefinido.",
+       "sentences": [
+        {
+         "tl": "Cuando llegué, todos dormían.",
+         "ko": "내가 도착했을 때 다들 자고 있었어.",
+         "rd": "꾸안도 예게, 또도스 도르미안."
+        },
+        {
+         "tl": "Estaba en casa cuando me llamaste.",
+         "ko": "네가 전화했을 때 난 집에 있었어.",
+         "rd": "에스따바 엔 까사 꾸안도 메 야마스떼."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "title": "por·para 익히기",
+   "lessons": [
+    {
+     "id": "L9-talk",
+     "title": "por·para 익히기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 por·para 를 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "루시아",
+       "tl": "¿{Para|2} quién son esas flores?",
+       "ko": "그 꽃 누구 {주려고|2}?",
+       "rd": "빠라 끼엔 손 에사스 플로레스?"
+      },
+      {
+       "who": "나",
+       "tl": "{Para|2} mi madre. Mañana es su cumpleaños.",
+       "ko": "엄마 {드리려고|2}. 내일 생신이거든.",
+       "rd": "빠라 미 마드레. 마냐나 에스 수 꿈쁠레아뇨스."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Qué detalle! ¿Cuánto pagaste {por|1} ellas?",
+       "ko": "센스 있다! 얼마 {주고|1} 샀어?",
+       "rd": "께 데따예! 꾸안또 빠가스떼 뽀르 에야스?"
+      },
+      {
+       "who": "나",
+       "tl": "Quince euros. {Por|1} la mañana son más baratas.",
+       "ko": "15유로. {아침엔|1} 더 싸.",
+       "rd": "낀쎄 에우로스. 뽀르 라 마냐나 손 마스 바라따스."
+      },
+      {
+       "who": "루시아",
+       "tl": "¿Y se las mandas {por|1} correo?",
+       "ko": "그럼 우편{으로|1} 보내?",
+       "rd": "이 세 라스 만다스 뽀르 꼬레오?"
+      },
+      {
+       "who": "나",
+       "tl": "No, se estropean. Le mando una foto {por|1} el móvil.",
+       "ko": "아니, 시들어. 휴대폰{으로|1} 사진 보낼 거야.",
+       "rd": "노, 세 에스뜨로뻬안. 레 만도 우나 포또 뽀르 엘 모빌."
+      },
+      {
+       "who": "루시아",
+       "tl": "¡Ja! Entonces, ¿{para|2} qué compraste flores?",
+       "ko": "하! 그럼 꽃은 {뭐 하러|2} 샀어?",
+       "rd": "하! 엔똔쎄스, 빠라 께 꼼쁘라스떼 플로레스?"
+      },
+      {
+       "who": "나",
+       "tl": "{Para|2} la foto. Y luego, {para|2} ti.",
+       "ko": "사진 {찍으려고|2}. 그리고 나서 {너 주려고|2}.",
+       "rd": "빠라 라 포또. 이 루에고, 빠라 띠."
+      },
+      {
+       "who": "루시아",
+       "tl": "¿{Para|2} mí? Gracias {por|1} todo.",
+       "ko": "{나 주는 거야|2}? 이것저것 {챙겨 줘서|1} 고마워.",
+       "rd": "빠라 미? 그라씨아스 뽀르 또도."
+      },
+      {
+       "who": "나",
+       "tl": "De nada. Ahora tengo que pasar {por|1} la farmacia {para|2} comprar tiritas. Las rosas pinchan.",
+       "ko": "천만에. 이제 반창고 {사러|2} 약국에 {들러야|1} 해. 장미에 찔렸거든.",
+       "rd": "데 나다. 아오라 뗀고 께 빠사르 뽀르 라 파르마씨아 빠라 꼼쁘라르 띠리따스. 라스 로사스 삔찬."
+      }
+     ],
+     "footnotes": [
+      "para = 가는 곳·목적(~에게 주려고, ~하려고), por = 지나가는 길·까닭·값·수단(~때문에, ~로, ~에).",
+      "한국어 「~로」「~에」「~해서」가 이 둘로 갈려요 — por correo(우편으로) · para ti(너에게).",
+      "하루 때: por la mañana(아침에) · por la tarde(오후에) · por la noche(밤에)."
+     ]
+    },
+    {
+     "id": "L9-ref",
+     "kind": "ref",
+     "title": "por·para 한눈에",
+     "points": [
+      {
+       "head": "para  (~을 위해 · ~하려고 · ~까지)",
+       "tip": "받는 사람, 목적, 마감, 가는 곳.",
+       "sentences": [
+        {
+         "tl": "Este regalo es para ti.",
+         "ko": "이 선물 너 줄 거야.",
+         "rd": "에스떼 레갈로 에스 빠라 띠."
+        },
+        {
+         "tl": "Estudio para el examen.",
+         "ko": "시험 때문에 공부해.",
+         "rd": "에스뚜디오 빠라 엘 엑사멘."
+        }
+       ]
+      },
+      {
+       "head": "por  (~때문에 · ~로 · ~에 · ~를 지나)",
+       "tip": "까닭, 수단, 값, 지나가는 곳, 하루 때.",
+       "sentences": [
+        {
+         "tl": "Gracias por venir.",
+         "ko": "와 줘서 고마워.",
+         "rd": "그라씨아스 뽀르 베니르."
+        },
+        {
+         "tl": "Paseamos por el parque.",
+         "ko": "공원을 산책했어.",
+         "rd": "빠세아모스 뽀르 엘 빠르께."
+        }
+       ]
+      },
+      {
+       "head": "헷갈리는 짝",
+       "tip": "¿Para qué?(무엇을 하려고?) ↔ ¿Por qué?(왜? 무슨 까닭으로?)",
+       "sentences": [
+        {
+         "tl": "¿Por qué lloras?",
+         "ko": "왜 울어?",
+         "rd": "뽀르 께 요라스?"
+        },
+        {
+         "tl": "¿Para qué sirve esto?",
+         "ko": "이건 어디에 쓰는 거야?",
+         "rd": "빠라 께 시르베 에스또?"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "title": "접속법 익히기",
+   "lessons": [
+    {
+     "id": "L10-talk",
+     "title": "접속법 익히기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 접속법을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "루시아",
+       "tl": "Mañana vuelves a Corea, ¿no?",
+       "ko": "내일 한국 돌아가지?",
+       "rd": "마냐나 부엘베스 아 꼬레아, 노?"
+      },
+      {
+       "who": "나",
+       "tl": "Sí. {Ojalá|2} no {llueva|1}.",
+       "ko": "응. 비가 안 {오면|1} {좋겠다|2}.",
+       "rd": "시. 오할라 노 유에바."
+      },
+      {
+       "who": "루시아",
+       "tl": "{Quiero que|2} me {escribas|1} todos los días.",
+       "ko": "매일 나한테 {연락했으면|1} {좋겠어|2}.",
+       "rd": "끼에로 께 메 에스끄리바스 또도스 로스 디아스."
+      },
+      {
+       "who": "나",
+       "tl": "Vale. Y cuando {vengas|1} a Seúl, te lo enseño todo.",
+       "ko": "알았어. 그리고 네가 서울에 {오면|1} 다 보여 줄게.",
+       "rd": "발레. 이 꾸안도 벤가스 아 세울, 떼 로 엔세뇨 또도."
+      },
+      {
+       "who": "루시아",
+       "tl": "¿Me llevas a comer barbacoa coreana?",
+       "ko": "한국식 고기구이 먹으러 데려가 줄 거야?",
+       "rd": "메 예바스 아 꼬메르 바르바꼬아 꼬레아나?"
+      },
+      {
+       "who": "나",
+       "tl": "Claro. {Espero que|2} te {guste|1} el picante.",
+       "ko": "당연하지. 매운 거 {좋아했으면|1} {좋겠다|2}.",
+       "rd": "끌라로. 에스뻬로 께 떼 구스떼 엘 삐깐떼."
+      },
+      {
+       "who": "루시아",
+       "tl": "Me encanta. {Es posible que|2} {vaya|1} en verano.",
+       "ko": "완전 좋아해. 여름에 {갈지도|1} {몰라|2}.",
+       "rd": "메 엔깐따. 에스 뽀시블레 께 바야 엔 베라노."
+      },
+      {
+       "who": "나",
+       "tl": "¿En serio? Te ayudo a buscar un vuelo barato {para que|2} no {gastes|1} mucho.",
+       "ko": "진짜? 돈 많이 안 {쓰게|1} 싼 비행기표 찾는 거 도와줄게.",
+       "rd": "엔 세리오? 떼 아유도 아 부스까르 운 부엘로 바라또 빠라 께 노 가스떼스 무초."
+      },
+      {
+       "who": "루시아",
+       "tl": "Eres un sol.",
+       "ko": "너 진짜 착하다.",
+       "rd": "에레스 운 솔."
+      },
+      {
+       "who": "나",
+       "tl": "{No creo que|2} {encuentres|1} a un amigo mejor. ¡Ja, ja!",
+       "ko": "나보다 좋은 친구는 못 {찾을|1} {걸|2}? 하하!",
+       "rd": "노 끄레오 께 엔꾸엔뜨레스 아 운 아미고 메호르. 하, 하!"
+      }
+     ],
+     "footnotes": [
+      "아직 일어나지 않은 일·바람·의심을 말할 때 que 뒤 동사 꼴이 바뀌어요 — llueve(비가 와) → ojalá llueva(비가 왔으면).",
+      "한국어는 「~면 좋겠다」「~지도 몰라」「~게」 같은 어미가 같은 일을 해요.",
+      "앞일의 cuando 도 접속법 — cuando vengas(네가 오면). 지난 일은 그대로 — cuando viniste(네가 왔을 때)."
+     ]
+    },
+    {
+     "id": "L10-ref",
+     "kind": "ref",
+     "title": "접속법 한눈에",
+     "points": [
+      {
+       "head": "바람: quiero que · espero que · ojalá",
+       "tip": "내가 아닌 다른 사람이 하길 바랄 때 que + 접속법.",
+       "sentences": [
+        {
+         "tl": "Quiero que vengas.",
+         "ko": "네가 왔으면 좋겠어.",
+         "rd": "끼에로 께 벤가스."
+        },
+        {
+         "tl": "Ojalá haga buen tiempo.",
+         "ko": "날씨가 좋으면 좋겠다.",
+         "rd": "오할라 아가 부엔 띠엠뽀."
+        }
+       ]
+      },
+      {
+       "head": "의심: no creo que · es posible que",
+       "tip": "확실하지 않으면 접속법. creo que(그렇다고 생각해)는 그대로.",
+       "sentences": [
+        {
+         "tl": "No creo que sea verdad.",
+         "ko": "그게 사실일 것 같지 않아.",
+         "rd": "노 끄레오 께 세아 베르다드."
+        },
+        {
+         "tl": "Es posible que llegue tarde.",
+         "ko": "늦을지도 몰라.",
+         "rd": "에스 뽀시블레 께 예게 따르데."
+        }
+       ]
+      },
+      {
+       "head": "꼴 만들기",
+       "tip": "현재 yo 꼴에서 -o 를 떼고 -ar → -e, -er·-ir → -a. hablo → hable, como → coma, tengo → tenga.",
+       "sentences": [
+        {
+         "tl": "Cuando tengas tiempo, llámame.",
+         "ko": "시간 나면 전화해.",
+         "rd": "꾸안도 뗀가스 띠엠뽀, 야마메."
+        },
+        {
+         "tl": "Te lo digo para que lo sepas.",
+         "ko": "너 알라고 말해 주는 거야.",
+         "rd": "떼 로 디고 빠라 께 로 세빠스."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

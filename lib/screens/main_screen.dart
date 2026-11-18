@@ -16,8 +16,10 @@ import 'dialogue_card_screen.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
 import 'progress_screen.dart';
+import 'sense_course_screen.dart';
 import 'topic_vocab_screen.dart';
 import 'verb_screen.dart';
+import 'word_quiz_screen.dart';
 import 'word_freq_screen.dart';
 
 /// 메인 — 탭 4개: 배우기 · 복습 · 탐색 · 프로필. 일본어앱 main_screen.dart 의 틀을 옮긴 것(2026-11-02, 공통 프롬프터 §5).
@@ -230,6 +232,8 @@ class _LearnTabState extends State<LearnTab> {
         Text(tr('한국 학습자, 오늘도 시작해요'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, fontWeight: FontWeight.w500)),
         const SizedBox(height: 14),
         _TodayCard(key: ValueKey(DialogueService.instance.all.length)), // 회화를 다 읽은 뒤 다시 그려지게(const 면 setState 로도 안 바뀜)
+        _section(tr('정규과정')),
+        _NavRow(badge: '感', color: AppColors.ai, title: tr('언어감각 익히기'), subtitle: tr('L1 ser·estar 부터 L10 접속법까지 · 대화 통째로 외우기'), onTap: () => openPane(context, (_) => const SenseCourseScreen())),
         _section(tr('기초')),
         _NavRow(badge: 'Ñ', color: AppColors.er, title: tr('알파벳과 발음'), subtitle: tr('글자 27 · 겹글자 · θ·x·rr · 강세'), onTap: () => openPane(context, (_) => const AlphabetChartScreen())),
         _section(tr('문법')),
@@ -310,6 +314,7 @@ class ReviewTab extends StatelessWidget {
             if (d != null && context.mounted) openFull(context, (_) => DialogueCardScreen(dialogue: d));
           },
         ),
+        _NavRow(badge: '?', color: AppColors.oliva, title: tr('단어 퀴즈'), subtitle: tr('핵심 → 중급까지 → 전체 · 4지선다 10문제'), onTap: () => openFull(context, (_) => const WordQuizScreen())),
         _NavRow(badge: 'V', color: AppColors.irregular, title: tr('동사 활용'), subtitle: tr('활용표 다시 보기'), onTap: () => openPane(context, (_) => const VerbScreen())),
       ]);
 }

@@ -61,7 +61,8 @@
 "dialogues/R5/love/r5_t04_love.json": "ea39c2918844",
 "dialogues/R5/study/r5_t10_study.json": "d83357de01f8",
 "dialogues/R5/travel/r5_t06_travel.json": "041542ae1041",
-"dialogues/R5/work/r5_t02_work.json": "698744997437"
+"dialogues/R5/work/r5_t02_work.json": "698744997437",
+"grammar/sense_course.json": "0cbf65a93e75"
 },
-"rev": 1
+"rev": 2
 }
