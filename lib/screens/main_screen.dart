@@ -203,6 +203,7 @@ class _LearnTabState extends State<LearnTab> {
     DialogueService.instance.ensureLoaded().then((_) => mounted ? setState(() {}) : null);
     VerbIndex.instance.ensureLoaded().then((_) => mounted ? setState(() {}) : null);
     AchievementService.instance.changes.addListener(_changed);
+    DialogueService.instance.revision.addListener(_changed); // 서버 원고·성별판으로 다시 읽히면
   }
 
   void _changed() => mounted ? setState(() {}) : null;
@@ -210,6 +211,7 @@ class _LearnTabState extends State<LearnTab> {
   @override
   void dispose() {
     AchievementService.instance.changes.removeListener(_changed);
+    DialogueService.instance.revision.removeListener(_changed);
     super.dispose();
   }
 

@@ -1,16 +1,18 @@
 import 'dart:convert';
 
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'learner_prefs.dart';
+import 'script_sync.dart';
 import '../core/embed_env.dart';
 
-/// 회화 로더 — 일본어앱 모델(`Dialogue`·`DialogueTurn`)로 읽어 새 리더에 넘긴다(2026-11-02, 공통 프롬프터 §4).
+/// 회화 로더 — 편 JSON `assets/data/dialogues/R<0~5>/<주제>/<편id>.json`(2026-11-18, 일본어앱 구조).
 ///
-/// 데이터는 바꾸지 않는다: 지금 회화는 옛 형식 `assets/data/dialogues/L1.json`(편 배열, 턴 {num, speaker, es, ko, note, tags})
-/// 하나뿐이라 그대로 읽어 변환한다. 새 구조(R0~R4·주제별 편 JSON)로 다시 쓰는 것은 회화 작업이 풀린 뒤.
-/// 레벨은 R 로 재태그하지 않고 `L1`(「이야기」), 주제는 연애 서사라 `love`.
+/// 각 파일은 서버 판이 있으면 그것([ScriptSync], 사용자 지시 2026-11-18 「다이얼로그까지 모두 DB에서」).
+/// 여성 학습자: 편 `speakers_f`(상대 이름 교체)·턴 `tl_f`/`rd_f`/`ko_f`(성이 드러나는 줄)를 쓴다.
+/// 옛 `L1.json`(편 1개)은 더 읽지 않는다.
 /// 문장 내용어 한 개: 표면형(문장 속 모양)·기본형(사전형)·읽기(스페인어는 비움).
 class Lemma {
   final String surface, base, reading;
@@ -42,13 +44,14 @@ class DialogueTurn {
     this.art,
     this.lemmas = const [],
   });
-  factory DialogueTurn.fromJson(Map<String, dynamic> j) => DialogueTurn(
+  /// [female] = 여성 학습자판(`tl_f`·`rd_f`·`ko_f` 가 있으면 그것).
+  factory DialogueTurn.fromJson(Map<String, dynamic> j, {bool female = false}) => DialogueTurn(
         num: j['num'] as int? ?? 0,
         speaker: j['speaker'] as String? ?? 'A',
-        tl: (j['tl'] ?? j['es']) as String? ?? '',
+        tl: ((female ? j['tl_f'] : null) ?? j['tl'] ?? j['es']) as String? ?? '',
         reading: j['reading'] as String? ?? '',
-        rd: j['rd'] as String? ?? '',
-        ko: j['ko'] as String? ?? '',
+        rd: ((female ? j['rd_f'] : null) ?? j['rd']) as String? ?? '',
+        ko: ((female ? j['ko_f'] : null) ?? j['ko']) as String? ?? '',
         note: j['note'] as String? ?? '',
         tags: (j['tags'] as List?)?.cast<String>() ?? const [],
         newWords: (j['new'] as List?)?.cast<String>() ?? const [],
@@ -62,8 +65,8 @@ class DialogueTurn {
 
 class Dialogue {
   final String id;
-  final String region; // 지금은 L1(이야기)
-  final String island; // 주제 — 지금은 love
+  final String region; // R0..R5
+  final String island; // survival friends love life travel culture work study
   final String kind;
   final String title;
   final String emoji;
@@ -85,7 +88,43 @@ class Dialogue {
     required this.turns,
     this.art,
   });
+  factory Dialogue.fromJson(Map<String, dynamic> j, {bool female = false}) {
+    final sp = ((j['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v'));
+    if (female) ((j['speakers_f'] as Map?) ?? const {}).forEach((k, v) => sp['$k'] = '$v');
+    final g = <String, String>{};
+    ((j['genders'] as Map?) ?? const {}).forEach((k, v) => g['$k'] = '$v');
+    return Dialogue(
+      id: j['id'] as String,
+      region: j['region'] as String? ?? 'R1',
+      island: j['island'] as String? ?? '',
+      kind: j['kind'] as String? ?? 'long',
+      title: j['title'] as String? ?? '',
+      emoji: j['emoji'] as String? ?? '💬',
+      scene: _sceneFor(j['scene'] as String? ?? '', j, female),
+      speakers: sp,
+      genders: g,
+      turns: ((j['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromJson(t as Map<String, dynamic>, female: female)).toList(),
+      art: j['art'] as String?,
+    );
+  }
+
+  /// 여성판 장면 설명: `scene_f` 가 있으면 그것, 없으면 바뀐 상대 이름만 갈아 끼운다.
+  static String _sceneFor(String scene, Map<String, dynamic> j, bool female) {
+    if (!female) return scene;
+    if (j['scene_f'] is String) return j['scene_f'] as String;
+    var s = scene;
+    final base = (j['speakers'] as Map?) ?? const {};
+    ((j['speakers_f'] as Map?) ?? const {}).forEach((k, v) {
+      final old = '${base[k] ?? ''}';
+      if (old.isNotEmpty && !old.contains('{')) s = s.replaceAll(old, '$v');
+    });
+    return s;
+  }
+
   bool get isChat => kind == 'chat';
+
+  /// 화면에 보일 장면 설명 — 원고의 「A」(학습자)를 이름(없으면 「나」)으로(일본어앱 111).
+  String get sceneShown => scene.replaceAllMapped(RegExp(r'(?<![A-Za-z])A(?![A-Za-z]) ?(?=[가-힣])'), (_) => speakerName('A'));
 
   /// 화자 표시 이름: `{name}`(학습자 자리) → 프로필 이름, 없으면 「나」.
   String speakerName(String sp) {
@@ -100,24 +139,39 @@ class Dialogue {
     return genders[sp] ?? LearnerPrefs.voiceGender(sp);
   }
 
-  String get orderKey => id;
+  /// 편 순서 키: survival → a → b → c, 번호 순.
+  String get orderKey {
+    final m = RegExp(r'_([abcst])(\d+)$').firstMatch(id);
+    if (m == null) return id;
+    const o = {'s': 0, 'a': 1, 'b': 2, 'c': 3, 't': 4};
+    return '${o[m.group(1)]}${m.group(2)!.padLeft(2, '0')}';
+  }
 }
 
 class DialogueService {
   DialogueService._();
   static final DialogueService instance = DialogueService._();
 
-  static const islands = ['love'];
-  static const islandKo = {'love': '사랑'};
-  static const islandEmoji = {'love': '💘'};
-  static const levels = ['L1'];
-  static const levelKo = {'L1': '이야기'};
+  static const islands = ['survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', 'study'];
+  static const islandKo = {
+    'survival': '서바이벌', 'friends': '친구', 'love': '사랑', 'life': '생활',
+    'travel': '여행', 'culture': '문화', 'work': '일', 'study': '학업',
+  };
+  static const islandEmoji = {
+    'survival': '🆘', 'friends': '🤝', 'love': '💘', 'life': '🏠',
+    'travel': '✈️', 'culture': '🎬', 'work': '💼', 'study': '🎓',
+  };
+  static const levels = ['R0', 'R1', 'R2', 'R3', 'R4', 'R5'];
+  static const levelKo = {'R0': '왕초보', 'R1': '초보', 'R2': '중급', 'R3': '고급', 'R4': '최상급', 'R5': '어휘 완주'};
   static final _prefLast = pk('dialogue_last');
-  static const _files = ['assets/data/dialogues/L1.json'];
 
   final Map<String, Dialogue> _byId = {};
   Future<void>? _loading;
   String? _lastOpened;
+  bool? _female; // 읽을 때의 학습자 성별 — 바뀌면 다시 읽는다
+
+  /// 원고가 서버 판으로 바뀌거나 학습자 성별이 바뀌어 다시 읽힐 때마다 오른다.
+  final ValueNotifier<int> revision = ValueNotifier(0);
 
   /// 마지막으로 연 편(홈 「이어서 읽기」).
   String? get lastOpenedId => _lastOpened;
@@ -131,38 +185,46 @@ class DialogueService {
 
   Future<void> _load() async {
     _lastOpened = (await SharedPreferences.getInstance()).getString(_prefLast);
-    for (final path in _files) {
+    await _readAll();
+    LearnerPrefs.gender.addListener(() async {
+      if (_female == LearnerPrefs.isFemale) return;
+      await _readAll();
+      revision.value++;
+    });
+    // 서버에 더 새 원고가 있으면 뒤에서 받아 다시 읽는다(없거나 실패하면 그대로)
+    ScriptSync.instance.refresh().then((changed) async {
+      if (!changed) return;
+      await _readAll();
+      revision.value++;
+    });
+  }
+
+  static final _pat = RegExp(r'^assets/data/dialogues/R[0-5]/[^/]+/[^/]+\.json$');
+
+  /// 앱 안 편 + 서버에서 받은 새 편 − 서버에서 뺀 편. 각 파일은 덮어쓴 판이 있으면 그것.
+  Future<void> _readAll() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
+    final female = LearnerPrefs.isFemale;
+    final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+    final rels = <String>{
+      for (final k in manifest.listAssets())
+        if (unpackAsset(k) case final p? when _pat.hasMatch(p)) p.substring('assets/data/'.length),
+      ...sync.added.where((p) => _pat.hasMatch('assets/data/$p')),
+    }..removeAll(sync.removed);
+    final next = <String, Dialogue>{};
+    for (final rel in rels) {
       try {
-        final j = json.decode(await rootBundle.loadString(assetPath(path))) as Map<String, dynamic>;
-        final level = j['level'] as String? ?? 'L1';
-        final chars = (j['characters'] as Map?) ?? const {};
-        final speakers = <String, String>{}, genders = <String, String>{};
-        chars.forEach((k, v) {
-          final m = v as Map;
-          speakers['$k'] = '${m['name'] ?? k}';
-          if (m['gender'] != null) genders['$k'] = '${m['gender']}';
-        });
-        for (final e in (j['episodes'] as List? ?? const [])) {
-          final ep = e as Map<String, dynamic>;
-          final turns = ((ep['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromJson(t as Map<String, dynamic>)).toList();
-          if (turns.isEmpty) continue;
-          final id = '${level}_${ep['id']}';
-          _byId[id] = Dialogue(
-            id: id,
-            region: level,
-            island: 'love',
-            kind: 'long',
-            title: ep['title'] as String? ?? '',
-            emoji: ep['emoji'] as String? ?? '💬',
-            scene: ep['scenario'] as String? ?? '',
-            speakers: speakers,
-            genders: genders,
-            turns: turns,
-            art: ep['art'] as String?,
-          );
-        }
-      } catch (_) {}
+        final d = Dialogue.fromJson(json.decode(await sync.load(rel)) as Map<String, dynamic>, female: female);
+        if (d.turns.isNotEmpty) next[d.id] = d;
+      } catch (e) {
+        debugPrint('DialogueService: $rel 읽기 실패 $e');
+      }
     }
+    _female = female;
+    _byId
+      ..clear()
+      ..addAll(next);
   }
 
   Dialogue? byId(String id) => _byId[id];
@@ -170,7 +232,7 @@ class DialogueService {
 
   List<Dialogue> list({String? region, String? island}) {
     final out = _byId.values.where((d) => (region == null || d.region == region) && (island == null || d.island == island)).toList();
-    out.sort((a, b) => a.orderKey.compareTo(b.orderKey));
+    out.sort((a, b) => a.region != b.region ? a.region.compareTo(b.region) : a.orderKey.compareTo(b.orderKey));
     return out;
   }
 

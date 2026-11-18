@@ -4,6 +4,17 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 const Map<String, String> kDictEn = {
+  '왕초보': 'Absolute beginner',
+  '초보': 'Beginner',
+  '중급': 'Intermediate',
+  '고급': 'Advanced',
+  '최상급': 'Top level',
+  '어휘 완주': 'Vocabulary finish',
+  '서바이벌': 'Survival',
+  '친구': 'Friends',
+  '생활': 'Daily life',
+  '여행': 'Travel',
+  '학업': 'Studies',
   '다른 언어 배우기': 'Learn another language',
   'Talkverse 의 다른 언어 과정으로': 'Go to another Talkverse course',
   // 이용권·결제(2026-11-09 가격 확정)
@@ -320,6 +331,17 @@ const Map<String, String> kDictEn = {
 };
 
 const Map<String, String> kDictJa = {
+  '왕초보': '入門',
+  '초보': '初級',
+  '중급': '中級',
+  '고급': '上級',
+  '최상급': '最上級',
+  '어휘 완주': '語彙の仕上げ',
+  '서바이벌': 'サバイバル',
+  '친구': '友だち',
+  '생활': '生活',
+  '여행': '旅行',
+  '학업': '勉強',
   '다른 언어 배우기': '他の言語を学ぶ',
   'Talkverse 의 다른 언어 과정으로': 'Talkverseの他の言語コースへ',
   // 이용권·결제(2026-11-09 가격 확정)
@@ -625,6 +647,17 @@ const Map<String, String> kDictJa = {
 };
 
 const Map<String, String> kDictZh = {
+  '왕초보': '入门',
+  '초보': '初级',
+  '중급': '中级',
+  '고급': '高级',
+  '최상급': '最高级',
+  '어휘 완주': '词汇收尾',
+  '서바이벌': '生存',
+  '친구': '朋友',
+  '생활': '生活',
+  '여행': '旅行',
+  '학업': '学业',
   '다른 언어 배우기': '学习其他语言',
   'Talkverse 의 다른 언어 과정으로': '前往 Talkverse 的其他语言课程',
   // 이용권·결제(2026-11-09 가격 확정)
