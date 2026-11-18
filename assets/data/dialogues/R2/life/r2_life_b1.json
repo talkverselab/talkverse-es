@@ -38,7 +38,7 @@
    "tl": "Tío, ¿qué hacen estas sillas aquí?",
    "rd": "띠오, 께 아쎈 에스따스 시야스 아끼?",
    "ko": "야, 이 의자들 여기서 뭐 하는 거야?",
-   "note": "pasillo = 복도",
+   "note": "",
    "tags": [
     "expr:oye"
    ],
@@ -49,7 +49,8 @@
    "emotion": "surprised",
    "tl_f": "Tía, ¿qué hacen estas sillas aquí?",
    "note_stale": true,
-   "rd_f": "띠아, 께 아쎈 에스따스 시야스 아끼?"
+   "rd_f": "띠아, 께 아쎈 에스따스 시야스 아끼?",
+   "note_claude_old": "pasillo = 복도"
   },
   {
    "num": 2,
@@ -57,7 +58,7 @@
    "tl": "En plan, le dije sí sí y ya.",
    "rd": "엔 쁠란, 레 디헤 시 시 이 야.",
    "ko": "그냥 네 네 했더니 이렇게 됐어.",
-   "note": "hablé = 단순과거 「얘기했다」",
+   "note": "",
    "tags": [
     "expr:ni idea",
     "form:indefinido"
@@ -66,7 +67,8 @@
     "vecino"
    ],
    "emotion": "flustered",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "hablé = 단순과거 「얘기했다」"
   },
   {
    "num": 3,
@@ -74,13 +76,14 @@
    "tl": "¿Qué dijiste exactamente?",
    "rd": "께 디히스떼 엑사끄따멘떼?",
    "ko": "정확히 뭐라고 했어?",
-   "note": "madre mía = 세상에",
+   "note": "",
    "tags": [
     "expr:madre mía"
    ],
    "new": [],
    "emotion": "neutral",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "madre mía = 세상에"
   },
   {
    "num": 4,
@@ -88,7 +91,7 @@
    "tl": "No sé, hablaba y no entendía.",
    "rd": "노 세, 아블라바 이 노 엔뗀디아.",
    "ko": "모르겠어, 말하고 있었는데 이해 못 했어.",
-   "note": "hablaba = 불완료, 그때 계속 이어지던 일",
+   "note": "",
    "tags": [
     "form:imperfecto"
    ],
@@ -96,7 +99,8 @@
     "rápido"
    ],
    "emotion": "worried",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "hablaba = 불완료, 그때 계속 이어지던 일"
   },
   {
    "num": 5,
@@ -104,7 +108,7 @@
    "tl": "Qué fuerte, tío. Tú hablabas poco.",
    "rd": "께 푸에르떼, 띠오. 뚜 아블라바스 뽀꼬.",
    "ko": "대박이네, 야. 너 말 별로 안 했잖아.",
-   "note": "decir que sí = 그러겠다고 하다",
+   "note": "",
    "tags": [
     "expr:tío"
    ],
@@ -112,7 +116,8 @@
    "emotion": "teasing",
    "tl_f": "Qué fuerte, tía. Tú hablabas poco.",
    "note_stale": true,
-   "rd_f": "께 푸에르떼, 띠아. 뚜 아블라바스 뽀꼬."
+   "rd_f": "께 푸에르떼, 띠아. 뚜 아블라바스 뽀꼬.",
+   "note_claude_old": "decir que sí = 그러겠다고 하다"
   },
   {
    "num": 6,
@@ -120,7 +125,7 @@
    "tl": "Solo decía sí, sí.",
    "rd": "솔로 데씨아 시, 시.",
    "ko": "그냥 네, 네만 했어.",
-   "note": "parecer = ~해 보이다",
+   "note": "",
    "tags": [
     "expr:bueno"
    ],
@@ -129,7 +134,8 @@
     "contento"
    ],
    "emotion": "flustered",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "parecer = ~해 보이다"
   },
   {
    "num": 7,
@@ -137,7 +143,7 @@
    "tl": "¡Oye, ¿por qué hay doce sillas?!",
    "rd": "오예, 뽀르 께 아이 도쎄 시야스?!",
    "ko": "야, 왜 의자 열두 개나 있어?!",
-   "note": "¿Dónde pongo…? = ~를 어디 놓을까?",
+   "note": "",
    "tags": [
     "form:poner"
    ],
@@ -145,7 +151,8 @@
     "paella"
    ],
    "emotion": "shout",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "¿Dónde pongo…? = ~를 어디 놓을까?"
   },
   {
    "num": 8,
@@ -153,13 +160,14 @@
    "tl": "¡Jajaja! Él dijo que sí.",
    "rd": "하하하! 엘 디호 께 시.",
    "ko": "ㅋㅋ! 얘가 네라고 했어.",
-   "note": "perdone = 어른께 쓰는 usted 형",
+   "note": "",
    "tags": [
     "expr:qué pasa"
    ],
    "new": [],
    "emotion": "amused",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "perdone = 어른께 쓰는 usted 형"
   },
   {
    "num": 9,
@@ -167,7 +175,7 @@
    "tl": "Vale, pues las quitamos juntos.",
    "rd": "발레, 뿌에스 라스 끼따모스 훈또스.",
    "ko": "그래, 그럼 같이 치우자.",
-   "note": "vuestro = 너희의(스페인식 vosotros)",
+   "note": "",
    "tags": [
     "form:vosotros"
    ],
@@ -176,7 +184,8 @@
     "piso"
    ],
    "emotion": "cheerful",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "vuestro = 너희의(스페인식 vosotros)"
   },
   {
    "num": 10,
@@ -184,13 +193,14 @@
    "tl": "Perdón, no lo sabía.",
    "rd": "뻬르돈, 노 로 사비아.",
    "ko": "미안, 몰랐어.",
-   "note": "¿Cuántos…? = 몇 개?",
+   "note": "",
    "tags": [],
    "new": [
     "plato"
    ],
    "emotion": "shy",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "¿Cuántos…? = 몇 개?"
   },
   {
    "num": 11,
@@ -198,7 +208,7 @@
    "tl": "Venga, ¡esto es una locura!",
    "rd": "벤가, 에스또 에스 우나 로꾸라!",
    "ko": "자, 완전 미친 일이야!",
-   "note": "di = decir 의 명령형",
+   "note": "",
    "tags": [
     "form:imperativo"
    ],
@@ -206,7 +216,8 @@
     "entender"
    ],
    "emotion": "excited",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "di = decir 의 명령형"
   },
   {
    "num": 12,
@@ -214,11 +225,12 @@
    "tl": "Nunca más digo sí sí.",
    "rd": "눈까 마스 디고 시 시.",
    "ko": "이제 네 네 안 할게.",
-   "note": "입버릇은 안 고쳐진다 — 끝 줄 콜백",
+   "note": "",
    "tags": [],
    "new": [],
    "emotion": "gentle",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "입버릇은 안 고쳐진다 — 끝 줄 콜백"
   }
  ],
  "draft": "grok",

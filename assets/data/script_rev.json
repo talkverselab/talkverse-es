@@ -14,7 +14,7 @@
 "dialogues/R1/friends/r1_s10_friends.json": "6afbddbc2214",
 "dialogues/R1/life/r1_s01_life.json": "91b349487b38",
 "dialogues/R1/life/r1_s07_life.json": "652d6ad87b0a",
-"dialogues/R1/love/r1_love_a1.json": "27a10e42a3d9",
+"dialogues/R1/love/r1_love_a1.json": "2d2b918e5290",
 "dialogues/R1/love/r1_s03_love.json": "2ddacb9759e4",
 "dialogues/R1/love/r1_s05_love.json": "beac691c7caf",
 "dialogues/R1/love/r1_s09_love.json": "544117bf3a38",
@@ -22,7 +22,7 @@
 "dialogues/R2/friends/r2_s04_friends.json": "c64183ab4114",
 "dialogues/R2/friends/r2_s05_friends.json": "ff58d4c343e8",
 "dialogues/R2/friends/r2_s07_friends.json": "4ec22120bd27",
-"dialogues/R2/life/r2_life_b1.json": "c717f9be00d8",
+"dialogues/R2/life/r2_life_b1.json": "ba3875e2f6cd",
 "dialogues/R2/life/r2_s03_life.json": "087b4aeddc43",
 "dialogues/R2/life/r2_s09_life.json": "10bc46182214",
 "dialogues/R2/love/r2_s01_love.json": "c7440e59f466",
@@ -31,7 +31,7 @@
 "dialogues/R2/travel/r2_s02_travel.json": "32201922b4f4",
 "dialogues/R2/work/r2_s06_work.json": "b2130f1a384c",
 "dialogues/R3/culture/r3_s08_culture.json": "1dcb511ab254",
-"dialogues/R3/friends/r3_friends_b1.json": "e12174ccfe0c",
+"dialogues/R3/friends/r3_friends_b1.json": "e7a8253e2719",
 "dialogues/R3/friends/r3_s02_friends.json": "e773b71a47c1",
 "dialogues/R3/friends/r3_s04_friends.json": "4ade7b7ae3f4",
 "dialogues/R3/friends/r3_s10_friends.json": "eb59f55a6f05",
@@ -51,7 +51,7 @@
 "dialogues/R4/study/r4_g08_study.json": "eca01a39ec29",
 "dialogues/R4/travel/r4_g02_travel.json": "bfae7ef91d06",
 "dialogues/R4/work/r4_g03_work.json": "575c7001dce3",
-"dialogues/R4/work/r4_work_b1.json": "c92887642e4f",
+"dialogues/R4/work/r4_work_b1.json": "f0d48a3f16c0",
 "dialogues/R5/culture/r5_t08_culture.json": "4c6bf239ebde",
 "dialogues/R5/friends/r5_t05_friends.json": "256f24a8f994",
 "dialogues/R5/friends/r5_t09_friends.json": "7e6dc8dae9d8",
@@ -64,5 +64,5 @@
 "dialogues/R5/work/r5_t02_work.json": "698744997437",
 "grammar/sense_course.json": "0cbf65a93e75"
 },
-"rev": 3
+"rev": 4
 }

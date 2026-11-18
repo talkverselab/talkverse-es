@@ -35,13 +35,14 @@
    "tl": "{name}, ¿puede pasar un momento, por favor?",
    "rd": "{name}, 뿌에데 빠사르 운 모멘또, 뽀르 파보르?",
    "ko": "{name} 씨, 잠깐 들어오실래요?",
-   "note": "¿Tendrías…? = 조건법으로 부드럽게 묻기",
+   "note": "",
    "tags": [
     "form:condicional"
    ],
    "new": [],
    "emotion": "polite",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "¿Tendrías…? = 조건법으로 부드럽게 묻기"
   },
   {
    "num": 2,
@@ -49,7 +50,7 @@
    "tl": "Vale. ¿Qué ocurre, Directora?",
    "rd": "발레. 께 오꾸레, 디레끄또라?",
    "ko": "네. 무슨 일이에요, 이사님?",
-   "note": "habría enviado = 보냈을 텐데(변명의 정석)",
+   "note": "",
    "tags": [
     "form:condicional_perfecto"
    ],
@@ -57,7 +58,8 @@
     "informe"
    ],
    "emotion": "neutral",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "habría enviado = 보냈을 텐데(변명의 정석)"
   },
   {
    "num": 3,
@@ -65,13 +67,14 @@
    "tl": "El correo de anoche se envió a toda la empresa.",
    "rd": "엘 꼬레오 데 아노체 세 엔비오 아 또다 라 엠쁘레사.",
    "ko": "어젯밤 메일이 회사 전체에 갔어요.",
-   "note": "correo = 메일",
+   "note": "",
    "tags": [],
    "new": [
     "correo"
    ],
    "emotion": "stiff",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "correo = 메일"
   },
   {
    "num": 4,
@@ -79,7 +82,7 @@
    "tl": "¡Ay, no! Lo siento. Era para un compañero.",
    "rd": "아이, 노! 로 시엔또. 에라 빠라 운 꼼빠녜로.",
    "ko": "아, 안 돼! 죄송해요. 동료한테만 보낼 거였는데.",
-   "note": "para que + 접속법 과거 = ~하도록",
+   "note": "",
    "tags": [
     "form:subjuntivo_imperfecto"
    ],
@@ -87,7 +90,8 @@
     "echar una mano"
    ],
    "emotion": "flustered",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "para que + 접속법 과거 = ~하도록"
   },
   {
    "num": 5,
@@ -95,7 +99,7 @@
    "tl": "¿Por qué lo mandó así?",
    "rd": "뽀르 께 로 만도 아시?",
    "ko": "왜 그렇게 보내셨어요?",
-   "note": "digamos que = 말하자면(완곡)",
+   "note": "",
    "tags": [
     "expr:ya"
    ],
@@ -103,7 +107,8 @@
     "responder"
    ],
    "emotion": "neutral",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "digamos que = 말하자면(완곡)"
   },
   {
    "num": 6,
@@ -111,13 +116,14 @@
    "tl": "Lo mandé para que me echara una mano.",
    "rd": "로 만데 빠라 께 메 에차라 우나 마노.",
    "ko": "손 좀 빌려달라고 보내려고 한 거예요.",
-   "note": "podrían haber sido = ~일 수도 있었다",
+   "note": "",
    "tags": [
     "expr:madre mía"
    ],
    "new": [],
    "emotion": "worried",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "podrían haber sido = ~일 수도 있었다"
   },
   {
    "num": 7,
@@ -125,7 +131,7 @@
    "tl": "Yo le habría echado una mano sin problema.",
    "rd": "요 레 아브리아 에차도 우나 마노 신 쁘로블레마.",
    "ko": "난 문제없이 도와줬을 텐데요.",
-   "note": "hacer falta = 필요하다",
+   "note": "",
    "tags": [
     "form:relativo"
    ],
@@ -134,7 +140,8 @@
     "comparar"
    ],
    "emotion": "gentle",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "hacer falta = 필요하다"
   },
   {
    "num": 8,
@@ -142,7 +149,7 @@
    "tl": "Ya. Habría enviado solo a él.",
    "rd": "야. 아브리아 엔비아도 솔로 아 엘.",
    "ko": "그래요. 그에게만 보냈을 거예요.",
-   "note": "si me permite = 괜찮으시다면(격식)",
+   "note": "",
    "tags": [
     "form:usted"
    ],
@@ -150,7 +157,8 @@
     "disculparse"
    ],
    "emotion": "flustered",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "si me permite = 괜찮으시다면(격식)"
   },
   {
    "num": 9,
@@ -158,13 +166,14 @@
    "tl": "Pero ahora todo el mundo lo ha visto.",
    "rd": "뻬로 아오라 또도 엘 문도 로 아 비스또.",
    "ko": "근데 이제 모두가 봤어요.",
-   "note": "en voz alta = 소리 내어",
+   "note": "",
    "tags": [
     "form:perfecto"
    ],
    "new": [],
    "emotion": "worried",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "en voz alta = 소리 내어"
   },
   {
    "num": 10,
@@ -172,7 +181,7 @@
    "tl": "¡Qué fuerte! No me lo esperaba.",
    "rd": "께 푸에르떼! 노 메 로 에스뻬라바.",
    "ko": "진짜 대박! 예상 못 했어요.",
-   "note": "ir + 현재분사 = 슬슬 ~하다",
+   "note": "",
    "tags": [
     "form:perifrasis"
    ],
@@ -180,7 +189,8 @@
     "recoger"
    ],
    "emotion": "surprised",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "ir + 현재분사 = 슬슬 ~하다"
   },
   {
    "num": 11,
@@ -188,7 +198,7 @@
    "tl": "Y no para. Más y más respuestas. Es un caos.",
    "rd": "이 노 빠라. 마스 이 마스 레스뿌에스따스. 에스 운 까오스.",
    "ko": "멈추질 않아요. 답장이 점점 더 많아져요. 완전 난리예요.",
-   "note": "querer que + 접속법",
+   "note": "",
    "tags": [
     "expr:al contrario",
     "form:subjuntivo"
@@ -197,7 +207,8 @@
     "comité"
    ],
    "emotion": "annoyed",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "querer que + 접속법"
   },
   {
    "num": 12,
@@ -205,7 +216,7 @@
    "tl": "¡Ja ja! ¿En serio? Esto es una locura.",
    "rd": "하 하! 엔 세리오? 에스또 에스 우나 로꾸라.",
    "ko": "하하! 진짜요? 이거 완전 미친 거 같아요.",
-   "note": "si puede saberse = 실례지만(살짝 비꼼)",
+   "note": "",
    "tags": [],
    "new": [],
    "segs": [
@@ -218,7 +229,8 @@
      "¿En serio? Esto es una locura."
     ]
    ],
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "si puede saberse = 실례지만(살짝 비꼼)"
   },
   {
    "num": 13,
@@ -226,13 +238,14 @@
    "tl": "Hasta el jefe ha preguntado por ello.",
    "rd": "아스따 엘 헤페 아 쁘레군따도 뽀르 에요.",
    "ko": "상사까지 물어봤어요.",
-   "note": "reducir = 줄이다",
+   "note": "",
    "tags": [],
    "new": [
     "reducir"
    ],
    "emotion": "surprised",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "reducir = 줄이다"
   },
   {
    "num": 14,
@@ -240,13 +253,14 @@
    "tl": "¡Qué nervios! Estoy hecho polvo.",
    "rd": "께 네르비오스! 에스또이 에초 뽈보.",
    "ko": "헐! 완전 망했어요.",
-   "note": "¿Y si…? = ~하면 어떨까?",
+   "note": "",
    "tags": [],
    "new": [],
    "emotion": "flustered",
    "tl_f": "¡Qué nervios! Estoy hecha polvo.",
    "note_stale": true,
-   "rd_f": "께 네르비오스! 에스또이 에차 뽈보."
+   "rd_f": "께 네르비오스! 에스또이 에차 뽈보.",
+   "note_claude_old": "¿Y si…? = ~하면 어떨까?"
   },
   {
    "num": 15,
@@ -254,13 +268,14 @@
    "tl": "Venga, lo solucionamos. No se preocupe, ¿vale?",
    "rd": "벤가, 로 솔루씨오나모스. 노 세 쁘레오꾸뻬, 발레?",
    "ko": "자, 해결해요. 걱정 마세요, 알겠죠?",
-   "note": "ni se te ocurra = 절대 그러지 마",
+   "note": "",
    "tags": [
     "expr:ni se te ocurra"
    ],
    "new": [],
    "emotion": "gentle",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "ni se te ocurra = 절대 그러지 마"
   }
  ],
  "draft": "grok",

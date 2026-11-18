@@ -40,7 +40,7 @@
    "tl": "Vale, {name}, mira al bar de enfrente. ¿Ves a esa chica? ¡Qué fuerte!",
    "rd": "발레, {name}, 미라 알 바르 데 엔프렌떼. 베스 아 에사 치까? 께 푸에르떼!",
    "ko": "발레, {name}, 건너편 바 좀 봐. 저 여자애 보여? 대박!",
-   "note": "quedar = (친구와) 만나기로 하다",
+   "note": "",
    "tags": [
     "expr:menos mal",
     "form:quedar"
@@ -50,7 +50,8 @@
     "aparecer"
    ],
    "emotion": "surprised",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "quedar = (친구와) 만나기로 하다"
   },
   {
    "num": 2,
@@ -58,7 +59,7 @@
    "tl": "¿Quién es? No la veo bien desde aquí.",
    "rd": "끼엔 에스? 노 라 베오 비엔 데스데 아끼.",
    "ko": "누구야? 여기서는 잘 안 보여.",
-   "note": "enterarse = 알게 되다",
+   "note": "",
    "tags": [
     "form:si"
    ],
@@ -67,7 +68,8 @@
     "enterarse"
    ],
    "emotion": "neutral",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "enterarse = 알게 되다"
   },
   {
    "num": 3,
@@ -75,7 +77,7 @@
    "tl": "Es una amiga de Javi. En plan, ¡le gusta mucho!",
    "rd": "에스 우나 아미가 데 하비. 엔 쁠란, 레 구스따 무초!",
    "ko": "자비 친구야. 엔 플란, 걔가 엄청 좋아해!",
-   "note": "desde hace = ~전부터 쭉",
+   "note": "",
    "tags": [
     "expr:tío"
    ],
@@ -83,7 +85,8 @@
     "medianoche"
    ],
    "emotion": "teasing",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "desde hace = ~전부터 쭉"
   },
   {
    "num": 4,
@@ -91,7 +94,7 @@
    "tl": "¿En serio? Vale, ¡qué fuerte!",
    "rd": "엔 세리오? 발레, 께 푸에르떼!",
    "ko": "진짜? 발레, 대박!",
-   "note": "en tu lugar = 네 입장이라면 + 조건법",
+   "note": "",
    "tags": [
     "form:condicional"
    ],
@@ -100,7 +103,8 @@
     "cruel"
    ],
    "emotion": "surprised",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "en tu lugar = 네 입장이라면 + 조건법"
   },
   {
    "num": 5,
@@ -108,7 +112,7 @@
    "tl": "Sí. Cuando llegue, le digo que la mire.",
    "rd": "시. 꾸안도 예게, 레 디고 께 라 미레.",
    "ko": "응. 도착하면 걔 보라고 말할 거야.",
-   "note": "cuando + 접속법 = 앞으로 ~하면",
+   "note": "",
    "tags": [
     "expr:ya verás",
     "form:subjuntivo"
@@ -117,7 +121,8 @@
     "excusa"
    ],
    "emotion": "cheerful",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "cuando + 접속법 = 앞으로 ~하면"
   },
   {
    "num": 6,
@@ -125,7 +130,7 @@
    "tl": "¿A qué hora quedamos hoy?",
    "rd": "아 께 오라 께다모스 오이?",
    "ko": "우리 오늘 몇 시에 만나기로 했지?",
-   "note": "llevar + 시간 = ~째 그러고 있다",
+   "note": "",
    "tags": [
     "expr:por cierto"
    ],
@@ -133,7 +138,8 @@
     "enfrente"
    ],
    "emotion": "neutral",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "llevar + 시간 = ~째 그러고 있다"
   },
   {
    "num": 7,
@@ -141,14 +147,15 @@
    "tl": "Nosotros quedamos a las ocho. ¡Él queda a las siete!",
    "rd": "노소뜨로스 께다모스 아 라스 오초. 엘 께다 아 라스 시에떼!",
    "ko": "우리는 여덟 시에 만나기로 했어. 걔는 일곱 시에!",
-   "note": "no puede ser = 말도 안 돼",
+   "note": "",
    "tags": [
     "expr:no puede ser",
     "expr:espera"
    ],
    "new": [],
    "emotion": "amused",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "no puede ser = 말도 안 돼"
   },
   {
    "num": 8,
@@ -156,7 +163,7 @@
    "tl": "¡Hola, tíos! Llego puntual por fin. ¡Venga!",
    "rd": "올라, 띠오스! 예고 뿐뚜알 뽀르 핀. 벤가!",
    "ko": "안녕, 티오스! 드디어 제시간에 왔어. 벤가!",
-   "note": "pillar = 잡다·들키다(구어)",
+   "note": "",
    "tags": [
     "expr:vaya"
    ],
@@ -166,7 +173,8 @@
    "emotion": "cheerful",
    "tl_f": "¡Hola, tías! Llego puntual por fin. ¡Venga!",
    "note_stale": true,
-   "rd_f": "올라, 띠아스! 예고 뿐뚜알 뽀르 핀. 벤가!"
+   "rd_f": "올라, 띠아스! 예고 뿐뚜알 뽀르 핀. 벤가!",
+   "note_claude_old": "pillar = 잡다·들키다(구어)"
   },
   {
    "num": 9,
@@ -174,11 +182,12 @@
    "tl": "¡Qué fuerte! ¿Has visto a la chica de enfrente?",
    "rd": "께 푸에르떼! 아스 비스또 아 라 치까 데 엔프렌떼?",
    "ko": "대박! 건너편 여자애 봤어?",
-   "note": "pero si… = 아니 ~잖아(반박)",
+   "note": "",
    "tags": [],
    "new": [],
    "emotion": "excited",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "pero si… = 아니 ~잖아(반박)"
   },
   {
    "num": 10,
@@ -186,13 +195,14 @@
    "tl": "La he visto. Lucía, ¿me dices una hora antes desde hace tres años?",
    "rd": "라 에 비스또. 루씨아, 메 디쎄스 우나 오라 안떼스 데스데 아쎄 뜨레스 아뇨스?",
    "ko": "봤어. 루시아, 나 삼 년째 한 시간 일찍 말하고 있었어?",
-   "note": "lo sé = 알고 있어",
+   "note": "",
    "tags": [
     "expr:ya"
    ],
    "new": [],
    "emotion": "surprised",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "lo sé = 알고 있어"
   },
   {
    "num": 11,
@@ -200,13 +210,14 @@
    "tl": "Porque llegas tarde siempre, tío. ¡Yo diría que está bien!",
    "rd": "뽀르께 예가스 따르데 시엠쁘레, 띠오. 요 디리아 께 에스따 비엔!",
    "ko": "항상 늦으니까, 티오. 난 괜찮다고 할 거야!",
-   "note": "¿Cómo que…? = ~라니?",
+   "note": "",
    "tags": [
     "expr:cómo que"
    ],
    "new": [],
    "emotion": "teasing",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "¿Cómo que…? = ~라니?"
   },
   {
    "num": 12,
@@ -214,13 +225,14 @@
    "tl": "No, tía, ¡no está bien! Me engañas siempre.",
    "rd": "노, 띠아, 노 에스따 비엔! 메 엔가냐스 시엠쁘레.",
    "ko": "아니, 티아, 안 괜찮아! 매번 속이고 있잖아.",
-   "note": "esperándome = 나를 기다리면서",
+   "note": "",
    "tags": [
     "form:gerundio"
    ],
    "new": [],
    "emotion": "annoyed",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "esperándome = 나를 기다리면서"
   },
   {
    "num": 13,
@@ -228,7 +240,7 @@
    "tl": "En plan, ¿tres años así? ¡Qué fuerte!",
    "rd": "엔 쁠란, 뜨레스 아뇨스 아시? 께 푸에르떼!",
    "ko": "엔 플란, 삼 년이나? 대박!",
-   "note": "sobrar = 남아돌다, 「내가 낄 자리가 아니다」",
+   "note": "",
    "tags": [
     "expr:madre mía"
    ],
@@ -236,7 +248,8 @@
     "sobrar"
    ],
    "emotion": "surprised",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "sobrar = 남아돌다, 「내가 낄 자리가 아니다」"
   },
   {
    "num": 14,
@@ -244,7 +257,7 @@
    "tl": "Vale. Cuando llegue a tiempo, me callo. ¡Ja ja!",
    "rd": "발레. 꾸안도 예게 아 띠엠뽀, 메 까요. 하 하!",
    "ko": "발레. 제시간에 오면 입 다물게. 하하!",
-   "note": "no digas = 부정 명령(접속법)",
+   "note": "",
    "tags": [
     "form:imperativo"
    ],
@@ -252,7 +265,8 @@
     "tontería"
    ],
    "emotion": "amused",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "no digas = 부정 명령(접속법)"
   },
   {
    "num": 15,
@@ -260,7 +274,7 @@
    "tl": "Yo diría que quedamos a la hora de verdad. ¡Venga!",
    "rd": "요 디리아 께 께다모스 아 라 오라 데 베르다드. 벤가!",
    "ko": "난 진짜 시간에 만나자고 할 거야. 벤가!",
-   "note": "llevo aquí = 여기 쭉 있다",
+   "note": "",
    "tags": [
     "expr:claro"
    ],
@@ -268,7 +282,8 @@
     "frío"
    ],
    "emotion": "tsukkomi",
-   "note_stale": true
+   "note_stale": true,
+   "note_claude_old": "llevo aquí = 여기 쭉 있다"
   },
   {
    "num": 16,
@@ -276,7 +291,7 @@
    "tl": "¡Venga, tíos! No pasa nada. ¿Entramos al bar?",
    "rd": "벤가, 띠오스! 노 빠사 나다. 엔뜨라모스 알 바르?",
    "ko": "벤가, 티오스! 별일 아니야. 바에 들어갈까?",
-   "note": "anda = 「에이, 됐고」",
+   "note": "",
    "tags": [
     "expr:anda"
    ],
@@ -284,7 +299,8 @@
    "emotion": "gentle",
    "tl_f": "¡Venga, tías! No pasa nada. ¿Entramos al bar?",
    "note_stale": true,
-   "rd_f": "벤가, 띠아스! 노 빠사 나다. 엔뜨라모스 알 바르?"
+   "rd_f": "벤가, 띠아스! 노 빠사 나다. 엔뜨라모스 알 바르?",
+   "note_claude_old": "anda = 「에이, 됐고」"
   }
  ],
  "draft": "grok",
