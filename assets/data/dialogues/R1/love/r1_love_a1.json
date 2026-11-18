@@ -37,7 +37,7 @@
    "tl": "Hola, ¿hay algo fácil de leer?",
    "rd": "올라, 아이 알고 파씰 데 레에르?",
    "ko": "안녕, 읽을 만한 쉬운 거 있어?",
-   "note": "",
+   "note": "¿hay…? = …있어?(가게에서 찾을 때)",
    "tags": [
     "expr:perdona"
    ],
@@ -45,7 +45,6 @@
     "fácil"
    ],
    "emotion": "neutral",
-   "note_stale": true,
    "note_claude_old": "perdona = 말 걸 때 「저기요」"
   },
   {
@@ -54,7 +53,7 @@
    "tl": "Vale, tío. Este es fácil.",
    "rd": "발레, 띠오. 에스떼 에스 파씰.",
    "ko": "오케이, 야. 이거 쉬워.",
-   "note": "",
+   "note": "vale = 알았어·오케이 · tío = 야(친구 부르는 말, 여자면 tía)",
    "tags": [
     "expr:mira"
    ],
@@ -63,7 +62,6 @@
    ],
    "emotion": "cheerful",
    "tl_f": "Vale, tía. Este es fácil.",
-   "note_stale": true,
    "rd_f": "발레, 띠아. 에스떼 에스 파씰.",
    "note_claude_old": "mira = 「봐요」, 보여 줄 때"
   },
@@ -73,7 +71,7 @@
    "tl": "¿Qué significa 'pasear'?",
    "rd": "께 시그니피까 '빠세아르'?",
    "ko": "'pasear'가 무슨 뜻이야?",
-   "note": "",
+   "note": "¿Qué significa…? = …가 무슨 뜻이야?",
    "tags": [
     "expr:vale",
     "form:significar"
@@ -82,7 +80,6 @@
     "significar"
    ],
    "emotion": "neutral",
-   "note_stale": true,
    "note_claude_old": "¿Qué significa…? = ~가 무슨 뜻이에요?"
   },
   {
@@ -91,7 +88,7 @@
    "tl": "Significa caminar un poco.",
    "rd": "시그니피까 까미나르 운 뽀꼬.",
    "ko": "좀 걷는다는 뜻이야.",
-   "note": "",
+   "note": "significa = 뜻이야(significar 3인칭)",
    "tags": [
     "expr:hombre"
    ],
@@ -99,7 +96,6 @@
     "preguntar"
    ],
    "emotion": "gentle",
-   "note_stale": true,
    "note_claude_old": "hombre = 놀랐을 때 말머리(상대 성별과 무관)"
   },
   {
@@ -108,7 +104,7 @@
    "tl": "Ah, ¿tú paseas mucho?",
    "rd": "아, 뚜 빠세아스 무초?",
    "ko": "아, 너도 많이 산책해?",
-   "note": "",
+   "note": "paseas = 너 산책해(pasear tú)",
    "tags": [
     "form:querer"
    ],
@@ -116,7 +112,6 @@
     "querer"
    ],
    "emotion": "surprised",
-   "note_stale": true,
    "note_claude_old": "te quiero = 사랑해 — 발음 연습인데 고백이 되어 버렸다"
   },
   {
@@ -125,7 +120,7 @@
    "tl": "¡Ja ja! Yo también paseo. ¡Qué fuerte!",
    "rd": "하 하! 요 땀비엔 빠세오. 께 푸에르떼!",
    "ko": "하하! 나도 산책해. 대박!",
-   "note": "",
+   "note": "paseo = 나 산책해(pasear yo) · ¡Qué fuerte! = 대박",
    "tags": [
     "expr:por favor"
    ],
@@ -134,7 +129,6 @@
     "vez"
    ],
    "emotion": "amused",
-   "note_stale": true,
    "note_claude_old": "otra vez = 한 번 더"
   },
   {
@@ -143,11 +137,10 @@
    "tl": "¿En serio? ¡Me late un poco!",
    "rd": "엔 세리오? 메 라떼 운 뽀꼬!",
    "ko": "진짜? 심장이 좀 뛰네!",
-   "note": "",
+   "note": "¿En serio? = 진짜? · me late = 멕시코식 말(스페인에선 잘 안 씀)",
    "tags": [],
    "new": [],
    "emotion": "flustered",
-   "note_stale": true,
    "note_claude_old": "¿Por qué? = 왜?"
   },
   {
@@ -156,7 +149,7 @@
    "tl": "¡Venga! Llévatelo.",
    "rd": "벤가! 예바뗄로.",
    "ko": "자, 가져가!",
-   "note": "",
+   "note": "¡Venga! = 자!·어서 · llévatelo = 그거 가져가(llevar + te + lo)",
    "tags": [
     "expr:es que"
    ],
@@ -164,7 +157,6 @@
     "decir"
    ],
    "emotion": "cheerful",
-   "note_stale": true,
    "note_claude_old": "es que = 변명·이유 앞에 「그게」"
   }
  ],
