@@ -49,7 +49,44 @@
    ],
    "emotion": "worried",
    "tl_f": "¿Todavía estás en la cama? Tienes cara de enferma, tía.",
-   "rd_f": "또다비아 에스따스 엔 라 까마? 띠에네스 까라 데 엔페르마, 띠아."
+   "rd_f": "또다비아 에스따스 엔 라 까마? 띠에네스 까라 데 엔페르마, 띠아.",
+   "lemmas": [
+    [
+     "Todavía",
+     "todavía",
+     ""
+    ],
+    [
+     "estás",
+     "estar",
+     ""
+    ],
+    [
+     "cama",
+     "cama",
+     ""
+    ],
+    [
+     "Tienes",
+     "tener",
+     ""
+    ],
+    [
+     "cara",
+     "cara",
+     ""
+    ],
+    [
+     "enfermo",
+     "enfermo",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -68,7 +105,64 @@
    ],
    "emotion": "sad",
    "tl_f": "Estoy hecha polvo. Me duele la cabeza, me duelen la espalda y el estómago… Seguro que tengo fiebre.",
-   "rd_f": "에스또이 에차 뽈보. 메 두엘레 라 까베싸, 메 두엘렌 라 에스빨다 이 엘 에스또마고… 세구로 께 뗀고 피에브레."
+   "rd_f": "에스또이 에차 뽈보. 메 두엘레 라 까베싸, 메 두엘렌 라 에스빨다 이 엘 에스또마고… 세구로 께 뗀고 피에브레.",
+   "lemmas": [
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "hecho",
+     "hecho",
+     ""
+    ],
+    [
+     "polvo",
+     "polvo",
+     ""
+    ],
+    [
+     "duele",
+     "doler",
+     ""
+    ],
+    [
+     "cabeza",
+     "cabeza",
+     ""
+    ],
+    [
+     "duelen",
+     "doler",
+     ""
+    ],
+    [
+     "espalda",
+     "espalda",
+     ""
+    ],
+    [
+     "estómago",
+     "estómago",
+     ""
+    ],
+    [
+     "Seguro",
+     "seguro",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "fiebre",
+     "fiebre",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -85,7 +179,54 @@
     "termómetro",
     "médico"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "ver",
+     "ver",
+     ""
+    ],
+    [
+     "termómetro",
+     "termómetro",
+     ""
+    ],
+    [
+     "Tienes",
+     "tener",
+     ""
+    ],
+    [
+     "fiebre",
+     "fiebre",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ],
+    [
+     "vamos",
+     "ir",
+     ""
+    ],
+    [
+     "médico",
+     "médico",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "mismo",
+     "mismo",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -99,7 +240,39 @@
     "andar",
     "ambulancia"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "puedo",
+     "poder",
+     ""
+    ],
+    [
+     "ni",
+     "ni",
+     ""
+    ],
+    [
+     "andar",
+     "andar",
+     ""
+    ],
+    [
+     "Llama",
+     "llamar",
+     ""
+    ],
+    [
+     "ambulancia",
+     "ambulancia",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -115,7 +288,49 @@
     "accidente",
     "moto"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "hombre",
+     "hombre",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "fiebre",
+     "fiebre",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "accidente",
+     "accidente",
+     ""
+    ],
+    [
+     "llevo",
+     "llevar",
+     ""
+    ],
+    [
+     "moto",
+     "moto",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -129,7 +344,39 @@
     "encontrarse",
     "exactamente"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "buenos",
+     "buen",
+     ""
+    ],
+    [
+     "días",
+     "día",
+     ""
+    ],
+    [
+     "encuentra",
+     "encontrar",
+     ""
+    ],
+    [
+     "así",
+     "así",
+     ""
+    ],
+    [
+     "duele",
+     "doler",
+     ""
+    ],
+    [
+     "exactamente",
+     "exactamente",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -144,7 +391,54 @@
     "cuerpo",
     "examen"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "anoche",
+     "anoche",
+     ""
+    ],
+    [
+     "duele",
+     "doler",
+     ""
+    ],
+    [
+     "cuerpo",
+     "cuerpo",
+     ""
+    ],
+    [
+     "justo",
+     "justo",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "examen",
+     "examen",
+     ""
+    ],
+    [
+     "muy",
+     "muy",
+     ""
+    ],
+    [
+     "importante",
+     "importante",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -161,7 +455,59 @@
     "respirar",
     "despacio"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Vamos",
+     "ir",
+     ""
+    ],
+    [
+     "escuchar",
+     "escuchar",
+     ""
+    ],
+    [
+     "pecho",
+     "pecho",
+     ""
+    ],
+    [
+     "suena",
+     "sonar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "corazón",
+     "corazón",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "normal",
+     "normal",
+     ""
+    ],
+    [
+     "Respire",
+     "respirar",
+     ""
+    ],
+    [
+     "despacio",
+     "despacio",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -176,7 +522,54 @@
     "doctora",
     "película"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "grave",
+     "grave",
+     ""
+    ],
+    [
+     "Anoche",
+     "anoche",
+     ""
+    ],
+    [
+     "estaba",
+     "estar",
+     ""
+    ],
+    [
+     "perfectamente",
+     "perfectamente",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "Estábamos",
+     "estar",
+     ""
+    ],
+    [
+     "viendo",
+     "ver",
+     ""
+    ],
+    [
+     "película",
+     "película",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -190,7 +583,44 @@
     "beber",
     "caliente"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "Ha",
+     "haber",
+     ""
+    ],
+    [
+     "bebido",
+     "beber",
+     ""
+    ],
+    [
+     "caliente",
+     "caliente",
+     ""
+    ],
+    [
+     "antes",
+     "antes",
+     ""
+    ],
+    [
+     "ponerse",
+     "poner",
+     ""
+    ],
+    [
+     "termómetro",
+     "termómetro",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -206,7 +636,34 @@
     "té",
     "preparar"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "té",
+     "té",
+     ""
+    ],
+    [
+     "muy",
+     "muy",
+     ""
+    ],
+    [
+     "caliente",
+     "caliente",
+     ""
+    ],
+    [
+     "preparé",
+     "preparar",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -222,7 +679,44 @@
    ],
    "emotion": "gentle",
    "tl_f": "Entonces no tiene fiebre. Está usted completamente sana.",
-   "rd_f": "엔똔쎄스 노 띠에네 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사나."
+   "rd_f": "엔똔쎄스 노 띠에네 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사나.",
+   "lemmas": [
+    [
+     "Entonces",
+     "entonces",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "tiene",
+     "tener",
+     ""
+    ],
+    [
+     "fiebre",
+     "fiebre",
+     ""
+    ],
+    [
+     "Está",
+     "estar",
+     ""
+    ],
+    [
+     "completamente",
+     "completamente",
+     ""
+    ],
+    [
+     "sano",
+     "sano",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -236,7 +730,44 @@
     "dolor",
     "jurar"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "dolor",
+     "dolor",
+     ""
+    ],
+    [
+     "estómago",
+     "estómago",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "real",
+     "real",
+     ""
+    ],
+    [
+     "juro",
+     "jurar",
+     ""
+    ],
+    [
+     "Todavía",
+     "todavía",
+     ""
+    ],
+    [
+     "duele",
+     "doler",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -250,7 +781,49 @@
     "tratamiento",
     "estudiar"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "llama",
+     "llamar",
+     ""
+    ],
+    [
+     "examen",
+     "examen",
+     ""
+    ],
+    [
+     "junio",
+     "junio",
+     ""
+    ],
+    [
+     "duele",
+     "doler",
+     ""
+    ],
+    [
+     "Tratamiento",
+     "tratamiento",
+     ""
+    ],
+    [
+     "estudiar",
+     "estudiar",
+     ""
+    ],
+    [
+     "menos",
+     "menos",
+     ""
+    ],
+    [
+     "té",
+     "té",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -265,7 +838,34 @@
    "new": [
     "abierto"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "espero",
+     "esperar",
+     ""
+    ],
+    [
+     "moto",
+     "moto",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ],
+    [
+     "abierto",
+     "abierto",
+     ""
+    ],
+    [
+     "vale",
+     "vale",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

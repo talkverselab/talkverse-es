@@ -52,7 +52,24 @@
    ],
    "emotion": "teasing",
    "tl_f": "¡Ey! ¿Eres la amiga de Diego?",
-   "rd_f": "에이! 에레스 라 아미가 데 디에고?"
+   "rd_f": "에이! 에레스 라 아미가 데 디에고?",
+   "lemmas": [
+    [
+     "Ey",
+     "ey",
+     ""
+    ],
+    [
+     "Eres",
+     "ser",
+     ""
+    ],
+    [
+     "amigo",
+     "amigo",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -66,7 +83,19 @@
     "expr:y tú"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "soy",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -85,7 +114,19 @@
    "emotion": "excited",
    "tl_f": "Mateo. Diego habla mucho de ti.",
    "rd_f": "마떼오. 디에고 아블라 무초 데 띠.",
-   "ko_f": "마테오. 디에고가 네 얘기 많이 해."
+   "ko_f": "마테오. 디에고가 네 얘기 많이 해.",
+   "lemmas": [
+    [
+     "habla",
+     "hablar",
+     ""
+    ],
+    [
+     "mucho",
+     "mucho",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -98,7 +139,24 @@
    "new": [
     "decir"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Ah",
+     "ah",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "dice",
+     "decir",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -116,7 +174,24 @@
    ],
    "emotion": "amused",
    "tl_f": "Que eres muy graciosa.",
-   "rd_f": "께 에레스 무이 그라씨오사."
+   "rd_f": "께 에레스 무이 그라씨오사.",
+   "lemmas": [
+    [
+     "eres",
+     "ser",
+     ""
+    ],
+    [
+     "muy",
+     "muy",
+     ""
+    ],
+    [
+     "gracioso",
+     "gracioso",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -131,7 +206,19 @@
    "new": [
     "poco"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "hablo",
+     "hablar",
+     ""
+    ],
+    [
+     "poco",
+     "poco",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -146,7 +233,24 @@
    "new": [
     "aquí"
    ],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "estoy",
+     "estar",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -162,7 +266,19 @@
    "new": [
     "entonces"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "Entonces",
+     "entonces",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

@@ -51,7 +51,44 @@
    ],
    "emotion": "polite",
    "tl_f": "Bienvenidas al piso. Tiene ochenta metros, terraza y mucha luz natural.",
-   "rd_f": "비엔베니다스 알 삐소. 띠에네 오첸따 메뜨로스, 떼라싸 이 무차 루쓰 나뚜랄."
+   "rd_f": "비엔베니다스 알 삐소. 띠에네 오첸따 메뜨로스, 떼라싸 이 무차 루쓰 나뚜랄.",
+   "lemmas": [
+    [
+     "Bienvenidos",
+     "bienvenido",
+     ""
+    ],
+    [
+     "piso",
+     "piso",
+     ""
+    ],
+    [
+     "Tiene",
+     "tener",
+     ""
+    ],
+    [
+     "metros",
+     "metro",
+     ""
+    ],
+    [
+     "terraza",
+     "terraza",
+     ""
+    ],
+    [
+     "luz",
+     "luz",
+     ""
+    ],
+    [
+     "natural",
+     "natural",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -66,7 +103,39 @@
     "anuncio",
     "exactamente"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "alquiler",
+     "alquiler",
+     ""
+    ],
+    [
+     "exactamente",
+     "exactamente",
+     ""
+    ],
+    [
+     "anuncio",
+     "anuncio",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "salía",
+     "salir",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -79,7 +148,34 @@
    "new": [
     "fianza"
    ],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Son",
+     "ser",
+     ""
+    ],
+    [
+     "mes",
+     "mes",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "meses",
+     "mes",
+     ""
+    ],
+    [
+     "fianza",
+     "fianza",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -93,7 +189,29 @@
     "incluir",
     "calefacción"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Incluye",
+     "incluir",
+     ""
+    ],
+    [
+     "calefacción",
+     "calefacción",
+     ""
+    ],
+    [
+     "agua",
+     "agua",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -108,7 +226,49 @@
     "ascensor",
     "portero"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "calefacción",
+     "calefacción",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "incluida",
+     "incluir",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "ascensor",
+     "ascensor",
+     ""
+    ],
+    [
+     "portero",
+     "portero",
+     ""
+    ],
+    [
+     "edificio",
+     "edificio",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -122,7 +282,34 @@
     "ruido",
     "tranquilo"
    ],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "ruido",
+     "ruido",
+     ""
+    ],
+    [
+     "calle",
+     "calle",
+     ""
+    ],
+    [
+     "parece",
+     "parecer",
+     ""
+    ],
+    [
+     "bastante",
+     "bastante",
+     ""
+    ],
+    [
+     "tranquila",
+     "tranquilo",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -139,7 +326,44 @@
     "bar",
     "cerrar"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Muy",
+     "muy",
+     ""
+    ],
+    [
+     "tranquila",
+     "tranquilo",
+     ""
+    ],
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "abajo",
+     "abajo",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
+    ],
+    [
+     "cierra",
+     "cerrar",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -155,7 +379,39 @@
     "firmar",
     "contrato"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "parece",
+     "parecer",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "podríamos",
+     "poder",
+     ""
+    ],
+    [
+     "firmar",
+     "firmar",
+     ""
+    ],
+    [
+     "contrato",
+     "contrato",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -171,7 +427,54 @@
     "visita",
     "subir"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "visitas",
+     "visita",
+     ""
+    ],
+    [
+     "miren",
+     "mirar",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "están",
+     "estar",
+     ""
+    ],
+    [
+     "subiendo",
+     "subir",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -184,7 +487,34 @@
    "new": [
     "previsto"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Más",
+     "más",
+     ""
+    ],
+    [
+     "visitas",
+     "visita",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "previstas",
+     "previsto",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -198,7 +528,49 @@
     "pareja",
     "ofrecer"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "tarde",
+     "tarde",
+     ""
+    ],
+    [
+     "pareja",
+     "pareja",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "ofrecido",
+     "ofrecer",
+     ""
+    ],
+    [
+     "euros",
+     "euros",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "mes",
+     "mes",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -212,7 +584,44 @@
     "precio",
     "bajar"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "euros",
+     "euros",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "firmamos",
+     "firmar",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "puede",
+     "poder",
+     ""
+    ],
+    [
+     "bajar",
+     "bajar",
+     ""
+    ],
+    [
+     "precio",
+     "precio",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -223,7 +632,44 @@
    "note": "no se lo subo = (값을) 안 올릴게요 · subir = 올리다",
    "tags": [],
    "new": [],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Bajarlo",
+     "bajar",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "puedo",
+     "poder",
+     ""
+    ],
+    [
+     "firman",
+     "firmar",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "subo",
+     "subir",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -238,7 +684,34 @@
    "new": [
     "loco"
    ],
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "completamente",
+     "completamente",
+     ""
+    ],
+    [
+     "loco",
+     "loco",
+     ""
+    ],
+    [
+     "Vámonos",
+     "ir",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -251,7 +724,34 @@
     "expr:espera"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Espera",
+     "esperar",
+     ""
+    ],
+    [
+     "espera",
+     "esperar",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "firmar",
+     "firmar",
+     ""
+    ],
+    [
+     "entonces",
+     "entonces",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

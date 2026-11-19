@@ -1,29 +1,73 @@
 lemma,reading,count,example
-tener,,3,¡Lo haces genial! ¿Cuántos años tienes?
-encantado,,2,"Encantada, Minjun. Yo soy Lucía."
-sábado,,2,¿Vamos juntos este sábado?
-llamar,,1,"Bien, gracias. Me llamo Minjun."
-interesante,,1,¡Qué interesante! ¿Hablas español muy bien?
-hablar,,1,¡Qué interesante! ¿Hablas español muy bien?
-español,,1,¡Qué interesante! ¿Hablas español muy bien?
-estar,,1,Un poco. Estoy aprendiendo.
-aprender,,1,Un poco. Estoy aprendiendo.
-genial,,1,¡Lo haces genial! ¿Cuántos años tienes?
-trabajar,,1,Trabajo en una empresa de tecnología.
-empresa,,1,Trabajo en una empresa de tecnología.
-tecnología,,1,Trabajo en una empresa de tecnología.
-profesora,,1,¡Qué bien! Yo soy profesora de inglés.
-inglés,,1,¡Qué bien! Yo soy profesora de inglés.
-gustar,,1,¿Te gusta la música?
-música,,1,¿Te gusta la música?
-encantar,,1,"Sí, me encanta el flamenco. ¿Y a ti?"
-flamenco,,1,"Sí, me encanta el flamenco. ¿Y a ti?"
-querer,,1,A mí también. Quiero verlo en vivo.
-vivo,,1,A mí también. Quiero verlo en vivo.
-haber,,1,Hay un tablao muy bueno cerca de mi casa.
-tablao,,1,Hay un tablao muy bueno cerca de mi casa.
-cerca,,1,Hay un tablao muy bueno cerca de mi casa.
-ir,,1,¿Vamos juntos este sábado?
-junto,,1,¿Vamos juntos este sábado?
-vale,,1,¡Vale! Nos vemos el sábado a las ocho.
-ocho,,1,¡Vale! Nos vemos el sábado a las ocho.
+muy,,14,Que eres muy gracioso.
+churro,,12,Y luego otro. Y otro. ¡Y churros!
+bocadillo,,6,Me había comido un bocadillo enorme y me dormí en ese banco.
+tortilla,,5,"Venga, hoy la tortilla la haces tú. Empieza pelando las patatas."
+app,,5,"Justo. Mira, me he bajado una app para pagar a medias lo que gastamos."
+molar,,4,¡Mola! Quiero la grande.
+churrería,,4,¡Está en la churrería! ¿Enfermo?
+ajo,,4,"Oye, hago la cena. ¿Te gusta el ajo?"
+caracol,,4,¿Todo te gusta? ¿Los caracoles también?
+calefacción,,3,Y un café. ¡Y la calefacción!
+duchar,,3,Vale. Me ducho y me visto. ¿Y tú?
+vestir,,3,¿Otra vez? ¿Cuántas veces te vistes?
+paella,,3,Nada. Hago paella para dos. ¿Te apetece?
+librería,,3,"Hola. Soy Marta, la de la librería."
+cebolla,,3,Vale. ¿Y la cebolla? ¿Le pongo o no?
+verbena,,2,"Voy a ir a la verbena. ¿Vienes, tío?"
+callos,,2,Vale. Caracoles… ¡y callos de mi abuela!
+portería,,2,Marqué dos goles. Los dos en mi portería.
+taza,,2,Las tazas también. La sartén. Y tu taza preferida.
+hueco,,2,¿Tienes celos? El sofá tiene hueco para ti.
+poema,,2,Perfecto. Te preparo un poema para el viernes.
+guapísimo,,2,"Mamá, ¡he quedado con alguien guapísimo para el viernes! Por fin tengo plan."
+ventanilla,,2,Aquí abajo. Y aquí también. Luego se entrega en la ventanilla tres.
+termómetro,,2,"A ver, el termómetro… ¡Treinta y nueve! Tienes fiebre de verdad. Nos vamos al médico ahora mismo."
+merendar,,1,"¿Ya tienes hambre? Tranqui, hay merienda."
+aperitivo,,1,"Aperitivo, tapas… y a las diez, ¿cenas conmigo?"
+tapa,,1,"Aperitivo, tapas… y a las diez, ¿cenas conmigo?"
+manta,,1,"Toma, una manta. ¡Y otra!"
+latir,,1,¿En serio? ¡Me late un poco!
+minutito,,1,"Cinco minutitos y llego, tío. Palabra."
+story,,1,¿Bajas? Tu story te pilla en el sofá con pizza.
+jaja,,1,"Jaja, esa foto es de hace siglos."
+trozo,,1,"Vale, vale. Salgo ahora mismo. ¿Te dejo un trozo?"
+olla,,1,"Lucía, perdóname. Se me fue la olla."
+churrero,,1,Estoy en la plaza con todos. El churrero está contentísimo.
+contentísimo,,1,Estoy en la plaza con todos. El churrero está contentísimo.
+apartar,,1,Espera un momento… ¿estás ahí de verdad? ¿Me apartas uno?
+apetecer,,1,Nada. Hago paella para dos. ¿Te apetece?
+reconciliación,,1,Te preparo una tarta de reconciliación.
+sartén,,1,Las tazas también. La sartén. Y tu taza preferida.
+friega,,1,"Vale, perdonado… pero hoy friegas tú todo."
+mmm,,1,"Mmm, no sé. Ando bastante liada estos días."
+vista,,1,Ya está en mi historia. Cien vistas.
+puntual,,1,"¡Hola, tíos! Llego puntual por fin. ¡Venga!"
+siesta,,1,"¿Dos siestas en el museo? Qué fuerte, Lucía."
+enero,,1,"Javi, estamos en enero. Esta mañana hacía dos grados."
+lotería,,1,"Oye, si mañana os tocara la lotería, ¿qué haríais?"
+ambicioso,,1,"¡Qué poco ambicioso eres! Yo, si ganara, me compraría un barco."
+décimo,,1,"Perdonen, ¿ustedes no compraron un décimo aquí en el bar? ¡Ha salido el número!"
+pelar,,1,"Venga, hoy la tortilla la haces tú. Empieza pelando las patatas."
+córtala,,1,"Sí, todas. Y no las cortes grandes. Córtalas finas, así."
+redondo,,1,Escrita con tu letra. «Para la chica de las gafas redondas». ¿Se la escribiste a alguien?
+profe,,1,Me encanta eso. Puedo ser tu profe… por un café.
+carné,,1,Buenos días. ¿Aquí se pide el carné de estudiante?
+paellera,,1,"De momento, doce. Mi tía ya ha sacado la paellera grande."
+añadir,,1,Mucho mejor. Y al final añadiría «¿sería posible?». Queda más educado.
+educado,,1,Mucho mejor. Y al final añadiría «¿sería posible?». Queda más educado.
+caos,,1,Y no para. Más y más respuestas. Es un caos.
+brindis,,1,"Abuela, suéltalo un poco. Mi brindis va primero."
+bisnieto,,1,"¿Embarazado? ¡Madre mía, otro bisnieto más en la familia!"
+bisabuelo,,1,¡Champán para todos! ¡La abuela será bisabuela otra vez!
+madrileño,,1,Los móviles se equivocan. Una madrileña nunca falla con el tiempo.
+mayo,,1,¡Está cayendo hielo! ¡En pleno mayo! ¡Me ha dado en la cabeza!
+falta,,1,"Chicos, tranquilos. No hace falta discutir así en el grupo."
+terraza,,1,"Bienvenidos al piso. Tiene ochenta metros, terraza y mucha luz natural."
+fianza,,1,"Son mil cuatrocientos al mes, más dos meses de fianza."
+previsto,,1,¿Más visitas? ¿Cuántas hay previstas para hoy?
+junio,,1,Eso se llama examen. En junio les duele a todos. Tratamiento: estudiar y menos té.
+portada,,1,"Ya, claro. Por eso en la portada hay un beso enorme."
+arrepentir,,1,Qué vergüenza. Dame la sorpresa antes de que me arrepienta.
+suelto,,1,Cierto. Ya no sueltas «estoy embarazado» cada vez que te da vergüenza.
+novato,,1,"Ah, la misión del novato. Yo pedí pizza el año pasado y llegó helada."

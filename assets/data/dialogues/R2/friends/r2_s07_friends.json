@@ -52,7 +52,29 @@
    "ui": "bubble",
    "at": "10:00",
    "stamp": "🍩",
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ],
+    [
+     "plaza",
+     "plaza",
+     ""
+    ],
+    [
+     "Corre",
+     "correr",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -69,7 +91,34 @@
    "ui": "bubble",
    "at": "10:00",
    "stamp": "🏃",
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "serio",
+     "serio",
+     ""
+    ],
+    [
+     "Dónde",
+     "dónde",
+     ""
+    ],
+    [
+     "corro",
+     "correr",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "Vienes",
+     "venir",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -89,7 +138,24 @@
    "ui": "bubble",
    "at": "10:02",
    "stamp": "😂",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Era",
+     "ser",
+     ""
+    ],
+    [
+     "broma",
+     "broma",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -110,7 +176,39 @@
    ],
    "ui": "bubble",
    "at": "10:20",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Demasiado",
+     "demasiado",
+     ""
+    ],
+    [
+     "tarde",
+     "tarde",
+     ""
+    ],
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "puesto",
+     "poner",
+     ""
+    ],
+    [
+     "grupo",
+     "grupo",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -126,7 +224,24 @@
    "new": [],
    "ui": "bubble",
    "at": "10:21",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "has",
+     "haber",
+     ""
+    ],
+    [
+     "puesto",
+     "poner",
+     ""
+    ],
+    [
+     "grupo",
+     "grupo",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -145,7 +260,34 @@
    "ui": "bubble",
    "at": "10:40",
    "stamp": "🍩",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "plaza",
+     "plaza",
+     ""
+    ],
+    [
+     "churrero",
+     "churrero",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "contentísimo",
+     "contentísimo",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -166,7 +308,39 @@
    ],
    "ui": "bubble",
    "at": "10:41",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Espera",
+     "esperar",
+     ""
+    ],
+    [
+     "momento",
+     "momento",
+     ""
+    ],
+    [
+     "estás",
+     "estar",
+     ""
+    ],
+    [
+     "ahí",
+     "ahí",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ],
+    [
+     "apartas",
+     "apartar",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -185,7 +359,24 @@
    "stamp": "😂",
    "emotion": "teasing",
    "tl_f": "Jajaja. Todo era broma, tía.",
-   "rd_f": "하하하. 또도 에라 브로마, 띠아."
+   "rd_f": "하하하. 또도 에라 브로마, 띠아.",
+   "lemmas": [
+    [
+     "era",
+     "ser",
+     ""
+    ],
+    [
+     "broma",
+     "broma",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

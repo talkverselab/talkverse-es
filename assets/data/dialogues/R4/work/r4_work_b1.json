@@ -41,7 +41,29 @@
    ],
    "new": [],
    "emotion": "polite",
-   "note_claude_old": "¿Tendrías…? = 조건법으로 부드럽게 묻기"
+   "note_claude_old": "¿Tendrías…? = 조건법으로 부드럽게 묻기",
+   "lemmas": [
+    [
+     "puede",
+     "poder",
+     ""
+    ],
+    [
+     "pasar",
+     "pasar",
+     ""
+    ],
+    [
+     "momento",
+     "momento",
+     ""
+    ],
+    [
+     "favor",
+     "favor",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -57,7 +79,19 @@
     "informe"
    ],
    "emotion": "neutral",
-   "note_claude_old": "habría enviado = 보냈을 텐데(변명의 정석)"
+   "note_claude_old": "habría enviado = 보냈을 텐데(변명의 정석)",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "ocurre",
+     "ocurrir",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -71,7 +105,29 @@
     "correo"
    ],
    "emotion": "stiff",
-   "note_claude_old": "correo = 메일"
+   "note_claude_old": "correo = 메일",
+   "lemmas": [
+    [
+     "correo",
+     "correo",
+     ""
+    ],
+    [
+     "anoche",
+     "anoche",
+     ""
+    ],
+    [
+     "envió",
+     "enviar",
+     ""
+    ],
+    [
+     "empresa",
+     "empresa",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -87,7 +143,34 @@
     "echar una mano"
    ],
    "emotion": "flustered",
-   "note_claude_old": "para que + 접속법 과거 = ~하도록"
+   "note_claude_old": "para que + 접속법 과거 = ~하도록",
+   "lemmas": [
+    [
+     "Ay",
+     "ay",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "siento",
+     "sentir",
+     ""
+    ],
+    [
+     "Era",
+     "ser",
+     ""
+    ],
+    [
+     "compañero",
+     "compañero",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -103,7 +186,19 @@
     "responder"
    ],
    "emotion": "neutral",
-   "note_claude_old": "digamos que = 말하자면(완곡)"
+   "note_claude_old": "digamos que = 말하자면(완곡)",
+   "lemmas": [
+    [
+     "mandó",
+     "mandar",
+     ""
+    ],
+    [
+     "así",
+     "así",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -117,7 +212,24 @@
    ],
    "new": [],
    "emotion": "worried",
-   "note_claude_old": "podrían haber sido = ~일 수도 있었다"
+   "note_claude_old": "podrían haber sido = ~일 수도 있었다",
+   "lemmas": [
+    [
+     "mandé",
+     "mandar",
+     ""
+    ],
+    [
+     "echara",
+     "echar",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -134,7 +246,29 @@
     "comparar"
    ],
    "emotion": "gentle",
-   "note_claude_old": "hacer falta = 필요하다"
+   "note_claude_old": "hacer falta = 필요하다",
+   "lemmas": [
+    [
+     "habría",
+     "haber",
+     ""
+    ],
+    [
+     "echado",
+     "echar",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ],
+    [
+     "problema",
+     "problema",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -150,7 +284,29 @@
     "disculparse"
    ],
    "emotion": "flustered",
-   "note_claude_old": "si me permite = 괜찮으시다면(격식)"
+   "note_claude_old": "si me permite = 괜찮으시다면(격식)",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "Habría",
+     "haber",
+     ""
+    ],
+    [
+     "enviado",
+     "enviar",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -164,7 +320,29 @@
    ],
    "new": [],
    "emotion": "worried",
-   "note_claude_old": "en voz alta = 소리 내어"
+   "note_claude_old": "en voz alta = 소리 내어",
+   "lemmas": [
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "mundo",
+     "mundo",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "visto",
+     "ver",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -180,7 +358,24 @@
     "recoger"
    ],
    "emotion": "surprised",
-   "note_claude_old": "ir + 현재분사 = 슬슬 ~하다"
+   "note_claude_old": "ir + 현재분사 = 슬슬 ~하다",
+   "lemmas": [
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "esperaba",
+     "esperar",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -197,7 +392,39 @@
     "comité"
    ],
    "emotion": "annoyed",
-   "note_claude_old": "querer que + 접속법"
+   "note_claude_old": "querer que + 접속법",
+   "lemmas": [
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "Más",
+     "más",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "respuestas",
+     "respuesta",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "caos",
+     "caos",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -218,7 +445,34 @@
      "¿En serio? Esto es una locura."
     ]
    ],
-   "note_claude_old": "si puede saberse = 실례지만(살짝 비꼼)"
+   "note_claude_old": "si puede saberse = 실례지만(살짝 비꼼)",
+   "lemmas": [
+    [
+     "Ja",
+     "ja",
+     ""
+    ],
+    [
+     "ja",
+     "ja",
+     ""
+    ],
+    [
+     "serio",
+     "serio",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "locura",
+     "locura",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -232,7 +486,24 @@
     "reducir"
    ],
    "emotion": "surprised",
-   "note_claude_old": "reducir = 줄이다"
+   "note_claude_old": "reducir = 줄이다",
+   "lemmas": [
+    [
+     "jefe",
+     "jefe",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "preguntado",
+     "preguntar",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -246,7 +517,29 @@
    "emotion": "flustered",
    "tl_f": "¡Qué nervios! Estoy hecha polvo.",
    "rd_f": "께 네르비오스! 에스또이 에차 뽈보.",
-   "note_claude_old": "¿Y si…? = ~하면 어떨까?"
+   "note_claude_old": "¿Y si…? = ~하면 어떨까?",
+   "lemmas": [
+    [
+     "nervios",
+     "nervio",
+     ""
+    ],
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "hecho",
+     "hecho",
+     ""
+    ],
+    [
+     "polvo",
+     "polvo",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -260,7 +553,34 @@
    ],
    "new": [],
    "emotion": "gentle",
-   "note_claude_old": "ni se te ocurra = 절대 그러지 마"
+   "note_claude_old": "ni se te ocurra = 절대 그러지 마",
+   "lemmas": [
+    [
+     "Venga",
+     "venir",
+     ""
+    ],
+    [
+     "solucionamos",
+     "solucionar",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "preocupe",
+     "preocupar",
+     ""
+    ],
+    [
+     "vale",
+     "vale",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

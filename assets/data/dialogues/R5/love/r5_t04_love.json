@@ -48,7 +48,39 @@
    ],
    "emotion": "teasing",
    "tl_f": "Ayer te vi en la plaza. Parecías muy contenta.",
-   "rd_f": "아예르 떼 비 엔 라 쁠라싸. 빠레씨아스 무이 꼰뗀따."
+   "rd_f": "아예르 떼 비 엔 라 쁠라싸. 빠레씨아스 무이 꼰뗀따.",
+   "lemmas": [
+    [
+     "Ayer",
+     "ayer",
+     ""
+    ],
+    [
+     "vi",
+     "ver",
+     ""
+    ],
+    [
+     "plaza",
+     "plaza",
+     ""
+    ],
+    [
+     "Parecías",
+     "parecer",
+     ""
+    ],
+    [
+     "muy",
+     "muy",
+     ""
+    ],
+    [
+     "contento",
+     "contento",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -62,7 +94,34 @@
     "broma",
     "buenísimo"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "Estaba",
+     "estar",
+     ""
+    ],
+    [
+     "contó",
+     "contar",
+     ""
+    ],
+    [
+     "broma",
+     "broma",
+     ""
+    ],
+    [
+     "buenísima",
+     "buenísimo",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -78,7 +137,39 @@
     "reír",
     "tienda"
    ],
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "veo",
+     "ver",
+     ""
+    ],
+    [
+     "reíais",
+     "reír",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
+     ""
+    ],
+    [
+     "oía",
+     "oír",
+     ""
+    ],
+    [
+     "tienda",
+     "tienda",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -92,7 +183,39 @@
     "enfadado",
     "romper"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Estás",
+     "estar",
+     ""
+    ],
+    [
+     "enfadada",
+     "enfadado",
+     ""
+    ],
+    [
+     "Tienes",
+     "tener",
+     ""
+    ],
+    [
+     "cara",
+     "cara",
+     ""
+    ],
+    [
+     "rompe",
+     "romper",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -107,7 +230,39 @@
    "new": [
     "aburrido"
    ],
-   "emotion": "stiff"
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "perfectamente",
+     "perfectamente",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "Solo",
+     "solo",
+     ""
+    ],
+    [
+     "poco",
+     "poco",
+     ""
+    ],
+    [
+     "aburrida",
+     "aburrido",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -122,7 +277,49 @@
     "romántico",
     "favorito"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Aburrida",
+     "aburrido",
+     ""
+    ],
+    [
+     "dices",
+     "decir",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "llegado",
+     "llegar",
+     ""
+    ],
+    [
+     "novela",
+     "novela",
+     ""
+    ],
+    [
+     "romántica",
+     "romántico",
+     ""
+    ],
+    [
+     "favorita",
+     "favorito",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -136,7 +333,44 @@
     "obra",
     "emoción"
    ],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "favorita",
+     "favorito",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "obra",
+     "obra",
+     ""
+    ],
+    [
+     "seria",
+     "serio",
+     ""
+    ],
+    [
+     "emoción",
+     "emoción",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -154,7 +388,39 @@
     "beso",
     "enorme"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "claro",
+     "claro",
+     ""
+    ],
+    [
+     "portada",
+     "portada",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "beso",
+     "beso",
+     ""
+    ],
+    [
+     "enorme",
+     "enorme",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -169,7 +435,44 @@
    "new": [
     "tema"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "cambies",
+     "cambiar",
+     ""
+    ],
+    [
+     "tema",
+     "tema",
+     ""
+    ],
+    [
+     "lucía",
+     "lucir",
+     ""
+    ],
+    [
+     "sois",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -185,7 +488,39 @@
     "ayudar",
     "sorpresa"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "amigos",
+     "amigo",
+     ""
+    ],
+    [
+     "Claro",
+     "claro",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "estaba",
+     "estar",
+     ""
+    ],
+    [
+     "ayudando",
+     "ayudar",
+     ""
+    ],
+    [
+     "sorpresa",
+     "sorpresa",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -196,7 +531,19 @@
    "note": "¿para quién será? = 누구 거려나?(미래형 = 추측)",
    "tags": [],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "sorpresa",
+     "sorpresa",
+     ""
+    ],
+    [
+     "será",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -209,7 +556,34 @@
    "new": [
     "leer"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "lee",
+     "leer",
+     ""
+    ],
+    [
+     "novelas",
+     "novela",
+     ""
+    ],
+    [
+     "románticas",
+     "romántico",
+     ""
+    ],
+    [
+     "dice",
+     "decir",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -224,7 +598,29 @@
    "new": [
     "celoso"
    ],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "Estaba",
+     "estar",
+     ""
+    ],
+    [
+     "celosa",
+     "celoso",
+     ""
+    ],
+    [
+     "poquito",
+     "poquito",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -238,7 +634,44 @@
     "esconder",
     "cartel"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Solo",
+     "solo",
+     ""
+    ],
+    [
+     "poquito",
+     "poquito",
+     ""
+    ],
+    [
+     "vi",
+     "ver",
+     ""
+    ],
+    [
+     "esconderte",
+     "esconder",
+     ""
+    ],
+    [
+     "detrás",
+     "detrás",
+     ""
+    ],
+    [
+     "cartel",
+     "cartel",
+     ""
+    ],
+    [
+     "tienda",
+     "tienda",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -254,7 +687,34 @@
     "vergüenza",
     "arrepentirse"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "vergüenza",
+     "vergüenza",
+     ""
+    ],
+    [
+     "Dame",
+     "dar",
+     ""
+    ],
+    [
+     "sorpresa",
+     "sorpresa",
+     ""
+    ],
+    [
+     "antes",
+     "antes",
+     ""
+    ],
+    [
+     "arrepienta",
+     "arrepentir",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -269,7 +729,39 @@
     "autora",
     "número"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "novela",
+     "novela",
+     ""
+    ],
+    [
+     "favorita",
+     "favorito",
+     ""
+    ],
+    [
+     "Firmada",
+     "firmado",
+     ""
+    ],
+    [
+     "autora",
+     "autor",
+     ""
+    ],
+    [
+     "número",
+     "número",
+     ""
+    ],
+    [
+     "dentro",
+     "dentro",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

@@ -50,7 +50,44 @@
    "ui": "bubble",
    "at": "21:40",
    "stamp": "🐶",
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Hola",
+     "hola",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "dejado",
+     "dejar",
+     ""
+    ],
+    [
+     "muerta",
+     "muerto",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -69,7 +106,49 @@
    ],
    "ui": "bubble",
    "at": "21:42",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "gracias",
+     "gracias",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "vecina",
+     "vecino",
+     ""
+    ],
+    [
+     "saco",
+     "sacar",
+     ""
+    ],
+    [
+     "pasear",
+     "pasear",
+     ""
+    ],
+    [
+     "barrio",
+     "barrio",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -91,7 +170,34 @@
    "emotion": "teasing",
    "tl_f": "¿Lo paseas por ella o para ella? No es igual, guapa.",
    "rd_f": "로 빠세아스 뽀르 에야 오 빠라 에야? 노 에스 이구알, 구아빠.",
-   "ko_f": "그분 대신 하는 거야, 그분 위해서 하는 거야? 그건 다르지, 예쁜 분."
+   "ko_f": "그분 대신 하는 거야, 그분 위해서 하는 거야? 그건 다르지, 예쁜 분.",
+   "lemmas": [
+    [
+     "paseas",
+     "pasear",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "igual",
+     "igual",
+     ""
+    ],
+    [
+     "guapo",
+     "guapo",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -111,7 +217,39 @@
    "ui": "bubble",
    "at": "21:45",
    "stamp": "😅",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "trabaja",
+     "trabajar",
+     ""
+    ],
+    [
+     "nueve",
+     "nueve",
+     ""
+    ],
+    [
+     "poco",
+     "poco",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "ligar",
+     "ligar",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -129,7 +267,44 @@
    ],
    "ui": "bubble",
    "at": "21:46",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "funciona",
+     "funcionar",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ],
+    [
+     "cierto",
+     "cierto",
+     ""
+    ],
+    [
+     "estudias",
+     "estudiar",
+     ""
+    ],
+    [
+     "español",
+     "español",
+     ""
+    ],
+    [
+     "trabajar",
+     "trabajar",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -147,7 +322,54 @@
    ],
    "ui": "bubble",
    "at": "21:47",
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "trabajo",
+     "trabajar",
+     ""
+    ],
+    [
+     "oficina",
+     "oficina",
+     ""
+    ],
+    [
+     "centro",
+     "centro",
+     ""
+    ],
+    [
+     "Llevo",
+     "llevar",
+     ""
+    ],
+    [
+     "meses",
+     "mes",
+     ""
+    ],
+    [
+     "meto",
+     "meter",
+     ""
+    ],
+    [
+     "pata",
+     "pato",
+     ""
+    ],
+    [
+     "veces",
+     "vez",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -166,7 +388,34 @@
    "ui": "bubble",
    "at": "21:48",
    "stamp": "☕",
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "encanta",
+     "encantar",
+     ""
+    ],
+    [
+     "Puedo",
+     "poder",
+     ""
+    ],
+    [
+     "ser",
+     "ser",
+     ""
+    ],
+    [
+     "profe",
+     "profe",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -184,7 +433,29 @@
    ],
    "ui": "bubble",
    "at": "21:48",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "café",
+     "café",
+     ""
+    ],
+    [
+     "Trato",
+     "tratar",
+     ""
+    ],
+    [
+     "hecho",
+     "hecho",
+     ""
+    ],
+    [
+     "hacemos",
+     "hacer",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -204,7 +475,39 @@
    ],
    "ui": "bubble",
    "at": "21:50",
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "viernes",
+     "viernes",
+     ""
+    ],
+    [
+     "Paso",
+     "pasar",
+     ""
+    ],
+    [
+     "barrio",
+     "barrio",
+     ""
+    ],
+    [
+     "sacamos",
+     "sacar",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "vale",
+     "vale",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -222,7 +525,29 @@
    "ui": "bubble",
    "at": "21:51",
    "stamp": "😂",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "perfecto",
+     "perfecto",
+     ""
+    ],
+    [
+     "preparo",
+     "preparar",
+     ""
+    ],
+    [
+     "poema",
+     "poema",
+     ""
+    ],
+    [
+     "viernes",
+     "viernes",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -237,7 +562,19 @@
    "new": [],
    "ui": "bubble",
    "at": "21:52",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "ocurra",
+     "ocurrir",
+     ""
+    ],
+    [
+     "poema",
+     "poema",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -256,7 +593,39 @@
    "ui": "bubble",
    "at": "21:54",
    "stamp": "😩",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "practicar",
+     "practicar",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "sé",
+     "saber",
+     ""
+    ],
+    [
+     "dice",
+     "decir",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -273,7 +642,34 @@
    "ui": "bubble",
    "at": "21:57",
    "stamp": "😌",
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "están",
+     "estar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "suena",
+     "sonar",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "bonito",
+     "bonito",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -292,7 +688,49 @@
    ],
    "ui": "bubble",
    "at": "22:15",
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "mamá",
+     "mamá",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "quedado",
+     "quedar",
+     ""
+    ],
+    [
+     "guapísimo",
+     "guapísimo",
+     ""
+    ],
+    [
+     "viernes",
+     "viernes",
+     ""
+    ],
+    [
+     "fin",
+     "fin",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "plan",
+     "plan",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -308,7 +746,24 @@
    "new": [],
    "ui": "bubble",
    "at": "22:15",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Perdona",
+     "perdonar",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "iba",
+     "ir",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -329,7 +784,49 @@
    "ui": "bubble",
    "at": "22:17",
    "stamp": "😂",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "dado",
+     "dar",
+     ""
+    ],
+    [
+     "cuenta",
+     "contar",
+     ""
+    ],
+    [
+     "Gracias",
+     "gracias",
+     ""
+    ],
+    [
+     "guapísimo",
+     "guapísimo",
+     ""
+    ],
+    [
+     "guardo",
+     "guardar",
+     ""
+    ],
+    [
+     "viernes",
+     "viernes",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

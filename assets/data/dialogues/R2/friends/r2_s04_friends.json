@@ -47,7 +47,19 @@
    "ui": "bubble",
    "at": "20:05",
    "stamp": "🙄",
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "andas",
+     "andar",
+     ""
+    ],
+    [
+     "Vienes",
+     "venir",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -68,7 +80,29 @@
    "at": "20:09",
    "emotion": "stiff",
    "tl_f": "Cinco minutitos y llego, tía. Palabra.",
-   "rd_f": "씬꼬 미누띠또스 이 예고, 띠아. 빨라브라."
+   "rd_f": "씬꼬 미누띠또스 이 예고, 띠아. 빨라브라.",
+   "lemmas": [
+    [
+     "minutitos",
+     "minutito",
+     ""
+    ],
+    [
+     "llego",
+     "llegar",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "Palabra",
+     "palabra",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -85,7 +119,24 @@
    "ui": "bubble",
    "at": "20:31",
    "stamp": "😒",
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Llegas",
+     "llegar",
+     ""
+    ],
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "claro",
+     "claro",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -104,7 +155,29 @@
    ],
    "ui": "bubble",
    "at": "20:32",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Tranqui",
+     "tranqui",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "bajo",
+     "bajo",
+     ""
+    ],
+    [
+     "metro",
+     "metro",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -122,7 +195,29 @@
    "ui": "bubble",
    "at": "20:33",
    "stamp": "🍕",
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Bajas",
+     "bajo",
+     ""
+    ],
+    [
+     "story",
+     "story",
+     ""
+    ],
+    [
+     "pilla",
+     "pillar",
+     ""
+    ],
+    [
+     "sofá",
+     "sofá",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -138,7 +233,34 @@
    "ui": "bubble",
    "at": "20:35",
    "stamp": "😂",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Jaja",
+     "jaja",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "hace",
+     "hacer",
+     ""
+    ],
+    [
+     "siglos",
+     "siglo",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -156,7 +278,34 @@
    ],
    "ui": "bubble",
    "at": "20:35",
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Siglos",
+     "siglo",
+     ""
+    ],
+    [
+     "subiste",
+     "subir",
+     ""
+    ],
+    [
+     "hace",
+     "hacer",
+     ""
+    ],
+    [
+     "minutos",
+     "minuto",
+     ""
+    ],
+    [
+     "sales",
+     "sal",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -176,7 +325,44 @@
    "ui": "bubble",
    "at": "20:36",
    "stamp": "🍕",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "vale",
+     "vale",
+     ""
+    ],
+    [
+     "Salgo",
+     "salir",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "mismo",
+     "mismo",
+     ""
+    ],
+    [
+     "dejo",
+     "dejar",
+     ""
+    ],
+    [
+     "trozo",
+     "trozo",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

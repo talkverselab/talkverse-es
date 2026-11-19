@@ -52,7 +52,39 @@
    ],
    "emotion": "polite",
    "tl_f": "Bienvenida a la empresa, {name}. Aquí tienes tu mesa y tu ordenador.",
-   "rd_f": "비엔베니다 아 라 엠쁘레사, {name}. 아끼 띠에네스 뚜 메사 이 뚜 오르데나도르."
+   "rd_f": "비엔베니다 아 라 엠쁘레사, {name}. 아끼 띠에네스 뚜 메사 이 뚜 오르데나도르.",
+   "lemmas": [
+    [
+     "Bienvenido",
+     "bienvenido",
+     ""
+    ],
+    [
+     "empresa",
+     "empresa",
+     ""
+    ],
+    [
+     "Aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ],
+    [
+     "mesa",
+     "mesa",
+     ""
+    ],
+    [
+     "ordenador",
+     "ordenador",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -69,7 +101,34 @@
     "cliente",
     "empezar"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Gracias",
+     "gracias",
+     ""
+    ],
+    [
+     "hora",
+     "hora",
+     ""
+    ],
+    [
+     "empieza",
+     "empezar",
+     ""
+    ],
+    [
+     "reunión",
+     "reunión",
+     ""
+    ],
+    [
+     "cliente",
+     "cliente",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -83,7 +142,39 @@
     "encargo",
     "comida"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "primer",
+     "primero",
+     ""
+    ],
+    [
+     "encargo",
+     "encargo",
+     ""
+    ],
+    [
+     "pide",
+     "pedir",
+     ""
+    ],
+    [
+     "comida",
+     "comida",
+     ""
+    ],
+    [
+     "reunión",
+     "reunión",
+     ""
+    ],
+    [
+     "Somos",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -100,7 +191,49 @@
    ],
    "emotion": "amused",
    "tl_f": "Ah, la misión de la novata. Yo pedí pizza el año pasado y llegó helada.",
-   "rd_f": "아, 라 미시온 데 라 노바따. 요 뻬디 삐짜 엘 아뇨 빠사도 이 예고 엘라다."
+   "rd_f": "아, 라 미시온 데 라 노바따. 요 뻬디 삐짜 엘 아뇨 빠사도 이 예고 엘라다.",
+   "lemmas": [
+    [
+     "Ah",
+     "ah",
+     ""
+    ],
+    [
+     "misión",
+     "misión",
+     ""
+    ],
+    [
+     "novato",
+     "novato",
+     ""
+    ],
+    [
+     "pedí",
+     "pedir",
+     ""
+    ],
+    [
+     "año",
+     "año",
+     ""
+    ],
+    [
+     "pasado",
+     "pasar",
+     ""
+    ],
+    [
+     "llegó",
+     "llegar",
+     ""
+    ],
+    [
+     "helada",
+     "helado",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -116,7 +249,34 @@
     "bocadillo",
     "pagar"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "vaya",
+     "vaya",
+     ""
+    ],
+    [
+     "pido",
+     "pedir",
+     ""
+    ],
+    [
+     "entonces",
+     "entonces",
+     ""
+    ],
+    [
+     "bocadillos",
+     "bocadillo",
+     ""
+    ],
+    [
+     "paga",
+     "pagar",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -129,7 +289,44 @@
    "new": [
     "oficina"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "bocadillos",
+     "bocadillo",
+     ""
+    ],
+    [
+     "perfecto",
+     "perfecto",
+     ""
+    ],
+    [
+     "Paga",
+     "pagar",
+     ""
+    ],
+    [
+     "empresa",
+     "empresa",
+     ""
+    ],
+    [
+     "pides",
+     "pedir",
+     ""
+    ],
+    [
+     "app",
+     "app",
+     ""
+    ],
+    [
+     "oficina",
+     "oficina",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -146,7 +343,49 @@
     "cantidad",
     "experiencia"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "mira",
+     "mirar",
+     ""
+    ],
+    [
+     "revisa",
+     "revisar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "cantidad",
+     "cantidad",
+     ""
+    ],
+    [
+     "antes",
+     "antes",
+     ""
+    ],
+    [
+     "pagar",
+     "pagar",
+     ""
+    ],
+    [
+     "digo",
+     "decir",
+     ""
+    ],
+    [
+     "experiencia",
+     "experiencia",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -164,7 +403,49 @@
     "sueldo",
     "cobrar"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Tranquilo",
+     "tranquilo",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "controlado",
+     "controlar",
+     ""
+    ],
+    [
+     "cierto",
+     "cierto",
+     ""
+    ],
+    [
+     "sueldo",
+     "sueldo",
+     ""
+    ],
+    [
+     "cobra",
+     "cobrar",
+     ""
+    ],
+    [
+     "final",
+     "final",
+     ""
+    ],
+    [
+     "mes",
+     "mes",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -177,7 +458,34 @@
    "new": [
     "quedar"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Cobramos",
+     "cobrar",
+     ""
+    ],
+    [
+     "día",
+     "día",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "quedará",
+     "quedar",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -190,7 +498,49 @@
     "expr:ya está"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "He",
+     "haber",
+     ""
+    ],
+    [
+     "pedido",
+     "pedir",
+     ""
+    ],
+    [
+     "bocadillos",
+     "bocadillo",
+     ""
+    ],
+    [
+     "Llegan",
+     "llegar",
+     ""
+    ],
+    [
+     "menos",
+     "menos",
+     ""
+    ],
+    [
+     "cuarto",
+     "cuarto",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -203,7 +553,39 @@
     "expr:mira"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Diez",
+     "diez",
+     ""
+    ],
+    [
+     "Mira",
+     "mirar",
+     ""
+    ],
+    [
+     "móvil",
+     "móvil",
+     ""
+    ],
+    [
+     "Has",
+     "haber",
+     ""
+    ],
+    [
+     "pedido",
+     "pedir",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -218,7 +600,64 @@
     "caja",
     "compañero"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "buenos",
+     "buen",
+     ""
+    ],
+    [
+     "días",
+     "día",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "empresa",
+     "empresa",
+     ""
+    ],
+    [
+     "Traigo",
+     "traer",
+     ""
+    ],
+    [
+     "bocadillos",
+     "bocadillo",
+     ""
+    ],
+    [
+     "abajo",
+     "abajo",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "compañeros",
+     "compañero",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "cajas",
+     "caja",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -232,7 +671,39 @@
     "expr:ahora mismo"
    ],
    "new": [],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "paga",
+     "pagar",
+     ""
+    ],
+    [
+     "cliente",
+     "cliente",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "subiendo",
+     "subir",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "mismo",
+     "mismo",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -245,7 +716,34 @@
    "new": [
     "segundo"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "pagaré",
+     "pagar",
+     ""
+    ],
+    [
+     "primer",
+     "primero",
+     ""
+    ],
+    [
+     "sueldo",
+     "sueldo",
+     ""
+    ],
+    [
+     "segundo",
+     "segundo",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -262,7 +760,64 @@
     "tercero",
     "vida"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Espera",
+     "esperar",
+     ""
+    ],
+    [
+     "momento",
+     "momento",
+     ""
+    ],
+    [
+     "cliente",
+     "cliente",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "comiendo",
+     "comer",
+     ""
+    ],
+    [
+     "tercero",
+     "tercero",
+     ""
+    ],
+    [
+     "Dice",
+     "decir",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "mejor",
+     "mejor",
+     ""
+    ],
+    [
+     "reunión",
+     "reunión",
+     ""
+    ],
+    [
+     "vida",
+     "vida",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -276,7 +831,44 @@
     "firmar",
     "contrato"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "firmado",
+     "firmar",
+     ""
+    ],
+    [
+     "contrato",
+     "contrato",
+     ""
+    ],
+    [
+     "viernes",
+     "viernes",
+     ""
+    ],
+    [
+     "pides",
+     "pedir",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "bocadillos",
+     "bocadillo",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

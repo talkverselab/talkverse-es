@@ -47,7 +47,19 @@
    "ui": "bubble",
    "at": "09:15",
    "stamp": "😔",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "fue",
+     "ser",
+     ""
+    ],
+    [
+     "olla",
+     "olla",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -64,7 +76,19 @@
    ],
    "ui": "bubble",
    "at": "09:20",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "hablas",
+     "hablar",
+     ""
+    ],
+    [
+     "olvidó",
+     "olvidar",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -84,7 +108,29 @@
    "ui": "bubble",
    "at": "09:20",
    "stamp": "🙏",
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "cumple",
+     "cumplir",
+     ""
+    ],
+    [
+     "ayer",
+     "ayer",
+     ""
+    ],
+    [
+     "siento",
+     "sentir",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -103,7 +149,29 @@
    ],
    "ui": "bubble",
    "at": "09:22",
-   "emotion": "sad"
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "pasé",
+     "pasar",
+     ""
+    ],
+    [
+     "noche",
+     "noche",
+     ""
+    ],
+    [
+     "sola",
+     "solo",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -120,7 +188,34 @@
    ],
    "ui": "bubble",
    "at": "09:23",
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "invito",
+     "invitar",
+     ""
+    ],
+    [
+     "cenar",
+     "cenar",
+     ""
+    ],
+    [
+     "eliges",
+     "elegir",
+     ""
+    ],
+    [
+     "sitio",
+     "sitio",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -138,7 +233,29 @@
    "stamp": "😂",
    "emotion": "amused",
    "tl_f": "Jajaja tía, mi cumple es mañana.",
-   "rd_f": "하하하 띠아, 미 꿈쁠레 에스 마냐나."
+   "rd_f": "하하하 띠아, 미 꿈쁠레 에스 마냐나.",
+   "lemmas": [
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "cumple",
+     "cumplir",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "mañana",
+     "mañana",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -153,7 +270,29 @@
    "new": [],
    "ui": "bubble",
    "at": "09:25",
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Mañana",
+     "mañana",
+     ""
+    ],
+    [
+     "noche",
+     "noche",
+     ""
+    ],
+    [
+     "pasaste",
+     "pasar",
+     ""
+    ],
+    [
+     "sola",
+     "solo",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -172,7 +311,39 @@
    "ui": "bubble",
    "at": "09:26",
    "stamp": "😏",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Quería",
+     "querer",
+     ""
+    ],
+    [
+     "verte",
+     "ver",
+     ""
+    ],
+    [
+     "sufrir",
+     "sufrir",
+     ""
+    ],
+    [
+     "invitas",
+     "invitar",
+     ""
+    ],
+    [
+     "igual",
+     "igual",
+     ""
+    ],
+    [
+     "Elijo",
+     "elegir",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

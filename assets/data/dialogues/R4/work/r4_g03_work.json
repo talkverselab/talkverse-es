@@ -48,7 +48,44 @@
    ],
    "emotion": "flustered",
    "tl_f": "Oye, ¿tienes un momento? Tengo que pedirle algo al jefe y estoy nerviosa.",
-   "rd_f": "오예, 띠에네스 운 모멘또? 뗀고 께 뻬디를레 알고 알 헤페 이 에스또이 네르비오사."
+   "rd_f": "오예, 띠에네스 운 모멘또? 뗀고 께 뻬디를레 알고 알 헤페 이 에스또이 네르비오사.",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ],
+    [
+     "momento",
+     "momento",
+     ""
+    ],
+    [
+     "Tengo",
+     "tener",
+     ""
+    ],
+    [
+     "pedirle",
+     "pedir",
+     ""
+    ],
+    [
+     "estoy",
+     "estar",
+     ""
+    ],
+    [
+     "nervioso",
+     "nervioso",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -63,7 +100,29 @@
    "new": [
     "pedir"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Claro",
+     "claro",
+     ""
+    ],
+    [
+     "dime",
+     "decir",
+     ""
+    ],
+    [
+     "quieres",
+     "querer",
+     ""
+    ],
+    [
+     "pedir",
+     "pedir",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -80,7 +139,29 @@
     "casarse"
    ],
    "emotion": "worried",
-   "ko_f": "금요일 휴가. 우리 오빠가 세비야에서 결혼하거든."
+   "ko_f": "금요일 휴가. 우리 오빠가 세비야에서 결혼하거든.",
+   "lemmas": [
+    [
+     "viernes",
+     "viernes",
+     ""
+    ],
+    [
+     "libre",
+     "libre",
+     ""
+    ],
+    [
+     "hermano",
+     "hermano",
+     ""
+    ],
+    [
+     "casa",
+     "casar",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -97,7 +178,39 @@
     "yo que tú",
     "gustaría"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "diría",
+     "decir",
+     ""
+    ],
+    [
+     "quiero",
+     "querer",
+     ""
+    ],
+    [
+     "Diría",
+     "decir",
+     ""
+    ],
+    [
+     "gustaría",
+     "gustar",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -112,7 +225,44 @@
    "new": [
     "sonar"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "gustaría",
+     "gustar",
+     ""
+    ],
+    [
+     "tener",
+     "tener",
+     ""
+    ],
+    [
+     "viernes",
+     "viernes",
+     ""
+    ],
+    [
+     "libre",
+     "libre",
+     ""
+    ],
+    [
+     "Así",
+     "así",
+     ""
+    ],
+    [
+     "suena",
+     "sonar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -128,7 +278,54 @@
     "añadir",
     "educado"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Mucho",
+     "mucho",
+     ""
+    ],
+    [
+     "mejor",
+     "mejor",
+     ""
+    ],
+    [
+     "final",
+     "final",
+     ""
+    ],
+    [
+     "añadiría",
+     "añadir",
+     ""
+    ],
+    [
+     "sería",
+     "ser",
+     ""
+    ],
+    [
+     "posible",
+     "posible",
+     ""
+    ],
+    [
+     "Queda",
+     "quedar",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "educado",
+     "educado",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -144,7 +341,39 @@
     "demasiado",
     "reina"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "sería",
+     "ser",
+     ""
+    ],
+    [
+     "demasiado",
+     "demasiado",
+     ""
+    ],
+    [
+     "Parece",
+     "parecer",
+     ""
+    ],
+    [
+     "escribo",
+     "escribir",
+     ""
+    ],
+    [
+     "reina",
+     "reina",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -159,7 +388,39 @@
    "new": [
     "encantar"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "mundo",
+     "mundo",
+     ""
+    ],
+    [
+     "habla",
+     "hablar",
+     ""
+    ],
+    [
+     "así",
+     "así",
+     ""
+    ],
+    [
+     "encanta",
+     "encantar",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -172,7 +433,29 @@
     "expr:vale"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "dice",
+     "decir",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "puede",
+     "poder",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -187,7 +470,39 @@
    "new": [
     "funcionar"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Entonces",
+     "entonces",
+     ""
+    ],
+    [
+     "dirías",
+     "decir",
+     ""
+    ],
+    [
+     "trabajarías",
+     "trabajar",
+     ""
+    ],
+    [
+     "sábado",
+     "sábado",
+     ""
+    ],
+    [
+     "Siempre",
+     "siempre",
+     ""
+    ],
+    [
+     "funciona",
+     "funcionar",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -200,7 +515,19 @@
    "new": [
     "buscar"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "estabas",
+     "estar",
+     ""
+    ],
+    [
+     "buscando",
+     "buscar",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -215,7 +542,34 @@
    "new": [
     "mano"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "Eh",
+     "eh",
+     ""
+    ],
+    [
+     "gustaría",
+     "gustar",
+     ""
+    ],
+    [
+     "pedirle",
+     "pedir",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -226,7 +580,24 @@
    "note": "¿Perdona? = 네?·뭐라고?",
    "tags": [],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Perdona",
+     "perdonar",
+     ""
+    ],
+    [
+     "has",
+     "haber",
+     ""
+    ],
+    [
+     "dicho",
+     "decir",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -239,7 +610,44 @@
     "form:condicional"
    ],
    "new": [],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "viernes",
+     "viernes",
+     ""
+    ],
+    [
+     "gustaría",
+     "gustar",
+     ""
+    ],
+    [
+     "pedirle",
+     "pedir",
+     ""
+    ],
+    [
+     "viernes",
+     "viernes",
+     ""
+    ],
+    [
+     "libre",
+     "libre",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -253,7 +661,34 @@
     "form:condicional"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "mismo",
+     "mismo",
+     ""
+    ],
+    [
+     "diría",
+     "decir",
+     ""
+    ],
+    [
+     "sería",
+     "ser",
+     ""
+    ],
+    [
+     "posible",
+     "posible",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -269,7 +704,39 @@
    "new": [
     "hablar"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Sería",
+     "ser",
+     ""
+    ],
+    [
+     "posible",
+     "posible",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "hablaremos",
+     "hablar",
+     ""
+    ],
+    [
+     "día",
+     "día",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

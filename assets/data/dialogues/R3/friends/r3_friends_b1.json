@@ -50,7 +50,44 @@
     "aparecer"
    ],
    "emotion": "surprised",
-   "note_claude_old": "quedar = (친구와) 만나기로 하다"
+   "note_claude_old": "quedar = (친구와) 만나기로 하다",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "mira",
+     "mirar",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
+    ],
+    [
+     "enfrente",
+     "enfrentar",
+     ""
+    ],
+    [
+     "Ves",
+     "ver",
+     ""
+    ],
+    [
+     "chica",
+     "chica",
+     ""
+    ],
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -67,7 +104,34 @@
     "enterarse"
    ],
    "emotion": "neutral",
-   "note_claude_old": "enterarse = 알게 되다"
+   "note_claude_old": "enterarse = 알게 되다",
+   "lemmas": [
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "veo",
+     "ver",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -83,7 +147,34 @@
     "medianoche"
    ],
    "emotion": "teasing",
-   "note_claude_old": "desde hace = ~전부터 쭉"
+   "note_claude_old": "desde hace = ~전부터 쭉",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "amiga",
+     "amiga",
+     ""
+    ],
+    [
+     "plan",
+     "plan",
+     ""
+    ],
+    [
+     "gusta",
+     "gustar",
+     ""
+    ],
+    [
+     "mucho",
+     "mucho",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -100,7 +191,24 @@
     "cruel"
    ],
    "emotion": "surprised",
-   "note_claude_old": "en tu lugar = 네 입장이라면 + 조건법"
+   "note_claude_old": "en tu lugar = 네 입장이라면 + 조건법",
+   "lemmas": [
+    [
+     "serio",
+     "serio",
+     ""
+    ],
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -117,7 +225,29 @@
     "excusa"
    ],
    "emotion": "cheerful",
-   "note_claude_old": "cuando + 접속법 = 앞으로 ~하면"
+   "note_claude_old": "cuando + 접속법 = 앞으로 ~하면",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "llegue",
+     "llegar",
+     ""
+    ],
+    [
+     "digo",
+     "decir",
+     ""
+    ],
+    [
+     "mire",
+     "mirar",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -133,7 +263,24 @@
     "enfrente"
    ],
    "emotion": "neutral",
-   "note_claude_old": "llevar + 시간 = ~째 그러고 있다"
+   "note_claude_old": "llevar + 시간 = ~째 그러고 있다",
+   "lemmas": [
+    [
+     "hora",
+     "hora",
+     ""
+    ],
+    [
+     "quedamos",
+     "quedar",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -148,7 +295,24 @@
    ],
    "new": [],
    "emotion": "amused",
-   "note_claude_old": "no puede ser = 말도 안 돼"
+   "note_claude_old": "no puede ser = 말도 안 돼",
+   "lemmas": [
+    [
+     "quedamos",
+     "quedar",
+     ""
+    ],
+    [
+     "ocho",
+     "ocho",
+     ""
+    ],
+    [
+     "queda",
+     "quedar",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -166,7 +330,39 @@
    "emotion": "cheerful",
    "tl_f": "¡Hola, tías! Llego puntual por fin. ¡Venga!",
    "rd_f": "올라, 띠아스! 예고 뿐뚜알 뽀르 핀. 벤가!",
-   "note_claude_old": "pillar = 잡다·들키다(구어)"
+   "note_claude_old": "pillar = 잡다·들키다(구어)",
+   "lemmas": [
+    [
+     "Hola",
+     "hola",
+     ""
+    ],
+    [
+     "tíos",
+     "tío",
+     ""
+    ],
+    [
+     "Llego",
+     "llegar",
+     ""
+    ],
+    [
+     "puntual",
+     "puntual",
+     ""
+    ],
+    [
+     "fin",
+     "fin",
+     ""
+    ],
+    [
+     "Venga",
+     "venir",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -178,7 +374,34 @@
    "tags": [],
    "new": [],
    "emotion": "excited",
-   "note_claude_old": "pero si… = 아니 ~잖아(반박)"
+   "note_claude_old": "pero si… = 아니 ~잖아(반박)",
+   "lemmas": [
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ],
+    [
+     "Has",
+     "haber",
+     ""
+    ],
+    [
+     "visto",
+     "ver",
+     ""
+    ],
+    [
+     "chica",
+     "chica",
+     ""
+    ],
+    [
+     "enfrente",
+     "enfrentar",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -192,7 +415,44 @@
    ],
    "new": [],
    "emotion": "surprised",
-   "note_claude_old": "lo sé = 알고 있어"
+   "note_claude_old": "lo sé = 알고 있어",
+   "lemmas": [
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "visto",
+     "ver",
+     ""
+    ],
+    [
+     "dices",
+     "decir",
+     ""
+    ],
+    [
+     "hora",
+     "hora",
+     ""
+    ],
+    [
+     "antes",
+     "antes",
+     ""
+    ],
+    [
+     "hace",
+     "hacer",
+     ""
+    ],
+    [
+     "años",
+     "año",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -206,7 +466,44 @@
    ],
    "new": [],
    "emotion": "teasing",
-   "note_claude_old": "¿Cómo que…? = ~라니?"
+   "note_claude_old": "¿Cómo que…? = ~라니?",
+   "lemmas": [
+    [
+     "llegas",
+     "llegar",
+     ""
+    ],
+    [
+     "tarde",
+     "tarde",
+     ""
+    ],
+    [
+     "siempre",
+     "siempre",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "diría",
+     "decir",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -220,7 +517,44 @@
    ],
    "new": [],
    "emotion": "annoyed",
-   "note_claude_old": "esperándome = 나를 기다리면서"
+   "note_claude_old": "esperándome = 나를 기다리면서",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "tía",
+     "tía",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "engañas",
+     "engañar",
+     ""
+    ],
+    [
+     "siempre",
+     "siempre",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -236,7 +570,29 @@
     "sobrar"
    ],
    "emotion": "surprised",
-   "note_claude_old": "sobrar = 남아돌다, 「내가 낄 자리가 아니다」"
+   "note_claude_old": "sobrar = 남아돌다, 「내가 낄 자리가 아니다」",
+   "lemmas": [
+    [
+     "plan",
+     "plan",
+     ""
+    ],
+    [
+     "años",
+     "año",
+     ""
+    ],
+    [
+     "así",
+     "así",
+     ""
+    ],
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -252,7 +608,39 @@
     "tontería"
    ],
    "emotion": "amused",
-   "note_claude_old": "no digas = 부정 명령(접속법)"
+   "note_claude_old": "no digas = 부정 명령(접속법)",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "llegue",
+     "llegar",
+     ""
+    ],
+    [
+     "tiempo",
+     "tiempo",
+     ""
+    ],
+    [
+     "callo",
+     "callar",
+     ""
+    ],
+    [
+     "Ja",
+     "ja",
+     ""
+    ],
+    [
+     "ja",
+     "ja",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -268,7 +656,34 @@
     "frío"
    ],
    "emotion": "tsukkomi",
-   "note_claude_old": "llevo aquí = 여기 쭉 있다"
+   "note_claude_old": "llevo aquí = 여기 쭉 있다",
+   "lemmas": [
+    [
+     "diría",
+     "decir",
+     ""
+    ],
+    [
+     "quedamos",
+     "quedar",
+     ""
+    ],
+    [
+     "hora",
+     "hora",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ],
+    [
+     "Venga",
+     "venir",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -284,7 +699,39 @@
    "emotion": "gentle",
    "tl_f": "¡Venga, tías! No pasa nada. ¿Entramos al bar?",
    "rd_f": "벤가, 띠아스! 노 빠사 나다. 엔뜨라모스 알 바르?",
-   "note_claude_old": "anda = 「에이, 됐고」"
+   "note_claude_old": "anda = 「에이, 됐고」",
+   "lemmas": [
+    [
+     "Venga",
+     "venir",
+     ""
+    ],
+    [
+     "tíos",
+     "tío",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "pasa",
+     "pasar",
+     ""
+    ],
+    [
+     "Entramos",
+     "entrar",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

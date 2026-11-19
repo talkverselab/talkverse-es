@@ -44,7 +44,29 @@
     "tren",
     "salir"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "estás",
+     "estar",
+     ""
+    ],
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "sale",
+     "salir",
+     ""
+    ],
+    [
+     "diez",
+     "diez",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -59,7 +81,29 @@
    "new": [
     "ventana"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "junto",
+     "junto",
+     ""
+    ],
+    [
+     "ventana",
+     "ventana",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -74,7 +118,24 @@
    "new": [
     "quién"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "estás",
+     "estar",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -90,7 +151,19 @@
     "perro",
     "señora"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "señora",
+     "señora",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -103,7 +176,34 @@
     "form:prep_en"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "perros",
+     "perro",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -117,7 +217,19 @@
     "form:prep_a"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "va",
+     "ir",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -134,7 +246,24 @@
    "new": [],
    "emotion": "shout",
    "tl_f": "¡Qué fuerte, tía! ¡Yo voy a Toledo!",
-   "rd_f": "께 푸에르떼, 띠아! 요 보이 아 똘레도!"
+   "rd_f": "께 푸에르떼, 띠아! 요 보이 아 똘레도!",
+   "lemmas": [
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "voy",
+     "ir",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -150,7 +279,19 @@
     "desde",
     "llamar"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "llamo",
+     "llamar",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

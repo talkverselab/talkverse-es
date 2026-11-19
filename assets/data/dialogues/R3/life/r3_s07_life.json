@@ -44,7 +44,39 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Hola",
+     "hola",
+     ""
+    ],
+    [
+     "Hemos",
+     "haber",
+     ""
+    ],
+    [
+     "limpiado",
+     "limpiar",
+     ""
+    ],
+    [
+     "piso",
+     "piso",
+     ""
+    ],
+    [
+     "Has",
+     "haber",
+     ""
+    ],
+    [
+     "visto",
+     "ver",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -59,7 +91,34 @@
     "form:perfecto"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "Habéis",
+     "haber",
+     ""
+    ],
+    [
+     "hecho",
+     "hacer",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -73,7 +132,29 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "hemos",
+     "haber",
+     ""
+    ],
+    [
+     "lavado",
+     "lavar",
+     ""
+    ],
+    [
+     "ropa",
+     "ropa",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -86,7 +167,24 @@
     "form:concordancia"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "ropa",
+     "ropa",
+     ""
+    ],
+    [
+     "blanca",
+     "blanco",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -100,7 +198,34 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "lavado",
+     "lavar",
+     ""
+    ],
+    [
+     "camisetas",
+     "camiseta",
+     ""
+    ],
+    [
+     "rojas",
+     "rojo",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -114,7 +239,24 @@
     "form:concordancia"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "rojo",
+     "rojo",
+     ""
+    ],
+    [
+     "blanco",
+     "blanco",
+     ""
+    ],
+    [
+     "serio",
+     "serio",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -128,7 +270,39 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "ves",
+     "ver",
+     ""
+    ],
+    [
+     "Ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "tenemos",
+     "tener",
+     ""
+    ],
+    [
+     "ropa",
+     "ropa",
+     ""
+    ],
+    [
+     "rosa",
+     "rosa",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -143,7 +317,24 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "rosa",
+     "rosa",
+     ""
+    ],
+    [
+     "queda",
+     "quedar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

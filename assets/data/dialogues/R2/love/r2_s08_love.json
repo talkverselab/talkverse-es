@@ -46,7 +46,24 @@
    "ui": "bubble",
    "at": "22:00",
    "stamp": "🏠",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "haces",
+     "hacer",
+     ""
+    ],
+    [
+     "Estás",
+     "estar",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -64,7 +81,34 @@
    ],
    "ui": "bubble",
    "at": "22:03",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "hago",
+     "hacer",
+     ""
+    ],
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "sofá",
+     "sofá",
+     ""
+    ],
+    [
+     "especial",
+     "especial",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -79,7 +123,24 @@
    "new": [],
    "ui": "bubble",
    "at": "22:03",
-   "emotion": "stiff"
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Ah",
+     "ah",
+     ""
+    ],
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "veo",
+     "ver",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -95,7 +156,24 @@
    "ui": "bubble",
    "at": "22:04",
    "stamp": "🌙",
-   "emotion": "sad"
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "entonces",
+     "entonces",
+     ""
+    ],
+    [
+     "buenas",
+     "buena",
+     ""
+    ],
+    [
+     "noches",
+     "noche",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -111,7 +189,24 @@
    ],
    "ui": "bubble",
    "at": "22:04",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "compañero",
+     "compañero",
+     ""
+    ],
+    [
+     "piso",
+     "piso",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -127,7 +222,24 @@
    "ui": "bubble",
    "at": "22:06",
    "stamp": "😂",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "especial",
+     "especial",
+     ""
+    ],
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -145,7 +257,24 @@
    ],
    "ui": "bubble",
    "at": "22:07",
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "celos",
+     "celo",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -162,7 +291,34 @@
    ],
    "ui": "bubble",
    "at": "22:08",
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Tienes",
+     "tener",
+     ""
+    ],
+    [
+     "celos",
+     "celo",
+     ""
+    ],
+    [
+     "sofá",
+     "sofá",
+     ""
+    ],
+    [
+     "tiene",
+     "tener",
+     ""
+    ],
+    [
+     "hueco",
+     "hueco",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

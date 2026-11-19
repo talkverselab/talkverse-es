@@ -54,7 +54,49 @@
     "tía",
     "pueblo"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "vienes",
+     "venir",
+     ""
+    ],
+    [
+     "sábado",
+     "sábado",
+     ""
+    ],
+    [
+     "tía",
+     "tía",
+     ""
+    ],
+    [
+     "tiene",
+     "tener",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "pueblo",
+     "pueblo",
+     ""
+    ],
+    [
+     "cerca",
+     "cerca",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -71,7 +113,34 @@
     "apuntarse",
     "estación"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "serio",
+     "serio",
+     ""
+    ],
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "apunto",
+     "apuntar",
+     ""
+    ],
+    [
+     "llego",
+     "llegar",
+     ""
+    ],
+    [
+     "estación",
+     "estación",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -88,7 +157,34 @@
     "recoger",
     "bajar"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Tranqui",
+     "tranqui",
+     ""
+    ],
+    [
+     "llegues",
+     "llegar",
+     ""
+    ],
+    [
+     "escribes",
+     "escribir",
+     ""
+    ],
+    [
+     "bajo",
+     "bajo",
+     ""
+    ],
+    [
+     "recogerte",
+     "recoger",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -104,7 +200,34 @@
     "tren",
     "tarde"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "hace",
+     "hacer",
+     ""
+    ],
+    [
+     "tarde",
+     "tarde",
+     ""
+    ],
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "llega",
+     "llegar",
+     ""
+    ],
+    [
+     "casi",
+     "casi",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -121,7 +244,44 @@
     "cena",
     "preparar"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "da",
+     "dar",
+     ""
+    ],
+    [
+     "igual",
+     "igual",
+     ""
+    ],
+    [
+     "estés",
+     "estar",
+     ""
+    ],
+    [
+     "allí",
+     "allí",
+     ""
+    ],
+    [
+     "espero",
+     "esperar",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ],
+    [
+     "preparada",
+     "preparado",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -134,7 +294,34 @@
     "expr:qué bien"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "estar",
+     "estar",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -151,7 +338,34 @@
     "novio",
     "abuela"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "tía",
+     "tía",
+     ""
+    ],
+    [
+     "prima",
+     "primo",
+     ""
+    ],
+    [
+     "novio",
+     "novio",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "abuela",
+     "abuela",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -162,7 +376,24 @@
    "note": "también = ~도",
    "tags": [],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "También",
+     "también",
+     ""
+    ],
+    [
+     "viene",
+     "venir",
+     ""
+    ],
+    [
+     "abuela",
+     "abuela",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -178,7 +409,39 @@
     "enterarse",
     "vecino"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "entere",
+     "enterar",
+     ""
+    ],
+    [
+     "vienes",
+     "venir",
+     ""
+    ],
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "llamar",
+     "llamar",
+     ""
+    ],
+    [
+     "vecinos",
+     "vecino",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -191,7 +454,34 @@
    "new": [
     "mar"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "vecinos",
+     "vecino",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "quería",
+     "querer",
+     ""
+    ],
+    [
+     "ver",
+     "ver",
+     ""
+    ],
+    [
+     "mar",
+     "mar",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -207,7 +497,49 @@
     "invitado",
     "fiesta"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "invitados",
+     "invitado",
+     ""
+    ],
+    [
+     "siempre",
+     "siempre",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "fiesta",
+     "fiesta",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -222,7 +554,34 @@
    "new": [
     "gente"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "final",
+     "final",
+     ""
+    ],
+    [
+     "gente",
+     "gente",
+     ""
+    ],
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "ser",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -235,7 +594,44 @@
    "new": [
     "paellera"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "momento",
+     "momento",
+     ""
+    ],
+    [
+     "tía",
+     "tía",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "sacado",
+     "sacar",
+     ""
+    ],
+    [
+     "paellera",
+     "paellera",
+     ""
+    ],
+    [
+     "grande",
+     "grande",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -248,7 +644,19 @@
     "expr:madre mía"
    ],
    "new": [],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "personas",
+     "persona",
+     ""
+    ],
+    [
+     "mía",
+     "mía",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -265,7 +673,29 @@
    "new": [
     "agradecer"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "veas",
+     "ver",
+     ""
+    ],
+    [
+     "paella",
+     "paella",
+     ""
+    ],
+    [
+     "agradecerás",
+     "agradecer",
+     ""
+    ],
+    [
+     "juro",
+     "jurar",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

@@ -49,7 +49,29 @@
    "ui": "bubble",
    "at": "23:10",
    "stamp": "😊",
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "pasado",
+     "pasar",
+     ""
+    ],
+    [
+     "genial",
+     "genial",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -67,7 +89,29 @@
    ],
    "ui": "bubble",
    "at": "23:14",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ],
+    [
+     "era",
+     "ser",
+     ""
+    ],
+    [
+     "asco",
+     "asco",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -83,7 +127,29 @@
    ],
    "ui": "bubble",
    "at": "23:14",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "cierto",
+     "cierto",
+     ""
+    ],
+    [
+     "Tienes",
+     "tener",
+     ""
+    ],
+    [
+     "hueco",
+     "hueco",
+     ""
+    ],
+    [
+     "día",
+     "día",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -101,7 +167,44 @@
    ],
    "ui": "bubble",
    "at": "23:16",
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Mmm",
+     "mmm",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "sé",
+     "saber",
+     ""
+    ],
+    [
+     "Ando",
+     "andar",
+     ""
+    ],
+    [
+     "bastante",
+     "bastante",
+     ""
+    ],
+    [
+     "liada",
+     "liar",
+     ""
+    ],
+    [
+     "días",
+     "día",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -119,7 +222,29 @@
    ],
    "ui": "bubble",
    "at": "23:16",
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "vaya",
+     "vaya",
+     ""
+    ],
+    [
+     "sábado",
+     "sábado",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ],
+    [
+     "curras",
+     "curro",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -134,7 +259,24 @@
    "new": [],
    "ui": "bubble",
    "at": "23:18",
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "sábado",
+     "sábado",
+     ""
+    ],
+    [
+     "curro",
+     "curro",
+     ""
+    ],
+    [
+     "librería",
+     "librería",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -151,7 +293,29 @@
    "ui": "bubble",
    "at": "23:19",
    "stamp": "😏",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "cierro",
+     "cerrar",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "plan",
+     "plan",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -170,7 +334,39 @@
    "ui": "bubble",
    "at": "23:19",
    "stamp": "📚",
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Entonces",
+     "entonces",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ],
+    [
+     "plan",
+     "plan",
+     ""
+    ],
+    [
+     "Llevo",
+     "llevar",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

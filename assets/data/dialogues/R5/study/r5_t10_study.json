@@ -49,7 +49,39 @@
    ],
    "emotion": "surprised",
    "tl_f": "Tía, ¿para qué tanto papel? ¿Te has apuntado a otro curso?",
-   "rd_f": "띠아, 빠라 께 딴또 빠뻴? 떼 아스 아뿐따도 아 오뜨로 꾸르소?"
+   "rd_f": "띠아, 빠라 께 딴또 빠뻴? 떼 아스 아뿐따도 아 오뜨로 꾸르소?",
+   "lemmas": [
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
+     ""
+    ],
+    [
+     "papel",
+     "papel",
+     ""
+    ],
+    [
+     "has",
+     "haber",
+     ""
+    ],
+    [
+     "apuntado",
+     "apuntar",
+     ""
+    ],
+    [
+     "curso",
+     "curso",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -66,7 +98,49 @@
     "universidad",
     "quedarse"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Son",
+     "ser",
+     ""
+    ],
+    [
+     "documentos",
+     "documento",
+     ""
+    ],
+    [
+     "universidad",
+     "universidad",
+     ""
+    ],
+    [
+     "aceptan",
+     "aceptar",
+     ""
+    ],
+    [
+     "quedaré",
+     "quedar",
+     ""
+    ],
+    [
+     "años",
+     "año",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -84,7 +158,34 @@
     "idioma",
     "dejar"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "años",
+     "año",
+     ""
+    ],
+    [
+     "enteros",
+     "entero",
+     ""
+    ],
+    [
+     "familia",
+     "familia",
+     ""
+    ],
+    [
+     "idioma",
+     "idioma",
+     ""
+    ],
+    [
+     "dejarás",
+     "dejar",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -98,7 +199,54 @@
     "ocasión",
     "mejorar"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "dicen",
+     "decir",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "buena",
+     "buen",
+     ""
+    ],
+    [
+     "ocasión",
+     "ocasión",
+     ""
+    ],
+    [
+     "Además",
+     "además",
+     ""
+    ],
+    [
+     "español",
+     "español",
+     ""
+    ],
+    [
+     "estoy",
+     "estar",
+     ""
+    ],
+    [
+     "mejorando",
+     "mejorar",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -116,7 +264,54 @@
    ],
    "emotion": "amused",
    "tl_f": "Cierto. Ya no sueltas «estoy embarazada» cada vez que te da vergüenza.",
-   "rd_f": "씨에르또. 야 노 수엘따스 «에스또이 엠바라싸다» 까다 베쓰 께 떼 다 베르구엔싸."
+   "rd_f": "씨에르또. 야 노 수엘따스 «에스또이 엠바라싸다» 까다 베쓰 께 떼 다 베르구엔싸.",
+   "lemmas": [
+    [
+     "Cierto",
+     "cierto",
+     ""
+    ],
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "sueltas",
+     "suelto",
+     ""
+    ],
+    [
+     "estoy",
+     "estar",
+     ""
+    ],
+    [
+     "embarazado",
+     "embarazado",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "da",
+     "dar",
+     ""
+    ],
+    [
+     "vergüenza",
+     "vergüenza",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -132,7 +327,44 @@
    "new": [
     "dentro de"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Solo",
+     "solo",
+     ""
+    ],
+    [
+     "fue",
+     "ser",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "qué",
+     "qué",
+     ""
+    ],
+    [
+     "estarás",
+     "estar",
+     ""
+    ],
+    [
+     "dentro",
+     "dentro",
+     ""
+    ],
+    [
+     "años",
+     "año",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -151,7 +383,49 @@
     "pasta",
     "sofá"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Estaré",
+     "estar",
+     ""
+    ],
+    [
+     "tocando",
+     "tocar",
+     ""
+    ],
+    [
+     "concierto",
+     "concierto",
+     ""
+    ],
+    [
+     "enorme",
+     "enorme",
+     ""
+    ],
+    [
+     "éxito",
+     "éxito",
+     ""
+    ],
+    [
+     "pasta",
+     "pasta",
+     ""
+    ],
+    [
+     "sofá",
+     "sofá",
+     ""
+    ],
+    [
+     "nuevo",
+     "nuevo",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -166,7 +440,34 @@
    "new": [
     "soñar"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "sofá",
+     "sofá",
+     ""
+    ],
+    [
+     "vaya",
+     "vaya",
+     ""
+    ],
+    [
+     "sueñas",
+     "soñar",
+     ""
+    ],
+    [
+     "grande",
+     "grande",
+     ""
+    ],
+    [
+     "eh",
+     "eh",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -186,7 +487,54 @@
    ],
    "emotion": "gentle",
    "tl_f": "Es un sueño sencillo, tía. El nuestro ya tiene un agujero con forma de gato.",
-   "rd_f": "에스 운 수에뇨 센씨요, 띠아. 엘 누에스뜨로 야 띠에네 운 아구헤로 꼰 포르마 데 가또."
+   "rd_f": "에스 운 수에뇨 센씨요, 띠아. 엘 누에스뜨로 야 띠에네 운 아구헤로 꼰 포르마 데 가또.",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "sueño",
+     "sueño",
+     ""
+    ],
+    [
+     "sencillo",
+     "sencillo",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "tiene",
+     "tener",
+     ""
+    ],
+    [
+     "agujero",
+     "agujero",
+     ""
+    ],
+    [
+     "forma",
+     "forma",
+     ""
+    ],
+    [
+     "gato",
+     "gato",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -203,7 +551,49 @@
     "precio",
     "loco"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "quedo",
+     "quedar",
+     ""
+    ],
+    [
+     "tendré",
+     "tener",
+     ""
+    ],
+    [
+     "buscar",
+     "buscar",
+     ""
+    ],
+    [
+     "piso",
+     "piso",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "precios",
+     "precio",
+     ""
+    ],
+    [
+     "están",
+     "estar",
+     ""
+    ],
+    [
+     "locos",
+     "loco",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -218,7 +608,39 @@
    ],
    "emotion": "surprised",
    "tl_f": "¿Buscar piso? ¿Por qué? ¿Aquí no estás cómoda conmigo?",
-   "rd_f": "부스까르 삐소? 뽀르 께? 아끼 노 에스따스 꼬모다 꼰미고?"
+   "rd_f": "부스까르 삐소? 뽀르 께? 아끼 노 에스따스 꼬모다 꼰미고?",
+   "lemmas": [
+    [
+     "Buscar",
+     "buscar",
+     ""
+    ],
+    [
+     "piso",
+     "piso",
+     ""
+    ],
+    [
+     "Aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "estás",
+     "estar",
+     ""
+    ],
+    [
+     "cómodo",
+     "cómodo",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -234,7 +656,49 @@
    "new": [
     "algún día"
    ],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "claro",
+     "claro",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "pensaba",
+     "pensar",
+     ""
+    ],
+    [
+     "día",
+     "día",
+     ""
+    ],
+    [
+     "querrías",
+     "querer",
+     ""
+    ],
+    [
+     "vivir",
+     "vivir",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -250,7 +714,39 @@
     "canción",
     "horrible"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "dirá",
+     "decir",
+     ""
+    ],
+    [
+     "canción",
+     "canción",
+     ""
+    ],
+    [
+     "nueva",
+     "nuevo",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "horrible",
+     "horrible",
+     ""
+    ],
+    [
+     "Quédate",
+     "quedar",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -261,7 +757,29 @@
    "note": "es horrible = 별로다",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "canción",
+     "canción",
+     ""
+    ],
+    [
+     "nueva",
+     "nuevo",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "horrible",
+     "horrible",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -280,7 +798,49 @@
    ],
    "emotion": "cheerful",
    "tl_f": "¿Lo ves? Eso no sale en ningún anuncio. Contrato de dos años más, compañera.",
-   "rd_f": "로 베스? 에소 노 살레 엔 닌군 아눈씨오. 꼰뜨라또 데 도스 아뇨스 마스, 꼼빠녜라."
+   "rd_f": "로 베스? 에소 노 살레 엔 닌군 아눈씨오. 꼰뜨라또 데 도스 아뇨스 마스, 꼼빠녜라.",
+   "lemmas": [
+    [
+     "ves",
+     "ver",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "sale",
+     "salir",
+     ""
+    ],
+    [
+     "anuncio",
+     "anuncio",
+     ""
+    ],
+    [
+     "Contrato",
+     "contrato",
+     ""
+    ],
+    [
+     "años",
+     "año",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "compañero",
+     "compañero",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

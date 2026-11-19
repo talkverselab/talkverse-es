@@ -57,7 +57,54 @@
    ],
    "emotion": "surprised",
    "tl_f": "Tía, ¿no habías venido nunca a este museo? ¡Llevas un año en Madrid ya!",
-   "rd_f": "띠아, 노 아비아스 베니도 눈까 아 에스떼 무세오? 예바스 운 아뇨 엔 마드리드 야!"
+   "rd_f": "띠아, 노 아비아스 베니도 눈까 아 에스떼 무세오? 예바스 운 아뇨 엔 마드리드 야!",
+   "lemmas": [
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "habías",
+     "haber",
+     ""
+    ],
+    [
+     "venido",
+     "venir",
+     ""
+    ],
+    [
+     "nunca",
+     "nunca",
+     ""
+    ],
+    [
+     "museo",
+     "museo",
+     ""
+    ],
+    [
+     "Llevas",
+     "llevar",
+     ""
+    ],
+    [
+     "año",
+     "año",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -72,7 +119,49 @@
    "new": [
     "cola"
    ],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "llegué",
+     "llegar",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "habían",
+     "haber",
+     ""
+    ],
+    [
+     "dicho",
+     "decir",
+     ""
+    ],
+    [
+     "siempre",
+     "siempre",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "cola",
+     "cola",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -88,7 +177,29 @@
    "new": [
     "gratis"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "había",
+     "haber",
+     ""
+    ],
+    [
+     "dicho",
+     "decir",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -103,7 +214,39 @@
    "new": [
     "vez"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Claro",
+     "claro",
+     ""
+    ],
+    [
+     "sabes",
+     "saber",
+     ""
+    ],
+    [
+     "veces",
+     "vez",
+     ""
+    ],
+    [
+     "has",
+     "haber",
+     ""
+    ],
+    [
+     "venido",
+     "venir",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -121,7 +264,49 @@
     "pintar",
     "luz"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "veces",
+     "vez",
+     ""
+    ],
+    [
+     "Mira",
+     "mirar",
+     ""
+    ],
+    [
+     "cuadro",
+     "cuadro",
+     ""
+    ],
+    [
+     "había",
+     "haber",
+     ""
+    ],
+    [
+     "pintado",
+     "pintar",
+     ""
+    ],
+    [
+     "luz",
+     "luz",
+     ""
+    ],
+    [
+     "así",
+     "así",
+     ""
+    ],
+    [
+     "antes",
+     "antes",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -137,7 +322,29 @@
     "sala",
     "arriba"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "guay",
+     "guay",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "sala",
+     "sala",
+     ""
+    ],
+    [
+     "arriba",
+     "arriba",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -150,7 +357,39 @@
    "new": [
     "bonito"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Eh",
+     "eh",
+     ""
+    ],
+    [
+     "arriba",
+     "arriba",
+     ""
+    ],
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "bastante",
+     "bastante",
+     ""
+    ],
+    [
+     "bonita",
+     "bonito",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -163,7 +402,29 @@
    "new": [
     "subir"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Has",
+     "haber",
+     ""
+    ],
+    [
+     "subido",
+     "subir",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -181,7 +442,59 @@
    "new": [
     "cerrar"
    ],
-   "emotion": "stiff"
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Claro",
+     "claro",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "casi",
+     "casi",
+     ""
+    ],
+    [
+     "última",
+     "último",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "museo",
+     "museo",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "había",
+     "haber",
+     ""
+    ],
+    [
+     "cerrado",
+     "cerrar",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -196,7 +509,29 @@
    "new": [
     "tampoco"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "antes",
+     "antes",
+     ""
+    ],
+    [
+     "Tampoco",
+     "tampoco",
+     ""
+    ],
+    [
+     "subiste",
+     "subir",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -214,7 +549,39 @@
     "dormirse",
     "banco"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "había",
+     "haber",
+     ""
+    ],
+    [
+     "comido",
+     "comer",
+     ""
+    ],
+    [
+     "bocadillo",
+     "bocadillo",
+     ""
+    ],
+    [
+     "enorme",
+     "enorme",
+     ""
+    ],
+    [
+     "dormí",
+     "dormir",
+     ""
+    ],
+    [
+     "banco",
+     "banco",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -227,7 +594,39 @@
    "new": [
     "perdonar"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Perdone",
+     "perdonar",
+     ""
+    ],
+    [
+     "señorita",
+     "señorita",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "chica",
+     "chica",
+     ""
+    ],
+    [
+     "banco",
+     "banco",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -240,7 +639,29 @@
     "expr:qué va"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "sé",
+     "saber",
+     ""
+    ],
+    [
+     "habla",
+     "hablar",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -255,7 +676,59 @@
    "new": [
     "despertar"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "hemos",
+     "haber",
+     ""
+    ],
+    [
+     "despertado",
+     "despertar",
+     ""
+    ],
+    [
+     "veces",
+     "vez",
+     ""
+    ],
+    [
+     "año",
+     "año",
+     ""
+    ],
+    [
+     "última",
+     "último",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "habíamos",
+     "haber",
+     ""
+    ],
+    [
+     "cerrado",
+     "cerrar",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -270,7 +743,24 @@
    "new": [
     "siesta"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "siestas",
+     "siesta",
+     ""
+    ],
+    [
+     "museo",
+     "museo",
+     ""
+    ],
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -286,7 +776,49 @@
     "cómodo",
     "arte"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "banco",
+     "banco",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "muy",
+     "muy",
+     ""
+    ],
+    [
+     "cómodo",
+     "cómodo",
+     ""
+    ],
+    [
+     "vale",
+     "vale",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "arte",
+     "arte",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

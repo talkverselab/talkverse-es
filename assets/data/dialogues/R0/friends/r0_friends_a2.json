@@ -43,7 +43,14 @@
     "expr:qué tal"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Ey",
+     "ey",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -58,7 +65,14 @@
    "new": [
     "bien"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Bien",
+     "bien",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -75,7 +89,29 @@
    "new": [
     "hambre"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Genial",
+     "genial",
+     ""
+    ],
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ],
+    [
+     "hambre",
+     "hambre",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -92,7 +128,19 @@
     "comer",
     "algo"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Quieres",
+     "querer",
+     ""
+    ],
+    [
+     "comer",
+     "comer",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -109,7 +157,24 @@
     "sitio",
     "conocer"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Quiero",
+     "querer",
+     ""
+    ],
+    [
+     "Conozco",
+     "conocer",
+     ""
+    ],
+    [
+     "sitio",
+     "sitio",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -124,7 +189,19 @@
     "otro",
     "churro"
    ],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "luego",
+     "luego",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -140,7 +217,29 @@
    "new": [
     "solo"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "tía",
+     "tía",
+     ""
+    ],
+    [
+     "Solo",
+     "solo",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "hambre",
+     "hambre",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -157,7 +256,24 @@
     "mucho",
     "venir"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "vienes",
+     "venir",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

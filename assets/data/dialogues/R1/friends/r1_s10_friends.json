@@ -45,7 +45,29 @@
     "ayer",
     "llamar"
    ],
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Ayer",
+     "ayer",
+     ""
+    ],
+    [
+     "llamé",
+     "llamar",
+     ""
+    ],
+    [
+     "veces",
+     "vez",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -63,7 +85,34 @@
     "comer",
     "abuela"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "perdona",
+     "perdonar",
+     ""
+    ],
+    [
+     "llamaste",
+     "llamar",
+     ""
+    ],
+    [
+     "comí",
+     "comer",
+     ""
+    ],
+    [
+     "abuela",
+     "abuela",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -79,7 +128,29 @@
     "partido",
     "esperar"
    ],
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "comiste",
+     "comer",
+     ""
+    ],
+    [
+     "partido",
+     "partido",
+     ""
+    ],
+    [
+     "esperé",
+     "esperar",
+     ""
+    ],
+    [
+     "hora",
+     "hora",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -92,7 +163,34 @@
     "form:ser"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Ayer",
+     "ayer",
+     ""
+    ],
+    [
+     "partido",
+     "partido",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -107,7 +205,29 @@
    "new": [
     "jugar"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "Fue",
+     "ser",
+     ""
+    ],
+    [
+     "ayer",
+     "ayer",
+     ""
+    ],
+    [
+     "Jugué",
+     "jugar",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -120,7 +240,19 @@
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "jugaste",
+     "jugar",
+     ""
+    ],
+    [
+     "fue",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -137,7 +269,19 @@
     "gol",
     "portería"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "goles",
+     "gol",
+     ""
+    ],
+    [
+     "portería",
+     "portería",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -151,7 +295,29 @@
     "form:indefinido"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Menos",
+     "menos",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "comí",
+     "comer",
+     ""
+    ],
+    [
+     "abuela",
+     "abuela",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

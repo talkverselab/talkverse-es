@@ -52,7 +52,34 @@
    "stamp": "🍽",
    "emotion": "cheerful",
    "tl_f": "Ey tía, ¿cenas en casa el viernes?",
-   "rd_f": "에이 띠아, 쎄나스 엔 까사 엘 비에르네스?"
+   "rd_f": "에이 띠아, 쎄나스 엔 까사 엘 비에르네스?",
+   "lemmas": [
+    [
+     "ey",
+     "ey",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "cenas",
+     "cena",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "viernes",
+     "viernes",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -68,7 +95,29 @@
    "new": [],
    "ui": "bubble",
    "at": "18:05",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Claro",
+     "claro",
+     ""
+    ],
+    [
+     "ceno",
+     "cenar",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "pasa",
+     "pasar",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -86,7 +135,24 @@
    "ui": "bubble",
    "at": "18:05",
    "stamp": "🥘",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Hago",
+     "hacer",
+     ""
+    ],
+    [
+     "paella",
+     "paella",
+     ""
+    ],
+    [
+     "apetece",
+     "apetecer",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -106,7 +172,44 @@
    ],
    "ui": "bubble",
    "at": "18:06",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Genial",
+     "genial",
+     ""
+    ],
+    [
+     "Invita",
+     "invitar",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "gente",
+     "gente",
+     ""
+    ],
+    [
+     "quieres",
+     "querer",
+     ""
+    ],
+    [
+     "da",
+     "dar",
+     ""
+    ],
+    [
+     "igual",
+     "igual",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -121,7 +224,24 @@
    "new": [],
    "ui": "bubble",
    "at": "18:07",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "Invito",
+     "invitar",
+     ""
+    ],
+    [
+     "entonces",
+     "entonces",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -137,7 +257,24 @@
    ],
    "ui": "bubble",
    "at": "19:30",
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Viene",
+     "venir",
+     ""
+    ],
+    [
+     "prima",
+     "primo",
+     ""
+    ],
+    [
+     "novio",
+     "novio",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -155,7 +292,29 @@
    "ui": "bubble",
    "at": "19:31",
    "stamp": "😅",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "prima",
+     "primo",
+     ""
+    ],
+    [
+     "trae",
+     "traer",
+     ""
+    ],
+    [
+     "amiga",
+     "amiga",
+     ""
+    ],
+    [
+     "total",
+     "total",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -169,7 +328,24 @@
    "ui": "bubble",
    "at": "19:33",
    "stamp": "😱",
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Seis",
+     "seis",
+     ""
+    ],
+    [
+     "haces",
+     "hacer",
+     ""
+    ],
+    [
+     "paella",
+     "paella",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

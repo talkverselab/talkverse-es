@@ -50,7 +50,34 @@
     "tocar",
     "lotería"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "mañana",
+     "mañana",
+     ""
+    ],
+    [
+     "tocara",
+     "tocar",
+     ""
+    ],
+    [
+     "lotería",
+     "lotería",
+     ""
+    ],
+    [
+     "haríais",
+     "hacer",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -68,7 +95,54 @@
     "comprar",
     "churrería"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Fácil",
+     "fácil",
+     ""
+    ],
+    [
+     "fácil",
+     "fácil",
+     ""
+    ],
+    [
+     "tuviera",
+     "tener",
+     ""
+    ],
+    [
+     "millón",
+     "millón",
+     ""
+    ],
+    [
+     "compraría",
+     "comprar",
+     ""
+    ],
+    [
+     "churrería",
+     "churrería",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "trabajaría",
+     "trabajar",
+     ""
+    ],
+    [
+     "nunca",
+     "nunca",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -84,7 +158,34 @@
    "new": [
     "sol"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "tuvieras",
+     "tener",
+     ""
+    ],
+    [
+     "churrería",
+     "churrería",
+     ""
+    ],
+    [
+     "trabajarías",
+     "trabajar",
+     ""
+    ],
+    [
+     "sol",
+     "sol",
+     ""
+    ],
+    [
+     "sol",
+     "sol",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -100,7 +201,34 @@
    "new": [
     "diferente"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "comería",
+     "comer",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "diferente",
+     "diferente",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -117,7 +245,34 @@
     "sitio",
     "mundo"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "harías",
+     "hacer",
+     ""
+    ],
+    [
+     "pudieras",
+     "poder",
+     ""
+    ],
+    [
+     "vivir",
+     "vivir",
+     ""
+    ],
+    [
+     "sitio",
+     "sitio",
+     ""
+    ],
+    [
+     "mundo",
+     "mundo",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -137,7 +292,39 @@
    ],
    "emotion": "shy",
    "tl_f": "Si fuera rica, me quedaría aquí en Madrid. Pero en un piso con ascensor.",
-   "rd_f": "시 푸에라 리까, 메 께다리아 아끼 엔 마드리드. 뻬로 엔 운 삐소 꼰 아스쎈소르."
+   "rd_f": "시 푸에라 리까, 메 께다리아 아끼 엔 마드리드. 뻬로 엔 운 삐소 꼰 아스쎈소르.",
+   "lemmas": [
+    [
+     "fuera",
+     "ser",
+     ""
+    ],
+    [
+     "rico",
+     "rico",
+     ""
+    ],
+    [
+     "quedaría",
+     "quedar",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "piso",
+     "piso",
+     ""
+    ],
+    [
+     "ascensor",
+     "ascensor",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -157,7 +344,34 @@
    ],
    "emotion": "teasing",
    "tl_f": "¡Qué poco ambiciosa eres! Yo, si ganara, me compraría un barco.",
-   "rd_f": "께 뽀꼬 암비씨오사 에레스! 요, 시 가나라, 메 꼼쁘라리아 운 바르꼬."
+   "rd_f": "께 뽀꼬 암비씨오사 에레스! 요, 시 가나라, 메 꼼쁘라리아 운 바르꼬.",
+   "lemmas": [
+    [
+     "poco",
+     "poco",
+     ""
+    ],
+    [
+     "ambicioso",
+     "ambicioso",
+     ""
+    ],
+    [
+     "ganara",
+     "ganar",
+     ""
+    ],
+    [
+     "compraría",
+     "comprar",
+     ""
+    ],
+    [
+     "barco",
+     "barco",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -172,7 +386,39 @@
    "new": [
     "nadar"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "barco",
+     "barco",
+     ""
+    ],
+    [
+     "dices",
+     "decir",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "sabes",
+     "saber",
+     ""
+    ],
+    [
+     "nadar",
+     "nadar",
+     ""
+    ],
+    [
+     "tía",
+     "tía",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -189,7 +435,34 @@
     "precisamente",
     "aprender"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Precisamente",
+     "precisamente",
+     ""
+    ],
+    [
+     "tuviera",
+     "tener",
+     ""
+    ],
+    [
+     "barco",
+     "barco",
+     ""
+    ],
+    [
+     "aprendería",
+     "aprender",
+     ""
+    ],
+    [
+     "nadar",
+     "nadar",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -203,7 +476,54 @@
     "décimo",
     "número"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Perdonen",
+     "perdonar",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "compraron",
+     "comprar",
+     ""
+    ],
+    [
+     "décimo",
+     "décimo",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
+    ],
+    [
+     "Ha",
+     "haber",
+     ""
+    ],
+    [
+     "salido",
+     "salir",
+     ""
+    ],
+    [
+     "número",
+     "número",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -216,7 +536,39 @@
    "new": [
     "gratis"
    ],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "número",
+     "número",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "tocado",
+     "tocar",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -229,7 +581,29 @@
     "expr:madre mía"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Somos",
+     "ser",
+     ""
+    ],
+    [
+     "ricos",
+     "rico",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ],
+    [
+     "barco",
+     "barco",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -244,7 +618,34 @@
    "new": [
     "total"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Esperad",
+     "esperar",
+     ""
+    ],
+    [
+     "esperad",
+     "esperar",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "tocado",
+     "tocar",
+     ""
+    ],
+    [
+     "total",
+     "total",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -255,7 +656,14 @@
    "note": "entre los tres = 셋이서 나눠서",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "euros",
+     "euros",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -269,7 +677,34 @@
     "acabar de",
     "invitar"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "acabo",
+     "acabar",
+     ""
+    ],
+    [
+     "invitar",
+     "invitar",
+     ""
+    ],
+    [
+     "mundo",
+     "mundo",
+     ""
+    ],
+    [
+     "Ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "hago",
+     "hacer",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -285,7 +720,34 @@
    "new": [
     "salir"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "fuera",
+     "ser",
+     ""
+    ],
+    [
+     "saldría",
+     "salir",
+     ""
+    ],
+    [
+     "corriendo",
+     "correr",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "mismo",
+     "mismo",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

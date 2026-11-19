@@ -47,7 +47,39 @@
     "carné",
     "estudiante"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "buenos",
+     "buen",
+     ""
+    ],
+    [
+     "días",
+     "día",
+     ""
+    ],
+    [
+     "Aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "pide",
+     "pedir",
+     ""
+    ],
+    [
+     "carné",
+     "carné",
+     ""
+    ],
+    [
+     "estudiante",
+     "estudiante",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -63,7 +95,39 @@
     "papel",
     "internet"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "pide",
+     "pedir",
+     ""
+    ],
+    [
+     "papel",
+     "papel",
+     ""
+    ],
+    [
+     "hace",
+     "hacer",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -80,7 +144,44 @@
     "página",
     "necesitar"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "intentado",
+     "intentar",
+     ""
+    ],
+    [
+     "página",
+     "página",
+     ""
+    ],
+    [
+     "dice",
+     "decir",
+     ""
+    ],
+    [
+     "necesita",
+     "necesitar",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -95,7 +196,34 @@
    "new": [
     "subir"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Exacto",
+     "exacto",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "sube",
+     "subir",
+     ""
+    ],
+    [
+     "segunda",
+     "segundo",
+     ""
+    ],
+    [
+     "página",
+     "página",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -111,7 +239,49 @@
    "new": [
     "error"
    ],
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "sale",
+     "salir",
+     ""
+    ],
+    [
+     "segunda",
+     "segundo",
+     ""
+    ],
+    [
+     "página",
+     "página",
+     ""
+    ],
+    [
+     "Solo",
+     "solo",
+     ""
+    ],
+    [
+     "ve",
+     "ver",
+     ""
+    ],
+    [
+     "error",
+     "error",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -124,7 +294,39 @@
     "form:se impersonal"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Ah",
+     "ah",
+     ""
+    ],
+    [
+     "error",
+     "error",
+     ""
+    ],
+    [
+     "siempre",
+     "siempre",
+     ""
+    ],
+    [
+     "Entonces",
+     "entonces",
+     ""
+    ],
+    [
+     "hace",
+     "hacer",
+     ""
+    ],
+    [
+     "papel",
+     "papel",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -140,7 +342,19 @@
    "new": [
     "firmar"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "firma",
+     "firmar",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -156,7 +370,44 @@
     "entregar",
     "ventanilla"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "abajo",
+     "abajo",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "Luego",
+     "luego",
+     ""
+    ],
+    [
+     "entrega",
+     "entregar",
+     ""
+    ],
+    [
+     "ventanilla",
+     "ventanilla",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -171,7 +422,34 @@
    "new": [
     "cerrado"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "ventanilla",
+     "ventanilla",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "mismo",
+     "mismo",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "cerrada",
+     "cerrado",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -188,7 +466,44 @@
     "martes",
     "lunes"
    ],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "correcto",
+     "correcto",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "abre",
+     "abrir",
+     ""
+    ],
+    [
+     "martes",
+     "martes",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "lunes",
+     "lunes",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -203,7 +518,39 @@
    "new": [
     "absolutamente"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Entonces",
+     "entonces",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "puede",
+     "poder",
+     ""
+    ],
+    [
+     "hacer",
+     "hacer",
+     ""
+    ],
+    [
+     "absolutamente",
+     "absolutamente",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -220,7 +567,39 @@
    "new": [
     "cita"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "puede",
+     "poder",
+     ""
+    ],
+    [
+     "Pida",
+     "pedir",
+     ""
+    ],
+    [
+     "cita",
+     "citar",
+     ""
+    ],
+    [
+     "martes",
+     "martes",
+     ""
+    ],
+    [
+     "claro",
+     "claro",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -235,7 +614,34 @@
    "new": [
     "funcionar"
    ],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "internet",
+     "internet",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "página",
+     "página",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "funciona",
+     "funcionar",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -254,7 +660,44 @@
    ],
    "emotion": "amused",
    "tl_f": "Bienvenida a la universidad. Aquí se aprende mucho. Especialmente la paciencia.",
-   "rd_f": "비엔베니다 아 라 우니베르시다드. 아끼 세 아쁘렌데 무초. 에스뻬씨알멘떼 라 빠씨엔씨아."
+   "rd_f": "비엔베니다 아 라 우니베르시다드. 아끼 세 아쁘렌데 무초. 에스뻬씨알멘떼 라 빠씨엔씨아.",
+   "lemmas": [
+    [
+     "Bienvenido",
+     "bienvenido",
+     ""
+    ],
+    [
+     "universidad",
+     "universidad",
+     ""
+    ],
+    [
+     "Aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "aprende",
+     "aprender",
+     ""
+    ],
+    [
+     "mucho",
+     "mucho",
+     ""
+    ],
+    [
+     "Especialmente",
+     "especialmente",
+     ""
+    ],
+    [
+     "paciencia",
+     "paciencia",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -272,7 +715,39 @@
     "vender",
     "café"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "veo",
+     "ver",
+     ""
+    ],
+    [
+     "casualidad",
+     "casualidad",
+     ""
+    ],
+    [
+     "vende",
+     "vender",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -288,7 +763,49 @@
     "planta baja",
     "máquina"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "vende",
+     "vender",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "planta",
+     "plantar",
+     ""
+    ],
+    [
+     "baja",
+     "bajo",
+     ""
+    ],
+    [
+     "vende",
+     "vender",
+     ""
+    ],
+    [
+     "máquina",
+     "máquina",
+     ""
+    ],
+    [
+     "funciona",
+     "funcionar",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

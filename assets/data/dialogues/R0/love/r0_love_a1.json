@@ -53,7 +53,19 @@
    "ui": "bubble",
    "at": "21:03",
    "stamp": "👀",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Ey",
+     "ey",
+     ""
+    ],
+    [
+     "Eres",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -71,7 +83,24 @@
    "ui": "bubble",
    "at": "21:04",
    "stamp": "😊",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "soy",
+     "ser",
+     ""
+    ],
+    [
+     "Hola",
+     "hola",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -93,7 +122,24 @@
    "stamp": "🔥",
    "emotion": "excited",
    "tl_f": "Tu foto mola, tía.",
-   "rd_f": "뚜 포또 몰라, 띠아."
+   "rd_f": "뚜 포또 몰라, 띠아.",
+   "lemmas": [
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "mola",
+     "molar",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -111,7 +157,24 @@
    "ui": "bubble",
    "at": "21:05",
    "stamp": "🐶",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -131,7 +194,29 @@
    "ui": "bubble",
    "at": "21:05",
    "stamp": "😂",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "gusta",
+     "gustar",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -147,7 +232,24 @@
    "new": [],
    "ui": "bubble",
    "at": "21:06",
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Venga",
+     "venir",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "gusto",
+     "gustar",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -166,7 +268,24 @@
    "ui": "bubble",
    "at": "21:08",
    "stamp": "💕",
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "gustas",
+     "gustar",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

@@ -42,7 +42,29 @@
     "form:prep_a"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "estáis",
+     "estar",
+     ""
+    ],
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "sale",
+     "salir",
+     ""
+    ],
+    [
+     "diez",
+     "diez",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -56,7 +78,29 @@
     "form:prep_en"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Estamos",
+     "estar",
+     ""
+    ],
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "junto",
+     "junto",
+     ""
+    ],
+    [
+     "ventana",
+     "ventana",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -70,7 +114,24 @@
     "form:prep_con"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "estáis",
+     "estar",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -83,7 +144,19 @@
     "form:prep_de"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "señora",
+     "señora",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -97,7 +170,34 @@
     "form:prep_en"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "perros",
+     "perro",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -111,7 +211,24 @@
     "form:prep_a"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -126,7 +243,19 @@
     "form:prep_a"
    ],
    "new": [],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "tíos",
+     "tío",
+     ""
+    ],
+    [
+     "vamos",
+     "ir",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -140,7 +269,19 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "llamamos",
+     "llamar",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

@@ -49,7 +49,59 @@
     "contento",
     "demasiado"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Hola",
+     "hola",
+     ""
+    ],
+    [
+     "lucía",
+     "lucir",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "pasado",
+     "pasar",
+     ""
+    ],
+    [
+     "librería",
+     "librería",
+     ""
+    ],
+    [
+     "mañana",
+     "mañana",
+     ""
+    ],
+    [
+     "Estaba",
+     "estar",
+     ""
+    ],
+    [
+     "muy",
+     "muy",
+     ""
+    ],
+    [
+     "contenta",
+     "contento",
+     ""
+    ],
+    [
+     "Demasiado",
+     "demasiado",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -64,7 +116,29 @@
    "new": [
     "raro"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "serio",
+     "serio",
+     ""
+    ],
+    [
+     "raro",
+     "raro",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "contado",
+     "contar",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -79,7 +153,44 @@
    "new": [
     "prestar"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "dado",
+     "dar",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ],
+    [
+     "Dice",
+     "decir",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "tuyo",
+     "tuyo",
+     ""
+    ],
+    [
+     "prestaste",
+     "prestar",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -92,7 +203,44 @@
     "form:se lo"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "presté",
+     "prestar",
+     ""
+    ],
+    [
+     "semana",
+     "semana",
+     ""
+    ],
+    [
+     "pasada",
+     "pasar",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "dado",
+     "dar",
+     ""
+    ],
+    [
+     "entonces",
+     "entonces",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -107,7 +255,39 @@
    "new": [
     "nota"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "idea",
+     "idea",
+     ""
+    ],
+    [
+     "dentro",
+     "dentro",
+     ""
+    ],
+    [
+     "había",
+     "haber",
+     ""
+    ],
+    [
+     "nota",
+     "nota",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -118,7 +298,19 @@
    "note": "había = 있었다(haber 불완료)",
    "tags": [],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Había",
+     "haber",
+     ""
+    ],
+    [
+     "nota",
+     "nota",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -135,7 +327,39 @@
     "gafas",
     "redondo"
    ],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "escrita",
+     "escrito",
+     ""
+    ],
+    [
+     "letra",
+     "letra",
+     ""
+    ],
+    [
+     "chica",
+     "chica",
+     ""
+    ],
+    [
+     "gafas",
+     "gafa",
+     ""
+    ],
+    [
+     "redondas",
+     "redondo",
+     ""
+    ],
+    [
+     "escribiste",
+     "escribir",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -151,7 +375,54 @@
    "new": [
     "forma"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Eh",
+     "eh",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "exactamente",
+     "exactamente",
+     ""
+    ],
+    [
+     "sea",
+     "ser",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "era",
+     "ser",
+     ""
+    ],
+    [
+     "dártela",
+     "dar",
+     ""
+    ],
+    [
+     "forma",
+     "forma",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -165,7 +436,29 @@
     "mancha",
     "chocolate"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "forma",
+     "forma",
+     ""
+    ],
+    [
+     "mancha",
+     "manchar",
+     ""
+    ],
+    [
+     "chocolate",
+     "chocolate",
+     ""
+    ],
+    [
+     "encima",
+     "encima",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -181,7 +474,34 @@
    "new": [
     "gritar"
    ],
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "voy",
+     "ir",
+     ""
+    ],
+    [
+     "decir",
+     "decir",
+     ""
+    ],
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "voy",
+     "ir",
+     ""
+    ],
+    [
+     "gritar",
+     "gritar",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -199,7 +519,44 @@
    ],
    "emotion": "gentle",
    "tl_f": "Tranquila. Ya se lo he dicho yo. Y le he dado las gracias.",
-   "rd_f": "뜨란낄라. 야 세 로 에 디초 요. 이 레 에 다도 라스 그라씨아스."
+   "rd_f": "뜨란낄라. 야 세 로 에 디초 요. 이 레 에 다도 라스 그라씨아스.",
+   "lemmas": [
+    [
+     "Tranquilo",
+     "tranquilo",
+     ""
+    ],
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "dicho",
+     "decir",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "dado",
+     "dar",
+     ""
+    ],
+    [
+     "gracias",
+     "gracias",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -210,7 +567,24 @@
    "note": "¿Le has dado las gracias? = 고맙다고 했어?",
    "tags": [],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "has",
+     "haber",
+     ""
+    ],
+    [
+     "dado",
+     "dar",
+     ""
+    ],
+    [
+     "gracias",
+     "gracias",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -225,7 +599,39 @@
    "new": [
     "medio"
    ],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "toma",
+     "tomar",
+     ""
+    ],
+    [
+     "nota",
+     "nota",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "escrito",
+     "escribir",
+     ""
+    ],
+    [
+     "doy",
+     "dar",
+     ""
+    ],
+    [
+     "medio",
+     "medio",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -236,7 +642,19 @@
    "note": "¿Qué pone? = 뭐라고 쓰여 있어?",
    "tags": [],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "pone",
+     "poner",
+     ""
+    ],
+    [
+     "nota",
+     "nota",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -252,7 +670,39 @@
    "new": [
     "delante"
    ],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Léela",
+     "leer",
+     ""
+    ],
+    [
+     "llegues",
+     "llegar",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "Delante",
+     "delante",
+     ""
+    ],
+    [
+     "da",
+     "dar",
+     ""
+    ],
+    [
+     "vergüenza",
+     "vergüenza",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

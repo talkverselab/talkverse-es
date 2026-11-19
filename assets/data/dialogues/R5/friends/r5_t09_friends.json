@@ -54,7 +54,39 @@
    ],
    "ui": "bubble",
    "at": "21:02",
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "tarde",
+     "tarde",
+     ""
+    ],
+    [
+     "esperamos",
+     "esperar",
+     ""
+    ],
+    [
+     "hora",
+     "hora",
+     ""
+    ],
+    [
+     "puerta",
+     "puerta",
+     ""
+    ],
+    [
+     "cine",
+     "cine",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -75,7 +107,49 @@
    ],
    "ui": "bubble",
    "at": "21:03",
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "siento",
+     "sentir",
+     ""
+    ],
+    [
+     "tía",
+     "tía",
+     ""
+    ],
+    [
+     "Hubo",
+     "haber",
+     ""
+    ],
+    [
+     "lío",
+     "lío",
+     ""
+    ],
+    [
+     "metro",
+     "metro",
+     ""
+    ],
+    [
+     "plan",
+     "plan",
+     ""
+    ],
+    [
+     "retraso",
+     "retraso",
+     ""
+    ],
+    [
+     "gordo",
+     "gordo",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -91,7 +165,39 @@
    ],
    "ui": "bubble",
    "at": "21:03",
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Mentira",
+     "mentira",
+     ""
+    ],
+    [
+     "vi",
+     "ver",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "primo",
+     "primo",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
+    ],
+    [
+     "ocho",
+     "ocho",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -111,7 +217,54 @@
    "ui": "bubble",
    "at": "21:05",
    "stamp": "⚽",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "era",
+     "ser",
+     ""
+    ],
+    [
+     "emergencia",
+     "emergencia",
+     ""
+    ],
+    [
+     "había",
+     "haber",
+     ""
+    ],
+    [
+     "partido",
+     "partido",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "podía",
+     "poder",
+     ""
+    ],
+    [
+     "faltar",
+     "faltar",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -129,7 +282,49 @@
    ],
    "ui": "bubble",
    "at": "21:06",
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "chicos",
+     "chico",
+     ""
+    ],
+    [
+     "tranquilos",
+     "tranquilo",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "hace",
+     "hacer",
+     ""
+    ],
+    [
+     "falta",
+     "falta",
+     ""
+    ],
+    [
+     "discutir",
+     "discutir",
+     ""
+    ],
+    [
+     "así",
+     "así",
+     ""
+    ],
+    [
+     "grupo",
+     "grupo",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -147,7 +342,59 @@
    ],
    "ui": "bubble",
    "at": "21:06",
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "harta",
+     "harto",
+     ""
+    ],
+    [
+     "excusas",
+     "excusa",
+     ""
+    ],
+    [
+     "mañana",
+     "mañana",
+     ""
+    ],
+    [
+     "será",
+     "ser",
+     ""
+    ],
+    [
+     "igual",
+     "igual",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -166,7 +413,29 @@
    ],
    "ui": "bubble",
    "at": "21:07",
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Siempre",
+     "siempre",
+     ""
+    ],
+    [
+     "queja",
+     "queja",
+     ""
+    ],
+    [
+     "rollo",
+     "rollo",
+     ""
+    ],
+    [
+     "tía",
+     "tía",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -184,7 +453,29 @@
    "ui": "bubble",
    "at": "21:08",
    "stamp": "😤",
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "perfecto",
+     "perfecto",
+     ""
+    ],
+    [
+     "salgo",
+     "salir",
+     ""
+    ],
+    [
+     "grupo",
+     "grupo",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -203,7 +494,34 @@
    ],
    "ui": "bubble",
    "at": "21:09",
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "espera",
+     "esperar",
+     ""
+    ],
+    [
+     "pídele",
+     "pedir",
+     ""
+    ],
+    [
+     "disculpas",
+     "disculpa",
+     ""
+    ],
+    [
+     "serio",
+     "serio",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -219,7 +537,24 @@
    "ui": "bubble",
    "at": "21:20",
    "read": false,
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Sé",
+     "saber",
+     ""
+    ],
+    [
+     "estáis",
+     "estar",
+     ""
+    ],
+    [
+     "leyendo",
+     "leer",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -236,7 +571,29 @@
    ],
    "ui": "bubble",
    "at": "21:31",
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "preocupes",
+     "preocupar",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -253,7 +610,44 @@
    "ui": "bubble",
    "at": "21:31",
    "stamp": "🍫",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "puerta",
+     "puerta",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ],
+    [
+     "chocolate",
+     "chocolate",
+     ""
+    ],
+    [
+     "Disculpas",
+     "disculpa",
+     ""
+    ],
+    [
+     "aceptadas",
+     "aceptar",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -269,7 +663,44 @@
    ],
    "ui": "bubble",
    "at": "21:32",
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Os",
+     "o",
+     ""
+    ],
+    [
+     "habéis",
+     "haber",
+     ""
+    ],
+    [
+     "peleado",
+     "pelear",
+     ""
+    ],
+    [
+     "hora",
+     "hora",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "estáis",
+     "estar",
+     ""
+    ],
+    [
+     "juntos",
+     "junto",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -286,7 +717,34 @@
    ],
    "ui": "bubble",
    "at": "21:33",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Así",
+     "así",
+     ""
+    ],
+    [
+     "funciona",
+     "funcionar",
+     ""
+    ],
+    [
+     "confianza",
+     "confianza",
+     ""
+    ],
+    [
+     "cierto",
+     "cierto",
+     ""
+    ],
+    [
+     "estás",
+     "estar",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -300,7 +758,24 @@
    "ui": "bubble",
    "at": "21:33",
    "stamp": "🥲",
-   "emotion": "sad"
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "puerta",
+     "puerta",
+     ""
+    ],
+    [
+     "cine",
+     "cine",
+     ""
+    ],
+    [
+     "ocho",
+     "ocho",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

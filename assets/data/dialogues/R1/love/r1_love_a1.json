@@ -45,7 +45,29 @@
     "fácil"
    ],
    "emotion": "neutral",
-   "note_claude_old": "perdona = 말 걸 때 「저기요」"
+   "note_claude_old": "perdona = 말 걸 때 「저기요」",
+   "lemmas": [
+    [
+     "Hola",
+     "hola",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "fácil",
+     "fácil",
+     ""
+    ],
+    [
+     "leer",
+     "leer",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -63,7 +85,29 @@
    "emotion": "cheerful",
    "tl_f": "Vale, tía. Este es fácil.",
    "rd_f": "발레, 띠아. 에스떼 에스 파씰.",
-   "note_claude_old": "mira = 「봐요」, 보여 줄 때"
+   "note_claude_old": "mira = 「봐요」, 보여 줄 때",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "fácil",
+     "fácil",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -80,7 +124,19 @@
     "significar"
    ],
    "emotion": "neutral",
-   "note_claude_old": "¿Qué significa…? = ~가 무슨 뜻이에요?"
+   "note_claude_old": "¿Qué significa…? = ~가 무슨 뜻이에요?",
+   "lemmas": [
+    [
+     "significa",
+     "significar",
+     ""
+    ],
+    [
+     "pasear",
+     "pasear",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -96,7 +152,19 @@
     "preguntar"
    ],
    "emotion": "gentle",
-   "note_claude_old": "hombre = 놀랐을 때 말머리(상대 성별과 무관)"
+   "note_claude_old": "hombre = 놀랐을 때 말머리(상대 성별과 무관)",
+   "lemmas": [
+    [
+     "Significa",
+     "significar",
+     ""
+    ],
+    [
+     "caminar",
+     "caminar",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -112,7 +180,24 @@
     "querer"
    ],
    "emotion": "surprised",
-   "note_claude_old": "te quiero = 사랑해 — 발음 연습인데 고백이 되어 버렸다"
+   "note_claude_old": "te quiero = 사랑해 — 발음 연습인데 고백이 되어 버렸다",
+   "lemmas": [
+    [
+     "Ah",
+     "ah",
+     ""
+    ],
+    [
+     "paseas",
+     "pasear",
+     ""
+    ],
+    [
+     "mucho",
+     "mucho",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -129,7 +214,34 @@
     "vez"
    ],
    "emotion": "amused",
-   "note_claude_old": "otra vez = 한 번 더"
+   "note_claude_old": "otra vez = 한 번 더",
+   "lemmas": [
+    [
+     "Ja",
+     "ja",
+     ""
+    ],
+    [
+     "ja",
+     "ja",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "paseo",
+     "pasear",
+     ""
+    ],
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -141,7 +253,19 @@
    "tags": [],
    "new": [],
    "emotion": "flustered",
-   "note_claude_old": "¿Por qué? = 왜?"
+   "note_claude_old": "¿Por qué? = 왜?",
+   "lemmas": [
+    [
+     "serio",
+     "serio",
+     ""
+    ],
+    [
+     "late",
+     "latir",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -157,7 +281,19 @@
     "decir"
    ],
    "emotion": "cheerful",
-   "note_claude_old": "es que = 변명·이유 앞에 「그게」"
+   "note_claude_old": "es que = 변명·이유 앞에 「그게」",
+   "lemmas": [
+    [
+     "Venga",
+     "venir",
+     ""
+    ],
+    [
+     "Llévatelo",
+     "llevar",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

@@ -49,7 +49,29 @@
    "emotion": "surprised",
    "tl_f": "Tía, ¿qué hacen estas sillas aquí?",
    "rd_f": "띠아, 께 아쎈 에스따스 시야스 아끼?",
-   "note_claude_old": "pasillo = 복도"
+   "note_claude_old": "pasillo = 복도",
+   "lemmas": [
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "hacen",
+     "hacer",
+     ""
+    ],
+    [
+     "sillas",
+     "silla",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -66,7 +88,29 @@
     "vecino"
    ],
    "emotion": "flustered",
-   "note_claude_old": "hablé = 단순과거 「얘기했다」"
+   "note_claude_old": "hablé = 단순과거 「얘기했다」",
+   "lemmas": [
+    [
+     "plan",
+     "plan",
+     ""
+    ],
+    [
+     "dije",
+     "decir",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -80,7 +124,19 @@
    ],
    "new": [],
    "emotion": "neutral",
-   "note_claude_old": "madre mía = 세상에"
+   "note_claude_old": "madre mía = 세상에",
+   "lemmas": [
+    [
+     "dijiste",
+     "decir",
+     ""
+    ],
+    [
+     "exactamente",
+     "exactamente",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -96,7 +152,34 @@
     "rápido"
    ],
    "emotion": "worried",
-   "note_claude_old": "hablaba = 불완료, 그때 계속 이어지던 일"
+   "note_claude_old": "hablaba = 불완료, 그때 계속 이어지던 일",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "sé",
+     "saber",
+     ""
+    ],
+    [
+     "hablaba",
+     "hablar",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "entendía",
+     "entender",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -112,7 +195,29 @@
    "emotion": "teasing",
    "tl_f": "Qué fuerte, tía. Tú hablabas poco.",
    "rd_f": "께 푸에르떼, 띠아. 뚜 아블라바스 뽀꼬.",
-   "note_claude_old": "decir que sí = 그러겠다고 하다"
+   "note_claude_old": "decir que sí = 그러겠다고 하다",
+   "lemmas": [
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "hablabas",
+     "hablar",
+     ""
+    ],
+    [
+     "poco",
+     "poco",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -129,7 +234,24 @@
     "contento"
    ],
    "emotion": "flustered",
-   "note_claude_old": "parecer = ~해 보이다"
+   "note_claude_old": "parecer = ~해 보이다",
+   "lemmas": [
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "decía",
+     "decir",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -145,7 +267,24 @@
     "paella"
    ],
    "emotion": "shout",
-   "note_claude_old": "¿Dónde pongo…? = ~를 어디 놓을까?"
+   "note_claude_old": "¿Dónde pongo…? = ~를 어디 놓을까?",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "sillas",
+     "silla",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -159,7 +298,19 @@
    ],
    "new": [],
    "emotion": "amused",
-   "note_claude_old": "perdone = 어른께 쓰는 usted 형"
+   "note_claude_old": "perdone = 어른께 쓰는 usted 형",
+   "lemmas": [
+    [
+     "dijo",
+     "decir",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -176,7 +327,24 @@
     "piso"
    ],
    "emotion": "cheerful",
-   "note_claude_old": "vuestro = 너희의(스페인식 vosotros)"
+   "note_claude_old": "vuestro = 너희의(스페인식 vosotros)",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "quitamos",
+     "quitar",
+     ""
+    ],
+    [
+     "juntos",
+     "junto",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -190,7 +358,24 @@
     "plato"
    ],
    "emotion": "shy",
-   "note_claude_old": "¿Cuántos…? = 몇 개?"
+   "note_claude_old": "¿Cuántos…? = 몇 개?",
+   "lemmas": [
+    [
+     "perdón",
+     "perdón",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "sabía",
+     "saber",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -206,7 +391,24 @@
     "entender"
    ],
    "emotion": "excited",
-   "note_claude_old": "di = decir 의 명령형"
+   "note_claude_old": "di = decir 의 명령형",
+   "lemmas": [
+    [
+     "Venga",
+     "venir",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "locura",
+     "locura",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -218,7 +420,34 @@
    "tags": [],
    "new": [],
    "emotion": "gentle",
-   "note_claude_old": "입버릇은 안 고쳐진다 — 끝 줄 콜백"
+   "note_claude_old": "입버릇은 안 고쳐진다 — 끝 줄 콜백",
+   "lemmas": [
+    [
+     "Nunca",
+     "nunca",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "digo",
+     "decir",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

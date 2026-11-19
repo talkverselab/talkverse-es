@@ -42,7 +42,24 @@
    "ui": "bubble",
    "at": "21:40",
    "stamp": "👋",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Hola",
+     "hola",
+     ""
+    ],
+    [
+     "soy",
+     "ser",
+     ""
+    ],
+    [
+     "librería",
+     "librería",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -60,7 +77,24 @@
    "ui": "bubble",
    "at": "21:41",
    "stamp": "😊",
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Hola",
+     "hola",
+     ""
+    ],
+    [
+     "escribes",
+     "escribir",
+     ""
+    ],
+    [
+     "guay",
+     "guay",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -78,7 +112,29 @@
    ],
    "ui": "bubble",
    "at": "21:43",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "número",
+     "número",
+     ""
+    ],
+    [
+     "estaba",
+     "estar",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -93,7 +149,29 @@
    ],
    "ui": "bubble",
    "at": "21:43",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Ah",
+     "ah",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ],
+    [
+     "raro",
+     "raro",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -111,7 +189,29 @@
    ],
    "ui": "bubble",
    "at": "21:44",
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Está",
+     "estar",
+     ""
+    ],
+    [
+     "página",
+     "página",
+     ""
+    ],
+    [
+     "primer",
+     "primero",
+     ""
+    ],
+    [
+     "beso",
+     "beso",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -129,7 +229,24 @@
    ],
    "ui": "bubble",
    "at": "21:46",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "fui",
+     "ir",
+     ""
+    ],
+    [
+     "molesta",
+     "molestar",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -143,7 +260,24 @@
    "ui": "bubble",
    "at": "21:49",
    "stamp": "💕",
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Mucho",
+     "mucho",
+     ""
+    ],
+    [
+     "escribo",
+     "escribir",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -161,7 +295,24 @@
    "ui": "bubble",
    "at": "21:49",
    "stamp": "📚",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Mañana",
+     "mañana",
+     ""
+    ],
+    [
+     "Trae",
+     "traer",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

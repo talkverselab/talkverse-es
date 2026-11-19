@@ -46,7 +46,39 @@
     "piso",
     "ver"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Hola",
+     "hola",
+     ""
+    ],
+    [
+     "He",
+     "haber",
+     ""
+    ],
+    [
+     "limpiado",
+     "limpiar",
+     ""
+    ],
+    [
+     "piso",
+     "piso",
+     ""
+    ],
+    [
+     "Has",
+     "haber",
+     ""
+    ],
+    [
+     "visto",
+     "ver",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -62,7 +94,34 @@
    "new": [
     "cena"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "Has",
+     "haber",
+     ""
+    ],
+    [
+     "hecho",
+     "hacer",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -78,7 +137,29 @@
     "lavar",
     "ropa"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "lavado",
+     "lavar",
+     ""
+    ],
+    [
+     "ropa",
+     "ropa",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -94,7 +175,24 @@
     "todo",
     "blanco"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "ropa",
+     "ropa",
+     ""
+    ],
+    [
+     "blanca",
+     "blanco",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -111,7 +209,34 @@
     "camiseta",
     "rojo"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "lavado",
+     "lavar",
+     ""
+    ],
+    [
+     "camiseta",
+     "camiseta",
+     ""
+    ],
+    [
+     "roja",
+     "rojo",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -125,7 +250,24 @@
     "form:concordancia"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "rojo",
+     "rojo",
+     ""
+    ],
+    [
+     "blanco",
+     "blanco",
+     ""
+    ],
+    [
+     "serio",
+     "serio",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -140,7 +282,39 @@
    "new": [
     "rosa"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "ves",
+     "ver",
+     ""
+    ],
+    [
+     "Ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ],
+    [
+     "ropa",
+     "ropa",
+     ""
+    ],
+    [
+     "rosa",
+     "rosa",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -164,6 +338,23 @@
     [
      "amused",
      " Pues… el rosa me queda bien."
+    ]
+   ],
+   "lemmas": [
+    [
+     "rosa",
+     "rosa",
+     ""
+    ],
+    [
+     "queda",
+     "quedar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
     ]
    ]
   }

@@ -56,7 +56,44 @@
    ],
    "emotion": "surprised",
    "tl_f": "Oye, tía, acaba de llegar la factura de la luz. Ciento veinte euros.",
-   "rd_f": "오예, 띠아, 아까바 데 예가르 라 파끄뚜라 데 라 루쓰. 씨엔또 베인떼 에우로스."
+   "rd_f": "오예, 띠아, 아까바 데 예가르 라 파끄뚜라 데 라 루쓰. 씨엔또 베인떼 에우로스.",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "acaba",
+     "acabar",
+     ""
+    ],
+    [
+     "llegar",
+     "llegar",
+     ""
+    ],
+    [
+     "factura",
+     "factura",
+     ""
+    ],
+    [
+     "luz",
+     "luz",
+     ""
+    ],
+    [
+     "euros",
+     "euros",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -71,7 +108,39 @@
    "new": [
     "encender"
    ],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "veinte",
+     "veinte",
+     ""
+    ],
+    [
+     "casi",
+     "casi",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "encendemos",
+     "encender",
+     ""
+    ],
+    [
+     "luz",
+     "luz",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -89,7 +158,49 @@
     "ducha",
     "guitarra"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "ducho",
+     "duchar",
+     ""
+    ],
+    [
+     "hora",
+     "hora",
+     ""
+    ],
+    [
+     "ducha",
+     "ducha",
+     ""
+    ],
+    [
+     "guitarra",
+     "guitarra",
+     ""
+    ],
+    [
+     "suena",
+     "sonar",
+     ""
+    ],
+    [
+     "lujo",
+     "lujo",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -105,7 +216,19 @@
    "new": [
     "doble"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "pagará",
+     "pagar",
+     ""
+    ],
+    [
+     "doble",
+     "doble",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -121,7 +244,49 @@
     "app",
     "gastar"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "justo",
+     "justo",
+     ""
+    ],
+    [
+     "Mira",
+     "mirar",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "bajado",
+     "bajar",
+     ""
+    ],
+    [
+     "app",
+     "app",
+     ""
+    ],
+    [
+     "pagar",
+     "pagar",
+     ""
+    ],
+    [
+     "medias",
+     "medio",
+     ""
+    ],
+    [
+     "gastamos",
+     "gastar",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -138,7 +303,34 @@
     "tarjeta",
     "banco"
    ],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "funciona",
+     "funcionar",
+     ""
+    ],
+    [
+     "Pongo",
+     "poner",
+     ""
+    ],
+    [
+     "tarjeta",
+     "tarjeta",
+     ""
+    ],
+    [
+     "banco",
+     "banco",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -154,7 +346,34 @@
     "aceptar",
     "deber"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "das",
+     "dar",
+     ""
+    ],
+    [
+     "aceptar",
+     "aceptar",
+     ""
+    ],
+    [
+     "app",
+     "app",
+     ""
+    ],
+    [
+     "dirá",
+     "decir",
+     ""
+    ],
+    [
+     "debe",
+     "deber",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -170,7 +389,49 @@
    "new": [
     "paz"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Aceptar",
+     "aceptar",
+     ""
+    ],
+    [
+     "aceptar",
+     "aceptar",
+     ""
+    ],
+    [
+     "aceptar",
+     "aceptar",
+     ""
+    ],
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "estamos",
+     "estar",
+     ""
+    ],
+    [
+     "paz",
+     "paz",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -183,7 +444,44 @@
     "expr:espera"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Espera",
+     "esperar",
+     ""
+    ],
+    [
+     "espera",
+     "esperar",
+     ""
+    ],
+    [
+     "has",
+     "haber",
+     ""
+    ],
+    [
+     "aceptado",
+     "aceptar",
+     ""
+    ],
+    [
+     "leer",
+     "leer",
+     ""
+    ],
+    [
+     "ni",
+     "ni",
+     ""
+    ],
+    [
+     "palabra",
+     "palabra",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -197,7 +495,39 @@
     "pagar",
     "cuerda"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "sale",
+     "salir",
+     ""
+    ],
+    [
+     "pagado",
+     "pagar",
+     ""
+    ],
+    [
+     "cuerdas",
+     "cuerdo",
+     ""
+    ],
+    [
+     "guitarra",
+     "guitarra",
+     ""
+    ],
+    [
+     "cuerdas",
+     "cuerdo",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -213,7 +543,39 @@
     "lista",
     "deuda"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "cena",
+     "cena",
+     ""
+    ],
+    [
+     "cumple",
+     "cumplir",
+     ""
+    ],
+    [
+     "prestó",
+     "prestar",
+     ""
+    ],
+    [
+     "Era",
+     "ser",
+     ""
+    ],
+    [
+     "lista",
+     "listo",
+     ""
+    ],
+    [
+     "deudas",
+     "deuda",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -226,7 +588,34 @@
     "expr:qué fuerte"
    ],
    "new": [],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "lista",
+     "listo",
+     ""
+    ],
+    [
+     "deudas",
+     "deuda",
+     ""
+    ],
+    [
+     "app",
+     "app",
+     ""
+    ],
+    [
+     "luz",
+     "luz",
+     ""
+    ],
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -241,7 +630,39 @@
     "acordarse",
     "compartir"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "app",
+     "app",
+     ""
+    ],
+    [
+     "apunté",
+     "apuntar",
+     ""
+    ],
+    [
+     "acordarme",
+     "acordar",
+     ""
+    ],
+    [
+     "compartí",
+     "compartir",
+     ""
+    ],
+    [
+     "querer",
+     "querer",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -254,7 +675,39 @@
    "new": [
     "costar"
    ],
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "has",
+     "haber",
+     ""
+    ],
+    [
+     "costado",
+     "costar",
+     ""
+    ],
+    [
+     "euros",
+     "euros",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "fui",
+     "ir",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -270,7 +723,49 @@
     "lado",
     "prestado"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Mira",
+     "mirar",
+     ""
+    ],
+    [
+     "lado",
+     "lado",
+     ""
+    ],
+    [
+     "bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "pregunta",
+     "preguntar",
+     ""
+    ],
+    [
+     "dinero",
+     "dinero",
+     ""
+    ],
+    [
+     "prestado",
+     "prestar",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -283,7 +778,24 @@
     "form:futuro"
    ],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "preguntaré",
+     "preguntar",
+     ""
+    ],
+    [
+     "días",
+     "día",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

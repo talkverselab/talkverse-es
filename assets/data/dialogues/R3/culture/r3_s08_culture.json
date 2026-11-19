@@ -45,7 +45,34 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "vamos",
+     "ir",
+     ""
+    ],
+    [
+     "ir",
+     "ir",
+     ""
+    ],
+    [
+     "verbena",
+     "verbena",
+     ""
+    ],
+    [
+     "Venís",
+     "venir",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -59,7 +86,24 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "Vais",
+     "ir",
+     ""
+    ],
+    [
+     "bailar",
+     "bailar",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -74,7 +118,29 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Claro",
+     "claro",
+     ""
+    ],
+    [
+     "Vamos",
+     "ir",
+     ""
+    ],
+    [
+     "bailar",
+     "bailar",
+     ""
+    ],
+    [
+     "abuelos",
+     "abuelo",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -88,7 +154,29 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "abuelos",
+     "abuelo",
+     ""
+    ],
+    [
+     "monos",
+     "mono",
+     ""
+    ],
+    [
+     "Bailan",
+     "bailar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -103,7 +191,34 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "abuelo",
+     "abuelo",
+     ""
+    ],
+    [
+     "fatal",
+     "fatal",
+     ""
+    ],
+    [
+     "vais",
+     "ir",
+     ""
+    ],
+    [
+     "bailar",
+     "bailar",
+     ""
+    ],
+    [
+     "abuela",
+     "abuela",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -117,7 +232,29 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "sabemos",
+     "saber",
+     ""
+    ],
+    [
+     "bailar",
+     "bailar",
+     ""
+    ],
+    [
+     "tía",
+     "tía",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -131,7 +268,34 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Tranquilos",
+     "tranquilo",
+     ""
+    ],
+    [
+     "sabe",
+     "saber",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "campeona",
+     "campeón",
+     ""
+    ],
+    [
+     "barrio",
+     "barrio",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -145,7 +309,29 @@
     "form:ir_a"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "Vamos",
+     "ir",
+     ""
+    ],
+    [
+     "hacer",
+     "hacer",
+     ""
+    ],
+    [
+     "ridículo",
+     "ridículo",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

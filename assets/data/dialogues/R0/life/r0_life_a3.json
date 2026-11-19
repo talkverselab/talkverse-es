@@ -52,7 +52,29 @@
    "ui": "bubble",
    "at": "19:02",
    "stamp": "🏠",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "comes",
+     "comer",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -70,7 +92,19 @@
    ],
    "ui": "bubble",
    "at": "19:03",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -92,7 +126,29 @@
    "stamp": "👨‍🍳",
    "emotion": "excited",
    "tl_f": "Hoy cocino yo. ¿Quieres, tía?",
-   "rd_f": "오이 꼬씨노 요. 끼에레스, 띠아?"
+   "rd_f": "오이 꼬씨노 요. 끼에레스, 띠아?",
+   "lemmas": [
+    [
+     "Hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "cocino",
+     "cocinar",
+     ""
+    ],
+    [
+     "Quieres",
+     "querer",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -108,7 +164,24 @@
    "new": [],
    "ui": "bubble",
    "at": "19:04",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "cocinas",
+     "cocina",
+     ""
+    ],
+    [
+     "guay",
+     "guay",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -125,7 +198,19 @@
    "ui": "bubble",
    "at": "19:41",
    "stamp": "🍝",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "pasta",
+     "pasta",
+     ""
+    ],
+    [
+     "Creo",
+     "creer",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -141,7 +226,19 @@
    "new": [],
    "ui": "bubble",
    "at": "19:41",
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "creo",
+     "creer",
+     ""
+    ],
+    [
+     "Venga",
+     "venir",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -160,7 +257,24 @@
    ],
    "ui": "bubble",
    "at": "19:42",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Tranqui",
+     "tranqui",
+     ""
+    ],
+    [
+     "Tengo",
+     "tener",
+     ""
+    ],
+    [
+     "número",
+     "número",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -179,7 +293,24 @@
    "ui": "bubble",
    "at": "19:42",
    "stamp": "🍕",
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "mola",
+     "molar",
+     ""
+    ],
+    [
+     "Quiero",
+     "querer",
+     ""
+    ],
+    [
+     "grande",
+     "grande",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

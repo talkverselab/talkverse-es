@@ -42,7 +42,29 @@
     "día",
     "bien"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "buenos",
+     "buen",
+     ""
+    ],
+    [
+     "días",
+     "día",
+     ""
+    ],
+    [
+     "Estás",
+     "estar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -58,7 +80,24 @@
     "mal",
     "frío"
    ],
-   "emotion": "sad"
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "Tengo",
+     "tener",
+     ""
+    ],
+    [
+     "frío",
+     "frío",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -72,7 +111,24 @@
     "form:tener"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Tienes",
+     "tener",
+     ""
+    ],
+    [
+     "frío",
+     "frío",
+     ""
+    ],
+    [
+     "Venga",
+     "venir",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -88,7 +144,19 @@
     "manta",
     "otro"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "toma",
+     "tomar",
+     ""
+    ],
+    [
+     "manta",
+     "manta",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -103,7 +171,24 @@
    "new": [
     "parar"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "estoy",
+     "estar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -119,7 +204,19 @@
     "café",
     "calefacción"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "café",
+     "café",
+     ""
+    ],
+    [
+     "calefacción",
+     "calefacción",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -132,7 +229,24 @@
     "expr:vale"
    ],
    "new": [],
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "vale",
+     "vale",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -148,7 +262,24 @@
     "ahora",
     "calor"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "calor",
+     "calor",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

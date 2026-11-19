@@ -47,7 +47,24 @@
    "ui": "bubble",
    "at": "16:00",
    "stamp": "😔",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "siento",
+     "sentir",
+     ""
+    ],
+    [
+     "ayer",
+     "ayer",
+     ""
+    ],
+    [
+     "platos",
+     "plato",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -66,7 +83,44 @@
    ],
    "ui": "bubble",
    "at": "16:02",
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Tranqui",
+     "tranqui",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "pasa",
+     "pasar",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "estuve",
+     "estar",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "humor",
+     "humor",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -84,7 +138,24 @@
    "ui": "bubble",
    "at": "16:02",
    "stamp": "🎂",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "preparo",
+     "preparar",
+     ""
+    ],
+    [
+     "tarta",
+     "tarta",
+     ""
+    ],
+    [
+     "reconciliación",
+     "reconciliación",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -99,7 +170,24 @@
    ],
    "ui": "bubble",
    "at": "16:03",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "preparas",
+     "preparar",
+     ""
+    ],
+    [
+     "tartas",
+     "tarta",
+     ""
+    ],
+    [
+     "detalle",
+     "detalle",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -121,7 +209,39 @@
    "ui": "bubble",
    "at": "16:40",
    "stamp": "😅",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "echa",
+     "echar",
+     ""
+    ],
+    [
+     "ojo",
+     "ojo",
+     ""
+    ],
+    [
+     "cocina",
+     "cocina",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -139,7 +259,24 @@
    ],
    "ui": "bubble",
    "at": "16:40",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Has",
+     "haber",
+     ""
+    ],
+    [
+     "usado",
+     "usar",
+     ""
+    ],
+    [
+     "platos",
+     "plato",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -156,7 +293,34 @@
    ],
    "ui": "bubble",
    "at": "16:44",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "tazas",
+     "taza",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "sartén",
+     "sartén",
+     ""
+    ],
+    [
+     "taza",
+     "taza",
+     ""
+    ],
+    [
+     "preferida",
+     "preferir",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -174,7 +338,29 @@
    ],
    "ui": "bubble",
    "at": "16:45",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "perdonado",
+     "perdonar",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "friegas",
+     "friega",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

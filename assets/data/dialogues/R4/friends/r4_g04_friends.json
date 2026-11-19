@@ -48,7 +48,39 @@
     "minuto",
     "pasar"
    ],
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "minutos",
+     "minuto",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "pasado",
+     "pasar",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -67,7 +99,49 @@
     "señora",
     "perro"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "escucha",
+     "escuchar",
+     ""
+    ],
+    [
+     "salía",
+     "salir",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "vi",
+     "ver",
+     ""
+    ],
+    [
+     "señora",
+     "señora",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "gigante",
+     "gigante",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -82,7 +156,44 @@
    "new": [
     "móvil"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "estamos",
+     "estar",
+     ""
+    ],
+    [
+     "qué",
+     "qué",
+     ""
+    ],
+    [
+     "hacías",
+     "hacer",
+     ""
+    ],
+    [
+     "mirabas",
+     "mirar",
+     ""
+    ],
+    [
+     "móvil",
+     "móvil",
+     ""
+    ],
+    [
+     "siempre",
+     "siempre",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -100,7 +211,44 @@
     "bolsa",
     "quitar"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "poco",
+     "poco",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "llevaba",
+     "llevar",
+     ""
+    ],
+    [
+     "bolsa",
+     "bolsa",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "quitó",
+     "quitar",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -115,7 +263,29 @@
    "new": [
     "churro"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Llevabas",
+     "llevar",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ],
+    [
+     "Eran",
+     "ser",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -131,7 +301,34 @@
     "correr",
     "calle"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "corrí",
+     "correr",
+     ""
+    ],
+    [
+     "detrás",
+     "detrás",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "calles",
+     "calle",
+     ""
+    ],
+    [
+     "enteras",
+     "entero",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -146,7 +343,39 @@
    "new": [
     "autobús"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "corriste",
+     "correr",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "corres",
+     "correr",
+     ""
+    ],
+    [
+     "ni",
+     "ni",
+     ""
+    ],
+    [
+     "autobús",
+     "autobús",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -163,7 +392,44 @@
     "calor",
     "abrigo"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "corrí",
+     "correr",
+     ""
+    ],
+    [
+     "Hacía",
+     "hacer",
+     ""
+    ],
+    [
+     "calor",
+     "calor",
+     ""
+    ],
+    [
+     "muerte",
+     "muerte",
+     ""
+    ],
+    [
+     "iba",
+     "ir",
+     ""
+    ],
+    [
+     "abrigo",
+     "abrigo",
+     ""
+    ],
+    [
+     "puesto",
+     "poner",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -179,7 +445,34 @@
     "enero",
     "grado"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "estamos",
+     "estar",
+     ""
+    ],
+    [
+     "enero",
+     "enero",
+     ""
+    ],
+    [
+     "mañana",
+     "mañana",
+     ""
+    ],
+    [
+     "hacía",
+     "hacer",
+     ""
+    ],
+    [
+     "grados",
+     "grado",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -193,7 +486,34 @@
     "form:imperfecto"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "tenía",
+     "tener",
+     ""
+    ],
+    [
+     "calor",
+     "calor",
+     ""
+    ],
+    [
+     "correr",
+     "correr",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -210,7 +530,39 @@
     "volver",
     "recuperar"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "volviste",
+     "volver",
+     ""
+    ],
+    [
+     "ver",
+     "ver",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "Recuperaste",
+     "recuperar",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -226,7 +578,34 @@
    "new": [
     "camarero"
    ],
-   "emotion": "stiff"
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "recuperé",
+     "recuperar",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "vio",
+     "ver",
+     ""
+    ],
+    [
+     "Pregúntale",
+     "preguntar",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -243,7 +622,49 @@
     "mesa",
     "loco"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ],
+    [
+     "estaba",
+     "estar",
+     ""
+    ],
+    [
+     "poniendo",
+     "poner",
+     ""
+    ],
+    [
+     "mesas",
+     "mesa",
+     ""
+    ],
+    [
+     "vi",
+     "ver",
+     ""
+    ],
+    [
+     "Corría",
+     "correr",
+     ""
+    ],
+    [
+     "loco",
+     "loco",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -259,7 +680,34 @@
    "new": [
     "verdad"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Entonces",
+     "entonces",
+     ""
+    ],
+    [
+     "era",
+     "ser",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "digas",
+     "decir",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -275,7 +723,49 @@
     "esquina",
     "casa"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "verdad",
+     "verdad",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "comió",
+     "comer",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ],
+    [
+     "esquina",
+     "esquina",
+     ""
+    ],
+    [
+     "Tomen",
+     "tomar",
+     ""
+    ],
+    [
+     "son",
+     "ser",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -290,7 +780,44 @@
    "new": [
     "mentir"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "dije",
+     "decir",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "miento",
+     "mentir",
+     ""
+    ],
+    [
+     "nunca",
+     "nunca",
+     ""
+    ],
+    [
+     "Solo",
+     "solo",
+     ""
+    ],
+    [
+     "llego",
+     "llegar",
+     ""
+    ],
+    [
+     "tarde",
+     "tarde",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

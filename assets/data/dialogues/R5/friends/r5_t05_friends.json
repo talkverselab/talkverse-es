@@ -47,7 +47,54 @@
     "encargarse",
     "tortilla"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "fin",
+     "fin",
+     ""
+    ],
+    [
+     "hace",
+     "hacer",
+     ""
+    ],
+    [
+     "buen",
+     "buen",
+     ""
+    ],
+    [
+     "tiempo",
+     "tiempo",
+     ""
+    ],
+    [
+     "Mañana",
+     "mañana",
+     ""
+    ],
+    [
+     "comemos",
+     "comer",
+     ""
+    ],
+    [
+     "parque",
+     "parque",
+     ""
+    ],
+    [
+     "encargo",
+     "encargar",
+     ""
+    ],
+    [
+     "tortilla",
+     "tortilla",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -61,7 +108,39 @@
     "tele",
     "llover"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Mañana",
+     "mañana",
+     ""
+    ],
+    [
+     "tele",
+     "tele",
+     ""
+    ],
+    [
+     "dice",
+     "decir",
+     ""
+    ],
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "llover",
+     "llover",
+     ""
+    ],
+    [
+     "tarde",
+     "tarde",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -79,7 +158,49 @@
     "nube",
     "calor"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "Mira",
+     "mirar",
+     ""
+    ],
+    [
+     "cielo",
+     "cielo",
+     ""
+    ],
+    [
+     "sola",
+     "solo",
+     ""
+    ],
+    [
+     "nube",
+     "nube",
+     ""
+    ],
+    [
+     "Hace",
+     "hacer",
+     ""
+    ],
+    [
+     "calor",
+     "calor",
+     ""
+    ],
+    [
+     "locos",
+     "loco",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -95,7 +216,34 @@
     "tormenta",
     "viento"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "móvil",
+     "móvil",
+     ""
+    ],
+    [
+     "dice",
+     "decir",
+     ""
+    ],
+    [
+     "habrá",
+     "haber",
+     ""
+    ],
+    [
+     "tormenta",
+     "tormenta",
+     ""
+    ],
+    [
+     "viento",
+     "viento",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -109,7 +257,39 @@
     "equivocarse",
     "fallar"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "móviles",
+     "móvil",
+     ""
+    ],
+    [
+     "equivocan",
+     "equivocar",
+     ""
+    ],
+    [
+     "madrileña",
+     "madrileño",
+     ""
+    ],
+    [
+     "nunca",
+     "nunca",
+     ""
+    ],
+    [
+     "falla",
+     "fallar",
+     ""
+    ],
+    [
+     "tiempo",
+     "tiempo",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -125,7 +305,44 @@
     "helado",
     "acabar"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "entonces",
+     "entonces",
+     ""
+    ],
+    [
+     "llevo",
+     "llevar",
+     ""
+    ],
+    [
+     "helado",
+     "helado",
+     ""
+    ],
+    [
+     "calor",
+     "calor",
+     ""
+    ],
+    [
+     "acabamos",
+     "acabar",
+     ""
+    ],
+    [
+     "minuto",
+     "minuto",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -140,7 +357,29 @@
     "árbol",
     "ejemplo"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "ponemos",
+     "poner",
+     ""
+    ],
+    [
+     "sombra",
+     "sombra",
+     ""
+    ],
+    [
+     "árboles",
+     "árbol",
+     ""
+    ],
+    [
+     "ejemplo",
+     "ejemplo",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -155,7 +394,54 @@
     "fresco",
     "verano"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "veis",
+     "ver",
+     ""
+    ],
+    [
+     "sol",
+     "sol",
+     ""
+    ],
+    [
+     "aire",
+     "aire",
+     ""
+    ],
+    [
+     "fresco",
+     "fresco",
+     ""
+    ],
+    [
+     "cero",
+     "cero",
+     ""
+    ],
+    [
+     "viento",
+     "viento",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "verano",
+     "verano",
+     ""
+    ],
+    [
+     "perfecto",
+     "perfecto",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -170,7 +456,44 @@
    "new": [
     "humo"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "allí",
+     "allí",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "nube",
+     "nube",
+     ""
+    ],
+    [
+     "negra",
+     "negro",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "humo",
+     "humo",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -183,7 +506,29 @@
    "new": [
     "directo"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "nube",
+     "nube",
+     ""
+    ],
+    [
+     "viene",
+     "venir",
+     ""
+    ],
+    [
+     "directa",
+     "directo",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -196,7 +541,29 @@
    "new": [
     "recoger"
    ],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Recoged",
+     "recoger",
+     ""
+    ],
+    [
+     "rápido",
+     "rápido",
+     ""
+    ],
+    [
+     "tortilla",
+     "tortilla",
+     ""
+    ],
+    [
+     "primero",
+     "primero",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -211,7 +578,49 @@
     "hielo",
     "pleno"
    ],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Está",
+     "estar",
+     ""
+    ],
+    [
+     "cayendo",
+     "caer",
+     ""
+    ],
+    [
+     "hielo",
+     "hielo",
+     ""
+    ],
+    [
+     "pleno",
+     "pleno",
+     ""
+    ],
+    [
+     "mayo",
+     "mayo",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "dado",
+     "dar",
+     ""
+    ],
+    [
+     "cabeza",
+     "cabeza",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -224,7 +633,29 @@
    "new": [
     "bolsa"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "pones",
+     "poner",
+     ""
+    ],
+    [
+     "bolsa",
+     "bolsa",
+     ""
+    ],
+    [
+     "helado",
+     "helado",
+     ""
+    ],
+    [
+     "cabeza",
+     "cabeza",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -237,7 +668,49 @@
    "new": [
     "frío"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "único",
+     "único",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ],
+    [
+     "Además",
+     "además",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ],
+    [
+     "estaba",
+     "estar",
+     ""
+    ],
+    [
+     "frío",
+     "frío",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -253,7 +726,34 @@
    "new": [
     "razón"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "mejor",
+     "mejor",
+     ""
+    ],
+    [
+     "tele",
+     "tele",
+     ""
+    ],
+    [
+     "tenía",
+     "tener",
+     ""
+    ],
+    [
+     "razón",
+     "razón",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -264,7 +764,39 @@
    "note": "¿un poco nada más? = 겨우 조금?",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "poco",
+     "poco",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "hielo",
+     "hielo",
+     ""
+    ],
+    [
+     "dentro",
+     "dentro",
+     ""
+    ],
+    [
+     "helado",
+     "helado",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

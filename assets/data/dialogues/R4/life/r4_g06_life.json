@@ -51,7 +51,44 @@
     "pelar",
     "patata"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Venga",
+     "venir",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "tortilla",
+     "tortilla",
+     ""
+    ],
+    [
+     "haces",
+     "hacer",
+     ""
+    ],
+    [
+     "Empieza",
+     "empezar",
+     ""
+    ],
+    [
+     "pelando",
+     "pelar",
+     ""
+    ],
+    [
+     "patatas",
+     "patata",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -64,7 +101,24 @@
     "expr:en serio"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "serio",
+     "serio",
+     ""
+    ],
+    [
+     "Hay",
+     "haber",
+     ""
+    ],
+    [
+     "menos",
+     "menos",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -80,7 +134,49 @@
     "cortar",
     "fino"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "todas",
+     "todo",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "cortes",
+     "corte",
+     ""
+    ],
+    [
+     "grandes",
+     "grande",
+     ""
+    ],
+    [
+     "Córtalas",
+     "córtala",
+     ""
+    ],
+    [
+     "finas",
+     "fino",
+     ""
+    ],
+    [
+     "así",
+     "así",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -96,7 +192,29 @@
     "cebolla",
     "poner"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "cebolla",
+     "cebolla",
+     ""
+    ],
+    [
+     "pongo",
+     "poner",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -112,7 +230,44 @@
     "peligroso",
     "madre"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Uf",
+     "uf",
+     ""
+    ],
+    [
+     "pregunta",
+     "preguntar",
+     ""
+    ],
+    [
+     "peligrosa",
+     "peligroso",
+     ""
+    ],
+    [
+     "Ponle",
+     "poner",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "digas",
+     "decir",
+     ""
+    ],
+    [
+     "madre",
+     "madre",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -123,7 +278,34 @@
    "note": "¿Por qué no? = 왜 안 돼?",
    "tags": [],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "madre",
+     "madre",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "pone",
+     "poner",
+     ""
+    ],
+    [
+     "cebolla",
+     "cebolla",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -140,7 +322,54 @@
     "echar",
     "aceite"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "tortilla",
+     "tortilla",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "guerra",
+     "guerra",
+     ""
+    ],
+    [
+     "Echa",
+     "echar",
+     ""
+    ],
+    [
+     "aceite",
+     "aceite",
+     ""
+    ],
+    [
+     "Más",
+     "más",
+     ""
+    ],
+    [
+     "Más",
+     "más",
+     ""
+    ],
+    [
+     "todavía",
+     "todavía",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -154,7 +383,34 @@
     "parecer",
     "mar"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "parece",
+     "parecer",
+     ""
+    ],
+    [
+     "mar",
+     "mar",
+     ""
+    ],
+    [
+     "aceite",
+     "aceite",
+     ""
+    ],
+    [
+     "echo",
+     "echar",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -172,7 +428,59 @@
     "tocar",
     "esperar"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Tranqui",
+     "tranqui",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "eches",
+     "echar",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "Ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "echa",
+     "echar",
+     ""
+    ],
+    [
+     "huevo",
+     "huevo",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "toques",
+     "toque",
+     ""
+    ],
+    [
+     "Espera",
+     "esperar",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -189,7 +497,44 @@
     "quemar",
     "vuelta"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "huele",
+     "oler",
+     ""
+    ],
+    [
+     "quemado",
+     "quemado",
+     ""
+    ],
+    [
+     "toco",
+     "tocar",
+     ""
+    ],
+    [
+     "doy",
+     "dar",
+     ""
+    ],
+    [
+     "vuelta",
+     "vuelta",
+     ""
+    ],
+    [
+     "ya",
+     "ya",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -206,7 +551,54 @@
     "plato",
     "rápido"
    ],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "toques",
+     "toque",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "Dale",
+     "dar",
+     ""
+    ],
+    [
+     "vuelta",
+     "vuelta",
+     ""
+    ],
+    [
+     "rápido",
+     "rápido",
+     ""
+    ],
+    [
+     "plato",
+     "plato",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -221,7 +613,44 @@
     "mitad",
     "suelo"
    ],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Ay",
+     "ay",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "ha",
+     "haber",
+     ""
+    ],
+    [
+     "roto",
+     "romper",
+     ""
+    ],
+    [
+     "mitad",
+     "mitad",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "suelo",
+     "suelo",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -236,7 +665,34 @@
     "grito",
     "patio"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "pasando",
+     "pasar",
+     ""
+    ],
+    [
+     "oyen",
+     "oír",
+     ""
+    ],
+    [
+     "gritos",
+     "grito",
+     ""
+    ],
+    [
+     "patio",
+     "patio",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -253,7 +709,54 @@
     "recoger",
     "quedarse"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "suba",
+     "subir",
+     ""
+    ],
+    [
+     "favor",
+     "favor",
+     ""
+    ],
+    [
+     "Está",
+     "estar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "Recoge",
+     "recoger",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "quedes",
+     "quedar",
+     ""
+    ],
+    [
+     "ahí",
+     "ahí",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -268,7 +771,49 @@
    "new": [
     "traer"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Tranquilos",
+     "tranquilo",
+     ""
+    ],
+    [
+     "chicos",
+     "chico",
+     ""
+    ],
+    [
+     "traigo",
+     "traer",
+     ""
+    ],
+    [
+     "tortilla",
+     "tortilla",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "pongáis",
+     "poner",
+     ""
+    ],
+    [
+     "cebolla",
+     "cebolla",
+     ""
+    ],
+    [
+     "eh",
+     "eh",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

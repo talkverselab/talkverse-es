@@ -48,7 +48,34 @@
     "cena",
     "ajo"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "hago",
+     "hacer",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ],
+    [
+     "gusta",
+     "gustar",
+     ""
+    ],
+    [
+     "ajo",
+     "ajo",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -64,7 +91,24 @@
    "new": [
     "encantar"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "encanta",
+     "encantar",
+     ""
+    ],
+    [
+     "ajo",
+     "ajo",
+     ""
+    ],
+    [
+     "haces",
+     "hacer",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -80,7 +124,24 @@
     "sorpresa",
     "patata"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "sorpresa",
+     "sorpresa",
+     ""
+    ],
+    [
+     "gustan",
+     "gustar",
+     ""
+    ],
+    [
+     "patatas",
+     "patata",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -97,7 +158,24 @@
    "new": [
     "todo"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "encantan",
+     "encantar",
+     ""
+    ],
+    [
+     "gusta",
+     "gustar",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -113,7 +191,24 @@
     "caracol",
     "también"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "gusta",
+     "gustar",
+     ""
+    ],
+    [
+     "caracoles",
+     "caracol",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -128,7 +223,24 @@
     "form:gustar"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Claro",
+     "claro",
+     ""
+    ],
+    [
+     "gusta",
+     "gustar",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -144,7 +256,29 @@
     "callos",
     "abuela"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "caracoles",
+     "caracol",
+     ""
+    ],
+    [
+     "callos",
+     "callos",
+     ""
+    ],
+    [
+     "abuela",
+     "abuela",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -158,7 +292,29 @@
     "form:gustar"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Espera",
+     "esperar",
+     ""
+    ],
+    [
+     "espera",
+     "esperar",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "gusta",
+     "gustar",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

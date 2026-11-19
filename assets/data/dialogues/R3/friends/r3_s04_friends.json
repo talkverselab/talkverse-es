@@ -44,7 +44,34 @@
     "form:gustar"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "hago",
+     "hacer",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ],
+    [
+     "chicos",
+     "chico",
+     ""
+    ],
+    [
+     "gusta",
+     "gustar",
+     ""
+    ],
+    [
+     "ajo",
+     "ajo",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -58,7 +85,24 @@
     "form:usted"
    ],
    "new": [],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "encanta",
+     "encantar",
+     ""
+    ],
+    [
+     "ajo",
+     "ajo",
+     ""
+    ],
+    [
+     "hace",
+     "hacer",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -72,7 +116,29 @@
     "form:gustar"
    ],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "sorpresa",
+     "sorpresa",
+     ""
+    ],
+    [
+     "gustan",
+     "gustar",
+     ""
+    ],
+    [
+     "patatas",
+     "patata",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -87,7 +153,19 @@
     "form:gustar"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "encantan",
+     "encantar",
+     ""
+    ],
+    [
+     "gusta",
+     "gustar",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -100,7 +178,19 @@
    "new": [
     "caracol"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "También",
+     "también",
+     ""
+    ],
+    [
+     "caracoles",
+     "caracol",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -115,7 +205,29 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Claro",
+     "claro",
+     ""
+    ],
+    [
+     "señora",
+     "señora",
+     ""
+    ],
+    [
+     "gusta",
+     "gustar",
+     ""
+    ],
+    [
+     "verdad",
+     "verdad",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -130,7 +242,29 @@
    "new": [
     "callos"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "caracoles",
+     "caracol",
+     ""
+    ],
+    [
+     "callos",
+     "callos",
+     ""
+    ],
+    [
+     "abuela",
+     "abuela",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -144,7 +278,24 @@
     "form:nosotros"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "gusta",
+     "gustar",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

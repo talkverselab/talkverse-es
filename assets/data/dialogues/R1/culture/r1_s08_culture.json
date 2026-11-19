@@ -51,7 +51,34 @@
    ],
    "emotion": "excited",
    "tl_f": "Voy a ir a la verbena. ¿Vienes, tía?",
-   "rd_f": "보이 아 이르 아 라 베르베나. 비에네스, 띠아?"
+   "rd_f": "보이 아 이르 아 라 베르베나. 비에네스, 띠아?",
+   "lemmas": [
+    [
+     "Voy",
+     "ir",
+     ""
+    ],
+    [
+     "ir",
+     "ir",
+     ""
+    ],
+    [
+     "verbena",
+     "verbena",
+     ""
+    ],
+    [
+     "Vienes",
+     "venir",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -66,7 +93,24 @@
    "new": [
     "bailar"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "Vas",
+     "ir",
+     ""
+    ],
+    [
+     "bailar",
+     "bailar",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -82,7 +126,29 @@
    "new": [
     "abuelo"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Claro",
+     "claro",
+     ""
+    ],
+    [
+     "Voy",
+     "ir",
+     ""
+    ],
+    [
+     "bailar",
+     "bailar",
+     ""
+    ],
+    [
+     "abuelo",
+     "abuelo",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -95,7 +161,29 @@
     "expr:qué mono"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "abuelo",
+     "abuelo",
+     ""
+    ],
+    [
+     "mono",
+     "mono",
+     ""
+    ],
+    [
+     "baila",
+     "bailar",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -111,7 +199,29 @@
    "new": [
     "abuela"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "fatal",
+     "fatal",
+     ""
+    ],
+    [
+     "vas",
+     "ir",
+     ""
+    ],
+    [
+     "bailar",
+     "bailar",
+     ""
+    ],
+    [
+     "abuela",
+     "abuela",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -127,7 +237,29 @@
    "new": [
     "saber"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "sé",
+     "saber",
+     ""
+    ],
+    [
+     "bailar",
+     "bailar",
+     ""
+    ],
+    [
+     "tía",
+     "tía",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -143,7 +275,34 @@
     "campeón",
     "barrio"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Tranqui",
+     "tranqui",
+     ""
+    ],
+    [
+     "sabe",
+     "saber",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "campeona",
+     "campeón",
+     ""
+    ],
+    [
+     "barrio",
+     "barrio",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -159,7 +318,29 @@
    "new": [
     "ridículo"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "Voy",
+     "ir",
+     ""
+    ],
+    [
+     "hacer",
+     "hacer",
+     ""
+    ],
+    [
+     "ridículo",
+     "ridículo",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

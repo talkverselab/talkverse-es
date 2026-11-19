@@ -50,7 +50,34 @@
    "stamp": "🌊",
    "emotion": "excited",
    "tl_f": "¡Ey, tía! Estoy en Cádiz. Mira qué mar.",
-   "rd_f": "에이, 띠아! 에스또이 엔 까디쓰. 미라 께 마르."
+   "rd_f": "에이, 띠아! 에스또이 엔 까디쓰. 미라 께 마르.",
+   "lemmas": [
+    [
+     "Ey",
+     "ey",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "Mira",
+     "mirar",
+     ""
+    ],
+    [
+     "mar",
+     "mar",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -66,7 +93,24 @@
    ],
    "ui": "bubble",
    "at": "12:12",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "envidia",
+     "envidiar",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "guapa",
+     "guapo",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -84,7 +128,24 @@
    "ui": "bubble",
    "at": "12:13",
    "stamp": "📸",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Ahí",
+     "ahí",
+     ""
+    ],
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "salgo",
+     "salir",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -102,7 +163,34 @@
    ],
    "ui": "bubble",
    "at": "12:14",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "sales",
+     "sal",
+     ""
+    ],
+    [
+     "guapa",
+     "guapo",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "señor",
+     "señor",
+     ""
+    ],
+    [
+     "detrás",
+     "detrás",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -118,7 +206,29 @@
    "new": [],
    "ui": "bubble",
    "at": "12:14",
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "señor",
+     "señor",
+     ""
+    ],
+    [
+     "Sale",
+     "salir",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "guapo",
+     "guapo",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -137,7 +247,29 @@
    "ui": "bubble",
    "at": "12:15",
    "stamp": "🐶",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "tiene",
+     "tener",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "mira",
+     "mirar",
+     ""
+    ],
+    [
+     "cámara",
+     "cámara",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -155,7 +287,29 @@
    ],
    "ui": "bubble",
    "at": "12:20",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "historia",
+     "historia",
+     ""
+    ],
+    [
+     "vistas",
+     "vista",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -173,7 +327,24 @@
    "ui": "bubble",
    "at": "12:31",
    "stamp": "🙄",
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "preguntan",
+     "preguntar",
+     ""
+    ],
+    [
+     "perro",
+     "perro",
+     ""
+    ],
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

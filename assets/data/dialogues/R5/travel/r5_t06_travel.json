@@ -48,7 +48,39 @@
    ],
    "emotion": "worried",
    "tl_f": "¡Javi! El vuelo sale en cuarenta minutos. ¿Dónde estás, que me pongo nerviosa?",
-   "rd_f": "하비! 엘 부엘로 살레 엔 꾸아렌따 미누또스. 돈데 에스따스, 께 메 뽄고 네르비오사?"
+   "rd_f": "하비! 엘 부엘로 살레 엔 꾸아렌따 미누또스. 돈데 에스따스, 께 메 뽄고 네르비오사?",
+   "lemmas": [
+    [
+     "vuelo",
+     "vuelo",
+     ""
+    ],
+    [
+     "sale",
+     "salir",
+     ""
+    ],
+    [
+     "minutos",
+     "minuto",
+     ""
+    ],
+    [
+     "estás",
+     "estar",
+     ""
+    ],
+    [
+     "pongo",
+     "poner",
+     ""
+    ],
+    [
+     "nervioso",
+     "nervioso",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -68,7 +100,49 @@
    ],
    "emotion": "cheerful",
    "tl_f": "Tranqui, tía. Ya estoy en la puerta del aeropuerto. Traigo churros para ti.",
-   "rd_f": "뜨란끼, 띠아. 야 에스또이 엔 라 뿌에르따 델 아에로뿌에르또. 뜨라이고 추로스 빠라 띠."
+   "rd_f": "뜨란끼, 띠아. 야 에스또이 엔 라 뿌에르따 델 아에로뿌에르또. 뜨라이고 추로스 빠라 띠.",
+   "lemmas": [
+    [
+     "Tranqui",
+     "tranqui",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "estoy",
+     "estar",
+     ""
+    ],
+    [
+     "puerta",
+     "puerta",
+     ""
+    ],
+    [
+     "aeropuerto",
+     "aeropuerto",
+     ""
+    ],
+    [
+     "Traigo",
+     "traer",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -83,7 +157,34 @@
     "billete",
     "fiarse"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Tienes",
+     "tener",
+     ""
+    ],
+    [
+     "pasaporte",
+     "pasaporte",
+     ""
+    ],
+    [
+     "billete",
+     "billete",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "fío",
+     "fiar",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -98,7 +199,49 @@
    "new": [
     "moderno"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "pasaporte",
+     "pasaporte",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "billete",
+     "billete",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "móvil",
+     "móvil",
+     ""
+    ],
+    [
+     "Somos",
+     "ser",
+     ""
+    ],
+    [
+     "modernos",
+     "moderno",
+     ""
+    ],
+    [
+     "vale",
+     "vale",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -114,7 +257,44 @@
     "kilo",
     "límite"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "buenos",
+     "buen",
+     ""
+    ],
+    [
+     "días",
+     "día",
+     ""
+    ],
+    [
+     "maleta",
+     "maleta",
+     ""
+    ],
+    [
+     "pesa",
+     "pesar",
+     ""
+    ],
+    [
+     "kilos",
+     "kilo",
+     ""
+    ],
+    [
+     "límite",
+     "límite",
+     ""
+    ],
+    [
+     "son",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -131,7 +311,39 @@
     "primo",
     "jamón"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "llevo",
+     "llevar",
+     ""
+    ],
+    [
+     "regalos",
+     "regalo",
+     ""
+    ],
+    [
+     "primo",
+     "primo",
+     ""
+    ],
+    [
+     "jamón",
+     "jamón",
+     ""
+    ],
+    [
+     "Pesa",
+     "pesar",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -144,7 +356,49 @@
    "new": [
     "sacar"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Tiene",
+     "tener",
+     ""
+    ],
+    [
+     "pagar",
+     "pagar",
+     ""
+    ],
+    [
+     "euros",
+     "euros",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "sacar",
+     "sacar",
+     ""
+    ],
+    [
+     "cosas",
+     "cosa",
+     ""
+    ],
+    [
+     "maleta",
+     "maleta",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -158,7 +412,44 @@
     "form:futuro"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "churros",
+     "churro",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "Así",
+     "así",
+     ""
+    ],
+    [
+     "pesará",
+     "pesar",
+     ""
+    ],
+    [
+     "menos",
+     "menos",
+     ""
+    ],
+    [
+     "maleta",
+     "maleta",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -169,7 +460,39 @@
    "note": "pesan(그것들이) ↔ pesa(그것이) = 무게가 나가다",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "churros",
+     "churro",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "pesan",
+     "pesar",
+     ""
+    ],
+    [
+     "jamón",
+     "jamón",
+     ""
+    ],
+    [
+     "pesa",
+     "pesar",
+     ""
+    ],
+    [
+     "kilos",
+     "kilo",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -184,7 +507,29 @@
    "new": [
     "destino"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "cierto",
+     "cierto",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "destino",
+     "destino",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -198,7 +543,24 @@
     "viajar",
     "asiento"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Viajamos",
+     "viajar",
+     ""
+    ],
+    [
+     "juntos",
+     "junto",
+     ""
+    ],
+    [
+     "asientos",
+     "asiento",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -213,7 +575,39 @@
     "estación",
     "kilómetro"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "billete",
+     "billete",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "estación",
+     "estación",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "kilómetros",
+     "kilómetro",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -224,7 +618,24 @@
    "note": "¿qué has hecho? = 무슨 짓을 한 거야(현재완료)",
    "tags": [],
    "new": [],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "has",
+     "haber",
+     ""
+    ],
+    [
+     "hecho",
+     "hacer",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -241,7 +652,54 @@
    ],
    "emotion": "amused",
    "tl_f": "Era mucho más barato, tía. Y en el tren dejan llevar jamón.",
-   "rd_f": "에라 무초 마스 바라또, 띠아. 이 엔 엘 뜨렌 데한 예바르 하몬."
+   "rd_f": "에라 무초 마스 바라또, 띠아. 이 엔 엘 뜨렌 데한 예바르 하몬.",
+   "lemmas": [
+    [
+     "Era",
+     "ser",
+     ""
+    ],
+    [
+     "mucho",
+     "mucho",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "barato",
+     "barato",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "dejan",
+     "dejar",
+     ""
+    ],
+    [
+     "llevar",
+     "llevar",
+     ""
+    ],
+    [
+     "jamón",
+     "jamón",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -257,7 +715,39 @@
     "correr",
     "envidia"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "tren",
+     "tren",
+     ""
+    ],
+    [
+     "sale",
+     "salir",
+     ""
+    ],
+    [
+     "minutos",
+     "minuto",
+     ""
+    ],
+    [
+     "corren",
+     "correr",
+     ""
+    ],
+    [
+     "llegarán",
+     "llegar",
+     ""
+    ],
+    [
+     "envidia",
+     "envidiar",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -270,7 +760,39 @@
     "expr:venga"
    ],
    "new": [],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Venga",
+     "venir",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "llego",
+     "llegar",
+     ""
+    ],
+    [
+     "tarde",
+     "tarde",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

@@ -51,7 +51,39 @@
    ],
    "emotion": "cheerful",
    "tl_f": "Mira, tía. La cocina, aquí. El baño, allí.",
-   "rd_f": "미라, 띠아. 라 꼬씨나, 아끼. 엘 바뇨, 아이."
+   "rd_f": "미라, 띠아. 라 꼬씨나, 아끼. 엘 바뇨, 아이.",
+   "lemmas": [
+    [
+     "Mira",
+     "mirar",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "cocina",
+     "cocina",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "baño",
+     "baño",
+     ""
+    ],
+    [
+     "allí",
+     "allí",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -67,7 +99,24 @@
     "bonito",
     "habitación"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "bonita",
+     "bonito",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ],
+    [
+     "habitación",
+     "habitación",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -83,7 +132,29 @@
     "pequeño",
     "luz"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "pequeña",
+     "pequeño",
+     ""
+    ],
+    [
+     "tiene",
+     "tener",
+     ""
+    ],
+    [
+     "luz",
+     "luz",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -101,7 +172,29 @@
     "caja",
     "rojo"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "mola",
+     "molar",
+     ""
+    ],
+    [
+     "caja",
+     "caja",
+     ""
+    ],
+    [
+     "roja",
+     "rojo",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -117,7 +210,34 @@
    "new": [
     "gato"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "caja",
+     "caja",
+     ""
+    ],
+    [
+     "gato",
+     "gato",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "pequeño",
+     "pequeño",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -130,7 +250,24 @@
     "form:artículo"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Tienes",
+     "tener",
+     ""
+    ],
+    [
+     "gato",
+     "gato",
+     ""
+    ],
+    [
+     "está",
+     "estar",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -145,7 +282,29 @@
    "new": [
     "cama"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "cama",
+     "cama",
+     ""
+    ],
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "habitación",
+     "habitación",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -162,7 +321,34 @@
     "compañero",
     "jefe"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "hola",
+     "hola",
+     ""
+    ],
+    [
+     "compañero",
+     "compañero",
+     ""
+    ],
+    [
+     "eres",
+     "ser",
+     ""
+    ],
+    [
+     "jefe",
+     "jefe",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

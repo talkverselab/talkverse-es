@@ -52,7 +52,44 @@
     "nieto",
     "invitado"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "cumple",
+     "cumplir",
+     ""
+    ],
+    [
+     "Vienen",
+     "venir",
+     ""
+    ],
+    [
+     "primos",
+     "primo",
+     ""
+    ],
+    [
+     "sobrinos",
+     "sobrino",
+     ""
+    ],
+    [
+     "nietos",
+     "nieto",
+     ""
+    ],
+    [
+     "invitados",
+     "invitado",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -67,7 +104,34 @@
     "traer",
     "flor"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "regalo",
+     "regalar",
+     ""
+    ],
+    [
+     "Solo",
+     "solo",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "traído",
+     "traer",
+     ""
+    ],
+    [
+     "flores",
+     "flor",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -84,7 +148,44 @@
     "soltar",
     "discurso"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "flores",
+     "flor",
+     ""
+    ],
+    [
+     "molan",
+     "molar",
+     ""
+    ],
+    [
+     "después",
+     "después",
+     ""
+    ],
+    [
+     "tarta",
+     "tarta",
+     ""
+    ],
+    [
+     "invitado",
+     "invitado",
+     ""
+    ],
+    [
+     "suelta",
+     "soltar",
+     ""
+    ],
+    [
+     "discurso",
+     "discurso",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -97,7 +198,29 @@
    "new": [
     "delante"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "discurso",
+     "discurso",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "español",
+     "español",
+     ""
+    ],
+    [
+     "delante",
+     "delante",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -114,7 +237,44 @@
    "emotion": "gentle",
    "tl_f": "¡Ay, qué guapa! ¿Tú eres la amiga extranjera de mi nieta?",
    "ko_f": "어머, 예쁘기도 해라! 네가 우리 손녀 외국인 친구구나?",
-   "rd_f": "아이, 께 구아빠! 뚜 에레스 라 아미가 엑스뜨란헤라 데 미 니에따?"
+   "rd_f": "아이, 께 구아빠! 뚜 에레스 라 아미가 엑스뜨란헤라 데 미 니에따?",
+   "lemmas": [
+    [
+     "Ay",
+     "ay",
+     ""
+    ],
+    [
+     "qué",
+     "qué",
+     ""
+    ],
+    [
+     "guapo",
+     "guapo",
+     ""
+    ],
+    [
+     "eres",
+     "ser",
+     ""
+    ],
+    [
+     "amigo",
+     "amigo",
+     ""
+    ],
+    [
+     "extranjero",
+     "extranjero",
+     ""
+    ],
+    [
+     "nieta",
+     "nieto",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -128,7 +288,34 @@
     "felicidades",
     "señora"
    ],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "señora",
+     "señora",
+     ""
+    ],
+    [
+     "felicidades",
+     "felicidad",
+     ""
+    ],
+    [
+     "flores",
+     "flor",
+     ""
+    ],
+    [
+     "son",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -143,7 +330,29 @@
    ],
    "emotion": "tsukkomi",
    "tl_f": "Abuela, suéltala un poco. Mi brindis va primero.",
-   "rd_f": "아부엘라, 수엘딸라 운 뽀꼬. 미 브린디스 바 쁘리메로."
+   "rd_f": "아부엘라, 수엘딸라 운 뽀꼬. 미 브린디스 바 쁘리메로.",
+   "lemmas": [
+    [
+     "suéltalo",
+     "soltar",
+     ""
+    ],
+    [
+     "brindis",
+     "brindis",
+     ""
+    ],
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "primero",
+     "primero",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -157,7 +366,24 @@
     "matrimonio",
     "divorcio"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "años",
+     "año",
+     ""
+    ],
+    [
+     "matrimonio",
+     "matrimonio",
+     ""
+    ],
+    [
+     "divorcios",
+     "divorcio",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -174,7 +400,44 @@
     "ganar",
     "tocar"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "abuelo",
+     "abuelo",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "ganaba",
+     "ganar",
+     ""
+    ],
+    [
+     "ni",
+     "ni",
+     ""
+    ],
+    [
+     "Venga",
+     "venir",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "toca",
+     "tocar",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -191,7 +454,49 @@
    ],
    "emotion": "flustered",
    "tl_f": "Eh… Perdón, estoy muy embarazada. Es mi primer discurso.",
-   "rd_f": "에… 뻬르돈, 에스또이 무이 엠바라싸다. 에스 미 쁘리메르 디스꾸르소."
+   "rd_f": "에… 뻬르돈, 에스또이 무이 엠바라싸다. 에스 미 쁘리메르 디스꾸르소.",
+   "lemmas": [
+    [
+     "Eh",
+     "eh",
+     ""
+    ],
+    [
+     "perdón",
+     "perdón",
+     ""
+    ],
+    [
+     "estoy",
+     "estar",
+     ""
+    ],
+    [
+     "muy",
+     "muy",
+     ""
+    ],
+    [
+     "embarazado",
+     "embarazado",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "primer",
+     "primero",
+     ""
+    ],
+    [
+     "discurso",
+     "discurso",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -208,7 +513,29 @@
    ],
    "emotion": "surprised",
    "tl_f": "¿Embarazada? ¡Madre mía, otro bisnieto más en la familia!",
-   "rd_f": "엠바라싸다? 마드레 미아, 오뜨로 비스니에또 마스 엔 라 파밀리아!"
+   "rd_f": "엠바라싸다? 마드레 미아, 오뜨로 비스니에또 마스 엔 라 파밀리아!",
+   "lemmas": [
+    [
+     "Embarazado",
+     "embarazado",
+     ""
+    ],
+    [
+     "bisnieto",
+     "bisnieto",
+     ""
+    ],
+    [
+     "más",
+     "más",
+     ""
+    ],
+    [
+     "familia",
+     "familia",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -224,7 +551,29 @@
     "champán",
     "bisabuela"
    ],
-   "emotion": "shout"
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "champán",
+     "champán",
+     ""
+    ],
+    [
+     "será",
+     "ser",
+     ""
+    ],
+    [
+     "bisabuela",
+     "bisabuelo",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -239,7 +588,49 @@
     "vergüenza",
     "bebé"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "embarazado",
+     "embarazado",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "significa",
+     "significar",
+     ""
+    ],
+    [
+     "vergüenza",
+     "vergüenza",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "esperar",
+     "esperar",
+     ""
+    ],
+    [
+     "bebé",
+     "bebé",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -254,7 +645,39 @@
     "expr:me da vergüenza"
    ],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "señora",
+     "señora",
+     ""
+    ],
+    [
+     "perdón",
+     "perdón",
+     ""
+    ],
+    [
+     "Quería",
+     "querer",
+     ""
+    ],
+    [
+     "decir",
+     "decir",
+     ""
+    ],
+    [
+     "da",
+     "dar",
+     ""
+    ],
+    [
+     "vergüenza",
+     "vergüenza",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -270,7 +693,29 @@
    ],
    "emotion": "amused",
    "tl_f": "Hija, a los ochenta he oído de todo. Pero esto, jamás.",
-   "rd_f": "이하, 아 로스 오첸따 에 오이도 데 또도. 뻬로 에스또, 하마스."
+   "rd_f": "이하, 아 로스 오첸따 에 오이도 데 또도. 뻬로 에스또, 하마스.",
+   "lemmas": [
+    [
+     "Hijo",
+     "hijo",
+     ""
+    ],
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "oído",
+     "oír",
+     ""
+    ],
+    [
+     "jamás",
+     "jamás",
+     ""
+    ]
+   ]
   },
   {
    "num": 16,
@@ -285,7 +730,54 @@
    "new": [
     "repetir"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Eso",
+     "ese",
+     ""
+    ],
+    [
+     "sí",
+     "sí",
+     ""
+    ],
+    [
+     "mejor",
+     "mejor",
+     ""
+    ],
+    [
+     "discurso",
+     "discurso",
+     ""
+    ],
+    [
+     "años",
+     "año",
+     ""
+    ],
+    [
+     "año",
+     "año",
+     ""
+    ],
+    [
+     "viene",
+     "venir",
+     ""
+    ],
+    [
+     "repetirás",
+     "repetir",
+     ""
+    ],
+    [
+     "eh",
+     "eh",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

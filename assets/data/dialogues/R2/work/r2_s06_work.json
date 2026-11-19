@@ -51,7 +51,39 @@
    "stamp": "😔",
    "emotion": "flustered",
    "tl_f": "Ey tía, perdona. Hoy no puedo.",
-   "rd_f": "에이 띠아, 뻬르도나. 오이 노 뿌에도."
+   "rd_f": "에이 띠아, 뻬르도나. 오이 노 뿌에도.",
+   "lemmas": [
+    [
+     "ey",
+     "ey",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "perdona",
+     "perdonar",
+     ""
+    ],
+    [
+     "Hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "puedo",
+     "poder",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -67,7 +99,39 @@
    "ui": "bubble",
    "at": "17:02",
    "stamp": "🙄",
-   "emotion": "annoyed"
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "puedes",
+     "poder",
+     ""
+    ],
+    [
+     "excusa",
+     "excusa",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -84,7 +148,39 @@
    ],
    "ui": "bubble",
    "at": "17:03",
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "toca",
+     "tocar",
+     ""
+    ],
+    [
+     "turno",
+     "turno",
+     ""
+    ],
+    [
+     "largo",
+     "largo",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
+    ],
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "liado",
+     "liar",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -102,7 +198,39 @@
    "new": [],
    "ui": "bubble",
    "at": "17:05",
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Vaya",
+     "vaya",
+     ""
+    ],
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "da",
+     "dar",
+     ""
+    ],
+    [
+     "igual",
+     "igual",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "preocupes",
+     "preocupar",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -120,7 +248,24 @@
    "ui": "bubble",
    "at": "21:30",
    "read": false,
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "curro",
+     "curro",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -138,7 +283,24 @@
    "ui": "bubble",
    "at": "22:45",
    "read": false,
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Todavía",
+     "todavía",
+     ""
+    ],
+    [
+     "estás",
+     "estar",
+     ""
+    ],
+    [
+     "liado",
+     "liar",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -159,7 +321,29 @@
    "ui": "bubble",
    "at": "00:12",
    "stamp": "😴",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "perdón",
+     "perdón",
+     ""
+    ],
+    [
+     "quedé",
+     "quedar",
+     ""
+    ],
+    [
+     "dormido",
+     "dormido",
+     ""
+    ],
+    [
+     "almacén",
+     "almacén",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -175,7 +359,34 @@
    "new": [],
    "ui": "bubble",
    "at": "00:13",
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "quedaste",
+     "quedar",
+     ""
+    ],
+    [
+     "dormido",
+     "dormido",
+     ""
+    ],
+    [
+     "cara",
+     "cara",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

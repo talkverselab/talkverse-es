@@ -56,7 +56,39 @@
     "leer",
     "sábado"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Toma",
+     "tomar",
+     ""
+    ],
+    [
+     "Quiero",
+     "querer",
+     ""
+    ],
+    [
+     "leas",
+     "leer",
+     ""
+    ],
+    [
+     "antes",
+     "antes",
+     ""
+    ],
+    [
+     "sábado",
+     "sábado",
+     ""
+    ],
+    [
+     "vale",
+     "vale",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -70,7 +102,29 @@
     "prisa",
     "de repente"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Antes",
+     "antes",
+     ""
+    ],
+    [
+     "sábado",
+     "sábado",
+     ""
+    ],
+    [
+     "prisa",
+     "prisa",
+     ""
+    ],
+    [
+     "repente",
+     "repente",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -85,7 +139,34 @@
    "new": [
     "presentar"
    ],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "sábado",
+     "sábado",
+     ""
+    ],
+    [
+     "presento",
+     "presentar",
+     ""
+    ],
+    [
+     "quiero",
+     "querer",
+     ""
+    ],
+    [
+     "estés",
+     "estar",
+     ""
+    ],
+    [
+     "allí",
+     "allí",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -98,7 +179,24 @@
    "new": [
     "libro"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "presentas",
+     "presentar",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -116,7 +214,39 @@
    ],
    "emotion": "teasing",
    "tl_f": "De un autor nuevo. No creo que lo conozcas todavía.",
-   "rd_f": "데 운 아우또르 누에보. 노 끄레오 께 로 꼬노쓰까스 또다비아."
+   "rd_f": "데 운 아우또르 누에보. 노 끄레오 께 로 꼬노쓰까스 또다비아.",
+   "lemmas": [
+    [
+     "autora",
+     "autor",
+     ""
+    ],
+    [
+     "nueva",
+     "nuevo",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "creo",
+     "creer",
+     ""
+    ],
+    [
+     "conozcas",
+     "conocer",
+     ""
+    ],
+    [
+     "todavía",
+     "todavía",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -132,7 +262,39 @@
    "new": [
     "foto"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "ver",
+     "ver",
+     ""
+    ],
+    [
+     "momento",
+     "momento",
+     ""
+    ],
+    [
+     "Espera",
+     "esperar",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "eres",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -148,7 +310,29 @@
     "contar",
     "nadie"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Puede",
+     "poder",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "quiero",
+     "querer",
+     ""
+    ],
+    [
+     "cuentes",
+     "contar",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -163,7 +347,24 @@
    "new": [
     "exactamente"
    ],
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ],
+    [
+     "va",
+     "ir",
+     ""
+    ],
+    [
+     "exactamente",
+     "exactamente",
+     ""
+    ]
+   ]
   },
   {
    "num": 9,
@@ -182,7 +383,34 @@
    "emotion": "shy",
    "tl_f": "De un chico que trabaja con libros y se enamora de una clienta.",
    "rd_f": "데 운 치꼬 께 뜨라바하 꼰 리브로스 이 세 에나모라 데 우나 끌리엔따.",
-   "ko_f": "책 다루는 일을 하는 남자가 손님한테 반하는 이야기야."
+   "ko_f": "책 다루는 일을 하는 남자가 손님한테 반하는 이야기야.",
+   "lemmas": [
+    [
+     "chica",
+     "chica",
+     ""
+    ],
+    [
+     "trabaja",
+     "trabajar",
+     ""
+    ],
+    [
+     "libros",
+     "libro",
+     ""
+    ],
+    [
+     "enamora",
+     "enamorar",
+     ""
+    ],
+    [
+     "cliente",
+     "cliente",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
@@ -203,7 +431,39 @@
    "emotion": "teasing",
    "tl_f": "Vaya. Espero que la clienta sea guapa, al menos.",
    "rd_f": "바야. 에스뻬로 께 라 끌리엔따 세아 구아빠, 알 메노스.",
-   "ko_f": "오. 그 손님 예뻤으면 좋겠다, 적어도."
+   "ko_f": "오. 그 손님 예뻤으면 좋겠다, 적어도.",
+   "lemmas": [
+    [
+     "Vaya",
+     "vaya",
+     ""
+    ],
+    [
+     "Espero",
+     "esperar",
+     ""
+    ],
+    [
+     "cliente",
+     "cliente",
+     ""
+    ],
+    [
+     "sea",
+     "ser",
+     ""
+    ],
+    [
+     "guapo",
+     "guapo",
+     ""
+    ],
+    [
+     "menos",
+     "menos",
+     ""
+    ]
+   ]
   },
   {
    "num": 11,
@@ -221,7 +481,44 @@
    "emotion": "amused",
    "tl_f": "Bastante guapa. Aunque no sabe decir bien «te quiero».",
    "ko_f": "꽤 예뻐. 근데 「te quiero」를 제대로 못 해.",
-   "rd_f": "바스딴떼 구아빠. 아운께 노 사베 데씨르 비엔 «떼 끼에로»."
+   "rd_f": "바스딴떼 구아빠. 아운께 노 사베 데씨르 비엔 «떼 끼에로».",
+   "lemmas": [
+    [
+     "Bastante",
+     "bastante",
+     ""
+    ],
+    [
+     "guapo",
+     "guapo",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "sabe",
+     "saber",
+     ""
+    ],
+    [
+     "decir",
+     "decir",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "quiero",
+     "querer",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
@@ -238,7 +535,24 @@
    ],
    "emotion": "flustered",
    "tl_f": "…Espera un segundo. ¿Esa soy yo?",
-   "rd_f": "…에스뻬라 운 세군도. 에사 소이 요?"
+   "rd_f": "…에스뻬라 운 세군도. 에사 소이 요?",
+   "lemmas": [
+    [
+     "Espera",
+     "esperar",
+     ""
+    ],
+    [
+     "segundo",
+     "segundo",
+     ""
+    ],
+    [
+     "soy",
+     "ser",
+     ""
+    ]
+   ]
   },
   {
    "num": 13,
@@ -256,7 +570,34 @@
     "terminar",
     "entender"
    ],
-   "emotion": "gentle"
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Ojalá",
+     "ojalá",
+     ""
+    ],
+    [
+     "termines",
+     "terminar",
+     ""
+    ],
+    [
+     "antes",
+     "antes",
+     ""
+    ],
+    [
+     "sábado",
+     "sábado",
+     ""
+    ],
+    [
+     "entenderás",
+     "entender",
+     ""
+    ]
+   ]
   },
   {
    "num": 14,
@@ -271,7 +612,24 @@
    "new": [
     "final"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "pasa",
+     "pasar",
+     ""
+    ],
+    [
+     "final",
+     "final",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ]
+   ]
   },
   {
    "num": 15,
@@ -289,7 +647,34 @@
     "vergüenza",
     "preguntar"
    ],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Léelo",
+     "leer",
+     ""
+    ],
+    [
+     "da",
+     "dar",
+     ""
+    ],
+    [
+     "vergüenza",
+     "vergüenza",
+     ""
+    ],
+    [
+     "preguntes",
+     "preguntar",
+     ""
+    ],
+    [
+     "así",
+     "así",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

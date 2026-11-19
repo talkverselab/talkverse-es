@@ -42,7 +42,39 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "miren",
+     "mirar",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "cocina",
+     "cocina",
+     ""
+    ],
+    [
+     "baños",
+     "baño",
+     ""
+    ],
+    [
+     "están",
+     "estar",
+     ""
+    ],
+    [
+     "ahí",
+     "ahí",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -58,7 +90,24 @@
    "new": [
     "habitación"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "bonito",
+     "bonito",
+     ""
+    ],
+    [
+     "están",
+     "estar",
+     ""
+    ],
+    [
+     "habitaciones",
+     "habitación",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -71,7 +120,29 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "polite"
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Son",
+     "ser",
+     ""
+    ],
+    [
+     "pequeñas",
+     "pequeño",
+     ""
+    ],
+    [
+     "tienen",
+     "tener",
+     ""
+    ],
+    [
+     "luz",
+     "luz",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -85,7 +156,29 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "perfecto",
+     "perfecto",
+     ""
+    ],
+    [
+     "son",
+     "ser",
+     ""
+    ],
+    [
+     "cajas",
+     "caja",
+     ""
+    ],
+    [
+     "rojas",
+     "rojo",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -98,7 +191,29 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Son",
+     "ser",
+     ""
+    ],
+    [
+     "gatos",
+     "gato",
+     ""
+    ],
+    [
+     "Son",
+     "ser",
+     ""
+    ],
+    [
+     "pequeños",
+     "pequeño",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -111,7 +226,24 @@
     "form:usted"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Tiene",
+     "tener",
+     ""
+    ],
+    [
+     "gatos",
+     "gato",
+     ""
+    ],
+    [
+     "están",
+     "estar",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -126,7 +258,29 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "camas",
+     "cama",
+     ""
+    ],
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "son",
+     "ser",
+     ""
+    ],
+    [
+     "habitaciones",
+     "habitación",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -140,7 +294,34 @@
     "form:vosotros"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "hola",
+     "hola",
+     ""
+    ],
+    [
+     "compañeros",
+     "compañero",
+     ""
+    ],
+    [
+     "sois",
+     "ser",
+     ""
+    ],
+    [
+     "jefes",
+     "jefe",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

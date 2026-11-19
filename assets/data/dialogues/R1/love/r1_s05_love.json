@@ -51,7 +51,29 @@
    "ui": "bubble",
    "at": "23:10",
    "stamp": "📚",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ],
+    [
+     "rojo",
+     "rojo",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -69,7 +91,29 @@
    ],
    "ui": "bubble",
    "at": "23:11",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "leo",
+     "leer",
+     ""
+    ],
+    [
+     "cama",
+     "cama",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -85,7 +129,14 @@
    "ui": "bubble",
    "at": "23:11",
    "stamp": "😳",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "lees",
+     "leer",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -103,7 +154,34 @@
    ],
    "ui": "bubble",
    "at": "23:12",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "hay",
+     "haber",
+     ""
+    ],
+    [
+     "carta",
+     "carta",
+     ""
+    ],
+    [
+     "roja",
+     "rojo",
+     ""
+    ],
+    [
+     "dentro",
+     "dentro",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -119,7 +197,19 @@
    "new": [],
    "ui": "bubble",
    "at": "23:12",
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "carta",
+     "carta",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -137,7 +227,29 @@
    "ui": "bubble",
    "at": "23:13",
    "stamp": "👍",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "doy",
+     "dar",
+     ""
+    ],
+    [
+     "carta",
+     "carta",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -160,6 +272,28 @@
      "shy",
      " Es para ti."
     ]
+   ],
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ]
    ]
   },
   {
@@ -178,7 +312,24 @@
    "ui": "bubble",
    "at": "23:20",
    "stamp": "😳",
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "leo",
+     "leer",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

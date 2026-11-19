@@ -50,7 +50,24 @@
    "ui": "bubble",
    "at": "10:12",
    "stamp": "😴",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "hora",
+     "hora",
+     ""
+    ],
+    [
+     "levantas",
+     "levantar",
+     ""
+    ],
+    [
+     "sábados",
+     "sábado",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -67,7 +84,19 @@
    ],
    "ui": "bubble",
    "at": "10:40",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "levanto",
+     "levantar",
+     ""
+    ],
+    [
+     "tarde",
+     "tarde",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -83,7 +112,24 @@
    "ui": "bubble",
    "at": "10:41",
    "stamp": "📚",
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Hay",
+     "haber",
+     ""
+    ],
+    [
+     "mercado",
+     "mercado",
+     ""
+    ],
+    [
+     "libros",
+     "libro",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -103,7 +149,24 @@
    ],
    "ui": "bubble",
    "at": "10:41",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "ducho",
+     "duchar",
+     ""
+    ],
+    [
+     "visto",
+     "ver",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -120,7 +183,29 @@
    "ui": "bubble",
    "at": "10:43",
    "stamp": "😅",
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "visto",
+     "ver",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -138,7 +223,24 @@
    "ui": "bubble",
    "at": "10:43",
    "stamp": "🤔",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "veces",
+     "vez",
+     ""
+    ],
+    [
+     "vistes",
+     "vestir",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -157,7 +259,24 @@
    "ui": "bubble",
    "at": "10:47",
    "stamp": "❤",
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "he",
+     "haber",
+     ""
+    ],
+    [
+     "cambiado",
+     "cambiar",
+     ""
+    ],
+    [
+     "veces",
+     "vez",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -179,7 +298,29 @@
    "stamp": "😳",
    "emotion": "shy",
    "tl_f": "Vale… ahora me pongo nerviosa.",
-   "rd_f": "발레… 아오라 메 뽄고 네르비오사."
+   "rd_f": "발레… 아오라 메 뽄고 네르비오사.",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "ahora",
+     "ahora",
+     ""
+    ],
+    [
+     "pongo",
+     "poner",
+     ""
+    ],
+    [
+     "nervioso",
+     "nervioso",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

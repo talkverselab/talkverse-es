@@ -54,7 +54,19 @@
    "ui": "bubble",
    "at": "22:10",
    "stamp": "🌙",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "haces",
+     "hacer",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -72,7 +84,19 @@
    ],
    "ui": "bubble",
    "at": "22:11",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "hago",
+     "hacer",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -92,7 +116,24 @@
    "ui": "bubble",
    "at": "22:11",
    "stamp": "📖",
-   "emotion": "excited"
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "leo",
+     "leer",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ],
+    [
+     "amor",
+     "amor",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -108,7 +149,24 @@
    "new": [],
    "ui": "bubble",
    "at": "22:12",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "lees",
+     "leer",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "digas",
+     "decir",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -125,7 +183,29 @@
    ],
    "ui": "bubble",
    "at": "22:12",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "muy",
+     "muy",
+     ""
+    ],
+    [
+     "bueno",
+     "bueno",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -142,7 +222,19 @@
    ],
    "ui": "bubble",
    "at": "22:13",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "pasa",
+     "pasar",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -160,7 +252,14 @@
    "emotion": "worried",
    "tl_f": "¿Hola? ¿Mateo?",
    "rd_f": "올라? 마떼오?",
-   "ko_f": "저기? 마테오?"
+   "ko_f": "저기? 마테오?",
+   "lemmas": [
+    [
+     "Hola",
+     "hola",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -182,7 +281,24 @@
    "emotion": "shy",
    "tl_f": "Perdona. La chica es como tú.",
    "rd_f": "뻬르도나. 라 치까 에스 꼬모 뚜.",
-   "ko_f": "미안. 여자 주인공이 너 같아서."
+   "ko_f": "미안. 여자 주인공이 너 같아서.",
+   "lemmas": [
+    [
+     "Perdona",
+     "perdonar",
+     ""
+    ],
+    [
+     "chico",
+     "chico",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

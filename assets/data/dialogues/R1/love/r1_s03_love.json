@@ -49,7 +49,34 @@
     "otro",
     "vez"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "vez",
+     "vez",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ],
+    [
+     "Compras",
+     "comprar",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "miras",
+     "mirar",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -65,7 +92,24 @@
    "new": [
     "leer"
    ],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Miro",
+     "mirar",
+     ""
+    ],
+    [
+     "Bueno",
+     "bueno",
+     ""
+    ],
+    [
+     "leo",
+     "leer",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -82,7 +126,34 @@
     "llegar",
     "siempre"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Ya",
+     "ya",
+     ""
+    ],
+    [
+     "Llegas",
+     "llegar",
+     ""
+    ],
+    [
+     "siempre",
+     "siempre",
+     ""
+    ],
+    [
+     "seis",
+     "seis",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -99,7 +170,19 @@
     "trabajar",
     "día"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Trabajas",
+     "trabajar",
+     ""
+    ],
+    [
+     "días",
+     "día",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -115,7 +198,29 @@
     "lunes",
     "miércoles"
    ],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "Trabajo",
+     "trabajar",
+     ""
+    ],
+    [
+     "lunes",
+     "lunes",
+     ""
+    ],
+    [
+     "miércoles",
+     "miércoles",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -130,7 +235,34 @@
    "new": [
     "viernes"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "viernes",
+     "viernes",
+     ""
+    ],
+    [
+     "haces",
+     "hacer",
+     ""
+    ],
+    [
+     "aquí",
+     "aquí",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -150,7 +282,29 @@
    "emotion": "shy",
    "tl_f": "Pues… espero a una chica que lee mucho.",
    "ko_f": "그게… 책 많이 읽는 여자를 기다려.",
-   "rd_f": "뿌에스… 에스뻬로 아 우나 치까 께 레에 무초."
+   "rd_f": "뿌에스… 에스뻬로 아 우나 치까 께 레에 무초.",
+   "lemmas": [
+    [
+     "espero",
+     "esperar",
+     ""
+    ],
+    [
+     "chico",
+     "chico",
+     ""
+    ],
+    [
+     "lee",
+     "leer",
+     ""
+    ],
+    [
+     "mucho",
+     "mucho",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -169,7 +323,29 @@
    "emotion": "flustered",
    "tl_f": "Pues la chica hoy compra un libro.",
    "ko_f": "그럼 그 여자, 오늘은 책 한 권 산다.",
-   "rd_f": "뿌에스 라 치까 오이 꼼쁘라 운 리브로."
+   "rd_f": "뿌에스 라 치까 오이 꼼쁘라 운 리브로.",
+   "lemmas": [
+    [
+     "chico",
+     "chico",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ],
+    [
+     "compra",
+     "comprar",
+     ""
+    ],
+    [
+     "libro",
+     "libro",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

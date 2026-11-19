@@ -44,7 +44,24 @@
     "form:estar"
    ],
    "new": [],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Hola",
+     "hola",
+     ""
+    ],
+    [
+     "Estás",
+     "estar",
+     ""
+    ],
+    [
+     "cansada",
+     "cansado",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -61,7 +78,34 @@
    "new": [],
    "emotion": "annoyed",
    "tl_f": "Estamos fatal, tía. Es lunes. ¿Y tú?",
-   "rd_f": "에스따모스 파딸, 띠아. 에스 루네스. 이 뚜?"
+   "rd_f": "에스따모스 파딸, 띠아. 에스 루네스. 이 뚜?",
+   "lemmas": [
+    [
+     "Estamos",
+     "estar",
+     ""
+    ],
+    [
+     "fatal",
+     "fatal",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "lunes",
+     "lunes",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -77,7 +121,24 @@
    "new": [],
    "emotion": "cheerful",
    "tl_f": "Yo no estoy cansada. ¿Y Javi y Diego?",
-   "rd_f": "요 노 에스또이 깐사다. 이 하비 이 디에고?"
+   "rd_f": "요 노 에스또이 깐사다. 이 하비 이 디에고?",
+   "lemmas": [
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "estoy",
+     "estar",
+     ""
+    ],
+    [
+     "cansado",
+     "cansado",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -90,7 +151,34 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Están",
+     "estar",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "Están",
+     "estar",
+     ""
+    ],
+    [
+     "enfermos",
+     "enfermo",
+     ""
+    ],
+    [
+     "dicen",
+     "decir",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -104,7 +192,29 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "dices",
+     "decir",
+     ""
+    ],
+    [
+     "son",
+     "ser",
+     ""
+    ],
+    [
+     "muy",
+     "muy",
+     ""
+    ],
+    [
+     "fuertes",
+     "fuerte",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -117,7 +227,34 @@
     "expr:mira"
    ],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "Mira",
+     "mirar",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -130,7 +267,24 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Están",
+     "estar",
+     ""
+    ],
+    [
+     "churrería",
+     "churrería",
+     ""
+    ],
+    [
+     "Enfermos",
+     "enfermo",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -143,7 +297,24 @@
     "form:plural"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "enfermos",
+     "enfermo",
+     ""
+    ],
+    [
+     "hambre",
+     "hambre",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

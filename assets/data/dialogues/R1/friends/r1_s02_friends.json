@@ -47,7 +47,24 @@
    "new": [
     "cansado"
    ],
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Ey",
+     "ey",
+     ""
+    ],
+    [
+     "Estás",
+     "estar",
+     ""
+    ],
+    [
+     "cansada",
+     "cansado",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -68,7 +85,34 @@
    ],
    "emotion": "annoyed",
    "tl_f": "Estoy fatal, tía. Es lunes. ¿Y tú?",
-   "rd_f": "에스또이 파딸, 띠아. 에스 루네스. 이 뚜?"
+   "rd_f": "에스또이 파딸, 띠아. 에스 루네스. 이 뚜?",
+   "lemmas": [
+    [
+     "Estoy",
+     "estar",
+     ""
+    ],
+    [
+     "fatal",
+     "fatal",
+     ""
+    ],
+    [
+     "tío",
+     "tío",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "lunes",
+     "lunes",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -84,7 +128,24 @@
    "new": [],
    "emotion": "cheerful",
    "tl_f": "Yo no estoy cansada. ¿Y Javi?",
-   "rd_f": "요 노 에스또이 깐사다. 이 하비?"
+   "rd_f": "요 노 에스또이 깐사다. 이 하비?",
+   "lemmas": [
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "estoy",
+     "estar",
+     ""
+    ],
+    [
+     "cansado",
+     "cansado",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -101,7 +162,34 @@
     "enfermo",
     "decir"
    ],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Está",
+     "estar",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "Está",
+     "estar",
+     ""
+    ],
+    [
+     "enfermo",
+     "enfermo",
+     ""
+    ],
+    [
+     "dice",
+     "decir",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -117,7 +205,29 @@
    "new": [
     "fuerte"
    ],
-   "emotion": "tsukkomi"
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "dices",
+     "decir",
+     ""
+    ],
+    [
+     "es",
+     "ser",
+     ""
+    ],
+    [
+     "muy",
+     "muy",
+     ""
+    ],
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -133,7 +243,29 @@
    "new": [
     "foto"
    ],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Mira",
+     "mirar",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "Es",
+     "ser",
+     ""
+    ],
+    [
+     "hoy",
+     "hoy",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -148,7 +280,24 @@
    "new": [
     "churrería"
    ],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Está",
+     "estar",
+     ""
+    ],
+    [
+     "churrería",
+     "churrería",
+     ""
+    ],
+    [
+     "enfermo",
+     "enfermo",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -163,7 +312,29 @@
    "new": [
     "hambre"
    ],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "enfermo",
+     "enfermo",
+     ""
+    ],
+    [
+     "hambre",
+     "hambre",
+     ""
+    ],
+    [
+     "fuerte",
+     "fuerte",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",

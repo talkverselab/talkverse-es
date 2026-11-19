@@ -47,7 +47,29 @@
    "ui": "bubble",
    "at": "23:10",
    "stamp": "📚",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Oye",
+     "oír",
+     ""
+    ],
+    [
+     "tienes",
+     "tener",
+     ""
+    ],
+    [
+     "libros",
+     "libro",
+     ""
+    ],
+    [
+     "rojos",
+     "rojo",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -63,7 +85,24 @@
    "new": [],
    "ui": "bubble",
    "at": "23:11",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "tengo",
+     "tener",
+     ""
+    ],
+    [
+     "leemos",
+     "leer",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -80,7 +119,24 @@
    "ui": "bubble",
    "at": "23:11",
    "stamp": "😳",
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "leéis",
+     "leer",
+     ""
+    ],
+    [
+     "también",
+     "también",
+     ""
+    ],
+    [
+     "lee",
+     "leer",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -95,7 +151,34 @@
    "new": [],
    "ui": "bubble",
    "at": "23:12",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Sí",
+     "sí",
+     ""
+    ],
+    [
+     "Hay",
+     "haber",
+     ""
+    ],
+    [
+     "cartas",
+     "carta",
+     ""
+    ],
+    [
+     "rojas",
+     "rojo",
+     ""
+    ],
+    [
+     "dentro",
+     "dentro",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -111,7 +194,19 @@
    "new": [],
    "ui": "bubble",
    "at": "23:12",
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "cartas",
+     "carta",
+     ""
+    ],
+    [
+     "tenéis",
+     "tener",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -128,7 +223,29 @@
    "ui": "bubble",
    "at": "23:13",
    "stamp": "👍",
-   "emotion": "cheerful"
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Son",
+     "ser",
+     ""
+    ],
+    [
+     "no",
+     "no",
+     ""
+    ],
+    [
+     "doy",
+     "dar",
+     ""
+    ],
+    [
+     "cartas",
+     "carta",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -153,6 +270,28 @@
      "shy",
      "No son para Javi… Son para ti."
     ]
+   ],
+   "lemmas": [
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "No",
+     "no",
+     ""
+    ],
+    [
+     "son",
+     "ser",
+     ""
+    ],
+    [
+     "Son",
+     "ser",
+     ""
+    ]
    ]
   },
   {
@@ -170,7 +309,24 @@
    "ui": "bubble",
    "at": "23:20",
    "stamp": "😳",
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Vale",
+     "vale",
+     ""
+    ],
+    [
+     "leo",
+     "leer",
+     ""
+    ],
+    [
+     "vez",
+     "vez",
+     ""
+    ]
+   ]
   }
  ],
  "draft": "grok",
