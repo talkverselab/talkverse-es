@@ -1,0 +1,83 @@
+{
+ "ep": "r0_life_a3",
+ "cast": {
+  "B": "diego"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Oye, ¿comes en casa hoy?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Sí, como aquí. ¿Por qué?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Hoy cocino yo. ¿Quieres, tío?"
+    ]
+   ],
+   "f": {
+    "text": "Hoy cocino yo. ¿Quieres, tía?",
+    "rd": "오이 꼬씨노 요. 끼에레스, 띠아?",
+    "ko": "오늘은 내가 요리해. 너도 먹을래?",
+    "segs": [
+     [
+      "excited",
+      "Hoy cocino yo. ¿Quieres, tía?"
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "¿Tú cocinas? ¡Qué guay! ¿Qué es?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Pasta. Creo…"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Cómo que creo? ¡Venga!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Tranqui. Tengo el número de la pizza."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "¡Mola! Quiero la grande."
+    ]
+   ]
+  }
+ }
+}

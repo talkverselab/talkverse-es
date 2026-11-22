@@ -1,0 +1,83 @@
+{
+ "ep": "r2_s04_friends",
+ "cast": {
+  "B": "javi"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Javi, ¿por dónde andas? ¿Vienes o qué?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Cinco minutitos y llego, tío. Palabra."
+    ]
+   ],
+   "f": {
+    "text": "Cinco minutitos y llego, tía. Palabra.",
+    "rd": "씬꼬 미누띠또스 이 예고, 띠아. 빨라브라.",
+    "ko": "오 분이면 도착해. 진짜야.",
+    "segs": [
+     [
+      "stiff",
+      "Cinco minutitos y llego, tía. Palabra."
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Llegas en cinco? Ya, claro."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Tranqui, que ya bajo al metro."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Bajas? Tu story te pilla en el sofá con pizza."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Jaja, esa foto es de hace siglos."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "¿Siglos? La subiste hace diez minutos. ¿Sales o qué?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Vale, vale. Salgo ahora mismo. ¿Te dejo un trozo?"
+    ]
+   ]
+  }
+ }
+}

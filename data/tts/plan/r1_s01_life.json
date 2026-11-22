@@ -1,0 +1,83 @@
+{
+ "ep": "r1_s01_life",
+ "cast": {
+  "B": "diego"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Mira, tío. La cocina, aquí. El baño, allí."
+    ]
+   ],
+   "f": {
+    "text": "Mira, tía. La cocina, aquí. El baño, allí.",
+    "rd": "미라, 띠아. 라 꼬씨나, 아끼. 엘 바뇨, 아이.",
+    "ko": "봐 봐. 부엌은 여기, 화장실은 저기.",
+    "segs": [
+     [
+      "cheerful",
+      "Mira, tía. La cocina, aquí. El baño, allí."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "¡Qué bonita! ¿Dónde está mi habitación?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Es pequeña, pero tiene mucha luz."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Vale, mola. ¿Y esa caja roja?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Es la caja de mi gato. Es pequeño."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "¿Tienes un gato? ¿Y dónde está?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "En tu cama. Bueno… es su habitación."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Pues… ¡hola, compañero! Tú eres el jefe, ¿no?"
+    ]
+   ]
+  }
+ }
+}

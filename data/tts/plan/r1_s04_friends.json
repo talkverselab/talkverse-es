@@ -1,0 +1,72 @@
+{
+ "ep": "r1_s04_friends",
+ "cast": {
+  "B": "javi"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Oye, hago la cena. ¿Te gusta el ajo?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "¡Me encanta el ajo! ¿Qué haces?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Una sorpresa. ¿Te gustan las patatas?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Me encantan. Me gusta todo, tío."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "¿Todo te gusta? ¿Los caracoles también?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Claro. Me gusta todo, de verdad."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "excited",
+     "Vale. Caracoles… ¡y callos de mi abuela!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Espera, espera… no me gusta todo."
+    ]
+   ]
+  }
+ }
+}

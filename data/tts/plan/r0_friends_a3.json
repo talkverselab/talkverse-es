@@ -1,0 +1,72 @@
+{
+ "ep": "r0_friends_a3",
+ "cast": {
+  "B": "javi"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Javi, ¿dónde estás?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "¡Ya voy! Cinco minutos."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Cinco? ¿En serio? ¡Siempre llegas tarde!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Vale… diez. Hoy no llego tarde."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "¡Ya estoy! En tu puerta."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "¿Mi puerta? No te veo. ¿Me ves?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Me abre una señora… ¡No es tu casa!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "¡Madre mía, Javi!"
+    ]
+   ]
+  }
+ }
+}

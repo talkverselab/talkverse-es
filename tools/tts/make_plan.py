@@ -6,7 +6,12 @@
 import json, os, re, sys
 import ttslib as L
 
-CAST = {'Lucía': 'lucia', 'Marta': 'marta', 'Javi': 'javi', 'Diego': 'diego', 'Directora': 'directora', 'Vecina': 'vecina'}
+CAST = {'Lucía': 'lucia', 'Marta': 'marta', 'Javi': 'javi', 'Diego': 'diego', 'Directora': 'directora', 'Vecina': 'vecina',
+        # 여성 학습자판 연애 상대(speakers_f) · 조연 — 이름 없는 공용 목소리(2026-11-23)
+        'Mateo': 'man_y', 'Nerea': 'woman_y', 'Compañera': 'woman_y', 'Camarera': 'woman_y', 'Empleada': 'woman_y',
+        'Compañero': 'man_y', 'Camarero': 'man_y', 'Repartidor': 'man_y', 'Primo': 'man_y',
+        'Casera': 'woman_m', 'Madre de Javi': 'woman_m', 'Secretaria': 'woman_m', 'Doctora': 'woman_m', 'Jefa': 'woman_m',
+        'Jefe': 'man_m', 'Vigilante': 'man_m', 'Agente': 'man_m', 'Abuela': 'woman_o'}
 clean = lambda s: s.replace('«', '').replace('»', '')  # 인용 부호는 읽지 않는다
 
 
@@ -37,6 +42,8 @@ def plan(ep):
         if not v:
             sys.exit(f'{ep}: 목소리 없음 {k}={name} — 편 JSON cast 또는 CAST 에 넣을 것')
         cast[k] = v
+    # 여성 학습자판에서 화자가 바뀌는 편(speakers_f, 예 Marta → Mateo) — 그 판은 바뀐 인물 목소리로
+    cast_f = {k: (d.get('cast_f') or {}).get(k) or CAST[name] for k, name in (d.get('speakers_f') or {}).items()}
     turns = {}
     for t in d['turns']:
         segs = [[s[0], clean(s[1])] for s in t['segs']] if t.get('segs') else [[t['emotion'], clean(t['tl'])]]
@@ -44,7 +51,7 @@ def plan(ep):
         if t.get('tl_f'):
             T['f'] = {'text': t['tl_f'], 'rd': t.get('rd_f') or t['rd'], 'ko': t.get('ko_f') or t['ko'], 'segs': female(t, segs)}
         turns[str(t['num'])] = T
-    json.dump({'ep': ep, 'cast': cast, 'turns': turns}, open(f'{L.R}/data/tts/plan/{ep}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump({'ep': ep, 'cast': cast, **({'cast_f': cast_f} if cast_f else {}), 'turns': turns}, open(f'{L.R}/data/tts/plan/{ep}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
 ids = sys.argv[1:] or sorted(L.EP)

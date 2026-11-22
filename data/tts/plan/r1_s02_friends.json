@@ -1,0 +1,94 @@
+{
+ "ep": "r1_s02_friends",
+ "cast": {
+  "B": "lucia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "¡Ey, Lucía! ¿Qué tal? ¿Estás cansada?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "annoyed",
+     "Estoy fatal, tío. Es lunes. ¿Y tú?"
+    ]
+   ],
+   "f": {
+    "text": "Estoy fatal, tía. Es lunes. ¿Y tú?",
+    "rd": "에스또이 파딸, 띠아. 에스 루네스. 이 뚜?",
+    "ko": "완전 최악이야. 월요일이잖아. 너는?",
+    "segs": [
+     [
+      "annoyed",
+      "Estoy fatal, tía. Es lunes. ¿Y tú?"
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Yo no estoy cansado. ¿Y Javi?"
+    ]
+   ],
+   "f": {
+    "text": "Yo no estoy cansada. ¿Y Javi?",
+    "rd": "요 노 에스또이 깐사다. 이 하비?",
+    "ko": "난 안 피곤해. 하비는?",
+    "segs": [
+     [
+      "cheerful",
+      "Yo no estoy cansada. ¿Y Javi?"
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Está en casa. Está enfermo, dice."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Qué dices? Javi es muy fuerte."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Mira esta foto. Es de hoy."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "¡Está en la churrería! ¿Enfermo?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Sí, enfermo… de hambre. ¡Qué fuerte!"
+    ]
+   ]
+  }
+ }
+}

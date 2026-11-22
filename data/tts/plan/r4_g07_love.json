@@ -1,0 +1,139 @@
+{
+ "ep": "r4_g07_love",
+ "cast": {
+  "B": "marta"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Hola. Lucía ha pasado por la librería esta mañana. Estaba muy contenta. Demasiado."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "¿En serio? Qué raro. ¿Te ha contado algo?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Me ha dado un libro. Dice que es tuyo y que se lo prestaste."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Sí, se lo presté la semana pasada. ¿Por qué te lo ha dado a ti entonces?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "No tengo ni idea. Pero dentro había una nota."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "…¿Había una nota?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Escrita con tu letra. Para la chica de las gafas redondas. ¿Se la escribiste a alguien?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Eh… No exactamente. O sea, sí. Pero no era para dártela de esa forma."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "¿De esa forma cómo? ¿Con una mancha de chocolate encima?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "annoyed",
+     "¡Madre mía! Se lo voy a decir a Lucía. Bueno, se lo voy a gritar."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquilo. Ya se lo he dicho yo. Y le he dado las gracias."
+    ]
+   ],
+   "f": {
+    "text": "Tranquila. Ya se lo he dicho yo. Y le he dado las gracias.",
+    "rd": "뜨란낄라. 야 세 로 에 디초 요. 이 레 에 다도 라스 그라씨아스.",
+    "ko": "진정해. 내가 벌써 말했어. 그리고 고맙다고도 했어.",
+    "segs": [
+     [
+      "gentle",
+      "Tranquila. Ya se lo he dicho yo. Y le he dado las gracias."
+     ]
+    ]
+   }
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "¿Le has dado las gracias? ¿Por qué?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shy",
+     "Toma. Esta nota la he escrito yo. Y te la doy yo, sin nadie en medio."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "surprised",
+     "¿Qué pone en esa nota?"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "shy",
+     "…Léela cuando llegues a casa. Delante de ti me da vergüenza."
+    ]
+   ]
+  }
+ }
+}

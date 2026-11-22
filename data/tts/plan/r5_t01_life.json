@@ -1,0 +1,140 @@
+{
+ "ep": "r5_t01_life",
+ "cast": {
+  "B": "lucia",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Bienvenidos al piso. Tiene ochenta metros, terraza y mucha luz natural."
+    ]
+   ],
+   "f": {
+    "text": "Bienvenidas al piso. Tiene ochenta metros, terraza y mucha luz natural.",
+    "rd": "비엔베니다스 알 삐소. 띠에네 오첸따 메뜨로스, 떼라싸 이 무차 루쓰 나뚜랄.",
+    "ko": "어서 오세요. 80제곱미터에 테라스도 있고, 햇빛이 아주 잘 들어요.",
+    "segs": [
+     [
+      "polite",
+      "Bienvenidas al piso. Tiene ochenta metros, terraza y mucha luz natural."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "¿Cuánto es el alquiler exactamente? En el anuncio no salía nada."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Son mil cuatrocientos al mes, más dos meses de fianza."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "¿Mil cuatrocientos? ¿Incluye la calefacción y el agua o no?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "La calefacción no está incluida. Pero hay ascensor y portero en el edificio."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "¿Y qué tal el ruido? La calle parece bastante tranquila."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Muy tranquila. Bueno, abajo hay un bar, pero cierra a la una."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Vale, eso me parece bien. ¿Cuándo podríamos firmar el contrato?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Es que hoy hay más visitas. Miren, ya están subiendo."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "¿Más visitas? ¿Cuántas hay previstas para hoy?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "polite",
+     "Doce esta tarde. Y una pareja ya ha ofrecido cien euros más al mes."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "worried",
+     "¿Cien euros más? Si firmamos hoy, ¿nos puede bajar algo el precio?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "polite",
+     "Bajarlo no puedo. Pero si firman hoy, no se lo subo."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "annoyed",
+     "Madre mía. Madrid está completamente loco, {name}. Vámonos ya."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "flustered",
+     "Espera, espera. ¿Dónde hay que firmar entonces?"
+    ]
+   ]
+  }
+ }
+}

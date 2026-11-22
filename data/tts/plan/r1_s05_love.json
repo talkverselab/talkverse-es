@@ -1,0 +1,79 @@
+{
+ "ep": "r1_s05_love",
+ "cast": {
+  "B": "marta"
+ },
+ "cast_f": {
+  "B": "man_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Oye, ¿tienes mi libro rojo?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Sí, lo tengo. Lo leo en la cama."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "¿Lo lees? ¿Todo?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Sí. Y hay una carta roja dentro."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "¿La carta? ¿La tienes? Madre mía."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Es para Javi, ¿no? Le doy la carta."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "¡No! No es para Javi…"
+    ],
+    [
+     "shy",
+     " Es para ti."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Vale… pues la leo otra vez."
+    ]
+   ]
+  }
+ }
+}

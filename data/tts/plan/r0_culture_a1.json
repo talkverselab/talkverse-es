@@ -1,0 +1,76 @@
+{
+ "ep": "r0_culture_a1",
+ "cast": {
+  "B": "lucia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Lucía, ¿a qué hora cenas?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "¿Yo? Ceno a las diez."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "¿A las diez? ¡Qué fuerte!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Hombre, mi abuela cena a las once."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Pero yo ya tengo hambre."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "¿Ya tienes hambre? Tranqui, hay merienda."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "excited",
+     "¡Vale! ¿Y después?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Aperitivo, tapas… "
+    ],
+    [
+     "shy",
+     "y a las diez, ¿cenas conmigo?"
+    ]
+   ]
+  }
+ }
+}

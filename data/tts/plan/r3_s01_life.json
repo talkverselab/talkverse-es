@@ -1,0 +1,72 @@
+{
+ "ep": "r3_s01_life",
+ "cast": {
+  "B": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Miren, esta es la cocina. Los baños están ahí."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "¡Qué bonito todo! ¿Y dónde están nuestras habitaciones?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Son pequeñas, pero tienen mucha luz."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Perfecto. ¿Y de quién son esas cajas rojas?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Son de mis gatos. Son pequeños."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "¿Tiene usted gatos? ¿Y dónde están?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "En sus camas. Bueno… son sus habitaciones."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Pues… ¡hola, compañeros! Vosotros sois los jefes, ¿no?"
+    ]
+   ]
+  }
+ }
+}

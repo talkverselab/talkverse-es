@@ -1,0 +1,147 @@
+{
+ "ep": "r5_t07_life",
+ "cast": {
+  "B": "diego"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Oye, tío, acaba de llegar la factura de la luz. Ciento veinte euros."
+    ]
+   ],
+   "f": {
+    "text": "Oye, tía, acaba de llegar la factura de la luz. Ciento veinte euros.",
+    "rd": "오예, 띠아, 아까바 데 예가르 라 파끄뚜라 데 라 루쓰. 씨엔또 베인떼 에우로스.",
+    "ko": "야, 전기 요금 방금 나왔어. 120유로.",
+    "segs": [
+     [
+      "surprised",
+      "Oye, tía, acaba de llegar la factura de la luz. Ciento veinte euros."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "shout",
+     "¿Ciento veinte? ¡Si casi no encendemos la luz en casa!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Bueno… es que me ducho media hora. En la ducha la guitarra suena de lujo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Pues tu guitarra pagará el doble."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Justo. Mira, me he bajado una app para pagar a medias lo que gastamos."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Vale. ¿Y cómo funciona? ¿Pongo la tarjeta del banco?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Eso. Tú le das a aceptar y la app te dirá quién debe qué."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Aceptar, aceptar, aceptar… Ya está. ¿Ya estamos en paz?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "Espera, espera. ¿Lo has aceptado todo? ¿Sin leer ni una palabra?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Sí. ¿Por qué? Sale Has pagado: cuerdas de guitarra… ¿Cuerdas de qué?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "flustered",
+     "Y la cena de mi cumple. Y lo que me prestó Javi. Era toda mi lista de deudas."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shout",
+     "¿Tu lista de deudas? ¿En la app de la luz? ¡Qué fuerte!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "worried",
+     "Es la misma app. Lo apunté todo para acordarme… y lo compartí sin querer."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "annoyed",
+     "Diego, me has costado trescientos euros. Y yo no fui a esa cena."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "amused",
+     "Mira el lado bueno: Javi ya no me pregunta por el dinero prestado."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "teasing",
+     "Porque ahora te lo preguntaré yo. Todos los días."
+    ]
+   ]
+  }
+ }
+}

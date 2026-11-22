@@ -1,0 +1,83 @@
+{
+ "ep": "r2_s07_friends",
+ "cast": {
+  "B": "javi"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Javi, hay churros gratis en la plaza. ¡Corre!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "¿En serio? ¿Dónde? ¡Corro ya! ¿Vienes?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Jajaja, para, para. Era broma, tío."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Demasiado tarde. Ya lo he puesto en el grupo."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "¿Cómo que lo has puesto en el grupo?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Estoy en la plaza con todos. El churrero está contentísimo."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Espera un momento… ¿estás ahí de verdad? ¿Me apartas uno?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Jajaja. Todo era broma, tío."
+    ]
+   ],
+   "f": {
+    "text": "Jajaja. Todo era broma, tía.",
+    "rd": "하하하. 또도 에라 브로마, 띠아.",
+    "ko": "ㅋㅋㅋ 전부 농담이었어, 너.",
+    "segs": [
+     [
+      "teasing",
+      "Jajaja. Todo era broma, tía."
+     ]
+    ]
+   }
+  }
+ }
+}

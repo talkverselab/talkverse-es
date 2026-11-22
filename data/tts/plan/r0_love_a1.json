@@ -1,0 +1,78 @@
+{
+ "ep": "r0_love_a1",
+ "cast": {
+  "B": "marta"
+ },
+ "cast_f": {
+  "B": "man_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "¡Ey! ¿Eres {name}?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Sí, soy yo. ¡Hola!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Tu foto mola, tío."
+    ]
+   ],
+   "f": {
+    "text": "Tu foto mola, tía.",
+    "rd": "뚜 포또 몰라, 띠아.",
+    "ko": "프사 멋지다.",
+    "segs": [
+     [
+      "excited",
+      "Tu foto mola, tía."
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "¡No! Es mi perro."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "¡Qué fuerte! El perro me gusta más."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¡Venga! ¿Y yo no te gusto?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Bueno… tú me gustas más. Un poco."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "ep": "r4_g05_culture",
+ "cast": {
+  "B": "lucia",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Tío, ¿no habías venido nunca a este museo? ¡Llevas un año en Madrid ya!"
+    ]
+   ],
+   "f": {
+    "text": "Tía, ¿no habías venido nunca a este museo? ¡Llevas un año en Madrid ya!",
+    "rd": "띠아, 노 아비아스 베니도 눈까 아 에스떼 무세오? 예바스 운 아뇨 엔 마드리드 야!",
+    "ko": "야, 이 미술관 한 번도 안 와 봤다고? 마드리드 산 지 1년이나 됐는데!",
+    "segs": [
+     [
+      "surprised",
+      "Tía, ¿no habías venido nunca a este museo? ¡Llevas un año en Madrid ya!"
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "No. Cuando llegué, ya me habían dicho que siempre hay cola."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Pues desde las seis es gratis. Ya te lo había dicho yo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Claro, tú lo sabes todo. ¿Cuántas veces has venido aquí?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Muchas veces. Mira este cuadro. Nadie había pintado la luz así antes."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Qué guay. ¿Y qué hay en la sala de arriba?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Eh… arriba. Sí. Es… bastante bonita."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Lucía. ¿Has subido alguna vez de verdad?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "stiff",
+     "¡Claro que sí! Bueno… casi. La última vez el museo ya había cerrado."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "¿Y la vez de antes? ¿Tampoco subiste?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "flustered",
+     "Me había comido un bocadillo enorme y me dormí en ese banco."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "polite",
+     "Perdone, señorita… ¿Usted no es la chica del banco?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "¿Yo? Qué va. No sé de qué me habla usted."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Ya la hemos despertado dos veces este año. La última vez, ya habíamos cerrado."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "surprised",
+     "¿Dos siestas en el museo? Qué fuerte, Lucía."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "teasing",
+     "El banco es muy cómodo, ¿vale? Eso también es arte."
+    ]
+   ]
+  }
+ }
+}

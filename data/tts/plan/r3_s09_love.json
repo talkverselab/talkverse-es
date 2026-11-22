@@ -1,0 +1,86 @@
+{
+ "ep": "r3_s09_love",
+ "cast": {
+  "B": "marta"
+ },
+ "cast_f": {
+  "B": "man_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "¿A qué hora os levantáis los sábados?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Nos levantamos tarde. ¿Por qué lo preguntas?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Hay un mercado de libros a las doce."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Vale. Nos duchamos y nos vestimos. ¿Y tú?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Ahora me visto… otra vez."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "¿Otra vez? ¿Cuántas veces te vistes?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Me he cambiado tres veces. Por vosotros… bueno, por ti."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Vale… ahora me pongo nervioso."
+    ]
+   ],
+   "f": {
+    "text": "Vale… ahora me pongo nerviosa.",
+    "rd": "발레… 아오라 메 뽄고 네르비오사.",
+    "ko": "알았어… 이제 내가 떨리잖아.",
+    "segs": [
+     [
+      "shy",
+      "Vale… ahora me pongo nerviosa."
+     ]
+    ]
+   }
+  }
+ }
+}

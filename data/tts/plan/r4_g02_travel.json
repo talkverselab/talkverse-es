@@ -1,0 +1,128 @@
+{
+ "ep": "r4_g02_travel",
+ "cast": {
+  "B": "lucia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Oye, ¿te vienes conmigo el sábado? Mi tía tiene una casa en un pueblo cerca de Valencia."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "¿En serio? Vale, me apunto. Pero ¿cómo llego desde la estación?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Tranqui. Cuando llegues, me escribes y bajo a recogerte."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "¿Y si se me hace tarde? El tren llega casi a las once."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Me da igual. Cuando estés allí, te espero con la cena preparada."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Qué bien. ¿Y quién más va a estar en la casa?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Pues… mi tía, mi prima y su novio. Y también mi abuela."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "¿También viene tu abuela?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Sí. Y cuando se entere de que vienes tú, va a llamar a todos los vecinos."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "¿A todos los vecinos? Lucía, yo solo quería ver el mar."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Ya, ya. Pero en mi casa, cuando hay invitados, siempre hay fiesta."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Vale… ¿Al final cuánta gente va a ser?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "De momento, doce. Mi tía ya ha sacado la paellera grande."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "shout",
+     "¿Doce personas? ¡Madre mía!"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "teasing",
+     "Cuando veas la paella, me lo agradecerás. Te lo juro."
+    ]
+   ]
+  }
+ }
+}

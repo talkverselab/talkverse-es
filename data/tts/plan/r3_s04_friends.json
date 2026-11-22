@@ -1,0 +1,72 @@
+{
+ "ep": "r3_s04_friends",
+ "cast": {
+  "B": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Os hago la cena, chicos. ¿Os gusta el ajo?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Me encanta el ajo. ¿Qué hace usted?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Es una sorpresa. ¿Os gustan las patatas?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Nos encantan. A Javi y a mí nos gusta todo."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "¿Todo? ¿También los caracoles?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Claro, señora. Nos gusta todo, de verdad."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Vale. Caracoles… ¡y los callos de la abuela!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Bueno… no nos gusta todo."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "ep": "r4_g06_life",
+ "cast": {
+  "B": "diego",
+  "C": "vecina"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Venga, hoy la tortilla la haces tú. Empieza pelando las patatas."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "¿Todas? ¿En serio? Hay como diez, por lo menos."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Sí, todas. Y no las cortes grandes. Córtalas finas, así."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Vale. ¿Y la cebolla? ¿Le pongo o no?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Uf, pregunta peligrosa. Ponle un poco. Pero no se lo digas a mi madre."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "¿Por qué no? ¿Tu madre no le pone cebolla?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "excited",
+     "En mi casa, la tortilla con cebolla es una guerra. Echa aceite. Más. ¡Más todavía!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "¡Diego, esto parece un mar de aceite! ¿Echo más?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Tranqui, no eches más. Ahora echa el huevo y no lo toques. Espera un poco."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "Oye, huele a quemado… ¿Lo toco un poco? ¿Le doy la vuelta ya?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "¡No lo toques ahora! Bueno, sí. ¡Dale la vuelta rápido! ¡Con el plato!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shout",
+     "¡Ay, no! ¡Se ha roto! ¡Y la mitad está en el suelo!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "worried",
+     "¿Diego? ¿Qué está pasando? Se oyen los gritos desde el patio."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "¡No suba usted, por favor! ¡Está todo bien! ¡Recoge eso, {name}! ¡No te quedes ahí!"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquilos, chicos. Os traigo mi tortilla. Y no le pongáis cebolla, ¿eh?"
+    ]
+   ]
+  }
+ }
+}

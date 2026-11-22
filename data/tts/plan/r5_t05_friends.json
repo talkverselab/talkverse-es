@@ -1,0 +1,137 @@
+{
+ "ep": "r5_t05_friends",
+ "cast": {
+  "B": "lucia",
+  "C": "javi"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "¡Por fin hace buen tiempo! Mañana comemos en el parque. Yo me encargo de la tortilla."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "¿Mañana? La tele dice que va a llover toda la tarde."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Qué va. Mira el cielo: ni una sola nube. Hace un calor de locos."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Pues mi móvil dice que habrá tormenta a las cinco. Y mucho viento."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Los móviles se equivocan. Una madrileña nunca falla con el tiempo."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Vale, entonces yo llevo helado. Con este calor nos lo acabamos en un minuto."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "¿Y si nos ponemos a la sombra? Bajo los árboles, por ejemplo."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "¿Veis? Sol, aire fresco, cero viento… Esto es el verano perfecto."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "Oye, ¿eso de allí es una nube negra o es humo?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "Es una nube. Y viene directa hacia nosotros."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "¡Recoged todo rápido! ¡La tortilla primero!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shout",
+     "¡Está cayendo hielo! ¡En pleno mayo! ¡Me ha dado en la cabeza!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Javi, ¿por qué te pones la bolsa del helado en la cabeza?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "¡Es lo único que tengo a mano! Además, ya estaba frío."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "flustered",
+     "Bueno… a lo mejor la tele tenía un poco de razón."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Un poco nada más? Lucía, tengo hielo dentro del helado."
+    ]
+   ]
+  }
+ }
+}

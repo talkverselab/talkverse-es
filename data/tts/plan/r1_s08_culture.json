@@ -1,0 +1,83 @@
+{
+ "ep": "r1_s08_culture",
+ "cast": {
+  "B": "lucia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Voy a ir a la verbena. ¿Vienes, tío?"
+    ]
+   ],
+   "f": {
+    "text": "Voy a ir a la verbena. ¿Vienes, tía?",
+    "rd": "보이 아 이르 아 라 베르베나. 비에네스, 띠아?",
+    "ko": "나 동네 축제 갈 거야. 너도 올래?",
+    "segs": [
+     [
+      "excited",
+      "Voy a ir a la verbena. ¿Vienes, tía?"
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "¿Qué es? ¿Vas a bailar?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Claro. Voy a bailar con mi abuelo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "¿Con tu abuelo? ¡Qué mono! ¿Baila bien?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Fatal. Tú vas a bailar con mi abuela."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "¿Yo? No sé bailar, tía."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Tranqui. Ella sabe. Es la campeona del barrio."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Vale. Voy a hacer el ridículo."
+    ]
+   ]
+  }
+ }
+}

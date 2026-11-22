@@ -1,0 +1,72 @@
+{
+ "ep": "r2_s01_love",
+ "cast": {
+  "B": "marta"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hola. Soy Marta, la de la librería."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "¡Hola! ¿Me escribes tú? Qué guay."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Sí. Tu número estaba en un libro."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "¿Ah, sí? ¿Qué libro? Qué raro, jajaja."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Está en la página del primer beso."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Vale, fui yo. ¿Te molesta eso?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Mucho. Por eso te escribo ahora…"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Mañana a las cinco. Trae el libro."
+    ]
+   ]
+  }
+ }
+}

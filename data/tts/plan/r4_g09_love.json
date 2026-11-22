@@ -1,0 +1,147 @@
+{
+ "ep": "r4_g09_love",
+ "cast": {
+  "B": "woman_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "¡Hola! La foto esa con el perro me ha dejado muerta. ¿Es tuyo?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Jajaja gracias. No es mío, es de la vecina. Lo saco a pasear por el barrio."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "¿Lo paseas por ella o para ella? No es igual, guapo."
+    ]
+   ],
+   "f": {
+    "text": "¿Lo paseas por ella o para ella? No es igual, guapa.",
+    "rd": "로 빠세아스 뽀르 에야 오 빠라 에야? 노 에스 이구알, 구아빠.",
+    "ko": "그분 대신 하는 거야, 그분 위해서 하는 거야? 그건 다르지, 예쁜 분.",
+    "segs": [
+     [
+      "teasing",
+      "¿Lo paseas por ella o para ella? No es igual, guapa."
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Por ella, porque trabaja hasta las nueve. Y un poco para mí también. Un perro ayuda a ligar."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Jajaja funciona de verdad. Por cierto, ¿estudias español para trabajar aquí?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Sí, trabajo en una oficina del centro. Llevo seis meses. Por eso meto la pata a veces."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Me encanta eso. Puedo ser tu profe… por un café."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "¿Por un café? Trato hecho. ¿Para cuándo lo hacemos?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Para el viernes. Paso por tu barrio a las siete y sacamos al perro, ¿vale?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Perfecto. Te preparo un poema para el viernes."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Jajaja ni se te ocurra. ¿Por qué un poema?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "flustered",
+     "Para practicar un poco. Y también por ti. O para ti. Ya no sé cuál se dice."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "gentle",
+     "Los dos están bien. Pero por ti me suena más bonito…"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "excited",
+     "Mamá, ¡he quedado con alguien guapísimo para el viernes! Por fin tengo plan."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "flustered",
+     "…Perdona, eso no iba para ti."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "teasing",
+     "Ya me he dado cuenta. Gracias por lo de guapísimo. Me lo guardo para el viernes."
+    ]
+   ]
+  }
+ }
+}

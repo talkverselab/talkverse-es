@@ -1,0 +1,83 @@
+{
+ "ep": "r1_s06_travel",
+ "cast": {
+  "B": "lucia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "¿Dónde estás? El tren sale a las diez."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Estoy en el tren, junto a la ventana."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "¿En el tren? Yo también. ¿Con quién estás?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Con el perro de una señora."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Un perro? En mi tren no hay perros."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Pues este tren va a… ¿Sevilla?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "¡Qué fuerte, tío! ¡Yo voy a Toledo!"
+    ]
+   ],
+   "f": {
+    "text": "¡Qué fuerte, tía! ¡Yo voy a Toledo!",
+    "rd": "께 푸에르떼, 띠아! 요 보이 아 똘레도!",
+    "ko": "말도 안 돼! 난 톨레도 가는데!",
+    "segs": [
+     [
+      "shout",
+      "¡Qué fuerte, tía! ¡Yo voy a Toledo!"
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Bueno… te llamo desde Sevilla."
+    ]
+   ]
+  }
+ }
+}

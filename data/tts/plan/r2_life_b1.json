@@ -9,49 +9,60 @@
    "segs": [
     [
      "surprised",
-     "Oye, ¿por qué hay doce sillas en el pasillo?"
+     "Tío, ¿qué hacen estas sillas aquí?"
     ]
-   ]
+   ],
+   "f": {
+    "text": "Tía, ¿qué hacen estas sillas aquí?",
+    "rd": "띠아, 께 아쎈 에스따스 시야스 아끼?",
+    "ko": "야, 이 의자들 여기서 뭐 하는 거야?",
+    "segs": [
+     [
+      "surprised",
+      "Tía, ¿qué hacen estas sillas aquí?"
+     ]
+    ]
+   }
   },
   "2": {
    "segs": [
     [
-     "neutral",
-     "Ni idea. Esta mañana hablé con la vecina del cuarto."
+     "flustered",
+     "En plan, le dije sí sí y ya."
     ]
    ]
   },
   "3": {
    "segs": [
     [
-     "worried",
-     "¿Con Carmen? Madre mía. ¿Y qué te dijo?"
+     "neutral",
+     "¿Qué dijiste exactamente?"
     ]
    ]
   },
   "4": {
    "segs": [
     [
-     "flustered",
-     "No sé, hablaba muy rápido. Yo solo dije sí, sí."
+     "worried",
+     "No sé, hablaba y no entendía."
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "tsukkomi",
-     "¿Sí, sí? Tío, ¿a qué dijiste que sí?"
+     "teasing",
+     "Qué fuerte, tío. Tú hablabas poco."
     ]
    ],
    "f": {
-    "text": "¿«Sí, sí»? Tía, ¿a qué dijiste que sí?",
-    "rd": "«시, 시»? 띠아, 아 께 디히스떼 께 시?",
-    "ko": "「네, 네」? 야, 뭐에 네라고 한 건데?",
+    "text": "Qué fuerte, tía. Tú hablabas poco.",
+    "rd": "께 푸에르떼, 띠아. 뚜 아블라바스 뽀꼬.",
+    "ko": "대박이네, 야. 너 말 별로 안 했잖아.",
     "segs": [
      [
-      "tsukkomi",
-      "¿Sí, sí? Tía, ¿a qué dijiste que sí?"
+      "teasing",
+      "Qué fuerte, tía. Tú hablabas poco."
      ]
     ]
    }
@@ -60,27 +71,23 @@
    "segs": [
     [
      "flustered",
-     "Bueno, a todo. Parecía muy contenta."
+     "Solo decía sí, sí."
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "cheerful",
-     "¡Hola, chicos! ¿Dónde pongo la paella?"
+     "shout",
+     "¡Oye, ¿por qué hay doce sillas?!"
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "surprised",
-     "¿Qué paella?"
-    ],
-    [
-     "polite",
-     "Perdone, ¿qué pasa aquí?"
+     "amused",
+     "¡Jajaja! Él dijo que sí."
     ]
    ]
   },
@@ -88,35 +95,31 @@
    "segs": [
     [
      "cheerful",
-     "La reunión de vecinos, en vuestro piso. Somos veinte."
+     "Vale, pues las quitamos juntos."
     ]
    ]
   },
   "10": {
    "segs": [
     [
-     "worried",
-     "Veinte… Diego, ¿cuántos platos tenemos?"
+     "shy",
+     "Perdón, no lo sabía."
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "annoyed",
-     "Tres."
-    ],
-    [
-     "tsukkomi",
-     "La próxima vez, di no entiendo."
+     "excited",
+     "Venga, ¡esto es una locura!"
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "flustered",
-     "Sí, sí."
+     "gentle",
+     "Nunca más digo sí sí."
     ]
    ]
   }

@@ -1,0 +1,193 @@
+{
+ "ep": "r5_t08_culture",
+ "cast": {
+  "B": "lucia",
+  "C": "woman_o",
+  "D": "man_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hoy mi abuela cumple ochenta. Vienen primos, sobrinos, nietos… unos cuarenta invitados."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "¿Cuarenta? ¿Y qué le regalo yo? Solo he traído estas flores."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Las flores molan. Pero después de la tarta, cada invitado suelta un discurso."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "¿Un discurso? ¿Yo también? ¿En español y delante de todos?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "¡Ay, qué guapo! ¿Tú eres el amigo extranjero de mi nieta?"
+    ]
+   ],
+   "f": {
+    "text": "¡Ay, qué guapa! ¿Tú eres la amiga extranjera de mi nieta?",
+    "rd": "아이, 께 구아빠! 뚜 에레스 라 아미가 엑스뜨란헤라 데 미 니에따?",
+    "ko": "어머, 예쁘기도 해라! 네가 우리 손녀 외국인 친구구나?",
+    "segs": [
+     [
+      "gentle",
+      "¡Ay, qué guapa! ¿Tú eres la amiga extranjera de mi nieta?"
+     ]
+    ]
+   }
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Sí, señora. ¡Muchas felicidades! Estas flores son para usted."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Abuela, suéltalo un poco. Mi brindis va primero."
+    ]
+   ],
+   "f": {
+    "text": "Abuela, suéltala un poco. Mi brindis va primero.",
+    "rd": "아부엘라, 수엘딸라 운 뽀꼬. 미 브린디스 바 쁘리메로.",
+    "ko": "할머니, 얘 좀 놔주세요. 건배는 제가 먼저예요.",
+    "segs": [
+     [
+      "tsukkomi",
+      "Abuela, suéltala un poco. Mi brindis va primero."
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "¡Por la abuela! Ochenta años, sesenta de matrimonio y cero divorcios."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Porque el abuelo no ganaba ni una. ¡Venga, {name}, ahora te toca a ti!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Eh… Perdón, estoy muy embarazado. Es mi primer discurso."
+    ]
+   ],
+   "f": {
+    "text": "Eh… Perdón, estoy muy embarazada. Es mi primer discurso.",
+    "rd": "에… 뻬르돈, 에스또이 무이 엠바라싸다. 에스 미 쁘리메르 디스꾸르소.",
+    "ko": "어… 죄송해요, 제가 너무 임신해서요. 첫 연설이라서요.",
+    "segs": [
+     [
+      "flustered",
+      "Eh… Perdón, estoy muy embarazada. Es mi primer discurso."
+     ]
+    ]
+   }
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "¿Embarazado? ¡Madre mía, otro bisnieto más en la familia!"
+    ]
+   ],
+   "f": {
+    "text": "¿Embarazada? ¡Madre mía, otro bisnieto más en la familia!",
+    "rd": "엠바라싸다? 마드레 미아, 오뜨로 비스니에또 마스 엔 라 파밀리아!",
+    "ko": "임신이라고? 세상에, 증손주가 또 생기는구나!",
+    "segs": [
+     [
+      "surprised",
+      "¿Embarazada? ¡Madre mía, otro bisnieto más en la familia!"
+     ]
+    ]
+   }
+  },
+  "12": {
+   "segs": [
+    [
+     "shout",
+     "¡Champán para todos! ¡La abuela será bisabuela otra vez!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¡Que no! Embarazado no significa vergüenza. Es esperar un bebé."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "Madre mía. Señora, perdón. Quería decir que me da vergüenza."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "amused",
+     "Hijo, a los ochenta he oído de todo. Pero esto, jamás."
+    ]
+   ],
+   "f": {
+    "text": "Hija, a los ochenta he oído de todo. Pero esto, jamás.",
+    "rd": "이하, 아 로스 오첸따 에 오이도 데 또도. 뻬로 에스또, 하마스.",
+    "ko": "얘야, 여든 살이면 별소리 다 들어 봤다. 근데 이건 처음이구나.",
+    "segs": [
+     [
+      "amused",
+      "Hija, a los ochenta he oído de todo. Pero esto, jamás."
+     ]
+    ]
+   }
+  },
+  "16": {
+   "segs": [
+    [
+     "gentle",
+     "Eso sí: el mejor discurso en sesenta años. El año que viene lo repetirás, ¿eh?"
+    ]
+   ]
+  }
+ }
+}

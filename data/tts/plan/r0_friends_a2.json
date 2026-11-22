@@ -1,0 +1,72 @@
+{
+ "ep": "r0_friends_a2",
+ "cast": {
+  "B": "lucia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "¡Ey, {name}! ¿Qué tal?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Bien. ¿Y tú?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "¡Genial! Oye, ¿tienes hambre?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Un poco. ¿Quieres comer algo?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "¡Quiero todo! Conozco un sitio."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Y luego otro. Y otro. ¡Y churros!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¡Tía! Solo tengo un poco de hambre."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Ya. Pero yo tengo mucha. ¿Te vienes?"
+    ]
+   ]
+  }
+ }
+}

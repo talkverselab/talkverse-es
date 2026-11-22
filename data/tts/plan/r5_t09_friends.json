@@ -1,0 +1,129 @@
+{
+ "ep": "r5_t09_friends",
+ "cast": {
+  "B": "lucia",
+  "C": "javi"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Javi, ¿otra vez tarde? Te esperamos una hora en la puerta del cine."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Lo siento, tía. Hubo lío con el metro, en plan retraso gordo."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Mentira. Te vi en la foto de tu primo, en el bar a las ocho."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Vale, sí. Pero era una emergencia: había partido y no podía faltar."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Chicos, tranquilos. No hace falta discutir así en el grupo."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "No es solo hoy. Estoy harta de sus excusas. Y mañana será igual."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Y tú? Siempre con alguna queja. Qué rollo, tía."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shout",
+     "Perfecto. Me salgo del grupo ya."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Lucía, espera. Javi, pídele disculpas. En serio, tío."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "¿Javi? ¿Lucía? Sé que lo estáis leyendo los dos."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "{name}, no te preocupes. Javi está aquí conmigo."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Estoy en la puerta de su casa. Con churros y chocolate. Disculpas aceptadas."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shout",
+     "¿Os habéis peleado una hora y ahora estáis juntos?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Así funciona la confianza, {name}. Por cierto, ¿tú dónde estás?"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "sad",
+     "En la puerta del cine. Esperándoos desde las ocho."
+    ]
+   ]
+  }
+ }
+}

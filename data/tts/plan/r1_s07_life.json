@@ -1,0 +1,76 @@
+{
+ "ep": "r1_s07_life",
+ "cast": {
+  "B": "diego"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "¡Hola! He limpiado el piso. ¿Has visto?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "¡Qué bien! ¿Has hecho la cena también?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "No, pero he lavado tu ropa."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "¿Mi ropa? ¿Toda? ¿La blanca también?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Sí. Y he lavado mi camiseta roja."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Rojo con blanco? ¿En serio?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Bueno… ¿ves? Ahora tienes mucha ropa rosa."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "annoyed",
+     "Madre mía."
+    ],
+    [
+     "amused",
+     " Pues… el rosa me queda bien."
+    ]
+   ]
+  }
+ }
+}

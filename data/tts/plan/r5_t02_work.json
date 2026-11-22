@@ -1,0 +1,160 @@
+{
+ "ep": "r5_t02_work",
+ "cast": {
+  "B": "woman_m",
+  "C": "man_y",
+  "D": "man_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Bienvenido a la empresa, {name}. Aquí tienes tu mesa y tu ordenador."
+    ]
+   ],
+   "f": {
+    "text": "Bienvenida a la empresa, {name}. Aquí tienes tu mesa y tu ordenador.",
+    "rd": "비엔베니다 아 라 엠쁘레사, {name}. 아끼 띠에네스 뚜 메사 이 뚜 오르데나도르.",
+    "ko": "회사에 온 걸 환영해요, {name}. 여기가 자리고 이게 컴퓨터예요.",
+    "segs": [
+     [
+      "polite",
+      "Bienvenida a la empresa, {name}. Aquí tienes tu mesa y tu ordenador."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Gracias. ¿A qué hora empieza la reunión con el cliente?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "A las doce. Y tu primer encargo: pide la comida para la reunión. Somos diez."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Ah, la misión del novato. Yo pedí pizza el año pasado y llegó helada."
+    ]
+   ],
+   "f": {
+    "text": "Ah, la misión de la novata. Yo pedí pizza el año pasado y llegó helada.",
+    "rd": "아, 라 미시온 데 라 노바따. 요 뻬디 삐짜 엘 아뇨 빠사도 이 예고 엘라다.",
+    "ko": "아, 신입 임무구나. 나는 작년에 피자 시켰는데 꽁꽁 식어서 왔어.",
+    "segs": [
+     [
+      "amused",
+      "Ah, la misión de la novata. Yo pedí pizza el año pasado y llegó helada."
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Vaya. ¿Qué pido entonces? ¿Bocadillos? ¿Y quién paga todo?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Bocadillos, perfecto. Paga la empresa. Los pides desde la app de la oficina."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Y mira: revisa bien la cantidad antes de pagar. Te lo digo por experiencia."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Tranquilo, lo tengo controlado. Por cierto, ¿el sueldo se cobra a final de mes?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Cobramos el día treinta. Y el treinta y uno ya no te quedará nada."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "cheerful",
+     "Ya está. He pedido diez bocadillos. Llegan a las doce menos cuarto."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "¿Diez? Mira el móvil: Cantidad: cien. ¿Has pedido cien de verdad?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "polite",
+     "Buenos días. ¿Es la empresa de {name}? Traigo cien bocadillos. Abajo hay tres compañeros más con cajas."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shout",
+     "¡Madre mía! ¿Y quién paga todo esto? ¡El cliente está subiendo ahora mismo!"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "Lo pagaré yo… con mi primer sueldo. Y con el segundo también."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "surprised",
+     "Espera un momento. El cliente se está comiendo el tercero. Dice que es la mejor reunión de su vida."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "teasing",
+     "Y ha firmado el contrato. El viernes pides tú otra vez. Cien bocadillos."
+    ]
+   ]
+  }
+ }
+}

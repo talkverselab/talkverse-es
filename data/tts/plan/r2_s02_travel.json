@@ -1,0 +1,83 @@
+{
+ "ep": "r2_s02_travel",
+ "cast": {
+  "B": "lucia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "¡Ey, tío! Estoy en Cádiz. Mira qué mar."
+    ]
+   ],
+   "f": {
+    "text": "¡Ey, tía! Estoy en Cádiz. Mira qué mar.",
+    "rd": "에이, 띠아! 에스또이 엔 까디쓰. 미라 께 마르.",
+    "ko": "야! 나 카디스야. 바다 좀 봐.",
+    "segs": [
+     [
+      "excited",
+      "¡Ey, tía! Estoy en Cádiz. Mira qué mar."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Qué envidia. ¿Y la foto, guapa?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Ahí va. ¿Qué tal salgo?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Sales guapa… pero ¿quién es el señor de detrás?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Qué señor? ¡Madre mía! Sale más guapo que yo."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Y tiene un perro… ¡que mira a la cámara!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Ya está en mi historia. Cien vistas."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "annoyed",
+     "Y todos preguntan por el perro. Qué fuerte."
+    ]
+   ]
+  }
+ }
+}

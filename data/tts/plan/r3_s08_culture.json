@@ -1,0 +1,72 @@
+{
+ "ep": "r3_s08_culture",
+ "cast": {
+  "B": "lucia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Hoy vamos a ir a la verbena. ¿Venís?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "¿Qué es eso? ¿Vais a bailar?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Claro. Vamos a bailar con mis abuelos."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "¿Con tus abuelos? ¡Qué monos! ¿Bailan bien?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Mi abuelo, fatal. Vosotros vais a bailar con mi abuela."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "¿Nosotros? No sabemos bailar, tía."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Tranquilos. Ella sabe. Es la campeona del barrio."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Vale. Vamos a hacer el ridículo."
+    ]
+   ]
+  }
+ }
+}

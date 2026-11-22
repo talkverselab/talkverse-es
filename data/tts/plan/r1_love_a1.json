@@ -7,76 +7,75 @@
   "1": {
    "segs": [
     [
-     "stiff",
-     "Perdona, ¿tienes libros fáciles?"
+     "neutral",
+     "Hola, ¿hay algo fácil de leer?"
     ]
    ]
   },
   "2": {
    "segs": [
     [
-     "neutral",
-     "¿Fáciles?"
-    ],
-    [
-     "gentle",
-     "Mira, este. Es muy bonito."
+     "cheerful",
+     "Vale, tío. Este es fácil."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Vale, tía. Este es fácil.",
+    "rd": "발레, 띠아. 에스떼 에스 파씰.",
+    "ko": "오케이, 야. 이거 쉬워.",
+    "segs": [
+     [
+      "cheerful",
+      "Vale, tía. Este es fácil."
+     ]
+    ]
+   }
   },
   "3": {
    "segs": [
     [
      "neutral",
-     "Vale. ¿Qué significa te quiero?"
+     "¿Qué significa 'pasear'?"
     ]
    ]
   },
   "4": {
    "segs": [
     [
-     "flustered",
-     "Hombre… ¿Me lo preguntas a mí?"
+     "gentle",
+     "Significa caminar un poco."
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "neutral",
-     "Sí, a ti."
-    ],
-    [
-     "shy",
-     "Te quiero… ¿Está bien?"
+     "surprised",
+     "Ah, ¿tú paseas mucho?"
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "shy",
-     "…Muy bien. Otra vez, por favor."
+     "amused",
+     "¡Ja ja! Yo también paseo. ¡Qué fuerte!"
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "surprised",
-     "¿Otra vez? ¿Por qué?"
+     "flustered",
+     "¿En serio? ¡Me late un poco!"
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "flustered",
-     "Por nada."
-    ],
-    [
-     "shy",
-     "Es que… lo dices muy bien."
+     "cheerful",
+     "¡Venga! Llévatelo."
     ]
    ]
   }

@@ -1,0 +1,137 @@
+{
+ "ep": "r4_g04_friends",
+ "cast": {
+  "B": "javi",
+  "C": "woman_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "¡Javi! Cuarenta minutos otra vez, tío. ¿Qué te ha pasado ahora?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Vale, escucha. Yo salía de casa y vi a una señora con un perro gigante."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Ya estamos. ¿Y tú qué hacías? ¿Mirabas el móvil como siempre?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "…Un poco sí. Yo llevaba una bolsa de churros. Y el perro, ¡zas!, me la quitó."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "¿Llevabas churros? ¿Eran para mí o solo para ti?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Para los dos. Por eso corrí detrás del perro tres calles enteras."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Tú corriste de verdad? Javi, tú no corres ni para el autobús."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Pues corrí. Hacía un calor de muerte y yo iba con el abrigo puesto."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Javi, estamos en enero. Esta mañana hacía dos grados."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "…Bueno, yo tenía calor. Por lo de correr tanto."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Vale. ¿Y volviste a ver al perro? ¿Recuperaste los churros?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "stiff",
+     "No los recuperé. Pero la camarera de aquí lo vio todo. Pregúntale a ella."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "Es verdad. Yo estaba poniendo las mesas y lo vi. Corría como un loco."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "surprised",
+     "¿Entonces era verdad? ¡No me digas!"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "gentle",
+     "Verdad. Y el perro se comió los churros en la esquina. Tomen, estos son de la casa."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "teasing",
+     "Te lo dije. Yo no miento nunca. Solo llego tarde."
+    ]
+   ]
+  }
+ }
+}

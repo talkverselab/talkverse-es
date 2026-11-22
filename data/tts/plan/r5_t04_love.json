@@ -1,0 +1,147 @@
+{
+ "ep": "r5_t04_love",
+ "cast": {
+  "B": "marta"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Ayer te vi en la plaza. Parecías muy contento."
+    ]
+   ],
+   "f": {
+    "text": "Ayer te vi en la plaza. Parecías muy contenta.",
+    "rd": "아예르 떼 비 엔 라 쁠라싸. 빠레씨아스 무이 꼰뗀따.",
+    "ko": "어제 광장에서 너 봤어. 엄청 즐거워 보이던데.",
+    "segs": [
+     [
+      "teasing",
+      "Ayer te vi en la plaza. Parecías muy contenta."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "¡Sí! Estaba con Lucía. Me contó una broma buenísima."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Ya veo. Os reíais tanto que se os oía desde la tienda."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "¿Estás enfadada? Tienes la misma cara que cuando alguien rompe un libro."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Para nada. Estoy perfectamente bien. Solo un poco aburrida."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "¿Aburrida, dices? Pero si hoy ha llegado tu novela romántica favorita."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "No es mi favorita. Es una obra seria. Con mucha emoción."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Ya, claro. Por eso en la portada hay un beso enorme."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "flustered",
+     "Vale, sí. ¡Pero no cambies de tema! Lucía y tú… ¿sois algo?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "¿Amigos? Claro que sí. Me estaba ayudando con una sorpresa."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "¿Una sorpresa? ¿Para quién será?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "teasing",
+     "Para alguien que lee novelas románticas y dice que no."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shy",
+     "… Vale. Estaba celosa. Un poquito."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "¿Solo un poquito? Te vi esconderte detrás del cartel de la tienda."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "flustered",
+     "Qué vergüenza. Dame la sorpresa antes de que me arrepienta."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "gentle",
+     "Tu novela favorita. Firmada por la autora. Y con mi número dentro."
+    ]
+   ]
+  }
+ }
+}

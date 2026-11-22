@@ -58,7 +58,7 @@ def turns(ep):
             X = T.get(g) or {}; F = fills(P, g)
             segs = [(s[0], fill(s[-1], F, 'text').strip()) for s in (X.get('segs') or T['segs'])]
             segs = [s for s in segs if SIL.sub('', s[1])]
-            row[g] = {'voice': ('am' if g == 'm' else 'af') if t['speaker'] == 'A' else P['cast'][t['speaker']],
+            row[g] = {'voice': ('am' if g == 'm' else 'af') if t['speaker'] == 'A' else ((P.get('cast_f') or {}).get(t['speaker']) if g == 'f' else None) or P['cast'][t['speaker']],
                       'text': fill(X.get('text') or t['tl'], F, 'text'), 'reading': '',
                       'rd': fill(X.get('rd') or t.get('rd', ''), F, 'rd'), 'ko': fill(X.get('ko') or t.get('ko', ''), F, 'ko'), 'segs': segs}
         if not row['m']['segs'] or not row['f']['segs']:

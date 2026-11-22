@@ -1,0 +1,72 @@
+{
+ "ep": "r0_life_a2",
+ "cast": {
+  "B": "diego"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "¡Buenos días, {name}! ¿Estás bien?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Mal. Tengo frío."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "¿Tienes frío? ¡Venga!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Toma, una manta. ¡Y otra!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Diego, para. Ya estoy bien."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Y un café. ¡Y la calefacción!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "¡Ya vale! Para ya."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Ahora tengo calor."
+    ]
+   ]
+  }
+ }
+}

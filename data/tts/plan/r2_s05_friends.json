@@ -1,0 +1,83 @@
+{
+ "ep": "r2_s05_friends",
+ "cast": {
+  "B": "lucia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "flustered",
+     "Lucía, perdóname. Se me fue la olla."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "¿De qué hablas? ¿Qué se te olvidó?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Tu cumple de ayer. Lo siento de verdad."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "sad",
+     "Bueno… pasé la noche sola, sin nadie."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Hoy te invito a cenar. Tú eliges el sitio."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Jajaja tío, mi cumple es mañana."
+    ]
+   ],
+   "f": {
+    "text": "Jajaja tía, mi cumple es mañana.",
+    "rd": "하하하 띠아, 미 꿈쁠레 에스 마냐나.",
+    "ko": "ㅋㅋㅋ 야, 내 생일 내일이야.",
+    "segs": [
+     [
+      "amused",
+      "Jajaja tía, mi cumple es mañana."
+     ]
+    ]
+   }
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Mañana? ¿Y la noche que pasaste sola?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Quería verte sufrir. ¿Me invitas igual? Elijo yo."
+    ]
+   ]
+  }
+ }
+}

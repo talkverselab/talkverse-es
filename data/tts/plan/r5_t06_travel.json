@@ -1,0 +1,170 @@
+{
+ "ep": "r5_t06_travel",
+ "cast": {
+  "B": "javi",
+  "C": "woman_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "¡Javi! El vuelo sale en cuarenta minutos. ¿Dónde estás, que me pongo nervioso?"
+    ]
+   ],
+   "f": {
+    "text": "¡Javi! El vuelo sale en cuarenta minutos. ¿Dónde estás, que me pongo nerviosa?",
+    "rd": "하비! 엘 부엘로 살레 엔 꾸아렌따 미누또스. 돈데 에스따스, 께 메 뽄고 네르비오사?",
+    "ko": "하비! 비행기 40분 뒤에 떠. 어디야, 나 긴장돼 죽겠어.",
+    "segs": [
+     [
+      "worried",
+      "¡Javi! El vuelo sale en cuarenta minutos. ¿Dónde estás, que me pongo nerviosa?"
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Tranqui, tío. Ya estoy en la puerta del aeropuerto. Traigo churros para ti."
+    ]
+   ],
+   "f": {
+    "text": "Tranqui, tía. Ya estoy en la puerta del aeropuerto. Traigo churros para ti.",
+    "rd": "뜨란끼, 띠아. 야 에스또이 엔 라 뿌에르따 델 아에로뿌에르또. 뜨라이고 추로스 빠라 띠.",
+    "ko": "진정해. 나 벌써 공항 입구야. 너 주려고 추로스 사 왔어.",
+    "segs": [
+     [
+      "cheerful",
+      "Tranqui, tía. Ya estoy en la puerta del aeropuerto. Traigo churros para ti."
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "¿Tienes el pasaporte? ¿Y el billete? Que no me fío."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "El pasaporte lo tengo yo. El billete está en el móvil. Somos modernos, ¿vale?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Buenos días. Su maleta pesa veintisiete kilos. El límite son veinte."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Es que llevo regalos para mi primo y un jamón. Pesa lo suyo."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Tiene que pagar cincuenta euros más. O sacar cosas de la maleta ahora."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Vale. Me como los churros aquí. Así pesará menos la maleta."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Los churros no pesan nada, Javi. El jamón pesa siete kilos."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "polite",
+     "Por cierto, ¿cuál es su destino hoy?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "cheerful",
+     "Sevilla. Viajamos juntos, asientos doce A y doce B."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Este billete es a Sevilla… pero en tren. Y la estación está a quince kilómetros."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shout",
+     "¿¡En tren!? ¡Javi, qué has hecho!"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Era mucho más barato, tío. Y en el tren dejan llevar jamón."
+    ]
+   ],
+   "f": {
+    "text": "Era mucho más barato, tía. Y en el tren dejan llevar jamón.",
+    "rd": "에라 무초 마스 바라또, 띠아. 이 엔 엘 뜨렌 데한 예바르 하몬.",
+    "ko": "훨씬 쌌단 말이야. 그리고 기차는 하몽 들고 타도 돼.",
+    "segs": [
+     [
+      "amused",
+      "Era mucho más barato, tía. Y en el tren dejan llevar jamón."
+     ]
+    ]
+   }
+  },
+  "15": {
+   "segs": [
+    [
+     "gentle",
+     "El tren sale en treinta minutos. Si corren, llegarán. ¡Qué envidia, Sevilla!"
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "excited",
+     "¡Venga! Por una vez no llego tarde yo solo, {name}."
+    ]
+   ]
+  }
+ }
+}

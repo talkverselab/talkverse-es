@@ -1,0 +1,147 @@
+{
+ "ep": "r4_g08_study",
+ "cast": {
+  "B": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Buenos días. ¿Aquí se pide el carné de estudiante?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Sí, pero aquí no se pide en papel. Se hace por internet."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Ya lo he intentado. La página dice que se necesita una foto."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Exacto. Y la foto se sube en la segunda página."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Es que no sale ninguna segunda página. Solo se ve un error."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Ah, el error de siempre. Entonces se hace con este papel."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Vale. ¿Y dónde se firma?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Aquí abajo. Y aquí también. Luego se entrega en la ventanilla tres."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "¿La ventanilla tres? Pero ahora mismo está cerrada."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "neutral",
+     "Correcto, la tres solo se abre los martes. Y hoy es lunes."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "worried",
+     "¿Entonces hoy no se puede hacer absolutamente nada?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Sí se puede. Pida cita para el martes. Por internet, claro."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shout",
+     "¿Por internet otra vez? ¡Pero si la página no funciona! ¡Madre mía!"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Bienvenido a la universidad. Aquí se aprende mucho. Especialmente la paciencia."
+    ]
+   ],
+   "f": {
+    "text": "Bienvenida a la universidad. Aquí se aprende mucho. Especialmente la paciencia.",
+    "rd": "비엔베니다 아 라 우니베르시다드. 아끼 세 아쁘렌데 무초. 에스뻬씨알멘떼 라 빠씨엔씨아.",
+    "ko": "대학에 오신 걸 환영해요. 여기선 많이 배워요. 특히 인내심을.",
+    "segs": [
+     [
+      "amused",
+      "Bienvenida a la universidad. Aquí se aprende mucho. Especialmente la paciencia."
+     ]
+    ]
+   }
+  },
+  "15": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Ya lo veo. ¿Y por casualidad se vende café por aquí?"
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "teasing",
+     "No se vende aquí. Pero en la planta baja se vende en una máquina. Si funciona."
+    ]
+   ]
+  }
+ }
+}

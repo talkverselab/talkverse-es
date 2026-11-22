@@ -1,0 +1,83 @@
+{
+ "ep": "r2_s06_work",
+ "cast": {
+  "B": "javi"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "flustered",
+     "Ey tío, perdona. Hoy no puedo."
+    ]
+   ],
+   "f": {
+    "text": "Ey tía, perdona. Hoy no puedo.",
+    "rd": "에이 띠아, 뻬르도나. 오이 노 뿌에도.",
+    "ko": "야, 미안. 오늘 안 되겠어.",
+    "segs": [
+     [
+      "flustered",
+      "Ey tía, perdona. Hoy no puedo."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "annoyed",
+     "¿Otra vez no puedes? ¿Qué excusa tienes ahora?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Me toca el turno largo en el bar. Estoy liado."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Vaya. Bueno, da igual, no te preocupes."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Oye, ¿cómo va eso? ¿Mucho curro?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "¿Javi? ¿Todavía estás liado?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Perdón. Me quedé dormido en el almacén."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Te quedaste dormido en el curro? Qué cara tienes, tío."
+    ]
+   ]
+  }
+ }
+}

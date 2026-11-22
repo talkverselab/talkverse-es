@@ -1,0 +1,162 @@
+{
+ "ep": "r5_t03_life",
+ "cast": {
+  "B": "diego",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "¿Todavía estás en la cama? Tienes cara de enfermo, tío."
+    ]
+   ],
+   "f": {
+    "text": "¿Todavía estás en la cama? Tienes cara de enferma, tía.",
+    "rd": "또다비아 에스따스 엔 라 까마? 띠에네스 까라 데 엔페르마, 띠아.",
+    "ko": "아직도 누워 있어? 얼굴이 완전 환자네.",
+    "segs": [
+     [
+      "worried",
+      "¿Todavía estás en la cama? Tienes cara de enferma, tía."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Estoy hecho polvo. Me duele la cabeza, me duelen la espalda y el estómago… Seguro que tengo fiebre."
+    ]
+   ],
+   "f": {
+    "text": "Estoy hecha polvo. Me duele la cabeza, me duelen la espalda y el estómago… Seguro que tengo fiebre.",
+    "rd": "에스또이 에차 뽈보. 메 두엘레 라 까베싸, 메 두엘렌 라 에스빨다 이 엘 에스또마고… 세구로 께 뗀고 피에브레.",
+    "ko": "완전 죽겠어. 머리 아프고, 허리랑 배도 아파… 열 나는 게 분명해.",
+    "segs": [
+     [
+      "sad",
+      "Estoy hecha polvo. Me duele la cabeza, me duelen la espalda y el estómago… Seguro que tengo fiebre."
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "A ver, el termómetro… ¡Treinta y nueve! Tienes fiebre de verdad. Nos vamos al médico ahora mismo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "No puedo ni andar. Llama a una ambulancia."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Hombre, es solo fiebre, no un accidente. Te llevo yo en la moto."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Buenos días. ¿Desde cuándo se encuentra así? ¿Qué le duele exactamente?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Desde anoche. Me duele todo el cuerpo. Y justo hoy tengo un examen muy importante."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Vamos a escuchar… El pecho suena bien y el corazón está normal. Respire despacio."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "¿Es grave, doctora? Anoche estaba perfectamente bien. Estábamos viendo una película."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Una cosa. ¿Ha bebido algo caliente antes de ponerse el termómetro?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "flustered",
+     "Pues… sí. Un té muy caliente. Se lo preparé yo."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Entonces no tiene fiebre. Está usted completamente sano."
+    ]
+   ],
+   "f": {
+    "text": "Entonces no tiene fiebre. Está usted completamente sana.",
+    "rd": "엔똔쎄스 노 띠에네 피에브레. 에스따 우스떼드 꼼쁠레따멘떼 사나.",
+    "ko": "그럼 열은 없네요. 완전히 건강하세요.",
+    "segs": [
+     [
+      "gentle",
+      "Entonces no tiene fiebre. Está usted completamente sana."
+     ]
+    ]
+   }
+  },
+  "13": {
+   "segs": [
+    [
+     "worried",
+     "¿Y el dolor de estómago? Eso es real, se lo juro. Todavía me duele."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Eso se llama examen. En junio les duele a todos. Tratamiento: estudiar y menos té."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "teasing",
+     "Te espero en la moto. Con el libro abierto, ¿vale?"
+    ]
+   ]
+  }
+ }
+}

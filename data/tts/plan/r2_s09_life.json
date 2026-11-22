@@ -1,0 +1,72 @@
+{
+ "ep": "r2_s09_life",
+ "cast": {
+  "B": "diego"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "flustered",
+     "Diego, siento lo de ayer con los platos."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Tranqui, no pasa nada. Yo también estuve de mal humor."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Te preparo una tarta de reconciliación."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "¿Tú preparas tartas? Qué detalle."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Oye, ya está. Pero echa un ojo a la cocina."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "¡Madre mía! ¿Has usado todos los platos?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Las tazas también. La sartén. Y tu taza preferida."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Vale, perdonado… pero hoy friegas tú todo."
+    ]
+   ]
+  }
+ }
+}

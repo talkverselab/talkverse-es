@@ -1,0 +1,97 @@
+{
+ "ep": "r0_love_a3",
+ "cast": {
+  "B": "marta"
+ },
+ "cast_f": {
+  "B": "man_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Oye, ¿qué haces?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "No hago nada. ¿Y tú?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Leo un libro de amor."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "¿Lees eso? ¡No me digas!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Es que es muy bueno."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "¿Y qué pasa en el libro?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "¿Hola? ¿Marta?"
+    ]
+   ],
+   "f": {
+    "text": "¿Hola? ¿Mateo?",
+    "rd": "올라? 마떼오?",
+    "ko": "저기? 마테오?",
+    "segs": [
+     [
+      "worried",
+      "¿Hola? ¿Mateo?"
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Perdona. El chico es como tú."
+    ]
+   ],
+   "f": {
+    "text": "Perdona. La chica es como tú.",
+    "rd": "뻬르도나. 라 치까 에스 꼬모 뚜.",
+    "ko": "미안. 여자 주인공이 너 같아서.",
+    "segs": [
+     [
+      "shy",
+      "Perdona. La chica es como tú."
+     ]
+    ]
+   }
+  }
+ }
+}

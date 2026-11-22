@@ -1,0 +1,186 @@
+{
+ "ep": "r4_g01_love",
+ "cast": {
+  "B": "marta"
+ },
+ "cast_f": {
+  "B": "man_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Toma esto. Quiero que lo leas antes del sábado, ¿vale?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "¿Antes del sábado? ¿Por qué tanta prisa de repente?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Porque el sábado lo presento y quiero que estés allí."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "¿Tú lo presentas? ¿De quién es el libro?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "De una autora nueva. No creo que la conozcas todavía."
+    ]
+   ],
+   "f": {
+    "text": "De un autor nuevo. No creo que lo conozcas todavía.",
+    "rd": "데 운 아우또르 누에보. 노 끄레오 께 로 꼬노쓰까스 또다비아.",
+    "ko": "신인 작가야. 넌 아직 모를 거야.",
+    "segs": [
+     [
+      "teasing",
+      "De un autor nuevo. No creo que lo conozcas todavía."
+     ]
+    ]
+   }
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "A ver un momento… Espera, ¿esta foto no eres tú?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "…Puede. Pero no quiero que se lo cuentes a nadie."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "¡Qué fuerte! ¿Y de qué va exactamente?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "De una chica que trabaja con libros y se enamora de un cliente."
+    ]
+   ],
+   "f": {
+    "text": "De un chico que trabaja con libros y se enamora de una clienta.",
+    "rd": "데 운 치꼬 께 뜨라바하 꼰 리브로스 이 세 에나모라 데 우나 끌리엔따.",
+    "ko": "책 다루는 일을 하는 남자가 손님한테 반하는 이야기야.",
+    "segs": [
+     [
+      "shy",
+      "De un chico que trabaja con libros y se enamora de una clienta."
+     ]
+    ]
+   }
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Vaya. Espero que el cliente sea guapo, al menos."
+    ]
+   ],
+   "f": {
+    "text": "Vaya. Espero que la clienta sea guapa, al menos.",
+    "rd": "바야. 에스뻬로 께 라 끌리엔따 세아 구아빠, 알 메노스.",
+    "ko": "오. 그 손님 예뻤으면 좋겠다, 적어도.",
+    "segs": [
+     [
+      "teasing",
+      "Vaya. Espero que la clienta sea guapa, al menos."
+     ]
+    ]
+   }
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Bastante guapo. Aunque no sabe decir bien te quiero."
+    ]
+   ],
+   "f": {
+    "text": "Bastante guapa. Aunque no sabe decir bien «te quiero».",
+    "rd": "바스딴떼 구아빠. 아운께 노 사베 데씨르 비엔 «떼 끼에로».",
+    "ko": "꽤 예뻐. 근데 「te quiero」를 제대로 못 해.",
+    "segs": [
+     [
+      "amused",
+      "Bastante guapa. Aunque no sabe decir bien te quiero."
+     ]
+    ]
+   }
+  },
+  "12": {
+   "segs": [
+    [
+     "flustered",
+     "…Espera un segundo. ¿Ese soy yo?"
+    ]
+   ],
+   "f": {
+    "text": "…Espera un segundo. ¿Esa soy yo?",
+    "rd": "…에스뻬라 운 세군도. 에사 소이 요?",
+    "ko": "…잠깐만. 그거 나야?",
+    "segs": [
+     [
+      "flustered",
+      "…Espera un segundo. ¿Esa soy yo?"
+     ]
+    ]
+   }
+  },
+  "13": {
+   "segs": [
+    [
+     "gentle",
+     "Ojalá lo termines antes del sábado. Lo entenderás todo."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "surprised",
+     "¿Por qué? ¿Qué pasa al final del libro?"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "shy",
+     "Léelo tú. Me da vergüenza que me lo preguntes así."
+    ]
+   ]
+  }
+ }
+}

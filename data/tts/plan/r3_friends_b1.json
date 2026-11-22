@@ -8,20 +8,16 @@
   "1": {
    "segs": [
     [
-     "annoyed",
-     "Son las ocho y media y Javi sin aparecer."
-    ],
-    [
-     "amused",
-     "Menos mal que le dije que quedábamos a las ocho."
+     "surprised",
+     "Vale, {name}, mira al bar de enfrente. ¿Ves a esa chica? ¡Qué fuerte!"
     ]
    ]
   },
   "2": {
    "segs": [
     [
-     "surprised",
-     "¿Le mentiste? ¿Y si se entera?"
+     "neutral",
+     "¿Quién es? No la veo bien desde aquí."
     ]
    ]
   },
@@ -29,42 +25,23 @@
    "segs": [
     [
      "teasing",
-     "Tío, lo hago desde hace tres años."
-    ],
-    [
-     "amused",
-     "Si le digo la hora real, llega a medianoche."
+     "Es una amiga de Javi. En plan, ¡le gusta mucho!"
     ]
-   ],
-   "f": {
-    "text": "Tía, lo hago desde hace tres años. Si le digo la hora real, llega a medianoche.",
-    "rd": "띠아, 로 아고 데스데 아쎄 뜨레스 아뇨스. 시 레 디고 라 오라 레알, 예가 아 메디아노체.",
-    "ko": "야, 나 그거 삼 년째 하고 있어. 진짜 시간 말하면 자정에 온다니까.",
-    "segs": [
-     [
-      "teasing",
-      "Tía, lo hago desde hace tres años."
-     ],
-     [
-      "amused",
-      "Si le digo la hora real, llega a medianoche."
-     ]
-    ]
-   }
+   ]
   },
   "4": {
    "segs": [
     [
-     "worried",
-     "Pues a mí me parece un poco cruel. Yo en tu lugar se lo diría."
+     "surprised",
+     "¿En serio? Vale, ¡qué fuerte!"
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "teasing",
-     "Ya verás cuando llegue. Traerá churros y una excusa nueva."
+     "cheerful",
+     "Sí. Cuando llegue, le digo que la mire."
     ]
    ]
   },
@@ -72,109 +49,111 @@
    "segs": [
     [
      "neutral",
-     "Por cierto, ¿quién es ese que lleva media hora en el bar de enfrente?"
+     "¿A qué hora quedamos hoy?"
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "neutral",
-     "¿Dónde? Espera…"
-    ],
-    [
-     "shout",
-     "No puede ser. ¡Ese es Javi!"
+     "amused",
+     "Nosotros quedamos a las ocho. ¡Él queda a las siete!"
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "amused",
-     "Vaya, me habéis pillado. ¿Ya son las nueve?"
+     "cheerful",
+     "¡Hola, tíos! Llego puntual por fin. ¡Venga!"
     ]
-   ]
+   ],
+   "f": {
+    "text": "¡Hola, tías! Llego puntual por fin. ¡Venga!",
+    "rd": "올라, 띠아스! 예고 뿐뚜알 뽀르 핀. 벤가!",
+    "ko": "안녕, 티오스! 드디어 제시간에 왔어. 벤가!",
+    "segs": [
+     [
+      "cheerful",
+      "¡Hola, tías! Llego puntual por fin. ¡Venga!"
+     ]
+    ]
+   }
   },
   "9": {
    "segs": [
     [
-     "tsukkomi",
-     "¿Las nueve? ¡Pero si yo te dije a las ocho!"
+     "excited",
+     "¡Qué fuerte! ¿Has visto a la chica de enfrente?"
     ]
    ]
   },
   "10": {
    "segs": [
     [
-     "teasing",
-     "Ya, y tú siempre dices una hora menos."
-    ],
-    [
-     "gentle",
-     "Lo sé desde hace tres años."
+     "surprised",
+     "La he visto. Lucía, ¿me dices una hora antes desde hace tres años?"
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "surprised",
-     "¿Cómo que lo sabes? ¿Y entonces por qué llegas siempre tarde?"
+     "teasing",
+     "Porque llegas tarde siempre, tío. ¡Yo diría que está bien!"
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "neutral",
-     "Llego a las ocho."
-    ],
-    [
-     "gentle",
-     "Pero me gusta verte esperándome."
+     "annoyed",
+     "No, tía, ¡no está bien! Me engañas siempre."
     ]
    ]
   },
   "13": {
    "segs": [
     [
-     "amused",
-     "Madre mía. Creo que sobro. ¿Os dejo solos?"
+     "surprised",
+     "En plan, ¿tres años así? ¡Qué fuerte!"
     ]
    ]
   },
   "14": {
    "segs": [
     [
-     "flustered",
-     "…No digas tonterías."
-    ],
-    [
-     "tsukkomi",
-     "¿Has traído churros, al menos?"
+     "amused",
+     "Vale. Cuando llegue a tiempo, me callo. ¡Ja ja!"
     ]
    ]
   },
   "15": {
    "segs": [
     [
-     "cheerful",
-     "Claro."
-    ],
-    [
-     "gentle",
-     "Pero están fríos. Llevo aquí desde las ocho."
+     "tsukkomi",
+     "Yo diría que quedamos a la hora de verdad. ¡Venga!"
     ]
    ]
   },
   "16": {
    "segs": [
     [
-     "shy",
-     "Anda, dámelos. Y la próxima vez, espera conmigo."
+     "gentle",
+     "¡Venga, tíos! No pasa nada. ¿Entramos al bar?"
     ]
-   ]
+   ],
+   "f": {
+    "text": "¡Venga, tías! No pasa nada. ¿Entramos al bar?",
+    "rd": "벤가, 띠아스! 노 빠사 나다. 엔뜨라모스 알 바르?",
+    "ko": "벤가, 티오스! 별일 아니야. 바에 들어갈까?",
+    "segs": [
+     [
+      "gentle",
+      "¡Venga, tías! No pasa nada. ¿Entramos al bar?"
+     ]
+    ]
+   }
   }
  }
 }

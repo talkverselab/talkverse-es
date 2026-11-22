@@ -1,0 +1,72 @@
+{
+ "ep": "r2_s08_love",
+ "cast": {
+  "B": "marta"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "¿Qué haces? ¿Estás por casa?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "No hago nada. Estoy en el sofá con alguien especial."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Ah. Ya veo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "sad",
+     "Pues nada entonces. Buenas noches."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "¡Para, para! Es Diego, mi compañero de piso."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "¿Diego es tu alguien especial? Jajaja, qué fuerte."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Es que tengo un poco de celos."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "¿Tienes celos? El sofá tiene hueco para ti."
+    ]
+   ]
+  }
+ }
+}

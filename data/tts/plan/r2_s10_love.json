@@ -1,0 +1,72 @@
+{
+ "ep": "r2_s10_love",
+ "cast": {
+  "B": "marta"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Hoy lo he pasado genial. ¿Tú qué tal?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Yo también. Aunque el café era un asco."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Jajaja, cierto. ¿Tienes hueco otro día?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shy",
+     "Mmm, no sé. Ando bastante liada estos días."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Vaya. ¿El sábado cómo lo tienes? ¿Curras?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "El sábado curro en la librería."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Pero a las ocho cierro… y no tengo plan."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Entonces ya tienes plan. Llevo el libro."
+    ]
+   ]
+  }
+ }
+}

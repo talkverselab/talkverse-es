@@ -1,0 +1,72 @@
+{
+ "ep": "r3_s06_travel",
+ "cast": {
+  "B": "lucia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "¿Dónde estáis? El tren sale a las diez."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Estamos en el tren, junto a la ventana."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "¿En el tren? Nosotras también. ¿Con quién estáis?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Con el perro de una señora."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Un perro? En nuestro tren no hay perros."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Pues… este tren va a Sevilla, ¿no?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "¡Tíos! ¡Nosotras vamos a Toledo!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Bueno… os llamamos desde Sevilla."
+    ]
+   ]
+  }
+ }
+}

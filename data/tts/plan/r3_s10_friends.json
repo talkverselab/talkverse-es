@@ -1,0 +1,72 @@
+{
+ "ep": "r3_s10_friends",
+ "cast": {
+  "B": "javi"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Ayer te llamamos tres veces, tío."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Ya, perdona. ¿Me llamasteis? Comimos con mi abuela."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "¿Comisteis? ¿Y el partido? Te esperamos una hora."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "¿Fue ayer? ¿El partido no es hoy?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "No. Fue ayer. Jugué yo en tu lugar."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "¿Jugaste tú? ¿Y qué pasó?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Dos goles marqué. Los dos en nuestra portería."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Menos mal que comimos con mi abuela."
+    ]
+   ]
+  }
+ }
+}

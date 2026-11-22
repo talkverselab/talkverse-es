@@ -1,0 +1,79 @@
+{
+ "ep": "r3_s05_love",
+ "cast": {
+  "B": "marta"
+ },
+ "cast_f": {
+  "B": "man_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Oye, ¿tienes mis libros rojos?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Sí, los tengo. Javi y yo los leemos."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "¿Los leéis? ¿Javi también los lee?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Sí. Hay unas cartas rojas dentro."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "¿Las cartas? ¿Las tenéis vosotros?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Son para Javi, ¿no? Le doy las cartas."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "¡No!"
+    ],
+    [
+     "shy",
+     "No son para Javi… Son para ti."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Vale… las leo otra vez."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "ep": "r1_s03_love",
+ "cast": {
+  "B": "marta"
+ },
+ "cast_f": {
+  "B": "man_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "¿Otra vez aquí? ¿Compras o solo miras?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "shy",
+     "Miro. Bueno… leo un poco."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Ya. Llegas siempre a las seis, ¿no?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "¿Y tú? ¿Trabajas todos los días?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "No. Trabajo los lunes y los miércoles."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Pero hoy es viernes… ¿Qué haces aquí?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Pues… espero a un chico que lee mucho."
+    ]
+   ],
+   "f": {
+    "text": "Pues… espero a una chica que lee mucho.",
+    "rd": "뿌에스… 에스뻬로 아 우나 치까 께 레에 무초.",
+    "ko": "그게… 책 많이 읽는 여자를 기다려.",
+    "segs": [
+     [
+      "shy",
+      "Pues… espero a una chica que lee mucho."
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Pues el chico hoy compra un libro."
+    ]
+   ],
+   "f": {
+    "text": "Pues la chica hoy compra un libro.",
+    "rd": "뿌에스 라 치까 오이 꼼쁘라 운 리브로.",
+    "ko": "그럼 그 여자, 오늘은 책 한 권 산다.",
+    "segs": [
+     [
+      "flustered",
+      "Pues la chica hoy compra un libro."
+     ]
+    ]
+   }
+  }
+ }
+}

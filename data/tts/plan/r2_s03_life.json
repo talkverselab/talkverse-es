@@ -1,0 +1,83 @@
+{
+ "ep": "r2_s03_life",
+ "cast": {
+  "B": "diego"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Ey tío, ¿cenas en casa el viernes?"
+    ]
+   ],
+   "f": {
+    "text": "Ey tía, ¿cenas en casa el viernes?",
+    "rd": "에이 띠아, 쎄나스 엔 까사 엘 비에르네스?",
+    "ko": "야, 금요일에 집에서 저녁 먹어?",
+    "segs": [
+     [
+      "cheerful",
+      "Ey tía, ¿cenas en casa el viernes?"
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Claro, ceno en casa. ¿Qué pasa?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Nada. Hago paella para dos. ¿Te apetece?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Genial. Invita a más gente si quieres, me da igual."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Vale. Invito a Lucía, entonces."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Viene Lucía. Con su prima y su novio."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Y su prima trae a una amiga. Seis en total."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shout",
+     "¿Seis? ¡Pero haces paella para dos!"
+    ]
+   ]
+  }
+ }
+}

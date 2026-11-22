@@ -1,0 +1,160 @@
+{
+ "ep": "r4_g10_friends",
+ "cast": {
+  "B": "lucia",
+  "C": "javi",
+  "D": "man_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Oye, si mañana os tocara la lotería, ¿qué haríais?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Fácil, fácil. Si tuviera un millón, me compraría una churrería. Y no trabajaría nunca."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Javi, si tuvieras una churrería, trabajarías de sol a sol."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Qué va. Me comería yo todos los churros. Eso es diferente."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "¿Y tú, {name}? ¿Qué harías? Si pudieras vivir en cualquier sitio del mundo…"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Si fuera rico, me quedaría aquí en Madrid. Pero en un piso con ascensor."
+    ]
+   ],
+   "f": {
+    "text": "Si fuera rica, me quedaría aquí en Madrid. Pero en un piso con ascensor.",
+    "rd": "시 푸에라 리까, 메 께다리아 아끼 엔 마드리드. 뻬로 엔 운 삐소 꼰 아스쎈소르.",
+    "ko": "부자라면 여기 마드리드에 있을래. 대신 엘리베이터 있는 집에서.",
+    "segs": [
+     [
+      "shy",
+      "Si fuera rica, me quedaría aquí en Madrid. Pero en un piso con ascensor."
+     ]
+    ]
+   }
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "¡Qué poco ambicioso eres! Yo, si ganara, me compraría un barco."
+    ]
+   ],
+   "f": {
+    "text": "¡Qué poco ambiciosa eres! Yo, si ganara, me compraría un barco.",
+    "rd": "께 뽀꼬 암비씨오사 에레스! 요, 시 가나라, 메 꼼쁘라리아 운 바르꼬.",
+    "ko": "꿈이 진짜 작네! 난 당첨되면 배 살 거야.",
+    "segs": [
+     [
+      "teasing",
+      "¡Qué poco ambiciosa eres! Yo, si ganara, me compraría un barco."
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "¿Un barco dices? Pero si no sabes ni nadar, tía."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Precisamente por eso. Si tuviera un barco, aprendería a nadar."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "polite",
+     "Perdonen, ¿ustedes no compraron un décimo aquí en el bar? ¡Ha salido el número!"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "¿Qué? ¿Es nuestro número? ¡Nos ha tocado! ¡Churros gratis para todo el bar!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "excited",
+     "¡Madre mía! ¡Somos ricos de verdad! ¡Mi barco!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "worried",
+     "Esperad, esperad. ¿Cuánto ha tocado en total?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "neutral",
+     "Veinte euros. Entre los tres."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "flustered",
+     "…Y yo acabo de invitar a todo el mundo. ¿Ahora qué hago?"
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "teasing",
+     "Javi, si yo fuera tú, saldría corriendo ahora mismo."
+    ]
+   ]
+  }
+ }
+}
