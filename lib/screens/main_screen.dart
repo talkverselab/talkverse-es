@@ -1,3 +1,4 @@
+import 'curriculum_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../core/l10n.dart';
@@ -232,6 +233,8 @@ class _LearnTabState extends State<LearnTab> {
         Text(tr('한국 학습자, 오늘도 시작해요'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, fontWeight: FontWeight.w500)),
         const SizedBox(height: 14),
         _TodayCard(key: ValueKey(DialogueService.instance.all.length)), // 회화를 다 읽은 뒤 다시 그려지게(const 면 setState 로도 안 바뀜)
+        _section(tr('토크버스 커리큘럼')),
+        const CurriculumHomeCard(),
         _section(tr('정규과정')),
         _NavRow(badge: '感', color: AppColors.ai, title: tr('언어감각 익히기'), subtitle: tr('L1 ser·estar 부터 L10 접속법까지 · 대화 통째로 외우기'), onTap: () => openPane(context, (_) => const SenseCourseScreen())),
         _section(tr('기초')),
