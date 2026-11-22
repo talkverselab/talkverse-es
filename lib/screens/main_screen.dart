@@ -243,11 +243,14 @@ class _LearnTabState extends State<LearnTab> {
             title: tr('동사 활용'),
             subtitle: VerbIndex.instance.verbs.isEmpty ? 'Conjugación' : trf('만난 동사 {0}/{1}', [AchievementService.instance.verbsSeen.length, VerbIndex.instance.verbs.length]),
             onTap: () => openPane(context, (_) => const VerbScreen())),
-        _NavRow(badge: 'el', color: AppColors.mar, title: tr('성·수'), subtitle: tr('준비 중'), onTap: () => openPane(context, (_) => _ComingSoon(title: tr('성·수 일치')))),
+        // 성·수 일치 — 준비 중이라 메뉴에서 숨김(2026-11-22, 통합 앱 심사). 내용이 생기면 화면을 붙여 되살린다.
+        if (kGenderReady) _NavRow(badge: 'el', color: AppColors.mar, title: tr('성·수'), subtitle: tr('준비 중'), onTap: () => openPane(context, (_) => _ComingSoon(title: tr('성·수 일치')))),
         _section(tr('회화')),
         _NavRow(badge: '💬', title: tr('회화'), subtitle: tr('장면 컷과 함께 읽고 듣기'), onTap: () => openPane(context, (_) => const DialogueHomeScreen())),
         _section(tr('단어')),
         _NavRow(badge: 'F', color: AppColors.muted, title: tr('절벽 단어'), subtitle: 'R1~R5', onTap: () => openPane(context, (_) => const WordFreqScreen())),
+        // 주제별 단어·표현 — 저작권 정리(2026-11-02)로 비어 있어 숨김. 자체 제작으로 채우면 kTopicVocabReady = true.
+        if (kTopicVocabReady) ...[
         _NavRow(badge: 'W', color: AppColors.oliva, title: tr('주제별 단어'), subtitle: 'Vocabulario', onTap: () => openPane(context, (_) => const TopicVocabScreen())),
         _NavRow(
             badge: 'E',
@@ -255,6 +258,7 @@ class _LearnTabState extends State<LearnTab> {
             title: tr('주제별 표현'),
             subtitle: 'Expresión',
             onTap: () => openPane(context, (_) => TopicVocabScreen(title: tr('주제별 표현'), asset: 'assets/data/vocab/travel_expressions.json'))),
+        ],
       ]),
     ]);
   }
@@ -321,12 +325,18 @@ class ReviewTab extends StatelessWidget {
 
 // ────────── 탐색 ──────────
 
+/// 숨긴 메뉴 — 내용이 생기면 true(2026-11-22 통합 앱 심사 때 빈 화면 숨김).
+const bool kTopicVocabReady = false;
+const bool kGenderReady = false;
+
 class ExploreTab extends StatelessWidget {
   const ExploreTab({super.key});
   @override
   Widget build(BuildContext context) => _tabList(context, [
         _section(tr('단어')),
         _NavRow(badge: 'F', color: AppColors.muted, title: tr('절벽 단어'), subtitle: 'R1~R5', onTap: () => openPane(context, (_) => const WordFreqScreen())),
+        // 주제별 단어·표현 — 저작권 정리(2026-11-02)로 비어 있어 숨김. 자체 제작으로 채우면 kTopicVocabReady = true.
+        if (kTopicVocabReady) ...[
         _NavRow(badge: 'W', color: AppColors.oliva, title: tr('주제별 단어'), subtitle: 'Vocabulario', onTap: () => openPane(context, (_) => const TopicVocabScreen())),
         _NavRow(
             badge: 'E',
@@ -334,6 +344,7 @@ class ExploreTab extends StatelessWidget {
             title: tr('주제별 표현'),
             subtitle: 'Expresión',
             onTap: () => openPane(context, (_) => TopicVocabScreen(title: tr('주제별 표현'), asset: 'assets/data/vocab/travel_expressions.json'))),
+        ],
         _section(tr('문법')),
         _NavRow(badge: 'V', color: AppColors.irregular, title: tr('동사 활용'), subtitle: 'Conjugación', onTap: () => openPane(context, (_) => const VerbScreen())),
       ]);
