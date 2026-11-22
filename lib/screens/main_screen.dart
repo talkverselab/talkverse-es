@@ -1,4 +1,5 @@
 import 'curriculum_screen.dart';
+import 'custom_script_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../core/l10n.dart';
@@ -250,6 +251,8 @@ class _LearnTabState extends State<LearnTab> {
         if (kGenderReady) _NavRow(badge: 'el', color: AppColors.mar, title: tr('성·수'), subtitle: tr('준비 중'), onTap: () => openPane(context, (_) => _ComingSoon(title: tr('성·수 일치')))),
         _section(tr('회화')),
         _NavRow(badge: '💬', title: tr('회화'), subtitle: tr('장면 컷과 함께 읽고 듣기'), onTap: () => openPane(context, (_) => const DialogueHomeScreen())),
+        // AI 회화 작성(맞춤 회화) — 일본어앱과 같게, 작성기가 켜지고 사용자가 정할 때까지 숨김(CURRICULUM_SPEC §11)
+        if (kCustomScriptLive) _NavRow(badge: '✨', color: AppColors.rojoDeep, title: tr('맞춤 회화 만들기'), subtitle: 'AI', onTap: () => openPane(context, (_) => const CustomScriptScreen())),
         _section(tr('단어')),
         _NavRow(badge: 'F', color: AppColors.muted, title: tr('절벽 단어'), subtitle: 'R1~R5', onTap: () => openPane(context, (_) => const WordFreqScreen())),
         // 주제별 단어·표현 — 저작권 정리(2026-11-02)로 비어 있어 숨김. 자체 제작으로 채우면 kTopicVocabReady = true.
