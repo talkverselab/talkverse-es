@@ -4,7 +4,7 @@
 스페인어: 받아쓰기(whisper language es)와 본문을 소문자·악센트 없앰·글자만 남겨 견준다.
 나쁨 = 비슷함 0.72 미만, 길이가 글자 수에 견줘 지나치게 길거나 짧음, 최대 음량 -30dB 미만(생성 실패).
 재생성본은 PC 의 out/es/retake/<편>/<조각>.t<N>.wav — 받아 온 뒤 다시 돌리면 가장 잘 나온 판을 본 파일로 고른다. 세 번 해도 나쁘면 가장 나은 판을 쓰고 qa.json 에 ok=false 로 남긴다."""
-import difflib, glob, json, os, re, shutil, subprocess, sys, unicodedata
+import difflib, glob, hashlib, json, os, re, shutil, subprocess, sys, unicodedata
 import mlx_whisper
 import ttslib as L
 M = 'mlx-community/whisper-large-v3-turbo'
@@ -25,6 +25,11 @@ def peak(f):
     o = subprocess.run(['ffmpeg', '-hide_banner', '-i', f, '-af', 'volumedetect', '-f', 'null', '-'], capture_output=True, text=True).stderr
     m = re.search(r'max_volume: (-?[\d.]+) dB', o)
     return float(m.group(1)) if m else -99.0
+
+
+def sig(f, text):
+    h = hashlib.sha1(open(f, 'rb').read()); h.update(text.encode('utf-8'))
+    return h.hexdigest()[:16]
 
 
 def score(f, text):
@@ -51,12 +56,14 @@ def main():
             k = f'{ep}/{name}'; f = f'{wav}/{k}'; q = Q.setdefault(k, {'tries': 0})
             if not os.path.exists(f):
                 q.update(sim=0.0, ok=False); bad += 1; continue
-            if 'sim' not in q:
-                q['sim'], q['dur'] = score(f, text)
+            # 점수는 파일 내용·본문과 묶어 기억한다 — 같은 이름으로 다시 만든 조각에 옛 점수가 남지 않게(한국어앱 11-23 발견)
+            if q.get('sig') != sig(f, text):
+                q.clear(); q['tries'] = 0
+                q['sim'], q['dur'] = score(f, text); q['sig'] = sig(f, text)
             for c in sorted(glob.glob(f'{wav}/retake/{k[:-4]}.t*.wav')):          # 받아 온 재생성본 중 더 나은 것을 본 파일로
                 s, d = score(c, text)
                 if s > q['sim']:
-                    shutil.copy(c, f); q['sim'], q['dur'] = s, d
+                    shutil.copy(c, f); q['sim'], q['dur'] = s, d; q['sig'] = sig(f, text)
                 os.remove(c)
             q['ok'] = q['sim'] >= 0.72
             if not q['ok']:
