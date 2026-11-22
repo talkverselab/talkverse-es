@@ -22,9 +22,33 @@ const _kAsset = 'assets/data/grammar/sense_course.json';
 
 class SenseCourse {
   static Map<String, dynamic>? _cache;
-  static Future<Map<String, dynamic>> load() async =>
-      // loadString 은 큰 파일을 다른 isolate 에서 풀어 위젯 테스트가 멈춘다 — 바이트로 읽어 여기서 푼다.
-      _cache ??= json.decode(await ScriptSync.instance.load(_kAsset.substring('assets/data/'.length))) as Map<String, dynamic>;
+  static int _cacheRev = -1;
+
+  /// 서버 원고(ScriptSync)가 있으면 그것, 없으면 앱 안 것. 서버 판이 바뀌면 다시 읽는다.
+  /// 급(스텝) 목록·제목·순서·내용은 전부 이 파일에서 — 코드에는 틀만 있다(사용자 지시 2026-11-23 「스텝 10까지 미리 만들고 DB 업데이트로」).
+  static Future<Map<String, dynamic>> load() async {
+    final rev = ScriptSync.instance.shownRev;
+    if (_cache != null && _cacheRev == rev) return _cache!;
+    // loadString 은 큰 파일을 다른 isolate 에서 풀어 위젯 테스트가 멈춘다 — 바이트로 읽어 여기서 푼다.
+    final raw = json.decode(await ScriptSync.instance.load(_kAsset.substring('assets/data/'.length))) as Map<String, dynamic>;
+    _cacheRev = ScriptSync.instance.shownRev;
+    return _cache = visible(raw);
+  }
+
+  @visibleForTesting
+  static void clearCache() => _cache = null;
+
+  /// 빈 회차·빈 급을 뺀 것. 내용이 없는 급은 「준비 중」 대신 아예 안 보이고, 서버에 내용이 생기면 저절로 나타난다.
+  static Map<String, dynamic> visible(Map<String, dynamic> d) {
+    bool hasContent(Map<String, dynamic> l) =>
+        ((l['sentences'] as List?)?.isNotEmpty ?? false) || ((l['points'] as List?)?.isNotEmpty ?? false);
+    final levels = <Map<String, dynamic>>[];
+    for (final lv in ((d['levels'] as List?) ?? const []).cast<Map<String, dynamic>>()) {
+      final ls = ((lv['lessons'] as List?) ?? const []).cast<Map<String, dynamic>>().where(hasContent).toList();
+      if (ls.any((l) => l['kind'] != 'ref')) levels.add({...lv, 'lessons': ls});
+    }
+    return {...d, 'levels': levels};
+  }
 
   static Future<Set<String>> done() async => ((await SharedPreferences.getInstance()).getStringList(_kDoneKey) ?? const []).toSet();
 

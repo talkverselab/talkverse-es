@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """원고를 서버에 올려 깔린 앱이 심사·새 빌드 없이 받게 한다(사용자 지시 2026-11-17). 규격 = docs/CONTENT_SYNC.md §6.
 
-대상: 회화 편 `assets/data/dialogues/R0~R5/**.json` + 언어감각 과정 `assets/data/grammar/sense_course.json`.
+대상: 회화 편 `assets/data/dialogues/R0~R5/**.json` + 문법 파트(언어감각 과정 `assets/data/grammar/sense_course.json` — 스텝 목록·제목·순서·내용 전부, 빈 스텝은 앱에서 숨김).
 앱 안 기준표 `assets/data/script_rev.json`(rev·파일별 sha1 앞 12자리)과 지금 파일을 견주어 바뀐 것만 올린다.
 
   python3 tools/script_publish.py             # 무엇이 바뀌었는지만 본다(아무것도 안 올림)

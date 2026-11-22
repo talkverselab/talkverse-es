@@ -237,7 +237,7 @@ class _LearnTabState extends State<LearnTab> {
         _section(tr('토크버스 커리큘럼')),
         const CurriculumHomeCard(),
         _section(tr('정규과정')),
-        _NavRow(badge: '感', color: AppColors.ai, title: tr('언어감각 익히기'), subtitle: tr('L1 ser·estar 부터 L10 접속법까지 · 대화 통째로 외우기'), onTap: () => openPane(context, (_) => const SenseCourseScreen())),
+        _NavRow(badge: '感', color: AppColors.ai, title: tr('언어감각 익히기'), subtitle: tr('스텝마다 대화 통째로 외우기'), onTap: () => openPane(context, (_) => const SenseCourseScreen())),
         _section(tr('기초')),
         _NavRow(badge: 'Ñ', color: AppColors.er, title: tr('알파벳과 발음'), subtitle: tr('글자 27 · 겹글자 · θ·x·rr · 강세'), onTap: () => openPane(context, (_) => const AlphabetChartScreen())),
         _section(tr('문법')),
