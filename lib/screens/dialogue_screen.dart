@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../core/l10n.dart';
+import '../data/entitlement.dart';
+import '../widgets/locked_view.dart';
 import '../core/platform.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
@@ -185,7 +187,9 @@ class DialogueListScreen extends StatelessWidget {
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
                 subtitle: Text('${d.isChat ? '💬 ' : ''}${d.sceneShown}', maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
-                trailing: Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+                trailing: Entitlement.dialogueLocked(d)
+                    ? const Icon(Icons.lock_outline, size: 18, color: AppColors.muted)
+                    : Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
               ),
             ),
           );
@@ -207,14 +211,20 @@ class DialogueScreen extends StatefulWidget {
 class _DialogueScreenState extends State<DialogueScreen> {
   Dialogue get d => widget.dialogue;
 
+  void _onEntitlement() {
+    if (mounted) setState(() {});
+  }
+
   @override
   void initState() {
     super.initState();
-    DialogueService.instance.setLastOpened(d.id);
+    Entitlement.changed.addListener(_onEntitlement);
+    if (!Entitlement.dialogueLocked(d)) DialogueService.instance.setLastOpened(d.id);
   }
 
   @override
   void dispose() {
+    Entitlement.changed.removeListener(_onEntitlement);
     TtsService.instance.stop();
     super.dispose();
   }
@@ -223,6 +233,7 @@ class _DialogueScreenState extends State<DialogueScreen> {
 
   @override
   Widget build(BuildContext context) {
+    if (Entitlement.dialogueLocked(d)) return LockedView(title: '${d.emoji} ${d.title}'); // 2단계 이상 편(PAYWALL_SPEC §2)
     final wide = isWide(context);
     return Scaffold(
       backgroundColor: AppColors.washi,

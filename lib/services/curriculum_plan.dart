@@ -21,9 +21,14 @@ class CurStage {
   final List<int> pick;
   final int pass;
   final List<int> daily;
-  const CurStage(this.n, this.title, this.desc, this.dialogueIds, {this.pick = kDefaultPick, this.pass = kDefaultPass, this.daily = kDefaultDaily});
+
+  /// 무료 단계인가(PAYWALL_SPEC §2 — 서버 `free`, 없으면 1단계만 무료).
+  final bool free;
+  const CurStage(this.n, this.title, this.desc, this.dialogueIds,
+      {this.pick = kDefaultPick, this.pass = kDefaultPass, this.daily = kDefaultDaily, bool? free})
+      : free = free ?? n == 1;
   String get key => '$n';
-  CurStage withIds(List<String> ids) => CurStage(n, title, desc, ids, pick: pick, pass: pass, daily: daily);
+  CurStage withIds(List<String> ids) => CurStage(n, title, desc, ids, pick: pick, pass: pass, daily: daily, free: free);
 }
 
 const kDefaultPick = [3, 5, 10];
@@ -46,6 +51,10 @@ class CurriculumPlan {
 
   int rev = 0;
   List<CurStage> _all = [];
+
+  /// 무료 한도(PAYWALL_SPEC §2) — 문법 스텝 수 · 언어감각 급 수. 서버 최상위 값, 없으면 2 · 1.
+  int freeSteps = 2;
+  int freeSenseLevels = 1;
   bool _ready = false;
   bool _checked = false;
 
@@ -107,12 +116,15 @@ class CurriculumPlan {
       list.add(CurStage(n, '${s['title'] ?? '$n단계'}', '${s['desc'] ?? ''}', [for (final x in (s['dialogueIds'] as List?) ?? const []) '$x'],
           pick: pick.isEmpty ? kDefaultPick : pick,
           pass: pass != null && pass > 0 && pass <= 100 ? pass : kDefaultPass,
-          daily: [dn('light', 1), dn('normal', 2), dn('focus', 3)]));
+          daily: [dn('light', 1), dn('normal', 2), dn('focus', 3)],
+          free: s['free'] is bool ? s['free'] as bool : null));
     }
     list.sort((a, b) => a.n.compareTo(b.n));
     if (list.isEmpty) return false;
     _all = list;
     rev = (j['rev'] as num?)?.toInt() ?? 0;
+    freeSteps = (j['freeSteps'] as num?)?.toInt() ?? 2;
+    freeSenseLevels = (j['freeSenseLevels'] as num?)?.toInt() ?? 1;
     return true;
   }
 

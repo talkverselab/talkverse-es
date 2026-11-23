@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../core/l10n.dart';
+import '../data/entitlement.dart';
+import '../widgets/locked_view.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
 import '../services/achievement_service.dart';
@@ -66,6 +68,7 @@ class _DialogueCardScreenState extends State<DialogueCardScreen> {
 
   @override
   Widget build(BuildContext context) {
+    if (Entitlement.dialogueLocked(d)) return LockedView(title: '${d.emoji} ${d.title}');
     final wide = isWide(context);
     final art = _CardArt(key: ValueKey('${d.id}:${t.num}:art'), d: d, t: t);
     final text = _CardText(d: d, t: t, flipped: _flipped);

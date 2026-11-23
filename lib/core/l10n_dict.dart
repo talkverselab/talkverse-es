@@ -4,6 +4,12 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 const Map<String, String> kDictEn = {
+  '토크버스 커리큘럼 2단계부터 끝까지': 'Talkverse Curriculum from Stage 2 to the end',
+  '회화 2단계 이상 모든 편': 'All dialogues from Stage 2 up',
+  '언어감각 익히기 2급부터': 'Language Sense from level 2',
+  '스토어에 연결하지 못했어요. 잠시 뒤 다시 시도해 주세요.': 'Couldn’t reach the store. Please try again in a moment.',
+  '다시 시도': 'Try again',
+  '이용권으로 열리는 내용이에요': 'This is unlocked with a pass',
   '이메일로 로그인': 'Sign in with email',
   '로그인하면 아이폰·아이패드 어디서나': 'Sign in to use it on iPhone and iPad',
   '로그인하면 다른 기기에서도': 'Sign in to use it on your other devices',
@@ -460,6 +466,12 @@ const Map<String, String> kDictEn = {
 };
 
 const Map<String, String> kDictJa = {
+  '토크버스 커리큘럼 2단계부터 끝까지': 'トークバース カリキュラム 2段階から最後まで',
+  '회화 2단계 이상 모든 편': '会話 2段階以上の全エピソード',
+  '언어감각 익히기 2급부터': '言語感覚 2級から',
+  '스토어에 연결하지 못했어요. 잠시 뒤 다시 시도해 주세요.': 'ストアに接続できませんでした。しばらくしてからもう一度お試しください。',
+  '다시 시도': 'もう一度',
+  '이용권으로 열리는 내용이에요': '利用券で開く内容です',
   '이메일로 로그인': 'メールでログイン',
   '로그인하면 아이폰·아이패드 어디서나': 'ログインすればiPhone・iPadどこでも',
   '로그인하면 다른 기기에서도': 'ログインすれば他の端末でも',
@@ -905,6 +917,12 @@ const Map<String, String> kDictJa = {
 };
 
 const Map<String, String> kDictZh = {
+  '토크버스 커리큘럼 2단계부터 끝까지': 'Talkverse 课程第2阶段到最后',
+  '회화 2단계 이상 모든 편': '第2阶段以上的全部对话',
+  '언어감각 익히기 2급부터': '语感训练第2级起',
+  '스토어에 연결하지 못했어요. 잠시 뒤 다시 시도해 주세요.': '无法连接商店，请稍后再试。',
+  '다시 시도': '重试',
+  '이용권으로 열리는 내용이에요': '此内容需要通行证解锁',
   '이메일로 로그인': '使用邮箱登录',
   '로그인하면 아이폰·아이패드 어디서나': '登录后可在 iPhone、iPad 上使用',
   '로그인하면 다른 기기에서도': '登录后可在其他设备上使用',

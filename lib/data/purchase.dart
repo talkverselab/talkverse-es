@@ -39,6 +39,8 @@ class Purchase {
   /// 상품 ID → 만료 시각(ms, 평생이면 0)
   static final owned = ValueNotifier<Map<String, int>>(const {});
   static final products = ValueNotifier<Map<String, ProductDetails>>(const {});
+  /// 스토어 상품 조회가 끝났나(성공·실패 모두) — 결제 화면이 끝없이 돌지 않게(PAYWALL_SPEC §3).
+  static final loaded = ValueNotifier<bool>(false);
   /// 구매 진행 상태 알림(화면이 듣고 안내): null = 없음, 'pending' · 'error' · 'done' · 'restored' · 'nothing'
   static final status = ValueNotifier<String?>(null);
   static StreamSubscription<List<PurchaseDetails>>? _sub;
@@ -58,19 +60,47 @@ class Purchase {
     lang = code;
     plans = list;
     final p = await SharedPreferences.getInstance();
-    final raw = p.getString(pk('iap_owned2'));
-    final m = <String, int>{if (raw != null) ...(jsonDecode(raw) as Map).map((k, v) => MapEntry('$k', (v as num).toInt()))};
+    final m = <String, int>{};
+    // 저장: 옛 키 iap_owned2 + PAYWALL_SPEC §4 의 `<언어>_entitlement_v1`(이 언어 상품) · `all_entitlement_v1`(종합, 22개 언어 공통 — 접두 없음)
+    for (final key in [pk('iap_owned2'), pk('entitlement_v1'), kAllKey]) {
+      final raw = p.getString(key);
+      if (raw == null) continue;
+      try {
+        (jsonDecode(raw) as Map).forEach((k, v) {
+          final e = (v as num).toInt();
+          final cur = m['$k'];
+          if (cur == null || (cur != 0 && (e == 0 || e > cur))) m['$k'] = e;
+        });
+      } catch (_) {}
+    }
     if ((p.getStringList(pk('iap_owned')) ?? const []).contains(code)) m['lang_${code}_life'] = 0; // 옛 저장 방식(평생 하나)
     owned.value = m;
     Account.user.addListener(_onAccount);
-    if (!(isIOS || isAndroid)) return;
+    if (!(isIOS || isAndroid)) {
+      loaded.value = true;
+      return;
+    }
     // 통합 앱에서는 구매 스트림을 통합 앱 하나만 듣는다 — 그쪽이 [onPurchaseUpdates] 로 넘겨준다(EMBED_GUIDE §5)
     if (!Embed.embedded) _sub ??= InAppPurchase.instance.purchaseStream.listen(_onUpdates, onError: (_) => status.value = 'error');
+    await reload();
+    // 시작 때 복원 조회(PAYWALL_SPEC §4)는 안드로이드만 — iOS 는 Apple ID 암호 창이 뜰 수 있어 미완료 거래 자동 수신(purchaseStream) + 「구매 복원」 단추만(uk 11-23).
     try {
-      if (!await InAppPurchase.instance.isAvailable()) return;
-      final r = await InAppPurchase.instance.queryProductDetails({for (final x in list) x.id});
-      products.value = {for (final d in r.productDetails) d.id: d};
+      if (isAndroid && !Embed.embedded) await InAppPurchase.instance.restorePurchases();
     } catch (_) {}
+  }
+
+  static const kAllKey = 'all_entitlement_v1';
+
+  /// 스토어 상품을 (다시) 받는다. 실패해도 [loaded] 는 true 가 된다.
+  static Future<void> reload() async {
+    loaded.value = false;
+    try {
+      if (await InAppPurchase.instance.isAvailable().timeout(const Duration(seconds: 10))) {
+        final r = await InAppPurchase.instance.queryProductDetails({for (final x in plans) x.id}).timeout(const Duration(seconds: 15));
+        products.value = {for (final d in r.productDetails) d.id: d};
+      }
+    } catch (_) {}
+    loaded.value = true;
   }
 
   /// 스토어 표시 가격(예 ₩3,900). 상품을 못 받았으면 null.
@@ -161,6 +191,13 @@ class Purchase {
     if (!keep) owned.value = {...owned.value, id: exp};
     final p = await SharedPreferences.getInstance();
     await p.setString(pk('iap_owned2'), jsonEncode(owned.value));
+    await p.setString(pk('entitlement_v1'), jsonEncode({for (final e in owned.value.entries) if (e.key.startsWith('lang_')) e.key: e.value}));
+    final all = {for (final e in owned.value.entries) if (e.key.startsWith('all_')) e.key: e.value};
+    if (all.isNotEmpty) {
+      final prev = p.getString(kAllKey);
+      final merged = <String, dynamic>{if (prev != null) ...(jsonDecode(prev) as Map).cast<String, dynamic>(), ...all};
+      await p.setString(kAllKey, jsonEncode(merged));
+    }
     // 서버로 보낼 영수증 — 로그인 전이면 쌓아 두었다가 로그인 때 보낸다
     final rec = {
       'platform': isIOS ? 'ios' : 'android',

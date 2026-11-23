@@ -4,6 +4,7 @@ import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
 import '../services/curriculum_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
@@ -28,20 +29,36 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
 
   CurriculumState get _st => _svc.state;
 
+  void _onEntitlement() {
+    if (mounted) setState(() {});
+  }
+
+  @override
+  void dispose() {
+    Entitlement.changed.removeListener(_onEntitlement);
+    super.dispose();
+  }
+
   @override
   void initState() {
     super.initState();
+    Entitlement.changed.addListener(_onEntitlement);
     _svc.ensureLoaded().then((_) {
       if (!mounted) return;
       setState(() {
         _loading = false;
-        _levelPick = _st.level == null;
+        // 지금 단계가 잠겼으면(이용권 만료 등) 단계 고르기부터
+        _levelPick = _st.level == null || Entitlement.levelLocked(_st.level!);
         _picking = _st.level != null && _st.course == null;
       });
     });
   }
 
   Future<void> _setLevel(String lv) async {
+    if (Entitlement.levelLocked(lv)) {
+      await Entitlement.showPaywall(context); // 잠긴 단계 → 결제 화면(PAYWALL_SPEC §3)
+      if (!mounted || Entitlement.levelLocked(lv)) return;
+    }
     _st.level = lv;
     await _svc.save();
     setState(() {
@@ -169,7 +186,10 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                   ),
                 ]),
               ),
-              if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.matcha),
+              if (Entitlement.levelLocked(lv))
+                const Icon(Icons.lock_outline, size: 20, color: AppColors.muted)
+              else if (_st.level == null && lv == lowest)
+                _pill(tr('추천'), AppColors.matcha),
             ]),
           ),
     ];

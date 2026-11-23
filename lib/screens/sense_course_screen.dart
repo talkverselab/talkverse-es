@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
 
 import '../core/embed_env.dart';
+import '../data/entitlement.dart';
 import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/platform.dart';
@@ -58,6 +59,14 @@ class SenseCourse {
     await p.setStringList(_kDoneKey, s.toList());
   }
 
+  /// [flat] 순번의 회차가 몇 번째 급(0부터)인가 — 잠금용(PAYWALL_SPEC §2 언어감각 2급부터 이용권).
+  static int levelIndexAt(Map<String, dynamic> d, int flatIndex) {
+    final lv = flat(d)[flatIndex].$1;
+    return (d['levels'] as List).indexOf(lv);
+  }
+
+  static bool lockedAt(Map<String, dynamic> d, int flatIndex) => Entitlement.senseLevelLocked(levelIndexAt(d, flatIndex));
+
   /// 모든 회차를 순서대로 (레벨, 회차) 쌍으로.
   static List<(Map<String, dynamic>, Map<String, dynamic>)> flat(Map<String, dynamic> d) => [
         for (final lv in (d['levels'] as List).cast<Map<String, dynamic>>())
@@ -93,6 +102,11 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _open(int index) async {
+    if (SenseCourse.lockedAt(_data!, index)) {
+      await Entitlement.showPaywall(context);
+      if (mounted) setState(() {});
+      return;
+    }
     await openFull(context, (_) => SenseLessonScreen(index: index));
     _load();
   }
@@ -155,7 +169,9 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
                     child: Text(ls['title'] as String,
                         style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: AppColors.sumi)),
                   ),
-                  if (isDone)
+                  if (SenseCourse.lockedAt(d, idx))
+                    const Icon(Icons.lock_outline, color: AppColors.muted, size: 20)
+                  else if (isDone)
                     const Icon(Icons.check_circle, color: AppColors.matcha, size: 20)
                   else if (isNext)
                     Text(tr('다음'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.ai)),
@@ -204,7 +220,11 @@ class _SenseLessonScreenState extends State<SenseLessonScreen> {
     while (nextIdx < all.length && all[nextIdx].$2['kind'] == 'ref') {
       nextIdx++;
     }
-    if (nextIdx < all.length) {
+    final data = await SenseCourse.load();
+    if (!mounted) return;
+    if (nextIdx < all.length && SenseCourse.lockedAt(data, nextIdx)) {
+      Navigator.of(context).pop(); // 다음 회차는 이용권 급 — 목록으로 돌아가 자물쇠를 보인다
+    } else if (nextIdx < all.length) {
       Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (_) => SenseLessonScreen(index: nextIdx)));
     } else {

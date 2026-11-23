@@ -6,7 +6,7 @@ import '../core/theme.dart';
 import '../data/account.dart';
 
 /// 로그인 — Talkverse 공용 계정(한자 앱 login_screen.dart 와 같은 구성). 로그인은 선택.
-/// 버튼은 구글·네이버·카카오·애플 순서 고정, 서버 /providers 에 없는 제공자는 누르면 '준비 중'.
+/// 버튼은 구글·네이버·카카오·애플 순서 고정, 서버 /providers 에 없는 제공자는 숨긴다(이메일 로그인은 늘 있음).
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
   static Future<bool?> open(BuildContext context) =>
@@ -29,7 +29,7 @@ class _LoginScreenState extends State<LoginScreen> {
     Account.providers().then((p) => mounted ? setState(() => providers = p) : null);
   }
 
-  bool _ready(String p) => p == 'apple' ? (providers?.contains('apple') ?? true) : (providers?.contains(p) ?? false);
+  bool _ready(String p) => providers?.contains(p) ?? false;
 
   Future<void> _go(String p) async {
     if (!_ready(p)) {
@@ -91,7 +91,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   if (providers == null)
                     const Center(child: Padding(padding: EdgeInsets.all(24), child: CircularProgressIndicator()))
                   else
-                    for (final p in const ['google', 'naver', 'kakao', 'apple']) Padding(padding: const EdgeInsets.only(bottom: 12), child: _button(p)),
+                    // 서버 /providers 에 켜진 제공자만 보인다 — 눌러서 「준비 중」이 뜨는 버튼은 심사 거절(애플 2.1, uk 11-23). 순서·모양은 그대로.
+                    for (final p in const ['google', 'naver', 'kakao', 'apple'])
+                      if (providers!.contains(p)) Padding(padding: const EdgeInsets.only(bottom: 12), child: _button(p)),
                   if (error != null) ...[
                     const SizedBox(height: 8),
                     Text(error!, textAlign: TextAlign.center, style: const TextStyle(color: Colors.redAccent, fontSize: 13)),
