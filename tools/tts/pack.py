@@ -49,11 +49,15 @@ def main():
     UP = '--upload' in sys.argv; a = [x for x in sys.argv[1:] if x != '--upload']; wav, eps = a[0], a[1:]
     tmp = tempfile.mkdtemp(); q = lambda s: "'" + s.replace("'", "''") + "'"
     mf = f'{R}/data/tts/audio_es.json'
+    Q = json.load(open(f'{wav}/qa.json', encoding='utf-8')) if os.path.exists(f'{wav}/qa.json') else {}
+    PASS = 0.85  # 받아쓰기 검사 불합격 조각이 하나라도 있는 줄은 목록에서 뺀다 → 앱이 기기 TTS 로 읽는다(uk 11-23)
     for ep in eps:
-        rows = []
+        rows = []; skipped = 0
         for t in L.turns(ep):
             for g in 'mf':
                 x = t[g]; tag = 'c' if t['same'] else g; f = f"{tmp}/{ep}_{t['num']:02d}_{g}.mp4"
+                if any((Q.get(f"{ep}/{t['num']:02d}_{i}_{tag}.wav") or {}).get('sim', 0) < PASS for i in range(len(x['segs']))):
+                    skipped += 1; continue
                 d = build(wav, ep, t['num'], tag, len(x['segs']), f, tmp)
                 rows.append(dict(turn=t['num'], voice=g, speaker=x['voice'], emotion='+'.join(s[0] for s in x['segs']), key=f"audio/es/{ep}/{t['num']:02d}_{g}.mp4",
                                  sha1=hashlib.sha1(open(f, 'rb').read()).hexdigest(), ms=int(d * 1000), text=x['text'], reading=x['reading'], rd=x['rd'], ko=x['ko'], f=f))
@@ -73,7 +77,7 @@ def main():
         M = json.load(open(mf, encoding='utf-8')) if os.path.exists(mf) else {}
         M[ep] = [{k: v for k, v in r.items() if k not in ('f', 'text', 'reading', 'rd', 'ko')} for r in rows]
         json.dump(M, open(mf, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
-        print(ep, len(rows), '줄', sum(r['ms'] for r in rows) // 1000, '초', '올림' if UP else '안 올림', flush=True)
+        print(ep, len(rows), '줄', sum(r['ms'] for r in rows) // 1000, '초', '올림' if UP else '안 올림', '불합격', skipped, flush=True)
 
 
 if __name__ == '__main__':

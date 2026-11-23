@@ -8,6 +8,7 @@ import difflib, glob, hashlib, json, os, re, shutil, subprocess, sys, unicodedat
 import mlx_whisper
 import ttslib as L
 M = 'mlx-community/whisper-large-v3-turbo'
+PASS = 0.85  # uk 11-23: 3번 다시 만들어도 0.85 미만이면 목록에 넣지 않는다(pack.py 가 뺀다)
 LANG, REF, OUT = 'Spanish', 'ref_es', 'es'
 
 
@@ -65,7 +66,7 @@ def main():
                 if s > q['sim']:
                     shutil.copy(c, f); q['sim'], q['dur'] = s, d; q['sig'] = sig(f, text)
                 os.remove(c)
-            q['ok'] = q['sim'] >= 0.72
+            q['ok'] = q['sim'] >= PASS
             if not q['ok']:
                 bad += 1
                 if q['tries'] < 3:

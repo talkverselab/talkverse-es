@@ -37,6 +37,12 @@ done = set(open(f'{work}/done.txt').read().split()) if os.path.exists(f'{work}/d
 ids = [e for e in L.planned() if e not in done]
 log('남은 편', len(ids))
 for i in range(0, len(ids), N):
+    # 다른 세션이 3090 「비워 주세요」 → <작업폴더>/PAUSE 를 만들면 묶음 경계에서 멈춰 기다린다(지우면 이어감)
+    if os.path.exists(f'{work}/PAUSE'):
+        log('PAUSE — 묶음 경계에서 멈춤')
+        while os.path.exists(f'{work}/PAUSE'):
+            time.sleep(30)
+        log('이어감')
     eps = ids[i:i + N]
     sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', *eps); pc_run()
     for ep in eps:
