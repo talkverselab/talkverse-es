@@ -8,13 +8,13 @@ import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
 import '../screens/dialogue_card_screen.dart';
+import '../services/dialogue_audio.dart';
 import '../services/achievement_service.dart';
 import '../services/art_service.dart';
 import '../services/content_sync.dart';
 import '../services/dialogue_service.dart';
 import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
-import '../services/tts_service.dart';
 import '../services/word_service.dart';
 import 'achievement_desk.dart';
 import 'learner_setup_dialog.dart';
@@ -72,7 +72,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   void dispose() {
     KoReadingPrefs.show.removeListener(_onRd);
     _session++;
-    TtsService.instance.stop();
+    DialogueAudio.instance.stop();
     super.dispose();
   }
 
@@ -82,7 +82,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
     while (mounted && my == _session && _i < d.turns.length) {
       final t = d.turns[_i];
       _scrollTo(_i);
-      await TtsService.instance.speakAs(_ttsText(t), gender: _gender(t.speaker), rate: _rate * 0.45);
+      await speakTurn(d, t, rate: _rate);
       if (!mounted || my != _session) return;
       await Future.delayed(Duration(milliseconds: (650 / _rate).round())); // 턴 사이 숨
       if (!mounted || my != _session) return;
@@ -99,14 +99,14 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
 
   void _pause() {
     _session++;
-    TtsService.instance.stop();
+    DialogueAudio.instance.stop();
     setState(() => _playing = false);
   }
 
   void _goto(int n, {bool play = false}) {
     n = n.clamp(0, d.turns.length - 1);
     _session++;
-    TtsService.instance.stop();
+    DialogueAudio.instance.stop();
     setState(() {
       _i = n;
       _playing = false;
@@ -115,20 +115,13 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
     if (play) _play();
   }
 
-  void _speakOne(DialogueTurn t) => TtsService.instance.speakAs(_ttsText(t), gender: _gender(t.speaker), rate: _rate * 0.45);
+  void _speakOne(DialogueTurn t) => speakTurn(d, t, rate: _rate);
 
   void _scrollTo(int i) {
     final ctx = _keys[i].currentContext;
     if (ctx == null) return;
     Scrollable.ensureVisible(ctx, duration: const Duration(milliseconds: 300), curve: Curves.easeOut, alignment: 0.3);
   }
-
-  String _ttsText(DialogueTurn t) {
-    final s = LearnerPrefs.fill(t.tl).replaceAll(RegExp(r'[（(][^)）]*[)）]'), '').trim();
-    return s.isEmpty ? t.tl : s;
-  }
-
-  String _gender(String sp) => d.voiceGender(sp); // 이야기에 성별이 정해진 화자는 데이터 성별, 학습자 자리면 프로필 성별
 
   @override
   Widget build(BuildContext context) {

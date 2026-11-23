@@ -61,7 +61,7 @@ Future<void> embedInit({bool embedded = false}) async {
   // 그림(장면 컷·단어 그림) 기기 내려받기: 버전이 다르면 로딩 화면에서 받고 시작(사용자 지시 2026-11-04)
   final v = WidgetsBinding.instance.platformDispatcher.views.first;
   final wide = v.physicalSize.shortestSide / v.devicePixelRatio >= 600;
-  _syncFirst = await ContentSync.instance.init(large: wide);
+  _syncFirst = await ContentSync.instance.init(large: wide, female: LearnerPrefs.isFemale);
 }
 
 /// runApp 에 넘기는 위젯. [onSwitchLanguage] 가 있으면 프로필 설정 맨 위에 「다른 언어 배우기」.

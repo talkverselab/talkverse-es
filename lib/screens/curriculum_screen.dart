@@ -5,9 +5,9 @@ import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
 import '../data/entitlement.dart';
+import '../services/dialogue_audio.dart';
 import '../services/curriculum_service.dart';
 import '../services/learner_prefs.dart';
-import '../services/tts_service.dart';
 import '../services/dialogue_service.dart';
 
 /// 토크버스 커리큘럼 — 전 언어 공통 기준(`~/talkverse/CURRICULUM_SPEC.md`, 2026-11-22). 일본어앱이 기준 구현.
@@ -464,7 +464,7 @@ class _CurriculumPracticeScreenState extends State<CurriculumPracticeScreen> {
   @override
   void dispose() {
     _stop = true;
-    TtsService.instance.stop();
+    DialogueAudio.instance.stop();
     super.dispose();
   }
 
@@ -480,7 +480,7 @@ class _CurriculumPracticeScreenState extends State<CurriculumPracticeScreen> {
 
   Future<void> _playOne(int i) async {
     _stop = true;
-    await TtsService.instance.stop();
+    await DialogueAudio.instance.stop();
     _stop = false;
     final t = d.turns[i];
     setState(() => _playing = t.num);
@@ -490,7 +490,7 @@ class _CurriculumPracticeScreenState extends State<CurriculumPracticeScreen> {
 
   Future<void> _quiz() async {
     _stop = true;
-    await TtsService.instance.stop();
+    await DialogueAudio.instance.stop();
     final svc = CurriculumService.instance;
     final qs = buildQuestions(d, limit: 10, pool: svc.levelList(d.region), seed: DateTime.now().millisecondsSinceEpoch);
     if (!mounted) return;
@@ -549,7 +549,7 @@ class _CurriculumPracticeScreenState extends State<CurriculumPracticeScreen> {
             child: OutlinedButton.icon(
               onPressed: _playing == null ? _playAll : () async {
                 _stop = true;
-                await TtsService.instance.stop();
+                await DialogueAudio.instance.stop();
                 if (mounted) setState(() => _playing = null);
               },
               icon: Icon(_playing == null ? Icons.play_arrow : Icons.stop),
@@ -755,10 +755,6 @@ class _CurriculumHomeCardState extends State<CurriculumHomeCard> {
     );
   }
 }
-
-/// 회화 한 줄 읽기 — es 는 아직 녹음 재생이 없어 기기 TTS(11-22 「음성이 없는건 TTS로」). 녹음이 생기면 일본어앱 dialogue_audio 식으로 녹음 먼저.
-Future<void> speakTurn(Dialogue d, DialogueTurn t, {double rate = 1.0}) =>
-    TtsService.instance.speakAs(LearnerPrefs.fill(t.tl).replaceAll(RegExp(r'[（(][^)）]*[)）]'), ''), gender: d.voiceGender(t.speaker), rate: rate * 0.45);
 
 /// 레벨·메뉴 배지 — 일본어앱의 도장(SealStamp) 자리, es 메뉴 배지 꼴.
 Widget _badge(String text) => Container(
