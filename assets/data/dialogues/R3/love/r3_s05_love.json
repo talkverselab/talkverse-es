@@ -328,44 +328,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Oye, ¿tienes mis libros rojos?",
-   "ko": "있잖아, 내 빨간 책들 너한테 있어?"
-  },
-  {
-   "tl": "Sí, los tengo. Javi y yo los leemos.",
-   "ko": "응, 나한테 있어. 하비랑 나랑 읽는 중."
-  },
-  {
-   "tl": "¿Los leéis? ¿Todos? ¿Y Javi?",
-   "ko": "그걸 둘이 읽어? 전부? 하비도?"
-  },
-  {
-   "tl": "Sí. Y hay unas cartas rojas dentro.",
-   "ko": "응. 그리고 안에 빨간 편지가 몇 장 있어."
-  },
-  {
-   "tl": "¿Las cartas? ¿Las tenéis vosotros?",
-   "ko": "그 편지들? 너희가 갖고 있어?"
-  },
-  {
-   "tl": "Son para Javi, ¿no? Le doy las cartas.",
-   "ko": "하비한테 주는 거지? 내가 전해 줄게."
-  },
-  {
-   "tl": "¡No! No son para Javi… Son para ti.",
-   "ko": "안 돼! 하비 거 아니야… 너 거야."
-  },
-  {
-   "tl": "Vale… las leo otra vez.",
-   "ko": "알았어… 그럼 나 혼자 다시 읽을게."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r3_s05_love_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

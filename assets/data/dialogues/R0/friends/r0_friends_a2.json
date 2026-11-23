@@ -275,44 +275,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "¡Hola, {name}! ¿Qué tal estás?",
-   "ko": "안녕, {name}! 잘 지내?"
-  },
-  {
-   "tl": "Estoy bien. ¿Y tú?",
-   "ko": "잘 지내. 너는?"
-  },
-  {
-   "tl": "¡Genial! Oye, ¿tienes hambre?",
-   "ko": "완전 좋아! 근데 너 배고파?"
-  },
-  {
-   "tl": "Un poco. ¿Quieres comer algo?",
-   "ko": "조금. 뭐 먹을래?"
-  },
-  {
-   "tl": "¡Quiero comer todo! Conozco un sitio.",
-   "ko": "다 먹고 싶어! 나 아는 데 있어."
-  },
-  {
-   "tl": "Y luego otro. Y otro. ¡Y churros!",
-   "ko": "그다음엔 딴 데. 또 딴 데. 그리고 추로스!"
-  },
-  {
-   "tl": "Tía, tengo un poco de hambre.",
-   "ko": "야, 나 «조금» 배고프다니까."
-  },
-  {
-   "tl": "Ya. Pero yo tengo mucha.",
-   "ko": "알아. 근데 난 엄청 고파."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r0_friends_a2_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

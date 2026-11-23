@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'app_database.dart';
 import '../../core/embed_env.dart';
+import '../../core/word_filter.dart';
 
 class SeedLoader {
   final AppDatabase db;
@@ -52,7 +53,7 @@ class SeedLoader {
     // header: rank,word,pos,gender,ko,freq,cum_pct,region,cefr
     for (var i = 1; i < rows.length; i++) {
       final row = rows[i];
-      if (row.length < 9) continue;
+      if (row.length < 9 || isBlockedWord('${row[1]}')) continue;
       batch.add(WordsCompanion.insert(
         rank: Value(int.tryParse('${row[0]}') ?? 0),
         word: '${row[1]}',

@@ -322,44 +322,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "¿A qué hora te levantas los sábados?",
-   "ko": "너 토요일엔 몇 시에 일어나?"
-  },
-  {
-   "tl": "Me levanto tarde. ¿Por qué?",
-   "ko": "늦게 일어나. 왜?"
-  },
-  {
-   "tl": "Hay un mercado de libros a las doce.",
-   "ko": "열두 시에 헌책 장터가 있어."
-  },
-  {
-   "tl": "Vale. Me ducho y me visto. ¿Y tú?",
-   "ko": "좋아. 씻고 옷 입을게. 너는?"
-  },
-  {
-   "tl": "Me visto ahora. Bueno… otra vez.",
-   "ko": "나 지금 옷 입어. 뭐… 또."
-  },
-  {
-   "tl": "¿Otra vez? ¿Cuántas veces te vistes?",
-   "ko": "또? 몇 번이나 갈아입는 거야?"
-  },
-  {
-   "tl": "Me he cambiado tres veces. Por ti.",
-   "ko": "벌써 세 번 갈아입었어. 너 때문에."
-  },
-  {
-   "tl": "Vale… ahora me pongo nervioso.",
-   "ko": "아… 이제 나 떨린다."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r1_s09_love_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

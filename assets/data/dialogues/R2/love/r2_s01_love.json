@@ -314,44 +314,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Hola. Soy Marta, la de la librería.",
-   "ko": "안녕. 나 마르타, 서점의 그 사람."
-  },
-  {
-   "tl": "¡Hola! ¿Me escribes tú? Qué guay.",
-   "ko": "안녕! 네가 먼저 연락한 거야? 와 좋다."
-  },
-  {
-   "tl": "Bien. Oye, tu número estaba en un libro.",
-   "ko": "잘 지내. 근데 네 번호가 어떤 책에 있던데."
-  },
-  {
-   "tl": "Ah, ¿sí? ¿Qué libro es? Qué raro… jajaja.",
-   "ko": "아, 그래? 무슨 책인데? 이상하네… ㅋㅋㅋ"
-  },
-  {
-   "tl": "Ya. Está en la página del primer beso.",
-   "ko": "그러게. 첫 키스 페이지에 있어."
-  },
-  {
-   "tl": "Vale, fui yo. ¿Te molesta?",
-   "ko": "알았어, 나야. 불편했어?"
-  },
-  {
-   "tl": "Mucho. Por eso te escribo…",
-   "ko": "엄청. 그래서 연락하는 거야…"
-  },
-  {
-   "tl": "Mañana a las cinco. Trae el libro.",
-   "ko": "내일 다섯 시. 그 책 가져와."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r2_s01_love_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

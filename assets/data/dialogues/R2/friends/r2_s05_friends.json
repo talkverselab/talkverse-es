@@ -345,44 +345,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Lucía, lo siento mucho. Me olvidé.",
-   "ko": "루시아, 진짜 미안해. 깜빡했어."
-  },
-  {
-   "tl": "¿Te olvidaste de qué? ¿Qué pasa?",
-   "ko": "뭘 깜빡했는데? 무슨 일이야?"
-  },
-  {
-   "tl": "Tu cumple. Ayer. Perdona, de verdad.",
-   "ko": "네 생일. 어제. 정말 미안."
-  },
-  {
-   "tl": "Ya… estuve sola toda la noche.",
-   "ko": "그래… 밤새 혼자 있었지."
-  },
-  {
-   "tl": "Te invito a cenar hoy. Eliges tú.",
-   "ko": "오늘 저녁 내가 살게. 네가 골라."
-  },
-  {
-   "tl": "Jajaja. Tío, mi cumple es mañana.",
-   "ko": "ㅋㅋㅋ 야, 내 생일 내일이야."
-  },
-  {
-   "tl": "¿Mañana? ¿Y estuviste «sola toda la noche»?",
-   "ko": "내일? 그럼 「밤새 혼자」 있었다는 건 뭔데?"
-  },
-  {
-   "tl": "Quería verte sufrir. ¿Me invitas igual?",
-   "ko": "네가 쩔쩔매는 거 보고 싶었지. 그래도 사 줄 거지?"
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r2_s05_friends_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

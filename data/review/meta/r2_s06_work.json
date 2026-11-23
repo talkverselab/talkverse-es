@@ -1,0 +1,41 @@
+{
+ "draft": "grok",
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_s06_work_rewrite.md",
+  "model": "전문가"
+ },
+ "draft_claude": [
+  {
+   "tl": "Tío, lo siento. Hoy no puedo.",
+   "ko": "야, 미안. 오늘 안 되겠어."
+  },
+  {
+   "tl": "¿Otra vez no puedes? ¿Qué pasa ahora?",
+   "ko": "또 안 돼? 이번엔 뭔데?"
+  },
+  {
+   "tl": "Me toca trabajar hasta tarde en el bar.",
+   "ko": "바에서 늦게까지 일해야 돼."
+  },
+  {
+   "tl": "Vaya. Vale, no pasa nada.",
+   "ko": "아이고. 알았어, 괜찮아."
+  },
+  {
+   "tl": "Oye, ¿qué tal? ¿Trabajas mucho?",
+   "ko": "저기, 어때? 일 많아?"
+  },
+  {
+   "tl": "¿Javi? ¿Sigues trabajando?",
+   "ko": "하비? 아직 일해?"
+  },
+  {
+   "tl": "Perdona. Me dormí en el almacén.",
+   "ko": "미안. 창고에서 잠들었어."
+  },
+  {
+   "tl": "¿Te dormiste trabajando? Qué morro, tío.",
+   "ko": "일하다가 잠들었어? 뻔뻔하다, 너."
+  }
+ ]
+}

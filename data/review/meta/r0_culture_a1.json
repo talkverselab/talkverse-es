@@ -1,0 +1,41 @@
+{
+ "draft": "grok",
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_culture_a1_rewrite.md",
+  "model": "전문가"
+ },
+ "draft_claude": [
+  {
+   "tl": "Lucía, ¿a qué hora cenas?",
+   "ko": "루시아, 너 저녁 몇 시에 먹어?"
+  },
+  {
+   "tl": "¿Yo? Ceno a las diez.",
+   "ko": "나? 열 시에 먹지."
+  },
+  {
+   "tl": "¿A las diez? ¡Madre mía!",
+   "ko": "열 시? 세상에!"
+  },
+  {
+   "tl": "Hombre, mi abuela cena a las once.",
+   "ko": "아이, 우리 할머니는 열한 시에 드셔."
+  },
+  {
+   "tl": "Pero yo ya tengo hambre.",
+   "ko": "근데 난 벌써 배고파."
+  },
+  {
+   "tl": "¿Ya tienes hambre? Tranqui, hay merienda.",
+   "ko": "벌써 배고파? 진정해, 간식 시간 있어."
+  },
+  {
+   "tl": "¡Genial! ¿Y después?",
+   "ko": "좋아! 그다음엔?"
+  },
+  {
+   "tl": "Aperitivo. Y después, por fin, cenas.",
+   "ko": "안주 타임. 그다음에 드디어 저녁."
+  }
+ ]
+}

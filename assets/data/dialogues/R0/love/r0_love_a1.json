@@ -287,40 +287,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "review": {
-  "grok_rewrite": "data/review/grok/r0_love_a1_rewrite.md",
-  "model": "전문가"
- },
- "draft_claude": [
-  {
-   "tl": "¡Vale! ¿Eres {name}?",
-   "ko": "그래! 너 {name} 맞아?"
-  },
-  {
-   "tl": "Sí, soy yo. ¡Qué pasa!",
-   "ko": "응, 나야. 안녕!"
-  },
-  {
-   "tl": "Tu foto mola, tío.",
-   "ko": "네 사진 멋져, 이봐."
-  },
-  {
-   "tl": "¡No! Es mi perro.",
-   "ko": "아니! 그거 우리 개야."
-  },
-  {
-   "tl": "¡Qué fuerte! El perro me gusta más.",
-   "ko": "대박! 개가 더 맘에 들어."
-  },
-  {
-   "tl": "¡Venga! ¿Y yo no te gusto?",
-   "ko": "야! 그럼 나는 안 맘에 들어?"
-  },
-  {
-   "tl": "Bueno… tú me gustas más. Un poco.",
-   "ko": "글쎄… 너 더 맘에 들어. 조금."
-  }
  ]
 }

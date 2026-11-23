@@ -323,44 +323,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Mire, estas son las habitaciones. El baño, ahí.",
-   "ko": "보세요, 여기가 방들이에요. 화장실은 저기고요."
-  },
-  {
-   "tl": "¡Qué bonitas! ¿Y mi habitación?",
-   "ko": "예쁘네요! 제 방은요?"
-  },
-  {
-   "tl": "Son pequeñas, pero tienen mucha luz.",
-   "ko": "작긴 한데 햇빛이 잘 들어요."
-  },
-  {
-   "tl": "Perfecto. ¿Y esas cajas rojas?",
-   "ko": "좋네요. 저 빨간 상자들은요?"
-  },
-  {
-   "tl": "Ah, son de mis gatos. Son pequeños.",
-   "ko": "아, 우리 고양이들 거예요. 쪼그만 애들이에요."
-  },
-  {
-   "tl": "¿Tiene usted gatos? ¿Y dónde están?",
-   "ko": "고양이를 키우세요? 근데 어디 있어요?"
-  },
-  {
-   "tl": "En su cama. Bueno… es su habitación.",
-   "ko": "손님 침대에요. 뭐… 원래 걔들 방이거든요."
-  },
-  {
-   "tl": "Pues… ¡hola, compañeros! Vosotros sois los jefes, ¿no?",
-   "ko": "그럼… 안녕, 룸메이트들! 너희가 대장이지?"
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r3_s01_life_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

@@ -280,44 +280,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Hola. ¿Eres el amigo de Diego?",
-   "ko": "안녕. 네가 디에고 친구야?"
-  },
-  {
-   "tl": "Sí, soy {name}. ¿Y tú?",
-   "ko": "응, 나 {name}. 너는?"
-  },
-  {
-   "tl": "Marta. Diego habla mucho de ti.",
-   "ko": "마르타. 디에고가 네 얘기 많이 해."
-  },
-  {
-   "tl": "¿Ah, sí? ¿Y qué dice?",
-   "ko": "아, 그래? 뭐라는데?"
-  },
-  {
-   "tl": "Que eres muy gracioso.",
-   "ko": "너 엄청 웃기대."
-  },
-  {
-   "tl": "¿Yo? Pero hablo muy poco.",
-   "ko": "내가? 나 말 진짜 없는데."
-  },
-  {
-   "tl": "Ya… por eso estoy aquí.",
-   "ko": "알아… 그래서 온 거야."
-  },
-  {
-   "tl": "Vale. Entonces… ¿qué tal?",
-   "ko": "그래. 그럼… 안녕?"
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r0_love_a2_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

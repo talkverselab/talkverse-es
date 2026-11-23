@@ -1,0 +1,73 @@
+{
+ "draft": "grok",
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_g10_friends_rewrite.md",
+  "model": "전문가"
+ },
+ "draft_claude": [
+  {
+   "tl": "Oye, si os tocara la lotería mañana, ¿qué haríais?",
+   "ko": "있잖아, 내일 너희가 복권에 당첨되면 뭐 할 거야?"
+  },
+  {
+   "tl": "Fácil. Si tuviera un millón, compraría una churrería. Y no trabajaría nunca.",
+   "ko": "쉽지. 백만 유로 있으면 추로스 가게 살 거야. 그리고 평생 일 안 하고."
+  },
+  {
+   "tl": "Javi, si tuvieras una churrería, trabajarías todo el día.",
+   "ko": "하비, 추로스 가게 있으면 하루 종일 일해야 하거든."
+  },
+  {
+   "tl": "No. Me comería los churros. Es distinto.",
+   "ko": "아니. 추로스를 먹을 거야. 그건 다르지."
+  },
+  {
+   "tl": "¿Y tú, {name}? ¿Qué harías tú? Si pudieras vivir en cualquier sitio…",
+   "ko": "너는, {name}? 넌 뭐 할래? 어디서든 살 수 있다면…"
+  },
+  {
+   "tl": "Si fuera rico, me quedaría en Madrid. Pero en un piso con ascensor.",
+   "ko": "부자라면 마드리드에 그냥 있을래. 대신 엘리베이터 있는 집에서."
+  },
+  {
+   "tl": "¡Qué poco ambicioso! Yo, si ganara, me compraría un barco.",
+   "ko": "꿈이 작네! 난 당첨되면 배 살 거야."
+  },
+  {
+   "tl": "¿Un barco? Pero si no sabes nadar, tía.",
+   "ko": "배? 너 수영도 못 하잖아, 야."
+  },
+  {
+   "tl": "Por eso. Si tuviera un barco, aprendería.",
+   "ko": "그러니까. 배가 있으면 배우겠지."
+  },
+  {
+   "tl": "Chicos, ¿no teníais vosotros el décimo del bar? ¡Ha salido el número!",
+   "ko": "얘들아, 너희 바에서 같이 산 복권 갖고 있지 않았어? 번호 나왔어!"
+  },
+  {
+   "tl": "¿Qué? ¿Nuestro número? ¡Nos ha tocado! ¡Churros para todo el bar!",
+   "ko": "뭐? 우리 번호? 당첨됐어! 바에 있는 사람들 전부 추로스 쏜다!"
+  },
+  {
+   "tl": "¡Madre mía! ¡Somos ricos! ¡Mi barco!",
+   "ko": "세상에! 우리 부자야! 내 배!"
+  },
+  {
+   "tl": "Esperad. ¿Cuánto ha tocado exactamente?",
+   "ko": "잠깐만. 정확히 얼마 당첨됐는데?"
+  },
+  {
+   "tl": "Veinte euros. Para los tres.",
+   "ko": "20유로. 셋이서."
+  },
+  {
+   "tl": "…Y acabo de invitar a todo el bar. ¿Qué hago ahora?",
+   "ko": "…근데 나 방금 바 전체에 쏜다고 했는데. 이제 어떡해?"
+  },
+  {
+   "tl": "Javi, si yo fuera tú, empezaría a correr.",
+   "ko": "하비, 나라면 지금 뛰기 시작하겠다."
+  }
+ ]
+}

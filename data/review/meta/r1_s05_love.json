@@ -1,0 +1,41 @@
+{
+ "draft": "grok",
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s05_love_rewrite.md",
+  "model": "전문가"
+ },
+ "draft_claude": [
+  {
+   "tl": "Oye, ¿tienes mi libro rojo?",
+   "ko": "있잖아, 내 빨간 책 너한테 있어?"
+  },
+  {
+   "tl": "Sí, lo tengo. Lo leo en la cama.",
+   "ko": "응, 나한테 있어. 침대에서 읽는 중."
+  },
+  {
+   "tl": "¿Lo lees? ¿Todo?",
+   "ko": "그걸 읽어? 전부?"
+  },
+  {
+   "tl": "Sí. Y hay una carta roja dentro.",
+   "ko": "응. 그리고 안에 빨간 편지가 하나 있어."
+  },
+  {
+   "tl": "¿La carta? ¿La tienes?",
+   "ko": "그 편지? 네가 갖고 있어?"
+  },
+  {
+   "tl": "Es para Javi, ¿no? Le doy la carta.",
+   "ko": "하비한테 주는 거지? 내가 전해 줄게."
+  },
+  {
+   "tl": "¡No! No es para Javi… Es para ti.",
+   "ko": "안 돼! 하비 거 아니야… 너 거야."
+  },
+  {
+   "tl": "Vale… la leo otra vez.",
+   "ko": "알았어… 그럼 다시 읽을게."
+  }
+ ]
+}

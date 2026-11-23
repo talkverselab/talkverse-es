@@ -1,0 +1,41 @@
+{
+ "draft": "grok",
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_life_a2_rewrite.md",
+  "model": "전문가"
+ },
+ "draft_claude": [
+  {
+   "tl": "Buenos días, {name}. ¿Qué tal estás?",
+   "ko": "좋은 아침, {name}. 잘 잤어?"
+  },
+  {
+   "tl": "Mal. Tengo un poco de frío.",
+   "ko": "별로. 좀 추워."
+  },
+  {
+   "tl": "¿Tienes frío? ¡Un momento!",
+   "ko": "추워? 잠깐만!"
+  },
+  {
+   "tl": "Toma, una manta. Y dos mantas más.",
+   "ko": "자, 담요. 그리고 두 장 더."
+  },
+  {
+   "tl": "Diego, espera. Ya estoy bien.",
+   "ko": "디에고, 잠깐. 나 이제 괜찮아."
+  },
+  {
+   "tl": "Y un café caliente. ¡Y la calefacción!",
+   "ko": "그리고 뜨거운 커피. 난방까지!"
+  },
+  {
+   "tl": "Ya está, ya está.",
+   "ko": "됐어, 됐어."
+  },
+  {
+   "tl": "Ahora tengo calor.",
+   "ko": "이제 더워."
+  }
+ ]
+}

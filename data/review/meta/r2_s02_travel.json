@@ -1,0 +1,41 @@
+{
+ "draft": "grok",
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_s02_travel_rewrite.md",
+  "model": "전문가"
+ },
+ "draft_claude": [
+  {
+   "tl": "¡Tío, estoy en Cádiz! Mira qué mar.",
+   "ko": "야, 나 카디스야! 바다 좀 봐."
+  },
+  {
+   "tl": "Qué envidia. ¿Y la foto, guapa?",
+   "ko": "부럽다. 사진은, 예쁜이?"
+  },
+  {
+   "tl": "Ahí va. ¿Qué tal salgo?",
+   "ko": "보낸다. 나 어떻게 나왔어?"
+  },
+  {
+   "tl": "Sales guapa… pero ¿quién es el señor de detrás?",
+   "ko": "예쁘게 나왔어… 근데 뒤에 아저씨는 누구야?"
+  },
+  {
+   "tl": "¿Qué señor? Ay, madre mía. Sale más guapo que yo.",
+   "ko": "무슨 아저씨? 헐, 세상에. 나보다 잘 나왔네."
+  },
+  {
+   "tl": "Y tiene un perro. ¡El perro mira a la cámara!",
+   "ko": "개도 데리고 있어. 개가 카메라 보고 있어!"
+  },
+  {
+   "tl": "Y ya está en mi historia. Cien vistas.",
+   "ko": "근데 벌써 내 스토리에 올렸어. 조회수 백."
+  },
+  {
+   "tl": "Y todos preguntan por el perro. Qué fuerte.",
+   "ko": "근데 다들 개 얘기만 물어봐. 어이없어."
+  }
+ ]
+}

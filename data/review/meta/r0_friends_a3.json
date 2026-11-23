@@ -1,0 +1,41 @@
+{
+ "draft": "grok",
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_friends_a3_rewrite.md",
+  "model": "전문가"
+ },
+ "draft_claude": [
+  {
+   "tl": "Javi, ¿dónde estás?",
+   "ko": "하비, 어디야?"
+  },
+  {
+   "tl": "¡Ya voy! Cinco minutos.",
+   "ko": "가는 중! 5분만."
+  },
+  {
+   "tl": "¿Cinco? ¿En serio? Siempre llegas tarde.",
+   "ko": "5분? 진심? 너 맨날 늦잖아."
+  },
+  {
+   "tl": "Bueno… diez. Pero hoy no llego tarde.",
+   "ko": "음… 10분. 근데 오늘은 안 늦어."
+  },
+  {
+   "tl": "¡Ya estoy! En tu puerta.",
+   "ko": "도착! 너네 집 문 앞이야."
+  },
+  {
+   "tl": "¿Mi puerta? No te veo. ¿Me ves?",
+   "ko": "우리 집 문? 너 안 보이는데. 나 보여?"
+  },
+  {
+   "tl": "Hola, señora… Vale, no es tu casa.",
+   "ko": "안녕하세요, 아주머니… 아, 너네 집 아니네."
+  },
+  {
+   "tl": "Madre mía, Javi.",
+   "ko": "세상에, 하비."
+  }
+ ]
+}

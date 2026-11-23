@@ -50,7 +50,6 @@
     "aparecer"
    ],
    "emotion": "surprised",
-   "note_claude_old": "quedar = (친구와) 만나기로 하다",
    "lemmas": [
     [
      "Vale",
@@ -104,7 +103,6 @@
     "enterarse"
    ],
    "emotion": "neutral",
-   "note_claude_old": "enterarse = 알게 되다",
    "lemmas": [
     [
      "es",
@@ -147,7 +145,6 @@
     "medianoche"
    ],
    "emotion": "teasing",
-   "note_claude_old": "desde hace = ~전부터 쭉",
    "lemmas": [
     [
      "Es",
@@ -191,7 +188,6 @@
     "cruel"
    ],
    "emotion": "surprised",
-   "note_claude_old": "en tu lugar = 네 입장이라면 + 조건법",
    "lemmas": [
     [
      "serio",
@@ -225,7 +221,6 @@
     "excusa"
    ],
    "emotion": "cheerful",
-   "note_claude_old": "cuando + 접속법 = 앞으로 ~하면",
    "lemmas": [
     [
      "Sí",
@@ -263,7 +258,6 @@
     "enfrente"
    ],
    "emotion": "neutral",
-   "note_claude_old": "llevar + 시간 = ~째 그러고 있다",
    "lemmas": [
     [
      "hora",
@@ -295,7 +289,6 @@
    ],
    "new": [],
    "emotion": "amused",
-   "note_claude_old": "no puede ser = 말도 안 돼",
    "lemmas": [
     [
      "quedamos",
@@ -330,7 +323,6 @@
    "emotion": "cheerful",
    "tl_f": "¡Hola, tías! Llego puntual por fin. ¡Venga!",
    "rd_f": "올라, 띠아스! 예고 뿐뚜알 뽀르 핀. 벤가!",
-   "note_claude_old": "pillar = 잡다·들키다(구어)",
    "lemmas": [
     [
      "Hola",
@@ -374,7 +366,6 @@
    "tags": [],
    "new": [],
    "emotion": "excited",
-   "note_claude_old": "pero si… = 아니 ~잖아(반박)",
    "lemmas": [
     [
      "fuerte",
@@ -415,7 +406,6 @@
    ],
    "new": [],
    "emotion": "surprised",
-   "note_claude_old": "lo sé = 알고 있어",
    "lemmas": [
     [
      "he",
@@ -466,7 +456,6 @@
    ],
    "new": [],
    "emotion": "teasing",
-   "note_claude_old": "¿Cómo que…? = ~라니?",
    "lemmas": [
     [
      "llegas",
@@ -517,7 +506,6 @@
    ],
    "new": [],
    "emotion": "annoyed",
-   "note_claude_old": "esperándome = 나를 기다리면서",
    "lemmas": [
     [
      "No",
@@ -570,7 +558,6 @@
     "sobrar"
    ],
    "emotion": "surprised",
-   "note_claude_old": "sobrar = 남아돌다, 「내가 낄 자리가 아니다」",
    "lemmas": [
     [
      "plan",
@@ -608,7 +595,6 @@
     "tontería"
    ],
    "emotion": "amused",
-   "note_claude_old": "no digas = 부정 명령(접속법)",
    "lemmas": [
     [
      "Vale",
@@ -656,7 +642,6 @@
     "frío"
    ],
    "emotion": "tsukkomi",
-   "note_claude_old": "llevo aquí = 여기 쭉 있다",
    "lemmas": [
     [
      "diría",
@@ -699,7 +684,6 @@
    "emotion": "gentle",
    "tl_f": "¡Venga, tías! No pasa nada. ¿Entramos al bar?",
    "rd_f": "벤가, 띠아스! 노 빠사 나다. 엔뜨라모스 알 바르?",
-   "note_claude_old": "anda = 「에이, 됐고」",
    "lemmas": [
     [
      "Venga",
@@ -733,78 +717,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Son las ocho y media y Javi sin aparecer. Menos mal que le dije que quedábamos a las ocho.",
-   "ko": "여덟 시 반인데 하비는 코빼기도 안 보여. 여덟 시에 보자고 해 두길 잘했지."
-  },
-  {
-   "tl": "¿Le mentiste? ¿Y si se entera?",
-   "ko": "거짓말한 거야? 걔가 알면 어쩌려고?"
-  },
-  {
-   "tl": "Tío, lo hago desde hace tres años. Si le digo la hora real, llega a medianoche.",
-   "ko": "야, 나 그거 삼 년째 하고 있어. 진짜 시간 말하면 자정에 온다니까."
-  },
-  {
-   "tl": "Pues a mí me parece un poco cruel. Yo en tu lugar se lo diría.",
-   "ko": "난 좀 너무한 것 같은데. 나라면 말해 줄 거야."
-  },
-  {
-   "tl": "Ya verás cuando llegue. Traerá churros y una excusa nueva.",
-   "ko": "오면 봐. 추로스랑 새 핑계를 들고 올걸."
-  },
-  {
-   "tl": "Por cierto, ¿quién es ese que lleva media hora en el bar de enfrente?",
-   "ko": "그나저나, 건너편 바에 삼십 분째 앉아 있는 저 사람 누구야?"
-  },
-  {
-   "tl": "¿Dónde? Espera… No puede ser. ¡Ese es Javi!",
-   "ko": "어디? 잠깐만… 말도 안 돼. 저거 하비잖아!"
-  },
-  {
-   "tl": "Vaya, me habéis pillado. ¿Ya son las nueve?",
-   "ko": "이런, 들켰네. 벌써 아홉 시야?"
-  },
-  {
-   "tl": "¿Las nueve? ¡Pero si yo te dije a las ocho!",
-   "ko": "아홉 시? 나 여덟 시라고 했잖아!"
-  },
-  {
-   "tl": "Ya, y tú siempre dices una hora menos. Lo sé desde hace tres años.",
-   "ko": "응, 넌 항상 한 시간 빼고 말하잖아. 나 삼 년 전부터 알았어."
-  },
-  {
-   "tl": "¿Cómo que lo sabes? ¿Y entonces por qué llegas siempre tarde?",
-   "ko": "안다니 그게 무슨 소리야? 그럼 왜 맨날 늦는 건데?"
-  },
-  {
-   "tl": "Llego a las ocho. Pero me gusta verte esperándome.",
-   "ko": "여덟 시에 와. 근데 네가 나 기다리는 거 보는 게 좋아서."
-  },
-  {
-   "tl": "Madre mía. Creo que sobro. ¿Os dejo solos?",
-   "ko": "세상에. 나 눈치 없이 낀 것 같은데. 둘이 있을래?"
-  },
-  {
-   "tl": "…No digas tonterías. ¿Has traído churros, al menos?",
-   "ko": "…헛소리하지 마. 추로스는 가져왔어?"
-  },
-  {
-   "tl": "Claro. Pero están fríos. Llevo aquí desde las ocho.",
-   "ko": "당연하지. 근데 식었어. 여덟 시부터 여기 있었거든."
-  },
-  {
-   "tl": "Anda, dámelos. Y la próxima vez, espera conmigo.",
-   "ko": "됐고, 줘. 그리고 다음엔 나랑 같이 기다려."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r3_friends_b1_rewrite.md",
-  "model": "빠른",
-  "room_log": "data/review/grok/rooms_20261118.txt",
-  "how": "뼈대만 첨부(대사 비움), 형식만 손봄"
- }
+ ]
 }

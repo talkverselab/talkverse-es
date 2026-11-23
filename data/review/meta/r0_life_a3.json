@@ -1,0 +1,41 @@
+{
+ "draft": "grok",
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_life_a3_rewrite.md",
+  "model": "전문가"
+ },
+ "draft_claude": [
+  {
+   "tl": "¿Comes en casa hoy?",
+   "ko": "오늘 집에서 먹어?"
+  },
+  {
+   "tl": "Sí, como en casa. ¿Por qué?",
+   "ko": "응, 집에서 먹어. 왜?"
+  },
+  {
+   "tl": "Hoy cocino yo. ¿Quieres?",
+   "ko": "오늘은 내가 요리해. 먹을래?"
+  },
+  {
+   "tl": "¿Tú cocinas? ¡Qué guay! ¿Qué es?",
+   "ko": "네가 요리한다고? 오 대박! 뭔데?"
+  },
+  {
+   "tl": "Pasta. Creo.",
+   "ko": "파스타. 아마도."
+  },
+  {
+   "tl": "¿Cómo que «creo»?",
+   "ko": "«아마도»라니?"
+  },
+  {
+   "tl": "Tranqui. Tengo el teléfono de la pizza.",
+   "ko": "진정해. 피자집 번호 있어."
+  },
+  {
+   "tl": "Vale. Yo quiero la grande.",
+   "ko": "오케이. 난 라지로."
+  }
+ ]
+}

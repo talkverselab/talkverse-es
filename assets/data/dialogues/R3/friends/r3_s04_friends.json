@@ -297,44 +297,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Hago la cena. ¿Le gusta el ajo?",
-   "ko": "저녁 할게요. 마늘 좋아해요?"
-  },
-  {
-   "tl": "Me encanta el ajo. ¿Qué hace usted?",
-   "ko": "마늘 완전 좋아해요. 뭐 만드세요?"
-  },
-  {
-   "tl": "Una sorpresa. ¿Y le gustan las patatas?",
-   "ko": "비밀이에요. 감자도 좋아해요?"
-  },
-  {
-   "tl": "Nos encantan. A Javi y a mí nos gusta todo.",
-   "ko": "완전 좋아해요. 하비랑 저는 다 좋아해요."
-  },
-  {
-   "tl": "¿Todo? ¿También los caracoles?",
-   "ko": "다요? 달팽이 요리도요?"
-  },
-  {
-   "tl": "Claro. Nos gusta todo, de verdad.",
-   "ko": "그럼요. 진짜 다 좋아해요."
-  },
-  {
-   "tl": "Vale. Caracoles… ¡y callos de la abuela!",
-   "ko": "좋아요. 달팽이… 그리고 할머니표 곱창 스튜!"
-  },
-  {
-   "tl": "Bueno… no nos gusta todo.",
-   "ko": "그게… 다 좋아하는 건 아니에요."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r3_s04_friends_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

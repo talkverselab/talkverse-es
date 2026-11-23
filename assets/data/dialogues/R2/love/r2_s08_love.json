@@ -320,44 +320,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "¿Qué haces? ¿Estás en casa?",
-   "ko": "뭐 해? 집이야?"
-  },
-  {
-   "tl": "No hago nada. Estoy en el sofá con alguien especial.",
-   "ko": "아무것도 안 해. 특별한 사람이랑 소파에 있어."
-  },
-  {
-   "tl": "Ah. Vale.",
-   "ko": "아. 그래."
-  },
-  {
-   "tl": "Pues nada. Buenas noches.",
-   "ko": "그럼 됐어. 잘 자."
-  },
-  {
-   "tl": "¡Espera! Es Diego, mi compañero de piso.",
-   "ko": "잠깐! 디에고야, 룸메이트."
-  },
-  {
-   "tl": "¿Diego es tu «alguien especial»? Jajaja.",
-   "ko": "디에고가 네 「특별한 사람」이야? ㅋㅋ"
-  },
-  {
-   "tl": "Es que… tengo celos. Un poco.",
-   "ko": "그게… 질투 나. 조금."
-  },
-  {
-   "tl": "¿Tienes celos? Pues el sofá tiene sitio.",
-   "ko": "질투 나? 그럼 소파에 자리 있는데."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r2_s08_love_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

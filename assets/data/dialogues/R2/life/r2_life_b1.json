@@ -49,7 +49,6 @@
    "emotion": "surprised",
    "tl_f": "Tía, ¿qué hacen estas sillas aquí?",
    "rd_f": "띠아, 께 아쎈 에스따스 시야스 아끼?",
-   "note_claude_old": "pasillo = 복도",
    "lemmas": [
     [
      "tío",
@@ -88,7 +87,6 @@
     "vecino"
    ],
    "emotion": "flustered",
-   "note_claude_old": "hablé = 단순과거 「얘기했다」",
    "lemmas": [
     [
      "plan",
@@ -124,7 +122,6 @@
    ],
    "new": [],
    "emotion": "neutral",
-   "note_claude_old": "madre mía = 세상에",
    "lemmas": [
     [
      "dijiste",
@@ -152,7 +149,6 @@
     "rápido"
    ],
    "emotion": "worried",
-   "note_claude_old": "hablaba = 불완료, 그때 계속 이어지던 일",
    "lemmas": [
     [
      "No",
@@ -195,7 +191,6 @@
    "emotion": "teasing",
    "tl_f": "Qué fuerte, tía. Tú hablabas poco.",
    "rd_f": "께 푸에르떼, 띠아. 뚜 아블라바스 뽀꼬.",
-   "note_claude_old": "decir que sí = 그러겠다고 하다",
    "lemmas": [
     [
      "fuerte",
@@ -234,7 +229,6 @@
     "contento"
    ],
    "emotion": "flustered",
-   "note_claude_old": "parecer = ~해 보이다",
    "lemmas": [
     [
      "solo",
@@ -267,7 +261,6 @@
     "paella"
    ],
    "emotion": "shout",
-   "note_claude_old": "¿Dónde pongo…? = ~를 어디 놓을까?",
    "lemmas": [
     [
      "Oye",
@@ -298,7 +291,6 @@
    ],
    "new": [],
    "emotion": "amused",
-   "note_claude_old": "perdone = 어른께 쓰는 usted 형",
    "lemmas": [
     [
      "dijo",
@@ -327,7 +319,6 @@
     "piso"
    ],
    "emotion": "cheerful",
-   "note_claude_old": "vuestro = 너희의(스페인식 vosotros)",
    "lemmas": [
     [
      "Vale",
@@ -358,7 +349,6 @@
     "plato"
    ],
    "emotion": "shy",
-   "note_claude_old": "¿Cuántos…? = 몇 개?",
    "lemmas": [
     [
      "perdón",
@@ -391,7 +381,6 @@
     "entender"
    ],
    "emotion": "excited",
-   "note_claude_old": "di = decir 의 명령형",
    "lemmas": [
     [
      "Venga",
@@ -420,7 +409,6 @@
    "tags": [],
    "new": [],
    "emotion": "gentle",
-   "note_claude_old": "입버릇은 안 고쳐진다 — 끝 줄 콜백",
    "lemmas": [
     [
      "Nunca",
@@ -449,62 +437,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Oye, ¿por qué hay doce sillas en el pasillo?",
-   "ko": "야, 복도에 왜 의자가 열두 개나 있어?"
-  },
-  {
-   "tl": "Ni idea. Esta mañana hablé con la vecina del cuarto.",
-   "ko": "몰라. 아침에 4층 아주머니랑 얘기하긴 했는데."
-  },
-  {
-   "tl": "¿Con Carmen? Madre mía. ¿Y qué te dijo?",
-   "ko": "카르멘 아주머니랑? 세상에. 뭐라고 하셨는데?"
-  },
-  {
-   "tl": "No sé, hablaba muy rápido. Yo solo dije «sí, sí».",
-   "ko": "몰라, 말이 너무 빨라서… 난 그냥 「네, 네」만 했어."
-  },
-  {
-   "tl": "¿«Sí, sí»? Tío, ¿a qué dijiste que sí?",
-   "ko": "「네, 네」? 야, 뭐에 네라고 한 건데?"
-  },
-  {
-   "tl": "Bueno, a todo. Parecía muy contenta.",
-   "ko": "음, 전부 다. 되게 좋아하시던데."
-  },
-  {
-   "tl": "¡Hola, chicos! ¿Dónde pongo la paella?",
-   "ko": "얘들아, 안녕! 파에야는 어디다 놓을까?"
-  },
-  {
-   "tl": "¿Qué paella? Perdone, ¿qué pasa aquí?",
-   "ko": "무슨 파에야요? 저기요, 지금 이게 무슨 일이에요?"
-  },
-  {
-   "tl": "La reunión de vecinos, en vuestro piso. Somos veinte.",
-   "ko": "주민 회의잖니, 너희 집에서. 스무 명이야."
-  },
-  {
-   "tl": "Veinte… Diego, ¿cuántos platos tenemos?",
-   "ko": "스무 명… 디에고, 우리 접시 몇 개 있어?"
-  },
-  {
-   "tl": "Tres. La próxima vez, di «no entiendo».",
-   "ko": "세 개. 다음엔 「못 알아듣겠어요」라고 해."
-  },
-  {
-   "tl": "Sí, sí.",
-   "ko": "네, 네."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r2_life_b1_rewrite.md",
-  "model": "빠른",
-  "room_log": "data/review/grok/rooms_20261118.txt",
-  "how": "뼈대만 첨부(대사 비움), 형식만 손봄"
- }
+ ]
 }

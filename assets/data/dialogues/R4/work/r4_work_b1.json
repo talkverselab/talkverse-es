@@ -41,7 +41,6 @@
    ],
    "new": [],
    "emotion": "polite",
-   "note_claude_old": "¿Tendrías…? = 조건법으로 부드럽게 묻기",
    "lemmas": [
     [
      "puede",
@@ -79,7 +78,6 @@
     "informe"
    ],
    "emotion": "neutral",
-   "note_claude_old": "habría enviado = 보냈을 텐데(변명의 정석)",
    "lemmas": [
     [
      "Vale",
@@ -105,7 +103,6 @@
     "correo"
    ],
    "emotion": "stiff",
-   "note_claude_old": "correo = 메일",
    "lemmas": [
     [
      "correo",
@@ -143,7 +140,6 @@
     "echar una mano"
    ],
    "emotion": "flustered",
-   "note_claude_old": "para que + 접속법 과거 = ~하도록",
    "lemmas": [
     [
      "Ay",
@@ -186,7 +182,6 @@
     "responder"
    ],
    "emotion": "neutral",
-   "note_claude_old": "digamos que = 말하자면(완곡)",
    "lemmas": [
     [
      "mandó",
@@ -212,7 +207,6 @@
    ],
    "new": [],
    "emotion": "worried",
-   "note_claude_old": "podrían haber sido = ~일 수도 있었다",
    "lemmas": [
     [
      "mandé",
@@ -246,7 +240,6 @@
     "comparar"
    ],
    "emotion": "gentle",
-   "note_claude_old": "hacer falta = 필요하다",
    "lemmas": [
     [
      "habría",
@@ -284,7 +277,6 @@
     "disculparse"
    ],
    "emotion": "flustered",
-   "note_claude_old": "si me permite = 괜찮으시다면(격식)",
    "lemmas": [
     [
      "Ya",
@@ -320,7 +312,6 @@
    ],
    "new": [],
    "emotion": "worried",
-   "note_claude_old": "en voz alta = 소리 내어",
    "lemmas": [
     [
      "ahora",
@@ -358,7 +349,6 @@
     "recoger"
    ],
    "emotion": "surprised",
-   "note_claude_old": "ir + 현재분사 = 슬슬 ~하다",
    "lemmas": [
     [
      "fuerte",
@@ -392,7 +382,6 @@
     "comité"
    ],
    "emotion": "annoyed",
-   "note_claude_old": "querer que + 접속법",
    "lemmas": [
     [
      "no",
@@ -445,7 +434,6 @@
      "¿En serio? Esto es una locura."
     ]
    ],
-   "note_claude_old": "si puede saberse = 실례지만(살짝 비꼼)",
    "lemmas": [
     [
      "Ja",
@@ -486,7 +474,6 @@
     "reducir"
    ],
    "emotion": "surprised",
-   "note_claude_old": "reducir = 줄이다",
    "lemmas": [
     [
      "jefe",
@@ -517,7 +504,6 @@
    "emotion": "flustered",
    "tl_f": "¡Qué nervios! Estoy hecha polvo.",
    "rd_f": "께 네르비오스! 에스또이 에차 뽈보.",
-   "note_claude_old": "¿Y si…? = ~하면 어떨까?",
    "lemmas": [
     [
      "nervios",
@@ -553,7 +539,6 @@
    ],
    "new": [],
    "emotion": "gentle",
-   "note_claude_old": "ni se te ocurra = 절대 그러지 마",
    "lemmas": [
     [
      "Venga",
@@ -582,74 +567,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Buenos días, {name}. ¿Tendrías un momento antes de la reunión?",
-   "ko": "좋은 아침이에요, {name} 씨. 회의 전에 잠깐 시간 괜찮아요?"
-  },
-  {
-   "tl": "Por supuesto. Si es por el informe, lo habría enviado ayer, pero me faltaban datos.",
-   "ko": "물론이죠. 보고서 때문이시면, 어제 보내려 했는데 자료가 모자랐습니다."
-  },
-  {
-   "tl": "No, no es por el informe. Es por el correo que mandaste anoche a las once.",
-   "ko": "아뇨, 보고서 때문이 아니에요. 어젯밤 열한 시에 보낸 메일 때문이에요."
-  },
-  {
-   "tl": "¿El correo? Se lo mandé solo a Lucía, para que me echara una mano con la presentación.",
-   "ko": "메일요? 그건 루시아한테만 보낸 건데요, 발표 좀 도와 달라고요."
-  },
-  {
-   "tl": "Ya. Digamos que le diste a «responder a todos». Somos cuatrocientos.",
-   "ko": "그렇군요. 말하자면 「전체 답장」을 누른 거죠. 우리 직원이 사백 명이에요."
-  },
-  {
-   "tl": "Madre mía. ¿También la frase sobre las reuniones que podrían haber sido un correo?",
-   "ko": "세상에. 메일로 끝날 회의들이라고 쓴 그 문장도요?"
-  },
-  {
-   "tl": "También. Y la parte en la que me comparas con una impresora que falla cuando más hace falta.",
-   "ko": "그것도요. 제일 필요할 때 고장 나는 프린터에 저를 비유한 부분도요."
-  },
-  {
-   "tl": "No sé cómo disculparme. Si me permite explicárselo, no era mi intención que…",
-   "ko": "뭐라고 사과드려야 할지 모르겠습니다. 설명드려도 된다면, 제 뜻은…"
-  },
-  {
-   "tl": "Déjame terminar. Esta mañana el director general lo ha leído en voz alta.",
-   "ko": "끝까지 들어요. 오늘 아침에 대표님이 그걸 소리 내어 읽으셨어요."
-  },
-  {
-   "tl": "Entonces supongo que debería ir recogiendo mis cosas.",
-   "ko": "그럼 짐을 싸기 시작해야겠네요."
-  },
-  {
-   "tl": "Al contrario. Ha cancelado las reuniones de los viernes y quiere que dirijas un comité nuevo.",
-   "ko": "오히려 반대예요. 금요일 회의를 다 없애고, {name} 씨가 새 위원회를 맡으면 좋겠대요."
-  },
-  {
-   "tl": "¿Cómo dice? ¿Un comité? ¿Para qué, si puede saberse?",
-   "ko": "네? 위원회요? 여쭤봐도 된다면, 뭘 위한 거죠?"
-  },
-  {
-   "tl": "Para reducir el número de reuniones. Se reunirá todos los lunes a las ocho.",
-   "ko": "회의 수를 줄이기 위해서요. 매주 월요일 여덟 시에 모인대요."
-  },
-  {
-   "tl": "…¿Y si mando otro correo?",
-   "ko": "…메일 한 통 더 보내면 어떨까요?"
-  },
-  {
-   "tl": "Ni se te ocurra. Aunque, entre tú y yo, lo de la impresora me hizo gracia.",
-   "ko": "꿈도 꾸지 마요. 그래도 우리끼리 얘기지만, 프린터는 좀 웃겼어요."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r4_work_b1_rewrite.md",
-  "model": "빠른",
-  "room_log": "data/review/grok/rooms_20261118.txt",
-  "how": "뼈대만 첨부(대사 비움), 형식만 손봄"
- }
+ ]
 }

@@ -1,0 +1,41 @@
+{
+ "draft": "grok",
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_love_a3_rewrite.md",
+  "model": "전문가"
+ },
+ "draft_claude": [
+  {
+   "tl": "Oye, ¿qué haces?",
+   "ko": "저기, 뭐 해?"
+  },
+  {
+   "tl": "No hago nada. ¿Y tú?",
+   "ko": "아무것도 안 해. 너는?"
+  },
+  {
+   "tl": "Leo. Un libro de amor.",
+   "ko": "책 읽어. 연애 소설."
+  },
+  {
+   "tl": "¿Lees libros de amor? ¡No me digas!",
+   "ko": "연애 소설 읽어? 설마!"
+  },
+  {
+   "tl": "Es que es muy bueno.",
+   "ko": "아니 그게, 진짜 재밌단 말야."
+  },
+  {
+   "tl": "¿Y qué pasa en el libro?",
+   "ko": "그래서 책에서 무슨 일 있는데?"
+  },
+  {
+   "tl": "¿Hola? ¿Marta?",
+   "ko": "여보세요? 마르타?"
+  },
+  {
+   "tl": "Perdona. Es que el chico es como tú.",
+   "ko": "미안. 그게… 남자 주인공이 너 같아서."
+  }
+ ]
+}

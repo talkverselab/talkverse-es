@@ -4,6 +4,11 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 const Map<String, String> kDictEn = {
+  '이메일로 로그인': 'Sign in with email',
+  '로그인하면 아이폰·아이패드 어디서나': 'Sign in to use it on iPhone and iPad',
+  '로그인하면 다른 기기에서도': 'Sign in to use it on your other devices',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payment is handled by the App Store. Prices follow the store and may include tax. No hidden fees.',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payment is handled by Google Play. Prices follow the store and may include tax. No hidden fees.',
   '단계를 골라요': 'Choose a stage',
   '처음이면 1단계부터 권해요.': 'New here? Start with Stage 1.',
   '주제·상황·레벨을 고르면 나만의 1편 · 첫 편 무료': 'Pick a topic, situation and level → your own episode · first one free',
@@ -455,6 +460,11 @@ const Map<String, String> kDictEn = {
 };
 
 const Map<String, String> kDictJa = {
+  '이메일로 로그인': 'メールでログイン',
+  '로그인하면 아이폰·아이패드 어디서나': 'ログインすればiPhone・iPadどこでも',
+  '로그인하면 다른 기기에서도': 'ログインすれば他の端末でも',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'お支払いはApp Storeで処理されます。表示価格はストア価格に従い、税金が含まれる場合があります。隠れた料金はありません。',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'お支払いはGoogle Playで処理されます。表示価格はストア価格に従い、税金が含まれる場合があります。隠れた料金はありません。',
   '단계를 골라요': '段階を選びましょう',
   '처음이면 1단계부터 권해요.': '初めてなら1段階からがおすすめです。',
   '주제·상황·레벨을 고르면 나만의 1편 · 첫 편 무료': 'テーマ・状況・レベルを選ぶと自分だけの1話・初回無料',
@@ -895,6 +905,11 @@ const Map<String, String> kDictJa = {
 };
 
 const Map<String, String> kDictZh = {
+  '이메일로 로그인': '使用邮箱登录',
+  '로그인하면 아이폰·아이패드 어디서나': '登录后可在 iPhone、iPad 上使用',
+  '로그인하면 다른 기기에서도': '登录后可在其他设备上使用',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 App Store 处理。显示价格以商店为准，可能含税。没有隐藏费用。',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 Google Play 处理。显示价格以商店为准，可能含税。没有隐藏费用。',
   '단계를 골라요': '选择阶段',
   '처음이면 1단계부터 권해요.': '第一次学习建议从第1阶段开始。',
   '주제·상황·레벨을 고르면 나만의 1편 · 첫 편 무료': '选主题、情境、级别 → 专属一集·首集免费',

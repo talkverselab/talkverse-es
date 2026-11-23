@@ -364,44 +364,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Javi, ¿dónde estás? ¿Llegas ya?",
-   "ko": "하비, 어디야? 곧 와?"
-  },
-  {
-   "tl": "Llego en cinco minutos, te lo juro.",
-   "ko": "오 분 안에 도착해, 진짜로."
-  },
-  {
-   "tl": "¿Cinco minutos, eh?",
-   "ko": "오 분이라며?"
-  },
-  {
-   "tl": "Vale, vale. Ya estoy en el metro.",
-   "ko": "알았어, 알았어. 지금 지하철이야."
-  },
-  {
-   "tl": "¿Metro? En tu historia estás en el sofá con pizza.",
-   "ko": "지하철? 네 스토리엔 소파에서 피자 먹고 있던데."
-  },
-  {
-   "tl": "Jajaja. Es una foto vieja.",
-   "ko": "ㅋㅋㅋ 옛날 사진이야."
-  },
-  {
-   "tl": "¿Vieja? Es de hace diez minutos. ¿Sales o no?",
-   "ko": "옛날? 10분 전에 올린 거거든. 나와, 안 나와?"
-  },
-  {
-   "tl": "Vale. Salgo ya. ¿Te guardo un trozo?",
-   "ko": "그래. 지금 나가. 한 조각 남겨 줄까?"
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r2_s04_friends_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

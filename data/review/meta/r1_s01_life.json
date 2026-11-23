@@ -1,0 +1,41 @@
+{
+ "draft": "grok",
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_s01_life_rewrite.md",
+  "model": "전문가"
+ },
+ "draft_claude": [
+  {
+   "tl": "Mira, esta es la cocina. El baño, ahí.",
+   "ko": "봐, 여기가 부엌이야. 화장실은 저기."
+  },
+  {
+   "tl": "¡Qué bonita! ¿Y mi habitación?",
+   "ko": "예쁘다! 내 방은?"
+  },
+  {
+   "tl": "Es pequeña, pero tiene mucha luz.",
+   "ko": "좀 작은데, 햇빛이 잘 들어."
+  },
+  {
+   "tl": "Perfecto. ¿Y esa caja roja?",
+   "ko": "완벽해. 저 빨간 상자는 뭐야?"
+  },
+  {
+   "tl": "Ah, es de mi gato. Es pequeño.",
+   "ko": "아, 우리 고양이 거야. 쪼그만 애야."
+  },
+  {
+   "tl": "¿Tienes un gato? ¿Y dónde está?",
+   "ko": "고양이 키워? 근데 어디 있어?"
+  },
+  {
+   "tl": "En tu cama. Bueno… es su habitación.",
+   "ko": "네 침대에. 뭐… 원래 걔 방이거든."
+  },
+  {
+   "tl": "Pues… ¡hola, compañero! Tú eres el jefe, ¿no?",
+   "ko": "그럼… 안녕, 룸메이트! 네가 대장이지?"
+  }
+ ]
+}

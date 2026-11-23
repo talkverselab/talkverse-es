@@ -15,6 +15,7 @@
 import glob
 import hashlib
 import json
+import re
 import subprocess
 import sys
 import tempfile
@@ -33,6 +34,8 @@ def current():
     for p in paths:
         b = Path(p).read_bytes()
         json.loads(b)  # 깨진 JSON 은 올리지 않는다
+        if re.search(rb'claude|grok|gemini|openai|"draft"|"review"\s*:\s*\{', b, re.I):
+            sys.exit(f'작업 기록 칸·AI 이름이 남아 있음 {p} — python3 tools/strip_meta.py 먼저(출처 공개 금지)')
         out[str(Path(p).relative_to(DATA))] = hashlib.sha1(b).hexdigest()[:12]
     return out
 

@@ -45,7 +45,6 @@
     "fácil"
    ],
    "emotion": "neutral",
-   "note_claude_old": "perdona = 말 걸 때 「저기요」",
    "lemmas": [
     [
      "Hola",
@@ -85,7 +84,6 @@
    "emotion": "cheerful",
    "tl_f": "Vale, tía. Este es fácil.",
    "rd_f": "발레, 띠아. 에스떼 에스 파씰.",
-   "note_claude_old": "mira = 「봐요」, 보여 줄 때",
    "lemmas": [
     [
      "Vale",
@@ -124,7 +122,6 @@
     "significar"
    ],
    "emotion": "neutral",
-   "note_claude_old": "¿Qué significa…? = ~가 무슨 뜻이에요?",
    "lemmas": [
     [
      "significa",
@@ -152,7 +149,6 @@
     "preguntar"
    ],
    "emotion": "gentle",
-   "note_claude_old": "hombre = 놀랐을 때 말머리(상대 성별과 무관)",
    "lemmas": [
     [
      "Significa",
@@ -180,7 +176,6 @@
     "querer"
    ],
    "emotion": "surprised",
-   "note_claude_old": "te quiero = 사랑해 — 발음 연습인데 고백이 되어 버렸다",
    "lemmas": [
     [
      "Ah",
@@ -214,7 +209,6 @@
     "vez"
    ],
    "emotion": "amused",
-   "note_claude_old": "otra vez = 한 번 더",
    "lemmas": [
     [
      "Ja",
@@ -253,7 +247,6 @@
    "tags": [],
    "new": [],
    "emotion": "flustered",
-   "note_claude_old": "¿Por qué? = 왜?",
    "lemmas": [
     [
      "serio",
@@ -281,7 +274,6 @@
     "decir"
    ],
    "emotion": "cheerful",
-   "note_claude_old": "es que = 변명·이유 앞에 「그게」",
    "lemmas": [
     [
      "Venga",
@@ -295,46 +287,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Perdona, ¿tienes libros fáciles?",
-   "ko": "저기요, 쉬운 책 있어요?"
-  },
-  {
-   "tl": "¿Fáciles? Mira, este. Es muy bonito.",
-   "ko": "쉬운 거요? 봐요, 이거. 되게 예뻐요."
-  },
-  {
-   "tl": "Vale. ¿Qué significa «te quiero»?",
-   "ko": "네. 「te quiero」가 무슨 뜻이에요?"
-  },
-  {
-   "tl": "Hombre… ¿Me lo preguntas a mí?",
-   "ko": "아니… 그걸 저한테 물어요?"
-  },
-  {
-   "tl": "Sí, a ti. Te quiero… ¿Está bien?",
-   "ko": "네, 그쪽한테요. 사랑해… 이렇게 하면 돼요?"
-  },
-  {
-   "tl": "…Muy bien. Otra vez, por favor.",
-   "ko": "…아주 좋아요. 한 번 더요."
-  },
-  {
-   "tl": "¿Otra vez? ¿Por qué?",
-   "ko": "한 번 더요? 왜요?"
-  },
-  {
-   "tl": "Por nada. Es que… lo dices muy bien.",
-   "ko": "아무것도 아니에요. 그게… 너무 잘 말해서요."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r1_love_a1_rewrite.md",
-  "model": "빠른",
-  "room_log": "data/review/grok/rooms_20261118.txt",
-  "how": "뼈대만 첨부(대사 비움), 형식만 손봄"
- }
+ ]
 }

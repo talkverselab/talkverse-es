@@ -347,44 +347,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Oye, ¿cenas en casa el viernes?",
-   "ko": "있잖아, 금요일에 집에서 저녁 먹어?"
-  },
-  {
-   "tl": "Claro, ceno en casa. ¿Qué pasa?",
-   "ko": "당연하지, 집에서 먹어. 왜?"
-  },
-  {
-   "tl": "Nada. Hago paella. ¿Te apetece?",
-   "ko": "별거 없어. 파에야 하려고. 먹을래?"
-  },
-  {
-   "tl": "Genial. Invita a quien sea, me da igual.",
-   "ko": "좋지. 아무나 불러, 난 상관없어."
-  },
-  {
-   "tl": "Vale. Escribo a Lucía.",
-   "ko": "오케이. 루시아한테 연락할게."
-  },
-  {
-   "tl": "Viene Lucía. Con su prima y su novio.",
-   "ko": "루시아 온대. 사촌이랑 남친도 같이."
-  },
-  {
-   "tl": "Su prima trae a una amiga. Seis en el grupo.",
-   "ko": "사촌이 친구를 또 데려온대. 단톡방에 여섯 명."
-  },
-  {
-   "tl": "¿Seis? ¡Haces paella para dos!",
-   "ko": "여섯? 너 파에야 2인분 하잖아!"
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r2_s03_life_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }

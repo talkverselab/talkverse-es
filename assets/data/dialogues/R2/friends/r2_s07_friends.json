@@ -378,44 +378,5 @@
     ]
    ]
   }
- ],
- "draft": "grok",
- "draft_claude": [
-  {
-   "tl": "Javi, churros gratis en la plaza. ¡Corre!",
-   "ko": "하비, 광장에서 추로스 공짜래. 뛰어!"
-  },
-  {
-   "tl": "¿En serio? ¿Dónde? ¡Voy ya! ¿Vas tú?",
-   "ko": "진짜? 어디? 지금 간다! 너도 가?"
-  },
-  {
-   "tl": "Jajaja, no voy. Es broma, tío.",
-   "ko": "ㅋㅋㅋ 안 가. 농담이야."
-  },
-  {
-   "tl": "Demasiado tarde. Ya lo sabe mi equipo.",
-   "ko": "너무 늦었어. 우리 팀이 벌써 알아."
-  },
-  {
-   "tl": "¿Cómo que lo sabe tu equipo?",
-   "ko": "팀이 안다니 무슨 소리야?"
-  },
-  {
-   "tl": "Estoy en la plaza con el equipo. ¡El churrero, feliz!",
-   "ko": "팀이랑 광장에 와 있어. 추로스 아저씨 신났어!"
-  },
-  {
-   "tl": "Espera… ¿me guardas uno?",
-   "ko": "잠깐… 나 하나 남겨 줄래?"
-  },
-  {
-   "tl": "Jajaja. Es broma, tío.",
-   "ko": "ㅋㅋㅋ 농담이야."
-  }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r2_s07_friends_rewrite.md",
-  "model": "전문가"
- }
+ ]
 }
