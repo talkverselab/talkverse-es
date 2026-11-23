@@ -3,6 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:spanish_universe/core/theme.dart';
 import 'package:spanish_universe/screens/curriculum_screen.dart';
+import 'package:spanish_universe/services/curriculum_plan.dart';
 import 'package:spanish_universe/services/curriculum_service.dart';
 import 'package:spanish_universe/services/dialogue_service.dart';
 
@@ -130,8 +131,9 @@ void main() {
     expect(find.textContaining('100'), findsOneWidget);
   });
 
-  testWidgets('커리큘럼 화면: 레벨 → 추천으로 채우기, 좁은 칸(300)·폰·태블릿 폭에서 넘치지 않음', (t) async {
+  testWidgets('커리큘럼 화면: 단계 → 추천으로 채우기, 좁은 칸(300)·폰·태블릿 폭에서 넘치지 않음', (t) async {
     SharedPreferences.setMockInitialValues({});
+    CurriculumService.instance.plan = CurriculumPlan.forTest(fetch: (_) async => null); // 앱 안 기본값(5단계)
     t.view.devicePixelRatio = 1;
     t.view.physicalSize = const Size(300, 900);
     addTearDown(t.view.reset);
@@ -140,8 +142,9 @@ void main() {
       await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 200)));
       await t.pump();
     }
-    expect(find.text('회화 레벨을 골라요'), findsOneWidget);
-    await t.tap(find.text('초보'));
+    expect(find.text('단계를 골라요'), findsOneWidget);
+    expect(find.text('5단계'), findsOneWidget);
+    await t.tap(find.text('1단계'));
     for (var i = 0; i < 3; i++) {
       await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 100)));
       await t.pump();

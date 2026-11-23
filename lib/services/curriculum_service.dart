@@ -6,6 +6,7 @@ import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../core/embed_env.dart';
+import 'curriculum_plan.dart';
 import 'dialogue_service.dart';
 
 /// 토크버스 커리큘럼 — 전 언어 공통 기준(`~/talkverse/CURRICULUM_SPEC.md`, 2026-11-22).
@@ -295,24 +296,64 @@ class CurriculumService {
   DateTime Function() now = DateTime.now;
   String get today => ymd(now());
 
+  /// 단계 목록(§12) — 서버/앱 안 JSON. 비어 있으면 회화 레벨(R) 방식.
+  CurriculumPlan plan = CurriculumPlan.instance;
+
   Future<void> ensureLoaded() async {
     if (_loaded) return;
     await DialogueService.instance.ensureLoaded();
+    await plan.init();
     final raw = (await SharedPreferences.getInstance()).getString(key);
     if (raw != null) {
       try {
         state = CurriculumState.fromJson(json.decode(raw) as Map);
       } catch (_) {}
     }
+    _migrateLevel();
     _loaded = true;
+    // 서버에 새 단계 목록이 있으면 뒤에서 받아 다시 그린다
+    plan.refresh().then((changed) {
+      if (changed) {
+        _migrateLevel();
+        this.changed.value++;
+      }
+    });
   }
+
+  List<CurStage> get stages => plan.stages((id) => DialogueService.instance.byId(id) != null);
+  bool get usesStages => stages.isNotEmpty;
+
+  /// 옛 R 값 → 단계 기본 대응(R0·R1 → 1, R2 → 2 … R5 → 5). 그 단계가 없으면 가장 낮은 단계.
+  void _migrateLevel() {
+    final lv = state.level;
+    if (lv == null || !usesStages || levels.contains(lv)) return;
+    final m = RegExp(r'^R(\d)$').firstMatch(lv);
+    final n = m == null ? 1 : max(1, int.parse(m.group(1)!));
+    state.level = levels.contains('$n') ? '$n' : levels.first;
+  }
+
+  /// 고를 수 있는 레벨(단계) 키 — 편이 있는 것만.
+  List<String> get levels => usesStages
+      ? [for (final s in stages) s.key]
+      : [for (final l in DialogueService.levels) if (DialogueService.instance.count(l) > 0) l];
+
+  CurStage? _stage(String? lv) => usesStages ? stages.where((s) => s.key == lv).firstOrNull : null;
+
+  /// 화면 이름 — 단계면 서버 제목(「1단계」), 아니면 회화 레벨 이름.
+  String levelTitle(String lv) => _stage(lv)?.title ?? (DialogueService.levelKo[lv] ?? lv);
+  String levelDesc(String lv) => _stage(lv)?.desc ?? '';
 
   Future<void> save() async {
     await (await SharedPreferences.getInstance()).setString(key, json.encode(state.toJson()));
     changed.value++;
   }
 
-  List<Dialogue> levelList([String? level]) => DialogueService.instance.list(region: level ?? state.level);
+  List<Dialogue> levelList([String? level]) {
+    final lv = level ?? state.level;
+    final st = _stage(lv);
+    if (st != null) return [for (final id in st.dialogueIds) DialogueService.instance.byId(id)].whereType<Dialogue>().toList();
+    return DialogueService.instance.list(region: lv);
+  }
 
   /// 레벨의 편을 모두 통과했나.
   bool levelDone(String level) {
@@ -322,11 +363,9 @@ class CurriculumService {
 
   /// 다음 레벨(편이 있는 것), 없으면 null.
   String? nextLevel(String level) {
-    const lv = DialogueService.levels;
-    for (var i = lv.indexOf(level) + 1; i < lv.length; i++) {
-      if (DialogueService.instance.count(lv[i]) > 0) return lv[i];
-    }
-    return null;
+    final lv = levels;
+    final i = lv.indexOf(level);
+    return i >= 0 && i + 1 < lv.length ? lv[i + 1] : null;
   }
 
   Future<void> startCourse(List<String> ids) async {

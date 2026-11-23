@@ -125,7 +125,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
           if (!_loading && _st.level != null && !_levelPick)
             TextButton(
               onPressed: () => setState(() => _levelPick = true),
-              child: Text('${_st.level} ${tr(DialogueService.levelKo[_st.level] ?? '')}', style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.beni)),
+              child: Text(_levelName(_st.level!), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.beni)),
             ),
         ],
       ),
@@ -138,16 +138,20 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
     );
   }
 
+  /// 단계면 「1단계」, 회화 레벨이면 「R1 초보」.
+  String _levelName(String lv) => _svc.usesStages ? trf('{0}단계', [lv]) : '$lv ${tr(DialogueService.levelKo[lv] ?? '')}';
+
   // ── 레벨 고르기 ──
   List<Widget> _levelPicker() {
-    final lowest = DialogueService.levels.firstWhere((l) => DialogueService.instance.count(l) > 0, orElse: () => 'R1');
+    final levels = _svc.levels;
+    final lowest = levels.isEmpty ? null : levels.first;
+    final stages = _svc.usesStages;
     return [
-      Text(tr('회화 레벨을 골라요'), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+      Text(stages ? tr('단계를 골라요') : tr('회화 레벨을 골라요'), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi)),
       const SizedBox(height: 4),
-      Text(tr('처음이면 가장 낮은 레벨부터 권해요. 문법 레벨과는 따로예요.'), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
+      Text(stages ? tr('처음이면 1단계부터 권해요.') : tr('처음이면 가장 낮은 레벨부터 권해요. 문법 레벨과는 따로예요.'), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
       const SizedBox(height: 12),
-      for (final lv in DialogueService.levels)
-        if (DialogueService.instance.count(lv) > 0)
+      for (final lv in levels)
           _card(
             onTap: () => _setLevel(lv),
             selected: _st.level == lv,
@@ -156,9 +160,11 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
               const SizedBox(width: 12),
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                  Text(tr(DialogueService.levelKo[lv] ?? lv), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi)),
+                  Text(stages ? trf('{0}단계', [lv]) : tr(DialogueService.levelKo[lv] ?? lv), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi)),
+                  if (stages && _svc.levelDesc(lv).isNotEmpty)
+                    Text(_svc.levelDesc(lv), style: const TextStyle(fontSize: 12, color: AppColors.sumiLight)),
                   Text(
-                    trf('{0}편 · 통과 {1}', [DialogueService.instance.count(lv), _svc.levelList(lv).where((d) => _st.passedDialogues.contains(d.id)).length]),
+                    trf('{0}편 · 통과 {1}', [_svc.levelList(lv).length, _svc.levelList(lv).where((d) => _st.passedDialogues.contains(d.id)).length]),
                     style: const TextStyle(fontSize: 12, color: AppColors.muted),
                   ),
                 ]),
@@ -308,7 +314,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
         const SizedBox(height: 12),
         _card(
           onTap: () => _setLevel(_svc.nextLevel(lv)!),
-          child: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [lv, _svc.nextLevel(lv)!]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.matcha)),
+          child: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [_levelName(lv), _levelName(_svc.nextLevel(lv)!)]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.matcha)),
         ),
       ],
     ];
@@ -328,7 +334,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
         const SizedBox(height: 8),
         _card(
           onTap: () => _setLevel(next),
-          child: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [lv, next]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.matcha)),
+          child: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [_levelName(lv), _levelName(next)]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.matcha)),
         ),
       ],
       const SizedBox(height: 10),

@@ -4,6 +4,8 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 const Map<String, String> kDictEn = {
+  '단계를 골라요': 'Choose a stage',
+  '처음이면 1단계부터 권해요.': 'New here? Start with Stage 1.',
   '주제·상황·레벨을 고르면 나만의 1편 · 첫 편 무료': 'Pick a topic, situation and level → your own episode · first one free',
   '첫 1편은 무료예요. 다음 편부터는 이용권이 필요해요': 'Your first one is free. After that you need a pass.',
   '내 맞춤 회화': 'My dialogues',
@@ -453,6 +455,8 @@ const Map<String, String> kDictEn = {
 };
 
 const Map<String, String> kDictJa = {
+  '단계를 골라요': '段階を選びましょう',
+  '처음이면 1단계부터 권해요.': '初めてなら1段階からがおすすめです。',
   '주제·상황·레벨을 고르면 나만의 1편 · 첫 편 무료': 'テーマ・状況・レベルを選ぶと自分だけの1話・初回無料',
   '첫 1편은 무료예요. 다음 편부터는 이용권이 필요해요': '最初の1本は無料。次からは利用権が必要です',
   '내 맞춤 회화': 'マイ会話',
@@ -891,6 +895,8 @@ const Map<String, String> kDictJa = {
 };
 
 const Map<String, String> kDictZh = {
+  '단계를 골라요': '选择阶段',
+  '처음이면 1단계부터 권해요.': '第一次学习建议从第1阶段开始。',
   '주제·상황·레벨을 고르면 나만의 1편 · 첫 편 무료': '选主题、情境、级别 → 专属一集·首集免费',
   '첫 1편은 무료예요. 다음 편부터는 이용권이 필요해요': '第一篇免费，之后需要会员',
   '내 맞춤 회화': '我的会话',

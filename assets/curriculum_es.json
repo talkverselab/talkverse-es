@@ -1,0 +1,159 @@
+{
+ "lang": "es",
+ "rev": 1,
+ "stages": [
+  {
+   "n": 1,
+   "title": "1단계",
+   "desc": "인사·자기소개·아주 쉬운 일상",
+   "dialogueIds": [
+    "r0_culture_a1",
+    "r0_friends_a2",
+    "r0_friends_a3",
+    "r0_life_a2",
+    "r0_life_a3",
+    "r0_love_a1",
+    "r0_love_a2",
+    "r0_love_a3",
+    "r1_love_a1",
+    "r1_s01_life",
+    "r1_s02_friends",
+    "r1_s03_love",
+    "r1_s04_friends",
+    "r1_s05_love",
+    "r1_s06_travel",
+    "r1_s07_life",
+    "r1_s08_culture",
+    "r1_s09_love",
+    "r1_s10_friends"
+   ],
+   "pick": [
+    3,
+    5,
+    10
+   ],
+   "pass": 80,
+   "daily": {
+    "light": 1,
+    "normal": 2,
+    "focus": 3
+   }
+  },
+  {
+   "n": 2,
+   "title": "2단계",
+   "desc": "장보기·길 묻기·약속",
+   "dialogueIds": [
+    "r2_life_b1",
+    "r2_s01_love",
+    "r2_s02_travel",
+    "r2_s03_life",
+    "r2_s04_friends",
+    "r2_s05_friends",
+    "r2_s06_work",
+    "r2_s07_friends",
+    "r2_s08_love",
+    "r2_s09_life",
+    "r2_s10_love"
+   ],
+   "pick": [
+    3,
+    5,
+    10
+   ],
+   "pass": 80,
+   "daily": {
+    "light": 1,
+    "normal": 2,
+    "focus": 3
+   }
+  },
+  {
+   "n": 3,
+   "title": "3단계",
+   "desc": "여행·일·감정 표현",
+   "dialogueIds": [
+    "r3_friends_b1",
+    "r3_s01_life",
+    "r3_s02_friends",
+    "r3_s03_love",
+    "r3_s04_friends",
+    "r3_s05_love",
+    "r3_s06_travel",
+    "r3_s07_life",
+    "r3_s08_culture",
+    "r3_s09_love",
+    "r3_s10_friends"
+   ],
+   "pick": [
+    3,
+    5,
+    10
+   ],
+   "pass": 80,
+   "daily": {
+    "light": 1,
+    "normal": 2,
+    "focus": 3
+   }
+  },
+  {
+   "n": 4,
+   "title": "4단계",
+   "desc": "의견·설명·긴 대화",
+   "dialogueIds": [
+    "r4_g01_love",
+    "r4_g02_travel",
+    "r4_g03_work",
+    "r4_g04_friends",
+    "r4_g05_culture",
+    "r4_g06_life",
+    "r4_g07_love",
+    "r4_g08_study",
+    "r4_g09_love",
+    "r4_g10_friends",
+    "r4_work_b1"
+   ],
+   "pick": [
+    3,
+    5,
+    10
+   ],
+   "pass": 80,
+   "daily": {
+    "light": 1,
+    "normal": 2,
+    "focus": 3
+   }
+  },
+  {
+   "n": 5,
+   "title": "5단계",
+   "desc": "원어민 속도·관용 표현",
+   "dialogueIds": [
+    "r5_t01_life",
+    "r5_t02_work",
+    "r5_t03_life",
+    "r5_t04_love",
+    "r5_t05_friends",
+    "r5_t06_travel",
+    "r5_t07_life",
+    "r5_t08_culture",
+    "r5_t09_friends",
+    "r5_t10_study"
+   ],
+   "pick": [
+    3,
+    5,
+    10
+   ],
+   "pass": 80,
+   "daily": {
+    "light": 1,
+    "normal": 2,
+    "focus": 3
+   }
+  }
+ ],
+ "prep": []
+}
