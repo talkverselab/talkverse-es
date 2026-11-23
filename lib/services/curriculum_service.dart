@@ -71,7 +71,11 @@ class Course {
 /// `curriculum_v1` 한 벌. 기준 형식 + `today`(오늘 한 양 — 홈 카드 진행 막대용, 기준 문서에 없는 칸이라 uk 에 알림).
 class CurriculumState {
   String? level;
-  int dailyGoal; // 새 편 수: 1 가볍게 · 2 보통 · 3 집중
+  int dailyGoal; // 하루 목표 칸: 1 가볍게 · 2 보통 · 3 집중 (새 편 수는 [dailyNew])
+
+  /// 지금 단계의 규칙(서버 단계 JSON, 저장하지 않음) — 통과 점수 · 하루 새 편 수[가볍게, 보통, 집중].
+  int passPercent = kPassPercent;
+  List<int> dailyNew = const [1, 2, 3];
   Course? course;
   final List<String> passedDialogues;
   final List<ReviewItem> review;
@@ -131,7 +135,8 @@ class CurriculumState {
   List<ReviewItem> dueReview(String today) => review.where((r) => r.due.compareTo(today) <= 0).toList();
 
   /// 오늘 남은 새 편 수.
-  int newLeft(String today) => max(0, dailyGoal - (todayDay == today ? todayNew : 0));
+  int get dailyNewCount => dailyNew[(dailyGoal - 1).clamp(0, dailyNew.length - 1)];
+  int newLeft(String today) => max(0, dailyNewCount - (todayDay == today ? todayNew : 0));
 
   /// 오늘 분량을 다 했나(복습 0 + 새 편 목표 채움).
   bool dayDone(String today) => dueReview(today).isEmpty && newLeft(today) == 0;
@@ -190,7 +195,7 @@ class CurriculumState {
     if (c == null) return false;
     final s = scorePercent(correct, total);
     c.examScores.add(s);
-    if (s >= kPassPercent) {
+    if (s >= passPercent) {
       c.passedAt = today;
       for (final id in c.dialogueIds) {
         if (!passedDialogues.contains(id)) passedDialogues.add(id);
@@ -310,11 +315,13 @@ class CurriculumService {
       } catch (_) {}
     }
     _migrateLevel();
+    applyRules();
     _loaded = true;
     // 서버에 새 단계 목록이 있으면 뒤에서 받아 다시 그린다
     plan.refresh().then((changed) {
       if (changed) {
         _migrateLevel();
+        applyRules();
         this.changed.value++;
       }
     });
@@ -343,7 +350,19 @@ class CurriculumService {
   String levelTitle(String lv) => _stage(lv)?.title ?? (DialogueService.levelKo[lv] ?? lv);
   String levelDesc(String lv) => _stage(lv)?.desc ?? '';
 
+  /// 지금 단계의 통과 점수·하루 새 편 수를 상태에 건다(단계가 없으면 기본값).
+  void applyRules() {
+    final st = _stage(state.level);
+    state.passPercent = st?.pass ?? kPassPercent;
+    state.dailyNew = st?.daily ?? kDefaultDaily;
+  }
+
+  /// 지금 단계의 고를 개수 칩.
+  List<int> get pickOptions => _stage(state.level)?.pick ?? kDefaultPick;
+  int get passPercent => state.passPercent;
+
   Future<void> save() async {
+    applyRules();
     await (await SharedPreferences.getInstance()).setString(key, json.encode(state.toJson()));
     changed.value++;
   }

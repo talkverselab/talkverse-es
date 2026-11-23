@@ -307,7 +307,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
           style: FilledButton.styleFrom(backgroundColor: AppColors.sumi, padding: const EdgeInsets.symmetric(vertical: 12)),
           onPressed: c.allPracticed && ds.isNotEmpty ? _exam : null,
           icon: const Icon(Icons.flag, size: 18),
-          label: Text(c.allPracticed ? tr('코스 시험 보기 (80% 이상 통과)') : tr('모든 편을 연습하면 시험이 열려요')),
+          label: Text(c.allPracticed ? trf('코스 시험 보기 ({0}% 이상 통과)', [_svc.passPercent]) : tr('모든 편을 연습하면 시험이 열려요')),
         ),
       ),
       if (_svc.levelDone(lv) && _svc.nextLevel(lv) != null) ...[
@@ -322,6 +322,8 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
 
   List<Widget> _picker() {
     final lv = _st.level!;
+    final opts = _svc.pickOptions;
+    if (!opts.contains(_pickCount)) _pickCount = opts[opts.length ~/ 2]; // 서버가 고를 개수를 바꾼 단계
     final list = _svc.levelList(lv);
     final passed = _st.passedDialogues.toSet();
     final doneLevel = _svc.levelDone(lv);
@@ -329,7 +331,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
     return [
       Text(tr('다이얼로그 고르기'), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi, fontSize: 15)),
       const SizedBox(height: 2),
-      Text(tr('이 편들로 연습하고, 코스 시험에서 80% 이상이면 다음 코스로 넘어가요.'), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
+      Text(trf('이 편들로 연습하고, 코스 시험에서 {0}% 이상이면 다음 코스로 넘어가요.', [_svc.passPercent]), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
       if (doneLevel && next != null) ...[
         const SizedBox(height: 8),
         _card(
@@ -340,7 +342,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       const SizedBox(height: 10),
       // 좁은 칸(아이패드 왼쪽 300)에서 넘치지 않게 Wrap(일본어앱은 Row, 몽골어앱 c774c05 지적)
       Wrap(spacing: 0, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
-        for (final n in const [3, 5, 10])
+        for (final n in _svc.pickOptions)
           Padding(
             padding: const EdgeInsets.only(right: 6),
             child: ChoiceChip(
@@ -703,7 +705,7 @@ class _CurriculumHomeCardState extends State<CurriculumHomeCard> {
     final total = doneN + due + newLeft;
     final streak = _ready ? st.streakShown(today) : 0;
     final sub = !_ready || st.level == null
-        ? tr('레벨에서 다이얼로그를 골라 연습 · 80% 넘으면 다음 코스')
+        ? trf('레벨에서 다이얼로그를 골라 연습 · {0}% 넘으면 다음 코스', [_svc.passPercent])
         : st.dayDone(today)
             ? (streak > 0 ? trf('오늘 분량 끝 · 🔥 {0}일 연속', [streak]) : tr('오늘 분량 끝'))
             : trf('오늘: 복습 {0} · 새 편 {1}', [due, newLeft]);

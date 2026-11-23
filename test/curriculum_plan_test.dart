@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:spanish_universe/services/curriculum_plan.dart';
+import 'package:spanish_universe/services/curriculum_service.dart';
 
 /// 커리큘럼 단계 = 서버/앱 안 JSON(CURRICULUM_SPEC §12, 2026-11-23).
 void main() {
@@ -51,5 +52,26 @@ void main() {
     final p = CurriculumPlan.forTest(bundled: 'oops', fetch: (_) async => null);
     await p.init();
     expect(p.hasPlan, isFalse);
+  });
+
+  test('단계 규칙(pick·pass·daily)도 JSON 에서 — 없으면 3·5·10 / 80 / 1·2·3, 통과 판정과 하루 새 편 수에 쓰인다', () async {
+    final body = json.encode({
+      'rev': 1,
+      'stages': [
+        {'n': 1, 'title': '1단계', 'dialogueIds': ['a1'], 'pick': [2, 4], 'pass': 70, 'daily': {'light': 2, 'normal': 3, 'focus': 5}},
+        {'n': 2, 'title': '2단계', 'dialogueIds': ['b1']},
+      ],
+    });
+    final p = CurriculumPlan.forTest(bundled: body, fetch: (_) async => null);
+    await p.init();
+    final s = p.stages(known);
+    expect([s[0].pick, s[0].pass, s[0].daily], [[2, 4], 70, [2, 3, 5]]);
+    expect([s[1].pick, s[1].pass, s[1].daily], [kDefaultPick, kDefaultPass, kDefaultDaily]);
+
+    final st = CurriculumState(dailyGoal: 3, course: Course('c', ['a1']))
+      ..passPercent = s[0].pass
+      ..dailyNew = s[0].daily;
+    expect(st.newLeft('2026-11-23'), 5);
+    expect(st.recordExam(7, 10, {}, '2026-11-23'), isTrue); // 70% 통과
   });
 }

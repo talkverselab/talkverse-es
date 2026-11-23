@@ -16,9 +16,19 @@ class CurStage {
   final int n;
   final String title, desc;
   final List<String> dialogueIds;
-  const CurStage(this.n, this.title, this.desc, this.dialogueIds);
+
+  /// 고를 개수 · 통과 점수(%) · 하루 새 편 수[가볍게, 보통, 집중] — 서버 값, 없으면 기본(3·5·10 / 80 / 1·2·3).
+  final List<int> pick;
+  final int pass;
+  final List<int> daily;
+  const CurStage(this.n, this.title, this.desc, this.dialogueIds, {this.pick = kDefaultPick, this.pass = kDefaultPass, this.daily = kDefaultDaily});
   String get key => '$n';
+  CurStage withIds(List<String> ids) => CurStage(n, title, desc, ids, pick: pick, pass: pass, daily: daily);
 }
+
+const kDefaultPick = [3, 5, 10];
+const kDefaultPass = 80;
+const kDefaultDaily = [1, 2, 3];
 
 class CurriculumPlan {
   CurriculumPlan._();
@@ -42,7 +52,7 @@ class CurriculumPlan {
   /// [known] = 앱에 있는 편 id. 그중 있는 편만 남기고 빈 단계는 뺀 목록.
   List<CurStage> stages(bool Function(String id) known) => [
         for (final s in _all)
-          if (s.dialogueIds.any(known)) CurStage(s.n, s.title, s.desc, s.dialogueIds.where(known).toList()),
+          if (s.dialogueIds.any(known)) s.withIds(s.dialogueIds.where(known).toList()),
       ];
 
   bool get hasPlan => _all.isNotEmpty;
@@ -90,7 +100,14 @@ class CurriculumPlan {
     for (final s in ((j['stages'] as List?) ?? const []).cast<Map>()) {
       final n = (s['n'] as num?)?.toInt();
       if (n == null) continue;
-      list.add(CurStage(n, '${s['title'] ?? '$n단계'}', '${s['desc'] ?? ''}', [for (final x in (s['dialogueIds'] as List?) ?? const []) '$x']));
+      final pick = [for (final x in (s['pick'] as List?) ?? const []) if (x is num && x > 0) x.toInt()];
+      final pass = (s['pass'] as num?)?.toInt();
+      final d = s['daily'] is Map ? s['daily'] as Map : const {};
+      int dn(String k, int def) => (d[k] as num?)?.toInt() ?? def;
+      list.add(CurStage(n, '${s['title'] ?? '$n단계'}', '${s['desc'] ?? ''}', [for (final x in (s['dialogueIds'] as List?) ?? const []) '$x'],
+          pick: pick.isEmpty ? kDefaultPick : pick,
+          pass: pass != null && pass > 0 && pass <= 100 ? pass : kDefaultPass,
+          daily: [dn('light', 1), dn('normal', 2), dn('focus', 3)]));
     }
     list.sort((a, b) => a.n.compareTo(b.n));
     if (list.isEmpty) return false;
