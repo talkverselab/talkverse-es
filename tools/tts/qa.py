@@ -9,6 +9,7 @@ import mlx_whisper
 import ttslib as L
 M = 'mlx-community/whisper-large-v3-turbo'
 PASS = 0.85  # uk 11-23: 3번 다시 만들어도 0.85 미만이면 목록에 넣지 않는다(pack.py 가 뺀다)
+TRIES = int(os.environ.get('TTS_TRIES', '3'))  # 재생성 한도. 나중에 더 만들 때 6 처럼 올린다(tries 를 0 으로 돌리면 PC 가 있는 t1~t3 을 건너뛰어 옛 파일이 다시 온다)
 LANG, REF, OUT = 'Spanish', 'ref_es', 'es'
 
 
@@ -69,7 +70,7 @@ def main():
             q['ok'] = q['sim'] >= PASS
             if not q['ok']:
                 bad += 1
-                if q['tries'] < 3:
+                if jobs_out and q['tries'] < TRIES:      # 채점만 할 때(--jobs 없음)는 횟수를 쓰지 않는다
                     q['tries'] += 1
                     jobs.append({'out': f"{OUT}/retake/{k[:-4]}.t{q['tries']}.wav", 'text': text, 'language': LANG, 'reference': f'out/{REF}/{voice}_{emo}.wav', 'seed': 42 + 97 * q['tries']})
     json.dump(Q, open(qf, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
