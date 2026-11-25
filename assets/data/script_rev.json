@@ -5,7 +5,7 @@
 "dialogues/R0/friends/r0_friends_a3.json": "7d2912cadf0d",
 "dialogues/R0/life/r0_life_a2.json": "bf8dc4486101",
 "dialogues/R0/life/r0_life_a3.json": "d5e6d430caf4",
-"dialogues/R0/love/r0_love_a1.json": "90942ffb3a61",
+"dialogues/R0/love/r0_love_a1.json": "80a77046c727",
 "dialogues/R0/love/r0_love_a2.json": "93cf0960c0b2",
 "dialogues/R0/love/r0_love_a3.json": "797edca93f09",
 "dialogues/R1/culture/r1_s08_culture.json": "8ed79af684e9",
@@ -47,7 +47,7 @@
 "dialogues/R4/life/r4_g06_life.json": "d2ab302eb498",
 "dialogues/R4/love/r4_g01_love.json": "b542aefe5aeb",
 "dialogues/R4/love/r4_g07_love.json": "8ab335b2dfb4",
-"dialogues/R4/love/r4_g09_love.json": "09d7e8bca1d8",
+"dialogues/R4/love/r4_g09_love.json": "e4f35af950d5",
 "dialogues/R4/study/r4_g08_study.json": "b8cad08e849a",
 "dialogues/R4/travel/r4_g02_travel.json": "48a092d0fe43",
 "dialogues/R4/work/r4_g03_work.json": "7c644c9d4389",
@@ -64,5 +64,5 @@
 "dialogues/R5/work/r5_t02_work.json": "6db1e821668a",
 "grammar/sense_course.json": "0cbf65a93e75"
 },
-"rev": 8
+"rev": 9
 }

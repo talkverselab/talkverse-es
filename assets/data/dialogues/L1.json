@@ -45,7 +45,7 @@
       "id": "ep1",
       "title": "매칭",
       "emoji": "💕",
-      "scenario": "Minjun 매칭앱 첫 메시지 → Lucía 자기소개 → 약속 제안",
+      "scenario": "Minjun 언어교류앱 첫 메시지 → Lucía 자기소개 → 약속 제안",
       "turns": [
         {
           "num": 1,
